@@ -2975,3 +2975,44 @@ and 70338); Era's targeted the caster's party (20). A Battle Chicken buffs only 
 the engineer is what the game can give. `Party.battle_squawks` stays 0 to 5 in the engine; MythicSim offers
 one stack on the player.
 
+
+## 130. `mage: a switch to spend Fingers of Frost charges when the spell lands`
+
+No behaviour change by default. Fingers of Frost (talent 400647, aura 400669) treats the next one or two
+spells as hitting a frozen target: Shatter's crit and Ice Lance's x4. The engine spends a charge in the
+aura's `OnCastComplete`, so a Frostbolt cast on the last charge takes it before the bolt lands, and an Ice
+Lance cast while that bolt is in flight is not frozen. A player on the MythicSim Discord (#mage-ish, 12
+October 2026, relayed by Redfall) says the game spends the charge when the spell hits: "you can get a
+double benefit of the last proc by casting a spell and immediately ice lancing after so they hit at the
+same time". The client cannot settle it: 400669 carries one A_ABILITY_IGNORE_AURASTATE effect and no
+`ProcCharges`, `ProcFlags` or `MaxStack` (client 1.60.1.69893), so its charges and their spending are
+server script. No Blizzard note or Forever guide (wow.gg, wowtbc.gg Forever Frost pages) mentions it.
+
+`FingersOfFrostSpentOnImpact` in `sim/mage/talents_frost.go` (default false): true spends the charge of a
+spell with a travel time (Frostbolt speed 28, Frostfire Bolt 24, Ice Lance 38) when it lands, in a pending
+action at `TravelTime()` ahead of the landing's own damage and procs, so a chill that grants fresh charges
+on impact keeps all of them, as it does now. Spells without a missile still spend it at cast completion.
+The damage and Shatter crit are still rolled at cast, so a spell cast while the charge is up gets it.
+
+Test: `TestFingersOfFrostLastChargeSpentOnImpact` (`sim/mage`): 20 yards from the target, one charge left,
+Frostbolt then Ice Lance as soon as the bolt leaves the hand: Ice Lance is not frozen with the switch off
+and is with it on; the charge is gone once both land either way. Goldens: none move.
+
+Measured on the MythicSim references (13 October 2026, 10,000 iterations, board and alt seed at the
+board length and 120 s, 20 yards). Switch off is identical to the 944a791060 pin. "Frostbolt on the
+last charge" replaces the Ice Lance line of the Frost preset with Ice Lance while Fingers of Frost has
+two charges or a Frostbolt is in flight, then Frostbolt while it is up.
+
+| Frost Mage | Switch off, preset | Switch on, preset | Switch on, Frostbolt on the last charge | Switch off, Frostbolt on the last charge |
+| --- | ---: | ---: | ---: | ---: |
+| board seed, board length | 659.44 | 659.44 | 676.93 | 652.40 |
+| board seed, 120 s | 659.55 | 659.55 | 677.61 | 652.41 |
+| alt seed, board length | 658.75 | 658.75 | 676.58 | 652.47 |
+| alt seed, 120 s | 658.56 | 658.56 | 676.77 | 652.18 |
+
+The Frostfire hybrid's preset moves by about 0.1 DPS with the switch on (712.03 to 712.13 on the board
+cell). Ice Lance while a Frostfire Bolt is in flight on Fingers of Frost loses 0.5% to 0.7% with the
+switch on (2.0% off); Ice Lance on every charge loses 5.2% to 5.5%.
+
+Make it the default, and the Frost preset's line with it, once a beta log shows two spells frozen on one
+charge.
