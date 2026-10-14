@@ -1228,8 +1228,8 @@ dps_results: {
 dps_results: {
  key: "TestSurvival-AllItems-Thunderfury,BlessedBladeoftheWindseeker-19019"
  value: {
-  dps: 416.22486
-  tps: 252.8742
+  dps: 417.517
+  tps: 253.7787
  }
 }
 dps_results: {
