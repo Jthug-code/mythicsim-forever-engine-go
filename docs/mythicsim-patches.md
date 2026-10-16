@@ -3458,3 +3458,59 @@ Tests: new focused tests in every touched package (`sim/mage/oct16_notes_test.go
 Measured (native `wowsimcli`, MythicSim production default path, 10,000 iterations, board seed, board length, against `713b825aae`, MythicSim's buff defaults as of patch 137): Shockadin 999.24 to 898.68 (-10.1%), Assassination 605.38 to 545.73 (-9.9%), Ret-protection 587.36 to 532.63 (-9.3%), Retribution 900.96 to 821.28 (-8.8%), Holy-protection 575.02 to 542.38 (-5.7%), Frost 677.11 to 643.47 (-5.0%), Elehance 646.90 to 636.34 (-1.6%), Enhancement -0.8%, Destruction -0.8%, Survival weave -0.6%; Shadow 709.76 to 748.90 (+5.5%), Smite +1.8%, Affliction +1.6%, Fire +1.6%, Elemental +1.3%, Protection Paladin +0.3%, Beast Mastery +0.3%. The rest move under 0.2%.
 
 Downstream: the Rust engine needs these before its next repin. Drop each piece as upstream takes it.
+
+## 139. `mage: Fingers of Frost charges are spent when the spell lands`
+
+Fingers of Frost (talent 400647, aura 400669) treats the next one or two spells as hitting a frozen
+target: Shatter's crit and Ice Lance's x3 (patch 138). The engine spent a charge in the aura's
+`OnCastComplete`, so a Frostbolt cast on the last charge took it before the bolt landed and an Ice Lance
+thrown while that bolt was in flight was not frozen. A player on the MythicSim Discord said the game
+spends it on impact (#mage-ish, 12 October 2026, relayed by Redfall), and the beta has now shown it:
+mixarxrt, 16 October, "fof last charge is that i can cast fb+il with 1 fof proc". The client cannot
+settle it: 400669 carries no `ProcCharges`, `ProcFlags` or `MaxStack` (client 1.60.1.69893), so the
+charges are server script.
+
+This is the switch first written as patch 130 on `mythicsim/oct13-redfall` (`f156a8d5b2`, never pinned),
+now on by default. `FingersOfFrostSpentOnImpact` in `sim/mage/talents_frost.go` (default true) spends the
+charge of a spell with a travel time (Frostbolt speed 28, Frostfire Bolt 24, Ice Lance 38) when it lands,
+in a pending action at `TravelTime()` ahead of the landing's own damage and procs, so a chill that grants
+fresh charges on impact keeps all of them. Spells without a missile, and any spell at 0 yards, still
+spend it at cast completion. The damage and the Shatter crit are still rolled at cast, so a spell cast
+while a charge is up gets them. False restores the old spending.
+
+Upstream #776 (`f81a1d8be6`, on upstream master, not in this pin) moves the other end: a Frostbolt or
+Frostfire Bolt rolls Fingers of Frost at cast end rather than on impact (foreverlogs 2748), and the
+launching bolt neither takes the bonus nor spends a charge. It says nothing about when a consuming spell
+spends its charge, so the two do not contradict. At the next sync upstream's launcher check runs before
+the spend: a bolt that procs Fingers of Frost at launch spends nothing, and any other consuming bolt
+spends on landing.
+
+The Frost preset (`ui/specs/mage/dps/apls/frost.apl.json`, which `TestFrost` and MythicSim's Frost
+rotation read) now uses it: Ice Lance while Fingers of Frost has two charges, or a Frostbolt is in
+flight, or Frostbolt has no travel time; otherwise Frostbolt while it is up. At range the last charge
+goes Frostbolt then Ice Lance, both frozen; at 0 yards it is the old Ice Lance on every charge.
+MythicSim's rotation adjustment (`adjustFrostRotation`) puts its Missile Barrage line before the first
+Frostbolt, which is now the Fingers of Frost one; that order measures best (below).
+
+Tests (`sim/mage/fingers_of_frost_impact_test.go`): `TestFingersOfFrostLastChargeCoversFrostboltAndIceLance`
+(20 yards, one charge, Frostbolt then Ice Lance as the bolt leaves the hand: Ice Lance is frozen and the
+charge is gone once both land) fails on patch 138; `TestFingersOfFrostLastChargeSpentOnImpact` keeps both
+switch positions. Goldens: none move (`TestFrost` runs at 0 yards, where the preset is unchanged).
+
+Measured (native `wowsimcli`, MythicSim production default path, 10,000 iterations, board seed, board
+length, against `d0bd691f0`). The Frost reference stands at 20 yards.
+
+| Reference | Patch 138 | Patch 139 | Change |
+| --- | ---: | ---: | ---: |
+| Frost, MythicSim's current preset | 643.47 | 643.47 | 0 |
+| Frost, the new preset as MythicSim's adjuster builds it | 643.47 (old preset) | 669.00 | +4.0% |
+| Frost, the new preset on patch 138 | 656.77 | 669.00 | +1.9% |
+| Frostfire hybrid (preset unchanged) | 729.61 | 729.71 | +0.01% |
+
+The other 29 references give their patch 138 DPS to the hundredth. The new preset alone is worth 2.1% on
+patch 138 too: with Ice Lance at x3, a frozen Frostbolt crit outweighs the second frozen Ice Lance.
+MythicSim picks up the preset at its next rotation rebuild.
+
+Downstream: the Rust engine needs the landing spend before its next repin.
+
+Drop it when upstream spends Fingers of Frost charges on impact.
