@@ -10,7 +10,7 @@ import (
 )
 
 // Shadow talents with Inner Focus, Shadow Weaving 3/3 and Early Demise 2/2 (the benchmark build).
-const client70170Talents = "025300011303--500222501201302251"
+const client70170Talents = "02530301103--50052201221302251"
 
 func newClient70170Sim(t *testing.T, race proto.Race, executeFromStart bool) (*core.Simulation, *core.Character) {
 	t.Helper()

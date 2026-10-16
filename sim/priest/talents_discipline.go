@@ -96,10 +96,11 @@ func (priest *Priest) applySilentResolve() {
 		return
 	}
 
+	// Client 70425 widened the threat cut from Holy (school mask 2) to Holy and Shadow (34).
 	priest.AddStaticMod(core.SpellModConfig{
 		ClassMask:  PriestSpellsAll,
-		School:     core.SpellSchoolHoly,
-		FloatValue: spellData.SilentResolve.Effect(dbcenums.A_MOD_THREAT, 2).FractionAt(priest.Talents.SilentResolve),
+		School:     core.SpellSchoolHoly | core.SpellSchoolShadow,
+		FloatValue: spellData.SilentResolve.Effect(dbcenums.A_MOD_THREAT, 34).FractionAt(priest.Talents.SilentResolve),
 		Kind:       core.SpellMod_ThreatMultiplier_Pct,
 	})
 }

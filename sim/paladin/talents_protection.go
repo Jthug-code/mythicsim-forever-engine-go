@@ -244,10 +244,9 @@ func (paladin *Paladin) applyWeaponSpecialization(bonus float64, handType proto.
 //
 // The 16 October 2026 beta notes make it work with charges: each trigger adds a charge, up to 4, and
 // the next main-hand melee swing uses them all for one extra attack each, without resetting the auto
-// attack timer. The client rows (20177, 20178) still describe the old instant extra attack, so the
-// charges are modelled here. The notes give the charges no duration, so they wait for the next swing.
-// Client 70291+ also gives 20177 a 1.5 s proc cooldown, which the notes do not mention and the sim
-// has never applied; with charges it is left off.
+// attack timer. Client 70425 states it too: the charges are 1326084 ("$s1 additional attacks on next
+// swing", up to 4 stacks, permanent), and 20177's tooltip limits the block trigger to once every 1.5 s
+// ("Cannot occur from Blocks more than once every 1.5 sec"), the row's proc cooldown. Crits have none.
 func (paladin *Paladin) applyReckoning() {
 	if paladin.Talents.Reckoning == 0 {
 		return
@@ -300,6 +299,7 @@ func (paladin *Paladin) applyReckoning() {
 		Callback:   core.CallbackOnSpellHitTaken,
 		Outcome:    core.OutcomeBlock,
 		ProcChance: blockChance,
+		ICD:        spellData.Reckoning.Highest().ICD(),
 		Handler:    addCharge,
 	})
 

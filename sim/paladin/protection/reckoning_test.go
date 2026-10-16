@@ -36,7 +36,7 @@ func TestReckoningChargesSpendOnTheNextSwing(t *testing.T) {
 	trigger := pal.GetAura("Reckoning - Crit" + pal.Label)
 	charges := pal.GetAura("Reckoning" + pal.Label)
 	mh := pal.AutoAttacks.MHAuto()
-	extra := pal.GetSpell(core.ActionID{OtherID: proto.OtherAction_OtherActionAttack}.WithTag(20178))
+	extra := pal.GetSpell(core.ActionID{OtherID: proto.OtherAction_OtherActionAttack}.WithTag(1326084))
 	if extra == nil {
 		t.Fatal("no Reckoning extra attack spell is registered")
 	}

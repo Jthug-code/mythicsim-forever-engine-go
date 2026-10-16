@@ -122,8 +122,8 @@ dps_results: {
 dps_results: {
  key: "TestFeralCat-AllItems-Alcor'sSunrazor-14555"
  value: {
-  dps: 334.57325
-  tps: 184.89466
+  dps: 334.96167
+  tps: 185.0877
  }
 }
 dps_results: {
@@ -771,6 +771,13 @@ dps_results: {
  }
 }
 dps_results: {
+ key: "TestFeralCat-AllItems-MysticMushroom-249396"
+ value: {
+  dps: 261.1753
+  tps: 148.37111
+ }
+}
+dps_results: {
  key: "TestFeralCat-AllItems-Naglering-11669"
  value: {
   dps: 261.1753
@@ -830,7 +837,7 @@ dps_results: {
  key: "TestFeralCat-AllItems-RingofSaviors-1447"
  value: {
   dps: 261.1753
-  tps: 148.37111
+  tps: 148.41588
  }
 }
 dps_results: {
@@ -1039,8 +1046,8 @@ dps_results: {
 dps_results: {
  key: "TestFeralCat-AllItems-TheLobotomizer-19324"
  value: {
-  dps: 337.20168
-  tps: 186.20099
+  dps: 331.12322
+  tps: 183.17999
  }
 }
 dps_results: {

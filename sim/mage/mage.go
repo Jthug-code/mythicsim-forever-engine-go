@@ -9,7 +9,7 @@ import (
 	"github.com/wowsims/forever/sim/core/stats"
 )
 
-var TalentTreeSizes = [3]int{18, 17, 19}
+var TalentTreeSizes = [3]int{19, 17, 19}
 
 type Mage struct {
 	core.Character
@@ -99,6 +99,7 @@ func (mage *Mage) registerSpells() {
 	//TalentSpells
 	mage.registerPresenceOfMindSpell()
 	mage.registerArcanePowerSpell()
+	mage.registerArcaneWrathSpell()
 
 	mage.registerBlastWaveSpell()
 	mage.registerPyroblastSpell()
@@ -174,6 +175,8 @@ const (
 
 	// Forever baseline spell; keep its mask stable for existing spells.
 	MageSpellFrostfireBolt
+	// Arcane talent of client 70425 (16 October 2026 beta).
+	MageSpellArcaneWrath
 
 	MageSpellLast
 	MageSpellsAll  = MageSpellLast<<1 - 1
@@ -183,7 +186,7 @@ const (
 	MageSpellsAllDamaging = MageSpellArcaneBlast | MageSpellArcaneExplosion | MageSpellArcaneMissilesTick | MageSpellBlizzard |
 		MageSpellFireBlast | MageSpellFireball | MageSpellFlamestrike | MageSpellFrostbolt |
 		MageSpellIceLance | MageSpellPyroblast | MageSpellPyroblastDot | MageSpellScorch |
-		MageSpellBlastWave | MageSpellConeOfCold | MageSpellFrostNova | MageSpellFrostfireBolt
+		MageSpellBlastWave | MageSpellConeOfCold | MageSpellFrostNova | MageSpellFrostfireBolt | MageSpellArcaneWrath
 	MageSpellInstantCast = MageSpellArcaneMissilesCast | MageSpellArcaneMissilesTick | MageSpellFireBlast | MageSpellArcaneExplosion | MageSpellPyroblastDot |
 		MageSpellCombustion | MageSpellConeOfCold | MageSpellIceLance | MageSpellManaGems | MageSpellPresenceOfMind
 	MageSpellExtraResult    = MageSpellArcaneMissilesTick | MageSpellBlizzard

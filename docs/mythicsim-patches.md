@@ -3458,3 +3458,36 @@ Tests: new focused tests in every touched package (`sim/mage/oct16_notes_test.go
 Measured (native `wowsimcli`, MythicSim production default path, 10,000 iterations, board seed, board length, against `713b825aae`, MythicSim's buff defaults as of patch 137): Shockadin 999.24 to 898.68 (-10.1%), Assassination 605.38 to 545.73 (-9.9%), Ret-protection 587.36 to 532.63 (-9.3%), Retribution 900.96 to 821.28 (-8.8%), Holy-protection 575.02 to 542.38 (-5.7%), Frost 677.11 to 643.47 (-5.0%), Elehance 646.90 to 636.34 (-1.6%), Enhancement -0.8%, Destruction -0.8%, Survival weave -0.6%; Shadow 709.76 to 748.90 (+5.5%), Smite +1.8%, Affliction +1.6%, Fire +1.6%, Elemental +1.3%, Protection Paladin +0.3%, Beast Mastery +0.3%. The rest move under 0.2%.
 
 Downstream: the Rust engine needs these before its next repin. Drop each piece as upstream takes it.
+
+## 139. `data: client 1.60.1.70425, the 16 October talent trees and redesigns`
+
+Client 1.60.1.70425 (wow_classic_beta, 16 October 2026 00:50 UTC) carries the trees and rows the 16 October beta development notes left for "the new client build" in patch 138. This is upstream's Update DB pipeline run locally (`db2tool --cdn` with the raidbots DBCache.bin for 70425, `gen_spelldata`, `gen_db`, `make basestats`, `make proto`, `go-to-ts`), then everything the regenerated data broke.
+
+Trees: Mage (Missile Barrage to row 1 with 2 ranks, Arcane Wrath, Critical Mass 5 ranks, Fire Power 3 ranks, Wake of Fire renamed Improved Fire Blast), Priest (Mental Strength, Improved Power Word: Shield, Improved Mana Burn and Improved Mind Blast moved, Shadow Affinity and Improved Fade gone, Dark Inspiration), Shaman (Elemental Mastery, Lava Burst to row 5, Call of Thunder gone, six talents moved, Improved Fire Nova renamed Trial by Fire, Tidal and Totemic Focus swapped), Warlock (Malediction's slot is Grim Reach). `TalentTreeSizes`: Mage 19/17/19, Priest 18/17/17. Every positional talent string in the repo was remapped field by field; points of removed or capped talents went to Critical Mass (Fire Power 5 to 3), Dark Inspiration, Elemental Mastery or Convection, and Improved Corruption, Suppression, Grim Reach and Improved Drains (Malediction).
+
+| Change | Where |
+| --- | --- |
+| Arcane Wrath: 3.5 s, 6 s cooldown Arcane bolt, spell damage plus 5% of maximum mana at its coefficient | `mage/arcane_wrath.go` |
+| Missile Barrage 20/40% on Arcane Blast, a quarter of it on each Arcane Missiles missile, half on Arcane Wrath and the bolts | `mage/talents_arcane.go` |
+| Arcane Blast: each stack 15% of Intellect as spell damage, cost +175% a stack, 15 s from the first stack, nothing spends it (Arcane Missiles' 15% a stack bonus is gone) | `mage/arcane_charge.go`, `arcane_blast.go`, `arcane_missiles.go` |
+| Fire Power: 1/2/3% for Fire spells per Fire effect on the target, up to 4 (Fireball, Flamestrike and Pyroblast DoTs, Ignite, Fire Vulnerability; Frostfire Bolt's DoT does not count, Frostfire Bolt takes it), as a per-target damage-done-by-caster multiplier | `mage/talents_fire.go` |
+| Winter's Chill: +5% Cone of Cold damage a stack (was 2% Frostbolt and Ice Lance crit a stack) | `mage/talents_frost.go` |
+| Improved Mind Flay: each tick 10/20% more than the last (read as an added step, not compounded) | `priest/talents_shadow.go` |
+| Dark Inspiration: Mind Blast and a full Mind Flay channel give the priest 3% Spirit a point for 10 s | `priest/talents_shadow.go` |
+| Silent Resolve's threat cut covers Holy and Shadow | `priest/talents_discipline.go` |
+| Elemental Mastery: 15 s, 3 min; Lightning Bolt and Lava Burst 0.5 s faster, Chain Lightning off cooldown (its category cooldown cancelled by a flat mod); a major cooldown, so `autocastOtherCooldowns` presses it | `shaman/talents_elemental.go` |
+| Lava Burst rank 4 (1326047); `Spell.RankAliases` lets a rotation naming an older rank press the known one, read by `GetAPLSpell` | `shaman/lava_burst.go`, `core/spell.go`, `core/apl_helpers.go` |
+| Trial by Fire: Magma Totem +10 s a point | `shaman/fire_totems.go` |
+| Chain Lightning: patch 138's x0.65 dropped, the rows carry the cut; Fire Nova's coefficient read from its row (0.143, 245 at 60, 375 mana) | `shaman/chain_lightning.go`, `fire_totems.go` |
+| Demonic Embrace lost its Spirit penalty | `warlock/talents_demonology.go` |
+| Reckoning: the charges are client buff 1326084; blocks add one at most every 1.5 s (20177's proc cooldown), crits always | `paladin/talents_protection.go` |
+| Bloodthrill opens the 5 s Overpower window (1289681 left the store) | `warrior/talents_arms.go` |
+| A_MOD_TOTAL_STAT_PERCENTAGE reads its stat mask (MiscValue_1) when set: Increased Spirit and Insight name Spirit that way now, and Insight's enchant registers again | `core/spelldata/parse_effects_table.go`, `tools/database/gen_effects.go` |
+| Mana Tide Totem rank 4 (290 every 3 s) | `tools/database/buffmanifest/buffs.go` |
+| Blade of Hanna: a stack of Improving Form per landed main-hand swing, at 30 one 490 Physical strike and +20 all stats for 20 s (the generator read it as the strike on every swing); Lord Sakrasis' Scepter's Holy Smite states no rate and is left unmodelled rather than firing on every cast | `common/forever/items_70425.go` |
+
+Open readings: Elemental Mastery's row also states one charge and proc flags, its tooltip names none, so the buff runs 15 s; Improved Mind Flay's ramp is additive; Dark Inspiration's party half is not applied; Fire Vulnerability counts on the mage's current target only. Battle Shout, Leader of the Pack, Moonkin Aura, Trueshot Aura and the Strength of Earth, Grace of Air and Flametongue Totems now state raid scope; they stay PartyBuffs fields (`scopeExemptions`).
+
+Tests: `sim/mage/client_70425_test.go` (Fire Power, Missile Barrage ranks, Arcane Wrath mana scaling, Winter's Chill), `TestBladeOfHannaPerfectsTheFormAtThirtyStacks`, `TestArcaneBlastStacksAreSpellDamage`, Frostfire expectations, Chain Lightning and Fire Nova costs, Reckoning's tag, the percent stat parse, the buff invariants and scope exemptions, `registered_effects.txt`, `unsupported_procs.txt`, `ui/sim/spells` tooltips and Lava Burst rank 4. Goldens regenerated (preset rows, long single target): Arcane -12%, Frost -7%, Fire +1/-2%, Elemental -2%, Enhancement -1%, Rogue -1 to -2%, Smite -1%, Affliction +1 to +3%, Paladins under -1%.
+
+Downstream: the Rust engine needs these before its next repin. Upstream's daily Update DB will hit the same build; drop each piece as upstream takes it.
