@@ -4463,3 +4463,21 @@ Downstream: the Rust engine needs the halved share and rank 1's 25741 before its
 
 Drop the halving when upstream fixes the seal's share or the proc rows carry a coefficient; switch to the
 tooltip's one-hander if a post-fix log gives about 0.077 rather than 0.10.
+
+## 159. `paladin: Champion of the Light is back to 20/40/60% of Intellect (the 17 October hotfix)`
+
+Patch 138 took the 16 October beta notes' Champion of the Light, 10/20/30% of Intellect as spell damage, as a
+server-side share (the client row, 1311084, kept 20/40/60). Players on the MythicSim Discord (#paladin, 18
+October 12:23 to 12:41) report the talent showing 60% again since a hotfix on 17 October, and a paladin who
+respecced into it confirmed the spell damage on the character sheet, not only the tooltip. The client data
+already says 20/40/60, and no public log after 16 October exists to check against, so the in-game reports
+are the source.
+
+- **Champion of the Light reverted** (on). Each rank gives 20% of Intellect as spell damage again
+  (`ChampionOfTheLightReverted`, default true, `sim/paladin/talents_retribution.go`); false gives the 16
+  October 10%. `ChampionOfTheLightIntellectShare()` returns the share in force.
+
+Tests: `TestChampionOfTheLightShare` (`sim/paladin/retribution/oct16_notes_test.go`) checks the sheet with the
+switch on (20% a rank) and off (10%). Goldens: `TestRetribution` Average-Default 370.77 to 381.16 (+2.80%);
+`TestProtection` and `TestHolyPaladin` do not move (their builds have no Champion of the Light). With the
+switch off every golden reproduces.
