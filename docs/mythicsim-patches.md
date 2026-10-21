@@ -5409,3 +5409,27 @@ current one and is read in the current order; MythicSim must re-encode stored st
 Switch: none. Tests: `TestPreHotfixFrostTalentStringsAreRejected` (the live frost-mage reference string from
 before the hotfix, a five-rank Elemental Precision, an overlong Fire tree and four trees are refused with their
 reasons; the re-encoded reference runs). Only mages: the other classes' strings are unchanged.
+
+## 190. `core: the ranged deadzone ends at 10.5 yd from the target's center (Arc's logs)`
+
+Contributed by Arc (ArcSim, PR #40, commit 85ee7569be, kept as his commit; this entry and the switch are the follow-up
+commit). Every distance in the engine is from the target's center, but the ranged minimum was the client's 8 yd
+("Hunter Range", 8-35), which the client measures between the two hitboxes. Arc's Warcraft Logs positions put the
+last Auto Shots of a step-in test on a wolf at 10.53 and 10.75 yd from its center (report 7CbTgWdMmYQ1qwJN, fight
+1), and 37 ranged casts of a dungeon run no closer than 11.4 yd (T7GB4KhFXyaNVR91). 8 yd plus about 1.5 yd for the
+hunter and 1 yd for a wolf-sized mob is 10.5. foreverlogs.gg cannot check it (its captures carry no positions), and
+the two WCL reports could not be opened from here (Cloudflare 403); the figures are Arc's. His own engine
+(arc-forever-sims-engine, `MinRangedAttackDistance` 11 in whole yards) uses the same reading.
+
+`MinRangedRange` is 10.5, and `RangedMinimum()` gives it to every bow, gun, crossbow and thrown weapon
+(`getWeaponMinRange`) and to the hunter's shots (`RegisterRangedSpell`). Melee range stays 5 yd from the center, so
+the deadzone a weaver walks through is 5.5 yd, not 3. A shot fired on the way out of melee now comes 0.79 s after
+the step at 7 yd a second (0.60 s under Strider Kick), where it came 0.43 s (0.33 s) after it: Bae's "first Multi-Shot
+0.6 s after a melee" and "second Arcane Shot 0.4 s after the melee" (MythicSim Discord, 21 October, sim 4541dcea).
+Charge's 8 yd minimum (client rows) is unchanged; it has the same edge-to-edge reading.
+
+Switch: `RangedMinimumFromTargetCenter` (`sim/core/constants.go`, default true; false is the client's 8 yd read from
+the center). Tests: `TestRangedDeadzoneEndsBetweenTenAndElevenYards` (Arc's: no Auto Shot from 10 yd, one from 11)
+and `TestRangedDeadzoneSwitchOffShootsFromTenYards` in `sim/hunter`. No golden moves: the suites shoot from 12 yd or
+more, or melee. Survival weave reference (board request, 10,000 iterations, its seed): 1088.01 to 1088.25.
+

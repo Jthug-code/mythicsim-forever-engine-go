@@ -28,8 +28,25 @@ const MaxMeleeRange = 5.0 // in yards
 
 // In yards from the target's center, like every distance here; bows, guns, crossbows and thrown weapons fire only from
 // beyond this, leaving a deadzone above melee range. The client's 8 yd counts from the hitbox edges: logged shots go
-// off from 10.5-10.8 yd of a mob's center and stop inside that (patch 186).
+// off from 10.5-10.8 yd of a mob's center and stop inside that (patch 190).
 const MinRangedRange = 10.5
+
+// ClientMinRangedRange is the client's own 8 yd minimum ("Hunter Range", 8-35), which the engine read as center to
+// center before patch 190.
+const ClientMinRangedRange = 8.0
+
+// RangedMinimumFromTargetCenter (MythicSim patch 190, Arc's logs): ranged weapons and the hunter's shots need the
+// target beyond MinRangedRange. Set it false for the client's 8 yd read as center to center, as before. Read when a
+// character's weapons and spells are built.
+var RangedMinimumFromTargetCenter = true
+
+// RangedMinimum is the minimum distance from the target's center for a ranged weapon or a hunter shot.
+func RangedMinimum() float64 {
+	if RangedMinimumFromTargetCenter {
+		return MinRangedRange
+	}
+	return ClientMinRangedRange
+}
 
 const DefaultAttackPowerPerDPS = 14.0
 

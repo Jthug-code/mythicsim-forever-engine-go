@@ -70,7 +70,7 @@ func getWeaponMinRange(item *Item) float64 {
 	case proto.RangedWeaponType_RangedWeaponTypeUnknown, proto.RangedWeaponType_RangedWeaponTypeWand:
 		return 0
 	default:
-		return MinRangedRange
+		return RangedMinimum()
 	}
 }
 

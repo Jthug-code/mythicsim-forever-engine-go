@@ -245,7 +245,7 @@ func (hunter *Hunter) RegisterRangedSpell(config core.SpellConfig) *core.Spell {
 		config.MissileSpeed = 40
 	}
 
-	config.MinRange = core.MinRangedRange
+	config.MinRange = core.RangedMinimum()
 	config.MaxRange = HunterBaseMaxRange
 	config.Cast.DefaultCast.GCD = core.GCDDefault
 	config.Cast.IgnoreHaste = true
