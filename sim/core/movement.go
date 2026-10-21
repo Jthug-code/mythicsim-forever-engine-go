@@ -19,6 +19,21 @@ func (action *MovementAction) GetCurrentPosition(sim *Simulation) float64 {
 	return action.srcPosition + float64(sim.CurrentTime-action.startTime)*action.speed/float64(time.Second)
 }
 
+// CastRangeReadsCurrentPosition (MythicSim patch 192): a spell's range check reads where a moving unit
+// is at that moment. The rotation brings the position up to date before it casts, but a cast that
+// fires outside it (a spell queued in the last 400 ms of the GCD) read the position of the rotation's
+// last check, up to a reaction time of walking earlier. Set it false for the last check's position.
+var CastRangeReadsCurrentPosition = true
+
+// DistanceNow is the unit's distance from its target at this moment, without the side effects of
+// UpdatePosition: a moving unit's position along its move, else DistanceFromTarget.
+func (unit *Unit) DistanceNow(sim *Simulation) float64 {
+	if CastRangeReadsCurrentPosition && unit.Moving && unit.movementAction != nil {
+		return unit.movementAction.GetCurrentPosition(sim)
+	}
+	return unit.DistanceFromTarget
+}
+
 func (unit *Unit) initMovement() {
 	unit.moveAura = unit.GetOrRegisterAura(Aura{
 		Label:     "Movement",

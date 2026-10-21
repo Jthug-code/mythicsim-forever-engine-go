@@ -5454,3 +5454,21 @@ Arcanite Reaper's swing timer and steps out to 12 yd in the same check; the swin
 land (one white swing in the 5 s fight, two with the switch off). No golden moves: no suite walks out of melee range
 with a swing due. Bae's request (sim 4541dcea), first fights of 20 seeds: 18 swings from beyond 5 yd before, 10 with
 patch 190 alone, none with both. Survival weave reference (as in 190): 1088.25 to 1090.35.
+
+## 192. `core: a spell's range check reads where a moving unit is now`
+
+The same stale position as patch 191, for casts. The rotation brings the position up to date before it casts, but a
+spell queued in the last 400 ms of the GCD (`CastOrQueue`) fires from a pending action at the GCD's end, and its range
+check (`RegisterSpell`'s wrapped `ExtraCastCondition`) read the distance of the rotation's last check. A weaver
+walking in from 12 yd who queued Multi-Shot at 10.95 yd shot it from 10.25 yd, inside the deadzone (Bae's request,
+seed 8, 16.32 s); a melee ability queued before a step out would land from outside melee range the same way.
+
+`Unit.DistanceNow` (`sim/core/movement.go`) is the position along the current move without `UpdatePosition`'s side
+effects (it starts and stops no swing), and the range check reads it. In the rotation it equals `DistanceFromTarget`,
+which the rotation has just updated, so only casts outside it change.
+
+Switch: `CastRangeReadsCurrentPosition` (`sim/core/movement.go`, default true). Test:
+`TestCastRangeReadsThePositionMidWalk` (`sim/hunter`): a hunter walking in from 12 yd whose rotation checks every
+500 ms cannot cast Arcane Shot at 0.25 s (10.25 yd), and can with the switch off (the 12 yd the walk started at). No
+golden moves. Bae's request, first fights of 20 seeds: four shots from inside 10.5 yd with patches 190 and 191, none
+with 192; no melee swing or ability from beyond 5 yd. Survival weave reference (as in 190): 1090.35 to 1090.86.
