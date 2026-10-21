@@ -346,6 +346,11 @@ func (wa *WeaponAttack) setWeapon(weapon Weapon) {
 	wa.updateSwingDuration(wa.curSwingSpeed)
 }
 
+// MeleeSwingReadsCurrentPosition (MythicSim patch 191): a melee swing that comes due while its unit
+// moves reads the unit's position at that moment, and a unit that has walked out of melee range does
+// not swing. Set it false for the swing to read the position from the rotation's last check.
+var MeleeSwingReadsCurrentPosition = true
+
 // inlineable stub for swing
 func (wa *WeaponAttack) trySwing(sim *Simulation) time.Duration {
 	if sim.CurrentTime < wa.swingAt {
@@ -357,6 +362,18 @@ func (wa *WeaponAttack) trySwing(sim *Simulation) time.Duration {
 func (wa *WeaponAttack) swing(sim *Simulation) time.Duration {
 	attackSpell := wa.spell
 	isRanged := wa == &wa.unit.AutoAttacks.ranged
+
+	// MythicSim patch 191: a moving unit's position is brought up to date only when its rotation
+	// runs. A rotation that casts on the GCD as it walks away (Strider Kick, then the step out) is
+	// not checked again until the GCD ends, so a swing that came due on the way out read the yards
+	// the walk started from and landed from up to 12 yards out. The swing reads where the unit is
+	// now: past melee range UpdatePosition stops both hands and the swing does not happen.
+	if !isRanged && MeleeSwingReadsCurrentPosition && wa.enabled && wa.unit.Moving {
+		wa.unit.UpdatePosition(sim, false)
+		if !wa.enabled {
+			return NeverExpires
+		}
+	}
 
 	if wa.extraSwings > 0 {
 		wa.extraSwings--

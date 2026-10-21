@@ -5433,3 +5433,24 @@ the center). Tests: `TestRangedDeadzoneEndsBetweenTenAndElevenYards` (Arc's: no 
 and `TestRangedDeadzoneSwitchOffShootsFromTenYards` in `sim/hunter`. No golden moves: the suites shoot from 12 yd or
 more, or melee. Survival weave reference (board request, 10,000 iterations, its seed): 1088.01 to 1088.25.
 
+## 191. `core: a melee swing reads where a moving unit is now`
+
+A moving unit's position is brought up to date lazily, when its rotation runs (`UpdatePosition` at the top of
+`DoNextAction`), when it starts another move and when the move ends. A moving unit's rotation is checked every
+reaction time, except when the rotation casts a GCD spell in the same check that starts the move: the GCD sets the
+rotation timer, and nothing checks again until it ends. That is the weave's step out after Strider Kick or a trap. A
+main-hand or off-hand swing that came due on the way out read the 5 yd the walk started from and landed from up to
+12 yd (Bae, 21 October: "the weave walks out without having done an Auto Shot or melee swing"; in sim 4541dcea a
+swing at 3.71 s from 11.5 yd). The phantom swing also reset Auto Shot (a melee swing restarts the ranged timer), so
+on arrival the next shot was more than 1.5 s away and the preset walked straight back in.
+
+`WeaponAttack.swing` (`sim/core/attack.go`): a melee swing of an enabled hand whose unit is moving first calls
+`UpdatePosition`. Past melee range that stops both hands (and schedules the weave wakeup, as any step out does) and the
+swing does not happen; inside it the swing lands as before. A unit standing still is unchanged.
+
+Switch: `MeleeSwingReadsCurrentPosition` (`sim/core/attack.go`, default true). Test:
+`TestMeleeSwingReadsThePositionMidWalk` (`sim/hunter`): a Survival hunter at 5 yd kicks with 0.3 s left on its
+Arcanite Reaper's swing timer and steps out to 12 yd in the same check; the swing comes due 2.7 yd out and does not
+land (one white swing in the 5 s fight, two with the switch off). No golden moves: no suite walks out of melee range
+with a swing due. Bae's request (sim 4541dcea), first fights of 20 seeds: 18 swings from beyond 5 yd before, 10 with
+patch 190 alone, none with both. Survival weave reference (as in 190): 1088.25 to 1090.35.
