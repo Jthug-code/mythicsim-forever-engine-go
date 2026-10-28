@@ -14,8 +14,9 @@ func applyRaceEffects(agent Agent) {
 	// Blizzard beta development notes, 16 Oct build (us.forums.blizzard.com/en/wow/t/2360696 post 6).
 	switch character.Race {
 	case proto.Race_RaceDwarf:
-		// Earth Fury replaced Mace Specialization: 2% increased critical damage and healing.
-		character.PseudoStats.CritDamageMultiplier *= 1.02
+		// 26 October development notes (Kaivax, as reported by timesaver.gg): Artisan's Precision
+		// replaced Earth Fury: 1% increased hit chance with spells and attacks.
+		character.AddStats(stats.Stats{stats.PhysicalHitPercent: 1, stats.SpellHitPercent: 1})
 		applyCreatureTypeSlaying(character, proto.MobType_MobTypeBeast)
 
 		actionID := ActionID{SpellID: 20594}
@@ -77,8 +78,7 @@ func applyRaceEffects(agent Agent) {
 				},
 			})
 	case proto.Race_RaceOrc:
-		// Savage replaced Axe Specialization: 1% critical strike chance, any weapon.
-		character.AddStats(stats.Stats{stats.PhysicalCritPercent: 1, stats.SpellCritPercent: 1})
+		// 26 October development notes: Savage (1% critical strike chance) removed.
 
 		bloodFuryID := ActionID{SpellID: 20572}
 
@@ -280,9 +280,9 @@ func applyRaceEffects(agent Agent) {
 func applySkyborneSharedRacials(character *Character) {
 	applyCreatureTypeSlaying(character, proto.MobType_MobTypeElemental)
 
-	// Wind Blessed: 3% haste (was 1%).
-	character.PseudoStats.AttackSpeedMultiplier *= 1.03
-	character.PseudoStats.CastSpeedMultiplier *= 1.03
+	// Wind Blessed: 2% haste (26 October development notes; 3% in the 16 October build, 1% before).
+	character.PseudoStats.AttackSpeedMultiplier *= 1.02
+	character.PseudoStats.CastSpeedMultiplier *= 1.02
 }
 
 // Beast Slaying (troll 20557), Big Game Hunter (dwarf 1259721) and Elemental Insight (Skyborne

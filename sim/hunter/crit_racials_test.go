@@ -48,7 +48,8 @@ func racialCritChances(t *testing.T, race proto.Race, mainHand int32, disableRac
 // The 16 October 2026 beta notes replace Human Sword and Orc Axe Specialization with Ruthless (+2% crit)
 // and Savage (+1% crit), which need no weapon and count for Auto Shot too (the specializations left it
 // alone, forever-bugs #91). Dwarf Mace Specialization became Earth Fury, crit damage, so a Dwarf's crit
-// chance stays put. Each race is compared with itself with its racials off, so base agility drops out.
+// chance stays put. The 26 October notes removed Savage, so an Orc's stays put too. Each race is compared
+// with itself with its racials off, so base agility drops out.
 func TestCritRacialsNeedNoWeapon(t *testing.T) {
 	const (
 		arcaniteChampion = 12790 // two-hand sword
@@ -62,7 +63,7 @@ func TestCritRacialsNeedNoWeapon(t *testing.T) {
 	}{
 		{proto.Race_RaceHuman, arcaniteReaper, 0.02},
 		{proto.Race_RaceHuman, arcaniteChampion, 0.02},
-		{proto.Race_RaceOrc, ironfoe, 0.01},
+		{proto.Race_RaceOrc, ironfoe, 0},
 		{proto.Race_RaceDwarf, ironfoe, 0},
 		{proto.Race_RaceNightElf, arcaniteChampion, 0},
 	} {

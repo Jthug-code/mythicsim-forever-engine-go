@@ -177,19 +177,27 @@ func TestGnomeWarrior(t *testing.T) {
 }
 
 // 16 October 2026 beta notes: "Endurance: Now grants 2% increased critical damage and healing (was 1% hit
-// chance)", and Dwarf "Mace Specialization: Replaced with Earth Fury: 2% increased critical damage and
-// healing."
+// chance)". The 26 October notes replaced Dwarf Earth Fury (2% crit damage) with Artisan's Precision: 1% hit
+// with spells and attacks.
 func TestCritDamageRacials(t *testing.T) {
 	_, human := setupRacialSim(proto.Race_RaceHuman)
 
-	for _, race := range []proto.Race{proto.Race_RaceTauren, proto.Race_RaceDwarf} {
-		_, fw := setupRacialSim(race)
-		if got := fw.GetStat(stats.PhysicalHitPercent); got != human.GetStat(stats.PhysicalHitPercent) {
-			t.Errorf("%s: hit %0.2f%%, want no racial hit", race, got)
+	_, tauren := setupRacialSim(proto.Race_RaceTauren)
+	if got := tauren.GetStat(stats.PhysicalHitPercent); got != human.GetStat(stats.PhysicalHitPercent) {
+		t.Errorf("Tauren: hit %0.2f%%, want no racial hit", got)
+	}
+	if !WithinToleranceFloat64(1.02, tauren.PseudoStats.CritDamageMultiplier, 1e-9) {
+		t.Errorf("Tauren: crit damage x%0.4f, want x1.02", tauren.PseudoStats.CritDamageMultiplier)
+	}
+
+	_, dwarf := setupRacialSim(proto.Race_RaceDwarf)
+	for _, stat := range []stats.Stat{stats.PhysicalHitPercent, stats.SpellHitPercent} {
+		if got, want := dwarf.GetStat(stat), human.GetStat(stat)+1; !WithinToleranceFloat64(want, got, 1e-9) {
+			t.Errorf("Dwarf: stat %d %0.2f, want %0.2f", stat, got, want)
 		}
-		if !WithinToleranceFloat64(1.02, fw.PseudoStats.CritDamageMultiplier, 1e-9) {
-			t.Errorf("%s: crit damage x%0.4f, want x1.02", race, fw.PseudoStats.CritDamageMultiplier)
-		}
+	}
+	if dwarf.PseudoStats.CritDamageMultiplier != 1 {
+		t.Errorf("Dwarf: crit damage x%0.4f, want no crit damage racial", dwarf.PseudoStats.CritDamageMultiplier)
 	}
 	if human.PseudoStats.CritDamageMultiplier != 1 {
 		t.Errorf("a Human has no crit damage racial, got x%0.4f", human.PseudoStats.CritDamageMultiplier)
@@ -197,10 +205,10 @@ func TestCritDamageRacials(t *testing.T) {
 }
 
 // 16 October 2026 beta notes: Human Ruthless (+2% crit) and Orc Savage (+1% crit) replace the weapon
-// specializations, with no weapon needed.
+// specializations, with no weapon needed. The 26 October notes removed Savage.
 func TestCritRacials(t *testing.T) {
 	_, nightElf := setupRacialSim(proto.Race_RaceNightElf)
-	for race, want := range map[proto.Race]float64{proto.Race_RaceHuman: 2, proto.Race_RaceOrc: 1} {
+	for race, want := range map[proto.Race]float64{proto.Race_RaceHuman: 2, proto.Race_RaceOrc: 0} {
 		without := racialWarrior(race, disableRacials)
 		with := racialWarrior(race, nil)
 		if d := with.GetStat(stats.PhysicalCritPercent) - without.GetStat(stats.PhysicalCritPercent); d != want {
@@ -249,8 +257,8 @@ func TestSkyborneRacials(t *testing.T) {
 		_, fw := setupRacialSim(race)
 
 		swingRatio := human.AutoAttacks.MainhandSwingSpeed().Seconds() / fw.AutoAttacks.MainhandSwingSpeed().Seconds()
-		if !WithinToleranceFloat64(1.03, swingRatio, 0.001) {
-			t.Errorf("%s: Wind Blessed should swing 3%% faster (16 October 2026 beta notes), got x%0.4f", race, swingRatio)
+		if !WithinToleranceFloat64(1.02, swingRatio, 0.001) {
+			t.Errorf("%s: Wind Blessed should swing 2%% faster (26 October 2026 notes), got x%0.4f", race, swingRatio)
 		}
 		if at := fw.AttackTables[fw.CurrentTarget.UnitIndex]; !WithinToleranceFloat64(1.05, at.DamageDealtMultiplier, 0.0001) {
 			t.Errorf("%s: Elemental Insight should grant 5%% damage against elementals, got x%0.4f", race, at.DamageDealtMultiplier)
@@ -347,7 +355,7 @@ func TestBloodFuryReportsItsTemporaryStats(t *testing.T) {
 // crit no longer needs a sword or an axe and reaches melee, ranged and spells alike.
 func TestCritChanceRacialsNeedNoWeapon(t *testing.T) {
 	_, undead := setupRacialSim(proto.Race_RaceUndead)
-	for race, bonus := range map[proto.Race]float64{proto.Race_RaceHuman: 2, proto.Race_RaceOrc: 1} {
+	for race, bonus := range map[proto.Race]float64{proto.Race_RaceHuman: 2, proto.Race_RaceOrc: 0} {
 		_, fw := setupRacialSim(race)
 		for _, stat := range []stats.Stat{stats.PhysicalCritPercent, stats.SpellCritPercent} {
 			if got, want := fw.GetStat(stat), undead.GetStat(stat)+bonus; !WithinToleranceFloat64(want, got, 1e-9) {

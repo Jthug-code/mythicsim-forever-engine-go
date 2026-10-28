@@ -1256,85 +1256,85 @@ dps_results: {
 dps_results: {
  key: "TestEnhancement-Settings-Dwarf-Weapon-Standard-forever-FullBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 833.99164
-  tps: 1000.41128
+  dps: 839.52574
+  tps: 1005.9128
  }
 }
 dps_results: {
  key: "TestEnhancement-Settings-Dwarf-Weapon-Standard-forever-FullBuffs-0.0yards-LongSingleTarget"
  value: {
-  dps: 336.17162
-  tps: 176.32743
+  dps: 335.42625
+  tps: 175.97039
  }
 }
 dps_results: {
  key: "TestEnhancement-Settings-Dwarf-Weapon-Standard-forever-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
-  dps: 360.89196
-  tps: 189.49748
+  dps: 360.2067
+  tps: 189.21086
  }
 }
 dps_results: {
  key: "TestEnhancement-Settings-Dwarf-Weapon-Standard-forever-NoBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 197.0137
-  tps: 137.90959
+  dps: 197.49322
+  tps: 138.24525
  }
 }
 dps_results: {
  key: "TestEnhancement-Settings-Dwarf-Weapon-Standard-forever-NoBuffs-0.0yards-LongSingleTarget"
  value: {
-  dps: 128.62334
-  tps: 90.03634
+  dps: 128.4115
+  tps: 89.88805
  }
 }
 dps_results: {
  key: "TestEnhancement-Settings-Dwarf-Weapon-Standard-forever-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
-  dps: 174.02056
-  tps: 121.81439
+  dps: 173.65019
+  tps: 121.55514
  }
 }
 dps_results: {
  key: "TestEnhancement-Settings-Orc-Weapon-Standard-forever-FullBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 837.35687
-  tps: 1005.58079
+  dps: 831.98857
+  tps: 999.35505
  }
 }
 dps_results: {
  key: "TestEnhancement-Settings-Orc-Weapon-Standard-forever-FullBuffs-0.0yards-LongSingleTarget"
  value: {
-  dps: 339.37487
-  tps: 177.90522
+  dps: 337.84819
+  tps: 177.17353
  }
 }
 dps_results: {
  key: "TestEnhancement-Settings-Orc-Weapon-Standard-forever-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
-  dps: 366.03265
-  tps: 192.01642
+  dps: 363.19693
+  tps: 190.62691
  }
 }
 dps_results: {
  key: "TestEnhancement-Settings-Orc-Weapon-Standard-forever-NoBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 198.22875
-  tps: 138.76013
+  dps: 196.41907
+  tps: 137.49335
  }
 }
 dps_results: {
  key: "TestEnhancement-Settings-Orc-Weapon-Standard-forever-NoBuffs-0.0yards-LongSingleTarget"
  value: {
-  dps: 131.17369
-  tps: 91.82158
+  dps: 129.42429
+  tps: 90.597
  }
 }
 dps_results: {
  key: "TestEnhancement-Settings-Orc-Weapon-Standard-forever-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
-  dps: 173.65439
-  tps: 121.55807
+  dps: 171.47096
+  tps: 120.02967
  }
 }
 dps_results: {
