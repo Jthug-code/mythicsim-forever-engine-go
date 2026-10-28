@@ -95,11 +95,11 @@ Spell hit is far from its 16% cap and is worth about 11 attack power per 1%.
   - It is half of a new two-ring set, Partners in Crime. The other ring is First Mate Band.
   - The 2-piece bonus is +22 Strength and a chance on swing for +50 Strength for 10 s. The engine doesn't model it, and
     this set wears only one ring.
-- **Warlord's Mail Spaulders** are Horde PvP, and the data has no Alliance shaman PvP set.
-  - Stormcaller's pieces and the Earthshatter tier carry a race mask of the Classic Horde races (178) in the data.
-  - Taken literally, only the Orc could wear them, and neither the Dwarf nor the Skyborne could. That is probably stale
-    Classic data, since Forever has Alliance and Skyborne shamans, but it is unconfirmed.
-  - The race rows below give every race the same set.
+- **Every piece counts as usable by both factions** (2026-10-28). The data says otherwise in two places:
+  - Warlord's Mail Spaulders are Horde PvP, and the data has no Alliance shaman PvP set.
+  - Stormcaller's pieces and the Earthshatter tier carry a race mask of the Classic Horde races (178), which leaves out
+    both the Dwarf and the Skyborne.
+  - Under this assumption every race wears the same set, and the race rows below compare racials only.
 
 ## Run 4 findings
 
@@ -116,8 +116,8 @@ Spell hit is far from its 16% cap and is worth about 11 attack power per 1%.
 - **Reaction 150 ms vs 10 ms moves nothing** (1 DPS or less), as expected for a no-hard-cast rotation.
 - **Physical share is 75% at 2 minutes and 78% at 5, for every race.** The top sources are melee swings (38–40%),
   Windfury (23–24%), Stormstrike (13–14%), Maelstrom Lightning Bolts (7–8%) and Earth Shock (4–6%).
-- **An Alliance-only Dwarf costs another 0.2–0.9% if it can't wear the Horde PvP shoulders.** The replacements, at 2 /
-  5 minutes, against 715.4 / 667.4 with the PvP shoulders:
+- **For reference only, since gear is assumed shared:** a Dwarf without the Horde PvP shoulders would lose another
+  0.2–0.9%. The replacements, at 2 / 5 minutes, against 715.4 / 667.4 with the PvP shoulders:
   - Stormcaller's Pauldrons: 714.0 / 667.2
   - Mantle of Wicked Revenge: 712.6 / 662.5
   - Theramore Shoulderguards: 709.1 / 663.0
