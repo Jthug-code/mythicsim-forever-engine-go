@@ -1,11 +1,12 @@
 # Spellhance comparison results
 
-Three runs, all single target (`MakeSingleTargetEncounter`, no duration variation), 10,000 iterations per row, seed 7,
+Four runs, all single target (`MakeSingleTargetEncounter`, no duration variation), 10,000 iterations per row, seed 7,
 using the measured swing rule. Engine: `mythicsim/oct21-release` (62b7445d1c) plus this branch.
 
 | Run | Gear | Files | Section |
 |---|---|---|---|
-| 3 | The repo's Forever launch-gear presets | `forever-results.csv`, `forever-sources.csv` | Run 3, first below |
+| 4 | A Forever BiS set from Wowhead's Forever item data; Orc, Dwarf and Skyborne | `race-results.csv`, `race-sources.csv` | Run 4, first below |
+| 3 | The repo's Forever launch-gear presets | `forever-results.csv`, `forever-sources.csv` | Run 3 |
 | 2 | Season of Discovery Phase 8 BiS, set bonuses on and off | `results.csv`, `sources.csv` | Run 2 |
 | 1 | SoD BiS, no set bonuses, with the old-swing-rule reference rows | `results-run1.csv` | Run 1 references, at the end |
 
@@ -13,6 +14,7 @@ Rerun with:
 
     SPELLHANCE_OUT=<dir> SPELLHANCE_ITERATIONS=10000 go test --tags=with_db ./sim/shaman/spellhance/ -run TestSpellhanceMatrix -timeout 60m
     SPELLHANCE_FOREVER_OUT=<dir> SPELLHANCE_ITERATIONS=10000 go test --tags=with_db ./sim/shaman/spellhance/ -run TestSpellhanceForeverMatrix -timeout 60m
+    SPELLHANCE_RACE_OUT=<dir> SPELLHANCE_ITERATIONS=10000 go test --tags=with_db ./sim/shaman/spellhance/ -run TestSpellhanceRaceMatrix -timeout 60m
 
 **A change to the rotations since run 1 (all three runs' APLs have it now).** A weapon that swings faster than an
 instant's GCD plus the 0.4 s window can't fit any GCD between swings. The addon then drops WAIT and shows INSTANT
@@ -22,6 +24,116 @@ throughout, and the APLs now do the same.
 - **What it moved in run 2:** only the 8/36/7 rows on the SoD Enhancement set, where Flurry, Rage of the Farseer and
   Abandoned Experiment push the swing under that line. Those rows rose 0.5% to 7.3%; 146 of 194 rows didn't change.
 - **Run 1 is as it was run.** Its 8/36/7 Enhancement-set rows understate by up to about 3%.
+
+# Run 4: Orc vs Dwarf vs Skyborne, 8/36/7 with no hard casts, Forever BiS (2026-10-28)
+
+One build, `8/36/7 no hard casts` (`apls/melee_maelstrom.apl.json`), on one gear set worn by all three races. Buffs,
+debuffs and consumables are run 3's Enhancement ones and identical for every race, so only the racials differ.
+
+**Racials are the 26 October development notes'** (Kaivax; reported via timesaver.gg). This
+branch patches `sim/core/racials.go` to match:
+- **Dwarf:** Artisan's Precision, +1% hit with attacks and spells, replaces Earth Fury (2% crit damage). Beast Slaying
+  (+5% damage to beasts) stays.
+- **Orc:** Savage (+1% crit) removed. Blood Fury (+10% attack power and spell damage for 15 s, 3 min cooldown) stays and
+  fires twice per 5-minute fight.
+- **Windshaper Skyborne:** Wind Blessed drops from 3% to 2% attack and cast speed. Elemental Insight (+5% damage to
+  elementals) stays. Only the Windshaper variant can be a shaman.
+- Not patched: the same notes' Tauren and Human changes.
+
+## The Forever BiS set
+
+**The pool:** every item in Wowhead's Forever gear-planner data (`origin/data/master/wowhead-forever`, 28 October),
+level 60 or lower, rare or better, mail or lighter, and usable by a shaman. Other classes' tier pieces are excluded,
+including the Naxxramas tier, whose tooltips name no class.
+
+**The data includes AQ40 and part of Naxxramas, so this is end-of-content BiS.** The data doesn't say which phase
+anything arrives in.
+
+**How it was picked:**
+1. Stat weights for this build came from the sim. `TestBisStatWeights` uses attack power = 1.
+2. Each slot's top candidates and enchants were ranked by those weights. Every trinket and totem with an effect was also
+   included.
+3. `TestBisSearch` then ran a coordinate descent: try every candidate item and enchant one slot at a time, as an Orc on a
+   3-minute fight, keeping changes worth more than 0.15%.
+4. It converged at 708.7 DPS.
+5. A second search from that set, using weights recomputed on it, changed only the cloak (710.1).
+
+| Slot | Item | Enchant | Source (Wowhead Forever data) |
+|---|---|---|---|
+| Head | Black Dragonscale Helm (252605) | Vodouisant's Vigilant Embrace | Crafted (new in Forever) |
+| Neck | Gem of Trapped Innocents (23057) | Necklace: Strength | Kel'Thuzad, Naxxramas |
+| Shoulder | Warlord's Mail Spaulders (16580) | Might of the Scourge | Horde PvP vendor (Lady Palanseer) |
+| Back | Arcanoweave Cloak (272411) | — | Vendor, Pix Xizzix, Stranglethorn (new in Forever) |
+| Chest | Stormcaller's Hauberk (21374) | Chest: Major Intellect | AQ40 quest |
+| Wrist | Qiraji Execution Bracers (21602) | Bracer: Superior Intellect | Twin Emperors, AQ40 |
+| Hands | Gauntlets of Kalimdor (21624) | Gloves: Superior Strength | Viscidus, AQ40 |
+| Waist | Grasp of the Fallen Emperor (21607) | — | Twin Emperors, AQ40 |
+| Legs | Stormcaller's Leggings (21375) | Vodouisant's Vigilant Embrace | AQ40 quest |
+| Feet | Stormcaller's Footguards (21373) | Boots: Greater Agility | AQ40 quest |
+| Ring | Band of Unnatural Forces (23038) | — | Loatheb, Naxxramas |
+| Ring | Band of the Better Half (284716) | — | None listed (new in Forever) |
+| Trinket | Kiss of the Spider (22954) | — | Maexxna, Naxxramas |
+| Trinket | Slayer's Crest (23041) | — | Sapphiron, Naxxramas |
+| Two-hand | Dark Edge of Insanity (21134), 3.5 s axe | Crusader | C'Thun, AQ40 |
+| Totem | Totem of the Storm (23199) | — | Drop |
+
+**Character totals (Orc):**
+- About 378 Intellect and 1,500 attack power.
+- 9% melee and spell hit: 4% from gear and 5% from Tidal Focus 5/5.
+- 1.2% expertise.
+- Three Stormcaller's pieces. The sim models the set's 3-piece Nature damage proc; the 5-piece is Chain Heal.
+
+**Why Intellect:** in 8/36/7 Intellect feeds attack power and mana. On this set, 1 Intellect is worth 2.55 attack power,
+against Strength's 2.0 and Agility's 1.55. The build is short of mana: 84–86 s of every 5-minute fight are spent out of
+mana, for every race.
+
+**Melee hit is past the cap.** The sim's base melee miss against a level-63 boss is 8%, so melee hit weighs 0 at 9%.
+Spell hit is far from its 16% cap and is worth about 11 attack power per 1%.
+
+**Caveats on the set:**
+- **Band of the Better Half** has no source in the data.
+  - It is half of a new two-ring set, Partners in Crime. The other ring is First Mate Band.
+  - The 2-piece bonus is +22 Strength and a chance on swing for +50 Strength for 10 s. The engine doesn't model it, and
+    this set wears only one ring.
+- **Warlord's Mail Spaulders** are Horde PvP, and the data has no Alliance shaman PvP set.
+  - Stormcaller's pieces and the Earthshatter tier carry a race mask of the Classic Horde races (178) in the data.
+  - Taken literally, only the Orc could wear them, and neither the Dwarf nor the Skyborne could. That is probably stale
+    Classic data, since Forever has Alliance and Skyborne shamans, but it is unconfirmed.
+  - The race rows below give every race the same set.
+
+## Run 4 findings
+
+- **Windshaper Skyborne is the best of the three on a neutral target.** It beats the Orc by 0.8–0.9% (about 6 DPS) and
+  the Dwarf by 1.3–1.5%.
+- **Orc is second, Dwarf third,** 0.4–0.6% apart (3–5 DPS).
+  - The Dwarf's +1% hit is wasted on melee: Tidal Focus plus gear already reach the cap.
+  - It only reaches spells, and Blood Fury outweighs it.
+- **The slaying racials outweigh all of that against their creature type.**
+  - Against elementals the Skyborne gains 5%, and leads the Orc by 5.9%.
+  - Against beasts the Dwarf gains 5%, and leads the Skyborne by 3.4% and the Orc by 4.3%.
+- **Every gap is real at 10,000 iterations.** Standard errors are 0.4–0.7 DPS, the gaps are 3–6 DPS on neutral
+  targets, and every race shares the same seed.
+- **Reaction 150 ms vs 10 ms moves nothing** (1 DPS or less), as expected for a no-hard-cast rotation.
+- **Physical share is 75% at 2 minutes and 78% at 5, for every race.** The top sources are melee swings (38–40%),
+  Windfury (23–24%), Stormstrike (13–14%), Maelstrom Lightning Bolts (7–8%) and Earth Shock (4–6%).
+- **An Alliance-only Dwarf costs another 0.2–0.9% if it can't wear the Horde PvP shoulders.** The replacements, at 2 /
+  5 minutes, against 715.4 / 667.4 with the PvP shoulders:
+  - Stormcaller's Pauldrons: 714.0 / 667.2
+  - Mantle of Wicked Revenge: 712.6 / 662.5
+  - Theramore Shoulderguards: 709.1 / 663.0
+- **The search optimised for the Orc.** With melee hit capped for every race, the other races' best sets should differ
+  little, but no per-race search was run.
+
+## Run 4 table: DPS, reaction 150 ms
+
+| Race | Neutral 2m | Neutral 5m | Elemental 2m | Elemental 5m | Beast 2m | Beast 5m |
+|---|---:|---:|---:|---:|---:|---:|
+| Windshaper Skyborne | **726.1** | **675.9** | **762.4** | **709.7** | 726.1 | 675.9 |
+| Orc | 720.0 | 670.1 | 720.0 | 670.1 | 720.0 | 670.1 |
+| Dwarf | 715.4 | 667.4 | 715.4 | 667.4 | **751.1** | **700.7** |
+
+"Neutral" is the default target (Mechanical), which none of the slaying racials touch. Reaction 10 ms rows are in
+`race-results.csv`.
 
 # Run 3: Forever launch-gear presets (2026-10-27)
 

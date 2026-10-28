@@ -231,6 +231,14 @@ func runMatrix(t *testing.T, runs []run, out string) {
 		sets := strings.Contains(x.r.Gear, "_sets")
 		gear := strings.NewReplacer("_sets_rage4", "+rage4", "_sets", "").Replace(x.r.Gear)
 		key := []string{x.r.Build.Label, gear, fmt.Sprint(sets), fmt.Sprint(x.r.Duration.Seconds()), fmt.Sprint(x.r.ReactionMs), haste}
+		if x.r.Race != proto.Race_RaceUnknown {
+			// Run 4 varies the race and the target.
+			target := "default"
+			if x.r.MobType != proto.MobType_MobTypeUnknown {
+				target = strings.TrimPrefix(x.r.MobType.String(), "MobType")
+			}
+			key = append(key, strings.TrimPrefix(x.r.Race.String(), "Race"), target)
+		}
 		total := x.physicalDPS + x.spellDPS
 		main = append(main, append(append([]string{}, key...),
 			fmt.Sprint(x.r.Iterations), fmt.Sprintf("%.1f", x.dps), fmt.Sprintf("%.1f", x.stdev/math.Sqrt(float64(x.r.Iterations))),
@@ -245,6 +253,9 @@ func runMatrix(t *testing.T, runs []run, out string) {
 		}
 	}
 	keyHeader := []string{"build", "gear", "set_bonuses", "duration_s", "reaction_ms", "haste"}
+	if runs[0].Race != proto.Race_RaceUnknown {
+		keyHeader = append(keyHeader, "race", "target")
+	}
 	write("results.csv", append(append([]string{}, keyHeader...), "iterations", "dps", "dps_stderr", "physical_dps", "spell_dps",
 		"physical_share", "lb_lvb_cl_casts_per_min", "mh_swings_per_min", "seconds_oom"), main)
 	write("sources.csv", append(append([]string{}, keyHeader...), "source", "school", "dps", "share"), sources)

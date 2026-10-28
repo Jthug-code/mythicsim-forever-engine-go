@@ -110,6 +110,8 @@ type run struct {
 	Iterations            int32
 	Seed                  int64
 	Debug                 bool
+	Race                  proto.Race    // Windshaper Skyborne unless set
+	MobType               proto.MobType // the default target's (Mechanical) unless set
 }
 
 func (r run) request() *proto.RaidSimRequest {
@@ -162,7 +164,9 @@ func (r run) request() *proto.RaidSimRequest {
 		}
 		player.Consumables = launch.consumes()
 	} else {
+		// A gear file: the Forever BiS set of run 4, with the Enhancement consumables.
 		player.Equipment = core.EquipmentSpecFromJsonString(readFile(r.Gear))
+		player.Consumables = enhConsumes()
 	}
 
 	if r.Preset {
@@ -183,8 +187,17 @@ func (r run) request() *proto.RaidSimRequest {
 		}
 	}
 
+	if r.Race != proto.Race_RaceUnknown {
+		player.Race = r.Race
+	}
+
 	encounter := core.MakeSingleTargetEncounter(0)
 	encounter.Duration = r.Duration.Seconds()
+	if r.MobType != proto.MobType_MobTypeUnknown {
+		target := core.FreshDefaultTargetConfig()
+		target.MobType = r.MobType
+		encounter.Targets = []*proto.Target{target}
+	}
 	return &proto.RaidSimRequest{
 		Raid:      core.SinglePlayerRaidProto(player, partyBuffs, raidBuffs, debuffs),
 		Encounter: encounter,
