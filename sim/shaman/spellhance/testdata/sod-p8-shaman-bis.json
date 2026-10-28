@@ -1,0 +1,77 @@
+{
+  "about": "Season of Discovery Phase 8 best-in-slot gear for Elemental and two-hand Enhancement shaman, pulled 2026-10-27 from Wowhead's SoD BiS guides. It stands in for 'future' Forever raid gear. stats keys are Wowhead's jsonEquip keys: spldmg = spell power, *pct = percent, mlehastepct = melee haste %, splhastepct = spell haste %. Item stats only, with no enchants, consumables or buffs.",
+  "sources": [
+    "https://www.wowhead.com/classic/guide/season-of-discovery/classes/shaman/elemental/dps-bis-gear-pve",
+    "https://www.wowhead.com/classic/guide/season-of-discovery/classes/shaman/enhancement/dps-bis-gear-pve",
+    "Per-item data: https://www.wowhead.com/classic/item=<id>&xml"
+  ],
+  "picks": "First 'Best' row per slot. Wowhead lists Mirage (a two-hand staff) and the shield Demon's Folly; they can't be worn together, so the caster set uses Mirage and leaves out the shield. Wowhead's Enhancement list has two-hand and dual-wield variants; Forever has no shaman dual wield, so this uses the two-hand variant.",
+  "forever_caveats": [
+    "Set bonuses depend on SoD runes (Static Shock, Lava Lash, Overload chance, 10-stack Maelstrom) or on Undead targets. Don't model them.",
+    "SoD gear carries a lot of haste (28% spell / 27% melee in total). Whether Forever has a haste stat is unknown, so run with haste on and with haste off.",
+    "Equip and use effects worth modeling as written: Natural Alignment Crystal, Totem of Thunder, Totem of Pyroclastic Thunder, Scarlet Smashbringer's Strength proc. Scarlet Smashbringer's GCD -0.5s and Infusion of Souls' haste-reduced GCD are SoD-style effects; run them both ways.",
+    "Mirage's Mirage proc (arcane damage) and swap-places effect can be skipped."
+  ],
+  "totals_item_stats_only": {
+    "caster_mirage_2h": {"int": 404, "spldmg": 436, "splcritstrkpct": 11, "mlecritstrkpct": 11, "splhitpct": 5, "mlehitpct": 5, "splhastepct": 28, "sta": 138, "weapon": "Mirage, Rod of Illusion: staff, 3.60 speed, 200-279 damage, 66.52 DPS"},
+    "enh_smashbringer_2h": {"str": 437, "agi": 26, "int": 130, "mleatkpwr": 24, "splcritstrkpct": 15, "mlecritstrkpct": 15, "splhitpct": 6, "mlehitpct": 6, "mlehastepct": 27, "sta": 131, "weapon": "Scarlet Smashbringer: two-hand mace, 4.00 speed, 348-522 damage, 108.75 DPS"}
+  },
+  "sets": {
+    "caster_mirage_2h": {
+      "Head": {"id": 240123, "name": "Soulcrusher Crown", "ilvl": 98, "stats": {"sta": 17, "int": 51, "spldmg": 19, "splcritstrkpct": 2, "splhastepct": 2, "mlecritstrkpct": 2}, "set": 1952},
+      "Neck": {"id": 236261, "name": "Malice Stone Pendant", "ilvl": 83, "stats": {"sta": 10, "int": 14, "spldmg": 27, "splhastepct": 1}},
+      "Shoulders": {"id": 240125, "name": "Soulcrusher Mantle", "ilvl": 98, "stats": {"sta": 12, "int": 34, "spldmg": 18, "splcritstrkpct": 1, "splhitpct": 1, "splhastepct": 1, "mlecritstrkpct": 1, "mlehitpct": 1}, "set": 1952},
+      "Back": {"id": 233436, "name": "Cloak of the Gathering Storm", "ilvl": 76, "stats": {"int": 15, "spldmg": 25, "splhitpct": 1, "mlehitpct": 1}, "set": 1864},
+      "Chest": {"id": 241160, "name": "Dawnworn Chainmail", "ilvl": 98, "stats": {"sta": 12, "int": 52, "spldmg": 29, "splcritstrkpct": 2, "splhastepct": 4, "mlecritstrkpct": 2}},
+      "Wrists": {"id": 240127, "name": "Soulcrusher Bindings", "ilvl": 98, "stats": {"sta": 13, "int": 29, "spldmg": 19, "splhastepct": 1}, "set": 1952},
+      "Hands": {"id": 236156, "name": "Earthshatter Mitts", "ilvl": 88, "stats": {"sta": 10, "int": 30, "spldmg": 12, "splcritstrkpct": 1, "splhastepct": 2, "mlecritstrkpct": 1}, "set": 1889},
+      "Waist": {"id": 240126, "name": "Soulcrusher Cord", "ilvl": 98, "stats": {"sta": 13, "int": 33, "spldmg": 18, "splhastepct": 3}, "set": 1952},
+      "Legs": {"id": 240124, "name": "Soulcrusher Kilt", "ilvl": 98, "stats": {"sta": 19, "int": 50, "spldmg": 21, "splhitpct": 1, "splhastepct": 3, "mlehitpct": 1}, "set": 1952},
+      "Feet": {"id": 240110, "name": "Soulcrusher Greaves", "ilvl": 98, "stats": {"sta": 12, "int": 33, "spldmg": 18, "splhitpct": 1, "splhastepct": 3, "mlehitpct": 1}, "set": 1952},
+      "Ring1": {"id": 236157, "name": "Band of the Earthshatterer", "ilvl": 92, "stats": {"int": 27, "splcritstrkpct": 1, "splhitpct": 1, "splhastepct": 1, "mlecritstrkpct": 1, "mlehitpct": 1}, "set": 1889},
+      "Ring2": {"id": 241031, "name": "Barthalomew's Promise", "ilvl": 98, "stats": {"sta": 8, "int": 8, "spldmg": 35, "splcritstrkpct": 1, "splhastepct": 1, "mlecritstrkpct": 1}},
+      "Trinket1": {"id": 230273, "name": "Natural Alignment Crystal", "ilvl": 76, "stats": {}, "effects": ["Use: +20% spell damage, +20% healing, +20% spell mana cost for 20 sec. 2 min cooldown."]},
+      "Trinket2": {"id": 241039, "name": "Infusion of Souls", "ilvl": 98, "stats": {"spldmg": 26, "splhastepct": 4}, "effects": ["Equip: the GCD of your non-weapon damaging spells can be reduced by spell haste, up to 0.5 sec."]},
+      "TwoHand": {"id": 241003, "name": "Mirage, Rod of Illusion", "ilvl": 96, "type": "Staff", "speed": 3.6, "dmg": [199.99, 278.99], "dps": 66.52, "stats": {"sta": 12, "int": 28, "spldmg": 169, "splcritstrkpct": 3, "splhastepct": 2, "mlecritstrkpct": 3}, "effects": ["Equip: 10% chance on a damaging spell to create a Mirage that deals arcane damage nearby for 30 sec (30s cooldown).", "Use: swap places with your Mirage (2 min)."]},
+      "Relic": {"id": 228176, "name": "Totem of Thunder", "ilvl": 65, "stats": {}, "effects": ["Equip: Lightning Bolt cast time -0.1 sec."]}
+    },
+    "enh_smashbringer_2h": {
+      "Head": {"id": 240131, "name": "Soulcrusher Helmet", "ilvl": 98, "stats": {"str": 45, "sta": 18, "int": 23, "mlehastepct": 2}, "effects": ["Equip: your attacks are dodged or parried 2% less often."], "set": 1951},
+      "Neck": {"id": 241070, "name": "Hope of Herod", "ilvl": 98, "stats": {"str": 20, "sta": 9, "splcritstrkpct": 1, "mlecritstrkpct": 1, "mlehastepct": 2}},
+      "Shoulders": {"id": 236172, "name": "Earthshatter Epaulets", "ilvl": 86, "stats": {"str": 29, "sta": 10, "int": 12, "mlehastepct": 2}, "effects": ["Equip: your attacks are dodged or parried 1% less often."], "set": 1888},
+      "Back": {"id": 241024, "name": "Scarlet Commander's Cape", "ilvl": 98, "stats": {"str": 20, "agi": 9, "splcritstrkpct": 1, "mlecritstrkpct": 1, "mlehastepct": 2}},
+      "Chest": {"id": 240128, "name": "Soulcrusher Armor", "ilvl": 98, "stats": {"str": 49, "sta": 13, "int": 14, "splcritstrkpct": 2, "splhitpct": 2, "mlecritstrkpct": 2, "mlehitpct": 2, "mlehastepct": 2}, "set": 1951},
+      "Wrists": {"id": 240137, "name": "Soulcrusher Vambraces", "ilvl": 98, "stats": {"str": 26, "sta": 12, "int": 15, "splhitpct": 1, "mlehitpct": 1, "mlehastepct": 2}, "set": 1951},
+      "Hands": {"id": 240130, "name": "Soulcrusher Grips", "ilvl": 98, "stats": {"str": 32, "sta": 12, "int": 13, "splcritstrkpct": 2, "mlecritstrkpct": 2, "mlehastepct": 2}, "set": 1951},
+      "Waist": {"id": 240136, "name": "Soulcrusher Belt", "ilvl": 98, "stats": {"str": 36, "sta": 12, "int": 12, "splcritstrkpct": 1, "mlecritstrkpct": 1, "mlehastepct": 1}, "effects": ["Equip: your attacks are dodged or parried 2% less often."], "set": 1951},
+      "Legs": {"id": 240134, "name": "Soulcrusher Leggings", "ilvl": 98, "stats": {"str": 50, "sta": 14, "int": 14, "splcritstrkpct": 2, "mlecritstrkpct": 2, "mlehastepct": 2}, "set": 1951},
+      "Feet": {"id": 241186, "name": "Polished Scarlet Mail Boots", "ilvl": 98, "stats": {"str": 43, "agi": 17, "sta": 7, "splcritstrkpct": 2, "splhitpct": 1, "mlecritstrkpct": 2, "mlehitpct": 1, "mlehastepct": 1}},
+      "Ring1": {"id": 236176, "name": "Signet of the Earthshatterer", "ilvl": 92, "stats": {"str": 20, "int": 12}, "effects": ["Equip: your attacks are dodged or parried 1% less often.", "Equip: 2% chance on weapon damage to get an extra attack (200ms cooldown)."], "set": 1888},
+      "Ring2": {"id": 241029, "name": "Baelin's Band", "ilvl": 98, "stats": {"str": 20, "splcritstrkpct": 1, "splhitpct": 1, "mlecritstrkpct": 1, "mlehitpct": 1, "mlehastepct": 2}},
+      "Trinket1": {"id": 242314, "name": "Cinders of the Fallen Crusade", "ilvl": 96, "stats": {"mleatkpwr": 24, "splcritstrkpct": 2, "splhitpct": 1, "mlecritstrkpct": 2, "mlehitpct": 1, "mlehastepct": 3}},
+      "Trinket2": {"id": 241037, "name": "Abandoned Experiment", "ilvl": 98, "stats": {"mlehastepct": 4}, "effects": ["Use: for 30 sec, each melee or ranged attack adds 2% attack speed, up to 15 stacks. 2 min cooldown."]},
+      "TwoHand": {"id": 240921, "name": "Scarlet Smashbringer", "ilvl": 96, "type": "Two-Handed Mace", "speed": 4.0, "dmg": [348, 522], "dps": 108.75, "stats": {"str": 47, "sta": 24, "int": 15, "splcritstrkpct": 1, "mlecritstrkpct": 1}, "effects": ["Equip: GCD of your Shock, Lightning and Lava Burst spells -0.5 sec.", "Chance on hit: +200 Strength for 15 sec."]},
+      "Relic": {"id": 234480, "name": "Totem of Pyroclastic Thunder", "ilvl": 79, "stats": {}, "effects": ["Equip: Lightning Bolt, Chain Lightning and Lava Burst damage +3%."]}
+    }
+  },
+  "set_bonuses_not_modeled": {
+    "1864 Gift of the Gathering Storm": ["(3) Lava Burst damage + your spell crit %"],
+    "1888 The Earthshatterer's Rage": ["(2) Static Shock rune: Lightning Shield +100%", "(4) Lava Lash and Stormstrike cooldown -1.5 sec", "(6) +3% damage vs Undead per Maelstrom charge"],
+    "1889 The Earthshatterer's Storm": ["(2) Flame Shock periodic +40%", "(4) Lava Burst cooldown -2 sec", "(6) +3% damage vs Undead per Overload"],
+    "1951 The Soulcrusher's Rage": ["(2) Static Shock: Lightning Shield charges", "(4) Fire Nova Totem rework", "(6) 10-stack Maelstrom with double cast"],
+    "1952 The Soulcrusher's Storm": ["(2) LvB/CL/LB on a Flame Shock target also deal one Flame Shock tick", "(4) Overload +10%, LvB + spell crit %, LB/CL stacks a LvB bonus", "(6) Chain Lightning single-target bonus"]
+  },
+  "builds": {
+    "29/22/0 caster hybrid": {
+      "wowhead": "https://www.wowhead.com/forever/talent-calc/shaman/v2053033102310134-051032031004102_t0_r96/1BEcHjpFnnnn0BCffEgfmJkkQpkrrrr1R",
+      "elemental": "Concussion 5, Elemental Devastation 3, Elemental Alacrity 3, Call of Flame 3, Elemental Focus 1, Trial by Fire 2, Eye of the Storm 3, Earthbound 1, Lava Burst 1, Lightning Overload 3, Elemental Fury 4",
+      "enhancement": "Thundering Strikes 5, Ancestral Knowledge 1, Mental Dexterity 3, Improved Ghost Wolf 2, Elemental Weapons 3, Shamanistic Focus 1, Flurry 4, Stormstrike 1, Mental Quickness 2"
+    },
+    "8/36/7 enhancement": {
+      "wowhead": "https://www.wowhead.com/forever/talent-calc/shaman/v2053-055032031005112251-050002_t0_r96/1BEFHjcNpSRqTv2B0BC1cccc2F",
+      "elemental": "Concussion 5, Elemental Devastation 3",
+      "enhancement": "Thundering Strikes 5, Mental Dexterity 3, Improved Ghost Wolf 2, Elemental Weapons 3, Shamanistic Focus 1, Ancestral Knowledge 5, Flurry 5, Stormstrike 1, Improved Stormstrike 2, Mental Quickness 2, Spirit Weapons 1, Maelstrom Weapon 5, Rage of the Farseer 1",
+      "restoration": "Tidal Focus 5, Improved Reincarnation 2"
+    }
+  }
+}

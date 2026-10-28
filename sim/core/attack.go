@@ -989,6 +989,23 @@ func (aa *AutoAttacks) HoldMeleeForCast(sim *Simulation, castEnd time.Duration) 
 		return
 	}
 
+	// SimOptions.DisableCastSwingReset, for comparison runs only: the rule before patch 17, where
+	// only a swing that would land during the cast moves, to a full swing after it, so a cast that
+	// fits between swings costs no melee.
+	if sim.Options.DisableCastSwingReset {
+		hold := func(wa *WeaponAttack) {
+			if wa.swingAt > sim.CurrentTime+heldSwingLag && wa.swingAt < castEnd {
+				wa.swingAt = castEnd + wa.curSwingDuration
+				sim.rescheduleWeaponAttack(wa.swingAt)
+			}
+		}
+		hold(&aa.mh)
+		if aa.IsDualWielding {
+			hold(&aa.oh)
+		}
+		return
+	}
+
 	reset := func(wa *WeaponAttack) {
 		wa.castResetAt = max(wa.castResetAt, castEnd)
 		if wa.swingAt <= sim.CurrentTime+heldSwingLag {

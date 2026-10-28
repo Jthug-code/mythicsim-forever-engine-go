@@ -158,6 +158,10 @@ message SimOptions {
 	bool save_all_values = 7; // Only used internally.
 	bool interactive = 8; // Enables interactive mode.
 	bool use_labeled_rands = 9; // Use test level RNG.
+	// Reference only: the swing rule before the Forever beta measurements, where a hard cast moves
+	// the swing only when the swing would land during it. Off is the measured rule
+	// (AutoAttacks.HoldMeleeForCast): every completed hard cast restarts the swing timer.
+	bool disable_cast_swing_reset = 10;
 }
 
 // The aggregated results from all uses of a particular action.

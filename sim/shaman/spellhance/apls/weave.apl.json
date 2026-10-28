@@ -1,0 +1,936 @@
+{
+  "type": "TypeAPL",
+  "prepullActions": [
+    {
+      "action": {
+        "castSpell": {
+          "spellId": {
+            "spellId": 25361
+          }
+        }
+      },
+      "doAtValue": {
+        "const": {
+          "val": "-4.5s"
+        }
+      }
+    },
+    {
+      "action": {
+        "castSpell": {
+          "spellId": {
+            "spellId": 25359
+          }
+        }
+      },
+      "doAtValue": {
+        "const": {
+          "val": "-3s"
+        }
+      }
+    },
+    {
+      "action": {
+        "castSpell": {
+          "spellId": {
+            "spellId": 10438
+          }
+        }
+      },
+      "doAtValue": {
+        "const": {
+          "val": "-1.5s"
+        }
+      }
+    }
+  ],
+  "priorityList": [
+    {
+      "action": {
+        "autocastOtherCooldowns": {}
+      }
+    },
+    {
+      "action": {
+        "castSpell": {
+          "spellId": {
+            "spellId": 1326047
+          }
+        },
+        "condition": {
+          "and": {
+            "vals": [
+              {
+                "and": {
+                  "vals": [
+                    {
+                      "cmp": {
+                        "op": "OpGe",
+                        "lhs": {
+                          "autoTimeSinceLast": {
+                            "autoType": "MainHandAuto"
+                          }
+                        },
+                        "rhs": {
+                          "inputDelay": {}
+                        }
+                      }
+                    },
+                    {
+                      "cmp": {
+                        "op": "OpLe",
+                        "lhs": {
+                          "math": {
+                            "op": "OpAdd",
+                            "lhs": {
+                              "autoTimeSinceLast": {
+                                "autoType": "MainHandAuto"
+                              }
+                            },
+                            "rhs": {
+                              "max": {
+                                "vals": [
+                                  {
+                                    "gcdTimeToReady": {}
+                                  },
+                                  {
+                                    "spellTimeToReady": {
+                                      "spellId": {
+                                        "spellId": 1326047
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        },
+                        "rhs": {
+                          "const": {
+                            "val": "0.4s"
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "dotIsActive": {
+                  "spellId": {
+                    "spellId": 29228
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "action": {
+        "castSpell": {
+          "spellId": {
+            "spellId": 15208
+          }
+        },
+        "condition": {
+          "and": {
+            "vals": [
+              {
+                "cmp": {
+                  "op": "OpGe",
+                  "lhs": {
+                    "autoTimeSinceLast": {
+                      "autoType": "MainHandAuto"
+                    }
+                  },
+                  "rhs": {
+                    "inputDelay": {}
+                  }
+                }
+              },
+              {
+                "cmp": {
+                  "op": "OpLe",
+                  "lhs": {
+                    "math": {
+                      "op": "OpAdd",
+                      "lhs": {
+                        "autoTimeSinceLast": {
+                          "autoType": "MainHandAuto"
+                        }
+                      },
+                      "rhs": {
+                        "max": {
+                          "vals": [
+                            {
+                              "gcdTimeToReady": {}
+                            },
+                            {
+                              "spellTimeToReady": {
+                                "spellId": {
+                                  "spellId": 15208
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "rhs": {
+                    "const": {
+                      "val": "0.4s"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "action": {
+        "castSpell": {
+          "spellId": {
+            "spellId": 25361
+          }
+        },
+        "condition": {
+          "and": {
+            "vals": [
+              {
+                "cmp": {
+                  "op": "OpGe",
+                  "lhs": {
+                    "autoTimeToNext": {
+                      "autoType": "MainHandAuto"
+                    }
+                  },
+                  "rhs": {
+                    "math": {
+                      "op": "OpAdd",
+                      "lhs": {
+                        "spellGcdHastedDuration": {
+                          "spellId": {
+                            "spellId": 25361
+                          }
+                        }
+                      },
+                      "rhs": {
+                        "max": {
+                          "vals": [
+                            {
+                              "gcdTimeToReady": {}
+                            },
+                            {
+                              "spellTimeToReady": {
+                                "spellId": {
+                                  "spellId": 25361
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "not": {
+                  "val": {
+                    "and": {
+                      "vals": [
+                        {
+                          "cmp": {
+                            "op": "OpLe",
+                            "lhs": {
+                              "autoTimeSinceLast": {
+                                "autoType": "MainHandAuto"
+                              }
+                            },
+                            "rhs": {
+                              "const": {
+                                "val": "0.4s"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "or": {
+                            "vals": [
+                              {
+                                "and": {
+                                  "vals": [
+                                    {
+                                      "dotIsActive": {
+                                        "spellId": {
+                                          "spellId": 29228
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "spellCanCast": {
+                                        "spellId": {
+                                          "spellId": 1326047
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "spellCanCast": {
+                                  "spellId": {
+                                    "spellId": 15208
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "cmp": {
+                  "op": "OpLe",
+                  "lhs": {
+                    "totemRemainingTime": {
+                      "totemType": "Earth"
+                    }
+                  },
+                  "rhs": {
+                    "const": {
+                      "val": "0s"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "action": {
+        "castSpell": {
+          "spellId": {
+            "spellId": 25359
+          }
+        },
+        "condition": {
+          "and": {
+            "vals": [
+              {
+                "cmp": {
+                  "op": "OpGe",
+                  "lhs": {
+                    "autoTimeToNext": {
+                      "autoType": "MainHandAuto"
+                    }
+                  },
+                  "rhs": {
+                    "math": {
+                      "op": "OpAdd",
+                      "lhs": {
+                        "spellGcdHastedDuration": {
+                          "spellId": {
+                            "spellId": 25359
+                          }
+                        }
+                      },
+                      "rhs": {
+                        "max": {
+                          "vals": [
+                            {
+                              "gcdTimeToReady": {}
+                            },
+                            {
+                              "spellTimeToReady": {
+                                "spellId": {
+                                  "spellId": 25359
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "not": {
+                  "val": {
+                    "and": {
+                      "vals": [
+                        {
+                          "cmp": {
+                            "op": "OpLe",
+                            "lhs": {
+                              "autoTimeSinceLast": {
+                                "autoType": "MainHandAuto"
+                              }
+                            },
+                            "rhs": {
+                              "const": {
+                                "val": "0.4s"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "or": {
+                            "vals": [
+                              {
+                                "and": {
+                                  "vals": [
+                                    {
+                                      "dotIsActive": {
+                                        "spellId": {
+                                          "spellId": 29228
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "spellCanCast": {
+                                        "spellId": {
+                                          "spellId": 1326047
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "spellCanCast": {
+                                  "spellId": {
+                                    "spellId": 15208
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "cmp": {
+                  "op": "OpLe",
+                  "lhs": {
+                    "totemRemainingTime": {
+                      "totemType": "Air"
+                    }
+                  },
+                  "rhs": {
+                    "const": {
+                      "val": "0s"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "action": {
+        "castSpell": {
+          "spellId": {
+            "spellId": 17364
+          }
+        },
+        "condition": {
+          "and": {
+            "vals": [
+              {
+                "cmp": {
+                  "op": "OpGe",
+                  "lhs": {
+                    "autoTimeToNext": {
+                      "autoType": "MainHandAuto"
+                    }
+                  },
+                  "rhs": {
+                    "math": {
+                      "op": "OpAdd",
+                      "lhs": {
+                        "spellGcdHastedDuration": {
+                          "spellId": {
+                            "spellId": 17364
+                          }
+                        }
+                      },
+                      "rhs": {
+                        "max": {
+                          "vals": [
+                            {
+                              "gcdTimeToReady": {}
+                            },
+                            {
+                              "spellTimeToReady": {
+                                "spellId": {
+                                  "spellId": 17364
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "not": {
+                  "val": {
+                    "and": {
+                      "vals": [
+                        {
+                          "cmp": {
+                            "op": "OpLe",
+                            "lhs": {
+                              "autoTimeSinceLast": {
+                                "autoType": "MainHandAuto"
+                              }
+                            },
+                            "rhs": {
+                              "const": {
+                                "val": "0.4s"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "or": {
+                            "vals": [
+                              {
+                                "and": {
+                                  "vals": [
+                                    {
+                                      "dotIsActive": {
+                                        "spellId": {
+                                          "spellId": 29228
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "spellCanCast": {
+                                        "spellId": {
+                                          "spellId": 1326047
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "spellCanCast": {
+                                  "spellId": {
+                                    "spellId": 15208
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "action": {
+        "castSpell": {
+          "spellId": {
+            "spellId": 29228
+          }
+        },
+        "condition": {
+          "and": {
+            "vals": [
+              {
+                "cmp": {
+                  "op": "OpGe",
+                  "lhs": {
+                    "autoTimeToNext": {
+                      "autoType": "MainHandAuto"
+                    }
+                  },
+                  "rhs": {
+                    "math": {
+                      "op": "OpAdd",
+                      "lhs": {
+                        "spellGcdHastedDuration": {
+                          "spellId": {
+                            "spellId": 29228
+                          }
+                        }
+                      },
+                      "rhs": {
+                        "max": {
+                          "vals": [
+                            {
+                              "gcdTimeToReady": {}
+                            },
+                            {
+                              "spellTimeToReady": {
+                                "spellId": {
+                                  "spellId": 29228
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "not": {
+                  "val": {
+                    "and": {
+                      "vals": [
+                        {
+                          "cmp": {
+                            "op": "OpLe",
+                            "lhs": {
+                              "autoTimeSinceLast": {
+                                "autoType": "MainHandAuto"
+                              }
+                            },
+                            "rhs": {
+                              "const": {
+                                "val": "0.4s"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "or": {
+                            "vals": [
+                              {
+                                "and": {
+                                  "vals": [
+                                    {
+                                      "dotIsActive": {
+                                        "spellId": {
+                                          "spellId": 29228
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "spellCanCast": {
+                                        "spellId": {
+                                          "spellId": 1326047
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "spellCanCast": {
+                                  "spellId": {
+                                    "spellId": 15208
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "not": {
+                  "val": {
+                    "dotIsActive": {
+                      "spellId": {
+                        "spellId": 29228
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "action": {
+        "castSpell": {
+          "spellId": {
+            "spellId": 10414
+          }
+        },
+        "condition": {
+          "and": {
+            "vals": [
+              {
+                "cmp": {
+                  "op": "OpGe",
+                  "lhs": {
+                    "autoTimeToNext": {
+                      "autoType": "MainHandAuto"
+                    }
+                  },
+                  "rhs": {
+                    "math": {
+                      "op": "OpAdd",
+                      "lhs": {
+                        "spellGcdHastedDuration": {
+                          "spellId": {
+                            "spellId": 10414
+                          }
+                        }
+                      },
+                      "rhs": {
+                        "max": {
+                          "vals": [
+                            {
+                              "gcdTimeToReady": {}
+                            },
+                            {
+                              "spellTimeToReady": {
+                                "spellId": {
+                                  "spellId": 10414
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "not": {
+                  "val": {
+                    "and": {
+                      "vals": [
+                        {
+                          "cmp": {
+                            "op": "OpLe",
+                            "lhs": {
+                              "autoTimeSinceLast": {
+                                "autoType": "MainHandAuto"
+                              }
+                            },
+                            "rhs": {
+                              "const": {
+                                "val": "0.4s"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "or": {
+                            "vals": [
+                              {
+                                "and": {
+                                  "vals": [
+                                    {
+                                      "dotIsActive": {
+                                        "spellId": {
+                                          "spellId": 29228
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "spellCanCast": {
+                                        "spellId": {
+                                          "spellId": 1326047
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "spellCanCast": {
+                                  "spellId": {
+                                    "spellId": 15208
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "action": {
+        "castSpell": {
+          "spellId": {
+            "spellId": 10438
+          }
+        },
+        "condition": {
+          "and": {
+            "vals": [
+              {
+                "cmp": {
+                  "op": "OpGe",
+                  "lhs": {
+                    "autoTimeToNext": {
+                      "autoType": "MainHandAuto"
+                    }
+                  },
+                  "rhs": {
+                    "math": {
+                      "op": "OpAdd",
+                      "lhs": {
+                        "spellGcdHastedDuration": {
+                          "spellId": {
+                            "spellId": 10438
+                          }
+                        }
+                      },
+                      "rhs": {
+                        "max": {
+                          "vals": [
+                            {
+                              "gcdTimeToReady": {}
+                            },
+                            {
+                              "spellTimeToReady": {
+                                "spellId": {
+                                  "spellId": 10438
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "not": {
+                  "val": {
+                    "and": {
+                      "vals": [
+                        {
+                          "cmp": {
+                            "op": "OpLe",
+                            "lhs": {
+                              "autoTimeSinceLast": {
+                                "autoType": "MainHandAuto"
+                              }
+                            },
+                            "rhs": {
+                              "const": {
+                                "val": "0.4s"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "or": {
+                            "vals": [
+                              {
+                                "and": {
+                                  "vals": [
+                                    {
+                                      "dotIsActive": {
+                                        "spellId": {
+                                          "spellId": 29228
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "spellCanCast": {
+                                        "spellId": {
+                                          "spellId": 1326047
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "spellCanCast": {
+                                  "spellId": {
+                                    "spellId": 15208
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "and": {
+                  "vals": [
+                    {
+                      "cmp": {
+                        "op": "OpLe",
+                        "lhs": {
+                          "totemRemainingTime": {
+                            "totemType": "Fire"
+                          }
+                        },
+                        "rhs": {
+                          "const": {
+                            "val": "0s"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "cmp": {
+                        "op": "OpGe",
+                        "lhs": {
+                          "remainingTime": {}
+                        },
+                        "rhs": {
+                          "const": {
+                            "val": "20s"
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
