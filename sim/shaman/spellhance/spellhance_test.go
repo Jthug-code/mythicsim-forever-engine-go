@@ -62,6 +62,20 @@ var (
 	elePresetLaunch = "../../../ui/specs/shaman/elemental/gear_sets/launch.gear.json"
 )
 
+// The repo's Forever launch-gear presets by name, with the consumables of the preset they come from.
+// The Enhancement preset pairs two one-handers, and the engine dual-wields them, but shamans can't
+// dual wield in Forever (2026-10-27; docs/forever_rules.md says otherwise). "enh_launch_1h"
+// is that preset without its off-hand weapon, Premier High Warlord's Left Claw (272598).
+var launchGear = map[string]struct {
+	file     string
+	consumes func() *proto.ConsumesSpec
+	drop     int32
+}{
+	"enh_launch":    {enhPresetLaunch, enhConsumes, 0},
+	"enh_launch_1h": {enhPresetLaunch, enhConsumes, 272598},
+	"ele_launch":    {elePresetLaunch, casterConsumes, 0},
+}
+
 // The preset consumables (presets.ts): the Elemental ones go with the caster set, the Enhancement
 // ones with the Enhancement set.
 func casterConsumes() *proto.ConsumesSpec {
@@ -139,6 +153,14 @@ func (r run) request() *proto.RaidSimRequest {
 				stats.MeleeHasteRating: -set.MeleeHaste,
 			}.ToProtoArray()}
 		}
+	} else if launch, ok := launchGear[r.Gear]; ok {
+		player.Equipment = core.EquipmentSpecFromJsonString(readFile(launch.file))
+		for i, item := range player.Equipment.Items {
+			if launch.drop != 0 && item.Id == launch.drop {
+				player.Equipment.Items[i] = &proto.ItemSpec{}
+			}
+		}
+		player.Consumables = launch.consumes()
 	} else {
 		player.Equipment = core.EquipmentSpecFromJsonString(readFile(r.Gear))
 	}
@@ -273,7 +295,7 @@ func parseLog(t *testing.T, logs string) (casts []logCast, swings []float64, har
 // The weave rotations play the SpellhanceWeaveHelper light: a hard cast starts in the 0.4 s after
 // the swing timer restarts, no sooner than the reaction time (after a swing for the weave, after a
 // swing or a completed hard cast for the bolt chain), and an instant goes only when its GCD ends
-// before the next swing.
+// before the next swing, unless the weapon swings faster than a GCD plus the window.
 func TestWeaveRotationsFollowTheLight(t *testing.T) {
 	const eps = 0.011 // the log's two decimals
 	for _, c := range []struct {
@@ -318,7 +340,9 @@ func TestWeaveRotationsFollowTheLight(t *testing.T) {
 				instants++
 				for _, s := range swings {
 					if s > c.at+eps {
-						if c.at+c.gcd > s+eps {
+						// A swing shorter than the GCD plus the window leaves no WAIT: any instant crosses it.
+						fast := s-last(swings, c.at) < c.gcd+0.4-eps
+						if c.at+c.gcd > s+eps && !fast {
 							t.Errorf("%s, %d ms: %d at %.2f has a %.3f s GCD past the swing at %.2f", b.Label, reactionMs, c.spellID, c.at, c.gcd, s)
 						}
 						break
@@ -375,4 +399,15 @@ func TestMaelstromAtTenCastsTwice(t *testing.T) {
 		return
 	}
 	t.Error("no Lightning Bolt cast")
+}
+
+// The one-hand Enhancement launch gear has no off-hand weapon, so it does not dual-wield.
+func TestEnhLaunchOneHandDoesNotDualWield(t *testing.T) {
+	for gearName, want := range map[string]bool{"enh_launch": true, "enh_launch_1h": false} {
+		sim := core.NewSim(run{Build: enhPreset, Gear: gearName, Duration: time.Minute, ReactionMs: 150}.request(), simsignals.CreateSignals())
+		sim.Reset()
+		if got := sim.Raid.Parties[0].Players[0].GetCharacter().AutoAttacks.IsDualWielding; got != want {
+			t.Errorf("%s: dual wielding %v, want %v", gearName, got, want)
+		}
+	}
 }

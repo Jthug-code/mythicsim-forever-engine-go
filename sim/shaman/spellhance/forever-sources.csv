@@ -1,0 +1,517 @@
+build,gear,set_bonuses,duration_s,reaction_ms,haste,source,school,dps,share
+29/22 weave,ele_launch,false,120,150,on,Lightning Bolt,spell,81.8,0.237
+29/22 weave,ele_launch,false,120,150,on,Melee swing,physical,75.6,0.219
+29/22 weave,ele_launch,false,120,150,on,Windfury Attack,physical,40.6,0.118
+29/22 weave,ele_launch,false,120,150,on,Lava Burst,spell,33.3,0.096
+29/22 weave,ele_launch,false,120,150,on,Flame Shock (ticks),spell,28.7,0.083
+29/22 weave,ele_launch,false,120,150,on,Earth Shock,spell,26.9,0.078
+29/22 weave,ele_launch,false,120,150,on,Searing Totem,spell,25.5,0.074
+29/22 weave,ele_launch,false,120,150,on,Stormstrike (weapon strike),physical,16.8,0.049
+29/22 weave,ele_launch,false,120,150,on,Flame Shock (hit),spell,12.2,0.035
+29/22 weave,ele_launch,false,120,150,on,Lightning Bolt overload,spell,3.6,0.011
+29/22 weave,ele_launch,false,120,10,on,Lightning Bolt,spell,88.5,0.262
+29/22 weave,ele_launch,false,120,10,on,Melee swing,physical,73.2,0.217
+29/22 weave,ele_launch,false,120,10,on,Windfury Attack,physical,39.5,0.117
+29/22 weave,ele_launch,false,120,10,on,Lava Burst,spell,34.7,0.103
+29/22 weave,ele_launch,false,120,10,on,Searing Totem,spell,25.1,0.074
+29/22 weave,ele_launch,false,120,10,on,Earth Shock,spell,23.6,0.070
+29/22 weave,ele_launch,false,120,10,on,Flame Shock (ticks),spell,23.5,0.070
+29/22 weave,ele_launch,false,120,10,on,Stormstrike (weapon strike),physical,15.6,0.046
+29/22 weave,ele_launch,false,120,10,on,Flame Shock (hit),spell,9.9,0.029
+29/22 weave,ele_launch,false,120,10,on,Lightning Bolt overload,spell,4.1,0.012
+29/22 weave,ele_launch,false,300,150,on,Melee swing,physical,89.4,0.339
+29/22 weave,ele_launch,false,300,150,on,Windfury Attack,physical,45.5,0.172
+29/22 weave,ele_launch,false,300,150,on,Lightning Bolt,spell,38.1,0.144
+29/22 weave,ele_launch,false,300,150,on,Searing Totem,spell,25.2,0.095
+29/22 weave,ele_launch,false,300,150,on,Flame Shock (ticks),spell,17.3,0.065
+29/22 weave,ele_launch,false,300,150,on,Stormstrike (weapon strike),physical,15.2,0.057
+29/22 weave,ele_launch,false,300,150,on,Lava Burst,spell,13.8,0.052
+29/22 weave,ele_launch,false,300,150,on,Earth Shock,spell,10.7,0.041
+29/22 weave,ele_launch,false,300,150,on,Flame Shock (hit),spell,7.1,0.027
+29/22 weave,ele_launch,false,300,150,on,Lightning Bolt overload,spell,1.7,0.006
+29/22 weave,ele_launch,false,300,10,on,Melee swing,physical,88.2,0.339
+29/22 weave,ele_launch,false,300,10,on,Windfury Attack,physical,45.0,0.173
+29/22 weave,ele_launch,false,300,10,on,Lightning Bolt,spell,42.0,0.161
+29/22 weave,ele_launch,false,300,10,on,Searing Totem,spell,24.9,0.096
+29/22 weave,ele_launch,false,300,10,on,Stormstrike (weapon strike),physical,14.6,0.056
+29/22 weave,ele_launch,false,300,10,on,Lava Burst,spell,14.3,0.055
+29/22 weave,ele_launch,false,300,10,on,Flame Shock (ticks),spell,13.9,0.053
+29/22 weave,ele_launch,false,300,10,on,Earth Shock,spell,9.4,0.036
+29/22 weave,ele_launch,false,300,10,on,Flame Shock (hit),spell,5.8,0.022
+29/22 weave,ele_launch,false,300,10,on,Lightning Bolt overload,spell,2.0,0.008
+29/22 weave + CL,ele_launch,false,120,150,on,Melee swing,physical,75.9,0.241
+29/22 weave + CL,ele_launch,false,120,150,on,Lightning Bolt,spell,47.5,0.151
+29/22 weave + CL,ele_launch,false,120,150,on,Windfury Attack,physical,40.5,0.128
+29/22 weave + CL,ele_launch,false,120,150,on,Lava Burst,spell,31.8,0.101
+29/22 weave + CL,ele_launch,false,120,150,on,Chain Lightning,spell,28.2,0.089
+29/22 weave + CL,ele_launch,false,120,150,on,Searing Totem,spell,24.7,0.078
+29/22 weave + CL,ele_launch,false,120,150,on,Flame Shock (ticks),spell,21.8,0.069
+29/22 weave + CL,ele_launch,false,120,150,on,Earth Shock,spell,18.0,0.057
+29/22 weave + CL,ele_launch,false,120,150,on,Stormstrike (weapon strike),physical,15.2,0.048
+29/22 weave + CL,ele_launch,false,120,150,on,Flame Shock (hit),spell,9.3,0.029
+29/22 weave + CL,ele_launch,false,120,150,on,Lightning Bolt overload,spell,2.3,0.007
+29/22 weave + CL,ele_launch,false,120,150,on,Chain Lightning overload,spell,0.4,0.001
+29/22 weave + CL,ele_launch,false,120,10,on,Melee swing,physical,76.2,0.242
+29/22 weave + CL,ele_launch,false,120,10,on,Lightning Bolt,spell,48.8,0.155
+29/22 weave + CL,ele_launch,false,120,10,on,Windfury Attack,physical,40.5,0.128
+29/22 weave + CL,ele_launch,false,120,10,on,Lava Burst,spell,31.2,0.099
+29/22 weave + CL,ele_launch,false,120,10,on,Chain Lightning,spell,28.9,0.092
+29/22 weave + CL,ele_launch,false,120,10,on,Searing Totem,spell,24.5,0.078
+29/22 weave + CL,ele_launch,false,120,10,on,Flame Shock (ticks),spell,21.5,0.068
+29/22 weave + CL,ele_launch,false,120,10,on,Earth Shock,spell,17.0,0.054
+29/22 weave + CL,ele_launch,false,120,10,on,Stormstrike (weapon strike),physical,14.9,0.047
+29/22 weave + CL,ele_launch,false,120,10,on,Flame Shock (hit),spell,9.2,0.029
+29/22 weave + CL,ele_launch,false,120,10,on,Lightning Bolt overload,spell,2.3,0.007
+29/22 weave + CL,ele_launch,false,120,10,on,Chain Lightning overload,spell,0.4,0.001
+29/22 weave + CL,ele_launch,false,300,150,on,Melee swing,physical,89.5,0.355
+29/22 weave + CL,ele_launch,false,300,150,on,Windfury Attack,physical,45.5,0.181
+29/22 weave + CL,ele_launch,false,300,150,on,Searing Totem,spell,24.7,0.098
+29/22 weave + CL,ele_launch,false,300,150,on,Lightning Bolt,spell,24.3,0.096
+29/22 weave + CL,ele_launch,false,300,150,on,Stormstrike (weapon strike),physical,14.6,0.058
+29/22 weave + CL,ele_launch,false,300,150,on,Flame Shock (ticks),spell,14.4,0.057
+29/22 weave + CL,ele_launch,false,300,150,on,Lava Burst,spell,13.3,0.053
+29/22 weave + CL,ele_launch,false,300,150,on,Chain Lightning,spell,11.3,0.045
+29/22 weave + CL,ele_launch,false,300,150,on,Earth Shock,spell,7.2,0.029
+29/22 weave + CL,ele_launch,false,300,150,on,Flame Shock (hit),spell,6.0,0.024
+29/22 weave + CL,ele_launch,false,300,150,on,Lightning Bolt overload,spell,1.1,0.004
+29/22 weave + CL,ele_launch,false,300,150,on,Chain Lightning overload,spell,0.2,0.001
+29/22 weave + CL,ele_launch,false,300,10,on,Melee swing,physical,89.4,0.356
+29/22 weave + CL,ele_launch,false,300,10,on,Windfury Attack,physical,45.4,0.181
+29/22 weave + CL,ele_launch,false,300,10,on,Lightning Bolt,spell,25.9,0.103
+29/22 weave + CL,ele_launch,false,300,10,on,Searing Totem,spell,24.6,0.098
+29/22 weave + CL,ele_launch,false,300,10,on,Stormstrike (weapon strike),physical,14.4,0.057
+29/22 weave + CL,ele_launch,false,300,10,on,Flame Shock (ticks),spell,13.2,0.053
+29/22 weave + CL,ele_launch,false,300,10,on,Lava Burst,spell,13.0,0.052
+29/22 weave + CL,ele_launch,false,300,10,on,Chain Lightning,spell,11.6,0.046
+29/22 weave + CL,ele_launch,false,300,10,on,Earth Shock,spell,6.8,0.027
+29/22 weave + CL,ele_launch,false,300,10,on,Flame Shock (hit),spell,5.5,0.022
+29/22 weave + CL,ele_launch,false,300,10,on,Lightning Bolt overload,spell,1.2,0.005
+29/22 weave + CL,ele_launch,false,300,10,on,Chain Lightning overload,spell,0.2,0.001
+29/22 bolt-chain,ele_launch,false,120,150,on,Lightning Bolt,spell,106.3,0.322
+29/22 bolt-chain,ele_launch,false,120,150,on,Melee swing,physical,67.4,0.204
+29/22 bolt-chain,ele_launch,false,120,150,on,Windfury Attack,physical,36.2,0.109
+29/22 bolt-chain,ele_launch,false,120,150,on,Lava Burst,spell,31.6,0.096
+29/22 bolt-chain,ele_launch,false,120,150,on,Flame Shock (ticks),spell,24.0,0.073
+29/22 bolt-chain,ele_launch,false,120,150,on,Searing Totem,spell,24.0,0.073
+29/22 bolt-chain,ele_launch,false,120,150,on,Stormstrike (weapon strike),physical,14.9,0.045
+29/22 bolt-chain,ele_launch,false,120,150,on,Earth Shock,spell,11.1,0.034
+29/22 bolt-chain,ele_launch,false,120,150,on,Flame Shock (hit),spell,10.0,0.030
+29/22 bolt-chain,ele_launch,false,120,150,on,Lightning Bolt overload,spell,5.0,0.015
+29/22 bolt-chain,ele_launch,false,120,10,on,Lightning Bolt,spell,106.7,0.321
+29/22 bolt-chain,ele_launch,false,120,10,on,Melee swing,physical,68.6,0.207
+29/22 bolt-chain,ele_launch,false,120,10,on,Windfury Attack,physical,36.5,0.110
+29/22 bolt-chain,ele_launch,false,120,10,on,Lava Burst,spell,31.5,0.095
+29/22 bolt-chain,ele_launch,false,120,10,on,Flame Shock (ticks),spell,24.1,0.073
+29/22 bolt-chain,ele_launch,false,120,10,on,Searing Totem,spell,23.9,0.072
+29/22 bolt-chain,ele_launch,false,120,10,on,Stormstrike (weapon strike),physical,14.8,0.045
+29/22 bolt-chain,ele_launch,false,120,10,on,Earth Shock,spell,10.8,0.033
+29/22 bolt-chain,ele_launch,false,120,10,on,Flame Shock (hit),spell,10.2,0.031
+29/22 bolt-chain,ele_launch,false,120,10,on,Lightning Bolt overload,spell,4.9,0.015
+29/22 bolt-chain,ele_launch,false,300,150,on,Melee swing,physical,86.0,0.334
+29/22 bolt-chain,ele_launch,false,300,150,on,Lightning Bolt,spell,48.5,0.188
+29/22 bolt-chain,ele_launch,false,300,150,on,Windfury Attack,physical,43.7,0.170
+29/22 bolt-chain,ele_launch,false,300,150,on,Searing Totem,spell,24.6,0.096
+29/22 bolt-chain,ele_launch,false,300,150,on,Flame Shock (ticks),spell,14.5,0.056
+29/22 bolt-chain,ele_launch,false,300,150,on,Stormstrike (weapon strike),physical,14.5,0.056
+29/22 bolt-chain,ele_launch,false,300,150,on,Lava Burst,spell,13.2,0.051
+29/22 bolt-chain,ele_launch,false,300,150,on,Flame Shock (hit),spell,6.0,0.023
+29/22 bolt-chain,ele_launch,false,300,150,on,Earth Shock,spell,4.5,0.017
+29/22 bolt-chain,ele_launch,false,300,150,on,Lightning Bolt overload,spell,2.3,0.009
+29/22 bolt-chain,ele_launch,false,300,10,on,Melee swing,physical,86.2,0.335
+29/22 bolt-chain,ele_launch,false,300,10,on,Lightning Bolt,spell,49.8,0.194
+29/22 bolt-chain,ele_launch,false,300,10,on,Windfury Attack,physical,43.7,0.170
+29/22 bolt-chain,ele_launch,false,300,10,on,Searing Totem,spell,24.0,0.093
+29/22 bolt-chain,ele_launch,false,300,10,on,Stormstrike (weapon strike),physical,14.3,0.056
+29/22 bolt-chain,ele_launch,false,300,10,on,Flame Shock (ticks),spell,13.8,0.054
+29/22 bolt-chain,ele_launch,false,300,10,on,Lava Burst,spell,13.0,0.051
+29/22 bolt-chain,ele_launch,false,300,10,on,Flame Shock (hit),spell,5.7,0.022
+29/22 bolt-chain,ele_launch,false,300,10,on,Earth Shock,spell,4.3,0.017
+29/22 bolt-chain,ele_launch,false,300,10,on,Lightning Bolt overload,spell,2.3,0.009
+8/36/7 weave,ele_launch,false,120,150,on,Lightning Bolt,spell,131.3,0.379
+8/36/7 weave,ele_launch,false,120,150,on,Melee swing,physical,80.4,0.232
+8/36/7 weave,ele_launch,false,120,150,on,Windfury Attack,physical,44.3,0.128
+8/36/7 weave,ele_launch,false,120,150,on,Earth Shock,spell,22.8,0.066
+8/36/7 weave,ele_launch,false,120,150,on,Searing Totem,spell,22.6,0.065
+8/36/7 weave,ele_launch,false,120,150,on,Flame Shock (ticks),spell,17.5,0.050
+8/36/7 weave,ele_launch,false,120,150,on,Stormstrike (weapon strike),physical,15.6,0.045
+8/36/7 weave,ele_launch,false,120,150,on,Flame Shock (hit),spell,12.1,0.035
+8/36/7 weave,ele_launch,false,120,10,on,Lightning Bolt,spell,133.7,0.382
+8/36/7 weave,ele_launch,false,120,10,on,Melee swing,physical,81.8,0.234
+8/36/7 weave,ele_launch,false,120,10,on,Windfury Attack,physical,45.0,0.128
+8/36/7 weave,ele_launch,false,120,10,on,Searing Totem,spell,22.6,0.065
+8/36/7 weave,ele_launch,false,120,10,on,Earth Shock,spell,22.2,0.063
+8/36/7 weave,ele_launch,false,120,10,on,Flame Shock (ticks),spell,17.3,0.050
+8/36/7 weave,ele_launch,false,120,10,on,Stormstrike (weapon strike),physical,15.5,0.044
+8/36/7 weave,ele_launch,false,120,10,on,Flame Shock (hit),spell,12.1,0.034
+8/36/7 weave,ele_launch,false,300,150,on,Melee swing,physical,94.9,0.335
+8/36/7 weave,ele_launch,false,300,150,on,Lightning Bolt,spell,94.8,0.334
+8/36/7 weave,ele_launch,false,300,150,on,Windfury Attack,physical,49.5,0.174
+8/36/7 weave,ele_launch,false,300,150,on,Stormstrike (weapon strike),physical,13.1,0.046
+8/36/7 weave,ele_launch,false,300,150,on,Searing Totem,spell,10.5,0.037
+8/36/7 weave,ele_launch,false,300,150,on,Earth Shock,spell,9.1,0.032
+8/36/7 weave,ele_launch,false,300,150,on,Flame Shock (ticks),spell,7.0,0.025
+8/36/7 weave,ele_launch,false,300,150,on,Flame Shock (hit),spell,4.9,0.017
+8/36/7 weave,ele_launch,false,300,10,on,Lightning Bolt,spell,96.5,0.338
+8/36/7 weave,ele_launch,false,300,10,on,Melee swing,physical,95.7,0.335
+8/36/7 weave,ele_launch,false,300,10,on,Windfury Attack,physical,49.7,0.174
+8/36/7 weave,ele_launch,false,300,10,on,Stormstrike (weapon strike),physical,12.9,0.045
+8/36/7 weave,ele_launch,false,300,10,on,Searing Totem,spell,10.2,0.036
+8/36/7 weave,ele_launch,false,300,10,on,Earth Shock,spell,8.9,0.031
+8/36/7 weave,ele_launch,false,300,10,on,Flame Shock (ticks),spell,6.9,0.024
+8/36/7 weave,ele_launch,false,300,10,on,Flame Shock (hit),spell,4.8,0.017
+8/36/7 no hard casts,ele_launch,false,120,150,on,Melee swing,physical,120.1,0.305
+8/36/7 no hard casts,ele_launch,false,120,150,on,Earth Shock,spell,68.9,0.175
+8/36/7 no hard casts,ele_launch,false,120,150,on,Windfury Attack,physical,61.0,0.155
+8/36/7 no hard casts,ele_launch,false,120,150,on,Lightning Bolt,spell,48.8,0.124
+8/36/7 no hard casts,ele_launch,false,120,150,on,Flame Shock (ticks),spell,30.8,0.078
+8/36/7 no hard casts,ele_launch,false,120,150,on,Searing Totem,spell,22.9,0.058
+8/36/7 no hard casts,ele_launch,false,120,150,on,Flame Shock (hit),spell,22.6,0.057
+8/36/7 no hard casts,ele_launch,false,120,150,on,Stormstrike (weapon strike),physical,19.0,0.048
+8/36/7 no hard casts,ele_launch,false,120,10,on,Melee swing,physical,120.2,0.305
+8/36/7 no hard casts,ele_launch,false,120,10,on,Earth Shock,spell,68.6,0.174
+8/36/7 no hard casts,ele_launch,false,120,10,on,Windfury Attack,physical,60.9,0.154
+8/36/7 no hard casts,ele_launch,false,120,10,on,Lightning Bolt,spell,49.1,0.125
+8/36/7 no hard casts,ele_launch,false,120,10,on,Flame Shock (ticks),spell,30.9,0.078
+8/36/7 no hard casts,ele_launch,false,120,10,on,Searing Totem,spell,22.9,0.058
+8/36/7 no hard casts,ele_launch,false,120,10,on,Flame Shock (hit),spell,22.8,0.058
+8/36/7 no hard casts,ele_launch,false,120,10,on,Stormstrike (weapon strike),physical,19.0,0.048
+8/36/7 no hard casts,ele_launch,false,300,150,on,Melee swing,physical,116.4,0.363
+8/36/7 no hard casts,ele_launch,false,300,150,on,Windfury Attack,physical,58.7,0.183
+8/36/7 no hard casts,ele_launch,false,300,150,on,Lightning Bolt,spell,49.2,0.153
+8/36/7 no hard casts,ele_launch,false,300,150,on,Earth Shock,spell,27.4,0.085
+8/36/7 no hard casts,ele_launch,false,300,150,on,Searing Totem,spell,22.4,0.070
+8/36/7 no hard casts,ele_launch,false,300,150,on,Flame Shock (ticks),spell,17.6,0.055
+8/36/7 no hard casts,ele_launch,false,300,150,on,Stormstrike (weapon strike),physical,16.8,0.052
+8/36/7 no hard casts,ele_launch,false,300,150,on,Flame Shock (hit),spell,12.5,0.039
+8/36/7 no hard casts,ele_launch,false,300,10,on,Melee swing,physical,116.4,0.362
+8/36/7 no hard casts,ele_launch,false,300,10,on,Windfury Attack,physical,58.6,0.183
+8/36/7 no hard casts,ele_launch,false,300,10,on,Lightning Bolt,spell,49.4,0.154
+8/36/7 no hard casts,ele_launch,false,300,10,on,Earth Shock,spell,27.3,0.085
+8/36/7 no hard casts,ele_launch,false,300,10,on,Searing Totem,spell,22.4,0.070
+8/36/7 no hard casts,ele_launch,false,300,10,on,Flame Shock (ticks),spell,17.7,0.055
+8/36/7 no hard casts,ele_launch,false,300,10,on,Stormstrike (weapon strike),physical,16.8,0.052
+8/36/7 no hard casts,ele_launch,false,300,10,on,Flame Shock (hit),spell,12.6,0.039
+Ele preset 32/0/19,ele_launch,false,120,150,on,Lightning Bolt rank 4,spell,177.7,0.444
+Ele preset 32/0/19,ele_launch,false,120,150,on,Lava Burst,spell,62.5,0.156
+Ele preset 32/0/19,ele_launch,false,120,150,on,Lightning Bolt,spell,39.4,0.099
+Ele preset 32/0/19,ele_launch,false,120,150,on,Flame Shock (ticks),spell,38.3,0.096
+Ele preset 32/0/19,ele_launch,false,120,150,on,Searing Totem,spell,26.9,0.067
+Ele preset 32/0/19,ele_launch,false,120,150,on,Flame Shock (hit),spell,16.4,0.041
+Ele preset 32/0/19,ele_launch,false,120,150,on,Chain Lightning,spell,14.4,0.036
+Ele preset 32/0/19,ele_launch,false,120,150,on,Fire Nova,spell,14.3,0.036
+Ele preset 32/0/19,ele_launch,false,120,150,on,Lightning Bolt rank 4 overload,spell,8.3,0.021
+Ele preset 32/0/19,ele_launch,false,120,150,on,Lightning Bolt overload,spell,1.8,0.005
+Ele preset 32/0/19,ele_launch,false,120,150,on,Chain Lightning overload,spell,0.2,0.001
+Ele preset 32/0/19,ele_launch,false,120,10,on,Lightning Bolt rank 4,spell,177.8,0.444
+Ele preset 32/0/19,ele_launch,false,120,10,on,Lava Burst,spell,62.5,0.156
+Ele preset 32/0/19,ele_launch,false,120,10,on,Lightning Bolt,spell,39.4,0.098
+Ele preset 32/0/19,ele_launch,false,120,10,on,Flame Shock (ticks),spell,38.3,0.096
+Ele preset 32/0/19,ele_launch,false,120,10,on,Searing Totem,spell,26.9,0.067
+Ele preset 32/0/19,ele_launch,false,120,10,on,Flame Shock (hit),spell,16.4,0.041
+Ele preset 32/0/19,ele_launch,false,120,10,on,Chain Lightning,spell,14.3,0.036
+Ele preset 32/0/19,ele_launch,false,120,10,on,Fire Nova,spell,14.3,0.036
+Ele preset 32/0/19,ele_launch,false,120,10,on,Lightning Bolt rank 4 overload,spell,8.3,0.021
+Ele preset 32/0/19,ele_launch,false,120,10,on,Lightning Bolt overload,spell,1.8,0.005
+Ele preset 32/0/19,ele_launch,false,120,10,on,Chain Lightning overload,spell,0.2,0.001
+Ele preset 32/0/19,ele_launch,false,300,150,on,Lightning Bolt rank 4,spell,207.9,0.639
+Ele preset 32/0/19,ele_launch,false,300,150,on,Lava Burst,spell,36.2,0.111
+Ele preset 32/0/19,ele_launch,false,300,150,on,Flame Shock (ticks),spell,28.7,0.088
+Ele preset 32/0/19,ele_launch,false,300,150,on,Searing Totem,spell,13.5,0.041
+Ele preset 32/0/19,ele_launch,false,300,150,on,Flame Shock (hit),spell,12.0,0.037
+Ele preset 32/0/19,ele_launch,false,300,150,on,Lightning Bolt rank 4 overload,spell,9.6,0.030
+Ele preset 32/0/19,ele_launch,false,300,150,on,Chain Lightning,spell,8.0,0.025
+Ele preset 32/0/19,ele_launch,false,300,150,on,Fire Nova,spell,7.0,0.021
+Ele preset 32/0/19,ele_launch,false,300,150,on,Lightning Bolt,spell,2.4,0.008
+Ele preset 32/0/19,ele_launch,false,300,150,on,Chain Lightning overload,spell,0.1,0.000
+Ele preset 32/0/19,ele_launch,false,300,150,on,Lightning Bolt overload,spell,0.1,0.000
+Ele preset 32/0/19,ele_launch,false,300,10,on,Lightning Bolt rank 4,spell,208.0,0.638
+Ele preset 32/0/19,ele_launch,false,300,10,on,Lava Burst,spell,36.2,0.111
+Ele preset 32/0/19,ele_launch,false,300,10,on,Flame Shock (ticks),spell,28.7,0.088
+Ele preset 32/0/19,ele_launch,false,300,10,on,Searing Totem,spell,13.5,0.041
+Ele preset 32/0/19,ele_launch,false,300,10,on,Flame Shock (hit),spell,12.0,0.037
+Ele preset 32/0/19,ele_launch,false,300,10,on,Lightning Bolt rank 4 overload,spell,9.6,0.030
+Ele preset 32/0/19,ele_launch,false,300,10,on,Chain Lightning,spell,8.0,0.025
+Ele preset 32/0/19,ele_launch,false,300,10,on,Fire Nova,spell,7.0,0.021
+Ele preset 32/0/19,ele_launch,false,300,10,on,Lightning Bolt,spell,2.4,0.008
+Ele preset 32/0/19,ele_launch,false,300,10,on,Chain Lightning overload,spell,0.1,0.000
+Ele preset 32/0/19,ele_launch,false,300,10,on,Lightning Bolt overload,spell,0.1,0.000
+29/22 weave,enh_launch_1h,false,120,150,on,Melee swing,physical,129.5,0.371
+29/22 weave,enh_launch_1h,false,120,150,on,Windfury Attack,physical,82.7,0.237
+29/22 weave,enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,39.2,0.112
+29/22 weave,enh_launch_1h,false,120,150,on,Lightning Bolt,spell,31.9,0.091
+29/22 weave,enh_launch_1h,false,120,150,on,Searing Totem,spell,23.2,0.066
+29/22 weave,enh_launch_1h,false,120,150,on,Lava Burst,spell,11.1,0.032
+29/22 weave,enh_launch_1h,false,120,150,on,Flame Shock (ticks),spell,9.4,0.027
+29/22 weave,enh_launch_1h,false,120,150,on,Earth Shock,spell,9.1,0.026
+29/22 weave,enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,7.2,0.021
+29/22 weave,enh_launch_1h,false,120,150,on,Flame Shock (hit),spell,4.5,0.013
+29/22 weave,enh_launch_1h,false,120,150,on,Lightning Bolt overload,spell,1.6,0.004
+29/22 weave,enh_launch_1h,false,120,10,on,Melee swing,physical,130.8,0.372
+29/22 weave,enh_launch_1h,false,120,10,on,Windfury Attack,physical,83.1,0.236
+29/22 weave,enh_launch_1h,false,120,10,on,Stormstrike (weapon strike),physical,39.2,0.111
+29/22 weave,enh_launch_1h,false,120,10,on,Lightning Bolt,spell,32.6,0.093
+29/22 weave,enh_launch_1h,false,120,10,on,Searing Totem,spell,23.4,0.067
+29/22 weave,enh_launch_1h,false,120,10,on,Lava Burst,spell,11.1,0.032
+29/22 weave,enh_launch_1h,false,120,10,on,Flame Shock (ticks),spell,9.3,0.026
+29/22 weave,enh_launch_1h,false,120,10,on,Earth Shock,spell,9.2,0.026
+29/22 weave,enh_launch_1h,false,120,10,on,Dragonbreath Chili,spell,7.2,0.020
+29/22 weave,enh_launch_1h,false,120,10,on,Flame Shock (hit),spell,4.4,0.013
+29/22 weave,enh_launch_1h,false,120,10,on,Lightning Bolt overload,spell,1.6,0.005
+29/22 weave,enh_launch_1h,false,300,150,on,Melee swing,physical,139.6,0.425
+29/22 weave,enh_launch_1h,false,300,150,on,Windfury Attack,physical,86.6,0.264
+29/22 weave,enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,36.8,0.112
+29/22 weave,enh_launch_1h,false,300,150,on,Searing Totem,spell,21.5,0.066
+29/22 weave,enh_launch_1h,false,300,150,on,Lightning Bolt,spell,19.0,0.058
+29/22 weave,enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,7.4,0.023
+29/22 weave,enh_launch_1h,false,300,150,on,Flame Shock (ticks),spell,5.4,0.017
+29/22 weave,enh_launch_1h,false,300,150,on,Lava Burst,spell,4.6,0.014
+29/22 weave,enh_launch_1h,false,300,150,on,Earth Shock,spell,3.7,0.011
+29/22 weave,enh_launch_1h,false,300,150,on,Flame Shock (hit),spell,2.6,0.008
+29/22 weave,enh_launch_1h,false,300,150,on,Lightning Bolt overload,spell,0.9,0.003
+29/22 weave,enh_launch_1h,false,300,10,on,Melee swing,physical,140.2,0.426
+29/22 weave,enh_launch_1h,false,300,10,on,Windfury Attack,physical,86.6,0.263
+29/22 weave,enh_launch_1h,false,300,10,on,Stormstrike (weapon strike),physical,36.5,0.111
+29/22 weave,enh_launch_1h,false,300,10,on,Searing Totem,spell,21.9,0.067
+29/22 weave,enh_launch_1h,false,300,10,on,Lightning Bolt,spell,19.6,0.059
+29/22 weave,enh_launch_1h,false,300,10,on,Dragonbreath Chili,spell,7.4,0.022
+29/22 weave,enh_launch_1h,false,300,10,on,Flame Shock (ticks),spell,5.3,0.016
+29/22 weave,enh_launch_1h,false,300,10,on,Lava Burst,spell,4.6,0.014
+29/22 weave,enh_launch_1h,false,300,10,on,Earth Shock,spell,3.7,0.011
+29/22 weave,enh_launch_1h,false,300,10,on,Flame Shock (hit),spell,2.5,0.008
+29/22 weave,enh_launch_1h,false,300,10,on,Lightning Bolt overload,spell,1.0,0.003
+29/22 weave + CL,enh_launch_1h,false,120,150,on,Melee swing,physical,132.4,0.384
+29/22 weave + CL,enh_launch_1h,false,120,150,on,Windfury Attack,physical,84.0,0.243
+29/22 weave + CL,enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,39.0,0.113
+29/22 weave + CL,enh_launch_1h,false,120,150,on,Searing Totem,spell,22.5,0.065
+29/22 weave + CL,enh_launch_1h,false,120,150,on,Lightning Bolt,spell,19.9,0.058
+29/22 weave + CL,enh_launch_1h,false,120,150,on,Lava Burst,spell,10.6,0.031
+29/22 weave + CL,enh_launch_1h,false,120,150,on,Earth Shock,spell,8.2,0.024
+29/22 weave + CL,enh_launch_1h,false,120,150,on,Flame Shock (ticks),spell,8.2,0.024
+29/22 weave + CL,enh_launch_1h,false,120,150,on,Chain Lightning,spell,8.1,0.023
+29/22 weave + CL,enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,7.3,0.021
+29/22 weave + CL,enh_launch_1h,false,120,150,on,Flame Shock (hit),spell,3.9,0.011
+29/22 weave + CL,enh_launch_1h,false,120,150,on,Lightning Bolt overload,spell,1.0,0.003
+29/22 weave + CL,enh_launch_1h,false,120,150,on,Chain Lightning overload,spell,0.1,0.000
+29/22 weave + CL,enh_launch_1h,false,120,10,on,Melee swing,physical,133.6,0.385
+29/22 weave + CL,enh_launch_1h,false,120,10,on,Windfury Attack,physical,84.1,0.242
+29/22 weave + CL,enh_launch_1h,false,120,10,on,Stormstrike (weapon strike),physical,38.9,0.112
+29/22 weave + CL,enh_launch_1h,false,120,10,on,Searing Totem,spell,23.0,0.066
+29/22 weave + CL,enh_launch_1h,false,120,10,on,Lightning Bolt,spell,20.5,0.059
+29/22 weave + CL,enh_launch_1h,false,120,10,on,Lava Burst,spell,10.5,0.030
+29/22 weave + CL,enh_launch_1h,false,120,10,on,Earth Shock,spell,8.2,0.024
+29/22 weave + CL,enh_launch_1h,false,120,10,on,Chain Lightning,spell,8.1,0.023
+29/22 weave + CL,enh_launch_1h,false,120,10,on,Flame Shock (ticks),spell,8.0,0.023
+29/22 weave + CL,enh_launch_1h,false,120,10,on,Dragonbreath Chili,spell,7.3,0.021
+29/22 weave + CL,enh_launch_1h,false,120,10,on,Flame Shock (hit),spell,3.9,0.011
+29/22 weave + CL,enh_launch_1h,false,120,10,on,Lightning Bolt overload,spell,1.0,0.003
+29/22 weave + CL,enh_launch_1h,false,120,10,on,Chain Lightning overload,spell,0.1,0.000
+29/22 weave + CL,enh_launch_1h,false,300,150,on,Melee swing,physical,140.7,0.431
+29/22 weave + CL,enh_launch_1h,false,300,150,on,Windfury Attack,physical,87.0,0.267
+29/22 weave + CL,enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,36.8,0.113
+29/22 weave + CL,enh_launch_1h,false,300,150,on,Searing Totem,spell,21.3,0.065
+29/22 weave + CL,enh_launch_1h,false,300,150,on,Lightning Bolt,spell,14.2,0.044
+29/22 weave + CL,enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,7.5,0.023
+29/22 weave + CL,enh_launch_1h,false,300,150,on,Flame Shock (ticks),spell,4.9,0.015
+29/22 weave + CL,enh_launch_1h,false,300,150,on,Lava Burst,spell,4.4,0.013
+29/22 weave + CL,enh_launch_1h,false,300,150,on,Earth Shock,spell,3.3,0.010
+29/22 weave + CL,enh_launch_1h,false,300,150,on,Chain Lightning,spell,3.3,0.010
+29/22 weave + CL,enh_launch_1h,false,300,150,on,Flame Shock (hit),spell,2.3,0.007
+29/22 weave + CL,enh_launch_1h,false,300,150,on,Lightning Bolt overload,spell,0.7,0.002
+29/22 weave + CL,enh_launch_1h,false,300,150,on,Chain Lightning overload,spell,0.1,0.000
+29/22 weave + CL,enh_launch_1h,false,300,10,on,Melee swing,physical,141.3,0.431
+29/22 weave + CL,enh_launch_1h,false,300,10,on,Windfury Attack,physical,87.0,0.266
+29/22 weave + CL,enh_launch_1h,false,300,10,on,Stormstrike (weapon strike),physical,36.5,0.111
+29/22 weave + CL,enh_launch_1h,false,300,10,on,Searing Totem,spell,21.7,0.066
+29/22 weave + CL,enh_launch_1h,false,300,10,on,Lightning Bolt,spell,14.7,0.045
+29/22 weave + CL,enh_launch_1h,false,300,10,on,Dragonbreath Chili,spell,7.5,0.023
+29/22 weave + CL,enh_launch_1h,false,300,10,on,Flame Shock (ticks),spell,4.8,0.015
+29/22 weave + CL,enh_launch_1h,false,300,10,on,Lava Burst,spell,4.4,0.013
+29/22 weave + CL,enh_launch_1h,false,300,10,on,Earth Shock,spell,3.3,0.010
+29/22 weave + CL,enh_launch_1h,false,300,10,on,Chain Lightning,spell,3.2,0.010
+29/22 weave + CL,enh_launch_1h,false,300,10,on,Flame Shock (hit),spell,2.3,0.007
+29/22 weave + CL,enh_launch_1h,false,300,10,on,Lightning Bolt overload,spell,0.7,0.002
+29/22 weave + CL,enh_launch_1h,false,300,10,on,Chain Lightning overload,spell,0.1,0.000
+29/22 bolt-chain,enh_launch_1h,false,120,150,on,Melee swing,physical,121.8,0.367
+29/22 bolt-chain,enh_launch_1h,false,120,150,on,Windfury Attack,physical,76.8,0.231
+29/22 bolt-chain,enh_launch_1h,false,120,150,on,Lightning Bolt,spell,42.1,0.127
+29/22 bolt-chain,enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,35.2,0.106
+29/22 bolt-chain,enh_launch_1h,false,120,150,on,Searing Totem,spell,23.0,0.069
+29/22 bolt-chain,enh_launch_1h,false,120,150,on,Lava Burst,spell,10.2,0.031
+29/22 bolt-chain,enh_launch_1h,false,120,150,on,Flame Shock (ticks),spell,7.2,0.022
+29/22 bolt-chain,enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,6.7,0.020
+29/22 bolt-chain,enh_launch_1h,false,120,150,on,Earth Shock,spell,3.9,0.012
+29/22 bolt-chain,enh_launch_1h,false,120,150,on,Flame Shock (hit),spell,3.4,0.010
+29/22 bolt-chain,enh_launch_1h,false,120,150,on,Lightning Bolt overload,spell,2.0,0.006
+29/22 bolt-chain,enh_launch_1h,false,120,10,on,Melee swing,physical,124.3,0.369
+29/22 bolt-chain,enh_launch_1h,false,120,10,on,Windfury Attack,physical,78.4,0.233
+29/22 bolt-chain,enh_launch_1h,false,120,10,on,Lightning Bolt,spell,41.8,0.124
+29/22 bolt-chain,enh_launch_1h,false,120,10,on,Stormstrike (weapon strike),physical,35.7,0.106
+29/22 bolt-chain,enh_launch_1h,false,120,10,on,Searing Totem,spell,23.2,0.069
+29/22 bolt-chain,enh_launch_1h,false,120,10,on,Lava Burst,spell,10.1,0.030
+29/22 bolt-chain,enh_launch_1h,false,120,10,on,Flame Shock (ticks),spell,7.0,0.021
+29/22 bolt-chain,enh_launch_1h,false,120,10,on,Dragonbreath Chili,spell,6.9,0.020
+29/22 bolt-chain,enh_launch_1h,false,120,10,on,Earth Shock,spell,4.2,0.012
+29/22 bolt-chain,enh_launch_1h,false,120,10,on,Flame Shock (hit),spell,3.3,0.010
+29/22 bolt-chain,enh_launch_1h,false,120,10,on,Lightning Bolt overload,spell,2.0,0.006
+29/22 bolt-chain,enh_launch_1h,false,300,150,on,Melee swing,physical,136.1,0.425
+29/22 bolt-chain,enh_launch_1h,false,300,150,on,Windfury Attack,physical,83.8,0.262
+29/22 bolt-chain,enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,35.3,0.110
+29/22 bolt-chain,enh_launch_1h,false,300,150,on,Lightning Bolt,spell,23.7,0.074
+29/22 bolt-chain,enh_launch_1h,false,300,150,on,Searing Totem,spell,21.4,0.067
+29/22 bolt-chain,enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,7.2,0.023
+29/22 bolt-chain,enh_launch_1h,false,300,150,on,Lava Burst,spell,4.2,0.013
+29/22 bolt-chain,enh_launch_1h,false,300,150,on,Flame Shock (ticks),spell,3.8,0.012
+29/22 bolt-chain,enh_launch_1h,false,300,150,on,Flame Shock (hit),spell,1.8,0.006
+29/22 bolt-chain,enh_launch_1h,false,300,150,on,Earth Shock,spell,1.6,0.005
+29/22 bolt-chain,enh_launch_1h,false,300,150,on,Lightning Bolt overload,spell,1.1,0.004
+29/22 bolt-chain,enh_launch_1h,false,300,10,on,Melee swing,physical,137.0,0.425
+29/22 bolt-chain,enh_launch_1h,false,300,10,on,Windfury Attack,physical,84.5,0.262
+29/22 bolt-chain,enh_launch_1h,false,300,10,on,Stormstrike (weapon strike),physical,35.2,0.109
+29/22 bolt-chain,enh_launch_1h,false,300,10,on,Lightning Bolt,spell,23.9,0.074
+29/22 bolt-chain,enh_launch_1h,false,300,10,on,Searing Totem,spell,21.8,0.068
+29/22 bolt-chain,enh_launch_1h,false,300,10,on,Dragonbreath Chili,spell,7.3,0.023
+29/22 bolt-chain,enh_launch_1h,false,300,10,on,Lava Burst,spell,4.1,0.013
+29/22 bolt-chain,enh_launch_1h,false,300,10,on,Flame Shock (ticks),spell,3.7,0.012
+29/22 bolt-chain,enh_launch_1h,false,300,10,on,Flame Shock (hit),spell,1.7,0.005
+29/22 bolt-chain,enh_launch_1h,false,300,10,on,Earth Shock,spell,1.7,0.005
+29/22 bolt-chain,enh_launch_1h,false,300,10,on,Lightning Bolt overload,spell,1.1,0.004
+8/36/7 weave,enh_launch_1h,false,120,150,on,Melee swing,physical,134.5,0.376
+8/36/7 weave,enh_launch_1h,false,120,150,on,Windfury Attack,physical,84.0,0.235
+8/36/7 weave,enh_launch_1h,false,120,150,on,Lightning Bolt,spell,63.8,0.179
+8/36/7 weave,enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,35.7,0.100
+8/36/7 weave,enh_launch_1h,false,120,150,on,Searing Totem,spell,13.1,0.037
+8/36/7 weave,enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,7.7,0.022
+8/36/7 weave,enh_launch_1h,false,120,150,on,Flame Shock (ticks),spell,6.8,0.019
+8/36/7 weave,enh_launch_1h,false,120,150,on,Earth Shock,spell,6.4,0.018
+8/36/7 weave,enh_launch_1h,false,120,150,on,Flame Shock (hit),spell,5.4,0.015
+8/36/7 weave,enh_launch_1h,false,120,10,on,Melee swing,physical,137.0,0.379
+8/36/7 weave,enh_launch_1h,false,120,10,on,Windfury Attack,physical,85.0,0.235
+8/36/7 weave,enh_launch_1h,false,120,10,on,Lightning Bolt,spell,64.8,0.179
+8/36/7 weave,enh_launch_1h,false,120,10,on,Stormstrike (weapon strike),physical,35.4,0.098
+8/36/7 weave,enh_launch_1h,false,120,10,on,Searing Totem,spell,13.0,0.036
+8/36/7 weave,enh_launch_1h,false,120,10,on,Dragonbreath Chili,spell,7.8,0.022
+8/36/7 weave,enh_launch_1h,false,120,10,on,Earth Shock,spell,7.0,0.019
+8/36/7 weave,enh_launch_1h,false,120,10,on,Flame Shock (ticks),spell,6.3,0.018
+8/36/7 weave,enh_launch_1h,false,120,10,on,Flame Shock (hit),spell,5.1,0.014
+8/36/7 weave,enh_launch_1h,false,300,150,on,Melee swing,physical,145.7,0.427
+8/36/7 weave,enh_launch_1h,false,300,150,on,Windfury Attack,physical,87.5,0.256
+8/36/7 weave,enh_launch_1h,false,300,150,on,Lightning Bolt,spell,52.5,0.154
+8/36/7 weave,enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,31.5,0.092
+8/36/7 weave,enh_launch_1h,false,300,150,on,Searing Totem,spell,9.0,0.026
+8/36/7 weave,enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,8.0,0.023
+8/36/7 weave,enh_launch_1h,false,300,150,on,Flame Shock (ticks),spell,2.7,0.008
+8/36/7 weave,enh_launch_1h,false,300,150,on,Earth Shock,spell,2.5,0.007
+8/36/7 weave,enh_launch_1h,false,300,150,on,Flame Shock (hit),spell,2.2,0.006
+8/36/7 weave,enh_launch_1h,false,300,10,on,Melee swing,physical,147.6,0.429
+8/36/7 weave,enh_launch_1h,false,300,10,on,Windfury Attack,physical,88.0,0.256
+8/36/7 weave,enh_launch_1h,false,300,10,on,Lightning Bolt,spell,53.1,0.154
+8/36/7 weave,enh_launch_1h,false,300,10,on,Stormstrike (weapon strike),physical,31.0,0.090
+8/36/7 weave,enh_launch_1h,false,300,10,on,Searing Totem,spell,9.0,0.026
+8/36/7 weave,enh_launch_1h,false,300,10,on,Dragonbreath Chili,spell,8.0,0.023
+8/36/7 weave,enh_launch_1h,false,300,10,on,Earth Shock,spell,2.8,0.008
+8/36/7 weave,enh_launch_1h,false,300,10,on,Flame Shock (ticks),spell,2.5,0.007
+8/36/7 weave,enh_launch_1h,false,300,10,on,Flame Shock (hit),spell,2.0,0.006
+8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Melee swing,physical,174.2,0.394
+8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Windfury Attack,physical,107.0,0.242
+8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,47.6,0.108
+8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Lightning Bolt,spell,34.2,0.077
+8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Earth Shock,spell,22.6,0.051
+8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Searing Totem,spell,21.0,0.048
+8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Flame Shock (ticks),spell,14.2,0.032
+8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Flame Shock (hit),spell,11.8,0.027
+8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,9.4,0.021
+8/36/7 no hard casts,enh_launch_1h,false,120,10,on,Melee swing,physical,174.0,0.394
+8/36/7 no hard casts,enh_launch_1h,false,120,10,on,Windfury Attack,physical,106.8,0.242
+8/36/7 no hard casts,enh_launch_1h,false,120,10,on,Stormstrike (weapon strike),physical,47.7,0.108
+8/36/7 no hard casts,enh_launch_1h,false,120,10,on,Lightning Bolt,spell,34.3,0.078
+8/36/7 no hard casts,enh_launch_1h,false,120,10,on,Earth Shock,spell,22.6,0.051
+8/36/7 no hard casts,enh_launch_1h,false,120,10,on,Searing Totem,spell,21.0,0.048
+8/36/7 no hard casts,enh_launch_1h,false,120,10,on,Flame Shock (ticks),spell,14.3,0.032
+8/36/7 no hard casts,enh_launch_1h,false,120,10,on,Flame Shock (hit),spell,11.9,0.027
+8/36/7 no hard casts,enh_launch_1h,false,120,10,on,Dragonbreath Chili,spell,9.4,0.021
+8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Melee swing,physical,169.7,0.421
+8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Windfury Attack,physical,103.6,0.257
+8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,43.4,0.108
+8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Lightning Bolt,spell,34.2,0.085
+8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Searing Totem,spell,20.0,0.050
+8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,9.1,0.023
+8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Earth Shock,spell,9.1,0.022
+8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Flame Shock (ticks),spell,7.9,0.020
+8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Flame Shock (hit),spell,6.4,0.016
+8/36/7 no hard casts,enh_launch_1h,false,300,10,on,Melee swing,physical,169.6,0.421
+8/36/7 no hard casts,enh_launch_1h,false,300,10,on,Windfury Attack,physical,103.1,0.256
+8/36/7 no hard casts,enh_launch_1h,false,300,10,on,Stormstrike (weapon strike),physical,43.4,0.108
+8/36/7 no hard casts,enh_launch_1h,false,300,10,on,Lightning Bolt,spell,34.2,0.085
+8/36/7 no hard casts,enh_launch_1h,false,300,10,on,Searing Totem,spell,20.1,0.050
+8/36/7 no hard casts,enh_launch_1h,false,300,10,on,Dragonbreath Chili,spell,9.1,0.023
+8/36/7 no hard casts,enh_launch_1h,false,300,10,on,Earth Shock,spell,9.0,0.022
+8/36/7 no hard casts,enh_launch_1h,false,300,10,on,Flame Shock (ticks),spell,8.0,0.020
+8/36/7 no hard casts,enh_launch_1h,false,300,10,on,Flame Shock (hit),spell,6.5,0.016
+Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Melee swing,physical,168.2,0.383
+Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Windfury Attack,physical,104.0,0.237
+Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Earth Shock,spell,50.8,0.116
+Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,48.4,0.110
+Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Lightning Bolt,spell,32.2,0.073
+Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Searing Totem,spell,22.7,0.052
+Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,8.9,0.020
+Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Fire Nova,spell,3.6,0.008
+Enh preset 19/32/0,enh_launch_1h,false,120,10,on,Melee swing,physical,168.3,0.384
+Enh preset 19/32/0,enh_launch_1h,false,120,10,on,Windfury Attack,physical,103.3,0.236
+Enh preset 19/32/0,enh_launch_1h,false,120,10,on,Earth Shock,spell,51.0,0.116
+Enh preset 19/32/0,enh_launch_1h,false,120,10,on,Stormstrike (weapon strike),physical,48.4,0.110
+Enh preset 19/32/0,enh_launch_1h,false,120,10,on,Lightning Bolt,spell,32.4,0.074
+Enh preset 19/32/0,enh_launch_1h,false,120,10,on,Searing Totem,spell,22.7,0.052
+Enh preset 19/32/0,enh_launch_1h,false,120,10,on,Dragonbreath Chili,spell,8.9,0.020
+Enh preset 19/32/0,enh_launch_1h,false,120,10,on,Fire Nova,spell,3.6,0.008
+Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Melee swing,physical,165.2,0.409
+Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Windfury Attack,physical,101.1,0.250
+Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,44.3,0.110
+Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Lightning Bolt,spell,32.2,0.080
+Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Earth Shock,spell,30.8,0.076
+Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Searing Totem,spell,22.1,0.055
+Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,8.6,0.021
+Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Fire Nova,spell,0.1,0.000
+Enh preset 19/32/0,enh_launch_1h,false,300,10,on,Melee swing,physical,165.4,0.409
+Enh preset 19/32/0,enh_launch_1h,false,300,10,on,Windfury Attack,physical,100.8,0.249
+Enh preset 19/32/0,enh_launch_1h,false,300,10,on,Stormstrike (weapon strike),physical,44.2,0.109
+Enh preset 19/32/0,enh_launch_1h,false,300,10,on,Lightning Bolt,spell,32.2,0.080
+Enh preset 19/32/0,enh_launch_1h,false,300,10,on,Earth Shock,spell,30.8,0.076
+Enh preset 19/32/0,enh_launch_1h,false,300,10,on,Searing Totem,spell,22.1,0.055
+Enh preset 19/32/0,enh_launch_1h,false,300,10,on,Dragonbreath Chili,spell,8.6,0.021
+Enh preset 19/32/0,enh_launch_1h,false,300,10,on,Fire Nova,spell,0.1,0.000
+Enh preset 19/32/0,enh_launch,false,120,150,on,Melee swing,physical,146.9,0.300
+Enh preset 19/32/0,enh_launch,false,120,150,on,Windfury Attack,physical,91.2,0.186
+Enh preset 19/32/0,enh_launch,false,120,150,on,o3/2,physical,72.2,0.147
+Enh preset 19/32/0,enh_launch,false,120,150,on,Earth Shock,spell,50.2,0.102
+Enh preset 19/32/0,enh_launch,false,120,150,on,Stormstrike (weapon strike),physical,49.4,0.101
+Enh preset 19/32/0,enh_launch,false,120,150,on,Lightning Bolt,spell,42.5,0.087
+Enh preset 19/32/0,enh_launch,false,120,150,on,Searing Totem,spell,22.8,0.046
+Enh preset 19/32/0,enh_launch,false,120,150,on,Dragonbreath Chili,spell,10.9,0.022
+Enh preset 19/32/0,enh_launch,false,120,150,on,Fire Nova,spell,3.7,0.007
+Enh preset 19/32/0,enh_launch,false,120,10,on,Melee swing,physical,147.1,0.300
+Enh preset 19/32/0,enh_launch,false,120,10,on,Windfury Attack,physical,91.1,0.186
+Enh preset 19/32/0,enh_launch,false,120,10,on,o3/2,physical,72.2,0.147
+Enh preset 19/32/0,enh_launch,false,120,10,on,Earth Shock,spell,50.2,0.102
+Enh preset 19/32/0,enh_launch,false,120,10,on,Stormstrike (weapon strike),physical,49.2,0.100
+Enh preset 19/32/0,enh_launch,false,120,10,on,Lightning Bolt,spell,43.5,0.089
+Enh preset 19/32/0,enh_launch,false,120,10,on,Searing Totem,spell,22.8,0.046
+Enh preset 19/32/0,enh_launch,false,120,10,on,Dragonbreath Chili,spell,10.9,0.022
+Enh preset 19/32/0,enh_launch,false,120,10,on,Fire Nova,spell,3.7,0.008
+Enh preset 19/32/0,enh_launch,false,300,150,on,Melee swing,physical,144.5,0.317
+Enh preset 19/32/0,enh_launch,false,300,150,on,Windfury Attack,physical,88.5,0.194
+Enh preset 19/32/0,enh_launch,false,300,150,on,o3/2,physical,71.7,0.157
+Enh preset 19/32/0,enh_launch,false,300,150,on,Stormstrike (weapon strike),physical,45.2,0.099
+Enh preset 19/32/0,enh_launch,false,300,150,on,Lightning Bolt,spell,42.4,0.093
+Enh preset 19/32/0,enh_launch,false,300,150,on,Earth Shock,spell,30.9,0.068
+Enh preset 19/32/0,enh_launch,false,300,150,on,Searing Totem,spell,22.1,0.048
+Enh preset 19/32/0,enh_launch,false,300,150,on,Dragonbreath Chili,spell,10.6,0.023
+Enh preset 19/32/0,enh_launch,false,300,150,on,Fire Nova,spell,0.1,0.000
+Enh preset 19/32/0,enh_launch,false,300,10,on,Melee swing,physical,144.5,0.316
+Enh preset 19/32/0,enh_launch,false,300,10,on,Windfury Attack,physical,88.5,0.194
+Enh preset 19/32/0,enh_launch,false,300,10,on,o3/2,physical,71.7,0.157
+Enh preset 19/32/0,enh_launch,false,300,10,on,Stormstrike (weapon strike),physical,45.1,0.099
+Enh preset 19/32/0,enh_launch,false,300,10,on,Lightning Bolt,spell,43.5,0.095
+Enh preset 19/32/0,enh_launch,false,300,10,on,Earth Shock,spell,31.1,0.068
+Enh preset 19/32/0,enh_launch,false,300,10,on,Searing Totem,spell,22.1,0.048
+Enh preset 19/32/0,enh_launch,false,300,10,on,Dragonbreath Chili,spell,10.6,0.023
+Enh preset 19/32/0,enh_launch,false,300,10,on,Fire Nova,spell,0.1,0.000

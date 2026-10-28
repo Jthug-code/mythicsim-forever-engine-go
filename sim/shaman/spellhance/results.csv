@@ -43,14 +43,14 @@ Ele preset 32/0/19,caster_mirage_2h,false,300,10,on,10000,518.8,0.2,0.0,518.8,0.
 29/22 bolt-chain + CL,enh_smashbringer_2h,false,120,10,on,10000,878.5,0.8,727.0,151.5,0.828,7.86,18.93,63.1
 29/22 bolt-chain + CL,enh_smashbringer_2h,false,300,150,on,10000,913.7,0.6,824.6,89.1,0.903,3.58,22.38,206.3
 29/22 bolt-chain + CL,enh_smashbringer_2h,false,300,10,on,10000,919.6,0.6,829.7,89.9,0.902,3.61,22.56,207.9
-8/36/7 weave,enh_smashbringer_2h,false,120,150,on,10000,918.0,0.9,744.9,173.1,0.811,11.11,19.04,39.8
-8/36/7 weave,enh_smashbringer_2h,false,120,10,on,10000,927.2,0.9,752.7,174.4,0.812,11.28,19.45,42.8
-8/36/7 weave,enh_smashbringer_2h,false,300,150,on,10000,943.8,0.6,823.0,120.8,0.872,8.60,22.73,180.7
-8/36/7 weave,enh_smashbringer_2h,false,300,10,on,10000,946.6,0.6,824.9,121.7,0.871,8.71,22.99,188.2
-8/36/7 no hard casts,enh_smashbringer_2h,false,120,150,on,10000,1270.4,1.0,1081.2,189.2,0.851,5.78,28.76,0.6
-8/36/7 no hard casts,enh_smashbringer_2h,false,120,10,on,10000,1270.7,1.0,1081.7,189.0,0.851,5.78,28.78,0.6
-8/36/7 no hard casts,enh_smashbringer_2h,false,300,150,on,10000,1181.2,0.7,1042.3,138.8,0.882,5.72,28.19,134.6
-8/36/7 no hard casts,enh_smashbringer_2h,false,300,10,on,10000,1179.6,0.7,1040.4,139.2,0.882,5.73,28.18,134.7
+8/36/7 weave,enh_smashbringer_2h,false,120,150,on,10000,945.5,1.0,770.7,174.8,0.815,10.94,19.54,39.6
+8/36/7 weave,enh_smashbringer_2h,false,120,10,on,10000,954.3,1.0,777.8,176.5,0.815,11.13,19.93,42.6
+8/36/7 weave,enh_smashbringer_2h,false,300,150,on,10000,960.8,0.6,839.7,121.1,0.874,8.50,23.01,185.9
+8/36/7 weave,enh_smashbringer_2h,false,300,10,on,10000,964.2,0.6,841.8,122.4,0.873,8.62,23.26,192.9
+8/36/7 no hard casts,enh_smashbringer_2h,false,120,150,on,10000,1286.0,1.0,1097.7,188.3,0.854,5.82,28.75,0.9
+8/36/7 no hard casts,enh_smashbringer_2h,false,120,10,on,10000,1288.0,1.0,1099.5,188.6,0.854,5.84,28.78,0.8
+8/36/7 no hard casts,enh_smashbringer_2h,false,300,150,on,10000,1187.7,0.7,1050.0,137.7,0.884,5.75,28.16,138.1
+8/36/7 no hard casts,enh_smashbringer_2h,false,300,10,on,10000,1187.3,0.7,1049.1,138.2,0.884,5.76,28.16,137.8
 Enh preset 19/32/0,enh_smashbringer_2h,false,120,150,on,10000,1222.4,1.0,1036.8,185.7,0.848,5.70,28.51,45.6
 Enh preset 19/32/0,enh_smashbringer_2h,false,120,10,on,10000,1222.8,1.0,1036.9,185.9,0.848,5.72,28.55,45.6
 Enh preset 19/32/0,enh_smashbringer_2h,false,300,150,on,10000,1155.7,0.6,1008.9,146.8,0.873,5.71,27.96,176.9
@@ -137,26 +137,26 @@ Ele preset 32/0/19,caster_mirage_2h,true,300,150,off,10000,661.6,0.3,0.0,661.6,0
 29/22 bolt-chain + CL,enh_smashbringer_2h,true,300,150,off,10000,780.7,0.5,693.1,87.6,0.888,3.21,17.83,223.4
 29/22 bolt-chain + CL,enh_smashbringer_2h_nogcd,true,300,150,on,10000,906.0,0.6,817.9,88.2,0.903,3.81,22.18,203.0
 29/22 bolt-chain + CL,enh_smashbringer_2h_nogcd,true,300,150,off,10000,773.1,0.5,686.5,86.6,0.888,3.39,17.71,217.3
-8/36/7 weave,enh_smashbringer_2h,true,120,150,on,10000,1002.5,1.1,777.4,225.2,0.775,14.17,19.90,29.3
-8/36/7 weave,enh_smashbringer_2h,true,120,10,on,10000,1009.2,1.0,784.0,225.2,0.777,14.37,20.34,35.4
-8/36/7 weave,enh_smashbringer_2h,true,120,150,off,10000,896.7,1.0,687.2,209.5,0.766,12.68,16.56,36.6
-8/36/7 weave,enh_smashbringer_2h_nogcd,true,120,150,on,10000,1008.4,1.1,791.3,217.1,0.785,13.07,20.58,14.3
-8/36/7 weave,enh_smashbringer_2h_nogcd,true,120,150,off,10000,899.3,1.0,688.9,210.4,0.766,12.72,16.43,23.9
-8/36/7 weave,enh_smashbringer_2h,true,300,150,on,10000,1023.5,0.7,843.6,179.9,0.824,11.90,23.19,160.6
-8/36/7 weave,enh_smashbringer_2h,true,300,10,on,10000,1025.9,0.7,846.1,179.8,0.825,12.05,23.49,174.1
-8/36/7 weave,enh_smashbringer_2h,true,300,150,off,10000,881.5,0.7,719.4,162.2,0.816,10.36,18.72,185.6
-8/36/7 weave,enh_smashbringer_2h_nogcd,true,300,150,on,10000,1029.3,0.7,848.9,180.3,0.825,10.46,23.58,119.8
-8/36/7 weave,enh_smashbringer_2h_nogcd,true,300,150,off,10000,883.7,0.7,719.0,164.7,0.814,10.30,18.67,158.9
-8/36/7 no hard casts,enh_smashbringer_2h,true,120,150,on,10000,1354.0,1.1,1085.1,268.9,0.801,9.33,28.78,0.2
-8/36/7 no hard casts,enh_smashbringer_2h,true,120,10,on,10000,1355.4,1.1,1086.7,268.7,0.802,9.35,28.79,0.2
-8/36/7 no hard casts,enh_smashbringer_2h,true,120,150,off,10000,1152.5,1.1,904.9,247.6,0.785,7.60,22.69,0.6
-8/36/7 no hard casts,enh_smashbringer_2h_nogcd,true,120,150,on,10000,1324.9,1.1,1077.5,247.4,0.813,8.07,28.76,0.0
-8/36/7 no hard casts,enh_smashbringer_2h_nogcd,true,120,150,off,10000,1151.0,1.1,905.4,245.6,0.787,7.59,22.69,0.2
-8/36/7 no hard casts,enh_smashbringer_2h,true,300,150,on,10000,1271.2,0.7,1050.8,220.4,0.827,9.16,28.22,129.4
-8/36/7 no hard casts,enh_smashbringer_2h,true,300,10,on,10000,1270.7,0.7,1050.2,220.5,0.826,9.16,28.22,129.4
-8/36/7 no hard casts,enh_smashbringer_2h,true,300,150,off,10000,1058.1,0.7,860.4,197.7,0.813,7.45,22.17,151.8
-8/36/7 no hard casts,enh_smashbringer_2h_nogcd,true,300,150,on,10000,1274.1,0.7,1054.2,220.0,0.827,8.68,28.23,88.7
-8/36/7 no hard casts,enh_smashbringer_2h_nogcd,true,300,150,off,10000,1060.2,0.7,862.5,197.7,0.814,7.45,22.18,130.8
+8/36/7 weave,enh_smashbringer_2h,true,120,150,on,10000,1030.9,1.1,801.5,229.4,0.777,13.91,20.44,28.3
+8/36/7 weave,enh_smashbringer_2h,true,120,10,on,10000,1034.6,1.1,806.1,228.5,0.779,14.26,20.71,35.4
+8/36/7 weave,enh_smashbringer_2h,true,120,150,off,10000,898.6,1.0,688.6,209.9,0.766,12.65,16.59,36.6
+8/36/7 weave,enh_smashbringer_2h_nogcd,true,120,150,on,10000,1057.7,1.1,827.1,230.5,0.782,13.76,21.26,24.5
+8/36/7 weave,enh_smashbringer_2h_nogcd,true,120,150,off,10000,900.5,1.0,689.9,210.6,0.766,12.81,16.45,25.4
+8/36/7 weave,enh_smashbringer_2h,true,300,150,on,10000,1039.9,0.7,857.8,182.1,0.825,11.76,23.45,167.0
+8/36/7 weave,enh_smashbringer_2h,true,300,10,on,10000,1042.2,0.7,860.4,181.8,0.826,11.97,23.70,181.0
+8/36/7 weave,enh_smashbringer_2h,true,300,150,off,10000,882.3,0.7,719.9,162.3,0.816,10.35,18.74,185.7
+8/36/7 weave,enh_smashbringer_2h_nogcd,true,300,150,on,10000,1060.0,0.8,877.0,182.9,0.827,10.71,23.97,150.8
+8/36/7 weave,enh_smashbringer_2h_nogcd,true,300,150,off,10000,884.2,0.7,719.5,164.7,0.814,10.33,18.67,160.5
+8/36/7 no hard casts,enh_smashbringer_2h,true,120,150,on,10000,1373.6,1.1,1102.5,271.1,0.803,9.37,28.76,0.4
+8/36/7 no hard casts,enh_smashbringer_2h,true,120,10,on,10000,1374.1,1.1,1103.3,270.8,0.803,9.39,28.78,0.3
+8/36/7 no hard casts,enh_smashbringer_2h,true,120,150,off,10000,1152.9,1.1,903.9,249.0,0.784,7.60,22.68,0.7
+8/36/7 no hard casts,enh_smashbringer_2h_nogcd,true,120,150,on,10000,1364.2,1.1,1098.9,265.3,0.806,9.17,28.77,0.0
+8/36/7 no hard casts,enh_smashbringer_2h_nogcd,true,120,150,off,10000,1152.2,1.0,904.7,247.5,0.785,7.58,22.68,0.4
+8/36/7 no hard casts,enh_smashbringer_2h,true,300,150,on,10000,1280.9,0.7,1059.6,221.3,0.827,9.17,28.20,134.4
+8/36/7 no hard casts,enh_smashbringer_2h,true,300,10,on,10000,1280.2,0.7,1059.1,221.1,0.827,9.21,28.20,134.1
+8/36/7 no hard casts,enh_smashbringer_2h,true,300,150,off,10000,1057.3,0.7,859.5,197.8,0.813,7.44,22.17,152.6
+8/36/7 no hard casts,enh_smashbringer_2h_nogcd,true,300,150,on,10000,1283.6,0.7,1062.2,221.4,0.828,9.09,28.21,108.9
+8/36/7 no hard casts,enh_smashbringer_2h_nogcd,true,300,150,off,10000,1060.9,0.7,863.1,197.8,0.814,7.45,22.18,132.4
 Enh preset 19/32/0,enh_smashbringer_2h,true,120,150,on,10000,1307.5,1.1,1036.2,271.2,0.793,9.02,28.52,44.7
 Enh preset 19/32/0,enh_smashbringer_2h,true,120,10,on,10000,1306.2,1.1,1036.2,270.0,0.793,9.09,28.55,44.9
 Enh preset 19/32/0,enh_smashbringer_2h,true,120,150,off,10000,1109.9,1.0,863.6,246.3,0.778,7.59,22.48,44.8
@@ -167,26 +167,26 @@ Enh preset 19/32/0,enh_smashbringer_2h,true,300,10,on,10000,1237.7,0.7,1009.6,22
 Enh preset 19/32/0,enh_smashbringer_2h,true,300,150,off,10000,1036.8,0.6,832.8,204.1,0.803,7.54,22.00,175.1
 Enh preset 19/32/0,enh_smashbringer_2h_nogcd,true,300,150,on,10000,1244.3,0.7,1016.0,228.3,0.817,9.07,27.99,168.2
 Enh preset 19/32/0,enh_smashbringer_2h_nogcd,true,300,150,off,10000,1043.0,0.6,839.3,203.7,0.805,7.56,22.01,168.4
-"8/36/7 weave, MW at 10",enh_smashbringer_2h,true,120,150,on,10000,1068.5,1.2,812.1,256.4,0.760,12.18,20.82,25.7
-"8/36/7 weave, MW at 10",enh_smashbringer_2h,true,120,10,on,10000,1071.2,1.1,814.1,257.1,0.760,12.53,21.06,31.5
-"8/36/7 weave, MW at 10",enh_smashbringer_2h,true,120,150,off,10000,956.1,1.1,711.8,244.3,0.744,10.75,17.27,34.3
-"8/36/7 weave, MW at 10",enh_smashbringer_2h_nogcd,true,120,150,on,10000,1060.1,1.1,820.5,239.6,0.774,11.53,21.28,13.4
-"8/36/7 weave, MW at 10",enh_smashbringer_2h_nogcd,true,120,150,off,10000,952.7,1.1,716.0,236.6,0.752,10.69,17.21,18.8
-"8/36/7 weave, MW at 10",enh_smashbringer_2h,true,300,150,on,10000,1094.6,0.8,868.8,225.8,0.794,9.72,23.76,155.2
-"8/36/7 weave, MW at 10",enh_smashbringer_2h,true,300,10,on,10000,1098.2,0.8,872.3,225.9,0.794,9.92,23.99,167.6
-"8/36/7 weave, MW at 10",enh_smashbringer_2h,true,300,150,off,10000,946.7,0.7,740.6,206.1,0.782,8.35,19.19,181.9
-"8/36/7 weave, MW at 10",enh_smashbringer_2h_nogcd,true,300,150,on,10000,1076.9,0.7,870.2,206.7,0.808,8.78,24.02,117.0
-"8/36/7 weave, MW at 10",enh_smashbringer_2h_nogcd,true,300,150,off,10000,941.9,0.7,740.3,201.7,0.786,8.25,19.15,149.5
-"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h,true,120,150,on,10000,1457.5,1.2,1085.9,371.6,0.745,5.76,28.78,0.6
-"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h,true,120,10,on,10000,1459.6,1.2,1087.6,372.1,0.745,5.77,28.78,0.6
-"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h,true,120,150,off,10000,1231.5,1.1,902.1,329.4,0.733,4.74,22.70,2.5
-"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h_nogcd,true,120,150,on,10000,1406.3,1.1,1079.1,327.2,0.767,5.17,28.76,0.0
-"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h_nogcd,true,120,150,off,10000,1232.5,1.1,904.8,327.7,0.734,4.74,22.70,0.9
-"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h,true,300,150,on,10000,1371.1,0.8,1051.3,319.8,0.767,5.72,28.22,134.4
-"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h,true,300,10,on,10000,1371.8,0.7,1051.6,320.2,0.767,5.72,28.22,134.6
-"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h,true,300,150,off,10000,1135.8,0.7,859.3,276.5,0.757,4.68,22.17,158.5
-"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h_nogcd,true,300,150,on,10000,1365.6,0.7,1054.9,310.7,0.772,5.51,28.23,98.4
-"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h_nogcd,true,300,150,off,10000,1137.9,0.7,861.8,276.1,0.757,4.68,22.18,140.7
+"8/36/7 weave, MW at 10",enh_smashbringer_2h,true,120,150,on,10000,1104.7,1.2,843.9,260.8,0.764,11.85,21.45,24.5
+"8/36/7 weave, MW at 10",enh_smashbringer_2h,true,120,10,on,10000,1104.8,1.2,841.3,263.5,0.762,12.33,21.53,31.1
+"8/36/7 weave, MW at 10",enh_smashbringer_2h,true,120,150,off,10000,959.9,1.1,715.0,244.9,0.745,10.71,17.32,34.5
+"8/36/7 weave, MW at 10",enh_smashbringer_2h_nogcd,true,120,150,on,10000,1137.9,1.3,868.1,269.8,0.763,11.49,22.26,21.6
+"8/36/7 weave, MW at 10",enh_smashbringer_2h_nogcd,true,120,150,off,10000,959.6,1.2,719.1,240.5,0.749,10.72,17.25,20.7
+"8/36/7 weave, MW at 10",enh_smashbringer_2h,true,300,150,on,10000,1117.4,0.8,890.0,227.4,0.796,9.51,24.10,160.2
+"8/36/7 weave, MW at 10",enh_smashbringer_2h,true,300,10,on,10000,1119.8,0.8,891.4,228.4,0.796,9.76,24.26,173.3
+"8/36/7 weave, MW at 10",enh_smashbringer_2h,true,300,150,off,10000,948.0,0.7,741.8,206.3,0.782,8.33,19.21,182.1
+"8/36/7 weave, MW at 10",enh_smashbringer_2h_nogcd,true,300,150,on,10000,1122.7,0.8,905.3,217.4,0.806,8.70,24.56,147.3
+"8/36/7 weave, MW at 10",enh_smashbringer_2h_nogcd,true,300,150,off,10000,944.7,0.7,741.5,203.2,0.785,8.26,19.17,151.6
+"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h,true,120,150,on,10000,1480.4,1.2,1105.3,375.1,0.747,5.82,28.77,0.9
+"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h,true,120,10,on,10000,1479.8,1.2,1104.6,375.3,0.746,5.83,28.79,0.8
+"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h,true,120,150,off,10000,1232.1,1.1,902.4,329.7,0.732,4.74,22.69,2.6
+"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h_nogcd,true,120,150,on,10000,1465.1,1.2,1101.1,364.0,0.752,5.77,28.76,0.0
+"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h_nogcd,true,120,150,off,10000,1231.3,1.1,902.8,328.5,0.733,4.72,22.69,1.8
+"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h,true,300,150,on,10000,1381.1,0.8,1060.4,320.8,0.768,5.75,28.19,138.0
+"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h,true,300,10,on,10000,1381.9,0.8,1060.2,321.7,0.767,5.76,28.21,137.6
+"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h,true,300,150,off,10000,1136.9,0.7,860.3,276.6,0.757,4.68,22.18,159.0
+"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h_nogcd,true,300,150,on,10000,1382.4,0.8,1063.1,319.3,0.769,5.75,28.21,116.5
+"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h_nogcd,true,300,150,off,10000,1138.3,0.7,862.3,276.0,0.757,4.68,22.19,143.0
 Enh preset 19/32/0,enh_smashbringer_2h+rage4,true,120,150,on,10000,1428.1,1.1,1036.3,391.8,0.726,8.81,28.53,39.6
 Enh preset 19/32/0,enh_smashbringer_2h+rage4,true,120,10,on,10000,1426.6,1.1,1035.6,391.0,0.726,8.88,28.55,39.7
 Enh preset 19/32/0,enh_smashbringer_2h+rage4,true,120,150,off,10000,1227.6,1.1,861.7,365.8,0.702,7.44,22.48,39.6

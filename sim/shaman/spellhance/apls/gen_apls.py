@@ -70,7 +70,12 @@ def in_window(elapsed, sid=None, after_reaction=True):
 
 def gcd_fits(sid):
     # INSTANT: its GCD ends before the swing lands. Otherwise WAIT.
-    return cmp("OpGe", time_to_swing, math("OpAdd", {"spellGcdHastedDuration": spell(sid)}, fire_delay(sid)))
+    gcd = {"spellGcdHastedDuration": spell(sid)}
+    fits = cmp("OpGe", time_to_swing, math("OpAdd", gcd, fire_delay(sid)))
+    # A weapon that swings faster than the GCD plus the 0.4 s window can't fit any GCD between
+    # swings, so the light drops WAIT and shows INSTANT throughout.
+    fast = cmp("OpLt", swing_time, math("OpAdd", gcd, const(WINDOW)))
+    return or_(fits, fast)
 
 
 def cast_window(variant, sid=None, after_reaction=True):

@@ -27,14 +27,7 @@ func TestSpellhanceMatrix(t *testing.T) {
 	if out == "" {
 		t.Skip("set SPELLHANCE_OUT to run the comparison")
 	}
-	iterations := int32(3000)
-	if s := os.Getenv("SPELLHANCE_ITERATIONS"); s != "" {
-		n, err := strconv.Atoi(s)
-		if err != nil {
-			t.Fatal(err)
-		}
-		iterations = int32(n)
-	}
+	iterations := matrixIterations(t)
 
 	var runs []run
 	add := func(r run) {
@@ -84,6 +77,55 @@ func TestSpellhanceMatrix(t *testing.T) {
 		}
 	}
 
+	runMatrix(t, runs, out)
+}
+
+// TestSpellhanceForeverMatrix runs the builds on the repo's Forever launch-gear presets
+// (ui/specs/shaman/*/gear_sets/launch.gear.json; the Enhancement one without its off-hand) and writes results.csv and sources.csv to
+// $SPELLHANCE_FOREVER_OUT. These are Forever items: no SoD set bonuses, and the engine's own item
+// sets apply as it knows them.
+func TestSpellhanceForeverMatrix(t *testing.T) {
+	out := os.Getenv("SPELLHANCE_FOREVER_OUT")
+	if out == "" {
+		t.Skip("set SPELLHANCE_FOREVER_OUT to run the comparison")
+	}
+	iterations := matrixIterations(t)
+	var runs []run
+	builds := []build{weave2922, weave2922CL, chain2922, weave8367, melee8367}
+	for _, row := range []struct {
+		gear   string
+		builds []build
+	}{
+		{"ele_launch", append(append([]build{}, builds...), elePreset)},
+		// Shamans can't dual wield in Forever, so the Enhancement gear goes without its off-hand.
+		{"enh_launch_1h", append(append([]build{}, builds...), enhPreset)},
+		// The Enhancement preset as the repo ships it, dual-wielding, for reference only.
+		{"enh_launch", []build{enhPreset}},
+	} {
+		for _, b := range row.builds {
+			for _, d := range []time.Duration{2 * time.Minute, 5 * time.Minute} {
+				for _, reaction := range []int32{150, 10} {
+					runs = append(runs, run{Build: b, Gear: row.gear, Duration: d, ReactionMs: reaction, Iterations: iterations, Seed: 7})
+				}
+			}
+		}
+	}
+	runMatrix(t, runs, out)
+}
+
+func matrixIterations(t *testing.T) int32 {
+	if s := os.Getenv("SPELLHANCE_ITERATIONS"); s != "" {
+		n, err := strconv.Atoi(s)
+		if err != nil {
+			t.Fatal(err)
+		}
+		return int32(n)
+	}
+	return 3000
+}
+
+// runMatrix runs every run on all CPUs and writes results.csv and sources.csv to out.
+func runMatrix(t *testing.T, runs []run, out string) {
 	type source struct {
 		name     string
 		physical bool
@@ -162,7 +204,7 @@ func TestSpellhanceMatrix(t *testing.T) {
 	}
 	close(jobs)
 	wg.Wait()
-	t.Logf("%d runs of %d iterations in %s", len(runs), iterations, time.Since(start).Round(time.Second))
+	t.Logf("%d runs of %d iterations in %s", len(runs), runs[0].Iterations, time.Since(start).Round(time.Second))
 
 	if err := os.MkdirAll(out, 0o755); err != nil {
 		t.Fatal(err)
@@ -219,7 +261,7 @@ var sourceNames = map[string]string{
 	"s1326047/0": "Lava Burst",
 	"s10414/0":   "Earth Shock",
 	"s29228/0":   "Flame Shock (hit)",
-	"s29228/1":   "Flame Shock (ticks, with Storm 2P pulses)",
+	"s29228/1":   "Flame Shock (ticks)",
 	"s10436/0":   "Searing Totem",
 	"s408345/0":  "Fire Nova",
 	"s915/0":     "Lightning Bolt rank 4",
