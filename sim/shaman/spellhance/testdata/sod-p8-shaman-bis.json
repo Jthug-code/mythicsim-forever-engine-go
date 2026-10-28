@@ -7,7 +7,7 @@
   ],
   "picks": "First 'Best' row per slot. Wowhead lists Mirage (a two-hand staff) and the shield Demon's Folly; they can't be worn together, so the caster set uses Mirage and leaves out the shield. Wowhead's Enhancement list has two-hand and dual-wield variants; Forever has no shaman dual wield, so this uses the two-hand variant.",
   "forever_caveats": [
-    "Set bonuses depend on SoD runes (Static Shock, Lava Lash, Overload chance, 10-stack Maelstrom) or on Undead targets. Don't model them.",
+    "Set bonuses (corrected 2026-10-27): most work with Forever's talents. Model Soulcrusher's Storm 2/4/6, Earthshatterer's Storm 2 and Soulcrusher's Rage 6. Skip Soulcrusher's Rage 2 and Earthshatterer's Rage 2 (they need the SoD Static Shock rune), both Earthshatter 6-piece bonuses (Undead only), and Soulcrusher's Rage 4 (it targets Fire Nova Totem, but Forever's Fire Nova is a spell).",
     "SoD gear carries a lot of haste (28% spell / 27% melee in total). Whether Forever has a haste stat is unknown, so run with haste on and with haste off.",
     "Equip and use effects worth modeling as written: Natural Alignment Crystal, Totem of Thunder, Totem of Pyroclastic Thunder, Scarlet Smashbringer's Strength proc. Scarlet Smashbringer's GCD -0.5s and Infusion of Souls' haste-reduced GCD are SoD-style effects; run them both ways.",
     "Mirage's Mirage proc (arcane damage) and swap-places effect can be skipped."

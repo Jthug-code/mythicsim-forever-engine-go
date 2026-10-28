@@ -100,6 +100,10 @@ type Shaman struct {
 	// Added to Chain Lightning's per-bounce damage multiplier (Gift of the Gathering Storm).
 	ChainLightningBounceBonus float64
 
+	// Added to the Lightning Overload talent's chance, for set bonuses that raise it. Nothing
+	// without the talent.
+	BonusOverloadChance float64
+
 	Stormstrike           *core.Spell
 	StormstrikeCastResult *core.SpellResult
 
@@ -189,7 +193,7 @@ func (shaman *Shaman) GetOverloadChance() float64 {
 	if shaman.Talents.LightningOverload == 0 {
 		return 0.0
 	}
-	return spellData.LightningOverload.FractionAt(shaman.Talents.LightningOverload)
+	return spellData.LightningOverload.FractionAt(shaman.Talents.LightningOverload) + shaman.BonusOverloadChance
 }
 
 const (

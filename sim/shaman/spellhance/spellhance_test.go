@@ -13,7 +13,9 @@ import (
 	"github.com/wowsims/forever/sim/common"
 	"github.com/wowsims/forever/sim/core"
 	"github.com/wowsims/forever/sim/core/proto"
+	"github.com/wowsims/forever/sim/core/simsignals"
 	"github.com/wowsims/forever/sim/core/stats"
+	"github.com/wowsims/forever/sim/shaman"
 	"github.com/wowsims/forever/sim/shaman/elemental"
 	"github.com/wowsims/forever/sim/shaman/enhancement"
 )
@@ -48,8 +50,12 @@ type build struct {
 var (
 	weave2922       = build{"29/22 weave", talents2922, "apls/weave.apl.json", false}
 	chain2922       = build{"29/22 bolt-chain", talents2922, "apls/chain.apl.json", false}
+	weave2922CL     = build{"29/22 weave + CL", talents2922, "apls/weave_cl.apl.json", false}
+	chain2922CL     = build{"29/22 bolt-chain + CL", talents2922, "apls/chain_cl.apl.json", false}
 	weave8367       = build{"8/36/7 weave", talents8367, "apls/weave_maelstrom.apl.json", false}
 	melee8367       = build{"8/36/7 no hard casts", talents8367, "apls/melee_maelstrom.apl.json", false}
+	weave8367at10   = build{"8/36/7 weave, MW at 10", talents8367, "apls/weave_maelstrom10.apl.json", false}
+	melee8367at10   = build{"8/36/7 no hard casts, MW at 10", talents8367, "apls/melee_maelstrom10.apl.json", false}
 	enhPreset       = build{"Enh preset 19/32/0", talentsEnhPreset, "../../../ui/specs/shaman/enhancement/apls/forever.apl.json", false}
 	elePreset       = build{"Ele preset 32/0/19", talentsElePreset, "../../../ui/specs/shaman/elemental/apls/forever.apl.json", true}
 	enhPresetLaunch = "../../../ui/specs/shaman/enhancement/gear_sets/launch.gear.json"
@@ -124,7 +130,7 @@ func (r run) request() *proto.RaidSimRequest {
 	if set, ok := gear[r.Gear]; ok {
 		player.Equipment = &proto.EquipmentSpec{Items: set.Items}
 		player.Consumables = casterConsumes()
-		if r.Gear != "caster_mirage_2h" {
+		if !strings.HasPrefix(r.Gear, "caster_mirage_2h") {
 			player.Consumables = enhConsumes()
 		}
 		if r.NoHaste {
@@ -270,9 +276,13 @@ func parseLog(t *testing.T, logs string) (casts []logCast, swings []float64, har
 // before the next swing.
 func TestWeaveRotationsFollowTheLight(t *testing.T) {
 	const eps = 0.011 // the log's two decimals
-	for _, b := range []build{weave2922, chain2922} {
+	for _, c := range []struct {
+		b    build
+		gear string
+	}{{weave2922, "caster_mirage_2h"}, {chain2922, "caster_mirage_2h"}, {weave2922CL, "caster_mirage_2h_sets"}, {chain2922CL, "caster_mirage_2h_sets"}} {
+		b := c.b
 		for _, reactionMs := range []int32{150, 10} {
-			res := simulate(t, run{Build: b, Gear: "caster_mirage_2h", Duration: 90 * time.Second, ReactionMs: reactionMs, Iterations: 1, Debug: true})
+			res := simulate(t, run{Build: b, Gear: c.gear, Duration: 90 * time.Second, ReactionMs: reactionMs, Iterations: 1, Debug: true})
 			casts, swings, hardEnds := parseLog(t, res.Logs)
 			reaction := float64(reactionMs) / 1000
 			last := func(times []float64, at float64) float64 {
@@ -293,7 +303,7 @@ func TestWeaveRotationsFollowTheLight(t *testing.T) {
 					hard++
 					sinceSwing := c.at - last(swings, c.at)
 					ok := sinceSwing >= reaction-eps && sinceSwing <= 0.4+eps
-					if b == chain2922 && !ok {
+					if (b == chain2922 || b == chain2922CL) && !ok {
 						sinceCast := c.at - last(hardEnds, c.at)
 						ok = sinceCast >= reaction-eps && sinceCast <= 0.4+eps
 					}
@@ -320,4 +330,49 @@ func TestWeaveRotationsFollowTheLight(t *testing.T) {
 			}
 		}
 	}
+}
+
+// The set pieces turn on the bonuses: the 4-piece's Overload chance, the 6-piece's 10-charge
+// Maelstrom Weapon, and nothing without the pieces.
+func TestSodSetBonusesAreActive(t *testing.T) {
+	newShaman := func(b build, gearName string) *shaman.Shaman {
+		sim := core.NewSim(run{Build: b, Gear: gearName, Duration: time.Minute, ReactionMs: 150}.request(), simsignals.CreateSignals())
+		sim.Reset()
+		return sim.Raid.Parties[0].Players[0].(shaman.ShamanAgent).GetShaman()
+	}
+	for gearName, want := range map[string]float64{"caster_mirage_2h": 0, "caster_mirage_2h_sets": 0.10} {
+		if got := newShaman(weave2922, gearName).BonusOverloadChance; got != want {
+			t.Errorf("29/22 in %s: bonus Overload chance %v, want %v", gearName, got, want)
+		}
+	}
+	for gearName, want := range map[string]int32{"enh_smashbringer_2h": 5, "enh_smashbringer_2h_sets": 10, "enh_smashbringer_2h_sets_rage4": 10} {
+		if got := newShaman(melee8367, gearName).GetAura("Maelstrom Weapon").MaxStacks; got != want {
+			t.Errorf("8/36/7 in %s: Maelstrom Weapon stacks to %d, want %d", gearName, got, want)
+		}
+	}
+	for _, label := range []string{setSoulcrushersStorm + " 6P", setEarthshatterersStorm + " 2P"} {
+		if newShaman(weave2922, "caster_mirage_2h_sets").GetAura(label) == nil {
+			t.Errorf("no %s aura in the caster set", label)
+		}
+	}
+}
+
+// Spent at 10 charges, a Maelstrom Weapon bolt casts twice: two hits a cast.
+func TestMaelstromAtTenCastsTwice(t *testing.T) {
+	res := simulate(t, run{Build: melee8367at10, Gear: "enh_smashbringer_2h_sets", Duration: 2 * time.Minute, ReactionMs: 150, Iterations: 20})
+	for _, action := range res.RaidMetrics.Parties[0].Players[0].Actions {
+		if action.Id.GetSpellId() != 15208 || action.Id.Tag != 0 {
+			continue
+		}
+		casts, hits := 0, 0
+		for _, target := range action.Targets {
+			casts += int(target.Casts)
+			hits += int(target.Hits + target.Crits + target.Misses)
+		}
+		if casts < 20 || hits != 2*casts {
+			t.Errorf("Lightning Bolt: %d casts landed %d hits, want twice as many", casts, hits)
+		}
+		return
+	}
+	t.Error("no Lightning Bolt cast")
 }

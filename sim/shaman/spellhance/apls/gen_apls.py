@@ -5,7 +5,7 @@ import sys
 
 OUT = sys.argv[1]
 
-LB, LVB, SS, FS, ES = 15208, 1326047, 17364, 29228, 10414
+LB, LVB, SS, FS, ES, CL = 15208, 1326047, 17364, 29228, 10414, 10605
 SOE, GOA, SEARING = 25361, 25359, 10438
 MAELSTROM = 408505
 WINDOW = "0.4s"
@@ -88,10 +88,12 @@ def cast_window(variant, sid=None, after_reaction=True):
     raise ValueError(variant)
 
 
-def build(variant, hard_casts=True, maelstrom=False, lava_burst=True):
+def build(variant, hard_casts=True, maelstrom=False, lava_burst=True, chain_lightning=False, spend_at=5):
 
     # Only name spells and auras the build has: the APL drops an action whose value it can't resolve.
     hard_ready = {"spellCanCast": spell(LB)}
+    if chain_lightning:
+        hard_ready = or_({"spellCanCast": spell(CL)}, hard_ready)
     if lava_burst:
         hard_ready = or_(and_({"dotIsActive": spell(FS)}, {"spellCanCast": spell(LVB)}), hard_ready)
     # While CAST is lit and a hard cast can go, the player waits for it rather than press an instant.
@@ -110,6 +112,8 @@ def build(variant, hard_casts=True, maelstrom=False, lava_burst=True):
     if hard_casts:
         if lava_burst:
             priority.append(cast(LVB, and_(cast_window(variant, LVB), {"dotIsActive": spell(FS)})))
+        if chain_lightning:
+            priority.append(cast(CL, cast_window(variant, CL)))
         if maelstrom:
             # A 5-stack bolt is an instant; it goes with the instants below.
             priority.append(cast(LB, and_(cast_window(variant, LB), cmp("OpLt", {"auraNumStacks": {"auraId": {"spellId": MAELSTROM}}}, const(5)))))
@@ -121,7 +125,9 @@ def build(variant, hard_casts=True, maelstrom=False, lava_burst=True):
         instant(SS),
     ]
     if maelstrom:
-        priority.append(instant(LB, cmp("OpGe", {"auraNumStacks": {"auraId": {"spellId": MAELSTROM}}}, const(5))))
+        # Spend the charges at spend_at: 5 makes the bolt instant and free; Soulcrusher's Rage 6 stacks
+        # to 10, where the bolt does +100% and casts twice.
+        priority.append(instant(LB, cmp("OpGe", {"auraNumStacks": {"auraId": {"spellId": MAELSTROM}}}, const(spend_at))))
     priority += [
         instant(FS, not_({"dotIsActive": spell(FS)})),
         instant(ES),
@@ -145,6 +151,10 @@ for name, apl in {
     "chain": build("chain"),
     "weave_maelstrom": build("weave", maelstrom=True, lava_burst=False),
     "melee_maelstrom": build("weave", hard_casts=False, maelstrom=True, lava_burst=False),
+    "weave_cl": build("weave", chain_lightning=True),
+    "chain_cl": build("chain", chain_lightning=True),
+    "weave_maelstrom10": build("weave", maelstrom=True, lava_burst=False, spend_at=10),
+    "melee_maelstrom10": build("weave", hard_casts=False, maelstrom=True, lava_burst=False, spend_at=10),
 }.items():
     with open(os.path.join(OUT, name + ".apl.json"), "w", newline="\n") as f:
         json.dump(apl, f, indent=2)

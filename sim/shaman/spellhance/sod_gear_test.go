@@ -24,6 +24,10 @@ import (
 
 const (
 	customItemOffset = 9_000_000
+	// Set pieces that name their set, for the runs with set bonuses.
+	setItemOffset = 9_200_000
+	// Soulcrusher's Rage pieces that also carry the 4-piece bonus on Fire Nova.
+	setRage4ItemOffset = 9_300_000
 	// Scarlet Smashbringer without its "GCD of your Shock, Lightning and Lava Burst spells -0.5 sec",
 	// for the runs that leave that SoD effect out.
 	smashbringerNoGCDOffset = 9_500_000
@@ -48,6 +52,7 @@ type sodItem struct {
 	Dmg     []float64          `json:"dmg"`
 	Stats   map[string]float64 `json:"stats"`
 	Effects []string           `json:"effects"`
+	Set     int32              `json:"set"`
 }
 
 type sodFile struct {
@@ -62,6 +67,8 @@ type gearSet struct {
 	SpellHaste float64 // rating
 	MeleeHaste float64 // rating
 	Totals     stats.Stats
+
+	pieces []sodItem // by slotOrder
 }
 
 var slotTypes = map[string]proto.ItemType{
@@ -171,6 +178,7 @@ func loadSodGear(path string) map[string]*gearSet {
 			si := simItem(item.ID+customItemOffset, slot, item)
 			db.Items = append(db.Items, si)
 			set.Items = append(set.Items, &proto.ItemSpec{Id: si.Id})
+			set.pieces = append(set.pieces, item)
 			s := sodStats(item)
 			set.Totals = set.Totals.Add(s)
 			set.SpellHaste += s[stats.SpellHasteRating]
@@ -181,7 +189,7 @@ func loadSodGear(path string) map[string]*gearSet {
 
 	// The same Enhancement set with a Smashbringer that has no GCD effect.
 	enh := sets["enh_smashbringer_2h"]
-	noGCD := &gearSet{Label: enh.Label + "_nogcd", SpellHaste: enh.SpellHaste, MeleeHaste: enh.MeleeHaste, Totals: enh.Totals}
+	noGCD := &gearSet{Label: enh.Label + "_nogcd", SpellHaste: enh.SpellHaste, MeleeHaste: enh.MeleeHaste, Totals: enh.Totals, pieces: enh.pieces}
 	for _, spec := range enh.Items {
 		id := spec.Id
 		if id == sodScarletSmashbringer+customItemOffset {
@@ -193,8 +201,38 @@ func loadSodGear(path string) map[string]*gearSet {
 	}
 	sets[noGCD.Label] = noGCD
 
+	// "<set>_sets": the same gear with the set bonuses that work with Forever's talents
+	// (registerSodSets). Each set piece becomes a copy that names its set; the other items stay.
+	// "enh_smashbringer_2h_sets_rage4" adds Soulcrusher's Rage 4, read onto Forever's Fire Nova spell.
+	added := map[int32]bool{}
+	withSets := func(base *gearSet, label string, offset int32, names map[int32]string) {
+		variant := &gearSet{Label: label, SpellHaste: base.SpellHaste, MeleeHaste: base.MeleeHaste, Totals: base.Totals, pieces: base.pieces}
+		for i, spec := range base.Items {
+			id := spec.Id
+			if name, ok := names[base.pieces[i].Set]; ok {
+				id = base.pieces[i].ID + offset
+				if !added[id] {
+					si := simItem(id, slotOrder[i], base.pieces[i])
+					si.SetName = name
+					db.Items = append(db.Items, si)
+					added[id] = true
+				}
+			}
+			variant.Items = append(variant.Items, &proto.ItemSpec{Id: id})
+		}
+		sets[label] = variant
+	}
+	modeled := map[int32]string{sodSetSoulcrushersStorm: setSoulcrushersStorm, sodSetEarthshatterersStorm: setEarthshatterersStorm,
+		sodSetSoulcrushersRage: setSoulcrushersRage}
+	for _, name := range []string{"caster_mirage_2h", "enh_smashbringer_2h", "enh_smashbringer_2h_nogcd"} {
+		withSets(sets[name], name+"_sets", setItemOffset, modeled)
+	}
+	withSets(sets["enh_smashbringer_2h"], "enh_smashbringer_2h_sets_rage4", setRage4ItemOffset,
+		map[int32]string{sodSetSoulcrushersRage: setSoulcrushersRageFireNova})
+
 	core.AddToDatabase(db)
 	registerSodEffects()
+	registerSodSets()
 	return sets
 }
 
