@@ -12,6 +12,11 @@ var LightningBoltRankMap = spellData.LightningBolt
 // Client 1.60.1.70205; the talent 408438 is a dummy aura, the server picks the row.
 var lightningBoltOverloadRanks = spelldata.Ranked(408439, 408440, 408441, 408442, 408443, 408472, 408473, 408474, 408475, 408477)
 
+// LightningBaseDamageBonus raises the base damage roll of Lightning Bolt and Chain Lightning (and their
+// overloads), before spell power, for the Spellhance tuning test (sim/shaman/spellhance). Zero leaves
+// them as the client states them.
+var LightningBaseDamageBonus float64
+
 func (shaman *Shaman) registerLightningBoltSpell() {
 	shaman.LightningBoltOverloads = make(map[int32]*core.Spell, LightningBoltRankMap.Len())
 	LightningBoltRankMap.Each(func(rank int32, config *spelldata.Spell) {
@@ -42,7 +47,7 @@ func (shaman *Shaman) newLightningBoltSpellConfig(config *spelldata.Spell, rank 
 	}
 
 	spellConfig.ApplyEffects = func(sim *core.Simulation, target *core.Unit, spell *core.Spell) {
-		baseDamage := damage.Roll(sim, core.CharacterLevel)
+		baseDamage := damage.Roll(sim, core.CharacterLevel) * (1 + LightningBaseDamageBonus)
 		result := spell.CalcDamage(sim, target, baseDamage, spell.OutcomeMagicHitAndCrit)
 
 		spell.WaitTravelTime(sim, func(sim *core.Simulation) {

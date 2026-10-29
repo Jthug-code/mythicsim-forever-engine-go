@@ -68,7 +68,7 @@ func (shaman *Shaman) newChainLightningSpell(config *spelldata.Spell, rank int32
 		numHits := min(maxHits, shaman.Env.ActiveTargetCount())
 		results := make([]*core.SpellResult, numHits)
 		for hitIndex := range numHits {
-			baseDamage := damage.Roll(sim, core.CharacterLevel)
+			baseDamage := damage.Roll(sim, core.CharacterLevel) * (1 + LightningBaseDamageBonus)
 			results[hitIndex] = spell.CalcDamage(sim, curTarget, baseDamage, spell.OutcomeMagicHitAndCrit)
 
 			curTarget = sim.Environment.NextActiveTargetUnit(curTarget)

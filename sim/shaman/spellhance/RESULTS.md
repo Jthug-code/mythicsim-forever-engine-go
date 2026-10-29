@@ -99,6 +99,39 @@ Lightning Overload and Lava Burst are on row 5 (20 points), which a 20/31 Enhanc
   - Launch gear: 576 / 534 against the Enhancement preset's 573 / 559, so 101% at 2 minutes and 96% at 5.
   - SoD proxy: 1468 / 1387, which is 97% / 93%.
   - The 29/22 hybrid gains 6–11% from the combined packages.
+
+## Run 6: the tuning package (`tuning-results.csv`, `TestTuningPackage`)
+
+**The package:**
+- Elemental Fury gives +1% spell crit per rank, and its crits hit for 2.5×.
+- Lightning Bolt and Chain Lightning get 6% more base damage, overloads included, before spell power
+  (`shaman.LightningBaseDamageBonus`).
+- Launch and SoD gear, 2 / 5 / 8 / 10 minutes, with and without the package.
+
+**The Elemental preset as a share of the Enhancement preset, with the package:**
+
+| Gear and buffs | 2 min | 5 min | 8 min | 10 min |
+|---|---|---|---|---|
+| Launch, full buffs | 581 / 574 = 101% | 537 / 560 = 96% | 96% | 96% |
+| Launch, light buffs | 489 / 475 = 103% | 451 / 459 = 98% | 98% | 98% |
+| SoD proxy, full buffs | 1481 / 1513 = 98% | 1395 / 1490 = 94% | 92% | 91% |
+| SoD proxy, light buffs | 1223 / 1352 = 90% | 87% | 80% | 78% |
+
+- **Elemental gains about 13–15% on launch gear and 19.5–21% on the SoD proxy.**
+- **Enhancement gains +0.2% (launch) and +0.5% (SoD proxy), all from its Maelstrom bolts.**
+- **On launch gear the package does what was asked:** slightly ahead of Enhancement over 2 minutes, slightly behind
+  over 5–10, at both buff levels.
+- **On the SoD proxy Elemental stays behind.** It's 2–9% behind the Enhancement preset with full buffs, and further
+  behind 8/36/7 with Maelstrom at 10 stacks (1628 / 1614), which leans on a SoD set bonus.
+- **29/22 is viable only on launch gear with full buffs.**
+  - The caster-gear weave does 570 / 568 / 540 at 2 / 5 / 10 minutes, which is 99% / 102% / 98% of Enhancement and
+    level with or ahead of the Elemental preset.
+  - With light buffs it runs out of mana: 96% at 2 minutes, 83% at 5, 73% at 10.
+  - On the SoD proxy its best row is 86% / 81% (bolt-chain with Chain Lightning).
+  - In Enhancement gear it stays around 86%.
+
+# Notes on the rotations (runs 1–5)
+
 **A change to the rotations since run 1 (all three runs' APLs have it now).** A weapon that swings faster than an
 instant's GCD plus the 0.4 s window can't fit any GCD between swings. The addon then drops WAIT and shows INSTANT
 throughout, and the APLs now do the same.
