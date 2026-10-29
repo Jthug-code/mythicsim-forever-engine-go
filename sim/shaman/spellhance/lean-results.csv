@@ -1,0 +1,289 @@
+buffs,package,build,gear,boss,duration_s,dps
+light,none,Ele preset 32/0/19,ele_launch,fire 300,120,329.8
+light,none,Ele preset 32/0/19,ele_launch,"no CoE, nature 75",120,344.7
+light,none,Ele preset 32/0/19,ele_launch,no CoE,120,390.7
+light,none,Ele preset 32/0/19,caster_mirage_2h_sets,fire 300,120,745.5
+light,none,Ele preset 32/0/19,ele_launch,plain,120,429.7
+light,none,Ele preset 32/0/19,caster_mirage_2h_sets,plain,120,1019.1
+light,none,Ele preset 32/0/19,caster_mirage_2h_sets,"no CoE, nature 75",120,829.1
+light,none,Ele preset 32/0/19,caster_mirage_2h_sets,no CoE,120,926.5
+light,none,Enh preset 19/32/0,enh_launch_1h,plain,120,473.7
+light,none,Enh preset 19/32/0,enh_launch_1h,"no CoE, nature 75",120,443.7
+light,none,Enh preset 19/32/0,enh_launch_1h,fire 300,120,444.8
+light,none,Enh preset 19/32/0,enh_launch_1h,no CoE,120,459.9
+light,none,Ele preset 32/0/19,ele_launch,plain,300,397.5
+light,none,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,plain,120,1432.6
+light,none,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,"no CoE, nature 75",120,1342.4
+light,none,Ele preset 32/0/19,ele_launch,fire 300,300,300.6
+light,none,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,no CoE,120,1396.4
+light,none,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,fire 300,120,1391.9
+light,none,Ele preset 32/0/19,ele_launch,no CoE,300,361.4
+light,none,Ele preset 32/0/19,ele_launch,"no CoE, nature 75",300,320.3
+light,none,Ele preset 32/0/19,caster_mirage_2h_sets,"no CoE, nature 75",300,785.9
+light,none,Ele preset 32/0/19,caster_mirage_2h_sets,no CoE,300,869.8
+light,none,Ele preset 32/0/19,caster_mirage_2h_sets,plain,300,956.8
+light,none,Ele preset 32/0/19,caster_mirage_2h_sets,fire 300,300,676.9
+light,none,Enh preset 19/32/0,enh_launch_1h,fire 300,300,439.2
+light,none,Enh preset 19/32/0,enh_launch_1h,plain,300,458.4
+light,none,Ele preset 32/0/19,ele_launch,fire 300,600,298.6
+light,none,Enh preset 19/32/0,enh_launch_1h,no CoE,300,445.5
+light,none,Enh preset 19/32/0,enh_launch_1h,"no CoE, nature 75",300,428.1
+light,none,Ele preset 32/0/19,ele_launch,no CoE,600,349.6
+light,none,Ele preset 32/0/19,ele_launch,"no CoE, nature 75",600,307.4
+light,none,Ele preset 32/0/19,ele_launch,plain,600,384.6
+light,none,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,no CoE,300,1364.2
+light,none,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,fire 300,300,1373.0
+light,none,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,"no CoE, nature 75",300,1306.7
+light,none,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,plain,300,1398.3
+light,none,Ele preset 32/0/19,caster_mirage_2h_sets,fire 300,600,601.5
+light,none,Ele preset 32/0/19,caster_mirage_2h_sets,no CoE,600,757.3
+light,none,Ele preset 32/0/19,caster_mirage_2h_sets,"no CoE, nature 75",600,680.4
+light,none,Ele preset 32/0/19,caster_mirage_2h_sets,plain,600,833.1
+light,none,Enh preset 19/32/0,enh_launch_1h,plain,600,445.3
+light,none,Enh preset 19/32/0,enh_launch_1h,"no CoE, nature 75",600,417.5
+light,none,Enh preset 19/32/0,enh_launch_1h,fire 300,600,426.8
+light,none,Enh preset 19/32/0,enh_launch_1h,no CoE,600,433.3
+light,none,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,plain,600,1364.7
+light,none,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,no CoE,600,1332.2
+light,none,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,fire 300,600,1342.0
+light,none,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,"no CoE, nature 75",600,1277.6
+light,jesse 2.5x,Ele preset 32/0/19,ele_launch,fire 300,120,376.1
+light,jesse 2.5x,Ele preset 32/0/19,ele_launch,no CoE,120,444.5
+light,jesse 2.5x,Ele preset 32/0/19,ele_launch,"no CoE, nature 75",120,391.9
+light,jesse 2.5x,Ele preset 32/0/19,ele_launch,plain,120,488.9
+light,jesse 2.5x,Ele preset 32/0/19,caster_mirage_2h_sets,plain,120,1222.7
+light,jesse 2.5x,Ele preset 32/0/19,caster_mirage_2h_sets,no CoE,120,1111.6
+light,jesse 2.5x,Ele preset 32/0/19,caster_mirage_2h_sets,"no CoE, nature 75",120,993.9
+light,jesse 2.5x,Enh preset 19/32/0,enh_launch_1h,"no CoE, nature 75",120,444.4
+light,jesse 2.5x,Ele preset 32/0/19,caster_mirage_2h_sets,fire 300,120,897.0
+light,jesse 2.5x,Enh preset 19/32/0,enh_launch_1h,plain,120,474.7
+light,jesse 2.5x,Enh preset 19/32/0,enh_launch_1h,no CoE,120,460.8
+light,jesse 2.5x,Enh preset 19/32/0,enh_launch_1h,fire 300,120,445.8
+light,jesse 2.5x,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,no CoE,120,1402.8
+light,jesse 2.5x,Ele preset 32/0/19,ele_launch,no CoE,300,409.8
+light,jesse 2.5x,Ele preset 32/0/19,ele_launch,"no CoE, nature 75",300,363.1
+light,jesse 2.5x,Ele preset 32/0/19,ele_launch,fire 300,300,341.5
+light,jesse 2.5x,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,fire 300,120,1398.9
+light,jesse 2.5x,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,plain,120,1439.6
+light,jesse 2.5x,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,"no CoE, nature 75",120,1347.5
+light,jesse 2.5x,Ele preset 32/0/19,ele_launch,plain,300,450.8
+light,jesse 2.5x,Ele preset 32/0/19,caster_mirage_2h_sets,plain,300,1143.5
+light,jesse 2.5x,Ele preset 32/0/19,caster_mirage_2h_sets,no CoE,300,1039.5
+light,jesse 2.5x,Ele preset 32/0/19,caster_mirage_2h_sets,fire 300,300,810.4
+light,jesse 2.5x,Ele preset 32/0/19,caster_mirage_2h_sets,"no CoE, nature 75",300,938.8
+light,jesse 2.5x,Enh preset 19/32/0,enh_launch_1h,no CoE,300,446.4
+light,jesse 2.5x,Enh preset 19/32/0,enh_launch_1h,plain,300,459.4
+light,jesse 2.5x,Enh preset 19/32/0,enh_launch_1h,"no CoE, nature 75",300,428.9
+light,jesse 2.5x,Enh preset 19/32/0,enh_launch_1h,fire 300,300,440.3
+light,jesse 2.5x,Ele preset 32/0/19,ele_launch,no CoE,600,396.5
+light,jesse 2.5x,Ele preset 32/0/19,ele_launch,plain,600,436.2
+light,jesse 2.5x,Ele preset 32/0/19,ele_launch,fire 300,600,339.1
+light,jesse 2.5x,Ele preset 32/0/19,ele_launch,"no CoE, nature 75",600,348.4
+light,jesse 2.5x,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,"no CoE, nature 75",300,1311.9
+light,jesse 2.5x,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,plain,300,1405.4
+light,jesse 2.5x,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,fire 300,300,1380.2
+light,jesse 2.5x,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,no CoE,300,1370.7
+light,jesse 2.5x,Ele preset 32/0/19,caster_mirage_2h_sets,fire 300,600,719.9
+light,jesse 2.5x,Ele preset 32/0/19,caster_mirage_2h_sets,plain,600,995.5
+light,jesse 2.5x,Ele preset 32/0/19,caster_mirage_2h_sets,"no CoE, nature 75",600,812.7
+light,jesse 2.5x,Ele preset 32/0/19,caster_mirage_2h_sets,no CoE,600,905.0
+light,jesse 2.5x,Enh preset 19/32/0,enh_launch_1h,plain,600,446.3
+light,jesse 2.5x,Enh preset 19/32/0,enh_launch_1h,no CoE,600,434.3
+light,jesse 2.5x,Enh preset 19/32/0,enh_launch_1h,"no CoE, nature 75",600,418.2
+light,jesse 2.5x,Enh preset 19/32/0,enh_launch_1h,fire 300,600,427.8
+light,jesse 2.5x,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,plain,600,1371.8
+light,jesse 2.5x,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,"no CoE, nature 75",600,1282.8
+light,jesse 2.5x,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,no CoE,600,1338.7
+light,jesse 2.5x,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,fire 300,600,1349.1
+light,lean 2.25x + hit,Ele preset 32/0/19,ele_launch,no CoE,120,450.4
+light,lean 2.25x + hit,Ele preset 32/0/19,ele_launch,plain,120,495.4
+light,lean 2.25x + hit,Ele preset 32/0/19,ele_launch,"no CoE, nature 75",120,396.7
+light,lean 2.25x + hit,Ele preset 32/0/19,ele_launch,fire 300,120,382.2
+light,lean 2.25x + hit,Ele preset 32/0/19,caster_mirage_2h_sets,fire 300,120,848.0
+light,lean 2.25x + hit,Ele preset 32/0/19,caster_mirage_2h_sets,"no CoE, nature 75",120,939.6
+light,lean 2.25x + hit,Ele preset 32/0/19,caster_mirage_2h_sets,plain,120,1155.8
+light,lean 2.25x + hit,Enh preset 19/32/0,enh_launch_1h,no CoE,120,460.8
+light,lean 2.25x + hit,Ele preset 32/0/19,caster_mirage_2h_sets,no CoE,120,1050.7
+light,lean 2.25x + hit,Enh preset 19/32/0,enh_launch_1h,"no CoE, nature 75",120,444.4
+light,lean 2.25x + hit,Enh preset 19/32/0,enh_launch_1h,fire 300,120,445.8
+light,lean 2.25x + hit,Enh preset 19/32/0,enh_launch_1h,plain,120,474.7
+light,lean 2.25x + hit,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,no CoE,120,1402.8
+light,lean 2.25x + hit,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,fire 300,120,1398.9
+light,lean 2.25x + hit,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,plain,120,1439.6
+light,lean 2.25x + hit,Ele preset 32/0/19,ele_launch,"no CoE, nature 75",300,368.2
+light,lean 2.25x + hit,Ele preset 32/0/19,ele_launch,fire 300,300,347.2
+light,lean 2.25x + hit,Ele preset 32/0/19,ele_launch,no CoE,300,415.9
+light,lean 2.25x + hit,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,"no CoE, nature 75",120,1347.5
+light,lean 2.25x + hit,Ele preset 32/0/19,ele_launch,plain,300,457.5
+light,lean 2.25x + hit,Ele preset 32/0/19,caster_mirage_2h_sets,plain,300,1082.2
+light,lean 2.25x + hit,Ele preset 32/0/19,caster_mirage_2h_sets,no CoE,300,983.8
+light,lean 2.25x + hit,Ele preset 32/0/19,caster_mirage_2h_sets,"no CoE, nature 75",300,888.4
+light,lean 2.25x + hit,Ele preset 32/0/19,caster_mirage_2h_sets,fire 300,300,767.2
+light,lean 2.25x + hit,Enh preset 19/32/0,enh_launch_1h,"no CoE, nature 75",300,428.9
+light,lean 2.25x + hit,Enh preset 19/32/0,enh_launch_1h,no CoE,300,446.4
+light,lean 2.25x + hit,Enh preset 19/32/0,enh_launch_1h,plain,300,459.4
+light,lean 2.25x + hit,Enh preset 19/32/0,enh_launch_1h,fire 300,300,440.3
+light,lean 2.25x + hit,Ele preset 32/0/19,ele_launch,fire 300,600,345.0
+light,lean 2.25x + hit,Ele preset 32/0/19,ele_launch,plain,600,443.1
+light,lean 2.25x + hit,Ele preset 32/0/19,ele_launch,no CoE,600,402.8
+light,lean 2.25x + hit,Ele preset 32/0/19,ele_launch,"no CoE, nature 75",600,353.8
+light,lean 2.25x + hit,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,plain,300,1405.4
+light,lean 2.25x + hit,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,"no CoE, nature 75",300,1311.9
+light,lean 2.25x + hit,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,no CoE,300,1370.7
+light,lean 2.25x + hit,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,fire 300,300,1380.2
+light,lean 2.25x + hit,Ele preset 32/0/19,caster_mirage_2h_sets,plain,600,941.6
+light,lean 2.25x + hit,Ele preset 32/0/19,caster_mirage_2h_sets,"no CoE, nature 75",600,768.6
+light,lean 2.25x + hit,Ele preset 32/0/19,caster_mirage_2h_sets,no CoE,600,856.0
+light,lean 2.25x + hit,Ele preset 32/0/19,caster_mirage_2h_sets,fire 300,600,681.1
+light,lean 2.25x + hit,Enh preset 19/32/0,enh_launch_1h,plain,600,446.3
+light,lean 2.25x + hit,Enh preset 19/32/0,enh_launch_1h,fire 300,600,427.8
+light,lean 2.25x + hit,Enh preset 19/32/0,enh_launch_1h,no CoE,600,434.3
+light,lean 2.25x + hit,Enh preset 19/32/0,enh_launch_1h,"no CoE, nature 75",600,418.2
+light,lean 2.25x + hit,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,no CoE,600,1338.7
+light,lean 2.25x + hit,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,plain,600,1371.8
+light,lean 2.25x + hit,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,fire 300,600,1349.1
+light,lean 2.25x + hit,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,"no CoE, nature 75",600,1282.8
+full,none,Ele preset 32/0/19,ele_launch,plain,120,505.0
+full,none,Ele preset 32/0/19,ele_launch,fire 300,120,380.6
+full,none,Ele preset 32/0/19,ele_launch,no CoE,120,459.1
+full,none,Ele preset 32/0/19,ele_launch,"no CoE, nature 75",120,407.4
+full,none,Ele preset 32/0/19,caster_mirage_2h_sets,no CoE,120,1113.2
+full,none,Ele preset 32/0/19,caster_mirage_2h_sets,plain,120,1224.6
+full,none,Ele preset 32/0/19,caster_mirage_2h_sets,"no CoE, nature 75",120,995.9
+full,none,Ele preset 32/0/19,caster_mirage_2h_sets,fire 300,120,897.8
+full,none,Enh preset 19/32/0,enh_launch_1h,plain,120,572.6
+full,none,Enh preset 19/32/0,enh_launch_1h,fire 300,120,533.6
+full,none,Ele preset 32/0/19,ele_launch,"no CoE, nature 75",300,379.9
+full,none,Enh preset 19/32/0,enh_launch_1h,"no CoE, nature 75",120,534.4
+full,none,Enh preset 19/32/0,enh_launch_1h,no CoE,120,554.6
+full,none,Ele preset 32/0/19,ele_launch,plain,300,468.4
+full,none,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,fire 300,120,1554.0
+full,none,Ele preset 32/0/19,ele_launch,no CoE,300,425.8
+full,none,Ele preset 32/0/19,ele_launch,fire 300,300,346.7
+full,none,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,"no CoE, nature 75",120,1497.5
+full,none,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,plain,120,1600.5
+full,none,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,no CoE,120,1559.7
+full,none,Ele preset 32/0/19,caster_mirage_2h_sets,fire 300,300,828.0
+full,none,Ele preset 32/0/19,caster_mirage_2h_sets,plain,300,1156.6
+full,none,Ele preset 32/0/19,caster_mirage_2h_sets,no CoE,300,1051.4
+full,none,Ele preset 32/0/19,caster_mirage_2h_sets,"no CoE, nature 75",300,946.7
+full,none,Ele preset 32/0/19,ele_launch,fire 300,600,337.4
+full,none,Ele preset 32/0/19,ele_launch,"no CoE, nature 75",600,372.6
+full,none,Enh preset 19/32/0,enh_launch_1h,fire 300,300,527.2
+full,none,Ele preset 32/0/19,ele_launch,plain,600,458.7
+full,none,Ele preset 32/0/19,ele_launch,no CoE,600,417.0
+full,none,Enh preset 19/32/0,enh_launch_1h,plain,300,558.7
+full,none,Enh preset 19/32/0,enh_launch_1h,"no CoE, nature 75",300,519.8
+full,none,Enh preset 19/32/0,enh_launch_1h,no CoE,300,541.6
+full,none,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,no CoE,300,1542.2
+full,none,Ele preset 32/0/19,caster_mirage_2h_sets,plain,600,1104.2
+full,none,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,"no CoE, nature 75",300,1478.8
+full,none,Ele preset 32/0/19,caster_mirage_2h_sets,fire 300,600,776.0
+full,none,Ele preset 32/0/19,caster_mirage_2h_sets,"no CoE, nature 75",600,908.5
+full,none,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,fire 300,300,1537.9
+full,none,Ele preset 32/0/19,caster_mirage_2h_sets,no CoE,600,1003.8
+full,none,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,plain,300,1582.5
+full,none,Enh preset 19/32/0,enh_launch_1h,no CoE,600,532.1
+full,none,Enh preset 19/32/0,enh_launch_1h,fire 300,600,522.6
+full,none,Enh preset 19/32/0,enh_launch_1h,plain,600,548.4
+full,none,Enh preset 19/32/0,enh_launch_1h,"no CoE, nature 75",600,510.7
+full,none,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,"no CoE, nature 75",600,1457.1
+full,none,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,fire 300,600,1524.2
+full,none,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,no CoE,600,1519.9
+full,none,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,plain,600,1558.9
+full,jesse 2.5x,Ele preset 32/0/19,ele_launch,no CoE,120,528.3
+full,jesse 2.5x,Ele preset 32/0/19,ele_launch,"no CoE, nature 75",120,468.3
+full,jesse 2.5x,Ele preset 32/0/19,ele_launch,fire 300,120,439.3
+full,jesse 2.5x,Ele preset 32/0/19,ele_launch,plain,120,581.1
+full,jesse 2.5x,Ele preset 32/0/19,caster_mirage_2h_sets,plain,120,1480.9
+full,jesse 2.5x,Ele preset 32/0/19,caster_mirage_2h_sets,no CoE,120,1346.3
+full,jesse 2.5x,Ele preset 32/0/19,caster_mirage_2h_sets,fire 300,120,1089.3
+full,jesse 2.5x,Ele preset 32/0/19,caster_mirage_2h_sets,"no CoE, nature 75",120,1203.2
+full,jesse 2.5x,Enh preset 19/32/0,enh_launch_1h,no CoE,120,555.5
+full,jesse 2.5x,Enh preset 19/32/0,enh_launch_1h,"no CoE, nature 75",120,535.1
+full,jesse 2.5x,Ele preset 32/0/19,ele_launch,"no CoE, nature 75",300,435.3
+full,jesse 2.5x,Ele preset 32/0/19,ele_launch,fire 300,300,398.4
+full,jesse 2.5x,Ele preset 32/0/19,ele_launch,no CoE,300,488.3
+full,jesse 2.5x,Enh preset 19/32/0,enh_launch_1h,plain,120,573.6
+full,jesse 2.5x,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,fire 300,120,1561.2
+full,jesse 2.5x,Enh preset 19/32/0,enh_launch_1h,fire 300,120,534.6
+full,jesse 2.5x,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,"no CoE, nature 75",120,1502.7
+full,jesse 2.5x,Ele preset 32/0/19,ele_launch,plain,300,537.1
+full,jesse 2.5x,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,no CoE,120,1566.2
+full,jesse 2.5x,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,plain,120,1607.7
+full,jesse 2.5x,Ele preset 32/0/19,caster_mirage_2h_sets,fire 300,300,1001.3
+full,jesse 2.5x,Ele preset 32/0/19,caster_mirage_2h_sets,"no CoE, nature 75",300,1141.4
+full,jesse 2.5x,Ele preset 32/0/19,caster_mirage_2h_sets,no CoE,300,1268.6
+full,jesse 2.5x,Ele preset 32/0/19,caster_mirage_2h_sets,plain,300,1395.4
+full,jesse 2.5x,Ele preset 32/0/19,ele_launch,plain,600,525.2
+full,jesse 2.5x,Ele preset 32/0/19,ele_launch,"no CoE, nature 75",600,426.4
+full,jesse 2.5x,Enh preset 19/32/0,enh_launch_1h,"no CoE, nature 75",300,520.5
+full,jesse 2.5x,Ele preset 32/0/19,ele_launch,no CoE,600,477.5
+full,jesse 2.5x,Enh preset 19/32/0,enh_launch_1h,plain,300,559.7
+full,jesse 2.5x,Ele preset 32/0/19,ele_launch,fire 300,600,387.1
+full,jesse 2.5x,Enh preset 19/32/0,enh_launch_1h,fire 300,300,528.2
+full,jesse 2.5x,Enh preset 19/32/0,enh_launch_1h,no CoE,300,542.5
+full,jesse 2.5x,Ele preset 32/0/19,caster_mirage_2h_sets,fire 300,600,936.2
+full,jesse 2.5x,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,fire 300,300,1545.1
+full,jesse 2.5x,Ele preset 32/0/19,caster_mirage_2h_sets,"no CoE, nature 75",600,1093.5
+full,jesse 2.5x,Ele preset 32/0/19,caster_mirage_2h_sets,plain,600,1329.6
+full,jesse 2.5x,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,"no CoE, nature 75",300,1484.0
+full,jesse 2.5x,Ele preset 32/0/19,caster_mirage_2h_sets,no CoE,600,1208.8
+full,jesse 2.5x,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,no CoE,300,1548.7
+full,jesse 2.5x,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,plain,300,1589.7
+full,jesse 2.5x,Enh preset 19/32/0,enh_launch_1h,"no CoE, nature 75",600,511.4
+full,jesse 2.5x,Enh preset 19/32/0,enh_launch_1h,fire 300,600,523.6
+full,jesse 2.5x,Enh preset 19/32/0,enh_launch_1h,no CoE,600,533.0
+full,jesse 2.5x,Enh preset 19/32/0,enh_launch_1h,plain,600,549.4
+full,jesse 2.5x,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,"no CoE, nature 75",600,1462.3
+full,jesse 2.5x,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,fire 300,600,1531.4
+full,jesse 2.5x,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,plain,600,1566.1
+full,jesse 2.5x,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,no CoE,600,1526.4
+full,lean 2.25x + hit,Ele preset 32/0/19,ele_launch,plain,120,586.1
+full,lean 2.25x + hit,Ele preset 32/0/19,ele_launch,"no CoE, nature 75",120,471.9
+full,lean 2.25x + hit,Ele preset 32/0/19,ele_launch,fire 300,120,444.4
+full,lean 2.25x + hit,Ele preset 32/0/19,ele_launch,no CoE,120,532.8
+full,lean 2.25x + hit,Ele preset 32/0/19,caster_mirage_2h_sets,fire 300,120,1025.4
+full,lean 2.25x + hit,Ele preset 32/0/19,caster_mirage_2h_sets,plain,120,1394.4
+full,lean 2.25x + hit,Ele preset 32/0/19,caster_mirage_2h_sets,"no CoE, nature 75",120,1132.7
+full,lean 2.25x + hit,Ele preset 32/0/19,caster_mirage_2h_sets,no CoE,120,1267.6
+full,lean 2.25x + hit,Enh preset 19/32/0,enh_launch_1h,no CoE,120,555.5
+full,lean 2.25x + hit,Enh preset 19/32/0,enh_launch_1h,plain,120,573.6
+full,lean 2.25x + hit,Enh preset 19/32/0,enh_launch_1h,"no CoE, nature 75",120,535.1
+full,lean 2.25x + hit,Ele preset 32/0/19,ele_launch,plain,300,541.8
+full,lean 2.25x + hit,Enh preset 19/32/0,enh_launch_1h,fire 300,120,534.6
+full,lean 2.25x + hit,Ele preset 32/0/19,ele_launch,"no CoE, nature 75",300,438.6
+full,lean 2.25x + hit,Ele preset 32/0/19,ele_launch,fire 300,300,403.4
+full,lean 2.25x + hit,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,"no CoE, nature 75",120,1502.7
+full,lean 2.25x + hit,Ele preset 32/0/19,ele_launch,no CoE,300,492.6
+full,lean 2.25x + hit,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,fire 300,120,1561.2
+full,lean 2.25x + hit,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,no CoE,120,1566.2
+full,lean 2.25x + hit,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,plain,120,1607.7
+full,lean 2.25x + hit,Ele preset 32/0/19,caster_mirage_2h_sets,fire 300,300,944.1
+full,lean 2.25x + hit,Ele preset 32/0/19,caster_mirage_2h_sets,no CoE,300,1195.0
+full,lean 2.25x + hit,Ele preset 32/0/19,caster_mirage_2h_sets,plain,300,1314.5
+full,lean 2.25x + hit,Ele preset 32/0/19,caster_mirage_2h_sets,"no CoE, nature 75",300,1075.1
+full,lean 2.25x + hit,Ele preset 32/0/19,ele_launch,plain,600,529.6
+full,lean 2.25x + hit,Ele preset 32/0/19,ele_launch,"no CoE, nature 75",600,429.5
+full,lean 2.25x + hit,Ele preset 32/0/19,ele_launch,fire 300,600,391.8
+full,lean 2.25x + hit,Ele preset 32/0/19,ele_launch,no CoE,600,481.5
+full,lean 2.25x + hit,Enh preset 19/32/0,enh_launch_1h,plain,300,559.7
+full,lean 2.25x + hit,Enh preset 19/32/0,enh_launch_1h,no CoE,300,542.5
+full,lean 2.25x + hit,Enh preset 19/32/0,enh_launch_1h,fire 300,300,528.2
+full,lean 2.25x + hit,Enh preset 19/32/0,enh_launch_1h,"no CoE, nature 75",300,520.5
+full,lean 2.25x + hit,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,no CoE,300,1548.7
+full,lean 2.25x + hit,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,fire 300,300,1545.1
+full,lean 2.25x + hit,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,plain,300,1589.7
+full,lean 2.25x + hit,Ele preset 32/0/19,caster_mirage_2h_sets,no CoE,600,1138.4
+full,lean 2.25x + hit,Ele preset 32/0/19,caster_mirage_2h_sets,fire 300,600,881.9
+full,lean 2.25x + hit,Ele preset 32/0/19,caster_mirage_2h_sets,plain,600,1252.2
+full,lean 2.25x + hit,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,"no CoE, nature 75",300,1484.0
+full,lean 2.25x + hit,Ele preset 32/0/19,caster_mirage_2h_sets,"no CoE, nature 75",600,1029.7
+full,lean 2.25x + hit,Enh preset 19/32/0,enh_launch_1h,no CoE,600,533.0
+full,lean 2.25x + hit,Enh preset 19/32/0,enh_launch_1h,fire 300,600,523.6
+full,lean 2.25x + hit,Enh preset 19/32/0,enh_launch_1h,"no CoE, nature 75",600,511.4
+full,lean 2.25x + hit,Enh preset 19/32/0,enh_launch_1h,plain,600,549.4
+full,lean 2.25x + hit,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,"no CoE, nature 75",600,1462.3
+full,lean 2.25x + hit,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,no CoE,600,1526.4
+full,lean 2.25x + hit,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,fire 300,600,1531.4
+full,lean 2.25x + hit,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,plain,600,1566.1

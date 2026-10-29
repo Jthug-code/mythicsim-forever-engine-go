@@ -186,6 +186,8 @@ var (
 	ElementalFuryExtraCritBonus float64 // added to the 5/5 crit damage bonus, scaled by rank (1 = +100%)
 	ElementalFuryCritPerRank    float64 // spell crit chance per rank, in percent
 	ElementalFuryDamagePerRank  float64 // damage per rank, as a fraction
+	ElementalFuryHitPerRank     float64 // spell hit chance per rank, in percent
+	ElementalFuryPiercePerRank  float64 // Spell Piercing per rank
 )
 
 func (shaman *Shaman) applyElementalFury() {
@@ -210,6 +212,12 @@ func (shaman *Shaman) applyElementalFury() {
 	}
 	if ElementalFuryDamagePerRank != 0 {
 		shaman.AddStaticMod(core.SpellModConfig{Kind: core.SpellMod_DamageDone_Pct, FloatValue: ElementalFuryDamagePerRank * float64(points), ClassMask: mask})
+	}
+	if ElementalFuryHitPerRank != 0 {
+		shaman.AddStaticMod(core.SpellModConfig{Kind: core.SpellMod_BonusHit_Percent, FloatValue: ElementalFuryHitPerRank * float64(points), ClassMask: mask})
+	}
+	if ElementalFuryPiercePerRank != 0 {
+		shaman.AddStat(stats.SpellPiercing, ElementalFuryPiercePerRank*float64(points))
 	}
 }
 func (shaman *Shaman) applyLightningOverload() {

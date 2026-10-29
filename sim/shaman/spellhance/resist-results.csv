@@ -1,0 +1,145 @@
+buffs,package,build,gear,variant,dps
+light,false,Ele preset 32/0/19,ele_launch,baseline,397.5
+light,false,Ele preset 32/0/19,ele_launch,nature 50,397.5
+light,false,Ele preset 32/0/19,ele_launch,nature 100,382.5
+light,false,Ele preset 32/0/19,ele_launch,nature 150,352.3
+light,false,Ele preset 32/0/19,ele_launch,fire 300,300.6
+light,false,Ele preset 32/0/19,ele_launch,spell hit -3%,384.8
+light,false,Ele preset 32/0/19,ele_launch,spell hit +3%,410.3
+light,false,Ele preset 32/0/19,ele_launch,no CoE,361.4
+light,false,Ele preset 32/0/19,ele_launch,"no CoE, nature 75",320.3
+light,false,Enh preset 19/32/0,enh_launch_1h,baseline,458.4
+light,false,Enh preset 19/32/0,enh_launch_1h,nature 50,458.4
+light,false,Enh preset 19/32/0,enh_launch_1h,nature 100,452.2
+light,false,Enh preset 19/32/0,enh_launch_1h,nature 150,439.3
+light,false,Enh preset 19/32/0,enh_launch_1h,fire 300,439.2
+light,false,Enh preset 19/32/0,enh_launch_1h,spell hit -3%,454.2
+light,false,Enh preset 19/32/0,enh_launch_1h,spell hit +3%,462.6
+light,false,Enh preset 19/32/0,enh_launch_1h,no CoE,445.5
+light,false,Enh preset 19/32/0,enh_launch_1h,"no CoE, nature 75",428.1
+light,false,8/36/7 no hard casts,enh_launch_1h,baseline,453.6
+light,false,8/36/7 no hard casts,enh_launch_1h,nature 50,453.6
+light,false,8/36/7 no hard casts,enh_launch_1h,nature 100,449.6
+light,false,8/36/7 no hard casts,enh_launch_1h,nature 150,441.3
+light,false,8/36/7 no hard casts,enh_launch_1h,fire 300,418.0
+light,false,8/36/7 no hard casts,enh_launch_1h,spell hit -3%,449.6
+light,false,8/36/7 no hard casts,enh_launch_1h,spell hit +3%,455.7
+light,false,8/36/7 no hard casts,enh_launch_1h,no CoE,441.9
+light,false,8/36/7 no hard casts,enh_launch_1h,"no CoE, nature 75",430.6
+light,false,29/22 weave,ele_launch,baseline,354.2
+light,false,29/22 weave,ele_launch,nature 50,354.2
+light,false,29/22 weave,ele_launch,nature 100,346.5
+light,false,29/22 weave,ele_launch,nature 150,331.0
+light,false,29/22 weave,ele_launch,fire 300,294.2
+light,false,29/22 weave,ele_launch,spell hit -3%,347.1
+light,false,29/22 weave,ele_launch,spell hit +3%,361.6
+light,false,29/22 weave,ele_launch,no CoE,333.6
+light,false,29/22 weave,ele_launch,"no CoE, nature 75",312.5
+light,true,Ele preset 32/0/19,ele_launch,baseline,450.8
+light,true,Ele preset 32/0/19,ele_launch,nature 50,450.8
+light,true,Ele preset 32/0/19,ele_launch,nature 100,433.7
+light,true,Ele preset 32/0/19,ele_launch,nature 150,399.4
+light,true,Ele preset 32/0/19,ele_launch,fire 300,341.5
+light,true,Ele preset 32/0/19,ele_launch,spell hit -3%,436.4
+light,true,Ele preset 32/0/19,ele_launch,spell hit +3%,465.4
+light,true,Ele preset 32/0/19,ele_launch,no CoE,409.8
+light,true,Ele preset 32/0/19,ele_launch,"no CoE, nature 75",363.1
+light,true,Enh preset 19/32/0,enh_launch_1h,baseline,459.4
+light,true,Enh preset 19/32/0,enh_launch_1h,nature 50,459.4
+light,true,Enh preset 19/32/0,enh_launch_1h,nature 100,453.1
+light,true,Enh preset 19/32/0,enh_launch_1h,nature 150,440.1
+light,true,Enh preset 19/32/0,enh_launch_1h,fire 300,440.3
+light,true,Enh preset 19/32/0,enh_launch_1h,spell hit -3%,455.2
+light,true,Enh preset 19/32/0,enh_launch_1h,spell hit +3%,463.6
+light,true,Enh preset 19/32/0,enh_launch_1h,no CoE,446.4
+light,true,Enh preset 19/32/0,enh_launch_1h,"no CoE, nature 75",428.9
+light,true,8/36/7 no hard casts,enh_launch_1h,baseline,454.7
+light,true,8/36/7 no hard casts,enh_launch_1h,nature 50,454.7
+light,true,8/36/7 no hard casts,enh_launch_1h,nature 100,450.6
+light,true,8/36/7 no hard casts,enh_launch_1h,nature 150,442.2
+light,true,8/36/7 no hard casts,enh_launch_1h,fire 300,419.1
+light,true,8/36/7 no hard casts,enh_launch_1h,spell hit -3%,450.6
+light,true,8/36/7 no hard casts,enh_launch_1h,spell hit +3%,456.8
+light,true,8/36/7 no hard casts,enh_launch_1h,no CoE,442.8
+light,true,8/36/7 no hard casts,enh_launch_1h,"no CoE, nature 75",431.4
+light,true,29/22 weave,ele_launch,baseline,381.4
+light,true,29/22 weave,ele_launch,nature 50,381.4
+light,true,29/22 weave,ele_launch,nature 100,372.7
+light,true,29/22 weave,ele_launch,nature 150,355.3
+light,true,29/22 weave,ele_launch,fire 300,314.8
+light,true,29/22 weave,ele_launch,spell hit -3%,373.4
+light,true,29/22 weave,ele_launch,spell hit +3%,389.8
+light,true,29/22 weave,ele_launch,no CoE,358.4
+light,true,29/22 weave,ele_launch,"no CoE, nature 75",334.7
+full,false,Ele preset 32/0/19,ele_launch,baseline,468.4
+full,false,Ele preset 32/0/19,ele_launch,nature 50,468.4
+full,false,Ele preset 32/0/19,ele_launch,nature 100,451.6
+full,false,Ele preset 32/0/19,ele_launch,nature 150,417.9
+full,false,Ele preset 32/0/19,ele_launch,fire 300,346.7
+full,false,Ele preset 32/0/19,ele_launch,spell hit -3%,453.6
+full,false,Ele preset 32/0/19,ele_launch,spell hit +3%,483.1
+full,false,Ele preset 32/0/19,ele_launch,no CoE,425.8
+full,false,Ele preset 32/0/19,ele_launch,"no CoE, nature 75",379.9
+full,false,Enh preset 19/32/0,enh_launch_1h,baseline,558.7
+full,false,Enh preset 19/32/0,enh_launch_1h,nature 50,558.7
+full,false,Enh preset 19/32/0,enh_launch_1h,nature 100,550.5
+full,false,Enh preset 19/32/0,enh_launch_1h,nature 150,534.7
+full,false,Enh preset 19/32/0,enh_launch_1h,fire 300,527.2
+full,false,Enh preset 19/32/0,enh_launch_1h,spell hit -3%,552.4
+full,false,Enh preset 19/32/0,enh_launch_1h,spell hit +3%,564.2
+full,false,Enh preset 19/32/0,enh_launch_1h,no CoE,541.6
+full,false,Enh preset 19/32/0,enh_launch_1h,"no CoE, nature 75",519.8
+full,false,8/36/7 no hard casts,enh_launch_1h,baseline,518.2
+full,false,8/36/7 no hard casts,enh_launch_1h,nature 50,518.2
+full,false,8/36/7 no hard casts,enh_launch_1h,nature 100,513.7
+full,false,8/36/7 no hard casts,enh_launch_1h,nature 150,505.0
+full,false,8/36/7 no hard casts,enh_launch_1h,fire 300,480.2
+full,false,8/36/7 no hard casts,enh_launch_1h,spell hit -3%,514.3
+full,false,8/36/7 no hard casts,enh_launch_1h,spell hit +3%,520.4
+full,false,8/36/7 no hard casts,enh_launch_1h,no CoE,505.5
+full,false,8/36/7 no hard casts,enh_launch_1h,"no CoE, nature 75",493.5
+full,false,29/22 weave,ele_launch,baseline,517.3
+full,false,29/22 weave,ele_launch,nature 50,517.3
+full,false,29/22 weave,ele_launch,nature 100,501.8
+full,false,29/22 weave,ele_launch,nature 150,470.8
+full,false,29/22 weave,ele_launch,fire 300,426.8
+full,false,29/22 weave,ele_launch,spell hit -3%,504.0
+full,false,29/22 weave,ele_launch,spell hit +3%,530.7
+full,false,29/22 weave,ele_launch,no CoE,481.0
+full,false,29/22 weave,ele_launch,"no CoE, nature 75",438.7
+full,true,Ele preset 32/0/19,ele_launch,baseline,537.1
+full,true,Ele preset 32/0/19,ele_launch,nature 50,537.1
+full,true,Ele preset 32/0/19,ele_launch,nature 100,517.8
+full,true,Ele preset 32/0/19,ele_launch,nature 150,478.9
+full,true,Ele preset 32/0/19,ele_launch,fire 300,398.4
+full,true,Ele preset 32/0/19,ele_launch,spell hit -3%,519.9
+full,true,Ele preset 32/0/19,ele_launch,spell hit +3%,553.9
+full,true,Ele preset 32/0/19,ele_launch,no CoE,488.3
+full,true,Ele preset 32/0/19,ele_launch,"no CoE, nature 75",435.3
+full,true,Enh preset 19/32/0,enh_launch_1h,baseline,559.7
+full,true,Enh preset 19/32/0,enh_launch_1h,nature 50,559.7
+full,true,Enh preset 19/32/0,enh_launch_1h,nature 100,551.5
+full,true,Enh preset 19/32/0,enh_launch_1h,nature 150,535.5
+full,true,Enh preset 19/32/0,enh_launch_1h,fire 300,528.2
+full,true,Enh preset 19/32/0,enh_launch_1h,spell hit -3%,553.4
+full,true,Enh preset 19/32/0,enh_launch_1h,spell hit +3%,565.3
+full,true,Enh preset 19/32/0,enh_launch_1h,no CoE,542.5
+full,true,Enh preset 19/32/0,enh_launch_1h,"no CoE, nature 75",520.5
+full,true,8/36/7 no hard casts,enh_launch_1h,baseline,519.3
+full,true,8/36/7 no hard casts,enh_launch_1h,nature 50,519.3
+full,true,8/36/7 no hard casts,enh_launch_1h,nature 100,514.7
+full,true,8/36/7 no hard casts,enh_launch_1h,nature 150,505.9
+full,true,8/36/7 no hard casts,enh_launch_1h,fire 300,481.3
+full,true,8/36/7 no hard casts,enh_launch_1h,spell hit -3%,515.4
+full,true,8/36/7 no hard casts,enh_launch_1h,spell hit +3%,521.5
+full,true,8/36/7 no hard casts,enh_launch_1h,no CoE,506.5
+full,true,8/36/7 no hard casts,enh_launch_1h,"no CoE, nature 75",494.3
+full,true,29/22 weave,ele_launch,baseline,567.9
+full,true,29/22 weave,ele_launch,nature 50,567.9
+full,true,29/22 weave,ele_launch,nature 100,550.6
+full,true,29/22 weave,ele_launch,nature 150,515.4
+full,true,29/22 weave,ele_launch,fire 300,466.8
+full,true,29/22 weave,ele_launch,spell hit -3%,553.1
+full,true,29/22 weave,ele_launch,spell hit +3%,583.0
+full,true,29/22 weave,ele_launch,no CoE,527.1
+full,true,29/22 weave,ele_launch,"no CoE, nature 75",479.4

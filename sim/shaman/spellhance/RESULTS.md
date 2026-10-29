@@ -121,14 +121,69 @@ Lightning Overload and Lava Burst are on row 5 (20 points), which a 20/31 Enhanc
 - **Enhancement gains +0.2% (launch) and +0.5% (SoD proxy), all from its Maelstrom bolts.**
 - **On launch gear the package does what was asked:** slightly ahead of Enhancement over 2 minutes, slightly behind
   over 5–10, at both buff levels.
-- **On the SoD proxy Elemental stays behind.** It's 2–9% behind the Enhancement preset with full buffs, and further
-  behind 8/36/7 with Maelstrom at 10 stacks (1628 / 1614), which leans on a SoD set bonus.
+- **On the SoD proxy Elemental stays behind,** and by more than the table above says. The Enhancement preset's own
+  rotation casts at 5 Maelstrom stacks, but the SoD set lets it bank 10.
+  - Spending at 10 (`apls/enh_preset_mw10.apl.json`, `TestEnhPresetAt10`, `enh-at10-results.csv`) is worth +6–7%: 1601
+    / 1583 / 1559 at 2 / 5 / 10 minutes with full buffs.
+  - Against that preset, Elemental with the package is at 92% / 88% / 85% (full buffs) and 85% / 81% / 73% (light).
+    Without the package it's 77% / 73% / 71%.
 - **29/22 is viable only on launch gear with full buffs.**
   - The caster-gear weave does 570 / 568 / 540 at 2 / 5 / 10 minutes, which is 99% / 102% / 98% of Enhancement and
     level with or ahead of the Elemental preset.
   - With light buffs it runs out of mana: 96% at 2 minutes, 83% at 5, 73% at 10.
   - On the SoD proxy its best row is 86% / 81% (bolt-chain with Chain Lightning).
   - In Enhancement gear it stays around 86%.
+
+## Run 6: spell hit, resists, and no warlock (`resist-results.csv`, `compensate-results.csv`, `lean-results.csv`)
+
+**What every other run assumes:**
+- A boss with no school resistances, so the only partial resists are level-based: about 6% average at level 63 on
+  non-binary spells.
+- A 17% base spell miss, with a 1% floor.
+- **Forever's Curse of the Elements** (1311680, client data) takes 75 off every magic resistance, Nature included, and
+  adds 10% magic damage taken. It's in both buff sets.
+
+**Spell hit:** the Elemental preset has 11.0% on launch gear (cap 16%). The Enhancement preset has 9.7%, 8/36/7 has
+14.7% (Tidal Focus), and 29/22 has 6.0%.
+
+**Sensitivity at 5 minutes, launch gear, full buffs (light within about 1 point):**
+
+| Change | Elemental | Enhancement preset | 8/36/7 |
+|---|---|---|---|
+| ±3% spell hit | ±3.1% | ±1% | -0.8 / +0.4% |
+| No Curse of the Elements | -9.1% | -3.1% | -2.5% |
+| No Curse, boss 75 nature resistance | -19% | -7% | -5% |
+| Boss 300 fire resistance | -26% | -5.6% | -7.3% |
+
+- **About 45% of the Elemental preset's damage is fire:** Lava Burst 18%, Flame Shock 14%, Fire Nova 7% and Searing
+  Totem 7%.
+- **The rotation doesn't adapt to fire resistance.** It keeps casting fire spells, so the fire row overstates the loss
+  for a player who'd switch to Lightning, and understates a true immunity.
+- **Boss nature resistance up to 75 does nothing while the curse is up.**
+
+**Elemental Fury riders on top of the package** (`TestCompensation`): the Elemental preset as % of the Enhancement
+preset, 5 minutes, launch gear, full buffs.
+
+| Boss | Package only | + 1% hit per rank | + 5 Spell Piercing per rank | + 10 Spell Piercing per rank |
+|---|---|---|---|---|
+| Plain | 96 | 101 | 104 | 111 |
+| No Curse | 90 | 95 | 97 | 104 |
+| No Curse, 75 nature | 84 | 88 | 90 | 97 |
+| 300 fire | 75 | 80 | 82 | 89 |
+
+- Enhancement didn't move.
+- Spell Piercing past zero resistance becomes extra damage taken (`SpellVulnerabilityBelowZeroResistance`, from a beta
+  combat log), so it's a plain damage buff on a no-resistance boss.
+
+**Lean package** (`TestLeanPackage`): 2.25× crits with +1% crit and +1% hit per rank, plus 6% Lightning Bolt and Chain
+Lightning base damage.
+- **Launch:** it matches the 2.5× package, 102 / 97 / 96% against 101 / 96 / 96% (plain boss, full buffs, 2 / 5 /
+  10 minutes).
+- **SoD proxy:** it's about 5 points lower (87 / 83 / 80% against 92 / 88 / 85%, against the preset spending at 10),
+  because crit damage grows with gear and hit doesn't.
+- **No warlock:** both packages are at 90–91%.
+- **No warlock and 75 nature resistance:** both are at 84%.
+- **300 fire resistance:** both are at 75–76%.
 
 # Notes on the rotations (runs 1–5)
 

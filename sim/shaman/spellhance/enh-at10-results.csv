@@ -1,0 +1,49 @@
+buffs,package,build,duration_s,dps,seconds_oom
+light,false,Enh preset 19/32/0,120,1347.2,15.5
+light,false,Enh preset 19/32/0,300,1303.6,45.6
+light,false,Enh preset 19/32/0,480,1275.4,115.3
+light,false,Enh preset 19/32/0,600,1270.8,168.7
+light,false,"Enh preset 19/32/0, MW at 10",120,1432.6,16.9
+light,false,"Enh preset 19/32/0, MW at 10",300,1398.3,47.1
+light,false,"Enh preset 19/32/0, MW at 10",480,1369.2,121.8
+light,false,"Enh preset 19/32/0, MW at 10",600,1364.7,176.3
+light,false,"8/36/7 no hard casts, MW at 10",120,1468.8,0.0
+light,false,"8/36/7 no hard casts, MW at 10",300,1455.3,3.3
+light,false,"8/36/7 no hard casts, MW at 10",480,1420.0,64.6
+light,false,"8/36/7 no hard casts, MW at 10",600,1415.8,102.1
+light,true,Enh preset 19/32/0,120,1351.8,15.5
+light,true,Enh preset 19/32/0,300,1308.1,45.6
+light,true,Enh preset 19/32/0,480,1279.8,115.3
+light,true,Enh preset 19/32/0,600,1275.2,168.7
+light,true,"Enh preset 19/32/0, MW at 10",120,1439.6,16.9
+light,true,"Enh preset 19/32/0, MW at 10",300,1405.4,47.1
+light,true,"Enh preset 19/32/0, MW at 10",480,1376.3,121.8
+light,true,"Enh preset 19/32/0, MW at 10",600,1371.8,176.3
+light,true,"8/36/7 no hard casts, MW at 10",120,1476.2,0.0
+light,true,"8/36/7 no hard casts, MW at 10",300,1462.8,3.3
+light,true,"8/36/7 no hard casts, MW at 10",480,1427.4,64.6
+light,true,"8/36/7 no hard casts, MW at 10",600,1423.2,102.1
+full,false,Enh preset 19/32/0,120,1508.0,0.0
+full,false,Enh preset 19/32/0,300,1485.6,0.0
+full,false,Enh preset 19/32/0,480,1462.0,0.0
+full,false,Enh preset 19/32/0,600,1458.1,0.0
+full,false,"Enh preset 19/32/0, MW at 10",120,1600.5,0.0
+full,false,"Enh preset 19/32/0, MW at 10",300,1582.5,0.0
+full,false,"Enh preset 19/32/0, MW at 10",480,1561.3,0.0
+full,false,"Enh preset 19/32/0, MW at 10",600,1558.9,0.0
+full,false,"8/36/7 no hard casts, MW at 10",120,1620.8,0.0
+full,false,"8/36/7 no hard casts, MW at 10",300,1605.9,0.0
+full,false,"8/36/7 no hard casts, MW at 10",480,1594.1,0.0
+full,false,"8/36/7 no hard casts, MW at 10",600,1594.7,0.0
+full,true,Enh preset 19/32/0,120,1512.7,0.0
+full,true,Enh preset 19/32/0,300,1490.2,0.0
+full,true,Enh preset 19/32/0,480,1466.5,0.0
+full,true,Enh preset 19/32/0,600,1462.6,0.0
+full,true,"Enh preset 19/32/0, MW at 10",120,1607.7,0.0
+full,true,"Enh preset 19/32/0, MW at 10",300,1589.7,0.0
+full,true,"Enh preset 19/32/0, MW at 10",480,1568.5,0.0
+full,true,"Enh preset 19/32/0, MW at 10",600,1566.1,0.0
+full,true,"8/36/7 no hard casts, MW at 10",120,1628.4,0.0
+full,true,"8/36/7 no hard casts, MW at 10",300,1613.5,0.0
+full,true,"8/36/7 no hard casts, MW at 10",480,1601.7,0.0
+full,true,"8/36/7 no hard casts, MW at 10",600,1602.3,0.0
