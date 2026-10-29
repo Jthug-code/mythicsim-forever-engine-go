@@ -47,7 +47,7 @@ func TestSpellhanceMatrix(t *testing.T) {
 			suffix = "_sets"
 		}
 		rows := []gearRow{
-			{"caster_mirage_2h" + suffix, append(append([]build{}, hybrids...), elePreset)},
+			{"caster_mirage_2h" + suffix, append(append([]build{}, hybrids...), elePreset, eleResto)},
 			{"enh_smashbringer_2h" + suffix, append(append([]build{}, hybrids...), enhPreset)},
 		}
 		if sets {
@@ -96,7 +96,7 @@ func TestSpellhanceForeverMatrix(t *testing.T) {
 		gear   string
 		builds []build
 	}{
-		{"ele_launch", append(append([]build{}, builds...), elePreset)},
+		{"ele_launch", append(append([]build{}, builds...), elePreset, eleResto)},
 		// Shamans can't dual wield in Forever, so the Enhancement gear goes without its off-hand.
 		{"enh_launch_1h", append(append([]build{}, builds...), enhPreset)},
 		// The Enhancement preset as the repo ships it, dual-wielding, for reference only.

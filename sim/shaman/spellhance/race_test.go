@@ -11,8 +11,14 @@ import (
 )
 
 // Run 4 compares races for 8/36/7 with no hard casts, on a Forever BiS set built from Wowhead's
-// Forever item data (testdata/forever-enh-bis.gear.json; RESULTS.md says how it was chosen).
-const foreverBisGear = "testdata/forever-enh-bis.gear.json"
+// Forever item data (testdata/forever-enh-bis.gear.json; RESULTS.md says how it was chosen). Run 5
+// searched again under full buffs and uses that set.
+func foreverBisGear() string {
+	if fullBuffs() {
+		return "testdata/forever-enh-bis-fullbuffs.gear.json"
+	}
+	return "testdata/forever-enh-bis.gear.json"
+}
 
 var raceRows = []proto.Race{proto.Race_RaceOrc, proto.Race_RaceDwarf, proto.Race_RaceWindshaperSkyborne}
 
@@ -82,7 +88,7 @@ func TestSpellhanceRaceMatrix(t *testing.T) {
 					if mob != proto.MobType_MobTypeUnknown && reaction != 150 {
 						continue
 					}
-					runs = append(runs, run{Build: melee8367, Gear: foreverBisGear, Duration: d, ReactionMs: reaction,
+					runs = append(runs, run{Build: melee8367, Gear: foreverBisGear(), Duration: d, ReactionMs: reaction,
 						Iterations: iterations, Seed: 7, Race: race, MobType: mob})
 				}
 			}

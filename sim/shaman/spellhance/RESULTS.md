@@ -1,11 +1,12 @@
 # Spellhance comparison results
 
-Four runs, all single target (`MakeSingleTargetEncounter`, no duration variation), 10,000 iterations per row, seed 7,
+Five runs, all single target (`MakeSingleTargetEncounter`, no duration variation), 10,000 iterations per row, seed 7,
 using the measured swing rule. Engine: `mythicsim/oct21-release` (62b7445d1c) plus this branch.
 
 | Run | Gear | Files | Section |
 |---|---|---|---|
-| 4 | A Forever BiS set from Wowhead's Forever item data; Orc, Dwarf and Skyborne | `race-results.csv`, `race-sources.csv` | Run 4, first below |
+| 5 | Runs 2–4 again with full raid buffs and consumables | `*-fullbuffs.csv` | Run 5, first below |
+| 4 | A Forever BiS set from Wowhead's Forever item data; Orc, Dwarf and Skyborne | `race-results.csv`, `race-sources.csv` | Run 4 |
 | 3 | The repo's Forever launch-gear presets | `forever-results.csv`, `forever-sources.csv` | Run 3 |
 | 2 | Season of Discovery Phase 8 BiS, set bonuses on and off | `results.csv`, `sources.csv` | Run 2 |
 | 1 | SoD BiS, no set bonuses, with the old-swing-rule reference rows | `results-run1.csv` | Run 1 references, at the end |
@@ -24,6 +25,68 @@ throughout, and the APLs now do the same.
 - **What it moved in run 2:** only the 8/36/7 rows on the SoD Enhancement set, where Flurry, Rage of the Farseer and
   Abandoned Experiment push the swing under that line. Those rows rose 0.5% to 7.3%; 146 of 194 rows didn't change.
 - **Run 1 is as it was run.** Its 8/36/7 Enhancement-set rows understate by up to about 3%.
+
+# Run 5: everything again with full raid buffs and consumables (2026-10-29)
+
+`SPELLHANCE_BUFFS=full` (`fullbuffs_test.go`); `bis_tools/run5_fullbuffs.sh` reruns it all. Files carry
+`-fullbuffs`.
+
+**What the full set is:**
+- **Raid, individual and debuffs:** the engine's own `Full*` sets. That is all five Greater Blessings including Wisdom,
+  Judgement of Wisdom, Improved Mana Spring, one party Mana Tide, Trueshot, Moonkin, Atiesh and the full debuff list.
+- **No party Windfury Totem.** The Enhancement builds run their own Grace of Air.
+- **Consumables:** each preset's flask, elixirs, food, potions, runes, Juju and Zanza, plus three additions:
+  - Greater Mageblood Elixir (Forever, 20 MP5) for every build.
+  - Brilliant Wizard Oil for Elemental.
+  - Scrolls of Agility and Strength for Enhancement.
+- **No world buffs.** The engine models none, and Forever's tooltips say they have no effect in raid instances (reported
+  by wowdee.com and forum threads).
+- **No Forever "Natural" flasks.** The engine only knows their +60 Stamina, so every build keeps Flask of Supreme Power.
+
+**A new row everywhere: `Ele 32/0/19 Water Shield + Mana Tide`.**
+- The Elemental preset takes Water Shield but its rotation never casts it. `apls/ele_watershield.apl.json` casts it
+  before the pull and again whenever it drops.
+- The talents trade Natural Grace 3 and Improved Reincarnation 2 for Totemic Focus 4 and Mana Tide Totem.
+
+**The BiS set was searched again under full buffs** (`testdata/forever-enh-bis-fullbuffs.gear.json`, 800.0 DPS as an
+Orc at 3 minutes). Four changes from run 4:
+- Stormcaller's Diadem for the Black Dragonscale Helm.
+- Cloak of the Fallen God for the Arcanoweave Cloak.
+- Belt of Never-ending Agony for Grasp of the Fallen Emperor.
+- Chest: Greater Stats for Major Intellect.
+
+The buffs carry the mana, so the set moves toward melee stats.
+
+## Run 5 findings
+
+- **Full raid buffs remove mana as the limit in a 5-minute single-target fight.** Out-of-mana time is about 0 s for both
+  specs on every gear set, down from 48–218 s.
+- **What's left is a damage gap.** On launch gear, Elemental reaches 82–87% of the Enhancement preset. On the SoD proxy
+  it reaches 75%.
+- **Elemental still loses 8% from 2 to 5 minutes on launch gear** (496 → 455).
+  - With unlimited mana it's 502 → 481. The rest is cooldowns and consumables front-loaded into the short fight.
+  - The preset rotation's mana gate (max-rank Lightning Bolt only while mana ≥ 35 × seconds left) still costs about
+    5% at 5 minutes. That gate is a rotation choice, not a game rule.
+- **Water Shield + Mana Tide is about even with the preset under full buffs.** Launch 493 / 449 against 496 / 455; SoD
+  proxy 1154 / 1119 against 1190 / 1115. Its value is all in under-buffed raids: in run 4's buff set it was +11% on
+  launch gear and +32% on the SoD proxy at 5 minutes.
+- **Enhancement 19/32/0 now leads 8/36/7 on launch gear** (573 / 557 against 526 / 518). The run 4 lead came from
+  8/36/7's mana edge, which the full buffs make moot. On the SoD proxy they're even (1485 against 1491); Maelstrom at
+  10 stacks leads with 1606.
+- **The 29/22 hybrid in caster gear beats the Elemental preset over 2 minutes on launch gear** (518 against 496). It
+  loses over 5 (448 against 455), when it runs out of mana (102 s). It trails Enhancement throughout.
+- **Races keep the run 4 order.** On a neutral target, Skyborne 816 / 807, Orc 809 / 800, Dwarf 803 / 796.
+  - Against elementals the Skyborne does 857 / 847.
+  - Against beasts the Dwarf does 842 / 835.
+  - Elemental by race on launch gear at 5 minutes: Skyborne 449, Dwarf 447, Orc 445, Troll 444.
+
+| Build, 2 / 5 min DPS | Launch gear | SoD proxy (set bonuses) |
+|---|---|---|
+| Enhancement preset 19/32/0 | 573 / 557 | 1485 at 5 min; 1507 at 2 |
+| 8/36/7 no hard casts | 526 / 518 | 1504 / 1491; 1621 / 1606 with Maelstrom at 10 |
+| Elemental preset 32/0/19 | 496 / 455 | 1190 / 1115 |
+| Ele 32/0/19 Water Shield + Mana Tide | 493 / 449 | 1154 / 1119 |
+| 29/22 weave, caster gear | 518 / 448 | 964 / 927 |
 
 # Run 4: Orc vs Dwarf vs Skyborne, 8/36/7 with no hard casts, Forever BiS (2026-10-28)
 

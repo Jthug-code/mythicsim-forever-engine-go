@@ -190,6 +190,9 @@ func (r run) request() *proto.RaidSimRequest {
 	if r.Race != proto.Race_RaceUnknown {
 		player.Race = r.Race
 	}
+	if fullBuffs() {
+		partyBuffs, raidBuffs, debuffs = applyFullBuffs(b, player)
+	}
 
 	encounter := core.MakeSingleTargetEncounter(0)
 	encounter.Duration = r.Duration.Seconds()
