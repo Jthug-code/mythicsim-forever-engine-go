@@ -18,6 +18,7 @@ import (
 	"github.com/wowsims/forever/sim/shaman"
 	"github.com/wowsims/forever/sim/shaman/elemental"
 	"github.com/wowsims/forever/sim/shaman/enhancement"
+	googleProto "google.golang.org/protobuf/proto"
 )
 
 var gear map[string]*gearSet
@@ -144,7 +145,13 @@ func (r run) request() *proto.RaidSimRequest {
 
 	partyBuffs, raidBuffs, debuffs := unionBuffs()
 	if set, ok := gear[r.Gear]; ok {
-		player.Equipment = &proto.EquipmentSpec{Items: set.Items}
+		// Each request gets its own copies: the set is shared, and a run that enchants its gear must
+		// not enchant every other run's.
+		items := make([]*proto.ItemSpec, len(set.Items))
+		for i, item := range set.Items {
+			items[i] = googleProto.Clone(item).(*proto.ItemSpec)
+		}
+		player.Equipment = &proto.EquipmentSpec{Items: items}
 		player.Consumables = casterConsumes()
 		if !strings.HasPrefix(r.Gear, "caster_mirage_2h") {
 			player.Consumables = enhConsumes()

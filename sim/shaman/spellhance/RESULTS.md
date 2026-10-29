@@ -185,6 +185,31 @@ Lightning base damage.
 - **No warlock and 75 nature resistance:** both are at 84%.
 - **300 fire resistance:** both are at 75–76%.
 
+## Run 6: enchanted launch and SoD gear (`enchants-results.csv`, `TestEnchantedGear`)
+
+The launch presets and SoD sets carry no enchants; the Forever BiS set always did. `enchant_test.go` adds one
+standard Forever set per spec, by item type:
+- **Caster:**
+  - Vodouisant's Vigilant Embrace on head and legs.
+  - Spell Power on the neck, Zandalar Signet of Mojo on the shoulders, and Major Intellect on the chest.
+  - Superior Intellect on the bracers and Fire Power on the gloves.
+  - Spell Power on a one-hander, Mighty Spell Power on a two-hander.
+- **Melee:** the run 6 BiS search's picks for 8/36/7, with Crusader on the weapon.
+
+| Elemental preset as % of the Enhancement preset (2 / 5 / 10 min) | Unenchanted | Enchanted |
+|---|---|---|
+| Launch, full buffs | 88 / 84 / 84 | 88 / 85 / 84 |
+| Launch, light buffs | 91 / 87 / 86 | 91 / 88 / 88 |
+| SoD, full buffs (Enhancement at 10 stacks) | 77 / 73 / 71 | 80 / 77 / 75 |
+| SoD, light buffs | 71 / 68 / 61 | 75 / 73 / 65 |
+
+- **Launch:** enchants add 9–12% to both specs, so the comparison barely moves.
+- **SoD:** Elemental gains 12–15% and Enhancement 7–8%, so unenchanted SoD rows understate Elemental by 3–5 points. The
+  tuning-package rows weren't rerun with enchants.
+- **A harness fix came with this.** `request()` now copies the shared SoD set's items for each run. Without the copy,
+  this test's own enchants leaked into its unenchanted rows. `TestRequestsDoNotShareGear` fails on the old code. No
+  earlier test changed that gear, so earlier rows are unaffected.
+
 # Notes on the rotations (runs 1–5)
 
 **A change to the rotations since run 1 (all three runs' APLs have it now).** A weapon that swings faster than an

@@ -1,0 +1,97 @@
+buffs,build,gear,enchanted,duration_s,dps
+light,Ele 32/0/19 Water Shield + Mana Tide,ele_launch,true,120,488.6
+light,Ele 32/0/19 Water Shield + Mana Tide,ele_launch,false,120,439.5
+light,Ele preset 32/0/19,ele_launch,false,120,429.7
+light,Ele preset 32/0/19,ele_launch,true,120,480.7
+light,Ele preset 32/0/19,caster_mirage_2h_sets,false,120,1019.1
+light,Enh preset 19/32/0,enh_launch_1h,true,120,525.5
+light,Ele preset 32/0/19,caster_mirage_2h_sets,true,120,1159.0
+light,Enh preset 19/32/0,enh_launch_1h,false,120,473.7
+light,Ele preset 32/0/19,ele_launch,true,300,445.0
+light,8/36/7 no hard casts,enh_launch_1h,true,120,510.2
+light,8/36/7 no hard casts,enh_launch_1h,false,120,464.1
+light,29/22 weave,ele_launch,true,120,474.8
+light,Ele 32/0/19 Water Shield + Mana Tide,ele_launch,false,300,399.0
+light,Ele 32/0/19 Water Shield + Mana Tide,ele_launch,true,300,443.7
+light,Ele preset 32/0/19,ele_launch,false,300,397.5
+light,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,true,120,1542.2
+light,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,false,120,1432.6
+light,29/22 weave,ele_launch,false,120,419.3
+light,Ele preset 32/0/19,caster_mirage_2h_sets,false,300,956.8
+light,"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h_sets,true,120,1570.9
+light,"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h_sets,false,120,1468.8
+light,Ele preset 32/0/19,caster_mirage_2h_sets,true,300,1095.7
+light,Ele preset 32/0/19,ele_launch,true,600,431.5
+light,Enh preset 19/32/0,enh_launch_1h,false,300,458.4
+light,Enh preset 19/32/0,enh_launch_1h,true,300,508.3
+light,Ele 32/0/19 Water Shield + Mana Tide,ele_launch,true,600,441.3
+light,Ele 32/0/19 Water Shield + Mana Tide,ele_launch,false,600,396.2
+light,Ele preset 32/0/19,ele_launch,false,600,384.6
+light,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,true,300,1502.1
+light,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,false,300,1398.3
+light,8/36/7 no hard casts,enh_launch_1h,false,300,453.6
+light,Ele preset 32/0/19,caster_mirage_2h_sets,false,600,833.1
+light,8/36/7 no hard casts,enh_launch_1h,true,300,502.4
+light,Ele preset 32/0/19,caster_mirage_2h_sets,true,600,958.6
+light,"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h_sets,false,300,1455.3
+light,"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h_sets,true,300,1560.7
+light,29/22 weave,ele_launch,false,300,354.2
+light,29/22 weave,ele_launch,true,300,388.6
+light,Enh preset 19/32/0,enh_launch_1h,true,600,492.1
+light,Enh preset 19/32/0,enh_launch_1h,false,600,445.3
+light,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,false,600,1364.7
+light,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,true,600,1466.5
+light,8/36/7 no hard casts,enh_launch_1h,true,600,490.0
+light,8/36/7 no hard casts,enh_launch_1h,false,600,442.1
+light,"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h_sets,false,600,1415.8
+light,"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h_sets,true,600,1523.8
+light,29/22 weave,ele_launch,false,600,306.2
+light,29/22 weave,ele_launch,true,600,330.7
+full,Ele preset 32/0/19,ele_launch,false,120,505.0
+full,Ele preset 32/0/19,ele_launch,true,120,549.6
+full,Ele 32/0/19 Water Shield + Mana Tide,ele_launch,false,120,491.5
+full,Ele 32/0/19 Water Shield + Mana Tide,ele_launch,true,120,534.9
+full,Ele preset 32/0/19,caster_mirage_2h_sets,true,120,1370.4
+full,Ele preset 32/0/19,caster_mirage_2h_sets,false,120,1224.6
+full,Enh preset 19/32/0,enh_launch_1h,false,120,572.6
+full,Enh preset 19/32/0,enh_launch_1h,true,120,624.3
+full,Ele preset 32/0/19,ele_launch,false,300,468.4
+full,Ele preset 32/0/19,ele_launch,true,300,518.1
+full,Ele 32/0/19 Water Shield + Mana Tide,ele_launch,true,300,510.2
+full,Ele 32/0/19 Water Shield + Mana Tide,ele_launch,false,300,462.2
+full,29/22 weave,ele_launch,false,120,518.6
+full,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,false,120,1600.5
+full,29/22 weave,ele_launch,true,120,561.0
+full,Ele preset 32/0/19,caster_mirage_2h_sets,true,300,1307.6
+full,8/36/7 no hard casts,enh_launch_1h,false,120,525.5
+full,8/36/7 no hard casts,enh_launch_1h,true,120,577.1
+full,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,true,120,1711.1
+full,Ele preset 32/0/19,caster_mirage_2h_sets,false,300,1156.6
+full,"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h_sets,true,120,1727.7
+full,"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h_sets,false,120,1620.8
+full,Ele preset 32/0/19,ele_launch,false,600,458.7
+full,Ele preset 32/0/19,ele_launch,true,600,506.0
+full,Ele 32/0/19 Water Shield + Mana Tide,ele_launch,true,600,496.6
+full,Ele 32/0/19 Water Shield + Mana Tide,ele_launch,false,600,450.7
+full,Enh preset 19/32/0,enh_launch_1h,false,300,558.7
+full,Enh preset 19/32/0,enh_launch_1h,true,300,612.6
+full,Ele preset 32/0/19,caster_mirage_2h_sets,false,600,1104.2
+full,29/22 weave,ele_launch,false,300,517.3
+full,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,false,300,1582.5
+full,Ele preset 32/0/19,caster_mirage_2h_sets,true,600,1244.4
+full,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,true,300,1693.8
+full,29/22 weave,ele_launch,true,300,562.1
+full,8/36/7 no hard casts,enh_launch_1h,false,300,518.2
+full,8/36/7 no hard casts,enh_launch_1h,true,300,568.9
+full,"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h_sets,true,300,1715.7
+full,"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h_sets,false,300,1605.9
+full,Enh preset 19/32/0,enh_launch_1h,false,600,548.4
+full,Enh preset 19/32/0,enh_launch_1h,true,600,601.2
+full,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,true,600,1669.6
+full,"Enh preset 19/32/0, MW at 10",enh_smashbringer_2h_sets,false,600,1558.9
+full,29/22 weave,ele_launch,true,600,536.8
+full,29/22 weave,ele_launch,false,600,492.7
+full,8/36/7 no hard casts,enh_launch_1h,false,600,518.8
+full,8/36/7 no hard casts,enh_launch_1h,true,600,569.5
+full,"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h_sets,false,600,1594.7
+full,"8/36/7 no hard casts, MW at 10",enh_smashbringer_2h_sets,true,600,1704.3
