@@ -7,7 +7,7 @@ build,gear,set_bonuses,duration_s,reaction_ms,haste,iterations,dps,dps_stderr,ph
 8/36/7 no hard casts,enh_smashbringer_2h,true,300,150,on,10000,1490.5,0.8,1201.2,289.3,0.806,9.24,28.05,0.0
 "8/32/11 Water Shield, no hard casts",enh_smashbringer_2h,true,120,150,on,10000,1490.2,1.2,1204.9,285.3,0.809,9.28,28.53,0.0
 "8/32/11 Water Shield, no hard casts",enh_smashbringer_2h,true,300,150,on,10000,1476.9,0.8,1192.1,284.8,0.807,9.19,28.04,0.0
-8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,10000,816.5,0.7,630.9,185.5,0.773,4.07,23.55,0.0
+8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,10000,816.4,0.7,630.9,185.5,0.773,4.07,23.55,0.0
 8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,10000,807.4,0.5,621.2,186.2,0.769,4.15,23.18,0.0
 "8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,10000,809.5,0.7,625.8,183.7,0.773,4.06,23.55,0.0
 "8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,10000,800.2,0.5,616.3,183.9,0.770,4.14,23.18,0.0

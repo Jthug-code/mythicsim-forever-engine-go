@@ -1,22 +1,104 @@
 # Spellhance comparison results
 
-Five runs, all single target (`MakeSingleTargetEncounter`, no duration variation), 10,000 iterations per row, seed 7,
-using the measured swing rule. Engine: `mythicsim/oct21-release` (62b7445d1c) plus this branch.
+All single target (`MakeSingleTargetEncounter`, no duration variation), 10,000 iterations per row, seed 7, using the
+measured swing rule. Engine: `mythicsim/oct21-release` (62b7445d1c) plus this branch.
+
+**Run 6 is the current state.** Every CSV except `results-run1.csv` now holds run 6's numbers. The run 2–5 sections
+further down are kept as written; their numbers predate the potion fix.
 
 | Run | Gear | Files | Section |
 |---|---|---|---|
-| 5 | Runs 2–4 again with full raid buffs and consumables | `*-fullbuffs.csv` | Run 5, first below |
+| 6 | Runs 2–5 again with mana potions and runes actually drunk, at both buff levels, plus Elemental Fury buffs | all CSVs; `-fullbuffs` = full raid buffs | Run 6, first below |
+| 5 | Runs 2–4 again with full raid buffs and consumables | `*-fullbuffs.csv` | Run 5 |
 | 4 | A Forever BiS set from Wowhead's Forever item data; Orc, Dwarf and Skyborne | `race-results.csv`, `race-sources.csv` | Run 4 |
 | 3 | The repo's Forever launch-gear presets | `forever-results.csv`, `forever-sources.csv` | Run 3 |
 | 2 | Season of Discovery Phase 8 BiS, set bonuses on and off | `results.csv`, `sources.csv` | Run 2 |
 | 1 | SoD BiS, no set bonuses, with the old-swing-rule reference rows | `results-run1.csv` | Run 1 references, at the end |
 
-Rerun with:
+Rerun everything at one buff level with `bis_tools/rerun_all.sh light|full <work dir>`, run from this folder. It runs
+the BiS search, then the race, Elemental mana, Water Shield Enhancement, fight-length, Forever-launch and SoD matrices.
+The Elemental Fury variants run with `SPELLHANCE_FURY_OUT=<dir> go test --tags=with_db . -run TestEleFuryBuff`.
 
-    SPELLHANCE_OUT=<dir> SPELLHANCE_ITERATIONS=10000 go test --tags=with_db ./sim/shaman/spellhance/ -run TestSpellhanceMatrix -timeout 60m
-    SPELLHANCE_FOREVER_OUT=<dir> SPELLHANCE_ITERATIONS=10000 go test --tags=with_db ./sim/shaman/spellhance/ -run TestSpellhanceForeverMatrix -timeout 60m
-    SPELLHANCE_RACE_OUT=<dir> SPELLHANCE_ITERATIONS=10000 go test --tags=with_db ./sim/shaman/spellhance/ -run TestSpellhanceRaceMatrix -timeout 60m
+# Run 6: mana potions fixed, both buff levels (2026-10-29)
 
+**The bug, from the start of run 1:**
+- The engine registers potions and conjured items only from the lists the UI sends (`Potions`, `ConjuredItems`).
+  `PotId` and `ConjuredId` just pick one of them.
+- The harness set only the ids, so no Major Mana Potion or Demonic Rune was ever drunk.
+- `request()` now fills the lists, and `TestManaPotionsAreDrunk` fails on the old harness.
+- The engine's policy is sound once the items are registered. It drinks as soon as the largest roll fits under max
+  mana, so each 2-minute cooldown restarts as early as it can. It isn't perfect: it waits for room for the top roll,
+  not the average, and skips a last, partly wasted potion.
+- Dark Rune (bind on equip, same restore and cooldown) stands in for the bind-on-pickup Demonic Rune.
+
+**"Light" means run 4's buffs:** Battle Shout, Leader of the Pack, Mana Spring, Moonkin, Arcane Intellect,
+Fortitude, Spirit, Mark of the Wild and the main debuffs. No blessings, Judgement of Wisdom or Mana Tide.
+
+## Run 6 findings
+
+- **With potions, Elemental barely runs out of mana.**
+  - Light buffs: 6 s of a 5-minute fight, 24 s over 10 minutes.
+  - The Enhancement preset still does in long, light fights: 72 s over 5 minutes, 216 s over 10.
+  - 8/36/7: 14 s and 94 s.
+  - Full buffs: about 0 s for everyone.
+- **The Elemental gap is a damage gap at either buff level** (Elemental preset as % of the Enhancement preset, 2 / 5 /
+  10 min, launch gear):
+
+  | Buffs | Elemental preset | Enhancement preset | Elemental's share |
+  |---|---|---|---|
+  | Light | 430 / 398 / 385 | 474 / 458 / 445 | 91 / 87 / 86% |
+  | Full | 505 / 468 / 459 | 573 / 559 / 548 | 88 / 84 / 84% |
+  | SoD proxy, full (2 / 5 min) | 1225 / 1157 | 1508 / 1486 | 81 / 78% |
+- **Elemental loses about 7% from 2 to 5 minutes; Enhancement loses 3%.** Both stay flat after that. Two caveats:
+  - The rows with 100,000 bonus MP5 aren't a clean "unlimited mana" reference. With free mana the preset rotation casts
+    more Chain Lightning, which is weaker on one target: at full buffs the 2-minute DPS goes down, 505 → 502.
+  - The fall-off comes from front-loaded cooldowns and consumables plus the rotation's mana gate.
+- **Water Shield is worth little once potions are drunk.**
+  - Elemental + Water Shield + Mana Tide against the preset: +2% / +0.4% (light, launch, 2 / 5 min), +3% at 10 minutes,
+    +2–3% on the SoD proxy. Under full buffs it's -3% / -1%.
+  - 8/32/11 against 8/36/7: -0.6% / +0.2% (light, launch), +2.4% / +2.9% at 8 / 10 minutes, and -1% under full buffs.
+- **The 29/22 weave in caster gear beats the Elemental preset on launch gear with full buffs:** 519 / 517 against
+  505 / 468. It's still 7–9% behind the Enhancement preset (573 / 559). On the SoD proxy it trails Elemental (964 / 972
+  against 1225 / 1157).
+- **Races, Forever BiS, 8/36/7:**
+  - Light: Skyborne 736 / 728, Orc 729 / 720, Dwarf 724 / 718. Elemental targets: Skyborne 773 / 764. Beasts: Dwarf
+    760 / 754.
+  - Full: Skyborne 816 / 807, Orc 809 / 800, Dwarf 803 / 796.
+- **BiS:** the light search now picks the full-buff set, except a Chest: Major Intellect enchant against Greater Stats.
+
+## Run 6: Elemental Fury buffs (`elefury-results.csv`)
+
+**Why Elemental Fury:** it sits on row 6 of the Elemental tree, so it needs 25 Elemental points first. Neither
+Enhancement build can reach it: the preset has 19 Elemental points and 8/36/7 has 8. The 29/22 hybrid has 4/5.
+Lightning Overload and Lava Burst are on row 5 (20 points), which a 20/31 Enhancement build could still reach.
+
+**How it was tested:**
+- The knobs are `shaman.ElementalFuryExtraCritBonus`, `ElementalFuryCritPerRank` and `ElementalFuryDamagePerRank`, all
+  zero by default.
+- The Enhancement rows moved by exactly 0.0% in every variant.
+
+**Crit talents in Forever's client data, at max rank (crits for):**
+- Every caster talent stops at 2.0×: Elemental Fury, Ruin, Ice Shards, Vengeance and Pandemic.
+- The physical talents go higher: Mortal Shots and Predator's Edge 2.3×, Lethality and Impale 2.2×.
+
+**Elemental preset, full buffs, % gain (launch / SoD proxy):**
+
+| Elemental Fury at 5/5 | Gain (launch / SoD proxy) | 5-min DPS, launch |
+|---|---|---|
+| Crits for 2.25× | +3.8 / +7.3% | 486 |
+| Crits for 2.5× | +7.6 / +14.6% | 504 |
+| +1% crit per rank | +4.3 / +3.5% | 488 |
+| +2% crit per rank | +8.5 / +7.1% | 508 |
+| +2% damage per rank | +10 / +10% | 515 |
+| +4% damage per rank | +20 / +20% | 562 |
+| +1% crit per rank, crits for 2.25× | +9.1 / +11.7% | 511 |
+| **+1% crit per rank, crits for 2.5×** | **+14.0 / +19.9%** | **534** |
+| +1% crit per rank, +2% damage per rank | +14.7 / +13.9% | 537 |
+
+- **With +1% crit per rank and 2.5× crits:**
+  - Launch gear: 576 / 534 against the Enhancement preset's 573 / 559, so 101% at 2 minutes and 96% at 5.
+  - SoD proxy: 1468 / 1387, which is 97% / 93%.
+  - The 29/22 hybrid gains 6–11% from the combined packages.
 **A change to the rotations since run 1 (all three runs' APLs have it now).** A weapon that swings faster than an
 instant's GCD plus the 0.4 s window can't fit any GCD between swings. The addon then drops WAIT and shows INSTANT
 throughout, and the APLs now do the same.

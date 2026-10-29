@@ -180,20 +180,37 @@ func (shaman *Shaman) applyElementalFocus() {
 	})
 }
 
+// Hypothetical Elemental Fury buffs for the Spellhance tuning test (sim/shaman/spellhance,
+// TestEleFuryBuff). Zero leaves the talent as the client states it.
+var (
+	ElementalFuryExtraCritBonus float64 // added to the 5/5 crit damage bonus, scaled by rank (1 = +100%)
+	ElementalFuryCritPerRank    float64 // spell crit chance per rank, in percent
+	ElementalFuryDamagePerRank  float64 // damage per rank, as a fraction
+)
+
 func (shaman *Shaman) applyElementalFury() {
 	if shaman.Talents.ElementalFury == 0 {
 		return
 	}
 
+	points := shaman.Talents.ElementalFury
 	// The talent's class mask (16089) also covers Flametongue Attack (bit 21) and Frostbrand
 	// Attack (bit 24): shamans' Flametongue Weapon hits crit for 2.0x in logs while the same
 	// attack granted by Flametongue Totem crits for 1.5x on other players. Bit 10 is Lightning
 	// Shield, the orbs (26363..26370) included.
+	mask := SpellMaskFireTotem | SpellMaskFire | SpellMaskNature | SpellMaskFrost | SpellMaskFlametongueWeapon | SpellMaskFrostbrandWeapon | SpellMaskLightningShield
 	shaman.AddStaticMod(core.SpellModConfig{
-		Kind:       core.SpellMod_CritMultiplier_Flat,
-		FloatValue: spellData.ElementalFury.Effect(dbcenums.A_ADD_PCT_MODIFIER, int32(dbcenums.SPELLMOD_CRIT_DAMAGE_BONUS)).FractionAt(shaman.Talents.ElementalFury),
-		ClassMask:  SpellMaskFireTotem | SpellMaskFire | SpellMaskNature | SpellMaskFrost | SpellMaskFlametongueWeapon | SpellMaskFrostbrandWeapon | SpellMaskLightningShield,
+		Kind: core.SpellMod_CritMultiplier_Flat,
+		FloatValue: spellData.ElementalFury.Effect(dbcenums.A_ADD_PCT_MODIFIER, int32(dbcenums.SPELLMOD_CRIT_DAMAGE_BONUS)).FractionAt(points) +
+			ElementalFuryExtraCritBonus*float64(points)/5,
+		ClassMask: mask,
 	})
+	if ElementalFuryCritPerRank != 0 {
+		shaman.AddStaticMod(core.SpellModConfig{Kind: core.SpellMod_BonusCrit_Percent, FloatValue: ElementalFuryCritPerRank * float64(points), ClassMask: mask})
+	}
+	if ElementalFuryDamagePerRank != 0 {
+		shaman.AddStaticMod(core.SpellModConfig{Kind: core.SpellMod_DamageDone_Pct, FloatValue: ElementalFuryDamagePerRank * float64(points), ClassMask: mask})
+	}
 }
 func (shaman *Shaman) applyLightningOverload() {
 	if shaman.Talents.LightningOverload == 0 {

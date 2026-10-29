@@ -193,6 +193,17 @@ func (r run) request() *proto.RaidSimRequest {
 	if fullBuffs() {
 		partyBuffs, raidBuffs, debuffs = applyFullBuffs(b, player)
 	}
+	// The engine registers a potion or conjured item only from the lists the UI sends (Potions,
+	// ConjuredItems); PotId and ConjuredId just pick one of them. Runs 1-5 set only the ids, so no
+	// mana potion or Demonic Rune was ever drunk.
+	if c := player.Consumables; c != nil {
+		if c.PotId != 0 && len(c.Potions) == 0 {
+			c.Potions = []int32{c.PotId}
+		}
+		if c.ConjuredId != 0 && len(c.ConjuredItems) == 0 {
+			c.ConjuredItems = []int32{c.ConjuredId}
+		}
+	}
 
 	encounter := core.MakeSingleTargetEncounter(0)
 	encounter.Duration = r.Duration.Seconds()
