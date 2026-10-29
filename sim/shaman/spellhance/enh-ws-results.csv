@@ -1,0 +1,13 @@
+build,gear,set_bonuses,duration_s,reaction_ms,haste,iterations,dps,dps_stderr,physical_dps,spell_dps,physical_share,lb_lvb_cl_casts_per_min,mh_swings_per_min,seconds_oom
+8/36/7 no hard casts,enh_launch_1h,false,120,150,on,10000,439.1,0.4,325.9,113.3,0.742,3.75,27.17,29.3
+8/36/7 no hard casts,enh_launch_1h,false,300,150,on,10000,399.9,0.2,313.5,86.5,0.784,3.75,26.66,159.2
+"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,120,150,on,10000,459.3,0.4,328.1,131.2,0.714,3.77,27.21,1.8
+"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,300,150,on,10000,419.4,0.2,315.0,104.3,0.751,3.76,26.69,115.1
+8/36/7 no hard casts,enh_smashbringer_2h,true,120,150,on,10000,1361.2,1.1,1091.7,269.5,0.802,9.31,28.49,0.2
+8/36/7 no hard casts,enh_smashbringer_2h,true,300,150,on,10000,1268.8,0.7,1049.3,219.5,0.827,9.11,27.93,129.3
+"8/32/11 Water Shield, no hard casts",enh_smashbringer_2h,true,120,150,on,10000,1351.3,1.1,1085.4,265.9,0.803,9.28,28.49,0.0
+"8/32/11 Water Shield, no hard casts",enh_smashbringer_2h,true,300,150,on,10000,1330.3,0.7,1069.2,261.2,0.804,9.20,28.00,17.3
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,10000,726.1,0.7,547.3,178.8,0.754,4.04,23.36,0.0
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,10000,675.9,0.4,526.2,149.8,0.778,4.08,22.94,85.8
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,120,150,on,10000,718.6,0.7,541.8,176.8,0.754,4.04,23.36,0.0
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,300,150,on,10000,710.2,0.4,533.2,177.0,0.751,4.11,23.00,0.6

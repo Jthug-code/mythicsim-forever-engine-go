@@ -88,6 +88,28 @@ The buffs carry the mana, so the set moves toward melee stats.
 | Ele 32/0/19 Water Shield + Mana Tide | 493 / 449 | 1154 / 1119 |
 | 29/22 weave, caster gear | 518 / 448 | 964 / 927 |
 
+## Run 5 addendum: the 8/32/11 Water Shield Enhancement
+
+The build ([talent calc](https://www.wowhead.com/forever/talent-calc/shaman/v2053-051032031005112251-053002001)) is
+8/36/7 with Ancestral Knowledge 5 → 1, plus Mindfulness 3 and Water Shield, cast and kept up
+(`apls/melee_maelstrom_ws.apl.json`).
+- **Files:** `enh-ws-results.csv` (run 4 buffs) and `enh-ws-results-fullbuffs.csv`.
+- **Setup:** Windshaper Skyborne, 150 ms, 10,000 iterations, standard errors 0.2–1.3 DPS.
+
+| Gear, 2 / 5 min DPS (out of mana at 5 min) | 8/36/7 | 8/32/11 Water Shield |
+|---|---|---|
+| Launch, run 4 buffs | 439 / 400 (159 s) | 459 / 419 (115 s) |
+| SoD proxy, run 4 buffs | 1361 / 1269 (129 s) | 1351 / 1330 (17 s) |
+| Forever BiS (run 4 set), run 4 buffs | 726 / 676 (86 s) | 719 / 710 (1 s) |
+| Launch, full buffs | 526 / 518 | 522 / 515 |
+| SoD proxy, full buffs | 1504 / 1491 | 1490 / 1477 |
+| Forever BiS (run 5 set), full buffs | 817 / 807 | 810 / 800 |
+
+- **With run 4's lighter buffs, Water Shield wins about 5% over 5 minutes at every gear level.**
+  - On launch gear it also wins over 2 minutes, because that gear runs out of mana inside 2 minutes.
+- **Under full buffs it loses about 1%.** Ancestral Knowledge multiplies Intellect, which 8/36/7 turns into attack
+  power, and with full buffs the mana isn't needed.
+
 # Run 4: Orc vs Dwarf vs Skyborne, 8/36/7 with no hard casts, Forever BiS (2026-10-28)
 
 One build, `8/36/7 no hard casts` (`apls/melee_maelstrom.apl.json`), on one gear set worn by all three races. Buffs,

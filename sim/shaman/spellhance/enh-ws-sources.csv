@@ -1,0 +1,109 @@
+build,gear,set_bonuses,duration_s,reaction_ms,haste,source,school,dps,share
+8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Melee swing,physical,172.3,0.392
+8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Windfury Attack,physical,106.2,0.242
+8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,47.4,0.108
+8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Lightning Bolt,spell,34.0,0.077
+8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Earth Shock,spell,22.6,0.051
+8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Searing Totem,spell,21.0,0.048
+8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Flame Shock (ticks),spell,14.4,0.033
+8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Flame Shock (hit),spell,11.9,0.027
+8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,9.3,0.021
+8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Melee swing,physical,167.9,0.420
+8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Windfury Attack,physical,102.4,0.256
+8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,43.2,0.108
+8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Lightning Bolt,spell,33.9,0.085
+8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Searing Totem,spell,20.0,0.050
+8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Earth Shock,spell,9.0,0.023
+8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,9.0,0.022
+8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Flame Shock (ticks),spell,8.0,0.020
+8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Flame Shock (hit),spell,6.5,0.016
+"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,120,150,on,Melee swing,physical,172.0,0.374
+"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,120,150,on,Windfury Attack,physical,106.9,0.233
+"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,49.3,0.107
+"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,120,150,on,Lightning Bolt,spell,34.0,0.074
+"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,120,150,on,Earth Shock,spell,33.5,0.073
+"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,120,150,on,Searing Totem,spell,21.0,0.046
+"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,120,150,on,Flame Shock (ticks),spell,18.1,0.039
+"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,120,150,on,Flame Shock (hit),spell,15.3,0.033
+"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,9.3,0.020
+"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,300,150,on,Melee swing,physical,167.7,0.400
+"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,300,150,on,Windfury Attack,physical,103.0,0.246
+"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,44.4,0.106
+"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,300,150,on,Lightning Bolt,spell,33.9,0.081
+"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,300,150,on,Searing Totem,spell,20.8,0.050
+"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,300,150,on,Flame Shock (ticks),spell,14.9,0.035
+"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,300,150,on,Earth Shock,spell,13.6,0.032
+"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,300,150,on,Flame Shock (hit),spell,12.2,0.029
+"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,9.0,0.021
+8/36/7 no hard casts,enh_smashbringer_2h,true,120,150,on,Melee swing,physical,592.1,0.435
+8/36/7 no hard casts,enh_smashbringer_2h,true,120,150,on,Windfury Attack,physical,336.9,0.248
+8/36/7 no hard casts,enh_smashbringer_2h,true,120,150,on,Stormstrike (weapon strike),physical,162.6,0.119
+8/36/7 no hard casts,enh_smashbringer_2h,true,120,150,on,Lightning Bolt,spell,147.9,0.109
+8/36/7 no hard casts,enh_smashbringer_2h,true,120,150,on,Earth Shock,spell,40.6,0.030
+8/36/7 no hard casts,enh_smashbringer_2h,true,120,150,on,Flame Shock (ticks),spell,24.1,0.018
+8/36/7 no hard casts,enh_smashbringer_2h,true,120,150,on,Searing Totem,spell,24.0,0.018
+8/36/7 no hard casts,enh_smashbringer_2h,true,120,150,on,Flame Shock (hit),spell,20.0,0.015
+8/36/7 no hard casts,enh_smashbringer_2h,true,120,150,on,Dragonbreath Chili,spell,12.8,0.009
+8/36/7 no hard casts,enh_smashbringer_2h,true,300,150,on,Melee swing,physical,576.9,0.455
+8/36/7 no hard casts,enh_smashbringer_2h,true,300,150,on,Windfury Attack,physical,328.5,0.259
+8/36/7 no hard casts,enh_smashbringer_2h,true,300,150,on,Stormstrike (weapon strike),physical,143.9,0.113
+8/36/7 no hard casts,enh_smashbringer_2h,true,300,150,on,Lightning Bolt,spell,143.7,0.113
+8/36/7 no hard casts,enh_smashbringer_2h,true,300,150,on,Searing Totem,spell,23.1,0.018
+8/36/7 no hard casts,enh_smashbringer_2h,true,300,150,on,Earth Shock,spell,16.5,0.013
+8/36/7 no hard casts,enh_smashbringer_2h,true,300,150,on,Flame Shock (ticks),spell,13.3,0.010
+8/36/7 no hard casts,enh_smashbringer_2h,true,300,150,on,Dragonbreath Chili,spell,12.4,0.010
+8/36/7 no hard casts,enh_smashbringer_2h,true,300,150,on,Flame Shock (hit),spell,10.6,0.008
+"8/32/11 Water Shield, no hard casts",enh_smashbringer_2h,true,120,150,on,Melee swing,physical,589.2,0.436
+"8/32/11 Water Shield, no hard casts",enh_smashbringer_2h,true,120,150,on,Windfury Attack,physical,335.8,0.248
+"8/32/11 Water Shield, no hard casts",enh_smashbringer_2h,true,120,150,on,Stormstrike (weapon strike),physical,160.4,0.119
+"8/32/11 Water Shield, no hard casts",enh_smashbringer_2h,true,120,150,on,Lightning Bolt,spell,146.3,0.108
+"8/32/11 Water Shield, no hard casts",enh_smashbringer_2h,true,120,150,on,Earth Shock,spell,39.9,0.030
+"8/32/11 Water Shield, no hard casts",enh_smashbringer_2h,true,120,150,on,Searing Totem,spell,24.0,0.018
+"8/32/11 Water Shield, no hard casts",enh_smashbringer_2h,true,120,150,on,Flame Shock (ticks),spell,23.6,0.017
+"8/32/11 Water Shield, no hard casts",enh_smashbringer_2h,true,120,150,on,Flame Shock (hit),spell,19.6,0.015
+"8/32/11 Water Shield, no hard casts",enh_smashbringer_2h,true,120,150,on,Dragonbreath Chili,spell,12.6,0.009
+"8/32/11 Water Shield, no hard casts",enh_smashbringer_2h,true,300,150,on,Melee swing,physical,579.2,0.435
+"8/32/11 Water Shield, no hard casts",enh_smashbringer_2h,true,300,150,on,Windfury Attack,physical,334.3,0.251
+"8/32/11 Water Shield, no hard casts",enh_smashbringer_2h,true,300,150,on,Stormstrike (weapon strike),physical,155.7,0.117
+"8/32/11 Water Shield, no hard casts",enh_smashbringer_2h,true,300,150,on,Lightning Bolt,spell,146.4,0.110
+"8/32/11 Water Shield, no hard casts",enh_smashbringer_2h,true,300,150,on,Earth Shock,spell,37.0,0.028
+"8/32/11 Water Shield, no hard casts",enh_smashbringer_2h,true,300,150,on,Searing Totem,spell,24.2,0.018
+"8/32/11 Water Shield, no hard casts",enh_smashbringer_2h,true,300,150,on,Flame Shock (ticks),spell,22.9,0.017
+"8/32/11 Water Shield, no hard casts",enh_smashbringer_2h,true,300,150,on,Flame Shock (hit),spell,18.3,0.014
+"8/32/11 Water Shield, no hard casts",enh_smashbringer_2h,true,300,150,on,Dragonbreath Chili,spell,12.3,0.009
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Melee swing,physical,279.6,0.385
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Windfury Attack,physical,170.0,0.234
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,97.8,0.135
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Lightning Bolt,spell,53.4,0.073
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Earth Shock,spell,41.5,0.057
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (ticks),spell,26.1,0.036
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Searing Totem,spell,22.2,0.031
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (hit),spell,20.0,0.028
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dragonbreath Chili,spell,15.6,0.022
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Melee swing,physical,273.3,0.404
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Windfury Attack,physical,164.4,0.243
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,88.5,0.131
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Lightning Bolt,spell,53.6,0.079
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Earth Shock,spell,24.0,0.035
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Searing Totem,spell,22.2,0.033
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (ticks),spell,20.1,0.030
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dragonbreath Chili,spell,15.1,0.022
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (hit),spell,14.8,0.022
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,120,150,on,Melee swing,physical,276.7,0.385
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,120,150,on,Windfury Attack,physical,168.3,0.234
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,96.8,0.135
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,120,150,on,Lightning Bolt,spell,52.6,0.073
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,120,150,on,Earth Shock,spell,41.1,0.057
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (ticks),spell,25.7,0.036
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,120,150,on,Searing Totem,spell,22.1,0.031
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (hit),spell,19.8,0.028
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,120,150,on,Dragonbreath Chili,spell,15.4,0.021
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,300,150,on,Melee swing,physical,272.9,0.384
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,300,150,on,Windfury Attack,physical,166.0,0.234
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,94.3,0.133
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,300,150,on,Lightning Bolt,spell,53.7,0.076
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,300,150,on,Earth Shock,spell,40.1,0.057
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (ticks),spell,25.8,0.036
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,300,150,on,Searing Totem,spell,23.0,0.032
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (hit),spell,19.2,0.027
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,300,150,on,Dragonbreath Chili,spell,15.1,0.021
