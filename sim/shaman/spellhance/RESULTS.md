@@ -133,6 +133,31 @@ Forever item data (8/36/7's for every Enhancement build), as the default Skyborn
   power on ranks well below your level, with unknown thresholds. If that applies, Elemental's long-fight numbers here
   are too high, in every run.
 
+## Run 7: the weave light's rotation (`weave-rotations-results*.csv`, `TestWeaveRotationsNov2`)
+
+The SpellhanceWeaveHelper light's open questions, for 29/22 with Ancestral Knowledge 3/5 on Elemental launch gear and
+the 29/22 BiS set, 10,000 iterations, 2 / 5 / 10 min. "weave" is the light's rules (hard casts only in the 0.4 s after
+a swing); the other rows are % against it. "bolt-chain" also starts one hard cast in the 0.4 s after a hard cast ends.
+The shock rows (`gen_apls.py` `flame_shock` / `earth_shock`) drop that shock from the weave.
+
+| Rotation | Full raid, launch | Full raid, BiS | Lighter, launch | Lighter, BiS |
+|---|---|---|---|---|
+| weave | 681 / 655 / 625 | 1025 / 1012 / 996 | 525 / 436 / 367 | 943 / 804 / 705 |
+| bolt-chain | -3% / -3% / -3% | +2% / +0% / -4% | +2% / +0% / -0% | +1% / -3% / -3% |
+| weave + CL | +1% / -4% / -5% | +0% / -4% / -8% | -10% / -9% / -8% | -7% / -8% / -7% |
+| bolt-chain + CL | -3% / -8% / -9% | +3% / -6% / -11% | -10% / -10% / -9% | -8% / -10% / -9% |
+| weave, no Earth Shock | -10% / -7% / -3% | -11% / -11% / -10% | +3% / +1% / +1% | -11% / -0% / +3% |
+| weave, no Flame Shock | -5% / -5% / -6% | -4% / -5% / -5% | -5% / -5% / -5% | -5% / -5% / -4% |
+| weave, no shocks | -22% / -19% / -15% | -23% / -23% / -21% | -8% / -7% / -5% | -23% / -11% / -4% |
+
+- **Don't chain a second bolt after a cast.** It gains at most 2%, in 2-minute fights; past 2 minutes it is level or
+  3–4% behind. The
+  light now shows CAST only after a swing (`/swh chain` restores the old behaviour).
+- **Chain Lightning on one target loses** 4–10% everywhere but 2-minute full-raid fights, where it is level: 2.25×
+  the mana for 1.45× the base damage, at a lower coefficient.
+- **Flame Shock always pays** (about 5%). **Earth Shock pays while mana lasts:** with lighter buffs it is worth
+  skipping once the fight will outlast the mana (+1–3% on launch gear, +3% at 10 minutes on BiS).
+
 ## Run 7: what each change is worth (`ablation-results.csv`, `TestNov2Ablation`)
 
 Every build ran with all the changes, then once with each change undone and the rest kept

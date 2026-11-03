@@ -93,7 +93,8 @@ def cast_window(variant, sid=None, after_reaction=True):
     raise ValueError(variant)
 
 
-def build(variant, hard_casts=True, maelstrom=False, lava_burst=False, chain_lightning=False, spend_at=5):
+def build(variant, hard_casts=True, maelstrom=False, lava_burst=False, chain_lightning=False, spend_at=5,
+          flame_shock=True, earth_shock=True):
 
     # Only name spells and auras the build has: the APL drops an action whose value it can't resolve.
     hard_ready = {"spellCanCast": spell(LB)}
@@ -133,9 +134,12 @@ def build(variant, hard_casts=True, maelstrom=False, lava_burst=False, chain_lig
         # Spend the charges at spend_at: 5 makes the bolt instant and free; Soulcrusher's Rage 6 stacks
         # to 10, where the bolt does +100% and casts twice.
         priority.append(instant(LB, cmp("OpGe", {"auraNumStacks": {"auraId": {"spellId": MAELSTROM}}}, const(spend_at))))
+    # The shocks can be left out, to see whether their mana buys more as bolts.
+    if flame_shock:
+        priority.append(instant(FS, not_({"dotIsActive": spell(FS)})))
+    if earth_shock:
+        priority.append(instant(ES))
     priority += [
-        instant(FS, not_({"dotIsActive": spell(FS)})),
-        instant(ES),
         instant(SEARING, and_(cmp("OpLe", {"totemRemainingTime": {"totemType": "Fire"}}, const("0s")),
                               cmp("OpGe", {"remainingTime": {}}, const("20s")))),
     ]
@@ -160,6 +164,9 @@ for name, apl in {
     "chain_cl": build("chain", chain_lightning=True),
     "weave_maelstrom10": build("weave", maelstrom=True, lava_burst=False, spend_at=10),
     "melee_maelstrom10": build("weave", hard_casts=False, maelstrom=True, lava_burst=False, spend_at=10),
+    "weave_no_es": build("weave", earth_shock=False),
+    "weave_no_fs": build("weave", flame_shock=False),
+    "weave_no_shocks": build("weave", flame_shock=False, earth_shock=False),
 }.items():
     with open(os.path.join(OUT, name + ".apl.json"), "w", newline="\n") as f:
         json.dump(apl, f, indent=2)

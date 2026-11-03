@@ -1,0 +1,43 @@
+build,gear,duration_s,dps,seconds_oom
+29/22 AK3 weave,ele_launch,120,524.8,34.4
+29/22 AK3 weave,ele_launch,300,436.2,152.4
+29/22 AK3 weave,ele_launch,600,366.9,389.5
+29/22 AK3 bolt-chain,ele_launch,120,532.7,28.5
+29/22 AK3 bolt-chain,ele_launch,300,436.5,142.0
+29/22 AK3 bolt-chain,ele_launch,600,366.0,375.7
+29/22 AK3 weave + CL,ele_launch,120,472.1,50.6
+29/22 AK3 weave + CL,ele_launch,300,397.3,179.9
+29/22 AK3 weave + CL,ele_launch,600,337.7,428.1
+29/22 AK3 bolt-chain + CL,ele_launch,120,469.9,46.5
+29/22 AK3 bolt-chain + CL,ele_launch,300,393.9,173.4
+29/22 AK3 bolt-chain + CL,ele_launch,600,335.4,419.5
+"29/22 AK3 weave, no Earth Shock",ele_launch,120,541.5,10.7
+"29/22 AK3 weave, no Earth Shock",ele_launch,300,442.6,115.3
+"29/22 AK3 weave, no Earth Shock",ele_launch,600,371.7,339.3
+"29/22 AK3 weave, no Flame Shock",ele_launch,120,497.3,35.2
+"29/22 AK3 weave, no Flame Shock",ele_launch,300,413.5,154.4
+"29/22 AK3 weave, no Flame Shock",ele_launch,600,349.6,392.4
+"29/22 AK3 weave, no shocks",ele_launch,120,483.4,1.7
+"29/22 AK3 weave, no shocks",ele_launch,300,405.5,94.2
+"29/22 AK3 weave, no shocks",ele_launch,600,347.9,304.4
+29/22 AK3 weave,testdata/forever-hyb-bis.gear.json,120,942.8,0.1
+29/22 AK3 weave,testdata/forever-hyb-bis.gear.json,300,803.6,79.4
+29/22 AK3 weave,testdata/forever-hyb-bis.gear.json,600,705.4,272.2
+29/22 AK3 bolt-chain,testdata/forever-hyb-bis.gear.json,120,949.0,8.8
+29/22 AK3 bolt-chain,testdata/forever-hyb-bis.gear.json,300,781.6,103.2
+29/22 AK3 bolt-chain,testdata/forever-hyb-bis.gear.json,600,684.0,304.2
+29/22 AK3 weave + CL,testdata/forever-hyb-bis.gear.json,120,878.8,19.5
+29/22 AK3 weave + CL,testdata/forever-hyb-bis.gear.json,300,737.4,124.1
+29/22 AK3 weave + CL,testdata/forever-hyb-bis.gear.json,600,653.1,335.7
+29/22 AK3 bolt-chain + CL,testdata/forever-hyb-bis.gear.json,120,865.5,30.5
+29/22 AK3 bolt-chain + CL,testdata/forever-hyb-bis.gear.json,300,722.0,140.1
+29/22 AK3 bolt-chain + CL,testdata/forever-hyb-bis.gear.json,600,641.5,356.9
+"29/22 AK3 weave, no Earth Shock",testdata/forever-hyb-bis.gear.json,120,837.7,0.0
+"29/22 AK3 weave, no Earth Shock",testdata/forever-hyb-bis.gear.json,300,799.8,26.3
+"29/22 AK3 weave, no Earth Shock",testdata/forever-hyb-bis.gear.json,600,723.4,185.7
+"29/22 AK3 weave, no Flame Shock",testdata/forever-hyb-bis.gear.json,120,899.9,0.2
+"29/22 AK3 weave, no Flame Shock",testdata/forever-hyb-bis.gear.json,300,765.6,81.6
+"29/22 AK3 weave, no Flame Shock",testdata/forever-hyb-bis.gear.json,600,676.8,275.5
+"29/22 AK3 weave, no shocks",testdata/forever-hyb-bis.gear.json,120,724.1,0.0
+"29/22 AK3 weave, no shocks",testdata/forever-hyb-bis.gear.json,300,714.1,0.2
+"29/22 AK3 weave, no shocks",testdata/forever-hyb-bis.gear.json,600,677.8,98.4
