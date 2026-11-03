@@ -59,6 +59,36 @@ Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on
 29/22 weave,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,28.9,0.032
 29/22 weave,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,24.8,0.027
 29/22 weave,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,22.9,0.025
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,301.6,0.296
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,141.9,0.139
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,135.7,0.133
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,114.9,0.113
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,111.6,0.109
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,77.7,0.076
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt overload,spell,44.1,0.043
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,36.8,0.036
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,34.8,0.034
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,20.5,0.020
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,297.6,0.296
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,139.9,0.139
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,133.9,0.133
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,114.4,0.114
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,110.1,0.109
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,78.7,0.078
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt overload,spell,43.3,0.043
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,34.3,0.034
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,33.7,0.034
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,19.7,0.020
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,287.9,0.291
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,140.2,0.142
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,136.0,0.138
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,110.5,0.112
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,108.2,0.109
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,76.9,0.078
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt overload,spell,42.0,0.042
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,34.3,0.035
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,32.4,0.033
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,20.0,0.020
 Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,325.2,0.304
 Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,209.4,0.196
 Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,192.6,0.180

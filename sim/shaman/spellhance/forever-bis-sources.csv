@@ -59,6 +59,36 @@ Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,false,600,150,on,Chain Lig
 29/22 weave,testdata/forever-ele-bis.gear.json,false,600,150,on,Lightning Bolt overload,spell,24.2,0.039
 29/22 weave,testdata/forever-ele-bis.gear.json,false,600,150,on,Searing Totem,spell,22.1,0.035
 29/22 weave,testdata/forever-ele-bis.gear.json,false,600,150,on,Flame Shock (hit),spell,15.3,0.024
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,120,150,on,Lightning Bolt,spell,281.7,0.301
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,130.2,0.139
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,120,150,on,Melee swing,physical,119.8,0.128
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,120,150,on,Earth Shock,spell,107.4,0.115
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,120,150,on,Windfury Attack,physical,98.0,0.105
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,120,150,on,Flame Shock (ticks),spell,73.5,0.079
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,120,150,on,Lightning Bolt overload,spell,40.1,0.043
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,120,150,on,Flame Shock (hit),spell,34.5,0.037
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,120,150,on,Searing Totem,spell,32.9,0.035
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,120,150,on,Dragonbreath Chili,spell,18.6,0.020
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,300,150,on,Lightning Bolt,spell,195.8,0.247
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,300,150,on,Melee swing,physical,137.9,0.174
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,128.5,0.162
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,300,150,on,Windfury Attack,physical,104.6,0.132
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,300,150,on,Earth Shock,spell,70.6,0.089
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,300,150,on,Flame Shock (ticks),spell,55.8,0.070
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,300,150,on,Searing Totem,spell,30.3,0.038
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,300,150,on,Lightning Bolt overload,spell,27.6,0.035
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,300,150,on,Flame Shock (hit),spell,23.9,0.030
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,300,150,on,Dragonbreath Chili,spell,19.4,0.024
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,600,150,on,Melee swing,physical,149.4,0.214
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,600,150,on,Lightning Bolt,spell,140.3,0.201
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,127.8,0.183
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,600,150,on,Windfury Attack,physical,108.7,0.156
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,600,150,on,Earth Shock,spell,46.7,0.067
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,600,150,on,Flame Shock (ticks),spell,41.5,0.059
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,600,150,on,Searing Totem,spell,26.9,0.038
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,600,150,on,Dragonbreath Chili,spell,20.3,0.029
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,600,150,on,Lightning Bolt overload,spell,19.7,0.028
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,600,150,on,Flame Shock (hit),spell,17.4,0.025
 Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,120,150,on,Melee swing,physical,286.6,0.298
 Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,184.9,0.192
 Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,120,150,on,Windfury Attack,physical,171.9,0.179

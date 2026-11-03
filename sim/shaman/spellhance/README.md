@@ -25,9 +25,9 @@ Everything here is a sim, not a combat log. Read the numbers as direction and ro
   - The Forever launch presets are the repo's own, `ui/specs/shaman/*/gear_sets/launch.gear.json`, with the
     Enhancement off-hand dropped because shamans can't dual wield.
   - `testdata/sod-p8-shaman-bis.json` is the SoD Phase 8 BiS proxy, with sources and the set bonuses that apply.
-  - `testdata/forever-enh-bis*.gear.json` and `testdata/forever-ele-bis*.gear.json` are the Forever BiS sets for
-    8/36/7 and the Elemental preset, searched from Wowhead's Forever item data. `bis_tools/` holds the search
-    scripts; `search_bis.sh light|full enh|ele <dir>` reruns one.
+  - `testdata/forever-enh-bis*.gear.json`, `forever-ele-bis*.gear.json` and `forever-hyb-bis*.gear.json` are the
+    Forever BiS sets for 8/36/7, the Elemental preset and the 29/22 weave, searched from Wowhead's Forever item
+    data. `bis_tools/` holds the search scripts; `search_bis.sh light|full enh|ele|hyb <dir>` reruns one.
 - **Rotations** are in `apls/`. `gen_apls.py` writes the weave rotations.
 
 ## What this branch changes in the engine

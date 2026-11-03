@@ -5,6 +5,9 @@ Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on
 29/22 weave,testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,10000,929.3,0.6,278.1,651.2,0.299,13.27,13.46,0.0
 29/22 weave,testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,10000,916.3,0.4,274.2,642.1,0.299,13.25,13.35,0.0
 29/22 weave,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,10000,904.2,0.3,277.8,626.3,0.307,12.93,13.57,13.8
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,10000,1019.5,0.7,389.1,630.3,0.382,11.65,11.90,0.0
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,10000,1005.7,0.4,383.9,621.8,0.382,11.67,11.75,0.0
+29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,10000,988.2,0.3,386.7,601.5,0.391,11.28,11.95,25.0
 Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,10000,1069.7,0.8,727.2,342.5,0.680,6.88,24.41,0.0
 Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,10000,1057.7,0.5,716.5,341.2,0.677,6.89,24.03,0.0
 Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,10000,1044.2,0.4,713.7,330.5,0.683,7.02,23.89,0.0

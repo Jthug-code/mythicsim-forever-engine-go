@@ -75,16 +75,21 @@ rotation checks below.
 | Elemental, rank 10 gate 10 | | 552 / 502 / 461 | 6 s |
 | 29/22 weave, caster gear | 419 / 354 / 306 | 515 / 430 / 363 | 154 s |
 
-**Forever BiS (`forever-bis-*.csv`), DPS at 2 / 5 / 10 min.** Elemental and 29/22 wear the Elemental set,
-the Enhancement builds the Enhancement set; both searched from Wowhead's Forever item data, as the default Skyborne:
+**Forever BiS (`forever-bis-*.csv`), DPS at 2 / 5 / 10 min.** Each build wears a set searched for it from Wowhead's
+Forever item data (8/36/7's for every Enhancement build), as the default Skyborne:
 
 | Build | Full raid | Lighter |
 |---|---|---|
 | 8/36/7 | 1081 / 1074 / 1068 | 980 / 972 / 932 |
 | Enhancement preset | 1070 / 1058 / 1044 | 961 / 926 / 896 |
 | 8/32/11 Water Shield | 1067 / 1058 / 1051 | 968 / 961 / 956 |
-| 29/22 weave | 929 / 916 / 904 | 871 / 726 / 628 |
+| 29/22 weave, its own set | 1020 / 1006 / 988 | 937 / 794 / 699 |
+| 29/22 weave, the Elemental set | 929 / 916 / 904 | 871 / 726 / 628 |
 | Elemental preset | 951 / 850 / 806 | 876 / 729 / 726 |
+
+- **On its own set, 29/22 is at 94 / 94 / 93% of 8/36/7 in a full raid** and 7–23% ahead of Elemental. With lighter
+  buffs it still runs dry: 83 s out of mana in 5 minutes, 97 / 82 / 73% of 8/32/11.
+- **Elemental is at 88 / 79 / 75% of 8/36/7** in a full raid.
 
 - **Every build gained, Enhancement most.** Full raid, launch, 5 min: Enhancement preset +32%, 8/36/7 +39%, 29/22 +26%,
   Elemental +20%.
@@ -166,6 +171,26 @@ Both buff levels found nearly the same set:
   Cloak; under full buffs also Bloodvine Vest and Mantle of the Timbermaw. They carry spell hit and crit, and Elemental
   sits well below the hit cap, so the search kept them.
 - It's a slot-by-slot search from a ranked pool, so a better set may exist.
+
+**The 29/22 set** (`BIS_BUILD=hyb`, started from the Elemental set). Its stat weights on the Elemental set, EP with
+spell power = 1:
+
+| | Intellect | Spell crit | Strength | Agility | Attack power | MP5 | 1% spell hit |
+|---|---|---|---|---|---|---|---|
+| 29/22, full raid | 1.05 | 0.90 | 0.64 | 0.46 | 0.29 | 0.00 | 17.75 |
+| 29/22, lighter | 2.15 | 0.89 | 0.66 | 0.43 | 0.33 | 2.26 | 16.92 |
+| Elemental, full raid | 0.35 | 0.89 | 0 | 0 | 0 | 0.02 | 0 (capped on that set) |
+
+- Intellect is 29/22's best stat per point: Mental Dexterity turns it into attack power at 150%, it adds mana and spell
+  crit, and the build is bound by mana.
+- The search kept the Elemental set's caster core and moved toward Intellect and a weapon worth swinging.
+  - Both buff levels: Grand Marshal's Demolisher with Mighty Spell Power, Stormcaller's Leggings and Footguards, Major
+    Intellect on the chest.
+  - Lighter buffs: also Stormcaller's Pauldrons and Hauberk, Grasp of the Fallen Emperor, Band of Forced Concentration
+    and Superior Intellect on the bracers.
+  - Full raid: Seal of the Damned.
+- On the search's 3-minute fight the set moved 29/22 from 830 to 897 DPS with lighter buffs and from 913 to 1004 in a
+  full raid; the weapon alone was +50 with lighter buffs.
 
 # Run 6: mana potions fixed, both buff levels (2026-10-29)
 

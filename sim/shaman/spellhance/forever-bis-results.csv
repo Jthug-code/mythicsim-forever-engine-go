@@ -5,6 +5,9 @@ Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,false,600,150,on,10000,725
 29/22 weave,testdata/forever-ele-bis.gear.json,false,120,150,on,10000,870.8,0.6,251.3,619.5,0.289,13.05,13.35,0.4
 29/22 weave,testdata/forever-ele-bis.gear.json,false,300,150,on,10000,725.6,0.3,283.4,442.2,0.391,9.16,16.41,72.3
 29/22 weave,testdata/forever-ele-bis.gear.json,false,600,150,on,10000,627.8,0.2,303.9,323.9,0.484,6.40,18.57,242.1
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,120,150,on,10000,936.7,0.6,348.0,588.7,0.371,11.47,11.73,0.3
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,300,150,on,10000,794.4,0.4,371.0,423.4,0.467,8.14,13.72,82.5
+29/22 weave,testdata/forever-hyb-bis.gear.json,false,600,150,on,10000,698.8,0.3,386.0,312.8,0.552,5.78,15.14,275.1
 Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,120,150,on,10000,961.2,0.8,643.4,317.8,0.669,6.87,24.23,9.2
 Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,300,150,on,10000,925.8,0.5,638.9,286.9,0.690,7.04,23.86,46.7
 Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,600,150,on,10000,896.4,0.3,631.6,264.8,0.705,7.09,23.71,174.3

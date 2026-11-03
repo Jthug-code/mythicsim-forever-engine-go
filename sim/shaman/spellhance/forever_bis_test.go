@@ -7,8 +7,8 @@ import (
 )
 
 // TestForeverBisMatrix is run 7's high-end comparison on Forever's own items: the Elemental preset and the
-// 29/22 weave on the Elemental BiS set, the Enhancement builds on the Enhancement one, both searched from
-// Wowhead's Forever item data, at 2, 5 and 10 minutes as the default Windshaper Skyborne. It writes
+// 29/22 weave on the Elemental BiS set, the 29/22 weave on its own, the Enhancement builds on the Enhancement one,
+// all searched from Wowhead's Forever item data, at 2, 5 and 10 minutes as the default Windshaper Skyborne. It writes
 // results.csv and sources.csv to $SPELLHANCE_BIS_OUT; SPELLHANCE_BUFFS=full picks the full raid buffs and
 // the sets searched under them.
 func TestForeverBisMatrix(t *testing.T) {
@@ -22,7 +22,7 @@ func TestForeverBisMatrix(t *testing.T) {
 		b    build
 		gear string
 	}{
-		{elePreset, foreverEleBisGear()}, {weave2922, foreverEleBisGear()},
+		{elePreset, foreverEleBisGear()}, {weave2922, foreverEleBisGear()}, {weave2922, foreverHybBisGear()},
 		{enhPreset, foreverBisGear()}, {melee8367, foreverBisGear()}, {melee83211WS, foreverBisGear()},
 	} {
 		for _, d := range []time.Duration{2 * time.Minute, 5 * time.Minute, 10 * time.Minute} {

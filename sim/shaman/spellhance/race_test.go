@@ -29,11 +29,23 @@ func foreverEleBisGear() string {
 	return "testdata/forever-ele-bis.gear.json"
 }
 
+// And for the 29/22 weave (testdata/forever-hyb-bis*.gear.json), which wants both kinds of stat.
+func foreverHybBisGear() string {
+	if fullBuffs() {
+		return "testdata/forever-hyb-bis-fullbuffs.gear.json"
+	}
+	return "testdata/forever-hyb-bis.gear.json"
+}
+
 // bisBuild is what the BiS weights and search score: 8/36/7 with no hard casts as an Orc, weighed against attack
-// power, or with BIS_BUILD=ele the Elemental preset as the default Windshaper Skyborne, weighed against spell power.
+// power; with BIS_BUILD=ele the Elemental preset, or with BIS_BUILD=hyb the 29/22 weave, as the default Windshaper
+// Skyborne, weighed against spell power.
 func bisBuild() (build, proto.Race, proto.Stat) {
-	if os.Getenv("BIS_BUILD") == "ele" {
+	switch os.Getenv("BIS_BUILD") {
+	case "ele":
 		return elePreset, proto.Race_RaceUnknown, proto.Stat_StatSpellDamage
+	case "hyb":
+		return weave2922, proto.Race_RaceUnknown, proto.Stat_StatSpellDamage
 	}
 	return melee8367, proto.Race_RaceOrc, proto.Stat_StatAttackPower
 }
