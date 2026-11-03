@@ -189,11 +189,16 @@ func (shaman *Shaman) OnEncounterStart(sim *core.Simulation) {
 	shaman.startShieldProcPeriodicAction(sim)
 }
 
+// LightningOverloadBonusPerRank adds that many percent of overload chance per talent point, for the Spellhance
+// balance candidates (sim/shaman/spellhance). Zero leaves the talent as nov2_notes.go has it.
+var LightningOverloadBonusPerRank float64
+
 func (shaman *Shaman) GetOverloadChance() float64 {
 	if shaman.Talents.LightningOverload == 0 {
 		return 0.0
 	}
-	return spellData.LightningOverload.FractionAt(shaman.Talents.LightningOverload) + shaman.BonusOverloadChance
+	return spellData.LightningOverload.FractionAt(shaman.Talents.LightningOverload) + shaman.BonusOverloadChance +
+		LightningOverloadBonusPerRank*float64(shaman.Talents.LightningOverload)/100
 }
 
 const (

@@ -211,6 +211,63 @@ before them. The run:
     cut it to 1%. Those rows are slightly high.
   - Each spec plays the engine's preset rotation, which is tuned more for some classes than others.
 
+## Run 7: balance candidates (`balance-candidates.csv`, `TestCandidatePackages`)
+
+**The targets.**
+- Elemental a bit ahead of Enhancement in short fights and slightly behind in long ones.
+- 29/22 ahead of both in sustained fights.
+- Shaman staying in reach of the other classes, not past them.
+
+**The design rule.** 29/22 can't reach either 31-point capstone, so it trades burst for sustain. Sustained power
+belongs in the mid-tree talents a hybrid reaches; burst belongs in the capstones and deep talents.
+
+**How it was run.**
+- Zero-default test knobs in `sim/shaman`, each one set per batch: `LightningOverloadBonusPerRank`,
+  `StormstrikeWeaponPercent`, `StormstrikeSpellBonusPercent`, `LightningMasteryDamagePercent`,
+  `RageOfTheFarseerHastePercent` and `MentalDexterityPercent`.
+- The candidates also use the change switches (`SetNov2Change`) and the run 6 Elemental Fury knobs.
+- Elemental is scored on the rank 10 gate 5 rotation; the preset rotation is in the CSV too.
+- Every build, launch and BiS gear, 2 / 5 / 10 min, both buff levels, 10,000 iterations.
+
+**One lever at a time, full raid, launch gear, % change at 2 / 5 / 10 min:**
+
+| Lever | Best Enhancement build | Elemental | 29/22 |
+|---|---|---|---|
+| Both capstones untaken | −2.9 / −2.3 / −2.4 | −2.4 / −2.0 / −1.6 | 0 |
+| Maelstrom Weapon not doubled | −4.8 / −5.2 / −5.5 | 0 | 0 |
+| Lightning Overload 15/30/45% (from the overload batch) | 0 | +4.1 / +4.7 / +4.8 | +3.2 / +3.4 / +3.3 |
+| Stormstrike spell bonus 40% | +3.6 / +3.9 / +4.0 | 0 | +1.7 / +2.0 / +2.7 |
+| Lightning Mastery +100% bolt damage | 0 | +9.3 / +8.6 / +8.7 | 0 |
+| Rage of the Farseer 60% haste | +2.0 / +1.7 / +1.7 | 0 | 0 |
+| Mental Dexterity 250% | +4.3 / +4.3 / +4.3 | 0 | +3.3 / +3.6 / +4.1 |
+| Elemental Fury package | +0.5 | +17.5 / +17.3 / +17.0 | +11.5 / +11.2 / +10.8 |
+
+- **The capstones are worth 2–3% to the best build of each spec (up to 4% to 8/36/7) and aren't front-loaded:** on a 3-minute cooldown they come round as often per
+  minute in a 10-minute fight as in a 2-minute one. Elemental's short-fight edge comes from its mana bar instead.
+- **No tested lever pays 29/22 more than both pure specs.**
+  - Stormstrike's spell bonus and Mental Dexterity pay Enhancement at least as much.
+  - Lightning Overload and the Elemental Fury package pay Elemental more.
+  - The only way up for the hybrid is taking sustained power out of what it can't reach.
+
+**The verified packages** (real runs, not combined estimates; the combined estimate of A was within a point). Full
+raid, % at 2 / 5 / 10 min:
+
+| Package | Gear | Elemental vs best Enhancement | 29/22 (Ancestral Knowledge 3/5) vs the better pure spec | Best shaman, 5 min |
+|---|---|---|---|---|
+| 2 November | launch | 86 / 86 / 82 | 90 / 89 / 85 | 737, 96% of Shadow |
+| | BiS | 88 / 88 / 86 | 95 / 94 / 93 | |
+| **A: Maelstrom not doubled, Overload 20/40/60%, Stormstrike 125%** | launch | **101 / 102 / 98** | **102 / 100 / 98** | **695, 90% of Shadow** |
+| | BiS | **101 / 102 / 100** | **101 / 100 / 101** | |
+| A2: A with Stormstrike left at 150% | launch | 98 / 99 / 95 | 101 / 100 / 96 | 698, 91% of Shadow |
+| | BiS | 98 / 99 / 97 | 101 / 101 / 100 | |
+
+- **The 29/22 respec:** Improved Ghost Wolf moved from tier 2 to tier 4, so 29/22's two points there go to Ancestral
+  Knowledge instead (1/5 → 3/5, +6% Intellect instead of +2%). Talents `053033102310134-053030031004102`. It's worth
+  about +1%.
+- **With lighter buffs, A doesn't fix 29/22's mana.** It's 92 / 78 / 67% of the better pure spec on launch gear and
+  100 / 90 / 79% on BiS. Elemental under A is 101 / 95 / 91% on launch gear.
+- **Not tested:** a mana answer for 29/22 with lighter buffs, and the other classes' 2 November changes.
+
 ## Run 7: the tuning package and resists
 
 - **The Elemental Fury package no longer balances long fights** (`tuning-results.csv`; +1% crit per rank, 2.5×

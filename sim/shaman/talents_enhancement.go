@@ -188,14 +188,21 @@ func (shaman *Shaman) applyGuardianTotems() {
 	}
 }
 
+// MentalDexterityPercent replaces the talent's Intellect-to-attack-power share at 3/3, for the Spellhance balance
+// candidates; lower ranks get their thirds. Zero leaves it as nov2_notes.go has it (150%).
+var MentalDexterityPercent float64
+
 // applyMentalDexterity implements Mental Dexterity, new in Forever: Intellect into attack power.
 func (shaman *Shaman) applyMentalDexterity() {
 	if shaman.Talents.MentalDexterity == 0 {
 		return
 	}
 
-	shaman.AddStatDependency(stats.Intellect, stats.AttackPower,
-		spellData.MentalDexterity.EffectAt(1).FractionAt(shaman.Talents.MentalDexterity))
+	share := spellData.MentalDexterity.EffectAt(1).FractionAt(shaman.Talents.MentalDexterity)
+	if MentalDexterityPercent != 0 {
+		share = MentalDexterityPercent / 100 * float64(shaman.Talents.MentalDexterity) / 3
+	}
+	shaman.AddStatDependency(stats.Intellect, stats.AttackPower, share)
 }
 
 // applyImprovedGhostWolf implements Improved Ghost Wolf.
@@ -342,6 +349,10 @@ func (shaman *Shaman) applyMaelstromWeapon() {
 
 }
 
+// RageOfTheFarseerHastePercent replaces the capstone's melee haste, for the Spellhance balance candidates. Zero
+// leaves the client's 30%.
+var RageOfTheFarseerHastePercent float64
+
 // applyRageOfTheFarseer implements Rage of the Farseer, new in Forever: a melee haste cooldown
 // (425336). Build 70009 dropped its cast-speed effect.
 func (shaman *Shaman) applyRageOfTheFarseer() {
@@ -351,6 +362,9 @@ func (shaman *Shaman) applyRageOfTheFarseer() {
 
 	rank := spellData.RageOfTheFarseer.Highest()
 	multiplier := 1 + rank.Effect(dbcenums.A_MOD_MELEE_RANGED_HASTE_2, 0).Percent()
+	if RageOfTheFarseerHastePercent != 0 {
+		multiplier = 1 + RageOfTheFarseerHastePercent/100
+	}
 
 	buffAura := shaman.RegisterAura(core.Aura{
 		Label:    "Rage of the Farseer",

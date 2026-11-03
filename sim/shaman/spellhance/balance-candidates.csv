@@ -1,0 +1,1837 @@
+batch,buffs,candidate,build,gear,duration_s,dps,seconds_oom
+overload,light,2 November,Enh preset 19/32/0,enh_launch_1h,120,623.0,38.4
+overload,light,2 November,Enh preset 19/32/0,enh_launch_1h,300,610.0,91.1
+overload,light,2 November,Enh preset 19/32/0,enh_launch_1h,600,591.7,258.1
+overload,light,2 November,8/36/7 no hard casts,enh_launch_1h,120,648.4,0.0
+overload,light,2 November,8/36/7 no hard casts,enh_launch_1h,300,602.2,53.6
+overload,light,2 November,8/36/7 no hard casts,enh_launch_1h,600,585.1,158.0
+overload,light,2 November,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,638.1,0.0
+overload,light,2 November,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,629.1,0.4
+overload,light,2 November,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,618.6,39.6
+overload,light,2 November,Ele preset 32/0/19,ele_launch,120,549.2,0.6
+overload,light,2 November,Ele preset 32/0/19,ele_launch,300,461.6,0.4
+overload,light,2 November,Ele preset 32/0/19,ele_launch,600,459.0,2.6
+overload,light,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,547.3,5.0
+overload,light,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,500.2,15.9
+overload,light,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,466.4,27.2
+overload,light,2 November,29/22 weave,ele_launch,120,515.0,36.1
+overload,light,2 November,29/22 weave,ele_launch,300,430.5,154.0
+overload,light,2 November,29/22 weave,ele_launch,600,362.7,391.0
+overload,light,2 November,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,961.2,9.2
+overload,light,2 November,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,925.8,46.7
+overload,light,2 November,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,600,896.4,174.3
+overload,light,2 November,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,979.7,0.0
+overload,light,2 November,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,972.0,3.7
+overload,light,2 November,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,600,932.5,102.2
+overload,light,2 November,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,120,968.5,0.0
+overload,light,2 November,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,300,961.2,0.0
+overload,light,2 November,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,600,955.6,0.0
+overload,light,2 November,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,876.1,0.4
+overload,light,2 November,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,729.0,0.2
+overload,light,2 November,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,600,725.9,0.9
+overload,light,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,120,877.2,1.8
+overload,light,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,300,793.5,11.3
+overload,light,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,600,748.7,19.5
+overload,light,2 November,29/22 weave,testdata/forever-hyb-bis.gear.json,120,936.7,0.3
+overload,light,2 November,29/22 weave,testdata/forever-hyb-bis.gear.json,300,794.4,82.5
+overload,light,2 November,29/22 weave,testdata/forever-hyb-bis.gear.json,600,698.8,275.1
+overload,light,Lightning Overload 15/30/45%,Enh preset 19/32/0,enh_launch_1h,120,623.0,38.4
+overload,light,Lightning Overload 15/30/45%,Enh preset 19/32/0,enh_launch_1h,300,610.0,91.1
+overload,light,Lightning Overload 15/30/45%,Enh preset 19/32/0,enh_launch_1h,600,591.7,258.1
+overload,light,Lightning Overload 15/30/45%,8/36/7 no hard casts,enh_launch_1h,120,648.4,0.0
+overload,light,Lightning Overload 15/30/45%,8/36/7 no hard casts,enh_launch_1h,300,602.2,53.6
+overload,light,Lightning Overload 15/30/45%,8/36/7 no hard casts,enh_launch_1h,600,585.1,158.0
+overload,light,Lightning Overload 15/30/45%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,638.1,0.0
+overload,light,Lightning Overload 15/30/45%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,629.1,0.4
+overload,light,Lightning Overload 15/30/45%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,618.6,39.6
+overload,light,Lightning Overload 15/30/45%,Ele preset 32/0/19,ele_launch,120,575.7,0.5
+overload,light,Lightning Overload 15/30/45%,Ele preset 32/0/19,ele_launch,300,480.1,0.4
+overload,light,Lightning Overload 15/30/45%,Ele preset 32/0/19,ele_launch,600,478.2,2.4
+overload,light,Lightning Overload 15/30/45%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,575.7,4.7
+overload,light,Lightning Overload 15/30/45%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,526.1,15.0
+overload,light,Lightning Overload 15/30/45%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,489.4,25.5
+overload,light,Lightning Overload 15/30/45%,29/22 weave,ele_launch,120,532.5,35.5
+overload,light,Lightning Overload 15/30/45%,29/22 weave,ele_launch,300,442.0,153.1
+overload,light,Lightning Overload 15/30/45%,29/22 weave,ele_launch,600,370.6,389.9
+overload,light,Lightning Overload 15/30/45%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,961.2,9.2
+overload,light,Lightning Overload 15/30/45%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,925.8,46.7
+overload,light,Lightning Overload 15/30/45%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,600,896.4,174.3
+overload,light,Lightning Overload 15/30/45%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,979.7,0.0
+overload,light,Lightning Overload 15/30/45%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,972.0,3.7
+overload,light,Lightning Overload 15/30/45%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,600,932.5,102.2
+overload,light,Lightning Overload 15/30/45%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,120,968.5,0.0
+overload,light,Lightning Overload 15/30/45%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,300,961.2,0.0
+overload,light,Lightning Overload 15/30/45%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,600,955.6,0.0
+overload,light,Lightning Overload 15/30/45%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,920.4,0.4
+overload,light,Lightning Overload 15/30/45%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,763.5,0.2
+overload,light,Lightning Overload 15/30/45%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,600,759.7,0.8
+overload,light,Lightning Overload 15/30/45%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,120,922.2,1.6
+overload,light,Lightning Overload 15/30/45%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,300,836.9,10.6
+overload,light,Lightning Overload 15/30/45%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,600,788.4,18.3
+overload,light,Lightning Overload 15/30/45%,29/22 weave,testdata/forever-hyb-bis.gear.json,120,958.4,0.2
+overload,light,Lightning Overload 15/30/45%,29/22 weave,testdata/forever-hyb-bis.gear.json,300,810.3,81.4
+overload,light,Lightning Overload 15/30/45%,29/22 weave,testdata/forever-hyb-bis.gear.json,600,710.6,273.5
+overload,light,Lightning Overload 20/40/60%,Enh preset 19/32/0,enh_launch_1h,120,623.0,38.4
+overload,light,Lightning Overload 20/40/60%,Enh preset 19/32/0,enh_launch_1h,300,610.0,91.1
+overload,light,Lightning Overload 20/40/60%,Enh preset 19/32/0,enh_launch_1h,600,591.7,258.1
+overload,light,Lightning Overload 20/40/60%,8/36/7 no hard casts,enh_launch_1h,120,648.4,0.0
+overload,light,Lightning Overload 20/40/60%,8/36/7 no hard casts,enh_launch_1h,300,602.2,53.6
+overload,light,Lightning Overload 20/40/60%,8/36/7 no hard casts,enh_launch_1h,600,585.1,158.0
+overload,light,Lightning Overload 20/40/60%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,638.1,0.0
+overload,light,Lightning Overload 20/40/60%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,629.1,0.4
+overload,light,Lightning Overload 20/40/60%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,618.6,39.6
+overload,light,Lightning Overload 20/40/60%,Ele preset 32/0/19,ele_launch,120,601.8,0.5
+overload,light,Lightning Overload 20/40/60%,Ele preset 32/0/19,ele_launch,300,499.0,0.3
+overload,light,Lightning Overload 20/40/60%,Ele preset 32/0/19,ele_launch,600,497.8,2.1
+overload,light,Lightning Overload 20/40/60%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,603.0,4.3
+overload,light,Lightning Overload 20/40/60%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,551.4,14.2
+overload,light,Lightning Overload 20/40/60%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,512.0,24.2
+overload,light,Lightning Overload 20/40/60%,29/22 weave,ele_launch,120,550.1,34.9
+overload,light,Lightning Overload 20/40/60%,29/22 weave,ele_launch,300,453.8,152.2
+overload,light,Lightning Overload 20/40/60%,29/22 weave,ele_launch,600,378.6,388.8
+overload,light,Lightning Overload 20/40/60%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,961.2,9.2
+overload,light,Lightning Overload 20/40/60%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,925.8,46.7
+overload,light,Lightning Overload 20/40/60%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,600,896.4,174.3
+overload,light,Lightning Overload 20/40/60%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,979.7,0.0
+overload,light,Lightning Overload 20/40/60%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,972.0,3.7
+overload,light,Lightning Overload 20/40/60%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,600,932.5,102.2
+overload,light,Lightning Overload 20/40/60%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,120,968.5,0.0
+overload,light,Lightning Overload 20/40/60%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,300,961.2,0.0
+overload,light,Lightning Overload 20/40/60%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,600,955.6,0.0
+overload,light,Lightning Overload 20/40/60%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,964.6,0.5
+overload,light,Lightning Overload 20/40/60%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,797.2,0.2
+overload,light,Lightning Overload 20/40/60%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,600,792.6,0.8
+overload,light,Lightning Overload 20/40/60%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,120,966.5,1.5
+overload,light,Lightning Overload 20/40/60%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,300,879.8,10.0
+overload,light,Lightning Overload 20/40/60%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,600,828.1,17.3
+overload,light,Lightning Overload 20/40/60%,29/22 weave,testdata/forever-hyb-bis.gear.json,120,978.8,0.2
+overload,light,Lightning Overload 20/40/60%,29/22 weave,testdata/forever-hyb-bis.gear.json,300,826.8,79.9
+overload,light,Lightning Overload 20/40/60%,29/22 weave,testdata/forever-hyb-bis.gear.json,600,722.9,271.4
+overload,light,Stormstrike 125%,Enh preset 19/32/0,enh_launch_1h,120,608.0,38.4
+overload,light,Stormstrike 125%,Enh preset 19/32/0,enh_launch_1h,300,595.0,91.1
+overload,light,Stormstrike 125%,Enh preset 19/32/0,enh_launch_1h,600,577.2,258.1
+overload,light,Stormstrike 125%,8/36/7 no hard casts,enh_launch_1h,120,633.1,0.0
+overload,light,Stormstrike 125%,8/36/7 no hard casts,enh_launch_1h,300,587.6,53.6
+overload,light,Stormstrike 125%,8/36/7 no hard casts,enh_launch_1h,600,570.7,158.0
+overload,light,Stormstrike 125%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,623.0,0.0
+overload,light,Stormstrike 125%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,614.4,0.4
+overload,light,Stormstrike 125%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,604.1,39.6
+overload,light,Stormstrike 125%,Ele preset 32/0/19,ele_launch,120,549.2,0.6
+overload,light,Stormstrike 125%,Ele preset 32/0/19,ele_launch,300,461.6,0.4
+overload,light,Stormstrike 125%,Ele preset 32/0/19,ele_launch,600,459.0,2.6
+overload,light,Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,547.3,5.0
+overload,light,Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,500.2,15.9
+overload,light,Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,466.4,27.2
+overload,light,Stormstrike 125%,29/22 weave,ele_launch,120,508.3,36.1
+overload,light,Stormstrike 125%,29/22 weave,ele_launch,300,424.0,154.0
+overload,light,Stormstrike 125%,29/22 weave,ele_launch,600,356.3,391.0
+overload,light,Stormstrike 125%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,930.4,9.2
+overload,light,Stormstrike 125%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,894.9,46.7
+overload,light,Stormstrike 125%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,600,866.1,174.3
+overload,light,Stormstrike 125%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,950.0,0.0
+overload,light,Stormstrike 125%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,942.5,3.7
+overload,light,Stormstrike 125%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,600,903.7,102.2
+overload,light,Stormstrike 125%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,120,939.1,0.0
+overload,light,Stormstrike 125%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,300,932.0,0.0
+overload,light,Stormstrike 125%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,600,926.7,0.0
+overload,light,Stormstrike 125%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,876.1,0.4
+overload,light,Stormstrike 125%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,729.0,0.2
+overload,light,Stormstrike 125%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,600,725.9,0.9
+overload,light,Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,120,877.2,1.8
+overload,light,Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,300,793.5,11.3
+overload,light,Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,600,748.7,19.5
+overload,light,Stormstrike 125%,29/22 weave,testdata/forever-hyb-bis.gear.json,120,915.0,0.3
+overload,light,Stormstrike 125%,29/22 weave,testdata/forever-hyb-bis.gear.json,300,772.9,82.5
+overload,light,Stormstrike 125%,29/22 weave,testdata/forever-hyb-bis.gear.json,600,677.5,275.1
+overload,light,Overload 45% + Stormstrike 125%,Enh preset 19/32/0,enh_launch_1h,120,608.0,38.4
+overload,light,Overload 45% + Stormstrike 125%,Enh preset 19/32/0,enh_launch_1h,300,595.0,91.1
+overload,light,Overload 45% + Stormstrike 125%,Enh preset 19/32/0,enh_launch_1h,600,577.2,258.1
+overload,light,Overload 45% + Stormstrike 125%,8/36/7 no hard casts,enh_launch_1h,120,633.1,0.0
+overload,light,Overload 45% + Stormstrike 125%,8/36/7 no hard casts,enh_launch_1h,300,587.6,53.6
+overload,light,Overload 45% + Stormstrike 125%,8/36/7 no hard casts,enh_launch_1h,600,570.7,158.0
+overload,light,Overload 45% + Stormstrike 125%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,623.0,0.0
+overload,light,Overload 45% + Stormstrike 125%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,614.4,0.4
+overload,light,Overload 45% + Stormstrike 125%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,604.1,39.6
+overload,light,Overload 45% + Stormstrike 125%,Ele preset 32/0/19,ele_launch,120,575.7,0.5
+overload,light,Overload 45% + Stormstrike 125%,Ele preset 32/0/19,ele_launch,300,480.1,0.4
+overload,light,Overload 45% + Stormstrike 125%,Ele preset 32/0/19,ele_launch,600,478.2,2.4
+overload,light,Overload 45% + Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,575.7,4.7
+overload,light,Overload 45% + Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,526.1,15.0
+overload,light,Overload 45% + Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,489.4,25.5
+overload,light,Overload 45% + Stormstrike 125%,29/22 weave,ele_launch,120,525.8,35.5
+overload,light,Overload 45% + Stormstrike 125%,29/22 weave,ele_launch,300,435.5,153.1
+overload,light,Overload 45% + Stormstrike 125%,29/22 weave,ele_launch,600,364.3,389.9
+overload,light,Overload 45% + Stormstrike 125%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,930.4,9.2
+overload,light,Overload 45% + Stormstrike 125%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,894.9,46.7
+overload,light,Overload 45% + Stormstrike 125%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,600,866.1,174.3
+overload,light,Overload 45% + Stormstrike 125%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,950.0,0.0
+overload,light,Overload 45% + Stormstrike 125%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,942.5,3.7
+overload,light,Overload 45% + Stormstrike 125%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,600,903.7,102.2
+overload,light,Overload 45% + Stormstrike 125%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,120,939.1,0.0
+overload,light,Overload 45% + Stormstrike 125%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,300,932.0,0.0
+overload,light,Overload 45% + Stormstrike 125%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,600,926.7,0.0
+overload,light,Overload 45% + Stormstrike 125%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,920.4,0.4
+overload,light,Overload 45% + Stormstrike 125%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,763.5,0.2
+overload,light,Overload 45% + Stormstrike 125%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,600,759.7,0.8
+overload,light,Overload 45% + Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,120,922.2,1.6
+overload,light,Overload 45% + Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,300,836.9,10.6
+overload,light,Overload 45% + Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,600,788.4,18.3
+overload,light,Overload 45% + Stormstrike 125%,29/22 weave,testdata/forever-hyb-bis.gear.json,120,936.6,0.2
+overload,light,Overload 45% + Stormstrike 125%,29/22 weave,testdata/forever-hyb-bis.gear.json,300,788.9,81.4
+overload,light,Overload 45% + Stormstrike 125%,29/22 weave,testdata/forever-hyb-bis.gear.json,600,689.3,273.5
+overload,light,Overload 60% + Stormstrike 125%,Enh preset 19/32/0,enh_launch_1h,120,608.0,38.4
+overload,light,Overload 60% + Stormstrike 125%,Enh preset 19/32/0,enh_launch_1h,300,595.0,91.1
+overload,light,Overload 60% + Stormstrike 125%,Enh preset 19/32/0,enh_launch_1h,600,577.2,258.1
+overload,light,Overload 60% + Stormstrike 125%,8/36/7 no hard casts,enh_launch_1h,120,633.1,0.0
+overload,light,Overload 60% + Stormstrike 125%,8/36/7 no hard casts,enh_launch_1h,300,587.6,53.6
+overload,light,Overload 60% + Stormstrike 125%,8/36/7 no hard casts,enh_launch_1h,600,570.7,158.0
+overload,light,Overload 60% + Stormstrike 125%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,623.0,0.0
+overload,light,Overload 60% + Stormstrike 125%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,614.4,0.4
+overload,light,Overload 60% + Stormstrike 125%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,604.1,39.6
+overload,light,Overload 60% + Stormstrike 125%,Ele preset 32/0/19,ele_launch,120,601.8,0.5
+overload,light,Overload 60% + Stormstrike 125%,Ele preset 32/0/19,ele_launch,300,499.0,0.3
+overload,light,Overload 60% + Stormstrike 125%,Ele preset 32/0/19,ele_launch,600,497.8,2.1
+overload,light,Overload 60% + Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,603.0,4.3
+overload,light,Overload 60% + Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,551.4,14.2
+overload,light,Overload 60% + Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,512.0,24.2
+overload,light,Overload 60% + Stormstrike 125%,29/22 weave,ele_launch,120,543.4,34.9
+overload,light,Overload 60% + Stormstrike 125%,29/22 weave,ele_launch,300,447.3,152.2
+overload,light,Overload 60% + Stormstrike 125%,29/22 weave,ele_launch,600,372.3,388.8
+overload,light,Overload 60% + Stormstrike 125%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,930.4,9.2
+overload,light,Overload 60% + Stormstrike 125%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,894.9,46.7
+overload,light,Overload 60% + Stormstrike 125%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,600,866.1,174.3
+overload,light,Overload 60% + Stormstrike 125%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,950.0,0.0
+overload,light,Overload 60% + Stormstrike 125%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,942.5,3.7
+overload,light,Overload 60% + Stormstrike 125%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,600,903.7,102.2
+overload,light,Overload 60% + Stormstrike 125%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,120,939.1,0.0
+overload,light,Overload 60% + Stormstrike 125%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,300,932.0,0.0
+overload,light,Overload 60% + Stormstrike 125%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,600,926.7,0.0
+overload,light,Overload 60% + Stormstrike 125%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,964.6,0.5
+overload,light,Overload 60% + Stormstrike 125%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,797.2,0.2
+overload,light,Overload 60% + Stormstrike 125%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,600,792.6,0.8
+overload,light,Overload 60% + Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,120,966.5,1.5
+overload,light,Overload 60% + Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,300,879.8,10.0
+overload,light,Overload 60% + Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,600,828.1,17.3
+overload,light,Overload 60% + Stormstrike 125%,29/22 weave,testdata/forever-hyb-bis.gear.json,120,957.1,0.2
+overload,light,Overload 60% + Stormstrike 125%,29/22 weave,testdata/forever-hyb-bis.gear.json,300,805.3,79.9
+overload,light,Overload 60% + Stormstrike 125%,29/22 weave,testdata/forever-hyb-bis.gear.json,600,701.6,271.4
+overload,full,2 November,Enh preset 19/32/0,enh_launch_1h,120,753.3,0.0
+overload,full,2 November,Enh preset 19/32/0,enh_launch_1h,300,736.8,0.0
+overload,full,2 November,Enh preset 19/32/0,enh_launch_1h,600,732.3,0.0
+overload,full,2 November,8/36/7 no hard casts,enh_launch_1h,120,727.4,0.0
+overload,full,2 November,8/36/7 no hard casts,enh_launch_1h,300,717.8,0.0
+overload,full,2 November,8/36/7 no hard casts,enh_launch_1h,600,717.4,0.0
+overload,full,2 November,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,714.1,0.0
+overload,full,2 November,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,704.3,0.0
+overload,full,2 November,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,703.9,0.0
+overload,full,2 November,Ele preset 32/0/19,ele_launch,120,650.1,0.0
+overload,full,2 November,Ele preset 32/0/19,ele_launch,300,559.5,0.0
+overload,full,2 November,Ele preset 32/0/19,ele_launch,600,528.7,0.2
+overload,full,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,650.1,0.0
+overload,full,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,635.0,1.2
+overload,full,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,602.2,0.8
+overload,full,2 November,29/22 weave,ele_launch,120,676.7,0.0
+overload,full,2 November,29/22 weave,ele_launch,300,649.7,32.1
+overload,full,2 November,29/22 weave,ele_launch,600,620.3,135.0
+overload,full,2 November,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1069.7,0.0
+overload,full,2 November,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1057.7,0.0
+overload,full,2 November,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,600,1044.2,0.0
+overload,full,2 November,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1081.2,0.0
+overload,full,2 November,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1074.1,0.0
+overload,full,2 November,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,600,1068.0,0.0
+overload,full,2 November,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,120,1067.0,0.0
+overload,full,2 November,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,300,1057.7,0.0
+overload,full,2 November,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,600,1051.3,0.0
+overload,full,2 November,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+overload,full,2 November,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,850.5,0.0
+overload,full,2 November,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,600,806.5,0.0
+overload,full,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+overload,full,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,300,940.6,1.0
+overload,full,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,600,913.8,0.7
+overload,full,2 November,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1019.5,0.0
+overload,full,2 November,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1005.7,0.0
+overload,full,2 November,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,600,988.2,25.0
+overload,full,Lightning Overload 15/30/45%,Enh preset 19/32/0,enh_launch_1h,120,753.3,0.0
+overload,full,Lightning Overload 15/30/45%,Enh preset 19/32/0,enh_launch_1h,300,736.8,0.0
+overload,full,Lightning Overload 15/30/45%,Enh preset 19/32/0,enh_launch_1h,600,732.3,0.0
+overload,full,Lightning Overload 15/30/45%,8/36/7 no hard casts,enh_launch_1h,120,727.4,0.0
+overload,full,Lightning Overload 15/30/45%,8/36/7 no hard casts,enh_launch_1h,300,717.8,0.0
+overload,full,Lightning Overload 15/30/45%,8/36/7 no hard casts,enh_launch_1h,600,717.4,0.0
+overload,full,Lightning Overload 15/30/45%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,714.1,0.0
+overload,full,Lightning Overload 15/30/45%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,704.3,0.0
+overload,full,Lightning Overload 15/30/45%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,703.9,0.0
+overload,full,Lightning Overload 15/30/45%,Ele preset 32/0/19,ele_launch,120,677.0,0.0
+overload,full,Lightning Overload 15/30/45%,Ele preset 32/0/19,ele_launch,300,583.2,0.0
+overload,full,Lightning Overload 15/30/45%,Ele preset 32/0/19,ele_launch,600,550.1,0.2
+overload,full,Lightning Overload 15/30/45%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,677.0,0.0
+overload,full,Lightning Overload 15/30/45%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,664.7,1.2
+overload,full,Lightning Overload 15/30/45%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,631.0,0.8
+overload,full,Lightning Overload 15/30/45%,29/22 weave,ele_launch,120,698.5,0.0
+overload,full,Lightning Overload 15/30/45%,29/22 weave,ele_launch,300,672.0,30.0
+overload,full,Lightning Overload 15/30/45%,29/22 weave,ele_launch,600,640.9,131.2
+overload,full,Lightning Overload 15/30/45%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1069.7,0.0
+overload,full,Lightning Overload 15/30/45%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1057.7,0.0
+overload,full,Lightning Overload 15/30/45%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,600,1044.2,0.0
+overload,full,Lightning Overload 15/30/45%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1081.2,0.0
+overload,full,Lightning Overload 15/30/45%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1074.1,0.0
+overload,full,Lightning Overload 15/30/45%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,600,1068.0,0.0
+overload,full,Lightning Overload 15/30/45%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,120,1067.0,0.0
+overload,full,Lightning Overload 15/30/45%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,300,1057.7,0.0
+overload,full,Lightning Overload 15/30/45%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,600,1051.3,0.0
+overload,full,Lightning Overload 15/30/45%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,991.2,0.0
+overload,full,Lightning Overload 15/30/45%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,890.3,0.0
+overload,full,Lightning Overload 15/30/45%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,600,842.9,0.0
+overload,full,Lightning Overload 15/30/45%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,120,991.2,0.0
+overload,full,Lightning Overload 15/30/45%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,300,987.9,0.9
+overload,full,Lightning Overload 15/30/45%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,600,961.9,0.7
+overload,full,Lightning Overload 15/30/45%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1041.6,0.0
+overload,full,Lightning Overload 15/30/45%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1027.0,0.0
+overload,full,Lightning Overload 15/30/45%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,600,1011.6,21.7
+overload,full,Lightning Overload 20/40/60%,Enh preset 19/32/0,enh_launch_1h,120,753.3,0.0
+overload,full,Lightning Overload 20/40/60%,Enh preset 19/32/0,enh_launch_1h,300,736.8,0.0
+overload,full,Lightning Overload 20/40/60%,Enh preset 19/32/0,enh_launch_1h,600,732.3,0.0
+overload,full,Lightning Overload 20/40/60%,8/36/7 no hard casts,enh_launch_1h,120,727.4,0.0
+overload,full,Lightning Overload 20/40/60%,8/36/7 no hard casts,enh_launch_1h,300,717.8,0.0
+overload,full,Lightning Overload 20/40/60%,8/36/7 no hard casts,enh_launch_1h,600,717.4,0.0
+overload,full,Lightning Overload 20/40/60%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,714.1,0.0
+overload,full,Lightning Overload 20/40/60%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,704.3,0.0
+overload,full,Lightning Overload 20/40/60%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,703.9,0.0
+overload,full,Lightning Overload 20/40/60%,Ele preset 32/0/19,ele_launch,120,703.1,0.0
+overload,full,Lightning Overload 20/40/60%,Ele preset 32/0/19,ele_launch,300,608.0,0.0
+overload,full,Lightning Overload 20/40/60%,Ele preset 32/0/19,ele_launch,600,571.9,0.2
+overload,full,Lightning Overload 20/40/60%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,703.1,0.0
+overload,full,Lightning Overload 20/40/60%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,694.7,1.1
+overload,full,Lightning Overload 20/40/60%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,660.0,0.9
+overload,full,Lightning Overload 20/40/60%,29/22 weave,ele_launch,120,721.3,0.0
+overload,full,Lightning Overload 20/40/60%,29/22 weave,ele_launch,300,695.3,27.9
+overload,full,Lightning Overload 20/40/60%,29/22 weave,ele_launch,600,661.7,127.1
+overload,full,Lightning Overload 20/40/60%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1069.7,0.0
+overload,full,Lightning Overload 20/40/60%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1057.7,0.0
+overload,full,Lightning Overload 20/40/60%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,600,1044.2,0.0
+overload,full,Lightning Overload 20/40/60%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1081.2,0.0
+overload,full,Lightning Overload 20/40/60%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1074.1,0.0
+overload,full,Lightning Overload 20/40/60%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,600,1068.0,0.0
+overload,full,Lightning Overload 20/40/60%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,120,1067.0,0.0
+overload,full,Lightning Overload 20/40/60%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,300,1057.7,0.0
+overload,full,Lightning Overload 20/40/60%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,600,1051.3,0.0
+overload,full,Lightning Overload 20/40/60%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,1033.5,0.0
+overload,full,Lightning Overload 20/40/60%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,930.2,0.0
+overload,full,Lightning Overload 20/40/60%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,600,879.3,0.0
+overload,full,Lightning Overload 20/40/60%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,120,1033.5,0.0
+overload,full,Lightning Overload 20/40/60%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,300,1035.7,0.9
+overload,full,Lightning Overload 20/40/60%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,600,1009.4,0.8
+overload,full,Lightning Overload 20/40/60%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1064.1,0.0
+overload,full,Lightning Overload 20/40/60%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1049.3,0.0
+overload,full,Lightning Overload 20/40/60%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,600,1035.4,18.8
+overload,full,Stormstrike 125%,Enh preset 19/32/0,enh_launch_1h,120,735.6,0.0
+overload,full,Stormstrike 125%,Enh preset 19/32/0,enh_launch_1h,300,719.3,0.0
+overload,full,Stormstrike 125%,Enh preset 19/32/0,enh_launch_1h,600,714.8,0.0
+overload,full,Stormstrike 125%,8/36/7 no hard casts,enh_launch_1h,120,709.9,0.0
+overload,full,Stormstrike 125%,8/36/7 no hard casts,enh_launch_1h,300,700.7,0.0
+overload,full,Stormstrike 125%,8/36/7 no hard casts,enh_launch_1h,600,700.4,0.0
+overload,full,Stormstrike 125%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,697.0,0.0
+overload,full,Stormstrike 125%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,687.6,0.0
+overload,full,Stormstrike 125%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,687.3,0.0
+overload,full,Stormstrike 125%,Ele preset 32/0/19,ele_launch,120,650.1,0.0
+overload,full,Stormstrike 125%,Ele preset 32/0/19,ele_launch,300,559.5,0.0
+overload,full,Stormstrike 125%,Ele preset 32/0/19,ele_launch,600,528.7,0.2
+overload,full,Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,650.1,0.0
+overload,full,Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,635.0,1.2
+overload,full,Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,602.2,0.8
+overload,full,Stormstrike 125%,29/22 weave,ele_launch,120,668.8,0.0
+overload,full,Stormstrike 125%,29/22 weave,ele_launch,300,642.0,32.1
+overload,full,Stormstrike 125%,29/22 weave,ele_launch,600,612.6,135.0
+overload,full,Stormstrike 125%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1035.1,0.0
+overload,full,Stormstrike 125%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1023.7,0.0
+overload,full,Stormstrike 125%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,600,1010.1,0.0
+overload,full,Stormstrike 125%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1048.3,0.0
+overload,full,Stormstrike 125%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1041.3,0.0
+overload,full,Stormstrike 125%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,600,1035.6,0.0
+overload,full,Stormstrike 125%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,120,1034.5,0.0
+overload,full,Stormstrike 125%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,300,1025.4,0.0
+overload,full,Stormstrike 125%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,600,1019.4,0.0
+overload,full,Stormstrike 125%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+overload,full,Stormstrike 125%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,850.5,0.0
+overload,full,Stormstrike 125%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,600,806.5,0.0
+overload,full,Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+overload,full,Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,300,940.6,1.0
+overload,full,Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,600,913.8,0.7
+overload,full,Stormstrike 125%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,996.1,0.0
+overload,full,Stormstrike 125%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,982.6,0.0
+overload,full,Stormstrike 125%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,600,965.0,25.0
+overload,full,Overload 45% + Stormstrike 125%,Enh preset 19/32/0,enh_launch_1h,120,735.6,0.0
+overload,full,Overload 45% + Stormstrike 125%,Enh preset 19/32/0,enh_launch_1h,300,719.3,0.0
+overload,full,Overload 45% + Stormstrike 125%,Enh preset 19/32/0,enh_launch_1h,600,714.8,0.0
+overload,full,Overload 45% + Stormstrike 125%,8/36/7 no hard casts,enh_launch_1h,120,709.9,0.0
+overload,full,Overload 45% + Stormstrike 125%,8/36/7 no hard casts,enh_launch_1h,300,700.7,0.0
+overload,full,Overload 45% + Stormstrike 125%,8/36/7 no hard casts,enh_launch_1h,600,700.4,0.0
+overload,full,Overload 45% + Stormstrike 125%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,697.0,0.0
+overload,full,Overload 45% + Stormstrike 125%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,687.6,0.0
+overload,full,Overload 45% + Stormstrike 125%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,687.3,0.0
+overload,full,Overload 45% + Stormstrike 125%,Ele preset 32/0/19,ele_launch,120,677.0,0.0
+overload,full,Overload 45% + Stormstrike 125%,Ele preset 32/0/19,ele_launch,300,583.2,0.0
+overload,full,Overload 45% + Stormstrike 125%,Ele preset 32/0/19,ele_launch,600,550.1,0.2
+overload,full,Overload 45% + Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,677.0,0.0
+overload,full,Overload 45% + Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,664.7,1.2
+overload,full,Overload 45% + Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,631.0,0.8
+overload,full,Overload 45% + Stormstrike 125%,29/22 weave,ele_launch,120,690.5,0.0
+overload,full,Overload 45% + Stormstrike 125%,29/22 weave,ele_launch,300,664.3,30.0
+overload,full,Overload 45% + Stormstrike 125%,29/22 weave,ele_launch,600,633.2,131.2
+overload,full,Overload 45% + Stormstrike 125%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1035.1,0.0
+overload,full,Overload 45% + Stormstrike 125%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1023.7,0.0
+overload,full,Overload 45% + Stormstrike 125%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,600,1010.1,0.0
+overload,full,Overload 45% + Stormstrike 125%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1048.3,0.0
+overload,full,Overload 45% + Stormstrike 125%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1041.3,0.0
+overload,full,Overload 45% + Stormstrike 125%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,600,1035.6,0.0
+overload,full,Overload 45% + Stormstrike 125%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,120,1034.5,0.0
+overload,full,Overload 45% + Stormstrike 125%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,300,1025.4,0.0
+overload,full,Overload 45% + Stormstrike 125%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,600,1019.4,0.0
+overload,full,Overload 45% + Stormstrike 125%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,991.2,0.0
+overload,full,Overload 45% + Stormstrike 125%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,890.3,0.0
+overload,full,Overload 45% + Stormstrike 125%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,600,842.9,0.0
+overload,full,Overload 45% + Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,120,991.2,0.0
+overload,full,Overload 45% + Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,300,987.9,0.9
+overload,full,Overload 45% + Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,600,961.9,0.7
+overload,full,Overload 45% + Stormstrike 125%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1018.1,0.0
+overload,full,Overload 45% + Stormstrike 125%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1003.9,0.0
+overload,full,Overload 45% + Stormstrike 125%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,600,988.5,21.7
+overload,full,Overload 60% + Stormstrike 125%,Enh preset 19/32/0,enh_launch_1h,120,735.6,0.0
+overload,full,Overload 60% + Stormstrike 125%,Enh preset 19/32/0,enh_launch_1h,300,719.3,0.0
+overload,full,Overload 60% + Stormstrike 125%,Enh preset 19/32/0,enh_launch_1h,600,714.8,0.0
+overload,full,Overload 60% + Stormstrike 125%,8/36/7 no hard casts,enh_launch_1h,120,709.9,0.0
+overload,full,Overload 60% + Stormstrike 125%,8/36/7 no hard casts,enh_launch_1h,300,700.7,0.0
+overload,full,Overload 60% + Stormstrike 125%,8/36/7 no hard casts,enh_launch_1h,600,700.4,0.0
+overload,full,Overload 60% + Stormstrike 125%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,697.0,0.0
+overload,full,Overload 60% + Stormstrike 125%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,687.6,0.0
+overload,full,Overload 60% + Stormstrike 125%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,687.3,0.0
+overload,full,Overload 60% + Stormstrike 125%,Ele preset 32/0/19,ele_launch,120,703.1,0.0
+overload,full,Overload 60% + Stormstrike 125%,Ele preset 32/0/19,ele_launch,300,608.0,0.0
+overload,full,Overload 60% + Stormstrike 125%,Ele preset 32/0/19,ele_launch,600,571.9,0.2
+overload,full,Overload 60% + Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,703.1,0.0
+overload,full,Overload 60% + Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,694.7,1.1
+overload,full,Overload 60% + Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,660.0,0.9
+overload,full,Overload 60% + Stormstrike 125%,29/22 weave,ele_launch,120,713.3,0.0
+overload,full,Overload 60% + Stormstrike 125%,29/22 weave,ele_launch,300,687.5,27.9
+overload,full,Overload 60% + Stormstrike 125%,29/22 weave,ele_launch,600,654.0,127.1
+overload,full,Overload 60% + Stormstrike 125%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1035.1,0.0
+overload,full,Overload 60% + Stormstrike 125%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1023.7,0.0
+overload,full,Overload 60% + Stormstrike 125%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,600,1010.1,0.0
+overload,full,Overload 60% + Stormstrike 125%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1048.3,0.0
+overload,full,Overload 60% + Stormstrike 125%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1041.3,0.0
+overload,full,Overload 60% + Stormstrike 125%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,600,1035.6,0.0
+overload,full,Overload 60% + Stormstrike 125%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,120,1034.5,0.0
+overload,full,Overload 60% + Stormstrike 125%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,300,1025.4,0.0
+overload,full,Overload 60% + Stormstrike 125%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,600,1019.4,0.0
+overload,full,Overload 60% + Stormstrike 125%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,1033.5,0.0
+overload,full,Overload 60% + Stormstrike 125%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,930.2,0.0
+overload,full,Overload 60% + Stormstrike 125%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,600,879.3,0.0
+overload,full,Overload 60% + Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,120,1033.5,0.0
+overload,full,Overload 60% + Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,300,1035.7,0.9
+overload,full,Overload 60% + Stormstrike 125%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,600,1009.4,0.8
+overload,full,Overload 60% + Stormstrike 125%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1040.6,0.0
+overload,full,Overload 60% + Stormstrike 125%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1026.2,0.0
+overload,full,Overload 60% + Stormstrike 125%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,600,1012.3,18.8
+levers,light,2 November,Enh preset 19/32/0,enh_launch_1h,120,623.0,38.4
+levers,light,2 November,Enh preset 19/32/0,enh_launch_1h,300,610.0,91.1
+levers,light,2 November,Enh preset 19/32/0,enh_launch_1h,600,591.7,258.1
+levers,light,2 November,8/36/7 no hard casts,enh_launch_1h,120,648.4,0.0
+levers,light,2 November,8/36/7 no hard casts,enh_launch_1h,300,602.2,53.6
+levers,light,2 November,8/36/7 no hard casts,enh_launch_1h,600,585.1,158.0
+levers,light,2 November,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,638.1,0.0
+levers,light,2 November,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,629.1,0.4
+levers,light,2 November,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,618.6,39.6
+levers,light,2 November,Ele preset 32/0/19,ele_launch,120,549.2,0.6
+levers,light,2 November,Ele preset 32/0/19,ele_launch,300,461.6,0.4
+levers,light,2 November,Ele preset 32/0/19,ele_launch,600,459.0,2.6
+levers,light,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,547.3,5.0
+levers,light,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,500.2,15.9
+levers,light,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,466.4,27.2
+levers,light,2 November,29/22 weave,ele_launch,120,515.0,36.1
+levers,light,2 November,29/22 weave,ele_launch,300,430.5,154.0
+levers,light,2 November,29/22 weave,ele_launch,600,362.7,391.0
+levers,light,2 November,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,961.2,9.2
+levers,light,2 November,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,925.8,46.7
+levers,light,2 November,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,600,896.4,174.3
+levers,light,2 November,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,979.7,0.0
+levers,light,2 November,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,972.0,3.7
+levers,light,2 November,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,600,932.5,102.2
+levers,light,2 November,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,120,968.5,0.0
+levers,light,2 November,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,300,961.2,0.0
+levers,light,2 November,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,600,955.6,0.0
+levers,light,2 November,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,876.1,0.4
+levers,light,2 November,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,729.0,0.2
+levers,light,2 November,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,600,725.9,0.9
+levers,light,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,120,877.2,1.8
+levers,light,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,300,793.5,11.3
+levers,light,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,600,748.7,19.5
+levers,light,2 November,29/22 weave,testdata/forever-hyb-bis.gear.json,120,936.7,0.3
+levers,light,2 November,29/22 weave,testdata/forever-hyb-bis.gear.json,300,794.4,82.5
+levers,light,2 November,29/22 weave,testdata/forever-hyb-bis.gear.json,600,698.8,275.1
+levers,light,No capstones,Enh preset 19/32/0,enh_launch_1h,120,604.4,38.5
+levers,light,No capstones,Enh preset 19/32/0,enh_launch_1h,300,594.4,91.3
+levers,light,No capstones,Enh preset 19/32/0,enh_launch_1h,600,576.4,258.2
+levers,light,No capstones,8/36/7 no hard casts,enh_launch_1h,120,623.8,0.0
+levers,light,No capstones,8/36/7 no hard casts,enh_launch_1h,300,583.5,47.4
+levers,light,No capstones,8/36/7 no hard casts,enh_launch_1h,600,566.6,139.6
+levers,light,No capstones,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,613.2,0.0
+levers,light,No capstones,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,608.5,0.1
+levers,light,No capstones,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,600.0,21.2
+levers,light,No capstones,Ele preset 32/0/19,ele_launch,120,540.3,0.3
+levers,light,No capstones,Ele preset 32/0/19,ele_launch,300,452.2,0.4
+levers,light,No capstones,Ele preset 32/0/19,ele_launch,600,450.3,2.1
+levers,light,No capstones,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,538.3,4.6
+levers,light,No capstones,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,495.7,12.2
+levers,light,No capstones,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,461.2,21.2
+levers,light,No capstones,29/22 weave,ele_launch,120,515.0,36.1
+levers,light,No capstones,29/22 weave,ele_launch,300,430.5,154.0
+levers,light,No capstones,29/22 weave,ele_launch,600,362.7,391.0
+levers,light,No capstones,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,932.1,9.3
+levers,light,No capstones,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,902.7,46.6
+levers,light,No capstones,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,600,872.5,174.2
+levers,light,No capstones,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,936.4,0.0
+levers,light,No capstones,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,938.6,1.7
+levers,light,No capstones,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,600,901.0,89.4
+levers,light,No capstones,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,120,926.8,0.0
+levers,light,No capstones,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,300,927.8,0.0
+levers,light,No capstones,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,600,922.4,0.0
+levers,light,No capstones,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,851.0,0.3
+levers,light,No capstones,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,710.7,0.2
+levers,light,No capstones,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,600,705.8,0.8
+levers,light,No capstones,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,120,852.3,1.4
+levers,light,No capstones,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,300,779.5,8.4
+levers,light,No capstones,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,600,733.7,14.9
+levers,light,No capstones,29/22 weave,testdata/forever-hyb-bis.gear.json,120,936.7,0.3
+levers,light,No capstones,29/22 weave,testdata/forever-hyb-bis.gear.json,300,794.4,82.5
+levers,light,No capstones,29/22 weave,testdata/forever-hyb-bis.gear.json,600,698.8,275.1
+levers,light,Maelstrom not doubled,Enh preset 19/32/0,enh_launch_1h,120,582.8,39.0
+levers,light,Maelstrom not doubled,Enh preset 19/32/0,enh_launch_1h,300,568.6,92.4
+levers,light,Maelstrom not doubled,Enh preset 19/32/0,enh_launch_1h,600,549.0,262.2
+levers,light,Maelstrom not doubled,8/36/7 no hard casts,enh_launch_1h,120,609.4,0.1
+levers,light,Maelstrom not doubled,8/36/7 no hard casts,enh_launch_1h,300,558.4,62.9
+levers,light,Maelstrom not doubled,8/36/7 no hard casts,enh_launch_1h,600,539.9,180.5
+levers,light,Maelstrom not doubled,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,600.9,0.0
+levers,light,Maelstrom not doubled,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,592.3,3.9
+levers,light,Maelstrom not doubled,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,575.4,63.2
+levers,light,Maelstrom not doubled,Ele preset 32/0/19,ele_launch,120,549.2,0.6
+levers,light,Maelstrom not doubled,Ele preset 32/0/19,ele_launch,300,461.6,0.4
+levers,light,Maelstrom not doubled,Ele preset 32/0/19,ele_launch,600,459.0,2.6
+levers,light,Maelstrom not doubled,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,547.3,5.0
+levers,light,Maelstrom not doubled,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,500.2,15.9
+levers,light,Maelstrom not doubled,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,466.4,27.2
+levers,light,Maelstrom not doubled,29/22 weave,ele_launch,120,515.0,36.1
+levers,light,Maelstrom not doubled,29/22 weave,ele_launch,300,430.5,154.0
+levers,light,Maelstrom not doubled,29/22 weave,ele_launch,600,362.7,391.0
+levers,light,Maelstrom not doubled,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,925.9,9.9
+levers,light,Maelstrom not doubled,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,888.3,46.9
+levers,light,Maelstrom not doubled,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,600,855.7,176.4
+levers,light,Maelstrom not doubled,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,957.1,0.0
+levers,light,Maelstrom not doubled,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,938.2,12.9
+levers,light,Maelstrom not doubled,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,600,892.2,125.5
+levers,light,Maelstrom not doubled,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,120,943.3,0.0
+levers,light,Maelstrom not doubled,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,300,935.0,0.0
+levers,light,Maelstrom not doubled,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,600,931.3,0.0
+levers,light,Maelstrom not doubled,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,876.1,0.4
+levers,light,Maelstrom not doubled,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,729.0,0.2
+levers,light,Maelstrom not doubled,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,600,725.9,0.9
+levers,light,Maelstrom not doubled,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,120,877.2,1.8
+levers,light,Maelstrom not doubled,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,300,793.5,11.3
+levers,light,Maelstrom not doubled,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,600,748.7,19.5
+levers,light,Maelstrom not doubled,29/22 weave,testdata/forever-hyb-bis.gear.json,120,936.7,0.3
+levers,light,Maelstrom not doubled,29/22 weave,testdata/forever-hyb-bis.gear.json,300,794.4,82.5
+levers,light,Maelstrom not doubled,29/22 weave,testdata/forever-hyb-bis.gear.json,600,698.8,275.1
+levers,light,Stormstrike spell bonus 40%,Enh preset 19/32/0,enh_launch_1h,120,645.8,38.4
+levers,light,Stormstrike spell bonus 40%,Enh preset 19/32/0,enh_launch_1h,300,634.7,91.1
+levers,light,Stormstrike spell bonus 40%,Enh preset 19/32/0,enh_launch_1h,600,614.5,258.1
+levers,light,Stormstrike spell bonus 40%,8/36/7 no hard casts,enh_launch_1h,120,667.4,0.0
+levers,light,Stormstrike spell bonus 40%,8/36/7 no hard casts,enh_launch_1h,300,619.8,53.6
+levers,light,Stormstrike spell bonus 40%,8/36/7 no hard casts,enh_launch_1h,600,602.2,158.0
+levers,light,Stormstrike spell bonus 40%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,656.9,0.0
+levers,light,Stormstrike spell bonus 40%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,647.6,0.4
+levers,light,Stormstrike spell bonus 40%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,636.7,39.6
+levers,light,Stormstrike spell bonus 40%,Ele preset 32/0/19,ele_launch,120,549.2,0.6
+levers,light,Stormstrike spell bonus 40%,Ele preset 32/0/19,ele_launch,300,461.6,0.4
+levers,light,Stormstrike spell bonus 40%,Ele preset 32/0/19,ele_launch,600,459.0,2.6
+levers,light,Stormstrike spell bonus 40%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,547.3,5.0
+levers,light,Stormstrike spell bonus 40%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,500.2,15.9
+levers,light,Stormstrike spell bonus 40%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,466.4,27.2
+levers,light,Stormstrike spell bonus 40%,29/22 weave,ele_launch,120,523.4,36.1
+levers,light,Stormstrike spell bonus 40%,29/22 weave,ele_launch,300,439.7,154.0
+levers,light,Stormstrike spell bonus 40%,29/22 weave,ele_launch,600,370.2,391.0
+levers,light,Stormstrike spell bonus 40%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,991.8,9.2
+levers,light,Stormstrike spell bonus 40%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,956.7,46.7
+levers,light,Stormstrike spell bonus 40%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,600,925.7,174.3
+levers,light,Stormstrike spell bonus 40%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,1003.5,0.0
+levers,light,Stormstrike spell bonus 40%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,995.2,3.7
+levers,light,Stormstrike spell bonus 40%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,600,954.5,102.2
+levers,light,Stormstrike spell bonus 40%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,120,992.0,0.0
+levers,light,Stormstrike spell bonus 40%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,300,984.3,0.0
+levers,light,Stormstrike spell bonus 40%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,600,978.7,0.0
+levers,light,Stormstrike spell bonus 40%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,876.1,0.4
+levers,light,Stormstrike spell bonus 40%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,729.0,0.2
+levers,light,Stormstrike spell bonus 40%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,600,725.9,0.9
+levers,light,Stormstrike spell bonus 40%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,120,877.2,1.8
+levers,light,Stormstrike spell bonus 40%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,300,793.5,11.3
+levers,light,Stormstrike spell bonus 40%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,600,748.7,19.5
+levers,light,Stormstrike spell bonus 40%,29/22 weave,testdata/forever-hyb-bis.gear.json,120,966.8,0.3
+levers,light,Stormstrike spell bonus 40%,29/22 weave,testdata/forever-hyb-bis.gear.json,300,817.2,82.5
+levers,light,Stormstrike spell bonus 40%,29/22 weave,testdata/forever-hyb-bis.gear.json,600,716.0,275.1
+levers,light,Stormstrike spell bonus 60%,Enh preset 19/32/0,enh_launch_1h,120,668.7,38.4
+levers,light,Stormstrike spell bonus 60%,Enh preset 19/32/0,enh_launch_1h,300,659.3,91.1
+levers,light,Stormstrike spell bonus 60%,Enh preset 19/32/0,enh_launch_1h,600,637.4,258.1
+levers,light,Stormstrike spell bonus 60%,8/36/7 no hard casts,enh_launch_1h,120,686.4,0.0
+levers,light,Stormstrike spell bonus 60%,8/36/7 no hard casts,enh_launch_1h,300,637.3,53.6
+levers,light,Stormstrike spell bonus 60%,8/36/7 no hard casts,enh_launch_1h,600,619.4,158.0
+levers,light,Stormstrike spell bonus 60%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,675.7,0.0
+levers,light,Stormstrike spell bonus 60%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,666.1,0.4
+levers,light,Stormstrike spell bonus 60%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,654.8,39.6
+levers,light,Stormstrike spell bonus 60%,Ele preset 32/0/19,ele_launch,120,549.2,0.6
+levers,light,Stormstrike spell bonus 60%,Ele preset 32/0/19,ele_launch,300,461.6,0.4
+levers,light,Stormstrike spell bonus 60%,Ele preset 32/0/19,ele_launch,600,459.0,2.6
+levers,light,Stormstrike spell bonus 60%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,547.3,5.0
+levers,light,Stormstrike spell bonus 60%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,500.2,15.9
+levers,light,Stormstrike spell bonus 60%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,466.4,27.2
+levers,light,Stormstrike spell bonus 60%,29/22 weave,ele_launch,120,531.7,36.1
+levers,light,Stormstrike spell bonus 60%,29/22 weave,ele_launch,300,448.8,154.0
+levers,light,Stormstrike spell bonus 60%,29/22 weave,ele_launch,600,377.6,391.0
+levers,light,Stormstrike spell bonus 60%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,1022.4,9.2
+levers,light,Stormstrike spell bonus 60%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,987.7,46.7
+levers,light,Stormstrike spell bonus 60%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,600,954.9,174.3
+levers,light,Stormstrike spell bonus 60%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,1027.3,0.0
+levers,light,Stormstrike spell bonus 60%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,1018.4,3.7
+levers,light,Stormstrike spell bonus 60%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,600,976.6,102.2
+levers,light,Stormstrike spell bonus 60%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,120,1015.6,0.0
+levers,light,Stormstrike spell bonus 60%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,300,1007.4,0.0
+levers,light,Stormstrike spell bonus 60%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,600,1001.8,0.0
+levers,light,Stormstrike spell bonus 60%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,876.1,0.4
+levers,light,Stormstrike spell bonus 60%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,729.0,0.2
+levers,light,Stormstrike spell bonus 60%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,600,725.9,0.9
+levers,light,Stormstrike spell bonus 60%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,120,877.2,1.8
+levers,light,Stormstrike spell bonus 60%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,300,793.5,11.3
+levers,light,Stormstrike spell bonus 60%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,600,748.7,19.5
+levers,light,Stormstrike spell bonus 60%,29/22 weave,testdata/forever-hyb-bis.gear.json,120,996.9,0.3
+levers,light,Stormstrike spell bonus 60%,29/22 weave,testdata/forever-hyb-bis.gear.json,300,840.1,82.5
+levers,light,Stormstrike spell bonus 60%,29/22 weave,testdata/forever-hyb-bis.gear.json,600,733.2,275.1
+levers,light,Lightning Mastery +50% damage,Enh preset 19/32/0,enh_launch_1h,120,623.0,38.4
+levers,light,Lightning Mastery +50% damage,Enh preset 19/32/0,enh_launch_1h,300,610.0,91.1
+levers,light,Lightning Mastery +50% damage,Enh preset 19/32/0,enh_launch_1h,600,591.7,258.1
+levers,light,Lightning Mastery +50% damage,8/36/7 no hard casts,enh_launch_1h,120,648.4,0.0
+levers,light,Lightning Mastery +50% damage,8/36/7 no hard casts,enh_launch_1h,300,602.2,53.6
+levers,light,Lightning Mastery +50% damage,8/36/7 no hard casts,enh_launch_1h,600,585.1,158.0
+levers,light,Lightning Mastery +50% damage,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,638.1,0.0
+levers,light,Lightning Mastery +50% damage,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,629.1,0.4
+levers,light,Lightning Mastery +50% damage,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,618.6,39.6
+levers,light,Lightning Mastery +50% damage,Ele preset 32/0/19,ele_launch,120,576.9,0.6
+levers,light,Lightning Mastery +50% damage,Ele preset 32/0/19,ele_launch,300,478.5,0.4
+levers,light,Lightning Mastery +50% damage,Ele preset 32/0/19,ele_launch,600,477.3,2.6
+levers,light,Lightning Mastery +50% damage,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,575.1,5.0
+levers,light,Lightning Mastery +50% damage,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,520.6,15.9
+levers,light,Lightning Mastery +50% damage,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,485.8,27.2
+levers,light,Lightning Mastery +50% damage,29/22 weave,ele_launch,120,515.0,36.1
+levers,light,Lightning Mastery +50% damage,29/22 weave,ele_launch,300,430.5,154.0
+levers,light,Lightning Mastery +50% damage,29/22 weave,ele_launch,600,362.7,391.0
+levers,light,Lightning Mastery +50% damage,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,961.2,9.2
+levers,light,Lightning Mastery +50% damage,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,925.8,46.7
+levers,light,Lightning Mastery +50% damage,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,600,896.4,174.3
+levers,light,Lightning Mastery +50% damage,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,979.7,0.0
+levers,light,Lightning Mastery +50% damage,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,972.0,3.7
+levers,light,Lightning Mastery +50% damage,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,600,932.5,102.2
+levers,light,Lightning Mastery +50% damage,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,120,968.5,0.0
+levers,light,Lightning Mastery +50% damage,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,300,961.2,0.0
+levers,light,Lightning Mastery +50% damage,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,600,955.6,0.0
+levers,light,Lightning Mastery +50% damage,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,928.7,0.4
+levers,light,Lightning Mastery +50% damage,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,766.6,0.2
+levers,light,Lightning Mastery +50% damage,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,600,765.7,0.9
+levers,light,Lightning Mastery +50% damage,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,120,929.8,1.8
+levers,light,Lightning Mastery +50% damage,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,300,835.6,11.3
+levers,light,Lightning Mastery +50% damage,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,600,789.7,19.5
+levers,light,Lightning Mastery +50% damage,29/22 weave,testdata/forever-hyb-bis.gear.json,120,936.7,0.3
+levers,light,Lightning Mastery +50% damage,29/22 weave,testdata/forever-hyb-bis.gear.json,300,794.4,82.5
+levers,light,Lightning Mastery +50% damage,29/22 weave,testdata/forever-hyb-bis.gear.json,600,698.8,275.1
+levers,light,Lightning Mastery +100% damage,Enh preset 19/32/0,enh_launch_1h,120,623.0,38.4
+levers,light,Lightning Mastery +100% damage,Enh preset 19/32/0,enh_launch_1h,300,610.0,91.1
+levers,light,Lightning Mastery +100% damage,Enh preset 19/32/0,enh_launch_1h,600,591.7,258.1
+levers,light,Lightning Mastery +100% damage,8/36/7 no hard casts,enh_launch_1h,120,648.4,0.0
+levers,light,Lightning Mastery +100% damage,8/36/7 no hard casts,enh_launch_1h,300,602.2,53.6
+levers,light,Lightning Mastery +100% damage,8/36/7 no hard casts,enh_launch_1h,600,585.1,158.0
+levers,light,Lightning Mastery +100% damage,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,638.1,0.0
+levers,light,Lightning Mastery +100% damage,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,629.1,0.4
+levers,light,Lightning Mastery +100% damage,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,618.6,39.6
+levers,light,Lightning Mastery +100% damage,Ele preset 32/0/19,ele_launch,120,604.7,0.6
+levers,light,Lightning Mastery +100% damage,Ele preset 32/0/19,ele_launch,300,495.4,0.4
+levers,light,Lightning Mastery +100% damage,Ele preset 32/0/19,ele_launch,600,495.6,2.6
+levers,light,Lightning Mastery +100% damage,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,602.8,5.0
+levers,light,Lightning Mastery +100% damage,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,541.0,15.9
+levers,light,Lightning Mastery +100% damage,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,505.2,27.2
+levers,light,Lightning Mastery +100% damage,29/22 weave,ele_launch,120,515.0,36.1
+levers,light,Lightning Mastery +100% damage,29/22 weave,ele_launch,300,430.5,154.0
+levers,light,Lightning Mastery +100% damage,29/22 weave,ele_launch,600,362.7,391.0
+levers,light,Lightning Mastery +100% damage,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,961.2,9.2
+levers,light,Lightning Mastery +100% damage,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,925.8,46.7
+levers,light,Lightning Mastery +100% damage,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,600,896.4,174.3
+levers,light,Lightning Mastery +100% damage,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,979.7,0.0
+levers,light,Lightning Mastery +100% damage,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,972.0,3.7
+levers,light,Lightning Mastery +100% damage,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,600,932.5,102.2
+levers,light,Lightning Mastery +100% damage,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,120,968.5,0.0
+levers,light,Lightning Mastery +100% damage,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,300,961.2,0.0
+levers,light,Lightning Mastery +100% damage,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,600,955.6,0.0
+levers,light,Lightning Mastery +100% damage,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,981.3,0.4
+levers,light,Lightning Mastery +100% damage,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,804.2,0.2
+levers,light,Lightning Mastery +100% damage,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,600,805.6,0.9
+levers,light,Lightning Mastery +100% damage,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,120,982.4,1.8
+levers,light,Lightning Mastery +100% damage,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,300,877.8,11.3
+levers,light,Lightning Mastery +100% damage,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,600,830.7,19.5
+levers,light,Lightning Mastery +100% damage,29/22 weave,testdata/forever-hyb-bis.gear.json,120,936.7,0.3
+levers,light,Lightning Mastery +100% damage,29/22 weave,testdata/forever-hyb-bis.gear.json,300,794.4,82.5
+levers,light,Lightning Mastery +100% damage,29/22 weave,testdata/forever-hyb-bis.gear.json,600,698.8,275.1
+levers,light,Rage of the Farseer 60% haste,Enh preset 19/32/0,enh_launch_1h,120,637.2,38.3
+levers,light,Rage of the Farseer 60% haste,Enh preset 19/32/0,enh_launch_1h,300,621.2,90.9
+levers,light,Rage of the Farseer 60% haste,Enh preset 19/32/0,enh_launch_1h,600,602.9,257.6
+levers,light,Rage of the Farseer 60% haste,8/36/7 no hard casts,enh_launch_1h,120,666.4,0.0
+levers,light,Rage of the Farseer 60% haste,8/36/7 no hard casts,enh_launch_1h,300,615.4,55.4
+levers,light,Rage of the Farseer 60% haste,8/36/7 no hard casts,enh_launch_1h,600,597.7,163.4
+levers,light,Rage of the Farseer 60% haste,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,655.0,0.0
+levers,light,Rage of the Farseer 60% haste,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,642.6,0.6
+levers,light,Rage of the Farseer 60% haste,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,631.4,41.9
+levers,light,Rage of the Farseer 60% haste,Ele preset 32/0/19,ele_launch,120,549.2,0.6
+levers,light,Rage of the Farseer 60% haste,Ele preset 32/0/19,ele_launch,300,461.6,0.4
+levers,light,Rage of the Farseer 60% haste,Ele preset 32/0/19,ele_launch,600,459.0,2.6
+levers,light,Rage of the Farseer 60% haste,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,547.3,5.0
+levers,light,Rage of the Farseer 60% haste,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,500.2,15.9
+levers,light,Rage of the Farseer 60% haste,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,466.4,27.2
+levers,light,Rage of the Farseer 60% haste,29/22 weave,ele_launch,120,515.0,36.1
+levers,light,Rage of the Farseer 60% haste,29/22 weave,ele_launch,300,430.5,154.0
+levers,light,Rage of the Farseer 60% haste,29/22 weave,ele_launch,600,362.7,391.0
+levers,light,Rage of the Farseer 60% haste,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,986.6,9.3
+levers,light,Rage of the Farseer 60% haste,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,948.2,46.6
+levers,light,Rage of the Farseer 60% haste,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,600,917.8,174.0
+levers,light,Rage of the Farseer 60% haste,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,1016.6,0.0
+levers,light,Rage of the Farseer 60% haste,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,1000.7,4.3
+levers,light,Rage of the Farseer 60% haste,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,600,959.7,109.0
+levers,light,Rage of the Farseer 60% haste,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,120,1004.8,0.0
+levers,light,Rage of the Farseer 60% haste,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,300,991.0,0.0
+levers,light,Rage of the Farseer 60% haste,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,600,984.9,0.0
+levers,light,Rage of the Farseer 60% haste,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,876.1,0.4
+levers,light,Rage of the Farseer 60% haste,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,729.0,0.2
+levers,light,Rage of the Farseer 60% haste,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,600,725.9,0.9
+levers,light,Rage of the Farseer 60% haste,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,120,877.2,1.8
+levers,light,Rage of the Farseer 60% haste,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,300,793.5,11.3
+levers,light,Rage of the Farseer 60% haste,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,600,748.7,19.5
+levers,light,Rage of the Farseer 60% haste,29/22 weave,testdata/forever-hyb-bis.gear.json,120,936.7,0.3
+levers,light,Rage of the Farseer 60% haste,29/22 weave,testdata/forever-hyb-bis.gear.json,300,794.4,82.5
+levers,light,Rage of the Farseer 60% haste,29/22 weave,testdata/forever-hyb-bis.gear.json,600,698.8,275.1
+levers,light,Elemental Fury package,Enh preset 19/32/0,enh_launch_1h,120,626.7,38.4
+levers,light,Elemental Fury package,Enh preset 19/32/0,enh_launch_1h,300,613.8,91.1
+levers,light,Elemental Fury package,Enh preset 19/32/0,enh_launch_1h,600,595.5,258.1
+levers,light,Elemental Fury package,8/36/7 no hard casts,enh_launch_1h,120,652.2,0.0
+levers,light,Elemental Fury package,8/36/7 no hard casts,enh_launch_1h,300,606.1,53.6
+levers,light,Elemental Fury package,8/36/7 no hard casts,enh_launch_1h,600,589.0,158.0
+levers,light,Elemental Fury package,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,641.8,0.0
+levers,light,Elemental Fury package,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,632.9,0.4
+levers,light,Elemental Fury package,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,622.3,39.6
+levers,light,Elemental Fury package,Ele preset 32/0/19,ele_launch,120,637.2,0.6
+levers,light,Elemental Fury package,Ele preset 32/0/19,ele_launch,300,531.1,0.4
+levers,light,Elemental Fury package,Ele preset 32/0/19,ele_launch,600,528.1,2.6
+levers,light,Elemental Fury package,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,636.1,5.0
+levers,light,Elemental Fury package,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,579.5,15.9
+levers,light,Elemental Fury package,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,538.3,27.2
+levers,light,Elemental Fury package,29/22 weave,ele_launch,120,566.2,36.1
+levers,light,Elemental Fury package,29/22 weave,ele_launch,300,467.0,154.0
+levers,light,Elemental Fury package,29/22 weave,ele_launch,600,388.2,391.1
+levers,light,Elemental Fury package,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,964.4,9.2
+levers,light,Elemental Fury package,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,929.1,46.7
+levers,light,Elemental Fury package,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,600,899.7,174.3
+levers,light,Elemental Fury package,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,983.2,0.0
+levers,light,Elemental Fury package,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,975.4,3.7
+levers,light,Elemental Fury package,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,600,936.0,102.2
+levers,light,Elemental Fury package,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,120,971.9,0.0
+levers,light,Elemental Fury package,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,300,964.6,0.0
+levers,light,Elemental Fury package,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,600,959.0,0.0
+levers,light,Elemental Fury package,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,1025.9,0.4
+levers,light,Elemental Fury package,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,846.2,0.2
+levers,light,Elemental Fury package,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,600,841.8,0.9
+levers,light,Elemental Fury package,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,120,1027.4,1.8
+levers,light,Elemental Fury package,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,300,926.7,11.3
+levers,light,Elemental Fury package,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,600,871.4,19.5
+levers,light,Elemental Fury package,29/22 weave,testdata/forever-hyb-bis.gear.json,120,1017.4,0.3
+levers,light,Elemental Fury package,29/22 weave,testdata/forever-hyb-bis.gear.json,300,851.9,82.4
+levers,light,Elemental Fury package,29/22 weave,testdata/forever-hyb-bis.gear.json,600,740.1,275.0
+levers,full,2 November,Enh preset 19/32/0,enh_launch_1h,120,753.3,0.0
+levers,full,2 November,Enh preset 19/32/0,enh_launch_1h,300,736.8,0.0
+levers,full,2 November,Enh preset 19/32/0,enh_launch_1h,600,732.3,0.0
+levers,full,2 November,8/36/7 no hard casts,enh_launch_1h,120,727.4,0.0
+levers,full,2 November,8/36/7 no hard casts,enh_launch_1h,300,717.8,0.0
+levers,full,2 November,8/36/7 no hard casts,enh_launch_1h,600,717.4,0.0
+levers,full,2 November,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,714.1,0.0
+levers,full,2 November,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,704.3,0.0
+levers,full,2 November,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,703.9,0.0
+levers,full,2 November,Ele preset 32/0/19,ele_launch,120,650.1,0.0
+levers,full,2 November,Ele preset 32/0/19,ele_launch,300,559.5,0.0
+levers,full,2 November,Ele preset 32/0/19,ele_launch,600,528.7,0.2
+levers,full,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,650.1,0.0
+levers,full,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,635.0,1.2
+levers,full,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,602.2,0.8
+levers,full,2 November,29/22 weave,ele_launch,120,676.7,0.0
+levers,full,2 November,29/22 weave,ele_launch,300,649.7,32.1
+levers,full,2 November,29/22 weave,ele_launch,600,620.3,135.0
+levers,full,2 November,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1069.7,0.0
+levers,full,2 November,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1057.7,0.0
+levers,full,2 November,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,600,1044.2,0.0
+levers,full,2 November,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1081.2,0.0
+levers,full,2 November,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1074.1,0.0
+levers,full,2 November,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,600,1068.0,0.0
+levers,full,2 November,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,120,1067.0,0.0
+levers,full,2 November,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,300,1057.7,0.0
+levers,full,2 November,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,600,1051.3,0.0
+levers,full,2 November,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+levers,full,2 November,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,850.5,0.0
+levers,full,2 November,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,600,806.5,0.0
+levers,full,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+levers,full,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,300,940.6,1.0
+levers,full,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,600,913.8,0.7
+levers,full,2 November,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1019.5,0.0
+levers,full,2 November,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1005.7,0.0
+levers,full,2 November,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,600,988.2,25.0
+levers,full,No capstones,Enh preset 19/32/0,enh_launch_1h,120,731.7,0.0
+levers,full,No capstones,Enh preset 19/32/0,enh_launch_1h,300,719.7,0.0
+levers,full,No capstones,Enh preset 19/32/0,enh_launch_1h,600,715.0,0.0
+levers,full,No capstones,8/36/7 no hard casts,enh_launch_1h,120,697.7,0.0
+levers,full,No capstones,8/36/7 no hard casts,enh_launch_1h,300,693.4,0.0
+levers,full,No capstones,8/36/7 no hard casts,enh_launch_1h,600,692.2,0.0
+levers,full,No capstones,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,684.6,0.0
+levers,full,No capstones,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,679.5,0.0
+levers,full,No capstones,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,678.3,0.0
+levers,full,No capstones,Ele preset 32/0/19,ele_launch,120,634.3,0.0
+levers,full,No capstones,Ele preset 32/0/19,ele_launch,300,549.7,0.0
+levers,full,No capstones,Ele preset 32/0/19,ele_launch,600,518.1,0.2
+levers,full,No capstones,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,634.3,0.0
+levers,full,No capstones,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,622.2,1.0
+levers,full,No capstones,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,592.5,0.8
+levers,full,No capstones,29/22 weave,ele_launch,120,676.7,0.0
+levers,full,No capstones,29/22 weave,ele_launch,300,649.7,32.1
+levers,full,No capstones,29/22 weave,ele_launch,600,620.3,135.0
+levers,full,No capstones,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1035.7,0.0
+levers,full,No capstones,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1031.8,0.0
+levers,full,No capstones,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,600,1018.2,0.0
+levers,full,No capstones,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1030.4,0.0
+levers,full,No capstones,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1033.1,0.0
+levers,full,No capstones,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,600,1027.0,0.0
+levers,full,No capstones,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,120,1018.4,0.0
+levers,full,No capstones,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,300,1019.9,0.0
+levers,full,No capstones,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,600,1013.6,0.0
+levers,full,No capstones,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,916.4,0.0
+levers,full,No capstones,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,830.6,0.0
+levers,full,No capstones,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,600,784.1,0.0
+levers,full,No capstones,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,120,916.4,0.0
+levers,full,No capstones,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,300,915.2,0.8
+levers,full,No capstones,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,600,891.7,0.7
+levers,full,No capstones,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1019.5,0.0
+levers,full,No capstones,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1005.7,0.0
+levers,full,No capstones,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,600,988.2,25.0
+levers,full,Maelstrom not doubled,Enh preset 19/32/0,enh_launch_1h,120,717.2,0.0
+levers,full,Maelstrom not doubled,Enh preset 19/32/0,enh_launch_1h,300,698.4,0.0
+levers,full,Maelstrom not doubled,Enh preset 19/32/0,enh_launch_1h,600,691.9,0.0
+levers,full,Maelstrom not doubled,8/36/7 no hard casts,enh_launch_1h,120,684.8,0.0
+levers,full,Maelstrom not doubled,8/36/7 no hard casts,enh_launch_1h,300,677.4,0.0
+levers,full,Maelstrom not doubled,8/36/7 no hard casts,enh_launch_1h,600,676.9,0.0
+levers,full,Maelstrom not doubled,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,674.8,0.0
+levers,full,Maelstrom not doubled,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,666.4,0.0
+levers,full,Maelstrom not doubled,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,666.4,0.0
+levers,full,Maelstrom not doubled,Ele preset 32/0/19,ele_launch,120,650.1,0.0
+levers,full,Maelstrom not doubled,Ele preset 32/0/19,ele_launch,300,559.5,0.0
+levers,full,Maelstrom not doubled,Ele preset 32/0/19,ele_launch,600,528.7,0.2
+levers,full,Maelstrom not doubled,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,650.1,0.0
+levers,full,Maelstrom not doubled,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,635.0,1.2
+levers,full,Maelstrom not doubled,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,602.2,0.8
+levers,full,Maelstrom not doubled,29/22 weave,ele_launch,120,676.7,0.0
+levers,full,Maelstrom not doubled,29/22 weave,ele_launch,300,649.7,32.1
+levers,full,Maelstrom not doubled,29/22 weave,ele_launch,600,620.3,135.0
+levers,full,Maelstrom not doubled,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1032.9,0.0
+levers,full,Maelstrom not doubled,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1021.5,0.0
+levers,full,Maelstrom not doubled,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,600,1006.0,0.0
+levers,full,Maelstrom not doubled,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1055.5,0.0
+levers,full,Maelstrom not doubled,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1047.6,0.0
+levers,full,Maelstrom not doubled,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,600,1041.7,0.0
+levers,full,Maelstrom not doubled,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,120,1043.1,0.0
+levers,full,Maelstrom not doubled,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,300,1032.7,0.0
+levers,full,Maelstrom not doubled,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,600,1027.5,0.0
+levers,full,Maelstrom not doubled,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+levers,full,Maelstrom not doubled,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,850.5,0.0
+levers,full,Maelstrom not doubled,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,600,806.5,0.0
+levers,full,Maelstrom not doubled,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+levers,full,Maelstrom not doubled,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,300,940.6,1.0
+levers,full,Maelstrom not doubled,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,600,913.8,0.7
+levers,full,Maelstrom not doubled,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1019.5,0.0
+levers,full,Maelstrom not doubled,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1005.7,0.0
+levers,full,Maelstrom not doubled,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,600,988.2,25.0
+levers,full,Stormstrike spell bonus 40%,Enh preset 19/32/0,enh_launch_1h,120,780.7,0.0
+levers,full,Stormstrike spell bonus 40%,Enh preset 19/32/0,enh_launch_1h,300,765.4,0.0
+levers,full,Stormstrike spell bonus 40%,Enh preset 19/32/0,enh_launch_1h,600,761.9,0.0
+levers,full,Stormstrike spell bonus 40%,8/36/7 no hard casts,enh_launch_1h,120,747.5,0.0
+levers,full,Stormstrike spell bonus 40%,8/36/7 no hard casts,enh_launch_1h,300,737.5,0.0
+levers,full,Stormstrike spell bonus 40%,8/36/7 no hard casts,enh_launch_1h,600,737.0,0.0
+levers,full,Stormstrike spell bonus 40%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,734.0,0.0
+levers,full,Stormstrike spell bonus 40%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,723.9,0.0
+levers,full,Stormstrike spell bonus 40%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,723.4,0.0
+levers,full,Stormstrike spell bonus 40%,Ele preset 32/0/19,ele_launch,120,650.1,0.0
+levers,full,Stormstrike spell bonus 40%,Ele preset 32/0/19,ele_launch,300,559.5,0.0
+levers,full,Stormstrike spell bonus 40%,Ele preset 32/0/19,ele_launch,600,528.7,0.2
+levers,full,Stormstrike spell bonus 40%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,650.1,0.0
+levers,full,Stormstrike spell bonus 40%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,635.0,1.2
+levers,full,Stormstrike spell bonus 40%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,602.2,0.8
+levers,full,Stormstrike spell bonus 40%,29/22 weave,ele_launch,120,688.2,0.0
+levers,full,Stormstrike spell bonus 40%,29/22 weave,ele_launch,300,662.7,32.1
+levers,full,Stormstrike spell bonus 40%,29/22 weave,ele_launch,600,636.8,135.0
+levers,full,Stormstrike spell bonus 40%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1102.5,0.0
+levers,full,Stormstrike spell bonus 40%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1090.5,0.0
+levers,full,Stormstrike spell bonus 40%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,600,1078.2,0.0
+levers,full,Stormstrike spell bonus 40%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1106.2,0.0
+levers,full,Stormstrike spell bonus 40%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1098.6,0.0
+levers,full,Stormstrike spell bonus 40%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,600,1092.5,0.0
+levers,full,Stormstrike spell bonus 40%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,120,1091.7,0.0
+levers,full,Stormstrike spell bonus 40%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,300,1081.9,0.0
+levers,full,Stormstrike spell bonus 40%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,600,1075.5,0.0
+levers,full,Stormstrike spell bonus 40%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+levers,full,Stormstrike spell bonus 40%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,850.5,0.0
+levers,full,Stormstrike spell bonus 40%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,600,806.5,0.0
+levers,full,Stormstrike spell bonus 40%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+levers,full,Stormstrike spell bonus 40%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,300,940.6,1.0
+levers,full,Stormstrike spell bonus 40%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,600,913.8,0.7
+levers,full,Stormstrike spell bonus 40%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1051.3,0.0
+levers,full,Stormstrike spell bonus 40%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1037.2,0.0
+levers,full,Stormstrike spell bonus 40%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,600,1019.9,25.0
+levers,full,Stormstrike spell bonus 60%,Enh preset 19/32/0,enh_launch_1h,120,808.1,0.0
+levers,full,Stormstrike spell bonus 60%,Enh preset 19/32/0,enh_launch_1h,300,794.0,0.0
+levers,full,Stormstrike spell bonus 60%,Enh preset 19/32/0,enh_launch_1h,600,791.4,0.0
+levers,full,Stormstrike spell bonus 60%,8/36/7 no hard casts,enh_launch_1h,120,767.6,0.0
+levers,full,Stormstrike spell bonus 60%,8/36/7 no hard casts,enh_launch_1h,300,757.2,0.0
+levers,full,Stormstrike spell bonus 60%,8/36/7 no hard casts,enh_launch_1h,600,756.7,0.0
+levers,full,Stormstrike spell bonus 60%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,754.0,0.0
+levers,full,Stormstrike spell bonus 60%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,743.4,0.0
+levers,full,Stormstrike spell bonus 60%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,743.0,0.0
+levers,full,Stormstrike spell bonus 60%,Ele preset 32/0/19,ele_launch,120,650.1,0.0
+levers,full,Stormstrike spell bonus 60%,Ele preset 32/0/19,ele_launch,300,559.5,0.0
+levers,full,Stormstrike spell bonus 60%,Ele preset 32/0/19,ele_launch,600,528.7,0.2
+levers,full,Stormstrike spell bonus 60%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,650.1,0.0
+levers,full,Stormstrike spell bonus 60%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,635.0,1.2
+levers,full,Stormstrike spell bonus 60%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,602.2,0.8
+levers,full,Stormstrike spell bonus 60%,29/22 weave,ele_launch,120,699.7,0.0
+levers,full,Stormstrike spell bonus 60%,29/22 weave,ele_launch,300,675.8,32.1
+levers,full,Stormstrike spell bonus 60%,29/22 weave,ele_launch,600,653.4,135.0
+levers,full,Stormstrike spell bonus 60%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1135.3,0.0
+levers,full,Stormstrike spell bonus 60%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1123.3,0.0
+levers,full,Stormstrike spell bonus 60%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,600,1112.1,0.0
+levers,full,Stormstrike spell bonus 60%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1131.2,0.0
+levers,full,Stormstrike spell bonus 60%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1123.1,0.0
+levers,full,Stormstrike spell bonus 60%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,600,1117.0,0.0
+levers,full,Stormstrike spell bonus 60%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,120,1116.4,0.0
+levers,full,Stormstrike spell bonus 60%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,300,1106.1,0.0
+levers,full,Stormstrike spell bonus 60%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,600,1099.7,0.0
+levers,full,Stormstrike spell bonus 60%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+levers,full,Stormstrike spell bonus 60%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,850.5,0.0
+levers,full,Stormstrike spell bonus 60%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,600,806.5,0.0
+levers,full,Stormstrike spell bonus 60%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+levers,full,Stormstrike spell bonus 60%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,300,940.6,1.0
+levers,full,Stormstrike spell bonus 60%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,600,913.8,0.7
+levers,full,Stormstrike spell bonus 60%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1083.1,0.0
+levers,full,Stormstrike spell bonus 60%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1068.8,0.0
+levers,full,Stormstrike spell bonus 60%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,600,1051.7,25.0
+levers,full,Lightning Mastery +50% damage,Enh preset 19/32/0,enh_launch_1h,120,753.3,0.0
+levers,full,Lightning Mastery +50% damage,Enh preset 19/32/0,enh_launch_1h,300,736.8,0.0
+levers,full,Lightning Mastery +50% damage,Enh preset 19/32/0,enh_launch_1h,600,732.3,0.0
+levers,full,Lightning Mastery +50% damage,8/36/7 no hard casts,enh_launch_1h,120,727.4,0.0
+levers,full,Lightning Mastery +50% damage,8/36/7 no hard casts,enh_launch_1h,300,717.8,0.0
+levers,full,Lightning Mastery +50% damage,8/36/7 no hard casts,enh_launch_1h,600,717.4,0.0
+levers,full,Lightning Mastery +50% damage,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,714.1,0.0
+levers,full,Lightning Mastery +50% damage,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,704.3,0.0
+levers,full,Lightning Mastery +50% damage,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,703.9,0.0
+levers,full,Lightning Mastery +50% damage,Ele preset 32/0/19,ele_launch,120,680.3,0.0
+levers,full,Lightning Mastery +50% damage,Ele preset 32/0/19,ele_launch,300,582.7,0.0
+levers,full,Lightning Mastery +50% damage,Ele preset 32/0/19,ele_launch,600,549.4,0.2
+levers,full,Lightning Mastery +50% damage,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,680.3,0.0
+levers,full,Lightning Mastery +50% damage,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,662.3,1.2
+levers,full,Lightning Mastery +50% damage,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,628.4,0.8
+levers,full,Lightning Mastery +50% damage,29/22 weave,ele_launch,120,676.7,0.0
+levers,full,Lightning Mastery +50% damage,29/22 weave,ele_launch,300,649.7,32.1
+levers,full,Lightning Mastery +50% damage,29/22 weave,ele_launch,600,620.3,135.0
+levers,full,Lightning Mastery +50% damage,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1069.7,0.0
+levers,full,Lightning Mastery +50% damage,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1057.7,0.0
+levers,full,Lightning Mastery +50% damage,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,600,1044.2,0.0
+levers,full,Lightning Mastery +50% damage,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1081.2,0.0
+levers,full,Lightning Mastery +50% damage,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1074.1,0.0
+levers,full,Lightning Mastery +50% damage,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,600,1068.0,0.0
+levers,full,Lightning Mastery +50% damage,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,120,1067.0,0.0
+levers,full,Lightning Mastery +50% damage,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,300,1057.7,0.0
+levers,full,Lightning Mastery +50% damage,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,600,1051.3,0.0
+levers,full,Lightning Mastery +50% damage,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,1006.8,0.0
+levers,full,Lightning Mastery +50% damage,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,893.2,0.0
+levers,full,Lightning Mastery +50% damage,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,600,849.3,0.0
+levers,full,Lightning Mastery +50% damage,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,120,1006.8,0.0
+levers,full,Lightning Mastery +50% damage,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,300,993.9,1.0
+levers,full,Lightning Mastery +50% damage,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,600,966.4,0.7
+levers,full,Lightning Mastery +50% damage,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1019.5,0.0
+levers,full,Lightning Mastery +50% damage,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1005.7,0.0
+levers,full,Lightning Mastery +50% damage,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,600,988.2,25.0
+levers,full,Lightning Mastery +100% damage,Enh preset 19/32/0,enh_launch_1h,120,753.3,0.0
+levers,full,Lightning Mastery +100% damage,Enh preset 19/32/0,enh_launch_1h,300,736.8,0.0
+levers,full,Lightning Mastery +100% damage,Enh preset 19/32/0,enh_launch_1h,600,732.3,0.0
+levers,full,Lightning Mastery +100% damage,8/36/7 no hard casts,enh_launch_1h,120,727.4,0.0
+levers,full,Lightning Mastery +100% damage,8/36/7 no hard casts,enh_launch_1h,300,717.8,0.0
+levers,full,Lightning Mastery +100% damage,8/36/7 no hard casts,enh_launch_1h,600,717.4,0.0
+levers,full,Lightning Mastery +100% damage,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,714.1,0.0
+levers,full,Lightning Mastery +100% damage,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,704.3,0.0
+levers,full,Lightning Mastery +100% damage,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,703.9,0.0
+levers,full,Lightning Mastery +100% damage,Ele preset 32/0/19,ele_launch,120,710.4,0.0
+levers,full,Lightning Mastery +100% damage,Ele preset 32/0/19,ele_launch,300,606.0,0.0
+levers,full,Lightning Mastery +100% damage,Ele preset 32/0/19,ele_launch,600,570.1,0.2
+levers,full,Lightning Mastery +100% damage,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,710.4,0.0
+levers,full,Lightning Mastery +100% damage,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,689.6,1.2
+levers,full,Lightning Mastery +100% damage,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,654.6,0.8
+levers,full,Lightning Mastery +100% damage,29/22 weave,ele_launch,120,676.7,0.0
+levers,full,Lightning Mastery +100% damage,29/22 weave,ele_launch,300,649.7,32.1
+levers,full,Lightning Mastery +100% damage,29/22 weave,ele_launch,600,620.3,135.0
+levers,full,Lightning Mastery +100% damage,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1069.7,0.0
+levers,full,Lightning Mastery +100% damage,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1057.7,0.0
+levers,full,Lightning Mastery +100% damage,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,600,1044.2,0.0
+levers,full,Lightning Mastery +100% damage,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1081.2,0.0
+levers,full,Lightning Mastery +100% damage,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1074.1,0.0
+levers,full,Lightning Mastery +100% damage,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,600,1068.0,0.0
+levers,full,Lightning Mastery +100% damage,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,120,1067.0,0.0
+levers,full,Lightning Mastery +100% damage,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,300,1057.7,0.0
+levers,full,Lightning Mastery +100% damage,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,600,1051.3,0.0
+levers,full,Lightning Mastery +100% damage,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,1062.7,0.0
+levers,full,Lightning Mastery +100% damage,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,935.8,0.0
+levers,full,Lightning Mastery +100% damage,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,600,892.1,0.0
+levers,full,Lightning Mastery +100% damage,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,120,1062.7,0.0
+levers,full,Lightning Mastery +100% damage,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,300,1047.2,1.0
+levers,full,Lightning Mastery +100% damage,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,600,1018.9,0.7
+levers,full,Lightning Mastery +100% damage,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1019.5,0.0
+levers,full,Lightning Mastery +100% damage,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1005.7,0.0
+levers,full,Lightning Mastery +100% damage,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,600,988.2,25.0
+levers,full,Rage of the Farseer 60% haste,Enh preset 19/32/0,enh_launch_1h,120,768.6,0.0
+levers,full,Rage of the Farseer 60% haste,Enh preset 19/32/0,enh_launch_1h,300,749.4,0.0
+levers,full,Rage of the Farseer 60% haste,Enh preset 19/32/0,enh_launch_1h,600,744.9,0.0
+levers,full,Rage of the Farseer 60% haste,8/36/7 no hard casts,enh_launch_1h,120,747.4,0.0
+levers,full,Rage of the Farseer 60% haste,8/36/7 no hard casts,enh_launch_1h,300,733.7,0.0
+levers,full,Rage of the Farseer 60% haste,8/36/7 no hard casts,enh_launch_1h,600,732.8,0.0
+levers,full,Rage of the Farseer 60% haste,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,733.7,0.0
+levers,full,Rage of the Farseer 60% haste,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,719.8,0.0
+levers,full,Rage of the Farseer 60% haste,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,719.1,0.0
+levers,full,Rage of the Farseer 60% haste,Ele preset 32/0/19,ele_launch,120,650.1,0.0
+levers,full,Rage of the Farseer 60% haste,Ele preset 32/0/19,ele_launch,300,559.5,0.0
+levers,full,Rage of the Farseer 60% haste,Ele preset 32/0/19,ele_launch,600,528.7,0.2
+levers,full,Rage of the Farseer 60% haste,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,650.1,0.0
+levers,full,Rage of the Farseer 60% haste,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,635.0,1.2
+levers,full,Rage of the Farseer 60% haste,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,602.2,0.8
+levers,full,Rage of the Farseer 60% haste,29/22 weave,ele_launch,120,676.7,0.0
+levers,full,Rage of the Farseer 60% haste,29/22 weave,ele_launch,300,649.7,32.1
+levers,full,Rage of the Farseer 60% haste,29/22 weave,ele_launch,600,620.3,135.0
+levers,full,Rage of the Farseer 60% haste,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1099.0,0.0
+levers,full,Rage of the Farseer 60% haste,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1081.6,0.0
+levers,full,Rage of the Farseer 60% haste,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,600,1067.6,0.0
+levers,full,Rage of the Farseer 60% haste,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1119.3,0.0
+levers,full,Rage of the Farseer 60% haste,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1105.6,0.0
+levers,full,Rage of the Farseer 60% haste,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,600,1099.1,0.0
+levers,full,Rage of the Farseer 60% haste,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,120,1104.6,0.0
+levers,full,Rage of the Farseer 60% haste,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,300,1089.0,0.0
+levers,full,Rage of the Farseer 60% haste,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,600,1083.1,0.0
+levers,full,Rage of the Farseer 60% haste,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+levers,full,Rage of the Farseer 60% haste,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,850.5,0.0
+levers,full,Rage of the Farseer 60% haste,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,600,806.5,0.0
+levers,full,Rage of the Farseer 60% haste,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+levers,full,Rage of the Farseer 60% haste,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,300,940.6,1.0
+levers,full,Rage of the Farseer 60% haste,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,600,913.8,0.7
+levers,full,Rage of the Farseer 60% haste,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1019.5,0.0
+levers,full,Rage of the Farseer 60% haste,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1005.7,0.0
+levers,full,Rage of the Farseer 60% haste,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,600,988.2,25.0
+levers,full,Elemental Fury package,Enh preset 19/32/0,enh_launch_1h,120,757.0,0.0
+levers,full,Elemental Fury package,Enh preset 19/32/0,enh_launch_1h,300,740.6,0.0
+levers,full,Elemental Fury package,Enh preset 19/32/0,enh_launch_1h,600,736.2,0.0
+levers,full,Elemental Fury package,8/36/7 no hard casts,enh_launch_1h,120,731.3,0.0
+levers,full,Elemental Fury package,8/36/7 no hard casts,enh_launch_1h,300,721.7,0.0
+levers,full,Elemental Fury package,8/36/7 no hard casts,enh_launch_1h,600,721.2,0.0
+levers,full,Elemental Fury package,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,717.9,0.0
+levers,full,Elemental Fury package,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,708.1,0.0
+levers,full,Elemental Fury package,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,707.7,0.0
+levers,full,Elemental Fury package,Ele preset 32/0/19,ele_launch,120,763.7,0.0
+levers,full,Elemental Fury package,Ele preset 32/0/19,ele_launch,300,652.2,0.0
+levers,full,Elemental Fury package,Ele preset 32/0/19,ele_launch,600,614.4,0.2
+levers,full,Elemental Fury package,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,763.7,0.0
+levers,full,Elemental Fury package,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,744.9,1.2
+levers,full,Elemental Fury package,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,704.6,0.8
+levers,full,Elemental Fury package,29/22 weave,ele_launch,120,754.3,0.0
+levers,full,Elemental Fury package,29/22 weave,ele_launch,300,722.5,32.1
+levers,full,Elemental Fury package,29/22 weave,ele_launch,600,687.1,135.1
+levers,full,Elemental Fury package,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1072.9,0.0
+levers,full,Elemental Fury package,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1060.9,0.0
+levers,full,Elemental Fury package,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,600,1047.5,0.0
+levers,full,Elemental Fury package,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1084.7,0.0
+levers,full,Elemental Fury package,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1077.6,0.0
+levers,full,Elemental Fury package,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,600,1071.5,0.0
+levers,full,Elemental Fury package,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,120,1070.6,0.0
+levers,full,Elemental Fury package,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,300,1061.2,0.0
+levers,full,Elemental Fury package,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,600,1054.8,0.0
+levers,full,Elemental Fury package,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,1122.9,0.0
+levers,full,Elemental Fury package,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,998.9,0.0
+levers,full,Elemental Fury package,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,600,944.7,0.0
+levers,full,Elemental Fury package,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,120,1122.9,0.0
+levers,full,Elemental Fury package,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,300,1109.6,1.0
+levers,full,Elemental Fury package,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,600,1076.6,0.7
+levers,full,Elemental Fury package,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1111.2,0.0
+levers,full,Elemental Fury package,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1096.4,0.0
+levers,full,Elemental Fury package,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,600,1075.9,25.1
+verify,light,2 November,Enh preset 19/32/0,enh_launch_1h,120,623.0,38.4
+verify,light,2 November,Enh preset 19/32/0,enh_launch_1h,300,610.0,91.1
+verify,light,2 November,Enh preset 19/32/0,enh_launch_1h,600,591.7,258.1
+verify,light,2 November,8/36/7 no hard casts,enh_launch_1h,120,648.4,0.0
+verify,light,2 November,8/36/7 no hard casts,enh_launch_1h,300,602.2,53.6
+verify,light,2 November,8/36/7 no hard casts,enh_launch_1h,600,585.1,158.0
+verify,light,2 November,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,638.1,0.0
+verify,light,2 November,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,629.1,0.4
+verify,light,2 November,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,618.6,39.6
+verify,light,2 November,Ele preset 32/0/19,ele_launch,120,549.2,0.6
+verify,light,2 November,Ele preset 32/0/19,ele_launch,300,461.6,0.4
+verify,light,2 November,Ele preset 32/0/19,ele_launch,600,459.0,2.6
+verify,light,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,547.3,5.0
+verify,light,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,500.2,15.9
+verify,light,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,466.4,27.2
+verify,light,2 November,29/22 weave,ele_launch,120,515.0,36.1
+verify,light,2 November,29/22 weave,ele_launch,300,430.5,154.0
+verify,light,2 November,29/22 weave,ele_launch,600,362.7,391.0
+verify,light,2 November,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,961.2,9.2
+verify,light,2 November,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,925.8,46.7
+verify,light,2 November,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,600,896.4,174.3
+verify,light,2 November,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,979.7,0.0
+verify,light,2 November,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,972.0,3.7
+verify,light,2 November,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,600,932.5,102.2
+verify,light,2 November,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,120,968.5,0.0
+verify,light,2 November,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,300,961.2,0.0
+verify,light,2 November,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,600,955.6,0.0
+verify,light,2 November,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,876.1,0.4
+verify,light,2 November,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,729.0,0.2
+verify,light,2 November,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,600,725.9,0.9
+verify,light,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,120,877.2,1.8
+verify,light,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,300,793.5,11.3
+verify,light,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,600,748.7,19.5
+verify,light,2 November,29/22 weave,testdata/forever-hyb-bis.gear.json,120,936.7,0.3
+verify,light,2 November,29/22 weave,testdata/forever-hyb-bis.gear.json,300,794.4,82.5
+verify,light,2 November,29/22 weave,testdata/forever-hyb-bis.gear.json,600,698.8,275.1
+verify,light,Mental Dexterity 200%,Enh preset 19/32/0,enh_launch_1h,120,637.0,38.4
+verify,light,Mental Dexterity 200%,Enh preset 19/32/0,enh_launch_1h,300,623.9,91.1
+verify,light,Mental Dexterity 200%,Enh preset 19/32/0,enh_launch_1h,600,605.4,258.1
+verify,light,Mental Dexterity 200%,8/36/7 no hard casts,enh_launch_1h,120,663.6,0.0
+verify,light,Mental Dexterity 200%,8/36/7 no hard casts,enh_launch_1h,300,617.0,53.6
+verify,light,Mental Dexterity 200%,8/36/7 no hard casts,enh_launch_1h,600,599.7,158.0
+verify,light,Mental Dexterity 200%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,652.0,0.0
+verify,light,Mental Dexterity 200%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,642.9,0.4
+verify,light,Mental Dexterity 200%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,632.2,39.6
+verify,light,Mental Dexterity 200%,Ele preset 32/0/19,ele_launch,120,549.2,0.6
+verify,light,Mental Dexterity 200%,Ele preset 32/0/19,ele_launch,300,461.6,0.4
+verify,light,Mental Dexterity 200%,Ele preset 32/0/19,ele_launch,600,459.0,2.6
+verify,light,Mental Dexterity 200%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,547.3,5.0
+verify,light,Mental Dexterity 200%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,500.2,15.9
+verify,light,Mental Dexterity 200%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,466.4,27.2
+verify,light,Mental Dexterity 200%,29/22 weave,ele_launch,120,527.3,36.1
+verify,light,Mental Dexterity 200%,29/22 weave,ele_launch,300,444.6,154.0
+verify,light,Mental Dexterity 200%,29/22 weave,ele_launch,600,377.8,391.0
+verify,light,Mental Dexterity 200%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,993.6,9.2
+verify,light,Mental Dexterity 200%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,957.8,46.7
+verify,light,Mental Dexterity 200%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,600,928.2,174.3
+verify,light,Mental Dexterity 200%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,1015.3,0.0
+verify,light,Mental Dexterity 200%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,1007.2,3.7
+verify,light,Mental Dexterity 200%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,600,967.2,102.2
+verify,light,Mental Dexterity 200%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,120,1001.6,0.0
+verify,light,Mental Dexterity 200%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,300,993.9,0.0
+verify,light,Mental Dexterity 200%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,600,988.1,0.0
+verify,light,Mental Dexterity 200%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,876.1,0.4
+verify,light,Mental Dexterity 200%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,729.0,0.2
+verify,light,Mental Dexterity 200%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,600,725.9,0.9
+verify,light,Mental Dexterity 200%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,120,877.2,1.8
+verify,light,Mental Dexterity 200%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,300,793.5,11.3
+verify,light,Mental Dexterity 200%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,600,748.7,19.5
+verify,light,Mental Dexterity 200%,29/22 weave,testdata/forever-hyb-bis.gear.json,120,961.1,0.3
+verify,light,Mental Dexterity 200%,29/22 weave,testdata/forever-hyb-bis.gear.json,300,820.4,82.5
+verify,light,Mental Dexterity 200%,29/22 weave,testdata/forever-hyb-bis.gear.json,600,726.0,275.1
+verify,light,Mental Dexterity 250%,Enh preset 19/32/0,enh_launch_1h,120,651.1,38.4
+verify,light,Mental Dexterity 250%,Enh preset 19/32/0,enh_launch_1h,300,637.9,91.1
+verify,light,Mental Dexterity 250%,Enh preset 19/32/0,enh_launch_1h,600,619.2,258.1
+verify,light,Mental Dexterity 250%,8/36/7 no hard casts,enh_launch_1h,120,678.8,0.0
+verify,light,Mental Dexterity 250%,8/36/7 no hard casts,enh_launch_1h,300,631.8,53.6
+verify,light,Mental Dexterity 250%,8/36/7 no hard casts,enh_launch_1h,600,614.4,158.0
+verify,light,Mental Dexterity 250%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,666.0,0.0
+verify,light,Mental Dexterity 250%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,656.7,0.4
+verify,light,Mental Dexterity 250%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,645.9,39.6
+verify,light,Mental Dexterity 250%,Ele preset 32/0/19,ele_launch,120,549.2,0.6
+verify,light,Mental Dexterity 250%,Ele preset 32/0/19,ele_launch,300,461.6,0.4
+verify,light,Mental Dexterity 250%,Ele preset 32/0/19,ele_launch,600,459.0,2.6
+verify,light,Mental Dexterity 250%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,547.3,5.0
+verify,light,Mental Dexterity 250%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,500.2,15.9
+verify,light,Mental Dexterity 250%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,466.4,27.2
+verify,light,Mental Dexterity 250%,29/22 weave,ele_launch,120,539.7,36.1
+verify,light,Mental Dexterity 250%,29/22 weave,ele_launch,300,458.7,154.0
+verify,light,Mental Dexterity 250%,29/22 weave,ele_launch,600,392.9,391.0
+verify,light,Mental Dexterity 250%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,1025.9,9.2
+verify,light,Mental Dexterity 250%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,989.8,46.7
+verify,light,Mental Dexterity 250%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,600,959.9,174.3
+verify,light,Mental Dexterity 250%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,1051.0,0.0
+verify,light,Mental Dexterity 250%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,1042.4,3.7
+verify,light,Mental Dexterity 250%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,600,1002.0,102.2
+verify,light,Mental Dexterity 250%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,120,1034.8,0.0
+verify,light,Mental Dexterity 250%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,300,1026.7,0.0
+verify,light,Mental Dexterity 250%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,600,1020.6,0.0
+verify,light,Mental Dexterity 250%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,876.1,0.4
+verify,light,Mental Dexterity 250%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,729.0,0.2
+verify,light,Mental Dexterity 250%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,600,725.9,0.9
+verify,light,Mental Dexterity 250%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,120,877.2,1.8
+verify,light,Mental Dexterity 250%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,300,793.5,11.3
+verify,light,Mental Dexterity 250%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,600,748.7,19.5
+verify,light,Mental Dexterity 250%,29/22 weave,testdata/forever-hyb-bis.gear.json,120,985.6,0.3
+verify,light,Mental Dexterity 250%,29/22 weave,testdata/forever-hyb-bis.gear.json,300,846.5,82.5
+verify,light,Mental Dexterity 250%,29/22 weave,testdata/forever-hyb-bis.gear.json,600,753.2,275.1
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Enh preset 19/32/0,enh_launch_1h,120,567.8,39.0
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Enh preset 19/32/0,enh_launch_1h,300,553.5,92.4
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Enh preset 19/32/0,enh_launch_1h,600,534.5,262.2
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",8/36/7 no hard casts,enh_launch_1h,120,594.1,0.1
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",8/36/7 no hard casts,enh_launch_1h,300,543.9,62.9
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",8/36/7 no hard casts,enh_launch_1h,600,525.6,180.5
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","8/32/11 Water Shield, no hard casts",enh_launch_1h,120,585.9,0.0
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","8/32/11 Water Shield, no hard casts",enh_launch_1h,300,577.7,3.9
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","8/32/11 Water Shield, no hard casts",enh_launch_1h,600,561.0,63.2
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Ele preset 32/0/19,ele_launch,120,601.8,0.5
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Ele preset 32/0/19,ele_launch,300,499.0,0.3
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Ele preset 32/0/19,ele_launch,600,497.8,2.1
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,603.0,4.3
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,551.4,14.2
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,512.0,24.2
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",29/22 weave,ele_launch,120,543.4,34.9
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",29/22 weave,ele_launch,300,447.3,152.2
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",29/22 weave,ele_launch,600,372.3,388.8
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,894.9,9.9
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,857.4,46.9
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,600,825.3,176.4
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,925.9,0.0
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,907.5,12.9
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,600,862.6,125.5
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,120,912.5,0.0
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,300,904.7,0.0
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,600,901.2,0.0
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,964.6,0.5
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,797.2,0.2
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,600,792.6,0.8
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,120,966.5,1.5
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,300,879.8,10.0
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,600,828.1,17.3
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",29/22 weave,testdata/forever-hyb-bis.gear.json,120,957.1,0.2
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",29/22 weave,testdata/forever-hyb-bis.gear.json,300,805.3,79.9
+verify,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",29/22 weave,testdata/forever-hyb-bis.gear.json,600,701.6,271.4
+verify,light,A + Mental Dexterity 200%,Enh preset 19/32/0,enh_launch_1h,120,581.3,39.0
+verify,light,A + Mental Dexterity 200%,Enh preset 19/32/0,enh_launch_1h,300,566.9,92.4
+verify,light,A + Mental Dexterity 200%,Enh preset 19/32/0,enh_launch_1h,600,547.7,262.2
+verify,light,A + Mental Dexterity 200%,8/36/7 no hard casts,enh_launch_1h,120,608.6,0.1
+verify,light,A + Mental Dexterity 200%,8/36/7 no hard casts,enh_launch_1h,300,558.0,62.9
+verify,light,A + Mental Dexterity 200%,8/36/7 no hard casts,enh_launch_1h,600,539.6,180.5
+verify,light,A + Mental Dexterity 200%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,599.2,0.0
+verify,light,A + Mental Dexterity 200%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,590.9,3.9
+verify,light,A + Mental Dexterity 200%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,574.1,63.2
+verify,light,A + Mental Dexterity 200%,Ele preset 32/0/19,ele_launch,120,601.8,0.5
+verify,light,A + Mental Dexterity 200%,Ele preset 32/0/19,ele_launch,300,499.0,0.3
+verify,light,A + Mental Dexterity 200%,Ele preset 32/0/19,ele_launch,600,497.8,2.1
+verify,light,A + Mental Dexterity 200%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,603.0,4.3
+verify,light,A + Mental Dexterity 200%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,551.4,14.2
+verify,light,A + Mental Dexterity 200%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,512.0,24.2
+verify,light,A + Mental Dexterity 200%,29/22 weave,ele_launch,120,555.0,34.9
+verify,light,A + Mental Dexterity 200%,29/22 weave,ele_launch,300,460.7,152.2
+verify,light,A + Mental Dexterity 200%,29/22 weave,ele_launch,600,386.7,388.8
+verify,light,A + Mental Dexterity 200%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,925.8,9.9
+verify,light,A + Mental Dexterity 200%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,887.8,46.9
+verify,light,A + Mental Dexterity 200%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,600,855.5,176.4
+verify,light,A + Mental Dexterity 200%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,960.4,0.0
+verify,light,A + Mental Dexterity 200%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,941.5,12.9
+verify,light,A + Mental Dexterity 200%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,600,896.0,125.5
+verify,light,A + Mental Dexterity 200%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,120,944.5,0.0
+verify,light,A + Mental Dexterity 200%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,300,936.2,0.0
+verify,light,A + Mental Dexterity 200%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,600,932.5,0.0
+verify,light,A + Mental Dexterity 200%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,964.6,0.5
+verify,light,A + Mental Dexterity 200%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,797.2,0.2
+verify,light,A + Mental Dexterity 200%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,600,792.6,0.8
+verify,light,A + Mental Dexterity 200%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,120,966.5,1.5
+verify,light,A + Mental Dexterity 200%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,300,879.8,10.0
+verify,light,A + Mental Dexterity 200%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,600,828.1,17.3
+verify,light,A + Mental Dexterity 200%,29/22 weave,testdata/forever-hyb-bis.gear.json,120,980.0,0.2
+verify,light,A + Mental Dexterity 200%,29/22 weave,testdata/forever-hyb-bis.gear.json,300,829.9,79.9
+verify,light,A + Mental Dexterity 200%,29/22 weave,testdata/forever-hyb-bis.gear.json,600,727.3,271.4
+verify,light,A + Mental Dexterity 250%,Enh preset 19/32/0,enh_launch_1h,120,594.8,39.0
+verify,light,A + Mental Dexterity 250%,Enh preset 19/32/0,enh_launch_1h,300,580.3,92.4
+verify,light,A + Mental Dexterity 250%,Enh preset 19/32/0,enh_launch_1h,600,560.9,262.2
+verify,light,A + Mental Dexterity 250%,8/36/7 no hard casts,enh_launch_1h,120,623.1,0.1
+verify,light,A + Mental Dexterity 250%,8/36/7 no hard casts,enh_launch_1h,300,572.1,62.9
+verify,light,A + Mental Dexterity 250%,8/36/7 no hard casts,enh_launch_1h,600,553.6,180.5
+verify,light,A + Mental Dexterity 250%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,612.6,0.0
+verify,light,A + Mental Dexterity 250%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,604.0,3.9
+verify,light,A + Mental Dexterity 250%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,587.1,63.2
+verify,light,A + Mental Dexterity 250%,Ele preset 32/0/19,ele_launch,120,601.8,0.5
+verify,light,A + Mental Dexterity 250%,Ele preset 32/0/19,ele_launch,300,499.0,0.3
+verify,light,A + Mental Dexterity 250%,Ele preset 32/0/19,ele_launch,600,497.8,2.1
+verify,light,A + Mental Dexterity 250%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,603.0,4.3
+verify,light,A + Mental Dexterity 250%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,551.4,14.2
+verify,light,A + Mental Dexterity 250%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,512.0,24.2
+verify,light,A + Mental Dexterity 250%,29/22 weave,ele_launch,120,566.6,34.9
+verify,light,A + Mental Dexterity 250%,29/22 weave,ele_launch,300,474.1,152.2
+verify,light,A + Mental Dexterity 250%,29/22 weave,ele_launch,600,401.2,388.8
+verify,light,A + Mental Dexterity 250%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,956.6,9.9
+verify,light,A + Mental Dexterity 250%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,918.3,46.9
+verify,light,A + Mental Dexterity 250%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,600,885.7,176.4
+verify,light,A + Mental Dexterity 250%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,995.0,0.0
+verify,light,A + Mental Dexterity 250%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,975.5,12.9
+verify,light,A + Mental Dexterity 250%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,600,929.3,125.5
+verify,light,A + Mental Dexterity 250%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,120,976.5,0.0
+verify,light,A + Mental Dexterity 250%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,300,967.7,0.0
+verify,light,A + Mental Dexterity 250%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,600,963.9,0.0
+verify,light,A + Mental Dexterity 250%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,964.6,0.5
+verify,light,A + Mental Dexterity 250%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,797.2,0.2
+verify,light,A + Mental Dexterity 250%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,600,792.6,0.8
+verify,light,A + Mental Dexterity 250%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,120,966.5,1.5
+verify,light,A + Mental Dexterity 250%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,300,879.8,10.0
+verify,light,A + Mental Dexterity 250%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,600,828.1,17.3
+verify,light,A + Mental Dexterity 250%,29/22 weave,testdata/forever-hyb-bis.gear.json,120,1003.0,0.2
+verify,light,A + Mental Dexterity 250%,29/22 weave,testdata/forever-hyb-bis.gear.json,300,854.4,79.9
+verify,light,A + Mental Dexterity 250%,29/22 weave,testdata/forever-hyb-bis.gear.json,600,752.9,271.4
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",Enh preset 19/32/0,enh_launch_1h,120,611.0,39.0
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",Enh preset 19/32/0,enh_launch_1h,300,596.5,92.4
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",Enh preset 19/32/0,enh_launch_1h,600,576.5,262.2
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",8/36/7 no hard casts,enh_launch_1h,120,639.6,0.1
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",8/36/7 no hard casts,enh_launch_1h,300,587.7,62.9
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",8/36/7 no hard casts,enh_launch_1h,600,569.0,180.5
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%","8/32/11 Water Shield, no hard casts",enh_launch_1h,120,628.7,0.0
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%","8/32/11 Water Shield, no hard casts",enh_launch_1h,300,619.7,3.9
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%","8/32/11 Water Shield, no hard casts",enh_launch_1h,600,602.5,63.2
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",Ele preset 32/0/19,ele_launch,120,601.8,0.5
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",Ele preset 32/0/19,ele_launch,300,499.0,0.3
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",Ele preset 32/0/19,ele_launch,600,497.8,2.1
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%","Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,603.0,4.3
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%","Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,551.4,14.2
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%","Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,512.0,24.2
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",29/22 weave,ele_launch,120,574.6,34.9
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",29/22 weave,ele_launch,300,481.8,152.2
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",29/22 weave,ele_launch,600,408.8,388.8
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,990.8,9.9
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,952.5,46.9
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,600,919.2,176.4
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,1029.5,0.0
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,1009.4,12.9
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,600,962.0,125.5
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%","8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,120,1010.3,0.0
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%","8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,300,1001.1,0.0
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%","8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,600,997.0,0.0
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,964.6,0.5
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,797.2,0.2
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,600,792.6,0.8
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%","Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,120,966.5,1.5
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%","Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,300,879.8,10.0
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%","Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,600,828.1,17.3
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",29/22 weave,testdata/forever-hyb-bis.gear.json,120,1027.8,0.2
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",29/22 weave,testdata/forever-hyb-bis.gear.json,300,878.8,79.9
+verify,light,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",29/22 weave,testdata/forever-hyb-bis.gear.json,600,777.3,271.4
+verify,full,2 November,Enh preset 19/32/0,enh_launch_1h,120,753.3,0.0
+verify,full,2 November,Enh preset 19/32/0,enh_launch_1h,300,736.8,0.0
+verify,full,2 November,Enh preset 19/32/0,enh_launch_1h,600,732.3,0.0
+verify,full,2 November,8/36/7 no hard casts,enh_launch_1h,120,727.4,0.0
+verify,full,2 November,8/36/7 no hard casts,enh_launch_1h,300,717.8,0.0
+verify,full,2 November,8/36/7 no hard casts,enh_launch_1h,600,717.4,0.0
+verify,full,2 November,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,714.1,0.0
+verify,full,2 November,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,704.3,0.0
+verify,full,2 November,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,703.9,0.0
+verify,full,2 November,Ele preset 32/0/19,ele_launch,120,650.1,0.0
+verify,full,2 November,Ele preset 32/0/19,ele_launch,300,559.5,0.0
+verify,full,2 November,Ele preset 32/0/19,ele_launch,600,528.7,0.2
+verify,full,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,650.1,0.0
+verify,full,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,635.0,1.2
+verify,full,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,602.2,0.8
+verify,full,2 November,29/22 weave,ele_launch,120,676.7,0.0
+verify,full,2 November,29/22 weave,ele_launch,300,649.7,32.1
+verify,full,2 November,29/22 weave,ele_launch,600,620.3,135.0
+verify,full,2 November,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1069.7,0.0
+verify,full,2 November,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1057.7,0.0
+verify,full,2 November,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,600,1044.2,0.0
+verify,full,2 November,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1081.2,0.0
+verify,full,2 November,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1074.1,0.0
+verify,full,2 November,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,600,1068.0,0.0
+verify,full,2 November,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,120,1067.0,0.0
+verify,full,2 November,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,300,1057.7,0.0
+verify,full,2 November,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,600,1051.3,0.0
+verify,full,2 November,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+verify,full,2 November,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,850.5,0.0
+verify,full,2 November,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,600,806.5,0.0
+verify,full,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+verify,full,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,300,940.6,1.0
+verify,full,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,600,913.8,0.7
+verify,full,2 November,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1019.5,0.0
+verify,full,2 November,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1005.7,0.0
+verify,full,2 November,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,600,988.2,25.0
+verify,full,Mental Dexterity 200%,Enh preset 19/32/0,enh_launch_1h,120,769.5,0.0
+verify,full,Mental Dexterity 200%,Enh preset 19/32/0,enh_launch_1h,300,752.7,0.0
+verify,full,Mental Dexterity 200%,Enh preset 19/32/0,enh_launch_1h,600,748.2,0.0
+verify,full,Mental Dexterity 200%,8/36/7 no hard casts,enh_launch_1h,120,744.7,0.0
+verify,full,Mental Dexterity 200%,8/36/7 no hard casts,enh_launch_1h,300,734.8,0.0
+verify,full,Mental Dexterity 200%,8/36/7 no hard casts,enh_launch_1h,600,734.3,0.0
+verify,full,Mental Dexterity 200%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,730.0,0.0
+verify,full,Mental Dexterity 200%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,720.0,0.0
+verify,full,Mental Dexterity 200%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,719.5,0.0
+verify,full,Mental Dexterity 200%,Ele preset 32/0/19,ele_launch,120,650.1,0.0
+verify,full,Mental Dexterity 200%,Ele preset 32/0/19,ele_launch,300,559.5,0.0
+verify,full,Mental Dexterity 200%,Ele preset 32/0/19,ele_launch,600,528.7,0.2
+verify,full,Mental Dexterity 200%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,650.1,0.0
+verify,full,Mental Dexterity 200%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,635.0,1.2
+verify,full,Mental Dexterity 200%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,602.2,0.8
+verify,full,Mental Dexterity 200%,29/22 weave,ele_launch,120,687.9,0.0
+verify,full,Mental Dexterity 200%,29/22 weave,ele_launch,300,661.6,32.1
+verify,full,Mental Dexterity 200%,29/22 weave,ele_launch,600,633.2,135.0
+verify,full,Mental Dexterity 200%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1105.7,0.0
+verify,full,Mental Dexterity 200%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1093.0,0.0
+verify,full,Mental Dexterity 200%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,600,1079.4,0.0
+verify,full,Mental Dexterity 200%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1120.8,0.0
+verify,full,Mental Dexterity 200%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1113.2,0.0
+verify,full,Mental Dexterity 200%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,600,1106.9,0.0
+verify,full,Mental Dexterity 200%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,120,1103.7,0.0
+verify,full,Mental Dexterity 200%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,300,1093.9,0.0
+verify,full,Mental Dexterity 200%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,600,1087.3,0.0
+verify,full,Mental Dexterity 200%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+verify,full,Mental Dexterity 200%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,850.5,0.0
+verify,full,Mental Dexterity 200%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,600,806.5,0.0
+verify,full,Mental Dexterity 200%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+verify,full,Mental Dexterity 200%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,300,940.6,1.0
+verify,full,Mental Dexterity 200%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,600,913.8,0.7
+verify,full,Mental Dexterity 200%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1045.4,0.0
+verify,full,Mental Dexterity 200%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1031.3,0.0
+verify,full,Mental Dexterity 200%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,600,1013.9,25.0
+verify,full,Mental Dexterity 250%,Enh preset 19/32/0,enh_launch_1h,120,785.6,0.0
+verify,full,Mental Dexterity 250%,Enh preset 19/32/0,enh_launch_1h,300,768.6,0.0
+verify,full,Mental Dexterity 250%,Enh preset 19/32/0,enh_launch_1h,600,764.1,0.0
+verify,full,Mental Dexterity 250%,8/36/7 no hard casts,enh_launch_1h,120,761.9,0.0
+verify,full,Mental Dexterity 250%,8/36/7 no hard casts,enh_launch_1h,300,751.8,0.0
+verify,full,Mental Dexterity 250%,8/36/7 no hard casts,enh_launch_1h,600,751.2,0.0
+verify,full,Mental Dexterity 250%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,745.9,0.0
+verify,full,Mental Dexterity 250%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,735.7,0.0
+verify,full,Mental Dexterity 250%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,735.1,0.0
+verify,full,Mental Dexterity 250%,Ele preset 32/0/19,ele_launch,120,650.1,0.0
+verify,full,Mental Dexterity 250%,Ele preset 32/0/19,ele_launch,300,559.5,0.0
+verify,full,Mental Dexterity 250%,Ele preset 32/0/19,ele_launch,600,528.7,0.2
+verify,full,Mental Dexterity 250%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,650.1,0.0
+verify,full,Mental Dexterity 250%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,635.0,1.2
+verify,full,Mental Dexterity 250%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,602.2,0.8
+verify,full,Mental Dexterity 250%,29/22 weave,ele_launch,120,699.1,0.0
+verify,full,Mental Dexterity 250%,29/22 weave,ele_launch,300,673.4,32.1
+verify,full,Mental Dexterity 250%,29/22 weave,ele_launch,600,646.0,135.0
+verify,full,Mental Dexterity 250%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1141.7,0.0
+verify,full,Mental Dexterity 250%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1128.3,0.0
+verify,full,Mental Dexterity 250%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,600,1114.7,0.0
+verify,full,Mental Dexterity 250%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1160.5,0.0
+verify,full,Mental Dexterity 250%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1152.4,0.0
+verify,full,Mental Dexterity 250%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,600,1145.8,0.0
+verify,full,Mental Dexterity 250%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,120,1140.4,0.0
+verify,full,Mental Dexterity 250%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,300,1130.1,0.0
+verify,full,Mental Dexterity 250%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,600,1123.2,0.0
+verify,full,Mental Dexterity 250%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+verify,full,Mental Dexterity 250%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,850.5,0.0
+verify,full,Mental Dexterity 250%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,600,806.5,0.0
+verify,full,Mental Dexterity 250%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+verify,full,Mental Dexterity 250%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,300,940.6,1.0
+verify,full,Mental Dexterity 250%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,600,913.8,0.7
+verify,full,Mental Dexterity 250%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1071.2,0.0
+verify,full,Mental Dexterity 250%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1056.8,0.0
+verify,full,Mental Dexterity 250%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,600,1039.7,25.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Enh preset 19/32/0,enh_launch_1h,120,699.4,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Enh preset 19/32/0,enh_launch_1h,300,680.8,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Enh preset 19/32/0,enh_launch_1h,600,674.3,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",8/36/7 no hard casts,enh_launch_1h,120,667.3,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",8/36/7 no hard casts,enh_launch_1h,300,660.3,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",8/36/7 no hard casts,enh_launch_1h,600,659.9,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","8/32/11 Water Shield, no hard casts",enh_launch_1h,120,657.8,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","8/32/11 Water Shield, no hard casts",enh_launch_1h,300,649.8,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","8/32/11 Water Shield, no hard casts",enh_launch_1h,600,649.8,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Ele preset 32/0/19,ele_launch,120,703.1,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Ele preset 32/0/19,ele_launch,300,608.0,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Ele preset 32/0/19,ele_launch,600,571.9,0.2
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,703.1,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,694.7,1.1
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,660.0,0.9
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",29/22 weave,ele_launch,120,713.3,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",29/22 weave,ele_launch,300,687.5,27.9
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",29/22 weave,ele_launch,600,654.0,127.1
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,998.3,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,987.4,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,600,971.8,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1021.0,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1013.4,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,600,1007.8,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,120,1009.0,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,300,999.1,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,600,994.2,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,1033.5,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,930.2,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,600,879.3,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,120,1033.5,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,300,1035.7,0.9
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,600,1009.4,0.8
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1040.6,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1026.2,0.0
+verify,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,600,1012.3,18.8
+verify,full,A + Mental Dexterity 200%,Enh preset 19/32/0,enh_launch_1h,120,714.9,0.0
+verify,full,A + Mental Dexterity 200%,Enh preset 19/32/0,enh_launch_1h,300,696.1,0.0
+verify,full,A + Mental Dexterity 200%,Enh preset 19/32/0,enh_launch_1h,600,689.6,0.0
+verify,full,A + Mental Dexterity 200%,8/36/7 no hard casts,enh_launch_1h,120,683.8,0.0
+verify,full,A + Mental Dexterity 200%,8/36/7 no hard casts,enh_launch_1h,300,676.6,0.0
+verify,full,A + Mental Dexterity 200%,8/36/7 no hard casts,enh_launch_1h,600,676.2,0.0
+verify,full,A + Mental Dexterity 200%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,673.1,0.0
+verify,full,A + Mental Dexterity 200%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,664.8,0.0
+verify,full,A + Mental Dexterity 200%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,664.8,0.0
+verify,full,A + Mental Dexterity 200%,Ele preset 32/0/19,ele_launch,120,703.1,0.0
+verify,full,A + Mental Dexterity 200%,Ele preset 32/0/19,ele_launch,300,608.0,0.0
+verify,full,A + Mental Dexterity 200%,Ele preset 32/0/19,ele_launch,600,571.9,0.2
+verify,full,A + Mental Dexterity 200%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,703.1,0.0
+verify,full,A + Mental Dexterity 200%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,694.7,1.1
+verify,full,A + Mental Dexterity 200%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,660.0,0.9
+verify,full,A + Mental Dexterity 200%,29/22 weave,ele_launch,120,723.8,0.0
+verify,full,A + Mental Dexterity 200%,29/22 weave,ele_launch,300,698.6,27.9
+verify,full,A + Mental Dexterity 200%,29/22 weave,ele_launch,600,666.0,127.1
+verify,full,A + Mental Dexterity 200%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1032.5,0.0
+verify,full,A + Mental Dexterity 200%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1021.1,0.0
+verify,full,A + Mental Dexterity 200%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,600,1005.3,0.0
+verify,full,A + Mental Dexterity 200%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1059.4,0.0
+verify,full,A + Mental Dexterity 200%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1051.3,0.0
+verify,full,A + Mental Dexterity 200%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,600,1045.4,0.0
+verify,full,A + Mental Dexterity 200%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,120,1044.5,0.0
+verify,full,A + Mental Dexterity 200%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,300,1034.0,0.0
+verify,full,A + Mental Dexterity 200%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,600,1028.9,0.0
+verify,full,A + Mental Dexterity 200%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,1033.5,0.0
+verify,full,A + Mental Dexterity 200%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,930.2,0.0
+verify,full,A + Mental Dexterity 200%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,600,879.3,0.0
+verify,full,A + Mental Dexterity 200%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,120,1033.5,0.0
+verify,full,A + Mental Dexterity 200%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,300,1035.7,0.9
+verify,full,A + Mental Dexterity 200%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,600,1009.4,0.8
+verify,full,A + Mental Dexterity 200%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1064.9,0.0
+verify,full,A + Mental Dexterity 200%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1050.2,0.0
+verify,full,A + Mental Dexterity 200%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,600,1036.4,18.8
+verify,full,A + Mental Dexterity 250%,Enh preset 19/32/0,enh_launch_1h,120,730.4,0.0
+verify,full,A + Mental Dexterity 250%,Enh preset 19/32/0,enh_launch_1h,300,711.3,0.0
+verify,full,A + Mental Dexterity 250%,Enh preset 19/32/0,enh_launch_1h,600,704.8,0.0
+verify,full,A + Mental Dexterity 250%,8/36/7 no hard casts,enh_launch_1h,120,700.3,0.0
+verify,full,A + Mental Dexterity 250%,8/36/7 no hard casts,enh_launch_1h,300,692.9,0.0
+verify,full,A + Mental Dexterity 250%,8/36/7 no hard casts,enh_launch_1h,600,692.4,0.0
+verify,full,A + Mental Dexterity 250%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,688.3,0.0
+verify,full,A + Mental Dexterity 250%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,679.8,0.0
+verify,full,A + Mental Dexterity 250%,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,679.7,0.0
+verify,full,A + Mental Dexterity 250%,Ele preset 32/0/19,ele_launch,120,703.1,0.0
+verify,full,A + Mental Dexterity 250%,Ele preset 32/0/19,ele_launch,300,608.0,0.0
+verify,full,A + Mental Dexterity 250%,Ele preset 32/0/19,ele_launch,600,571.9,0.2
+verify,full,A + Mental Dexterity 250%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,703.1,0.0
+verify,full,A + Mental Dexterity 250%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,694.7,1.1
+verify,full,A + Mental Dexterity 250%,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,660.0,0.9
+verify,full,A + Mental Dexterity 250%,29/22 weave,ele_launch,120,734.2,0.0
+verify,full,A + Mental Dexterity 250%,29/22 weave,ele_launch,300,709.6,27.9
+verify,full,A + Mental Dexterity 250%,29/22 weave,ele_launch,600,678.1,127.1
+verify,full,A + Mental Dexterity 250%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1066.7,0.0
+verify,full,A + Mental Dexterity 250%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1054.7,0.0
+verify,full,A + Mental Dexterity 250%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,600,1038.9,0.0
+verify,full,A + Mental Dexterity 250%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1097.8,0.0
+verify,full,A + Mental Dexterity 250%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1089.1,0.0
+verify,full,A + Mental Dexterity 250%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,600,1082.9,0.0
+verify,full,A + Mental Dexterity 250%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,120,1080.0,0.0
+verify,full,A + Mental Dexterity 250%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,300,1069.0,0.0
+verify,full,A + Mental Dexterity 250%,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,600,1063.7,0.0
+verify,full,A + Mental Dexterity 250%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,1033.5,0.0
+verify,full,A + Mental Dexterity 250%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,930.2,0.0
+verify,full,A + Mental Dexterity 250%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,600,879.3,0.0
+verify,full,A + Mental Dexterity 250%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,120,1033.5,0.0
+verify,full,A + Mental Dexterity 250%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,300,1035.7,0.9
+verify,full,A + Mental Dexterity 250%,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,600,1009.4,0.8
+verify,full,A + Mental Dexterity 250%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1089.2,0.0
+verify,full,A + Mental Dexterity 250%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1074.1,0.0
+verify,full,A + Mental Dexterity 250%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,600,1060.4,18.8
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",Enh preset 19/32/0,enh_launch_1h,120,749.5,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",Enh preset 19/32/0,enh_launch_1h,300,730.1,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",Enh preset 19/32/0,enh_launch_1h,600,723.8,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",8/36/7 no hard casts,enh_launch_1h,120,719.1,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",8/36/7 no hard casts,enh_launch_1h,300,711.2,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",8/36/7 no hard casts,enh_launch_1h,600,710.6,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%","8/32/11 Water Shield, no hard casts",enh_launch_1h,120,706.6,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%","8/32/11 Water Shield, no hard casts",enh_launch_1h,300,697.6,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%","8/32/11 Water Shield, no hard casts",enh_launch_1h,600,697.5,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",Ele preset 32/0/19,ele_launch,120,703.1,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",Ele preset 32/0/19,ele_launch,300,608.0,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",Ele preset 32/0/19,ele_launch,600,571.9,0.2
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%","Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,703.1,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%","Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,694.7,1.1
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%","Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,660.0,0.9
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",29/22 weave,ele_launch,120,743.6,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",29/22 weave,ele_launch,300,718.7,27.9
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",29/22 weave,ele_launch,600,687.1,127.1
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1104.8,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1092.3,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,600,1076.6,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1135.9,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1126.9,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,600,1120.4,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%","8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,120,1117.5,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%","8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,300,1106.0,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%","8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,600,1100.3,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,1033.5,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,930.2,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,600,879.3,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%","Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,120,1033.5,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%","Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,300,1035.7,0.9
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%","Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,600,1009.4,0.8
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1115.9,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1100.4,0.0
+verify,full,"B: Maelstrom single, Overload 60%, Mental Dexterity 250%",29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,600,1086.7,18.8
+respec,light,2 November,Enh preset 19/32/0,enh_launch_1h,120,623.0,38.4
+respec,light,2 November,Enh preset 19/32/0,enh_launch_1h,300,610.0,91.1
+respec,light,2 November,Enh preset 19/32/0,enh_launch_1h,600,591.7,258.1
+respec,light,2 November,8/36/7 no hard casts,enh_launch_1h,120,648.4,0.0
+respec,light,2 November,8/36/7 no hard casts,enh_launch_1h,300,602.2,53.6
+respec,light,2 November,8/36/7 no hard casts,enh_launch_1h,600,585.1,158.0
+respec,light,2 November,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,638.1,0.0
+respec,light,2 November,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,629.1,0.4
+respec,light,2 November,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,618.6,39.6
+respec,light,2 November,Ele preset 32/0/19,ele_launch,120,549.2,0.6
+respec,light,2 November,Ele preset 32/0/19,ele_launch,300,461.6,0.4
+respec,light,2 November,Ele preset 32/0/19,ele_launch,600,459.0,2.6
+respec,light,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,547.3,5.0
+respec,light,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,500.2,15.9
+respec,light,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,466.4,27.2
+respec,light,2 November,29/22 weave,ele_launch,120,515.0,36.1
+respec,light,2 November,29/22 weave,ele_launch,300,430.5,154.0
+respec,light,2 November,29/22 weave,ele_launch,600,362.7,391.0
+respec,light,2 November,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,961.2,9.2
+respec,light,2 November,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,925.8,46.7
+respec,light,2 November,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,600,896.4,174.3
+respec,light,2 November,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,979.7,0.0
+respec,light,2 November,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,972.0,3.7
+respec,light,2 November,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,600,932.5,102.2
+respec,light,2 November,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,120,968.5,0.0
+respec,light,2 November,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,300,961.2,0.0
+respec,light,2 November,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,600,955.6,0.0
+respec,light,2 November,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,876.1,0.4
+respec,light,2 November,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,729.0,0.2
+respec,light,2 November,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,600,725.9,0.9
+respec,light,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,120,877.2,1.8
+respec,light,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,300,793.5,11.3
+respec,light,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,600,748.7,19.5
+respec,light,2 November,29/22 weave,testdata/forever-hyb-bis.gear.json,120,936.7,0.3
+respec,light,2 November,29/22 weave,testdata/forever-hyb-bis.gear.json,300,794.4,82.5
+respec,light,2 November,29/22 weave,testdata/forever-hyb-bis.gear.json,600,698.8,275.1
+respec,light,2 November,"29/22 weave, Ancestral Knowledge 3/5",ele_launch,120,524.8,34.4
+respec,light,2 November,"29/22 weave, Ancestral Knowledge 3/5",ele_launch,300,436.2,152.4
+respec,light,2 November,"29/22 weave, Ancestral Knowledge 3/5",ele_launch,600,366.9,389.5
+respec,light,2 November,"29/22 weave, Ancestral Knowledge 3/5",testdata/forever-hyb-bis.gear.json,120,942.8,0.1
+respec,light,2 November,"29/22 weave, Ancestral Knowledge 3/5",testdata/forever-hyb-bis.gear.json,300,803.6,79.4
+respec,light,2 November,"29/22 weave, Ancestral Knowledge 3/5",testdata/forever-hyb-bis.gear.json,600,705.4,272.2
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Enh preset 19/32/0,enh_launch_1h,120,567.8,39.0
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Enh preset 19/32/0,enh_launch_1h,300,553.5,92.4
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Enh preset 19/32/0,enh_launch_1h,600,534.5,262.2
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",8/36/7 no hard casts,enh_launch_1h,120,594.1,0.1
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",8/36/7 no hard casts,enh_launch_1h,300,543.9,62.9
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",8/36/7 no hard casts,enh_launch_1h,600,525.6,180.5
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","8/32/11 Water Shield, no hard casts",enh_launch_1h,120,585.9,0.0
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","8/32/11 Water Shield, no hard casts",enh_launch_1h,300,577.7,3.9
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","8/32/11 Water Shield, no hard casts",enh_launch_1h,600,561.0,63.2
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Ele preset 32/0/19,ele_launch,120,601.8,0.5
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Ele preset 32/0/19,ele_launch,300,499.0,0.3
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Ele preset 32/0/19,ele_launch,600,497.8,2.1
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,603.0,4.3
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,551.4,14.2
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,512.0,24.2
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",29/22 weave,ele_launch,120,543.4,34.9
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",29/22 weave,ele_launch,300,447.3,152.2
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",29/22 weave,ele_launch,600,372.3,388.8
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,894.9,9.9
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,857.4,46.9
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,600,825.3,176.4
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,925.9,0.0
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,907.5,12.9
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,600,862.6,125.5
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,120,912.5,0.0
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,300,904.7,0.0
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,600,901.2,0.0
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,964.6,0.5
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,797.2,0.2
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,600,792.6,0.8
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,120,966.5,1.5
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,300,879.8,10.0
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,600,828.1,17.3
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",29/22 weave,testdata/forever-hyb-bis.gear.json,120,957.1,0.2
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",29/22 weave,testdata/forever-hyb-bis.gear.json,300,805.3,79.9
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%",29/22 weave,testdata/forever-hyb-bis.gear.json,600,701.6,271.4
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","29/22 weave, Ancestral Knowledge 3/5",ele_launch,120,553.6,33.2
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","29/22 weave, Ancestral Knowledge 3/5",ele_launch,300,453.2,150.6
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","29/22 weave, Ancestral Knowledge 3/5",ele_launch,600,376.3,387.1
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","29/22 weave, Ancestral Knowledge 3/5",testdata/forever-hyb-bis.gear.json,120,963.0,0.0
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","29/22 weave, Ancestral Knowledge 3/5",testdata/forever-hyb-bis.gear.json,300,815.2,77.2
+respec,light,"A: Maelstrom single, Overload 60%, Stormstrike 125%","29/22 weave, Ancestral Knowledge 3/5",testdata/forever-hyb-bis.gear.json,600,708.6,268.4
+respec,light,"A2: Maelstrom single, Overload 60%",Enh preset 19/32/0,enh_launch_1h,120,582.8,39.0
+respec,light,"A2: Maelstrom single, Overload 60%",Enh preset 19/32/0,enh_launch_1h,300,568.6,92.4
+respec,light,"A2: Maelstrom single, Overload 60%",Enh preset 19/32/0,enh_launch_1h,600,549.0,262.2
+respec,light,"A2: Maelstrom single, Overload 60%",8/36/7 no hard casts,enh_launch_1h,120,609.4,0.1
+respec,light,"A2: Maelstrom single, Overload 60%",8/36/7 no hard casts,enh_launch_1h,300,558.4,62.9
+respec,light,"A2: Maelstrom single, Overload 60%",8/36/7 no hard casts,enh_launch_1h,600,539.9,180.5
+respec,light,"A2: Maelstrom single, Overload 60%","8/32/11 Water Shield, no hard casts",enh_launch_1h,120,600.9,0.0
+respec,light,"A2: Maelstrom single, Overload 60%","8/32/11 Water Shield, no hard casts",enh_launch_1h,300,592.3,3.9
+respec,light,"A2: Maelstrom single, Overload 60%","8/32/11 Water Shield, no hard casts",enh_launch_1h,600,575.4,63.2
+respec,light,"A2: Maelstrom single, Overload 60%",Ele preset 32/0/19,ele_launch,120,601.8,0.5
+respec,light,"A2: Maelstrom single, Overload 60%",Ele preset 32/0/19,ele_launch,300,499.0,0.3
+respec,light,"A2: Maelstrom single, Overload 60%",Ele preset 32/0/19,ele_launch,600,497.8,2.1
+respec,light,"A2: Maelstrom single, Overload 60%","Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,603.0,4.3
+respec,light,"A2: Maelstrom single, Overload 60%","Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,551.4,14.2
+respec,light,"A2: Maelstrom single, Overload 60%","Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,512.0,24.2
+respec,light,"A2: Maelstrom single, Overload 60%",29/22 weave,ele_launch,120,550.1,34.9
+respec,light,"A2: Maelstrom single, Overload 60%",29/22 weave,ele_launch,300,453.8,152.2
+respec,light,"A2: Maelstrom single, Overload 60%",29/22 weave,ele_launch,600,378.6,388.8
+respec,light,"A2: Maelstrom single, Overload 60%",Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,925.9,9.9
+respec,light,"A2: Maelstrom single, Overload 60%",Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,888.3,46.9
+respec,light,"A2: Maelstrom single, Overload 60%",Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,600,855.7,176.4
+respec,light,"A2: Maelstrom single, Overload 60%",8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,957.1,0.0
+respec,light,"A2: Maelstrom single, Overload 60%",8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,938.2,12.9
+respec,light,"A2: Maelstrom single, Overload 60%",8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,600,892.2,125.5
+respec,light,"A2: Maelstrom single, Overload 60%","8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,120,943.3,0.0
+respec,light,"A2: Maelstrom single, Overload 60%","8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,300,935.0,0.0
+respec,light,"A2: Maelstrom single, Overload 60%","8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,600,931.3,0.0
+respec,light,"A2: Maelstrom single, Overload 60%",Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,964.6,0.5
+respec,light,"A2: Maelstrom single, Overload 60%",Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,797.2,0.2
+respec,light,"A2: Maelstrom single, Overload 60%",Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,600,792.6,0.8
+respec,light,"A2: Maelstrom single, Overload 60%","Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,120,966.5,1.5
+respec,light,"A2: Maelstrom single, Overload 60%","Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,300,879.8,10.0
+respec,light,"A2: Maelstrom single, Overload 60%","Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis.gear.json,600,828.1,17.3
+respec,light,"A2: Maelstrom single, Overload 60%",29/22 weave,testdata/forever-hyb-bis.gear.json,120,978.8,0.2
+respec,light,"A2: Maelstrom single, Overload 60%",29/22 weave,testdata/forever-hyb-bis.gear.json,300,826.8,79.9
+respec,light,"A2: Maelstrom single, Overload 60%",29/22 weave,testdata/forever-hyb-bis.gear.json,600,722.9,271.4
+respec,light,"A2: Maelstrom single, Overload 60%","29/22 weave, Ancestral Knowledge 3/5",ele_launch,120,560.3,33.2
+respec,light,"A2: Maelstrom single, Overload 60%","29/22 weave, Ancestral Knowledge 3/5",ele_launch,300,459.8,150.6
+respec,light,"A2: Maelstrom single, Overload 60%","29/22 weave, Ancestral Knowledge 3/5",ele_launch,600,382.8,387.1
+respec,light,"A2: Maelstrom single, Overload 60%","29/22 weave, Ancestral Knowledge 3/5",testdata/forever-hyb-bis.gear.json,120,984.9,0.0
+respec,light,"A2: Maelstrom single, Overload 60%","29/22 weave, Ancestral Knowledge 3/5",testdata/forever-hyb-bis.gear.json,300,836.8,77.2
+respec,light,"A2: Maelstrom single, Overload 60%","29/22 weave, Ancestral Knowledge 3/5",testdata/forever-hyb-bis.gear.json,600,730.1,268.4
+respec,full,2 November,Enh preset 19/32/0,enh_launch_1h,120,753.3,0.0
+respec,full,2 November,Enh preset 19/32/0,enh_launch_1h,300,736.8,0.0
+respec,full,2 November,Enh preset 19/32/0,enh_launch_1h,600,732.3,0.0
+respec,full,2 November,8/36/7 no hard casts,enh_launch_1h,120,727.4,0.0
+respec,full,2 November,8/36/7 no hard casts,enh_launch_1h,300,717.8,0.0
+respec,full,2 November,8/36/7 no hard casts,enh_launch_1h,600,717.4,0.0
+respec,full,2 November,"8/32/11 Water Shield, no hard casts",enh_launch_1h,120,714.1,0.0
+respec,full,2 November,"8/32/11 Water Shield, no hard casts",enh_launch_1h,300,704.3,0.0
+respec,full,2 November,"8/32/11 Water Shield, no hard casts",enh_launch_1h,600,703.9,0.0
+respec,full,2 November,Ele preset 32/0/19,ele_launch,120,650.1,0.0
+respec,full,2 November,Ele preset 32/0/19,ele_launch,300,559.5,0.0
+respec,full,2 November,Ele preset 32/0/19,ele_launch,600,528.7,0.2
+respec,full,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,650.1,0.0
+respec,full,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,635.0,1.2
+respec,full,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,602.2,0.8
+respec,full,2 November,29/22 weave,ele_launch,120,676.7,0.0
+respec,full,2 November,29/22 weave,ele_launch,300,649.7,32.1
+respec,full,2 November,29/22 weave,ele_launch,600,620.3,135.0
+respec,full,2 November,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1069.7,0.0
+respec,full,2 November,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1057.7,0.0
+respec,full,2 November,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,600,1044.2,0.0
+respec,full,2 November,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1081.2,0.0
+respec,full,2 November,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1074.1,0.0
+respec,full,2 November,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,600,1068.0,0.0
+respec,full,2 November,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,120,1067.0,0.0
+respec,full,2 November,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,300,1057.7,0.0
+respec,full,2 November,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,600,1051.3,0.0
+respec,full,2 November,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+respec,full,2 November,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,850.5,0.0
+respec,full,2 November,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,600,806.5,0.0
+respec,full,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+respec,full,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,300,940.6,1.0
+respec,full,2 November,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,600,913.8,0.7
+respec,full,2 November,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1019.5,0.0
+respec,full,2 November,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1005.7,0.0
+respec,full,2 November,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,600,988.2,25.0
+respec,full,2 November,"29/22 weave, Ancestral Knowledge 3/5",ele_launch,120,680.8,0.0
+respec,full,2 November,"29/22 weave, Ancestral Knowledge 3/5",ele_launch,300,655.4,29.6
+respec,full,2 November,"29/22 weave, Ancestral Knowledge 3/5",ele_launch,600,625.3,132.7
+respec,full,2 November,"29/22 weave, Ancestral Knowledge 3/5",testdata/forever-hyb-bis-fullbuffs.gear.json,120,1025.4,0.0
+respec,full,2 November,"29/22 weave, Ancestral Knowledge 3/5",testdata/forever-hyb-bis-fullbuffs.gear.json,300,1011.6,0.0
+respec,full,2 November,"29/22 weave, Ancestral Knowledge 3/5",testdata/forever-hyb-bis-fullbuffs.gear.json,600,996.4,21.9
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Enh preset 19/32/0,enh_launch_1h,120,699.4,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Enh preset 19/32/0,enh_launch_1h,300,680.8,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Enh preset 19/32/0,enh_launch_1h,600,674.3,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",8/36/7 no hard casts,enh_launch_1h,120,667.3,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",8/36/7 no hard casts,enh_launch_1h,300,660.3,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",8/36/7 no hard casts,enh_launch_1h,600,659.9,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","8/32/11 Water Shield, no hard casts",enh_launch_1h,120,657.8,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","8/32/11 Water Shield, no hard casts",enh_launch_1h,300,649.8,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","8/32/11 Water Shield, no hard casts",enh_launch_1h,600,649.8,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Ele preset 32/0/19,ele_launch,120,703.1,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Ele preset 32/0/19,ele_launch,300,608.0,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Ele preset 32/0/19,ele_launch,600,571.9,0.2
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,703.1,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,694.7,1.1
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,660.0,0.9
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",29/22 weave,ele_launch,120,713.3,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",29/22 weave,ele_launch,300,687.5,27.9
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",29/22 weave,ele_launch,600,654.0,127.1
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,998.3,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,987.4,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,600,971.8,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1021.0,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1013.4,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,600,1007.8,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,120,1009.0,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,300,999.1,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,600,994.2,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,1033.5,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,930.2,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,600,879.3,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,120,1033.5,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,300,1035.7,0.9
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,600,1009.4,0.8
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1040.6,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1026.2,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%",29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,600,1012.3,18.8
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","29/22 weave, Ancestral Knowledge 3/5",ele_launch,120,717.4,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","29/22 weave, Ancestral Knowledge 3/5",ele_launch,300,693.5,25.4
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","29/22 weave, Ancestral Knowledge 3/5",ele_launch,600,658.8,124.7
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","29/22 weave, Ancestral Knowledge 3/5",testdata/forever-hyb-bis-fullbuffs.gear.json,120,1046.6,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","29/22 weave, Ancestral Knowledge 3/5",testdata/forever-hyb-bis-fullbuffs.gear.json,300,1032.2,0.0
+respec,full,"A: Maelstrom single, Overload 60%, Stormstrike 125%","29/22 weave, Ancestral Knowledge 3/5",testdata/forever-hyb-bis-fullbuffs.gear.json,600,1020.2,16.0
+respec,full,"A2: Maelstrom single, Overload 60%",Enh preset 19/32/0,enh_launch_1h,120,717.2,0.0
+respec,full,"A2: Maelstrom single, Overload 60%",Enh preset 19/32/0,enh_launch_1h,300,698.4,0.0
+respec,full,"A2: Maelstrom single, Overload 60%",Enh preset 19/32/0,enh_launch_1h,600,691.9,0.0
+respec,full,"A2: Maelstrom single, Overload 60%",8/36/7 no hard casts,enh_launch_1h,120,684.8,0.0
+respec,full,"A2: Maelstrom single, Overload 60%",8/36/7 no hard casts,enh_launch_1h,300,677.4,0.0
+respec,full,"A2: Maelstrom single, Overload 60%",8/36/7 no hard casts,enh_launch_1h,600,676.9,0.0
+respec,full,"A2: Maelstrom single, Overload 60%","8/32/11 Water Shield, no hard casts",enh_launch_1h,120,674.8,0.0
+respec,full,"A2: Maelstrom single, Overload 60%","8/32/11 Water Shield, no hard casts",enh_launch_1h,300,666.4,0.0
+respec,full,"A2: Maelstrom single, Overload 60%","8/32/11 Water Shield, no hard casts",enh_launch_1h,600,666.4,0.0
+respec,full,"A2: Maelstrom single, Overload 60%",Ele preset 32/0/19,ele_launch,120,703.1,0.0
+respec,full,"A2: Maelstrom single, Overload 60%",Ele preset 32/0/19,ele_launch,300,608.0,0.0
+respec,full,"A2: Maelstrom single, Overload 60%",Ele preset 32/0/19,ele_launch,600,571.9,0.2
+respec,full,"A2: Maelstrom single, Overload 60%","Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,120,703.1,0.0
+respec,full,"A2: Maelstrom single, Overload 60%","Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,300,694.7,1.1
+respec,full,"A2: Maelstrom single, Overload 60%","Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,600,660.0,0.9
+respec,full,"A2: Maelstrom single, Overload 60%",29/22 weave,ele_launch,120,721.3,0.0
+respec,full,"A2: Maelstrom single, Overload 60%",29/22 weave,ele_launch,300,695.3,27.9
+respec,full,"A2: Maelstrom single, Overload 60%",29/22 weave,ele_launch,600,661.7,127.1
+respec,full,"A2: Maelstrom single, Overload 60%",Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1032.9,0.0
+respec,full,"A2: Maelstrom single, Overload 60%",Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1021.5,0.0
+respec,full,"A2: Maelstrom single, Overload 60%",Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,600,1006.0,0.0
+respec,full,"A2: Maelstrom single, Overload 60%",8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1055.5,0.0
+respec,full,"A2: Maelstrom single, Overload 60%",8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1047.6,0.0
+respec,full,"A2: Maelstrom single, Overload 60%",8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,600,1041.7,0.0
+respec,full,"A2: Maelstrom single, Overload 60%","8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,120,1043.1,0.0
+respec,full,"A2: Maelstrom single, Overload 60%","8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,300,1032.7,0.0
+respec,full,"A2: Maelstrom single, Overload 60%","8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,600,1027.5,0.0
+respec,full,"A2: Maelstrom single, Overload 60%",Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,1033.5,0.0
+respec,full,"A2: Maelstrom single, Overload 60%",Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,930.2,0.0
+respec,full,"A2: Maelstrom single, Overload 60%",Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,600,879.3,0.0
+respec,full,"A2: Maelstrom single, Overload 60%","Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,120,1033.5,0.0
+respec,full,"A2: Maelstrom single, Overload 60%","Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,300,1035.7,0.9
+respec,full,"A2: Maelstrom single, Overload 60%","Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,600,1009.4,0.8
+respec,full,"A2: Maelstrom single, Overload 60%",29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1064.1,0.0
+respec,full,"A2: Maelstrom single, Overload 60%",29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1049.3,0.0
+respec,full,"A2: Maelstrom single, Overload 60%",29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,600,1035.4,18.8
+respec,full,"A2: Maelstrom single, Overload 60%","29/22 weave, Ancestral Knowledge 3/5",ele_launch,120,725.4,0.0
+respec,full,"A2: Maelstrom single, Overload 60%","29/22 weave, Ancestral Knowledge 3/5",ele_launch,300,701.3,25.4
+respec,full,"A2: Maelstrom single, Overload 60%","29/22 weave, Ancestral Knowledge 3/5",ele_launch,600,666.6,124.7
+respec,full,"A2: Maelstrom single, Overload 60%","29/22 weave, Ancestral Knowledge 3/5",testdata/forever-hyb-bis-fullbuffs.gear.json,120,1070.3,0.0
+respec,full,"A2: Maelstrom single, Overload 60%","29/22 weave, Ancestral Knowledge 3/5",testdata/forever-hyb-bis-fullbuffs.gear.json,300,1055.5,0.0
+respec,full,"A2: Maelstrom single, Overload 60%","29/22 weave, Ancestral Knowledge 3/5",testdata/forever-hyb-bis-fullbuffs.gear.json,600,1043.5,16.0

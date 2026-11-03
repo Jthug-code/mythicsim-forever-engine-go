@@ -8,6 +8,14 @@ import (
 var stormstrikeRank = spellData.Stormstrike.Highest()
 var StormstrikeActionID = core.ActionID{SpellID: stormstrikeRank.ID}
 
+// StormstrikeWeaponPercent replaces the strike's weapon damage percent, for the Spellhance balance candidates.
+// Zero leaves it as nov2_notes.go has it (150%).
+var StormstrikeWeaponPercent float64
+
+// StormstrikeSpellBonusPercent replaces the debuff's bonus to the next bolt or Earth Shock, for the same
+// candidates. Zero leaves the client's 20%.
+var StormstrikeSpellBonusPercent float64
+
 func (shaman *Shaman) StormstrikeDebuffAura(target *core.Unit) *core.Aura {
 	aura := target.GetOrRegisterAura(core.Aura{
 		Label:     "Stormstrike-" + shaman.Label,
@@ -27,6 +35,9 @@ func (shaman *Shaman) StormstrikeDebuffAura(target *core.Unit) *core.Aura {
 	// Client 17364 (aura 271): only this shaman's Lightning Bolt, Chain Lightning and Earth Shock take the bonus;
 	// only the bolts spend it (stormstrikeConsumers).
 	multiplier := 1 + stormstrikeRank.Effect(dbcenums.A_MOD_SPELL_DAMAGE_FROM_CASTER, 0).Percent()
+	if StormstrikeSpellBonusPercent != 0 {
+		multiplier = 1 + StormstrikeSpellBonusPercent/100
+	}
 	return aura.AttachDDBC(0, 1, &shaman.AttackTables, func(_ *core.Simulation, spell *core.Spell, _ *core.AttackTable) float64 {
 		return core.Ternary(spell.Matches(stormstrikeSpells), multiplier, 1)
 	})
@@ -60,7 +71,7 @@ func (shaman *Shaman) newStormstrikeHitSpellConfig(spellID int32, isMH bool) cor
 		// not at the weapon's own speed.
 		ApplyEffects: func(sim *core.Simulation, target *core.Unit, spell *core.Spell) {
 			weaponDamage := core.Ternary(isMH, spell.Unit.MHNormalizedWeaponDamage, spell.Unit.OHNormalizedWeaponDamage)
-			baseDamage := weaponDamage(sim, spell.MeleeAttackPower(target)) * nov2StormstrikeWeaponDamage
+			baseDamage := weaponDamage(sim, spell.MeleeAttackPower(target)) * core.Ternary(StormstrikeWeaponPercent != 0, StormstrikeWeaponPercent/100, nov2StormstrikeWeaponDamage)
 			spell.CalcAndDealDamage(sim, target, baseDamage, spell.OutcomeMeleeSpecialBlockAndCrit)
 		},
 	}

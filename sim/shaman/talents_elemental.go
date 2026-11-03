@@ -338,6 +338,10 @@ func (shaman *Shaman) applyCallOfThunder() {
 	})
 }
 
+// LightningMasteryDamagePercent adds that much Lightning Bolt and Chain Lightning damage (overloads too) while the
+// capstone is up, for the Spellhance balance candidates. Zero leaves the talent as the client has it.
+var LightningMasteryDamagePercent float64
+
 // applyElementalMastery implements Elemental Mastery, the tier 7 Elemental talent of client 70425
 // (16 October 2026 beta): for 15 sec, Lightning Bolt and Lava Burst cast 0.5 sec faster and Chain
 // Lightning has no cooldown, on a 3 min cooldown. The row also states one charge and melee, ranged and
@@ -358,6 +362,11 @@ func (shaman *Shaman) applyElementalMastery() {
 		ClassMask: SpellMaskLightningBolt | SpellMaskLavaBurst,
 		TimeValue: castTime,
 	})
+	damageMod := shaman.AddDynamicMod(core.SpellModConfig{
+		Kind:       core.SpellMod_DamageDone_Flat,
+		ClassMask:  SpellMaskLightningBolt | SpellMaskChainLightning | SpellMaskOverload,
+		FloatValue: LightningMasteryDamagePercent / 100,
+	})
 	cooldownMod := shaman.AddDynamicMod(core.SpellModConfig{
 		Kind:      core.SpellMod_Cooldown_Flat,
 		ClassMask: SpellMaskChainLightning,
@@ -371,10 +380,14 @@ func (shaman *Shaman) applyElementalMastery() {
 		OnGain: func(_ *core.Aura, _ *core.Simulation) {
 			castMod.Activate()
 			cooldownMod.Activate()
+			if LightningMasteryDamagePercent != 0 {
+				damageMod.Activate()
+			}
 		},
 		OnExpire: func(_ *core.Aura, _ *core.Simulation) {
 			castMod.Deactivate()
 			cooldownMod.Deactivate()
+			damageMod.Deactivate()
 		},
 	})
 
