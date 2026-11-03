@@ -1,8 +1,9 @@
 # Forever shaman sims
 
 Shaman simulations for WoW: Forever: Elemental, Enhancement and a 29/22 Elemental/Enhancement hybrid. They're built on
-this MythicSim engine and posted on the Forever Beta Discussion forum, in "I simmed Forever shaman a lot. Here's where
-Elemental stands, and a buff that wouldn't touch Enhancement".
+this MythicSim engine and posted in the WoW: Forever General Discussion forum: "I simmed Forever shaman a lot. Here's
+where Elemental stands, and a buff that wouldn't touch Enhancement" (run 6, topic 2395859) and "Reran my Forever shaman
+sims for the Nov 2 changes: everyone's way up, Enhancement most" (run 7, topic 2399508).
 
 Everything here is a sim, not a combat log. Read the numbers as direction and rough size.
 
