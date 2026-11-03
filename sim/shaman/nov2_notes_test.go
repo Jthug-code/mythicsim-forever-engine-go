@@ -13,6 +13,54 @@ import (
 // The 2 November 2026 notes as nov2_notes.go applies them (client 70425/70707 numbers in brackets). When a
 // client build carries the changes, this names each number it states differently.
 func TestNov2Notes(t *testing.T) {
+	checkNov2Notes(t)
+}
+
+// Each change undone puts its client numbers back, and redone puts the notes' back exactly.
+func TestNov2ChangesUndo(t *testing.T) {
+	t.Cleanup(func() {
+		for _, name := range Nov2Changes() {
+			SetNov2Change(name, true)
+		}
+	})
+	at60 := func(id int32) float64 { return spelldata.MustFind(id).DamageEffect().Average(core.CharacterLevel) }
+	client := map[string]func() (string, float64, float64){
+		"Lightning Bolt damage": func() (string, float64, float64) { return "Lightning Bolt rank 10 at 60", at60(15208), 200 },
+		"Chain Lightning rework": func() (string, float64, float64) {
+			return "Chain Lightning rank 4 cost", spelldata.MustFind(10605).Cost(), 315
+		},
+		"Shocks at Classic Era damage": func() (string, float64, float64) { return "Flame Shock rank 6 hit", at60(29228), 166 },
+		"Lightning Overload 10/20/30%": func() (string, float64, float64) {
+			return "Lightning Overload 3/3", spellData.LightningOverload.FractionAt(3), 0.10
+		},
+		"Call of Thunder": func() (string, float64, float64) {
+			return "Call of Thunder on", core.Ternary(nov2CallOfThunder, 1.0, 0.0), 0
+		},
+		"Maelstrom Weapon procs doubled": func() (string, float64, float64) { return "Maelstrom Weapon PPM", nov2MaelstromWeaponPPM, 10 },
+		"Stormstrike 150% weapon damage": func() (string, float64, float64) { return "Stormstrike weapon damage", nov2StormstrikeWeaponDamage, 1 },
+		"Stormstrike 6 s cooldown": func() (string, float64, float64) {
+			return "Stormstrike cooldown", spellData.Stormstrike.Highest().Cooldown().Seconds(), 8
+		},
+		"Mental Dexterity 50/100/150%": func() (string, float64, float64) {
+			return "Mental Dexterity 3/3", spellData.MentalDexterity.EffectAt(1).FractionAt(3), 1
+		},
+		"Flurry 6-30%": func() (string, float64, float64) { return "Flurry 5/5", spellData.Flurry.MultiplierAt(5), 1.25 },
+	}
+	if len(client) != len(Nov2Changes()) {
+		t.Fatalf("%d changes, %d checked", len(Nov2Changes()), len(client))
+	}
+	for _, name := range Nov2Changes() {
+		SetNov2Change(name, false)
+		if what, got, want := client[name](); math.Abs(got-want) > 1e-6 {
+			t.Errorf("%s off: %s = %v, want the client's %v", name, what, got, want)
+		}
+		SetNov2Change(name, true)
+	}
+	checkNov2Notes(t)
+}
+
+func checkNov2Notes(t *testing.T) {
+	t.Helper()
 	near := func(what string, got, want float64) {
 		t.Helper()
 		if math.Abs(got-want) > 1e-6 {

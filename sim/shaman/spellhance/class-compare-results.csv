@@ -1,0 +1,901 @@
+class,spec,buffs,race,duration_s,iterations,dps,seconds_oom
+druid-balance,Balance,light,NightElf,120,10000,535.5,0.0
+druid-balance,Balance,light,NightElf,300,10000,519.0,3.4
+druid-balance,Balance,light,NightElf,600,10000,491.7,25.8
+druid-balance,Balance,light,HighOrderSkyborne,120,10000,539.5,0.0
+druid-balance,Balance,light,HighOrderSkyborne,300,10000,520.1,4.4
+druid-balance,Balance,light,HighOrderSkyborne,600,10000,491.9,29.6
+druid-balance,Balance,light,Tauren,120,10000,534.8,0.0
+druid-balance,Balance,light,Tauren,300,10000,518.9,3.4
+druid-balance,Balance,light,Tauren,600,10000,492.3,25.2
+druid-balance,Balance,light,WindshaperSkyborne,120,10000,539.5,0.0
+druid-balance,Balance,light,WindshaperSkyborne,300,10000,520.1,4.4
+druid-balance,Balance,light,WindshaperSkyborne,600,10000,491.9,29.6
+druid-balance,Balance,full,NightElf,120,10000,594.8,0.0
+druid-balance,Balance,full,NightElf,300,10000,591.7,0.0
+druid-balance,Balance,full,NightElf,600,10000,591.3,0.0
+druid-balance,Balance,full,HighOrderSkyborne,120,10000,599.3,0.0
+druid-balance,Balance,full,HighOrderSkyborne,300,10000,595.5,0.0
+druid-balance,Balance,full,HighOrderSkyborne,600,10000,595.2,0.0
+druid-balance,Balance,full,Tauren,120,10000,595.0,0.0
+druid-balance,Balance,full,Tauren,300,10000,593.1,0.0
+druid-balance,Balance,full,Tauren,600,10000,592.6,0.0
+druid-balance,Balance,full,WindshaperSkyborne,120,10000,599.3,0.0
+druid-balance,Balance,full,WindshaperSkyborne,300,10000,595.5,0.0
+druid-balance,Balance,full,WindshaperSkyborne,600,10000,595.2,0.0
+druid-feralcat,FeralCat,light,NightElf,120,10000,456.6,0.5
+druid-feralcat,FeralCat,light,NightElf,300,10000,435.9,94.4
+druid-feralcat,FeralCat,light,NightElf,600,10000,430.1,254.7
+druid-feralcat,FeralCat,light,HighOrderSkyborne,120,10000,455.1,0.5
+druid-feralcat,FeralCat,light,HighOrderSkyborne,300,10000,434.7,93.7
+druid-feralcat,FeralCat,light,HighOrderSkyborne,600,10000,428.9,251.7
+druid-feralcat,FeralCat,light,Tauren,120,10000,457.8,0.4
+druid-feralcat,FeralCat,light,Tauren,300,10000,437.3,96.6
+druid-feralcat,FeralCat,light,Tauren,600,10000,431.4,257.0
+druid-feralcat,FeralCat,light,WindshaperSkyborne,120,10000,455.1,0.5
+druid-feralcat,FeralCat,light,WindshaperSkyborne,300,10000,434.7,93.7
+druid-feralcat,FeralCat,light,WindshaperSkyborne,600,10000,428.9,251.7
+druid-feralcat,FeralCat,full,NightElf,120,10000,605.3,0.0
+druid-feralcat,FeralCat,full,NightElf,300,10000,594.1,0.0
+druid-feralcat,FeralCat,full,NightElf,600,10000,591.6,0.0
+druid-feralcat,FeralCat,full,HighOrderSkyborne,120,10000,605.1,0.0
+druid-feralcat,FeralCat,full,HighOrderSkyborne,300,10000,593.6,0.0
+druid-feralcat,FeralCat,full,HighOrderSkyborne,600,10000,590.9,0.0
+druid-feralcat,FeralCat,full,Tauren,120,10000,607.2,0.0
+druid-feralcat,FeralCat,full,Tauren,300,10000,596.5,0.0
+druid-feralcat,FeralCat,full,Tauren,600,10000,594.0,0.0
+druid-feralcat,FeralCat,full,WindshaperSkyborne,120,10000,605.1,0.0
+druid-feralcat,FeralCat,full,WindshaperSkyborne,300,10000,593.6,0.0
+druid-feralcat,FeralCat,full,WindshaperSkyborne,600,10000,590.9,0.0
+hunter,Marksmanship,light,Human,120,10000,387.3,30.5
+hunter,Marksmanship,light,Human,300,10000,360.5,109.2
+hunter,Marksmanship,light,Human,600,10000,344.1,231.8
+hunter,Marksmanship,light,Dwarf,120,10000,380.1,35.6
+hunter,Marksmanship,light,Dwarf,300,10000,354.9,114.4
+hunter,Marksmanship,light,Dwarf,600,10000,338.1,232.6
+hunter,Marksmanship,light,NightElf,120,10000,385.5,33.6
+hunter,Marksmanship,light,NightElf,300,10000,359.0,118.1
+hunter,Marksmanship,light,NightElf,600,10000,341.9,229.8
+hunter,Marksmanship,light,HighOrderSkyborne,120,10000,385.1,23.8
+hunter,Marksmanship,light,HighOrderSkyborne,300,10000,356.0,96.6
+hunter,Marksmanship,light,HighOrderSkyborne,600,10000,339.3,241.4
+hunter,Marksmanship,light,Orc,120,10000,378.8,36.0
+hunter,Marksmanship,light,Orc,300,10000,352.9,114.4
+hunter,Marksmanship,light,Orc,600,10000,336.7,234.2
+hunter,Marksmanship,light,Tauren,120,10000,376.8,36.0
+hunter,Marksmanship,light,Tauren,300,10000,351.2,115.0
+hunter,Marksmanship,light,Tauren,600,10000,334.9,222.1
+hunter,Marksmanship,light,Troll,120,10000,381.2,28.7
+hunter,Marksmanship,light,Troll,300,10000,354.0,109.3
+hunter,Marksmanship,light,Troll,600,10000,337.0,234.4
+hunter,Marksmanship,light,WindshaperSkyborne,120,10000,385.1,23.8
+hunter,Marksmanship,light,WindshaperSkyborne,300,10000,356.0,96.6
+hunter,Marksmanship,light,WindshaperSkyborne,600,10000,339.3,241.4
+hunter,Marksmanship,full,Human,120,10000,491.2,0.0
+hunter,Marksmanship,full,Human,300,10000,490.1,0.0
+hunter,Marksmanship,full,Human,600,10000,489.9,0.1
+hunter,Marksmanship,full,Dwarf,120,10000,484.2,0.0
+hunter,Marksmanship,full,Dwarf,300,10000,482.3,0.0
+hunter,Marksmanship,full,Dwarf,600,10000,482.1,0.1
+hunter,Marksmanship,full,NightElf,120,10000,490.6,0.0
+hunter,Marksmanship,full,NightElf,300,10000,487.5,0.0
+hunter,Marksmanship,full,NightElf,600,10000,487.1,0.1
+hunter,Marksmanship,full,HighOrderSkyborne,120,10000,487.5,0.0
+hunter,Marksmanship,full,HighOrderSkyborne,300,10000,485.0,0.0
+hunter,Marksmanship,full,HighOrderSkyborne,600,10000,484.4,0.1
+hunter,Marksmanship,full,Orc,120,10000,481.6,0.0
+hunter,Marksmanship,full,Orc,300,10000,480.3,0.0
+hunter,Marksmanship,full,Orc,600,10000,479.6,0.1
+hunter,Marksmanship,full,Tauren,120,10000,480.0,0.0
+hunter,Marksmanship,full,Tauren,300,10000,478.1,0.0
+hunter,Marksmanship,full,Tauren,600,10000,478.1,0.1
+hunter,Marksmanship,full,Troll,120,10000,483.1,0.0
+hunter,Marksmanship,full,Troll,300,10000,480.5,0.0
+hunter,Marksmanship,full,Troll,600,10000,480.2,0.1
+hunter,Marksmanship,full,WindshaperSkyborne,120,10000,487.5,0.0
+hunter,Marksmanship,full,WindshaperSkyborne,300,10000,485.0,0.0
+hunter,Marksmanship,full,WindshaperSkyborne,600,10000,484.4,0.1
+hunter,BeastMastery,light,Human,120,10000,458.2,19.6
+hunter,BeastMastery,light,Human,300,10000,429.6,113.3
+hunter,BeastMastery,light,Human,600,10000,413.0,293.6
+hunter,BeastMastery,light,Dwarf,120,10000,452.0,20.2
+hunter,BeastMastery,light,Dwarf,300,10000,423.6,114.6
+hunter,BeastMastery,light,Dwarf,600,10000,406.8,296.2
+hunter,BeastMastery,light,NightElf,120,10000,457.3,20.1
+hunter,BeastMastery,light,NightElf,300,10000,427.2,114.9
+hunter,BeastMastery,light,NightElf,600,10000,409.8,295.6
+hunter,BeastMastery,light,HighOrderSkyborne,120,10000,455.1,20.5
+hunter,BeastMastery,light,HighOrderSkyborne,300,10000,425.8,114.2
+hunter,BeastMastery,light,HighOrderSkyborne,600,10000,408.9,295.0
+hunter,BeastMastery,light,Orc,120,10000,450.2,20.7
+hunter,BeastMastery,light,Orc,300,10000,422.5,114.6
+hunter,BeastMastery,light,Orc,600,10000,405.8,296.0
+hunter,BeastMastery,light,Tauren,120,10000,447.5,22.3
+hunter,BeastMastery,light,Tauren,300,10000,420.4,117.5
+hunter,BeastMastery,light,Tauren,600,10000,404.2,299.4
+hunter,BeastMastery,light,Troll,120,10000,451.6,22.2
+hunter,BeastMastery,light,Troll,300,10000,422.6,114.8
+hunter,BeastMastery,light,Troll,600,10000,406.4,295.9
+hunter,BeastMastery,light,WindshaperSkyborne,120,10000,455.1,20.5
+hunter,BeastMastery,light,WindshaperSkyborne,300,10000,425.8,114.2
+hunter,BeastMastery,light,WindshaperSkyborne,600,10000,408.9,295.0
+hunter,BeastMastery,full,Human,120,10000,543.2,0.0
+hunter,BeastMastery,full,Human,300,10000,543.6,0.0
+hunter,BeastMastery,full,Human,600,10000,539.4,0.0
+hunter,BeastMastery,full,Dwarf,120,10000,537.1,0.0
+hunter,BeastMastery,full,Dwarf,300,10000,537.2,0.0
+hunter,BeastMastery,full,Dwarf,600,10000,533.3,0.0
+hunter,BeastMastery,full,NightElf,120,10000,543.1,0.0
+hunter,BeastMastery,full,NightElf,300,10000,541.3,0.0
+hunter,BeastMastery,full,NightElf,600,10000,537.1,0.0
+hunter,BeastMastery,full,HighOrderSkyborne,120,10000,540.8,0.0
+hunter,BeastMastery,full,HighOrderSkyborne,300,10000,540.4,0.0
+hunter,BeastMastery,full,HighOrderSkyborne,600,10000,536.6,0.0
+hunter,BeastMastery,full,Orc,120,10000,534.9,0.0
+hunter,BeastMastery,full,Orc,300,10000,535.4,0.0
+hunter,BeastMastery,full,Orc,600,10000,530.9,0.0
+hunter,BeastMastery,full,Tauren,120,10000,533.0,0.0
+hunter,BeastMastery,full,Tauren,300,10000,533.1,0.0
+hunter,BeastMastery,full,Tauren,600,10000,529.1,0.0
+hunter,BeastMastery,full,Troll,120,10000,537.3,0.0
+hunter,BeastMastery,full,Troll,300,10000,536.0,0.0
+hunter,BeastMastery,full,Troll,600,10000,532.0,0.0
+hunter,BeastMastery,full,WindshaperSkyborne,120,10000,540.8,0.0
+hunter,BeastMastery,full,WindshaperSkyborne,300,10000,540.4,0.0
+hunter,BeastMastery,full,WindshaperSkyborne,600,10000,536.6,0.0
+hunter,Survival,light,Human,120,10000,373.9,19.2
+hunter,Survival,light,Human,300,10000,338.5,74.9
+hunter,Survival,light,Human,600,10000,324.6,197.9
+hunter,Survival,light,Dwarf,120,10000,365.0,6.7
+hunter,Survival,light,Dwarf,300,10000,333.2,72.9
+hunter,Survival,light,Dwarf,600,10000,318.7,195.6
+hunter,Survival,light,NightElf,120,10000,370.0,6.8
+hunter,Survival,light,NightElf,300,10000,336.7,68.9
+hunter,Survival,light,NightElf,600,10000,322.0,188.4
+hunter,Survival,light,HighOrderSkyborne,120,10000,371.8,18.3
+hunter,Survival,light,HighOrderSkyborne,300,10000,336.4,74.6
+hunter,Survival,light,HighOrderSkyborne,600,10000,321.9,196.8
+hunter,Survival,light,Orc,120,10000,363.6,7.3
+hunter,Survival,light,Orc,300,10000,332.0,73.4
+hunter,Survival,light,Orc,600,10000,318.3,209.0
+hunter,Survival,light,Tauren,120,10000,361.7,7.3
+hunter,Survival,light,Tauren,300,10000,331.2,74.0
+hunter,Survival,light,Tauren,600,10000,317.2,219.5
+hunter,Survival,light,Troll,120,10000,364.3,14.1
+hunter,Survival,light,Troll,300,10000,332.9,76.8
+hunter,Survival,light,Troll,600,10000,319.3,207.2
+hunter,Survival,light,WindshaperSkyborne,120,10000,371.8,18.3
+hunter,Survival,light,WindshaperSkyborne,300,10000,336.4,74.6
+hunter,Survival,light,WindshaperSkyborne,600,10000,321.9,196.8
+hunter,Survival,full,Human,120,10000,457.8,0.0
+hunter,Survival,full,Human,300,10000,453.6,0.0
+hunter,Survival,full,Human,600,10000,455.3,0.0
+hunter,Survival,full,Dwarf,120,10000,452.2,0.0
+hunter,Survival,full,Dwarf,300,10000,448.0,0.0
+hunter,Survival,full,Dwarf,600,10000,449.6,0.0
+hunter,Survival,full,NightElf,120,10000,457.3,0.0
+hunter,Survival,full,NightElf,300,10000,451.9,0.0
+hunter,Survival,full,NightElf,600,10000,453.3,0.0
+hunter,Survival,full,HighOrderSkyborne,120,10000,456.2,0.0
+hunter,Survival,full,HighOrderSkyborne,300,10000,453.6,0.0
+hunter,Survival,full,HighOrderSkyborne,600,10000,453.2,0.0
+hunter,Survival,full,Orc,120,10000,450.3,0.0
+hunter,Survival,full,Orc,300,10000,446.4,0.0
+hunter,Survival,full,Orc,600,10000,447.6,0.0
+hunter,Survival,full,Tauren,120,10000,448.4,0.0
+hunter,Survival,full,Tauren,300,10000,444.3,0.0
+hunter,Survival,full,Tauren,600,10000,445.9,0.0
+hunter,Survival,full,Troll,120,10000,452.5,0.0
+hunter,Survival,full,Troll,300,10000,451.6,0.0
+hunter,Survival,full,Troll,600,10000,450.0,0.0
+hunter,Survival,full,WindshaperSkyborne,120,10000,456.2,0.0
+hunter,Survival,full,WindshaperSkyborne,300,10000,453.6,0.0
+hunter,Survival,full,WindshaperSkyborne,600,10000,453.2,0.0
+mage,Arcane,light,Human,120,10000,496.7,0.1
+mage,Arcane,light,Human,300,10000,462.0,16.6
+mage,Arcane,light,Human,600,10000,431.3,75.4
+mage,Arcane,light,Gnome,120,10000,497.7,0.1
+mage,Arcane,light,Gnome,300,10000,460.3,14.5
+mage,Arcane,light,Gnome,600,10000,429.8,66.9
+mage,Arcane,light,HighOrderSkyborne,120,10000,494.3,0.1
+mage,Arcane,light,HighOrderSkyborne,300,10000,456.6,22.1
+mage,Arcane,light,HighOrderSkyborne,600,10000,423.6,89.0
+mage,Arcane,light,Orc,120,10000,491.2,0.1
+mage,Arcane,light,Orc,300,10000,454.3,19.3
+mage,Arcane,light,Orc,600,10000,422.1,82.2
+mage,Arcane,light,Undead,120,10000,492.3,0.1
+mage,Arcane,light,Undead,300,10000,456.5,18.4
+mage,Arcane,light,Undead,600,10000,425.6,79.6
+mage,Arcane,light,Troll,120,10000,490.2,0.1
+mage,Arcane,light,Troll,300,10000,452.2,21.8
+mage,Arcane,light,Troll,600,10000,419.7,88.8
+mage,Arcane,full,Human,120,10000,576.1,0.0
+mage,Arcane,full,Human,300,10000,549.1,0.0
+mage,Arcane,full,Human,600,10000,538.6,0.0
+mage,Arcane,full,Gnome,120,10000,574.1,0.0
+mage,Arcane,full,Gnome,300,10000,545.8,0.0
+mage,Arcane,full,Gnome,600,10000,534.2,0.0
+mage,Arcane,full,HighOrderSkyborne,120,10000,574.6,0.0
+mage,Arcane,full,HighOrderSkyborne,300,10000,547.3,0.0
+mage,Arcane,full,HighOrderSkyborne,600,10000,537.5,0.0
+mage,Arcane,full,Orc,120,10000,570.7,0.0
+mage,Arcane,full,Orc,300,10000,543.1,0.0
+mage,Arcane,full,Orc,600,10000,531.9,0.0
+mage,Arcane,full,Undead,120,10000,572.6,0.0
+mage,Arcane,full,Undead,300,10000,545.3,0.0
+mage,Arcane,full,Undead,600,10000,534.9,0.0
+mage,Arcane,full,Troll,120,10000,571.1,0.0
+mage,Arcane,full,Troll,300,10000,542.1,0.0
+mage,Arcane,full,Troll,600,10000,532.0,0.0
+mage,Fire,light,Human,120,10000,641.0,0.1
+mage,Fire,light,Human,300,10000,511.2,13.7
+mage,Fire,light,Human,600,10000,454.7,42.7
+mage,Fire,light,Gnome,120,10000,638.9,0.0
+mage,Fire,light,Gnome,300,10000,506.3,14.9
+mage,Fire,light,Gnome,600,10000,446.9,47.3
+mage,Fire,light,HighOrderSkyborne,120,10000,637.5,0.1
+mage,Fire,light,HighOrderSkyborne,300,10000,502.0,17.1
+mage,Fire,light,HighOrderSkyborne,600,10000,443.7,52.3
+mage,Fire,light,Orc,120,10000,627.5,0.2
+mage,Fire,light,Orc,300,10000,499.5,15.2
+mage,Fire,light,Orc,600,10000,443.2,46.9
+mage,Fire,light,Undead,120,10000,630.2,0.1
+mage,Fire,light,Undead,300,10000,501.8,14.8
+mage,Fire,light,Undead,600,10000,446.3,46.0
+mage,Fire,light,Troll,120,10000,634.4,0.1
+mage,Fire,light,Troll,300,10000,499.8,16.2
+mage,Fire,light,Troll,600,10000,442.4,48.6
+mage,Fire,full,Human,120,10000,764.7,0.0
+mage,Fire,full,Human,300,10000,685.5,0.1
+mage,Fire,full,Human,600,10000,645.3,0.5
+mage,Fire,full,Gnome,120,10000,759.0,0.0
+mage,Fire,full,Gnome,300,10000,679.2,0.1
+mage,Fire,full,Gnome,600,10000,637.0,0.4
+mage,Fire,full,HighOrderSkyborne,120,10000,752.4,0.0
+mage,Fire,full,HighOrderSkyborne,300,10000,676.4,0.1
+mage,Fire,full,HighOrderSkyborne,600,10000,635.9,0.5
+mage,Fire,full,Orc,120,10000,750.9,0.0
+mage,Fire,full,Orc,300,10000,672.1,0.2
+mage,Fire,full,Orc,600,10000,632.3,0.5
+mage,Fire,full,Undead,120,10000,753.4,0.0
+mage,Fire,full,Undead,300,10000,674.2,0.2
+mage,Fire,full,Undead,600,10000,634.8,0.5
+mage,Fire,full,Troll,120,10000,747.0,0.0
+mage,Fire,full,Troll,300,10000,673.9,0.1
+mage,Fire,full,Troll,600,10000,632.3,0.5
+mage,Frost,light,Human,120,10000,482.5,4.4
+mage,Frost,light,Human,300,10000,416.7,50.9
+mage,Frost,light,Human,600,10000,331.2,220.6
+mage,Frost,light,Gnome,120,10000,485.0,4.4
+mage,Frost,light,Gnome,300,10000,415.1,49.2
+mage,Frost,light,Gnome,600,10000,326.3,222.2
+mage,Frost,light,HighOrderSkyborne,120,10000,479.6,3.5
+mage,Frost,light,HighOrderSkyborne,300,10000,410.6,55.7
+mage,Frost,light,HighOrderSkyborne,600,10000,326.6,226.7
+mage,Frost,light,Orc,120,10000,475.0,4.1
+mage,Frost,light,Orc,300,10000,408.3,53.1
+mage,Frost,light,Orc,600,10000,324.6,223.1
+mage,Frost,light,Undead,120,10000,477.6,4.2
+mage,Frost,light,Undead,300,10000,411.4,52.2
+mage,Frost,light,Undead,600,10000,327.7,222.3
+mage,Frost,light,Troll,120,10000,474.8,3.3
+mage,Frost,light,Troll,300,10000,409.6,53.5
+mage,Frost,light,Troll,600,10000,325.3,223.4
+mage,Frost,full,Human,120,10000,552.4,0.0
+mage,Frost,full,Human,300,10000,535.3,0.0
+mage,Frost,full,Human,600,10000,491.8,67.2
+mage,Frost,full,Gnome,120,10000,547.2,0.0
+mage,Frost,full,Gnome,300,10000,531.4,0.0
+mage,Frost,full,Gnome,600,10000,490.8,62.4
+mage,Frost,full,HighOrderSkyborne,120,10000,553.2,0.0
+mage,Frost,full,HighOrderSkyborne,300,10000,537.0,0.0
+mage,Frost,full,HighOrderSkyborne,600,10000,483.3,80.9
+mage,Frost,full,Orc,120,10000,545.8,0.0
+mage,Frost,full,Orc,300,10000,529.4,0.0
+mage,Frost,full,Orc,600,10000,482.5,71.7
+mage,Frost,full,Undead,120,10000,549.0,0.0
+mage,Frost,full,Undead,300,10000,532.1,0.0
+mage,Frost,full,Undead,600,10000,487.3,69.6
+mage,Frost,full,Troll,120,10000,547.4,0.0
+mage,Frost,full,Troll,300,10000,529.5,0.0
+mage,Frost,full,Troll,600,10000,480.4,75.7
+paladin,Retribution twist,light,Human,120,10000,333.2,2.7
+paladin,Retribution twist,light,Human,300,10000,324.0,5.2
+paladin,Retribution twist,light,Human,600,10000,313.2,8.2
+paladin,Retribution twist,light,Dwarf,120,10000,328.1,0.5
+paladin,Retribution twist,light,Dwarf,300,10000,318.5,3.5
+paladin,Retribution twist,light,Dwarf,600,10000,307.0,6.8
+paladin,Retribution twist,light,Undead,120,10000,334.3,0.5
+paladin,Retribution twist,light,Undead,300,10000,323.7,3.2
+paladin,Retribution twist,light,Undead,600,10000,311.9,6.2
+paladin,Retribution twist,full,Human,120,10000,576.5,0.0
+paladin,Retribution twist,full,Human,300,10000,563.6,0.0
+paladin,Retribution twist,full,Human,600,10000,558.5,0.0
+paladin,Retribution twist,full,Dwarf,120,10000,567.0,0.0
+paladin,Retribution twist,full,Dwarf,300,10000,554.1,0.0
+paladin,Retribution twist,full,Dwarf,600,10000,548.9,0.0
+paladin,Retribution twist,full,Undead,120,10000,574.2,0.0
+paladin,Retribution twist,full,Undead,300,10000,561.2,0.0
+paladin,Retribution twist,full,Undead,600,10000,555.6,0.0
+paladin,Retribution deep,light,Human,120,10000,327.2,0.0
+paladin,Retribution deep,light,Human,300,10000,320.9,1.4
+paladin,Retribution deep,light,Human,600,10000,308.3,21.6
+paladin,Retribution deep,light,Dwarf,120,10000,321.3,0.0
+paladin,Retribution deep,light,Dwarf,300,10000,314.2,4.3
+paladin,Retribution deep,light,Dwarf,600,10000,302.4,12.6
+paladin,Retribution deep,light,Undead,120,10000,327.2,0.0
+paladin,Retribution deep,light,Undead,300,10000,319.8,5.1
+paladin,Retribution deep,light,Undead,600,10000,309.0,12.8
+paladin,Retribution deep,full,Human,120,10000,576.2,0.0
+paladin,Retribution deep,full,Human,300,10000,559.6,0.0
+paladin,Retribution deep,full,Human,600,10000,552.8,0.0
+paladin,Retribution deep,full,Dwarf,120,10000,566.7,0.0
+paladin,Retribution deep,full,Dwarf,300,10000,550.2,0.0
+paladin,Retribution deep,full,Dwarf,600,10000,543.6,0.0
+paladin,Retribution deep,full,Undead,120,10000,573.8,0.0
+paladin,Retribution deep,full,Undead,300,10000,557.0,0.0
+paladin,Retribution deep,full,Undead,600,10000,550.0,0.0
+priest,Shadow,light,Human,120,10000,709.6,0.0
+priest,Shadow,light,Human,300,10000,632.1,60.5
+priest,Shadow,light,Human,600,10000,598.6,186.7
+priest,Shadow,light,Dwarf,120,10000,702.0,0.0
+priest,Shadow,light,Dwarf,300,10000,625.7,61.8
+priest,Shadow,light,Dwarf,600,10000,591.5,189.1
+priest,Shadow,light,NightElf,120,10000,702.9,0.0
+priest,Shadow,light,NightElf,300,10000,625.6,61.8
+priest,Shadow,light,NightElf,600,10000,591.3,189.5
+priest,Shadow,light,Gnome,120,10000,699.3,0.0
+priest,Shadow,light,Gnome,300,10000,632.5,53.6
+priest,Shadow,light,Gnome,600,10000,596.0,177.9
+priest,Shadow,light,Undead,120,10000,694.2,0.0
+priest,Shadow,light,Undead,300,10000,671.8,27.7
+priest,Shadow,light,Undead,600,10000,607.7,158.4
+priest,Shadow,light,Troll,120,10000,698.7,0.0
+priest,Shadow,light,Troll,300,10000,619.3,62.4
+priest,Shadow,light,Troll,600,10000,583.3,192.6
+priest,Shadow,full,Human,120,10000,765.4,0.0
+priest,Shadow,full,Human,300,10000,770.0,0.0
+priest,Shadow,full,Human,600,10000,774.2,0.0
+priest,Shadow,full,Dwarf,120,10000,758.0,0.0
+priest,Shadow,full,Dwarf,300,10000,761.9,0.0
+priest,Shadow,full,Dwarf,600,10000,766.8,0.0
+priest,Shadow,full,NightElf,120,10000,758.3,0.0
+priest,Shadow,full,NightElf,300,10000,762.5,0.0
+priest,Shadow,full,NightElf,600,10000,767.1,0.0
+priest,Shadow,full,Gnome,120,10000,754.7,0.0
+priest,Shadow,full,Gnome,300,10000,759.9,0.0
+priest,Shadow,full,Gnome,600,10000,763.9,0.0
+priest,Shadow,full,Undead,120,10000,758.9,0.0
+priest,Shadow,full,Undead,300,10000,759.9,0.0
+priest,Shadow,full,Undead,600,10000,765.2,0.0
+priest,Shadow,full,Troll,120,10000,754.6,0.0
+priest,Shadow,full,Troll,300,10000,758.1,0.0
+priest,Shadow,full,Troll,600,10000,759.2,0.0
+priest,Smite,light,Human,120,10000,397.8,13.3
+priest,Smite,light,Human,300,10000,287.1,92.1
+priest,Smite,light,Human,600,10000,251.3,225.7
+priest,Smite,light,Dwarf,120,10000,394.7,14.6
+priest,Smite,light,Dwarf,300,10000,283.6,94.7
+priest,Smite,light,Dwarf,600,10000,247.4,230.7
+priest,Smite,light,NightElf,120,10000,395.8,15.0
+priest,Smite,light,NightElf,300,10000,283.6,94.5
+priest,Smite,light,NightElf,600,10000,248.0,232.0
+priest,Smite,light,Gnome,120,10000,404.1,10.8
+priest,Smite,light,Gnome,300,10000,287.9,88.5
+priest,Smite,light,Gnome,600,10000,251.2,223.1
+priest,Smite,light,Undead,120,10000,432.1,5.3
+priest,Smite,light,Undead,300,10000,298.1,86.5
+priest,Smite,light,Undead,600,10000,259.6,219.1
+priest,Smite,light,Troll,120,10000,394.4,15.6
+priest,Smite,light,Troll,300,10000,282.4,95.5
+priest,Smite,light,Troll,600,10000,247.4,230.6
+priest,Smite,full,Human,120,10000,557.7,0.0
+priest,Smite,full,Human,300,10000,458.9,40.5
+priest,Smite,full,Human,600,10000,435.7,101.9
+priest,Smite,full,Dwarf,120,10000,553.3,0.0
+priest,Smite,full,Dwarf,300,10000,451.4,42.6
+priest,Smite,full,Dwarf,600,10000,428.1,106.1
+priest,Smite,full,NightElf,120,10000,555.7,0.0
+priest,Smite,full,NightElf,300,10000,453.5,42.6
+priest,Smite,full,NightElf,600,10000,430.3,106.0
+priest,Smite,full,Gnome,120,10000,555.1,0.0
+priest,Smite,full,Gnome,300,10000,461.0,38.6
+priest,Smite,full,Gnome,600,10000,436.2,99.2
+priest,Smite,full,Undead,120,10000,551.8,0.0
+priest,Smite,full,Undead,300,10000,476.6,33.4
+priest,Smite,full,Undead,600,10000,443.0,96.3
+priest,Smite,full,Troll,120,10000,553.9,0.0
+priest,Smite,full,Troll,300,10000,453.0,42.2
+priest,Smite,full,Troll,600,10000,429.1,107.0
+rogue,Combat,light,Human,120,10000,439.1,0.0
+rogue,Combat,light,Human,300,10000,415.9,0.0
+rogue,Combat,light,Human,600,10000,415.4,0.0
+rogue,Combat,light,Dwarf,120,10000,433.2,0.0
+rogue,Combat,light,Dwarf,300,10000,410.2,0.0
+rogue,Combat,light,Dwarf,600,10000,409.9,0.0
+rogue,Combat,light,NightElf,120,10000,438.5,0.0
+rogue,Combat,light,NightElf,300,10000,413.7,0.0
+rogue,Combat,light,NightElf,600,10000,412.8,0.0
+rogue,Combat,light,Gnome,120,10000,438.2,0.0
+rogue,Combat,light,Gnome,300,10000,412.7,0.0
+rogue,Combat,light,Gnome,600,10000,411.1,0.0
+rogue,Combat,light,HighOrderSkyborne,120,10000,436.1,0.0
+rogue,Combat,light,HighOrderSkyborne,300,10000,413.3,0.0
+rogue,Combat,light,HighOrderSkyborne,600,10000,412.9,0.0
+rogue,Combat,light,Orc,120,10000,434.3,0.0
+rogue,Combat,light,Orc,300,10000,411.5,0.0
+rogue,Combat,light,Orc,600,10000,410.4,0.0
+rogue,Combat,light,Undead,120,10000,437.6,0.0
+rogue,Combat,light,Undead,300,10000,414.3,0.0
+rogue,Combat,light,Undead,600,10000,413.8,0.0
+rogue,Combat,light,Troll,120,10000,434.2,0.0
+rogue,Combat,light,Troll,300,10000,410.9,0.0
+rogue,Combat,light,Troll,600,10000,410.4,0.0
+rogue,Combat,light,WindshaperSkyborne,120,10000,436.1,0.0
+rogue,Combat,light,WindshaperSkyborne,300,10000,413.3,0.0
+rogue,Combat,light,WindshaperSkyborne,600,10000,412.9,0.0
+rogue,Combat,full,Human,120,10000,574.6,0.0
+rogue,Combat,full,Human,300,10000,545.1,0.0
+rogue,Combat,full,Human,600,10000,544.1,0.0
+rogue,Combat,full,Dwarf,120,10000,567.6,0.0
+rogue,Combat,full,Dwarf,300,10000,538.5,0.0
+rogue,Combat,full,Dwarf,600,10000,537.5,0.0
+rogue,Combat,full,NightElf,120,10000,574.3,0.0
+rogue,Combat,full,NightElf,300,10000,542.6,0.0
+rogue,Combat,full,NightElf,600,10000,541.1,0.0
+rogue,Combat,full,Gnome,120,10000,572.7,0.0
+rogue,Combat,full,Gnome,300,10000,540.6,0.0
+rogue,Combat,full,Gnome,600,10000,538.3,0.0
+rogue,Combat,full,HighOrderSkyborne,120,10000,571.1,0.0
+rogue,Combat,full,HighOrderSkyborne,300,10000,542.5,0.0
+rogue,Combat,full,HighOrderSkyborne,600,10000,541.5,0.0
+rogue,Combat,full,Orc,120,10000,569.0,0.0
+rogue,Combat,full,Orc,300,10000,540.0,0.0
+rogue,Combat,full,Orc,600,10000,537.9,0.0
+rogue,Combat,full,Undead,120,10000,572.1,0.0
+rogue,Combat,full,Undead,300,10000,542.7,0.0
+rogue,Combat,full,Undead,600,10000,541.6,0.0
+rogue,Combat,full,Troll,120,10000,568.1,0.0
+rogue,Combat,full,Troll,300,10000,538.7,0.0
+rogue,Combat,full,Troll,600,10000,537.8,0.0
+rogue,Combat,full,WindshaperSkyborne,120,10000,571.1,0.0
+rogue,Combat,full,WindshaperSkyborne,300,10000,542.5,0.0
+rogue,Combat,full,WindshaperSkyborne,600,10000,541.5,0.0
+rogue,Assassination,light,Human,120,10000,446.5,0.0
+rogue,Assassination,light,Human,300,10000,435.4,0.0
+rogue,Assassination,light,Human,600,10000,435.3,0.0
+rogue,Assassination,light,Dwarf,120,10000,440.0,0.0
+rogue,Assassination,light,Dwarf,300,10000,429.2,0.0
+rogue,Assassination,light,Dwarf,600,10000,429.0,0.0
+rogue,Assassination,light,NightElf,120,10000,445.3,0.0
+rogue,Assassination,light,NightElf,300,10000,432.6,0.0
+rogue,Assassination,light,NightElf,600,10000,432.4,0.0
+rogue,Assassination,light,Gnome,120,10000,447.9,0.0
+rogue,Assassination,light,Gnome,300,10000,433.7,0.0
+rogue,Assassination,light,Gnome,600,10000,432.0,0.0
+rogue,Assassination,light,HighOrderSkyborne,120,10000,443.1,0.0
+rogue,Assassination,light,HighOrderSkyborne,300,10000,431.9,0.0
+rogue,Assassination,light,HighOrderSkyborne,600,10000,431.9,0.0
+rogue,Assassination,light,Orc,120,10000,440.3,0.0
+rogue,Assassination,light,Orc,300,10000,429.8,0.0
+rogue,Assassination,light,Orc,600,10000,429.2,0.0
+rogue,Assassination,light,Undead,120,10000,444.8,0.0
+rogue,Assassination,light,Undead,300,10000,433.5,0.0
+rogue,Assassination,light,Undead,600,10000,433.2,0.0
+rogue,Assassination,light,Troll,120,10000,441.6,0.0
+rogue,Assassination,light,Troll,300,10000,430.2,0.0
+rogue,Assassination,light,Troll,600,10000,429.8,0.0
+rogue,Assassination,light,WindshaperSkyborne,120,10000,443.1,0.0
+rogue,Assassination,light,WindshaperSkyborne,300,10000,431.9,0.0
+rogue,Assassination,light,WindshaperSkyborne,600,10000,431.9,0.0
+rogue,Assassination,full,Human,120,10000,567.1,0.0
+rogue,Assassination,full,Human,300,10000,553.4,0.0
+rogue,Assassination,full,Human,600,10000,552.8,0.0
+rogue,Assassination,full,Dwarf,120,10000,558.6,0.0
+rogue,Assassination,full,Dwarf,300,10000,545.4,0.0
+rogue,Assassination,full,Dwarf,600,10000,545.1,0.0
+rogue,Assassination,full,NightElf,120,10000,565.5,0.0
+rogue,Assassination,full,NightElf,300,10000,549.5,0.0
+rogue,Assassination,full,NightElf,600,10000,548.8,0.0
+rogue,Assassination,full,Gnome,120,10000,567.6,0.0
+rogue,Assassination,full,Gnome,300,10000,550.7,0.0
+rogue,Assassination,full,Gnome,600,10000,548.1,0.0
+rogue,Assassination,full,HighOrderSkyborne,120,10000,562.8,0.0
+rogue,Assassination,full,HighOrderSkyborne,300,10000,549.1,0.0
+rogue,Assassination,full,HighOrderSkyborne,600,10000,548.8,0.0
+rogue,Assassination,full,Orc,120,10000,559.4,0.0
+rogue,Assassination,full,Orc,300,10000,546.1,0.0
+rogue,Assassination,full,Orc,600,10000,545.1,0.0
+rogue,Assassination,full,Undead,120,10000,564.2,0.0
+rogue,Assassination,full,Undead,300,10000,550.2,0.0
+rogue,Assassination,full,Undead,600,10000,549.8,0.0
+rogue,Assassination,full,Troll,120,10000,560.1,0.0
+rogue,Assassination,full,Troll,300,10000,546.1,0.0
+rogue,Assassination,full,Troll,600,10000,545.7,0.0
+rogue,Assassination,full,WindshaperSkyborne,120,10000,562.8,0.0
+rogue,Assassination,full,WindshaperSkyborne,300,10000,549.1,0.0
+rogue,Assassination,full,WindshaperSkyborne,600,10000,548.8,0.0
+rogue,Subtlety,light,Human,120,10000,374.1,0.0
+rogue,Subtlety,light,Human,300,10000,362.7,0.0
+rogue,Subtlety,light,Human,600,10000,361.7,0.0
+rogue,Subtlety,light,Dwarf,120,10000,369.0,0.0
+rogue,Subtlety,light,Dwarf,300,10000,357.9,0.0
+rogue,Subtlety,light,Dwarf,600,10000,356.8,0.0
+rogue,Subtlety,light,NightElf,120,10000,373.7,0.0
+rogue,Subtlety,light,NightElf,300,10000,360.9,0.0
+rogue,Subtlety,light,NightElf,600,10000,359.6,0.0
+rogue,Subtlety,light,Gnome,120,10000,372.9,0.0
+rogue,Subtlety,light,Gnome,300,10000,359.7,0.0
+rogue,Subtlety,light,Gnome,600,10000,357.7,0.0
+rogue,Subtlety,light,HighOrderSkyborne,120,10000,371.8,0.0
+rogue,Subtlety,light,HighOrderSkyborne,300,10000,360.4,0.0
+rogue,Subtlety,light,HighOrderSkyborne,600,10000,359.3,0.0
+rogue,Subtlety,light,Orc,120,10000,369.9,0.0
+rogue,Subtlety,light,Orc,300,10000,358.8,0.0
+rogue,Subtlety,light,Orc,600,10000,357.3,0.0
+rogue,Subtlety,light,Undead,120,10000,373.4,0.0
+rogue,Subtlety,light,Undead,300,10000,362.0,0.0
+rogue,Subtlety,light,Undead,600,10000,360.9,0.0
+rogue,Subtlety,light,Troll,120,10000,369.7,0.0
+rogue,Subtlety,light,Troll,300,10000,358.4,0.0
+rogue,Subtlety,light,Troll,600,10000,357.4,0.0
+rogue,Subtlety,light,WindshaperSkyborne,120,10000,371.8,0.0
+rogue,Subtlety,light,WindshaperSkyborne,300,10000,360.4,0.0
+rogue,Subtlety,light,WindshaperSkyborne,600,10000,359.3,0.0
+rogue,Subtlety,full,Human,120,10000,499.3,0.0
+rogue,Subtlety,full,Human,300,10000,484.6,0.0
+rogue,Subtlety,full,Human,600,10000,483.4,0.0
+rogue,Subtlety,full,Dwarf,120,10000,493.0,0.0
+rogue,Subtlety,full,Dwarf,300,10000,478.8,0.0
+rogue,Subtlety,full,Dwarf,600,10000,477.3,0.0
+rogue,Subtlety,full,NightElf,120,10000,499.1,0.0
+rogue,Subtlety,full,NightElf,300,10000,482.5,0.0
+rogue,Subtlety,full,NightElf,600,10000,480.8,0.0
+rogue,Subtlety,full,Gnome,120,10000,497.3,0.0
+rogue,Subtlety,full,Gnome,300,10000,480.6,0.0
+rogue,Subtlety,full,Gnome,600,10000,478.0,0.0
+rogue,Subtlety,full,HighOrderSkyborne,120,10000,496.2,0.0
+rogue,Subtlety,full,HighOrderSkyborne,300,10000,481.6,0.0
+rogue,Subtlety,full,HighOrderSkyborne,600,10000,480.2,0.0
+rogue,Subtlety,full,Orc,120,10000,494.1,0.0
+rogue,Subtlety,full,Orc,300,10000,479.9,0.0
+rogue,Subtlety,full,Orc,600,10000,477.8,0.0
+rogue,Subtlety,full,Undead,120,10000,498.1,0.0
+rogue,Subtlety,full,Undead,300,10000,483.3,0.0
+rogue,Subtlety,full,Undead,600,10000,481.8,0.0
+rogue,Subtlety,full,Troll,120,10000,493.5,0.0
+rogue,Subtlety,full,Troll,300,10000,478.8,0.0
+rogue,Subtlety,full,Troll,600,10000,477.4,0.0
+rogue,Subtlety,full,WindshaperSkyborne,120,10000,496.2,0.0
+rogue,Subtlety,full,WindshaperSkyborne,300,10000,481.6,0.0
+rogue,Subtlety,full,WindshaperSkyborne,600,10000,480.2,0.0
+shaman,Enhancement preset,light,Dwarf,120,10000,617.6,38.4
+shaman,Enhancement preset,light,Dwarf,300,10000,604.1,92.2
+shaman,Enhancement preset,light,Dwarf,600,10000,586.2,259.7
+shaman,Enhancement preset,light,Orc,120,10000,619.0,38.4
+shaman,Enhancement preset,light,Orc,300,10000,606.4,92.7
+shaman,Enhancement preset,light,Orc,600,10000,587.7,259.5
+shaman,Enhancement preset,light,Tauren,120,10000,619.2,39.0
+shaman,Enhancement preset,light,Tauren,300,10000,606.1,93.6
+shaman,Enhancement preset,light,Tauren,600,10000,588.3,260.8
+shaman,Enhancement preset,light,Troll,120,10000,617.2,38.7
+shaman,Enhancement preset,light,Troll,300,10000,604.4,92.8
+shaman,Enhancement preset,light,Troll,600,10000,586.7,260.4
+shaman,Enhancement preset,light,WindshaperSkyborne,120,10000,623.0,38.4
+shaman,Enhancement preset,light,WindshaperSkyborne,300,10000,610.0,91.1
+shaman,Enhancement preset,light,WindshaperSkyborne,600,10000,591.7,258.1
+shaman,Enhancement preset,full,Dwarf,120,10000,746.6,0.0
+shaman,Enhancement preset,full,Dwarf,300,10000,730.8,0.0
+shaman,Enhancement preset,full,Dwarf,600,10000,726.4,0.0
+shaman,Enhancement preset,full,Orc,120,10000,748.8,0.0
+shaman,Enhancement preset,full,Orc,300,10000,733.6,0.0
+shaman,Enhancement preset,full,Orc,600,10000,728.4,0.0
+shaman,Enhancement preset,full,Tauren,120,10000,749.4,0.0
+shaman,Enhancement preset,full,Tauren,300,10000,733.7,0.0
+shaman,Enhancement preset,full,Tauren,600,10000,729.7,0.0
+shaman,Enhancement preset,full,Troll,120,10000,747.4,0.0
+shaman,Enhancement preset,full,Troll,300,10000,731.2,0.0
+shaman,Enhancement preset,full,Troll,600,10000,725.8,0.0
+shaman,Enhancement preset,full,WindshaperSkyborne,120,10000,753.3,0.0
+shaman,Enhancement preset,full,WindshaperSkyborne,300,10000,736.8,0.0
+shaman,Enhancement preset,full,WindshaperSkyborne,600,10000,732.3,0.0
+shaman,Enhancement 8/36/7,light,Dwarf,120,10000,640.4,0.0
+shaman,Enhancement 8/36/7,light,Dwarf,300,10000,595.0,51.6
+shaman,Enhancement 8/36/7,light,Dwarf,600,10000,578.2,152.5
+shaman,Enhancement 8/36/7,light,Orc,120,10000,642.2,0.0
+shaman,Enhancement 8/36/7,light,Orc,300,10000,597.1,51.8
+shaman,Enhancement 8/36/7,light,Orc,600,10000,580.1,152.4
+shaman,Enhancement 8/36/7,light,Tauren,120,10000,642.8,0.0
+shaman,Enhancement 8/36/7,light,Tauren,300,10000,597.3,52.0
+shaman,Enhancement 8/36/7,light,Tauren,600,10000,581.2,152.6
+shaman,Enhancement 8/36/7,light,Troll,120,10000,642.3,0.0
+shaman,Enhancement 8/36/7,light,Troll,300,10000,595.9,52.2
+shaman,Enhancement 8/36/7,light,Troll,600,10000,579.1,153.4
+shaman,Enhancement 8/36/7,light,WindshaperSkyborne,120,10000,648.4,0.0
+shaman,Enhancement 8/36/7,light,WindshaperSkyborne,300,10000,602.2,53.6
+shaman,Enhancement 8/36/7,light,WindshaperSkyborne,600,10000,585.1,158.0
+shaman,Enhancement 8/36/7,full,Dwarf,120,10000,716.2,0.0
+shaman,Enhancement 8/36/7,full,Dwarf,300,10000,706.5,0.0
+shaman,Enhancement 8/36/7,full,Dwarf,600,10000,705.7,0.0
+shaman,Enhancement 8/36/7,full,Orc,120,10000,719.7,0.0
+shaman,Enhancement 8/36/7,full,Orc,300,10000,709.8,0.0
+shaman,Enhancement 8/36/7,full,Orc,600,10000,708.5,0.0
+shaman,Enhancement 8/36/7,full,Tauren,120,10000,720.1,0.0
+shaman,Enhancement 8/36/7,full,Tauren,300,10000,709.8,0.0
+shaman,Enhancement 8/36/7,full,Tauren,600,10000,709.4,0.0
+shaman,Enhancement 8/36/7,full,Troll,120,10000,718.9,0.0
+shaman,Enhancement 8/36/7,full,Troll,300,10000,707.5,0.0
+shaman,Enhancement 8/36/7,full,Troll,600,10000,706.7,0.0
+shaman,Enhancement 8/36/7,full,WindshaperSkyborne,120,10000,727.4,0.0
+shaman,Enhancement 8/36/7,full,WindshaperSkyborne,300,10000,717.8,0.0
+shaman,Enhancement 8/36/7,full,WindshaperSkyborne,600,10000,717.4,0.0
+shaman,Enhancement 8/32/11,light,Dwarf,120,10000,628.6,0.0
+shaman,Enhancement 8/32/11,light,Dwarf,300,10000,619.8,0.2
+shaman,Enhancement 8/32/11,light,Dwarf,600,10000,611.1,33.3
+shaman,Enhancement 8/32/11,light,Orc,120,10000,630.7,0.0
+shaman,Enhancement 8/32/11,light,Orc,300,10000,622.4,0.2
+shaman,Enhancement 8/32/11,light,Orc,600,10000,613.1,33.0
+shaman,Enhancement 8/32/11,light,Tauren,120,10000,631.3,0.0
+shaman,Enhancement 8/32/11,light,Tauren,300,10000,622.6,0.2
+shaman,Enhancement 8/32/11,light,Tauren,600,10000,613.8,34.2
+shaman,Enhancement 8/32/11,light,Troll,120,10000,631.2,0.0
+shaman,Enhancement 8/32/11,light,Troll,300,10000,620.6,0.2
+shaman,Enhancement 8/32/11,light,Troll,600,10000,611.7,34.7
+shaman,Enhancement 8/32/11,light,WindshaperSkyborne,120,10000,638.1,0.0
+shaman,Enhancement 8/32/11,light,WindshaperSkyborne,300,10000,629.1,0.4
+shaman,Enhancement 8/32/11,light,WindshaperSkyborne,600,10000,618.6,39.6
+shaman,Enhancement 8/32/11,full,Dwarf,120,10000,703.8,0.0
+shaman,Enhancement 8/32/11,full,Dwarf,300,10000,693.3,0.0
+shaman,Enhancement 8/32/11,full,Dwarf,600,10000,692.3,0.0
+shaman,Enhancement 8/32/11,full,Orc,120,10000,707.6,0.0
+shaman,Enhancement 8/32/11,full,Orc,300,10000,697.5,0.0
+shaman,Enhancement 8/32/11,full,Orc,600,10000,695.3,0.0
+shaman,Enhancement 8/32/11,full,Tauren,120,10000,708.3,0.0
+shaman,Enhancement 8/32/11,full,Tauren,300,10000,697.9,0.0
+shaman,Enhancement 8/32/11,full,Tauren,600,10000,696.8,0.0
+shaman,Enhancement 8/32/11,full,Troll,120,10000,705.3,0.0
+shaman,Enhancement 8/32/11,full,Troll,300,10000,694.0,0.0
+shaman,Enhancement 8/32/11,full,Troll,600,10000,693.4,0.0
+shaman,Enhancement 8/32/11,full,WindshaperSkyborne,120,10000,714.1,0.0
+shaman,Enhancement 8/32/11,full,WindshaperSkyborne,300,10000,704.3,0.0
+shaman,Enhancement 8/32/11,full,WindshaperSkyborne,600,10000,703.9,0.0
+shaman,Elemental preset,light,Dwarf,120,10000,546.8,0.3
+shaman,Elemental preset,light,Dwarf,300,10000,459.6,0.3
+shaman,Elemental preset,light,Dwarf,600,10000,456.4,2.3
+shaman,Elemental preset,light,Orc,120,10000,543.2,0.3
+shaman,Elemental preset,light,Orc,300,10000,458.6,0.3
+shaman,Elemental preset,light,Orc,600,10000,455.4,2.2
+shaman,Elemental preset,light,Tauren,120,10000,543.8,0.3
+shaman,Elemental preset,light,Tauren,300,10000,458.5,0.4
+shaman,Elemental preset,light,Tauren,600,10000,455.6,2.3
+shaman,Elemental preset,light,Troll,120,10000,543.8,0.3
+shaman,Elemental preset,light,Troll,300,10000,457.5,0.4
+shaman,Elemental preset,light,Troll,600,10000,454.7,2.4
+shaman,Elemental preset,light,WindshaperSkyborne,120,10000,549.2,0.6
+shaman,Elemental preset,light,WindshaperSkyborne,300,10000,461.6,0.4
+shaman,Elemental preset,light,WindshaperSkyborne,600,10000,459.0,2.6
+shaman,Elemental preset,full,Dwarf,120,10000,648.1,0.0
+shaman,Elemental preset,full,Dwarf,300,10000,557.7,0.0
+shaman,Elemental preset,full,Dwarf,600,10000,526.1,0.1
+shaman,Elemental preset,full,Orc,120,10000,644.5,0.0
+shaman,Elemental preset,full,Orc,300,10000,555.1,0.0
+shaman,Elemental preset,full,Orc,600,10000,523.7,0.2
+shaman,Elemental preset,full,Tauren,120,10000,647.3,0.0
+shaman,Elemental preset,full,Tauren,300,10000,556.1,0.0
+shaman,Elemental preset,full,Tauren,600,10000,525.2,0.2
+shaman,Elemental preset,full,Troll,120,10000,646.4,0.0
+shaman,Elemental preset,full,Troll,300,10000,553.4,0.0
+shaman,Elemental preset,full,Troll,600,10000,523.7,0.2
+shaman,Elemental preset,full,WindshaperSkyborne,120,10000,650.1,0.0
+shaman,Elemental preset,full,WindshaperSkyborne,300,10000,559.5,0.0
+shaman,Elemental preset,full,WindshaperSkyborne,600,10000,528.7,0.2
+shaman,29/22 weave,light,Dwarf,120,10000,531.6,41.3
+shaman,29/22 weave,light,Dwarf,300,10000,457.1,158.5
+shaman,29/22 weave,light,Dwarf,600,10000,393.8,395.6
+shaman,29/22 weave,light,Orc,120,10000,527.5,41.5
+shaman,29/22 weave,light,Orc,300,10000,454.9,158.5
+shaman,29/22 weave,light,Orc,600,10000,391.7,395.1
+shaman,29/22 weave,light,Tauren,120,10000,526.4,41.5
+shaman,29/22 weave,light,Tauren,300,10000,453.7,158.6
+shaman,29/22 weave,light,Tauren,600,10000,391.1,395.4
+shaman,29/22 weave,light,Troll,120,10000,522.9,41.7
+shaman,29/22 weave,light,Troll,300,10000,451.0,159.0
+shaman,29/22 weave,light,Troll,600,10000,389.0,396.1
+shaman,29/22 weave,light,WindshaperSkyborne,120,10000,522.6,42.4
+shaman,29/22 weave,light,WindshaperSkyborne,300,10000,452.7,160.7
+shaman,29/22 weave,light,WindshaperSkyborne,600,10000,390.8,398.2
+shaman,29/22 weave,full,Dwarf,120,10000,727.3,0.0
+shaman,29/22 weave,full,Dwarf,300,10000,689.2,37.5
+shaman,29/22 weave,full,Dwarf,600,10000,662.6,135.7
+shaman,29/22 weave,full,Orc,120,10000,723.2,0.0
+shaman,29/22 weave,full,Orc,300,10000,685.6,38.5
+shaman,29/22 weave,full,Orc,600,10000,657.7,137.3
+shaman,29/22 weave,full,Tauren,120,10000,726.0,0.0
+shaman,29/22 weave,full,Tauren,300,10000,686.6,38.9
+shaman,29/22 weave,full,Tauren,600,10000,660.2,137.9
+shaman,29/22 weave,full,Troll,120,10000,719.8,0.0
+shaman,29/22 weave,full,Troll,300,10000,684.7,37.4
+shaman,29/22 weave,full,Troll,600,10000,657.2,136.0
+shaman,29/22 weave,full,WindshaperSkyborne,120,10000,713.7,0.0
+shaman,29/22 weave,full,WindshaperSkyborne,300,10000,680.8,40.4
+shaman,29/22 weave,full,WindshaperSkyborne,600,10000,655.3,143.9
+warlock,Affliction,light,Human,120,10000,580.8,2.5
+warlock,Affliction,light,Human,300,10000,585.0,6.9
+warlock,Affliction,light,Human,600,10000,582.2,15.4
+warlock,Affliction,light,Gnome,120,10000,569.8,2.5
+warlock,Affliction,light,Gnome,300,10000,573.3,6.5
+warlock,Affliction,light,Gnome,600,10000,570.3,13.9
+warlock,Affliction,light,Orc,120,10000,568.7,2.2
+warlock,Affliction,light,Orc,300,10000,576.2,8.8
+warlock,Affliction,light,Orc,600,10000,573.0,18.0
+warlock,Affliction,light,Undead,120,10000,572.2,2.1
+warlock,Affliction,light,Undead,300,10000,577.1,8.5
+warlock,Affliction,light,Undead,600,10000,573.9,16.8
+warlock,Affliction,light,Troll,120,10000,569.8,2.4
+warlock,Affliction,light,Troll,300,10000,573.0,8.4
+warlock,Affliction,light,Troll,600,10000,570.6,17.9
+warlock,Affliction,full,Human,120,10000,675.1,1.6
+warlock,Affliction,full,Human,300,10000,671.7,5.0
+warlock,Affliction,full,Human,600,10000,668.0,11.7
+warlock,Affliction,full,Gnome,120,10000,663.0,1.2
+warlock,Affliction,full,Gnome,300,10000,659.2,3.7
+warlock,Affliction,full,Gnome,600,10000,655.3,8.5
+warlock,Affliction,full,Orc,120,10000,662.1,1.6
+warlock,Affliction,full,Orc,300,10000,662.1,5.3
+warlock,Affliction,full,Orc,600,10000,658.0,12.4
+warlock,Affliction,full,Undead,120,10000,666.6,1.6
+warlock,Affliction,full,Undead,300,10000,663.3,5.2
+warlock,Affliction,full,Undead,600,10000,659.7,12.2
+warlock,Affliction,full,Troll,120,10000,663.4,1.6
+warlock,Affliction,full,Troll,300,10000,658.1,5.3
+warlock,Affliction,full,Troll,600,10000,655.1,12.4
+warlock,Destruction,light,Human,120,10000,491.5,0.7
+warlock,Destruction,light,Human,300,10000,493.4,2.1
+warlock,Destruction,light,Human,600,10000,488.7,4.6
+warlock,Destruction,light,Gnome,120,10000,487.9,0.5
+warlock,Destruction,light,Gnome,300,10000,486.7,0.5
+warlock,Destruction,light,Gnome,600,10000,481.1,1.0
+warlock,Destruction,light,Orc,120,10000,483.7,0.7
+warlock,Destruction,light,Orc,300,10000,487.6,2.6
+warlock,Destruction,light,Orc,600,10000,482.4,5.4
+warlock,Destruction,light,Undead,120,10000,486.9,0.6
+warlock,Destruction,light,Undead,300,10000,489.1,2.6
+warlock,Destruction,light,Undead,600,10000,484.2,5.4
+warlock,Destruction,light,Troll,120,10000,483.3,0.7
+warlock,Destruction,light,Troll,300,10000,484.5,2.3
+warlock,Destruction,light,Troll,600,10000,479.9,5.2
+warlock,Destruction,full,Human,120,10000,574.1,0.2
+warlock,Destruction,full,Human,300,10000,568.1,0.2
+warlock,Destruction,full,Human,600,10000,561.6,0.2
+warlock,Destruction,full,Gnome,120,10000,567.7,0.2
+warlock,Destruction,full,Gnome,300,10000,560.7,0.1
+warlock,Destruction,full,Gnome,600,10000,553.5,0.1
+warlock,Destruction,full,Orc,120,10000,564.6,0.2
+warlock,Destruction,full,Orc,300,10000,562.0,0.3
+warlock,Destruction,full,Orc,600,10000,555.2,0.4
+warlock,Destruction,full,Undead,120,10000,569.3,0.2
+warlock,Destruction,full,Undead,300,10000,563.7,0.2
+warlock,Destruction,full,Undead,600,10000,557.5,0.4
+warlock,Destruction,full,Troll,120,10000,563.9,0.2
+warlock,Destruction,full,Troll,300,10000,558.2,0.3
+warlock,Destruction,full,Troll,600,10000,552.1,0.5
+warrior,Fury,light,Human,120,10000,504.7,0.0
+warrior,Fury,light,Human,300,10000,470.5,0.0
+warrior,Fury,light,Human,600,10000,460.1,0.0
+warrior,Fury,light,Dwarf,120,10000,496.6,0.0
+warrior,Fury,light,Dwarf,300,10000,459.3,0.0
+warrior,Fury,light,Dwarf,600,10000,449.0,0.0
+warrior,Fury,light,NightElf,120,10000,504.3,0.0
+warrior,Fury,light,NightElf,300,10000,466.1,0.0
+warrior,Fury,light,NightElf,600,10000,454.6,0.0
+warrior,Fury,light,Gnome,120,10000,496.0,0.0
+warrior,Fury,light,Gnome,300,10000,459.6,0.0
+warrior,Fury,light,Gnome,600,10000,448.0,0.0
+warrior,Fury,light,HighOrderSkyborne,120,10000,500.5,0.0
+warrior,Fury,light,HighOrderSkyborne,300,10000,464.4,0.0
+warrior,Fury,light,HighOrderSkyborne,600,10000,453.5,0.0
+warrior,Fury,light,Orc,120,10000,495.3,0.0
+warrior,Fury,light,Orc,300,10000,461.1,0.0
+warrior,Fury,light,Orc,600,10000,450.0,0.0
+warrior,Fury,light,Undead,120,10000,499.4,0.0
+warrior,Fury,light,Undead,300,10000,462.7,0.0
+warrior,Fury,light,Undead,600,10000,452.2,0.0
+warrior,Fury,light,Tauren,120,10000,498.7,0.0
+warrior,Fury,light,Tauren,300,10000,461.8,0.0
+warrior,Fury,light,Tauren,600,10000,450.8,0.0
+warrior,Fury,light,Troll,120,10000,498.6,0.0
+warrior,Fury,light,Troll,300,10000,461.4,0.0
+warrior,Fury,light,Troll,600,10000,450.1,0.0
+warrior,Fury,light,WindshaperSkyborne,120,10000,500.5,0.0
+warrior,Fury,light,WindshaperSkyborne,300,10000,464.4,0.0
+warrior,Fury,light,WindshaperSkyborne,600,10000,453.5,0.0
+warrior,Fury,full,Human,120,10000,680.7,0.0
+warrior,Fury,full,Human,300,10000,641.1,0.0
+warrior,Fury,full,Human,600,10000,628.6,0.0
+warrior,Fury,full,Dwarf,120,10000,670.7,0.0
+warrior,Fury,full,Dwarf,300,10000,628.1,0.0
+warrior,Fury,full,Dwarf,600,10000,614.2,0.0
+warrior,Fury,full,NightElf,120,10000,680.7,0.0
+warrior,Fury,full,NightElf,300,10000,636.3,0.0
+warrior,Fury,full,NightElf,600,10000,622.0,0.0
+warrior,Fury,full,Gnome,120,10000,668.8,0.0
+warrior,Fury,full,Gnome,300,10000,627.0,0.0
+warrior,Fury,full,Gnome,600,10000,612.4,0.0
+warrior,Fury,full,HighOrderSkyborne,120,10000,674.9,0.0
+warrior,Fury,full,HighOrderSkyborne,300,10000,634.3,0.0
+warrior,Fury,full,HighOrderSkyborne,600,10000,619.8,0.0
+warrior,Fury,full,Orc,120,10000,669.4,0.0
+warrior,Fury,full,Orc,300,10000,629.6,0.0
+warrior,Fury,full,Orc,600,10000,614.7,0.0
+warrior,Fury,full,Undead,120,10000,673.7,0.0
+warrior,Fury,full,Undead,300,10000,631.5,0.0
+warrior,Fury,full,Undead,600,10000,617.4,0.0
+warrior,Fury,full,Tauren,120,10000,673.5,0.0
+warrior,Fury,full,Tauren,300,10000,630.1,0.0
+warrior,Fury,full,Tauren,600,10000,615.9,0.0
+warrior,Fury,full,Troll,120,10000,672.6,0.0
+warrior,Fury,full,Troll,300,10000,629.5,0.0
+warrior,Fury,full,Troll,600,10000,615.8,0.0
+warrior,Fury,full,WindshaperSkyborne,120,10000,674.9,0.0
+warrior,Fury,full,WindshaperSkyborne,300,10000,634.3,0.0
+warrior,Fury,full,WindshaperSkyborne,600,10000,619.8,0.0
+warrior,Arms,light,Human,120,10000,400.8,0.0
+warrior,Arms,light,Human,300,10000,394.4,0.0
+warrior,Arms,light,Human,600,10000,390.9,0.0
+warrior,Arms,light,Dwarf,120,10000,391.7,0.0
+warrior,Arms,light,Dwarf,300,10000,384.9,0.0
+warrior,Arms,light,Dwarf,600,10000,381.5,0.0
+warrior,Arms,light,NightElf,120,10000,399.1,0.0
+warrior,Arms,light,NightElf,300,10000,390.8,0.0
+warrior,Arms,light,NightElf,600,10000,387.0,0.0
+warrior,Arms,light,Gnome,120,10000,394.5,0.0
+warrior,Arms,light,Gnome,300,10000,387.5,0.0
+warrior,Arms,light,Gnome,600,10000,383.6,0.0
+warrior,Arms,light,HighOrderSkyborne,120,10000,390.5,0.0
+warrior,Arms,light,HighOrderSkyborne,300,10000,387.7,0.0
+warrior,Arms,light,HighOrderSkyborne,600,10000,386.8,0.0
+warrior,Arms,light,Orc,120,10000,393.4,0.0
+warrior,Arms,light,Orc,300,10000,388.0,0.0
+warrior,Arms,light,Orc,600,10000,384.3,0.0
+warrior,Arms,light,Undead,120,10000,397.5,0.0
+warrior,Arms,light,Undead,300,10000,390.7,0.0
+warrior,Arms,light,Undead,600,10000,387.5,0.0
+warrior,Arms,light,Tauren,120,10000,396.2,0.0
+warrior,Arms,light,Tauren,300,10000,389.3,0.0
+warrior,Arms,light,Tauren,600,10000,385.9,0.0
+warrior,Arms,light,Troll,120,10000,393.0,0.0
+warrior,Arms,light,Troll,300,10000,385.3,0.0
+warrior,Arms,light,Troll,600,10000,384.0,0.0
+warrior,Arms,light,WindshaperSkyborne,120,10000,390.5,0.0
+warrior,Arms,light,WindshaperSkyborne,300,10000,387.7,0.0
+warrior,Arms,light,WindshaperSkyborne,600,10000,386.8,0.0
+warrior,Arms,full,Human,120,10000,608.0,0.0
+warrior,Arms,full,Human,300,10000,599.1,0.0
+warrior,Arms,full,Human,600,10000,595.1,0.0
+warrior,Arms,full,Dwarf,120,10000,594.2,0.0
+warrior,Arms,full,Dwarf,300,10000,585.5,0.0
+warrior,Arms,full,Dwarf,600,10000,581.7,0.0
+warrior,Arms,full,NightElf,120,10000,604.9,0.0
+warrior,Arms,full,NightElf,300,10000,594.4,0.0
+warrior,Arms,full,NightElf,600,10000,589.5,0.0
+warrior,Arms,full,Gnome,120,10000,597.5,0.0
+warrior,Arms,full,Gnome,300,10000,589.1,0.0
+warrior,Arms,full,Gnome,600,10000,583.6,0.0
+warrior,Arms,full,HighOrderSkyborne,120,10000,594.9,0.0
+warrior,Arms,full,HighOrderSkyborne,300,10000,591.1,0.0
+warrior,Arms,full,HighOrderSkyborne,600,10000,589.1,0.0
+warrior,Arms,full,Orc,120,10000,597.2,0.0
+warrior,Arms,full,Orc,300,10000,590.6,0.0
+warrior,Arms,full,Orc,600,10000,586.2,0.0
+warrior,Arms,full,Undead,120,10000,601.9,0.0
+warrior,Arms,full,Undead,300,10000,593.5,0.0
+warrior,Arms,full,Undead,600,10000,589.1,0.0
+warrior,Arms,full,Tauren,120,10000,601.4,0.0
+warrior,Arms,full,Tauren,300,10000,592.5,0.0
+warrior,Arms,full,Tauren,600,10000,588.6,0.0
+warrior,Arms,full,Troll,120,10000,597.5,0.0
+warrior,Arms,full,Troll,300,10000,588.3,0.0
+warrior,Arms,full,Troll,600,10000,585.4,0.0
+warrior,Arms,full,WindshaperSkyborne,120,10000,594.9,0.0
+warrior,Arms,full,WindshaperSkyborne,300,10000,591.1,0.0
+warrior,Arms,full,WindshaperSkyborne,600,10000,589.1,0.0

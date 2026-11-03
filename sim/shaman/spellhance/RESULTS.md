@@ -133,6 +133,84 @@ Forever item data (8/36/7's for every Enhancement build), as the default Skyborn
   power on ranks well below your level, with unknown thresholds. If that applies, Elemental's long-fight numbers here
   are too high, in every run.
 
+## Run 7: what each change is worth (`ablation-results.csv`, `TestNov2Ablation`)
+
+Every build ran with all the changes, then once with each change undone and the rest kept
+(`shaman.SetNov2Change`; `TestNov2ChangesUndo` checks each undo lands on the client's numbers). The cells are the DPS a
+build loses with that change undone, full raid, 5 min (L = launch gear, BiS = its Forever BiS set):
+
+| Change undone | Enh preset L | 8/36/7 L | Ele L | 29/22 L | Enh preset BiS | 8/36/7 BiS | Ele BiS | 29/22 BiS |
+|---|---|---|---|---|---|---|---|---|
+| DPS with every change | 737 | 718 | 560 | 650 | 1058 | 1074 | 850 | 1006 |
+| Lightning Bolt damage | 3.8% | 4.0% | 6.6% | 9.1% | 2.3% | 2.4% | 6.5% | 5.5% |
+| Chain Lightning rework | 0 | 0 | 2.1% | 0 | 0 | 0 | 1.4% | 0 |
+| Shocks at Classic Era damage | 6.6% | 6.0% | 4.3% | 6.9% | 4.5% | 3.9% | 3.2% | 5.6% |
+| Lightning Overload 10/20/30% | 0 | 0 | 5.7% | 4.6% | 0 | 0 | 6.3% | 2.8% |
+| Call of Thunder | 0 | 0 | 2.9% | 1.9% | 0 | 0 | 3.0% | 1.3% |
+| Maelstrom Weapon procs doubled | 5.2% | 5.6% | 0 | 0 | 3.4% | 2.5% | 0 | 0 |
+| Stormstrike 150% | 4.7% | 4.8% | 0 | 2.4% | 6.4% | 6.1% | 0 | 4.6% |
+| Stormstrike 6 s cooldown | 5.7% | 8.0% | 0 | −3.3% | 6.7% | 5.6% | 0 | 12.7% |
+| Mental Dexterity 50/100/150% | 2.1% | 2.4% | 0 | 1.8% | 3.3% | 3.6% | 0 | 2.5% |
+| Flurry 6–30% | 1.5% | 3.0% | 0 | 0.1% | 1.6% | 3.2% | 0 | 1.2% |
+
+- **Enhancement's biggest single changes are Stormstrike's two:** 150% and the 6 s cooldown are each worth 5–8%, and
+  together they double Stormstrike's damage per second (1.5 × 8/6). Then Maelstrom (3–7%, more with lighter buffs and on
+  launch gear).
+- **The shared changes are as big as either:** Classic shocks 4–7% for every build; the Lightning Bolt buff 2–5% for
+  Enhancement (its Maelstrom bolts) and 6–7% for Elemental at 5 min, 10% at 2 min.
+- **Elemental's own changes add up to less:** Lightning Overload about 6%, Call of Thunder 3%, Chain Lightning 1–2%.
+  Elemental also lost Lava Burst, which no row here prices: every variant runs without it.
+- **The 6 s Stormstrike cooldown costs 29/22 damage on launch gear** (−3% full raid, −6% lighter): each Stormstrike costs
+  8% of base mana, and 29/22 is out of mana there. On its BiS set in a full raid, where mana holds, it's 29/22's
+  biggest gain (+13%).
+- The changes overlap, so the cells don't add up to the total gain exactly. Lighter buffs move the same way; the CSV
+  has them, and 2-minute fights.
+
+## Run 7: shaman against the other classes (`class-compare-results.csv`, `sim/classcompare`)
+
+**An upper bound, not a forecast.** Only shaman has the 2 November changes; every other class is as the engine had it
+before them. The run:
+- Every DPS spec's own launch gear, talents and rotation (the engine's presets).
+- Every race the engine allows its class, both factions; each spec keeps its best.
+- The same buffs as the shaman runs, at both levels.
+- One consumable policy for everyone: each preset's own, with empty slots filled by its role's standard (caster or
+  physical elixirs, food, and mana potions and runes for mana users).
+- 10,000 iterations, seed 7.
+- The shaman rows reproduce the Spellhance numbers to 0.1 DPS.
+
+**Full raid, launch gear, 5 min, best race:**
+
+| Spec | DPS | | Spec | DPS |
+|---|---|---|---|---|
+| Shadow priest | 770 | | Retribution | 564 |
+| **Enhancement preset** | **737** | | **Elemental preset** | **560** |
+| **8/36/7** | **718** | | Assassination | 553 |
+| **8/32/11 Water Shield** | **704** | | Arcane | 549 |
+| **29/22 weave** (Dwarf) | **689** | | Combat | 545 |
+| Fire mage | 686 | | Beast Mastery | 544 |
+| Affliction | 672 | | Frost mage | 537 |
+| Fury | 641 | | Marksmanship | 490 |
+| Arms | 599 | | Subtlety | 485 |
+| Feral | 596 | | Smite | 477 |
+| Balance | 596 | | Survival | 454 |
+| Destruction | 568 | | | |
+
+- **Enhancement is second, at 96% of Shadow; Elemental is mid-pack, at 73%.** With the re-tuned mana gate,
+  Elemental's 635 would sit just below Fury (641).
+- **With lighter buffs the order is similar:** Shadow 672, then the three Enhancement builds at 602–629 (90–94%),
+  Affliction 585, and Elemental at 462 (69%) in the middle.
+- **Before the 2 November changes** (run 6's numbers, same harness), the Enhancement preset's 559 would have sat around
+  tenth, just below Retribution, and Elemental's 468 second to last.
+- **How far to trust the order:**
+  - Shadow is all but untouched in the notes (Shadow Word: Death self-damage, Vampiric Embrace crits), so the gap to
+    it is close to exact.
+  - The specs just below shaman mostly gained: Destruction's Shadow and Flame doubled, Affliction's Wrack coefficient
+    doubled, and warriors got Flurry 30%, Improved Whirlwind and 6% two-handed damage. Fire lost crit (Critical Mass
+    10% → 6%). Rogue's rework isn't sized.
+  - Human wins most of the other rows, and the engine still gives Human 2% crit from Ruthless; the 26 October notes
+    cut it to 1%. Those rows are slightly high.
+  - Each spec plays the engine's preset rotation, which is tuned more for some classes than others.
+
 ## Run 7: the tuning package and resists
 
 - **The Elemental Fury package no longer balances long fights** (`tuning-results.csv`; +1% crit per rank, 2.5×

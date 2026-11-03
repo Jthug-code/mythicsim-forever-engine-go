@@ -1,0 +1,353 @@
+buffs,undone,build,gear,duration_s,dps,seconds_oom
+light,none,Enh preset 19/32/0,enh_launch_1h,120,623.0,38.4
+light,none,Enh preset 19/32/0,enh_launch_1h,300,610.0,91.1
+light,none,8/36/7 no hard casts,enh_launch_1h,120,648.4,0.0
+light,none,8/36/7 no hard casts,enh_launch_1h,300,602.2,53.6
+light,none,Ele preset 32/0/19,ele_launch,120,549.2,0.6
+light,none,Ele preset 32/0/19,ele_launch,300,461.6,0.4
+light,none,29/22 weave,ele_launch,120,515.0,36.1
+light,none,29/22 weave,ele_launch,300,430.5,154.0
+light,none,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,961.2,9.2
+light,none,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,925.8,46.7
+light,none,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,979.7,0.0
+light,none,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,972.0,3.7
+light,none,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,876.1,0.4
+light,none,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,729.0,0.2
+light,none,29/22 weave,testdata/forever-hyb-bis.gear.json,120,936.7,0.3
+light,none,29/22 weave,testdata/forever-hyb-bis.gear.json,300,794.4,82.5
+light,Lightning Bolt damage,Enh preset 19/32/0,enh_launch_1h,120,595.5,38.4
+light,Lightning Bolt damage,Enh preset 19/32/0,enh_launch_1h,300,581.9,91.1
+light,Lightning Bolt damage,8/36/7 no hard casts,enh_launch_1h,120,620.3,0.0
+light,Lightning Bolt damage,8/36/7 no hard casts,enh_launch_1h,300,573.9,53.6
+light,Lightning Bolt damage,Ele preset 32/0/19,ele_launch,120,491.7,0.6
+light,Lightning Bolt damage,Ele preset 32/0/19,ele_launch,300,451.6,0.4
+light,Lightning Bolt damage,29/22 weave,ele_launch,120,471.0,36.1
+light,Lightning Bolt damage,29/22 weave,ele_launch,300,400.7,154.0
+light,Lightning Bolt damage,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,937.6,9.2
+light,Lightning Bolt damage,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,901.5,46.7
+light,Lightning Bolt damage,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,953.7,0.0
+light,Lightning Bolt damage,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,946.1,3.7
+light,Lightning Bolt damage,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,784.6,0.4
+light,Lightning Bolt damage,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,710.6,0.2
+light,Lightning Bolt damage,29/22 weave,testdata/forever-hyb-bis.gear.json,120,884.8,0.3
+light,Lightning Bolt damage,29/22 weave,testdata/forever-hyb-bis.gear.json,300,758.1,82.5
+light,Chain Lightning rework,Enh preset 19/32/0,enh_launch_1h,120,623.0,38.4
+light,Chain Lightning rework,Enh preset 19/32/0,enh_launch_1h,300,610.0,91.1
+light,Chain Lightning rework,8/36/7 no hard casts,enh_launch_1h,120,648.4,0.0
+light,Chain Lightning rework,8/36/7 no hard casts,enh_launch_1h,300,602.2,53.6
+light,Chain Lightning rework,Ele preset 32/0/19,ele_launch,120,537.4,0.3
+light,Chain Lightning rework,Ele preset 32/0/19,ele_launch,300,449.8,0.4
+light,Chain Lightning rework,29/22 weave,ele_launch,120,515.0,36.1
+light,Chain Lightning rework,29/22 weave,ele_launch,300,430.5,154.0
+light,Chain Lightning rework,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,961.2,9.2
+light,Chain Lightning rework,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,925.8,46.7
+light,Chain Lightning rework,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,979.7,0.0
+light,Chain Lightning rework,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,972.0,3.7
+light,Chain Lightning rework,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,867.6,0.2
+light,Chain Lightning rework,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,718.3,0.2
+light,Chain Lightning rework,29/22 weave,testdata/forever-hyb-bis.gear.json,120,936.7,0.3
+light,Chain Lightning rework,29/22 weave,testdata/forever-hyb-bis.gear.json,300,794.4,82.5
+light,Shocks at Classic Era damage,Enh preset 19/32/0,enh_launch_1h,120,588.7,38.4
+light,Shocks at Classic Era damage,Enh preset 19/32/0,enh_launch_1h,300,573.6,91.1
+light,Shocks at Classic Era damage,8/36/7 no hard casts,enh_launch_1h,120,605.5,0.0
+light,Shocks at Classic Era damage,8/36/7 no hard casts,enh_launch_1h,300,571.8,53.6
+light,Shocks at Classic Era damage,Ele preset 32/0/19,ele_launch,120,526.7,0.6
+light,Shocks at Classic Era damage,Ele preset 32/0/19,ele_launch,300,438.4,0.4
+light,Shocks at Classic Era damage,29/22 weave,ele_launch,120,481.1,36.1
+light,Shocks at Classic Era damage,29/22 weave,ele_launch,300,404.9,154.0
+light,Shocks at Classic Era damage,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,917.3,9.2
+light,Shocks at Classic Era damage,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,884.3,46.7
+light,Shocks at Classic Era damage,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,938.9,0.0
+light,Shocks at Classic Era damage,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,931.6,3.7
+light,Shocks at Classic Era damage,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,849.6,0.4
+light,Shocks at Classic Era damage,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,702.2,0.2
+light,Shocks at Classic Era damage,29/22 weave,testdata/forever-hyb-bis.gear.json,120,882.6,0.3
+light,Shocks at Classic Era damage,29/22 weave,testdata/forever-hyb-bis.gear.json,300,756.7,82.5
+light,Lightning Overload 10/20/30%,Enh preset 19/32/0,enh_launch_1h,120,623.0,38.4
+light,Lightning Overload 10/20/30%,Enh preset 19/32/0,enh_launch_1h,300,610.0,91.1
+light,Lightning Overload 10/20/30%,8/36/7 no hard casts,enh_launch_1h,120,648.4,0.0
+light,Lightning Overload 10/20/30%,8/36/7 no hard casts,enh_launch_1h,300,602.2,53.6
+light,Lightning Overload 10/20/30%,Ele preset 32/0/19,ele_launch,120,514.7,0.6
+light,Lightning Overload 10/20/30%,Ele preset 32/0/19,ele_launch,300,436.7,0.5
+light,Lightning Overload 10/20/30%,29/22 weave,ele_launch,120,492.0,36.9
+light,Lightning Overload 10/20/30%,29/22 weave,ele_launch,300,414.9,155.2
+light,Lightning Overload 10/20/30%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,961.2,9.2
+light,Lightning Overload 10/20/30%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,925.8,46.7
+light,Lightning Overload 10/20/30%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,979.7,0.0
+light,Lightning Overload 10/20/30%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,972.0,3.7
+light,Lightning Overload 10/20/30%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,817.5,0.4
+light,Lightning Overload 10/20/30%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,685.0,0.2
+light,Lightning Overload 10/20/30%,29/22 weave,testdata/forever-hyb-bis.gear.json,120,911.2,0.4
+light,Lightning Overload 10/20/30%,29/22 weave,testdata/forever-hyb-bis.gear.json,300,774.2,83.8
+light,Call of Thunder,Enh preset 19/32/0,enh_launch_1h,120,623.0,38.4
+light,Call of Thunder,Enh preset 19/32/0,enh_launch_1h,300,610.0,91.1
+light,Call of Thunder,8/36/7 no hard casts,enh_launch_1h,120,648.4,0.0
+light,Call of Thunder,8/36/7 no hard casts,enh_launch_1h,300,602.2,53.6
+light,Call of Thunder,Ele preset 32/0/19,ele_launch,120,532.0,0.6
+light,Call of Thunder,Ele preset 32/0/19,ele_launch,300,448.1,0.4
+light,Call of Thunder,29/22 weave,ele_launch,120,505.9,36.1
+light,Call of Thunder,29/22 weave,ele_launch,300,424.3,154.0
+light,Call of Thunder,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,961.2,9.2
+light,Call of Thunder,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,925.8,46.7
+light,Call of Thunder,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,979.7,0.0
+light,Call of Thunder,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,972.0,3.7
+light,Call of Thunder,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,847.9,0.4
+light,Call of Thunder,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,707.3,0.2
+light,Call of Thunder,29/22 weave,testdata/forever-hyb-bis.gear.json,120,924.2,0.3
+light,Call of Thunder,29/22 weave,testdata/forever-hyb-bis.gear.json,300,785.3,82.5
+light,Maelstrom Weapon procs doubled,Enh preset 19/32/0,enh_launch_1h,120,582.8,39.0
+light,Maelstrom Weapon procs doubled,Enh preset 19/32/0,enh_launch_1h,300,568.6,92.4
+light,Maelstrom Weapon procs doubled,8/36/7 no hard casts,enh_launch_1h,120,609.4,0.1
+light,Maelstrom Weapon procs doubled,8/36/7 no hard casts,enh_launch_1h,300,558.4,62.9
+light,Maelstrom Weapon procs doubled,Ele preset 32/0/19,ele_launch,120,549.2,0.6
+light,Maelstrom Weapon procs doubled,Ele preset 32/0/19,ele_launch,300,461.6,0.4
+light,Maelstrom Weapon procs doubled,29/22 weave,ele_launch,120,515.0,36.1
+light,Maelstrom Weapon procs doubled,29/22 weave,ele_launch,300,430.5,154.0
+light,Maelstrom Weapon procs doubled,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,925.9,9.9
+light,Maelstrom Weapon procs doubled,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,888.3,46.9
+light,Maelstrom Weapon procs doubled,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,957.1,0.0
+light,Maelstrom Weapon procs doubled,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,938.2,12.9
+light,Maelstrom Weapon procs doubled,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,876.1,0.4
+light,Maelstrom Weapon procs doubled,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,729.0,0.2
+light,Maelstrom Weapon procs doubled,29/22 weave,testdata/forever-hyb-bis.gear.json,120,936.7,0.3
+light,Maelstrom Weapon procs doubled,29/22 weave,testdata/forever-hyb-bis.gear.json,300,794.4,82.5
+light,Stormstrike 150% weapon damage,Enh preset 19/32/0,enh_launch_1h,120,593.0,38.4
+light,Stormstrike 150% weapon damage,Enh preset 19/32/0,enh_launch_1h,300,579.9,91.1
+light,Stormstrike 150% weapon damage,8/36/7 no hard casts,enh_launch_1h,120,617.7,0.0
+light,Stormstrike 150% weapon damage,8/36/7 no hard casts,enh_launch_1h,300,572.9,53.6
+light,Stormstrike 150% weapon damage,Ele preset 32/0/19,ele_launch,120,549.2,0.6
+light,Stormstrike 150% weapon damage,Ele preset 32/0/19,ele_launch,300,461.6,0.4
+light,Stormstrike 150% weapon damage,29/22 weave,ele_launch,120,501.6,36.1
+light,Stormstrike 150% weapon damage,29/22 weave,ele_launch,300,417.5,154.0
+light,Stormstrike 150% weapon damage,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,899.6,9.2
+light,Stormstrike 150% weapon damage,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,864.1,46.7
+light,Stormstrike 150% weapon damage,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,920.3,0.0
+light,Stormstrike 150% weapon damage,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,913.0,3.7
+light,Stormstrike 150% weapon damage,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,876.1,0.4
+light,Stormstrike 150% weapon damage,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,729.0,0.2
+light,Stormstrike 150% weapon damage,29/22 weave,testdata/forever-hyb-bis.gear.json,120,893.3,0.3
+light,Stormstrike 150% weapon damage,29/22 weave,testdata/forever-hyb-bis.gear.json,300,751.5,82.5
+light,Stormstrike 6 s cooldown,Enh preset 19/32/0,enh_launch_1h,120,597.7,30.8
+light,Stormstrike 6 s cooldown,Enh preset 19/32/0,enh_launch_1h,300,587.7,63.2
+light,Stormstrike 6 s cooldown,8/36/7 no hard casts,enh_launch_1h,120,598.8,0.0
+light,Stormstrike 6 s cooldown,8/36/7 no hard casts,enh_launch_1h,300,585.2,12.1
+light,Stormstrike 6 s cooldown,Ele preset 32/0/19,ele_launch,120,549.2,0.6
+light,Stormstrike 6 s cooldown,Ele preset 32/0/19,ele_launch,300,461.6,0.4
+light,Stormstrike 6 s cooldown,29/22 weave,ele_launch,120,552.4,22.8
+light,Stormstrike 6 s cooldown,29/22 weave,ele_launch,300,457.7,130.5
+light,Stormstrike 6 s cooldown,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,904.0,3.5
+light,Stormstrike 6 s cooldown,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,867.6,37.2
+light,Stormstrike 6 s cooldown,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,931.8,0.0
+light,Stormstrike 6 s cooldown,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,920.1,0.0
+light,Stormstrike 6 s cooldown,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,876.1,0.4
+light,Stormstrike 6 s cooldown,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,729.0,0.2
+light,Stormstrike 6 s cooldown,29/22 weave,testdata/forever-hyb-bis.gear.json,120,826.6,0.0
+light,Stormstrike 6 s cooldown,29/22 weave,testdata/forever-hyb-bis.gear.json,300,756.3,50.8
+light,Mental Dexterity 50/100/150%,Enh preset 19/32/0,enh_launch_1h,120,608.9,38.4
+light,Mental Dexterity 50/100/150%,Enh preset 19/32/0,enh_launch_1h,300,596.1,91.1
+light,Mental Dexterity 50/100/150%,8/36/7 no hard casts,enh_launch_1h,120,633.3,0.0
+light,Mental Dexterity 50/100/150%,8/36/7 no hard casts,enh_launch_1h,300,587.5,53.6
+light,Mental Dexterity 50/100/150%,Ele preset 32/0/19,ele_launch,120,549.2,0.6
+light,Mental Dexterity 50/100/150%,Ele preset 32/0/19,ele_launch,300,461.6,0.4
+light,Mental Dexterity 50/100/150%,29/22 weave,ele_launch,120,502.7,36.1
+light,Mental Dexterity 50/100/150%,29/22 weave,ele_launch,300,416.4,154.0
+light,Mental Dexterity 50/100/150%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,928.9,9.2
+light,Mental Dexterity 50/100/150%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,893.8,46.7
+light,Mental Dexterity 50/100/150%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,944.0,0.0
+light,Mental Dexterity 50/100/150%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,936.7,3.7
+light,Mental Dexterity 50/100/150%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,876.1,0.4
+light,Mental Dexterity 50/100/150%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,729.0,0.2
+light,Mental Dexterity 50/100/150%,29/22 weave,testdata/forever-hyb-bis.gear.json,120,912.3,0.3
+light,Mental Dexterity 50/100/150%,29/22 weave,testdata/forever-hyb-bis.gear.json,300,768.3,82.5
+light,Flurry 6-30%,Enh preset 19/32/0,enh_launch_1h,120,613.0,38.6
+light,Flurry 6-30%,Enh preset 19/32/0,enh_launch_1h,300,599.6,91.3
+light,Flurry 6-30%,8/36/7 no hard casts,enh_launch_1h,120,631.8,0.0
+light,Flurry 6-30%,8/36/7 no hard casts,enh_launch_1h,300,588.3,49.6
+light,Flurry 6-30%,Ele preset 32/0/19,ele_launch,120,549.2,0.6
+light,Flurry 6-30%,Ele preset 32/0/19,ele_launch,300,461.6,0.4
+light,Flurry 6-30%,29/22 weave,ele_launch,120,514.3,36.2
+light,Flurry 6-30%,29/22 weave,ele_launch,300,429.1,153.9
+light,Flurry 6-30%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,120,946.7,9.3
+light,Flurry 6-30%,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,300,911.0,46.5
+light,Flurry 6-30%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,120,952.0,0.0
+light,Flurry 6-30%,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,300,944.5,0.7
+light,Flurry 6-30%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,120,876.1,0.4
+light,Flurry 6-30%,Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,300,729.0,0.2
+light,Flurry 6-30%,29/22 weave,testdata/forever-hyb-bis.gear.json,120,948.4,0.9
+light,Flurry 6-30%,29/22 weave,testdata/forever-hyb-bis.gear.json,300,792.3,88.0
+full,none,Enh preset 19/32/0,enh_launch_1h,120,753.3,0.0
+full,none,Enh preset 19/32/0,enh_launch_1h,300,736.8,0.0
+full,none,8/36/7 no hard casts,enh_launch_1h,120,727.4,0.0
+full,none,8/36/7 no hard casts,enh_launch_1h,300,717.8,0.0
+full,none,Ele preset 32/0/19,ele_launch,120,650.1,0.0
+full,none,Ele preset 32/0/19,ele_launch,300,559.5,0.0
+full,none,29/22 weave,ele_launch,120,676.7,0.0
+full,none,29/22 weave,ele_launch,300,649.7,32.1
+full,none,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1069.7,0.0
+full,none,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1057.7,0.0
+full,none,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1081.2,0.0
+full,none,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1074.1,0.0
+full,none,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+full,none,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,850.5,0.0
+full,none,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1019.5,0.0
+full,none,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1005.7,0.0
+full,Lightning Bolt damage,Enh preset 19/32/0,enh_launch_1h,120,725.8,0.0
+full,Lightning Bolt damage,Enh preset 19/32/0,enh_launch_1h,300,708.7,0.0
+full,Lightning Bolt damage,8/36/7 no hard casts,enh_launch_1h,120,698.8,0.0
+full,Lightning Bolt damage,8/36/7 no hard casts,enh_launch_1h,300,689.4,0.0
+full,Lightning Bolt damage,Ele preset 32/0/19,ele_launch,120,569.8,0.0
+full,Lightning Bolt damage,Ele preset 32/0/19,ele_launch,300,522.7,0.0
+full,Lightning Bolt damage,29/22 weave,ele_launch,120,613.2,0.0
+full,Lightning Bolt damage,29/22 weave,ele_launch,300,590.3,32.1
+full,Lightning Bolt damage,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1045.8,0.0
+full,Lightning Bolt damage,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1033.6,0.0
+full,Lightning Bolt damage,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1054.7,0.0
+full,Lightning Bolt damage,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1047.8,0.0
+full,Lightning Bolt damage,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,855.1,0.0
+full,Lightning Bolt damage,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,795.3,0.0
+full,Lightning Bolt damage,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,963.9,0.0
+full,Lightning Bolt damage,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,950.8,0.0
+full,Chain Lightning rework,Enh preset 19/32/0,enh_launch_1h,120,753.3,0.0
+full,Chain Lightning rework,Enh preset 19/32/0,enh_launch_1h,300,736.8,0.0
+full,Chain Lightning rework,8/36/7 no hard casts,enh_launch_1h,120,727.4,0.0
+full,Chain Lightning rework,8/36/7 no hard casts,enh_launch_1h,300,717.8,0.0
+full,Chain Lightning rework,Ele preset 32/0/19,ele_launch,120,637.6,0.0
+full,Chain Lightning rework,Ele preset 32/0/19,ele_launch,300,547.6,0.0
+full,Chain Lightning rework,29/22 weave,ele_launch,120,676.7,0.0
+full,Chain Lightning rework,29/22 weave,ele_launch,300,649.7,32.1
+full,Chain Lightning rework,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1069.7,0.0
+full,Chain Lightning rework,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1057.7,0.0
+full,Chain Lightning rework,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1081.2,0.0
+full,Chain Lightning rework,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1074.1,0.0
+full,Chain Lightning rework,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,934.1,0.0
+full,Chain Lightning rework,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,838.7,0.0
+full,Chain Lightning rework,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1019.5,0.0
+full,Chain Lightning rework,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1005.7,0.0
+full,Shocks at Classic Era damage,Enh preset 19/32/0,enh_launch_1h,120,705.4,0.0
+full,Shocks at Classic Era damage,Enh preset 19/32/0,enh_launch_1h,300,688.1,0.0
+full,Shocks at Classic Era damage,8/36/7 no hard casts,enh_launch_1h,120,683.7,0.0
+full,Shocks at Classic Era damage,8/36/7 no hard casts,enh_launch_1h,300,674.4,0.0
+full,Shocks at Classic Era damage,Ele preset 32/0/19,ele_launch,120,625.6,0.0
+full,Shocks at Classic Era damage,Ele preset 32/0/19,ele_launch,300,535.4,0.0
+full,Shocks at Classic Era damage,29/22 weave,ele_launch,120,628.9,0.0
+full,Shocks at Classic Era damage,29/22 weave,ele_launch,300,605.0,32.1
+full,Shocks at Classic Era damage,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1022.6,0.0
+full,Shocks at Classic Era damage,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1010.5,0.0
+full,Shocks at Classic Era damage,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1040.0,0.0
+full,Shocks at Classic Era damage,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1032.7,0.0
+full,Shocks at Classic Era damage,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,922.4,0.0
+full,Shocks at Classic Era damage,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,823.2,0.0
+full,Shocks at Classic Era damage,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,962.3,0.0
+full,Shocks at Classic Era damage,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,949.2,0.0
+full,Lightning Overload 10/20/30%,Enh preset 19/32/0,enh_launch_1h,120,753.3,0.0
+full,Lightning Overload 10/20/30%,Enh preset 19/32/0,enh_launch_1h,300,736.8,0.0
+full,Lightning Overload 10/20/30%,8/36/7 no hard casts,enh_launch_1h,120,727.4,0.0
+full,Lightning Overload 10/20/30%,8/36/7 no hard casts,enh_launch_1h,300,717.8,0.0
+full,Lightning Overload 10/20/30%,Ele preset 32/0/19,ele_launch,120,614.2,0.0
+full,Lightning Overload 10/20/30%,Ele preset 32/0/19,ele_launch,300,527.5,0.0
+full,Lightning Overload 10/20/30%,29/22 weave,ele_launch,120,647.1,0.0
+full,Lightning Overload 10/20/30%,29/22 weave,ele_launch,300,619.7,34.8
+full,Lightning Overload 10/20/30%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1069.7,0.0
+full,Lightning Overload 10/20/30%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1057.7,0.0
+full,Lightning Overload 10/20/30%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1081.2,0.0
+full,Lightning Overload 10/20/30%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1074.1,0.0
+full,Lightning Overload 10/20/30%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,894.6,0.0
+full,Lightning Overload 10/20/30%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,796.6,0.0
+full,Lightning Overload 10/20/30%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,990.3,0.0
+full,Lightning Overload 10/20/30%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,977.2,0.0
+full,Call of Thunder,Enh preset 19/32/0,enh_launch_1h,120,753.3,0.0
+full,Call of Thunder,Enh preset 19/32/0,enh_launch_1h,300,736.8,0.0
+full,Call of Thunder,8/36/7 no hard casts,enh_launch_1h,120,727.4,0.0
+full,Call of Thunder,8/36/7 no hard casts,enh_launch_1h,300,717.8,0.0
+full,Call of Thunder,Ele preset 32/0/19,ele_launch,120,630.3,0.0
+full,Call of Thunder,Ele preset 32/0/19,ele_launch,300,543.2,0.0
+full,Call of Thunder,29/22 weave,ele_launch,120,663.4,0.0
+full,Call of Thunder,29/22 weave,ele_launch,300,637.1,32.1
+full,Call of Thunder,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1069.7,0.0
+full,Call of Thunder,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1057.7,0.0
+full,Call of Thunder,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1081.2,0.0
+full,Call of Thunder,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1074.1,0.0
+full,Call of Thunder,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,921.9,0.0
+full,Call of Thunder,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,825.1,0.0
+full,Call of Thunder,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1006.3,0.0
+full,Call of Thunder,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,992.5,0.0
+full,Maelstrom Weapon procs doubled,Enh preset 19/32/0,enh_launch_1h,120,717.2,0.0
+full,Maelstrom Weapon procs doubled,Enh preset 19/32/0,enh_launch_1h,300,698.4,0.0
+full,Maelstrom Weapon procs doubled,8/36/7 no hard casts,enh_launch_1h,120,684.8,0.0
+full,Maelstrom Weapon procs doubled,8/36/7 no hard casts,enh_launch_1h,300,677.4,0.0
+full,Maelstrom Weapon procs doubled,Ele preset 32/0/19,ele_launch,120,650.1,0.0
+full,Maelstrom Weapon procs doubled,Ele preset 32/0/19,ele_launch,300,559.5,0.0
+full,Maelstrom Weapon procs doubled,29/22 weave,ele_launch,120,676.7,0.0
+full,Maelstrom Weapon procs doubled,29/22 weave,ele_launch,300,649.7,32.1
+full,Maelstrom Weapon procs doubled,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1032.9,0.0
+full,Maelstrom Weapon procs doubled,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1021.5,0.0
+full,Maelstrom Weapon procs doubled,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1055.5,0.0
+full,Maelstrom Weapon procs doubled,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1047.6,0.0
+full,Maelstrom Weapon procs doubled,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+full,Maelstrom Weapon procs doubled,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,850.5,0.0
+full,Maelstrom Weapon procs doubled,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1019.5,0.0
+full,Maelstrom Weapon procs doubled,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,1005.7,0.0
+full,Stormstrike 150% weapon damage,Enh preset 19/32/0,enh_launch_1h,120,717.9,0.0
+full,Stormstrike 150% weapon damage,Enh preset 19/32/0,enh_launch_1h,300,701.9,0.0
+full,Stormstrike 150% weapon damage,8/36/7 no hard casts,enh_launch_1h,120,692.5,0.0
+full,Stormstrike 150% weapon damage,8/36/7 no hard casts,enh_launch_1h,300,683.6,0.0
+full,Stormstrike 150% weapon damage,Ele preset 32/0/19,ele_launch,120,650.1,0.0
+full,Stormstrike 150% weapon damage,Ele preset 32/0/19,ele_launch,300,559.5,0.0
+full,Stormstrike 150% weapon damage,29/22 weave,ele_launch,120,660.8,0.0
+full,Stormstrike 150% weapon damage,29/22 weave,ele_launch,300,634.2,32.1
+full,Stormstrike 150% weapon damage,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1000.5,0.0
+full,Stormstrike 150% weapon damage,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,989.7,0.0
+full,Stormstrike 150% weapon damage,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1015.4,0.0
+full,Stormstrike 150% weapon damage,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1008.6,0.0
+full,Stormstrike 150% weapon damage,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+full,Stormstrike 150% weapon damage,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,850.5,0.0
+full,Stormstrike 150% weapon damage,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,972.6,0.0
+full,Stormstrike 150% weapon damage,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,959.5,0.0
+full,Stormstrike 6 s cooldown,Enh preset 19/32/0,enh_launch_1h,120,708.0,0.0
+full,Stormstrike 6 s cooldown,Enh preset 19/32/0,enh_launch_1h,300,694.7,0.0
+full,Stormstrike 6 s cooldown,8/36/7 no hard casts,enh_launch_1h,120,670.0,0.0
+full,Stormstrike 6 s cooldown,8/36/7 no hard casts,enh_launch_1h,300,660.1,0.0
+full,Stormstrike 6 s cooldown,Ele preset 32/0/19,ele_launch,120,650.1,0.0
+full,Stormstrike 6 s cooldown,Ele preset 32/0/19,ele_launch,300,559.5,0.0
+full,Stormstrike 6 s cooldown,29/22 weave,ele_launch,120,669.6,0.0
+full,Stormstrike 6 s cooldown,29/22 weave,ele_launch,300,671.1,1.3
+full,Stormstrike 6 s cooldown,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,997.2,0.0
+full,Stormstrike 6 s cooldown,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,987.2,0.0
+full,Stormstrike 6 s cooldown,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1028.2,0.0
+full,Stormstrike 6 s cooldown,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1013.6,0.0
+full,Stormstrike 6 s cooldown,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+full,Stormstrike 6 s cooldown,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,850.5,0.0
+full,Stormstrike 6 s cooldown,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,896.4,0.0
+full,Stormstrike 6 s cooldown,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,877.9,0.0
+full,Mental Dexterity 50/100/150%,Enh preset 19/32/0,enh_launch_1h,120,737.2,0.0
+full,Mental Dexterity 50/100/150%,Enh preset 19/32/0,enh_launch_1h,300,721.0,0.0
+full,Mental Dexterity 50/100/150%,8/36/7 no hard casts,enh_launch_1h,120,710.2,0.0
+full,Mental Dexterity 50/100/150%,8/36/7 no hard casts,enh_launch_1h,300,700.8,0.0
+full,Mental Dexterity 50/100/150%,Ele preset 32/0/19,ele_launch,120,650.1,0.0
+full,Mental Dexterity 50/100/150%,Ele preset 32/0/19,ele_launch,300,559.5,0.0
+full,Mental Dexterity 50/100/150%,29/22 weave,ele_launch,120,665.5,0.0
+full,Mental Dexterity 50/100/150%,29/22 weave,ele_launch,300,637.9,32.1
+full,Mental Dexterity 50/100/150%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1033.8,0.0
+full,Mental Dexterity 50/100/150%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1022.3,0.0
+full,Mental Dexterity 50/100/150%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1041.5,0.0
+full,Mental Dexterity 50/100/150%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1034.9,0.0
+full,Mental Dexterity 50/100/150%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+full,Mental Dexterity 50/100/150%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,850.5,0.0
+full,Mental Dexterity 50/100/150%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,993.6,0.0
+full,Mental Dexterity 50/100/150%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,980.2,0.0
+full,Flurry 6-30%,Enh preset 19/32/0,enh_launch_1h,120,741.7,0.0
+full,Flurry 6-30%,Enh preset 19/32/0,enh_launch_1h,300,725.4,0.0
+full,Flurry 6-30%,8/36/7 no hard casts,enh_launch_1h,120,706.1,0.0
+full,Flurry 6-30%,8/36/7 no hard casts,enh_launch_1h,300,696.0,0.0
+full,Flurry 6-30%,Ele preset 32/0/19,ele_launch,120,650.1,0.0
+full,Flurry 6-30%,Ele preset 32/0/19,ele_launch,300,559.5,0.0
+full,Flurry 6-30%,29/22 weave,ele_launch,120,676.6,0.0
+full,Flurry 6-30%,29/22 weave,ele_launch,300,648.9,32.0
+full,Flurry 6-30%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,120,1054.1,0.0
+full,Flurry 6-30%,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,300,1041.2,0.0
+full,Flurry 6-30%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,120,1047.4,0.0
+full,Flurry 6-30%,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,300,1039.5,0.0
+full,Flurry 6-30%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,120,950.9,0.0
+full,Flurry 6-30%,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,300,850.5,0.0
+full,Flurry 6-30%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,120,1008.8,0.0
+full,Flurry 6-30%,29/22 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,300,993.3,0.0

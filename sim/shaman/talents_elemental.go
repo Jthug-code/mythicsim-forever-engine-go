@@ -327,7 +327,7 @@ func (shaman *Shaman) applyEarthbound() {
 // talent field is still LavaBurst. Client 16120's mask is Lightning Bolt and Chain Lightning, the family
 // flags the overloads carry too.
 func (shaman *Shaman) applyCallOfThunder() {
-	if !shaman.Talents.LavaBurst {
+	if !shaman.Talents.LavaBurst || !nov2CallOfThunder {
 		return
 	}
 
