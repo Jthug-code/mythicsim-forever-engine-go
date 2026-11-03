@@ -1151,15 +1151,15 @@ dps_results: {
 dps_results: {
  key: "TestCombat-Settings-Orc-Daggers-Poisons-combat_sinister_strike-FullBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 354.11136
-  tps: 175.99335
+  dps: 355.86319
+  tps: 176.86401
  }
 }
 dps_results: {
  key: "TestCombat-Settings-Orc-Daggers-Poisons-combat_sinister_strike-FullBuffs-0.0yards-LongSingleTarget"
  value: {
-  dps: 300.36741
-  tps: 149.2826
+  dps: 301.29193
+  tps: 149.74209
  }
 }
 dps_results: {
@@ -1172,15 +1172,15 @@ dps_results: {
 dps_results: {
  key: "TestCombat-Settings-Orc-Daggers-Poisons-combat_sinister_strike-NoBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 138.9573
-  tps: 98.65968
+  dps: 139.41775
+  tps: 98.98661
  }
 }
 dps_results: {
  key: "TestCombat-Settings-Orc-Daggers-Poisons-combat_sinister_strike-NoBuffs-0.0yards-LongSingleTarget"
  value: {
-  dps: 115.09398
-  tps: 81.71673
+  dps: 115.32915
+  tps: 81.88369
  }
 }
 dps_results: {

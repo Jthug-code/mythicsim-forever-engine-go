@@ -171,9 +171,13 @@ func (r run) request() *proto.RaidSimRequest {
 		}
 		player.Consumables = launch.consumes()
 	} else {
-		// A gear file: the Forever BiS set of run 4, with the Enhancement consumables.
+		// A gear file: a Forever BiS set (run 4's for Enhancement, run 7's for Elemental), with the spec's
+		// consumables.
 		player.Equipment = core.EquipmentSpecFromJsonString(readFile(r.Gear))
 		player.Consumables = enhConsumes()
+		if b.Elemental {
+			player.Consumables = casterConsumes()
+		}
 	}
 
 	if r.Preset {

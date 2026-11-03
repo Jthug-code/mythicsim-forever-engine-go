@@ -6,6 +6,10 @@ for s in ('0', '8'):
                         (1506, 'Lesser Arcanum of Voracity (Str)'), (1508, 'Lesser Arcanum of Voracity (Agi)'),
                         (1509, 'Lesser Arcanum of Voracity (Int)'))]
 d['enchants']['14'].append({'id': 2646, 'name': 'Enchant 2H Weapon - Agility'})
+# usage: fix_enchants.py <search_in.json> [caster]. A caster search also gets the spell damage arcanum.
+if sys.argv[2:] == ['caster']:
+    for s in ('0', '8'):
+        d['enchants'][s].append({'id': 2544, 'name': 'Arcanum of Focus'})
 d['enchants']['5'].append({'id': 7656, 'name': 'Enchant Bracer - Superior Agility'})
 json.dump(d, open(sys.argv[1], 'w', encoding='utf-8'), indent=1)
 print({s: [e['id'] for e in es] for s, es in d['enchants'].items()})

@@ -1,217 +1,217 @@
 build,gear,set_bonuses,duration_s,reaction_ms,haste,race,target,source,school,dps,share
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,default,Melee swing,physical,283.6,0.389
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,default,Windfury Attack,physical,171.5,0.235
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,default,Stormstrike (weapon strike),physical,99.3,0.136
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,default,Lightning Bolt,spell,51.8,0.071
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,default,Earth Shock,spell,40.4,0.055
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,default,Flame Shock (ticks),spell,25.6,0.035
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,default,Searing Totem,spell,22.1,0.030
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,default,Flame Shock (hit),spell,19.6,0.027
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,default,Dragonbreath Chili,spell,15.2,0.021
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Orc,default,Melee swing,physical,283.6,0.389
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Orc,default,Windfury Attack,physical,171.6,0.235
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Orc,default,Stormstrike (weapon strike),physical,99.5,0.136
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Orc,default,Lightning Bolt,spell,51.8,0.071
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Orc,default,Earth Shock,spell,40.4,0.055
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Orc,default,Flame Shock (ticks),spell,25.5,0.035
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Orc,default,Searing Totem,spell,22.1,0.030
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Orc,default,Flame Shock (hit),spell,19.6,0.027
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Orc,default,Dragonbreath Chili,spell,15.2,0.021
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,default,Melee swing,physical,278.9,0.387
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,default,Windfury Attack,physical,168.8,0.234
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,default,Stormstrike (weapon strike),physical,97.4,0.135
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,default,Lightning Bolt,spell,52.8,0.073
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,default,Earth Shock,spell,39.8,0.055
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,default,Flame Shock (ticks),spell,25.6,0.036
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,default,Searing Totem,spell,23.1,0.032
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,default,Flame Shock (hit),spell,19.1,0.027
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,default,Dragonbreath Chili,spell,14.9,0.021
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Orc,default,Melee swing,physical,279.0,0.387
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Orc,default,Windfury Attack,physical,168.6,0.234
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Orc,default,Stormstrike (weapon strike),physical,97.3,0.135
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Orc,default,Lightning Bolt,spell,52.8,0.073
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Orc,default,Earth Shock,spell,39.8,0.055
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Orc,default,Flame Shock (ticks),spell,25.6,0.036
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Orc,default,Searing Totem,spell,23.3,0.032
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Orc,default,Flame Shock (hit),spell,19.0,0.026
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Orc,default,Dragonbreath Chili,spell,14.9,0.021
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,default,Melee swing,physical,280.1,0.387
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,default,Windfury Attack,physical,170.0,0.235
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,default,Stormstrike (weapon strike),physical,98.3,0.136
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,default,Lightning Bolt,spell,52.0,0.072
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,default,Earth Shock,spell,40.9,0.056
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,default,Flame Shock (ticks),spell,25.5,0.035
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,default,Searing Totem,spell,22.3,0.031
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,default,Flame Shock (hit),spell,19.7,0.027
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,default,Dragonbreath Chili,spell,15.2,0.021
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Dwarf,default,Melee swing,physical,280.2,0.387
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Dwarf,default,Windfury Attack,physical,170.2,0.235
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Dwarf,default,Stormstrike (weapon strike),physical,98.7,0.136
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Dwarf,default,Lightning Bolt,spell,51.9,0.072
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Dwarf,default,Earth Shock,spell,40.8,0.056
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Dwarf,default,Flame Shock (ticks),spell,25.5,0.035
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Dwarf,default,Searing Totem,spell,22.3,0.031
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Dwarf,default,Flame Shock (hit),spell,19.6,0.027
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Dwarf,default,Dragonbreath Chili,spell,15.2,0.021
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,default,Melee swing,physical,276.7,0.385
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,default,Windfury Attack,physical,168.1,0.234
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,default,Stormstrike (weapon strike),physical,96.7,0.135
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,default,Lightning Bolt,spell,53.1,0.074
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,default,Earth Shock,spell,40.3,0.056
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,default,Flame Shock (ticks),spell,25.7,0.036
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,default,Searing Totem,spell,23.3,0.032
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,default,Flame Shock (hit),spell,19.1,0.027
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,default,Dragonbreath Chili,spell,15.0,0.021
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Dwarf,default,Melee swing,physical,276.9,0.385
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Dwarf,default,Windfury Attack,physical,168.2,0.234
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Dwarf,default,Stormstrike (weapon strike),physical,96.7,0.135
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Dwarf,default,Lightning Bolt,spell,53.1,0.074
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Dwarf,default,Earth Shock,spell,40.3,0.056
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Dwarf,default,Flame Shock (ticks),spell,25.6,0.036
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Dwarf,default,Searing Totem,spell,23.5,0.033
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Dwarf,default,Flame Shock (hit),spell,19.1,0.027
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Dwarf,default,Dragonbreath Chili,spell,14.9,0.021
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,default,Melee swing,physical,285.9,0.389
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,default,Windfury Attack,physical,173.9,0.236
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,default,Stormstrike (weapon strike),physical,99.9,0.136
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,default,Lightning Bolt,spell,52.4,0.071
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,default,Earth Shock,spell,41.0,0.056
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,default,Flame Shock (ticks),spell,25.6,0.035
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,default,Searing Totem,spell,22.1,0.030
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,default,Flame Shock (hit),spell,19.8,0.027
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,default,Dragonbreath Chili,spell,15.3,0.021
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,WindshaperSkyborne,default,Melee swing,physical,285.9,0.388
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,WindshaperSkyborne,default,Windfury Attack,physical,173.8,0.236
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,WindshaperSkyborne,default,Stormstrike (weapon strike),physical,99.8,0.136
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,WindshaperSkyborne,default,Lightning Bolt,spell,52.8,0.072
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,WindshaperSkyborne,default,Earth Shock,spell,40.9,0.056
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,WindshaperSkyborne,default,Flame Shock (ticks),spell,25.6,0.035
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,WindshaperSkyborne,default,Searing Totem,spell,22.1,0.030
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,WindshaperSkyborne,default,Flame Shock (hit),spell,19.8,0.027
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,WindshaperSkyborne,default,Dragonbreath Chili,spell,15.4,0.021
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,default,Melee swing,physical,282.4,0.388
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,default,Windfury Attack,physical,171.2,0.235
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,default,Stormstrike (weapon strike),physical,97.6,0.134
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,default,Lightning Bolt,spell,53.6,0.074
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,default,Earth Shock,spell,40.1,0.055
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,default,Flame Shock (ticks),spell,25.7,0.035
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,default,Searing Totem,spell,23.2,0.032
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,default,Flame Shock (hit),spell,19.1,0.026
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,default,Dragonbreath Chili,spell,15.0,0.021
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,WindshaperSkyborne,default,Melee swing,physical,282.2,0.388
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,WindshaperSkyborne,default,Windfury Attack,physical,171.5,0.236
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,WindshaperSkyborne,default,Stormstrike (weapon strike),physical,97.5,0.134
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,WindshaperSkyborne,default,Lightning Bolt,spell,53.7,0.074
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,WindshaperSkyborne,default,Earth Shock,spell,40.1,0.055
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,WindshaperSkyborne,default,Flame Shock (ticks),spell,25.6,0.035
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,WindshaperSkyborne,default,Searing Totem,spell,23.3,0.032
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,WindshaperSkyborne,default,Flame Shock (hit),spell,19.1,0.026
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,WindshaperSkyborne,default,Dragonbreath Chili,spell,15.0,0.021
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Elemental,Melee swing,physical,283.6,0.389
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Elemental,Windfury Attack,physical,171.5,0.235
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Elemental,Stormstrike (weapon strike),physical,99.3,0.136
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Elemental,Lightning Bolt,spell,51.8,0.071
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Elemental,Earth Shock,spell,40.4,0.055
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Elemental,Flame Shock (ticks),spell,25.6,0.035
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Elemental,Searing Totem,spell,22.1,0.030
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Elemental,Flame Shock (hit),spell,19.6,0.027
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Elemental,Dragonbreath Chili,spell,15.2,0.021
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Elemental,Melee swing,physical,278.9,0.387
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Elemental,Windfury Attack,physical,168.8,0.234
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Elemental,Stormstrike (weapon strike),physical,97.4,0.135
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Elemental,Lightning Bolt,spell,52.8,0.073
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Elemental,Earth Shock,spell,39.8,0.055
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Elemental,Flame Shock (ticks),spell,25.6,0.036
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Elemental,Searing Totem,spell,23.1,0.032
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Elemental,Flame Shock (hit),spell,19.1,0.027
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Elemental,Dragonbreath Chili,spell,14.9,0.021
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Elemental,Melee swing,physical,280.1,0.387
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Elemental,Windfury Attack,physical,170.0,0.235
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Elemental,Stormstrike (weapon strike),physical,98.3,0.136
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Elemental,Lightning Bolt,spell,52.0,0.072
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Elemental,Earth Shock,spell,40.9,0.056
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Elemental,Flame Shock (ticks),spell,25.5,0.035
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Elemental,Searing Totem,spell,22.3,0.031
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Elemental,Flame Shock (hit),spell,19.7,0.027
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Elemental,Dragonbreath Chili,spell,15.2,0.021
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Elemental,Melee swing,physical,276.7,0.385
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Elemental,Windfury Attack,physical,168.1,0.234
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Elemental,Stormstrike (weapon strike),physical,96.7,0.135
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Elemental,Lightning Bolt,spell,53.1,0.074
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Elemental,Earth Shock,spell,40.3,0.056
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Elemental,Flame Shock (ticks),spell,25.7,0.036
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Elemental,Searing Totem,spell,23.3,0.032
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Elemental,Flame Shock (hit),spell,19.1,0.027
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Elemental,Dragonbreath Chili,spell,15.0,0.021
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Elemental,Melee swing,physical,300.2,0.389
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Elemental,Windfury Attack,physical,182.6,0.236
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Elemental,Stormstrike (weapon strike),physical,104.9,0.136
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Elemental,Lightning Bolt,spell,55.0,0.071
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Elemental,Earth Shock,spell,43.1,0.056
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Elemental,Flame Shock (ticks),spell,26.9,0.035
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Elemental,Searing Totem,spell,23.2,0.030
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Elemental,Flame Shock (hit),spell,20.7,0.027
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Elemental,Dragonbreath Chili,spell,16.1,0.021
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Elemental,Melee swing,physical,296.5,0.388
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Elemental,Windfury Attack,physical,179.8,0.235
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Elemental,Stormstrike (weapon strike),physical,102.5,0.134
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Elemental,Lightning Bolt,spell,56.3,0.074
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Elemental,Earth Shock,spell,42.1,0.055
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Elemental,Flame Shock (ticks),spell,26.9,0.035
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Elemental,Searing Totem,spell,24.4,0.032
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Elemental,Flame Shock (hit),spell,20.1,0.026
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Elemental,Dragonbreath Chili,spell,15.8,0.021
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Beast,Melee swing,physical,283.6,0.389
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Beast,Windfury Attack,physical,171.5,0.235
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Beast,Stormstrike (weapon strike),physical,99.3,0.136
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Beast,Lightning Bolt,spell,51.8,0.071
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Beast,Earth Shock,spell,40.4,0.055
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Beast,Flame Shock (ticks),spell,25.6,0.035
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Beast,Searing Totem,spell,22.1,0.030
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Beast,Flame Shock (hit),spell,19.6,0.027
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Beast,Dragonbreath Chili,spell,15.2,0.021
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Beast,Melee swing,physical,278.9,0.387
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Beast,Windfury Attack,physical,168.8,0.234
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Beast,Stormstrike (weapon strike),physical,97.4,0.135
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Beast,Lightning Bolt,spell,52.8,0.073
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Beast,Earth Shock,spell,39.8,0.055
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Beast,Flame Shock (ticks),spell,25.6,0.036
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Beast,Searing Totem,spell,23.1,0.032
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Beast,Flame Shock (hit),spell,19.1,0.027
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Beast,Dragonbreath Chili,spell,14.9,0.021
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Beast,Melee swing,physical,294.1,0.387
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Beast,Windfury Attack,physical,178.5,0.235
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Beast,Stormstrike (weapon strike),physical,103.3,0.136
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Beast,Lightning Bolt,spell,54.6,0.072
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Beast,Earth Shock,spell,42.9,0.056
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Beast,Flame Shock (ticks),spell,26.8,0.035
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Beast,Searing Totem,spell,23.4,0.031
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Beast,Flame Shock (hit),spell,20.7,0.027
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Beast,Dragonbreath Chili,spell,16.0,0.021
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Beast,Melee swing,physical,290.6,0.385
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Beast,Windfury Attack,physical,176.5,0.234
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Beast,Stormstrike (weapon strike),physical,101.6,0.135
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Beast,Lightning Bolt,spell,55.8,0.074
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Beast,Earth Shock,spell,42.4,0.056
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Beast,Flame Shock (ticks),spell,26.9,0.036
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Beast,Searing Totem,spell,24.5,0.032
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Beast,Flame Shock (hit),spell,20.1,0.027
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Beast,Dragonbreath Chili,spell,15.8,0.021
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Beast,Melee swing,physical,285.9,0.389
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Beast,Windfury Attack,physical,173.9,0.236
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Beast,Stormstrike (weapon strike),physical,99.9,0.136
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Beast,Lightning Bolt,spell,52.4,0.071
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Beast,Earth Shock,spell,41.0,0.056
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Beast,Flame Shock (ticks),spell,25.6,0.035
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Beast,Searing Totem,spell,22.1,0.030
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Beast,Flame Shock (hit),spell,19.8,0.027
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Beast,Dragonbreath Chili,spell,15.3,0.021
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Beast,Melee swing,physical,282.4,0.388
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Beast,Windfury Attack,physical,171.2,0.235
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Beast,Stormstrike (weapon strike),physical,97.6,0.134
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Beast,Lightning Bolt,spell,53.6,0.074
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Beast,Earth Shock,spell,40.1,0.055
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Beast,Flame Shock (ticks),spell,25.7,0.035
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Beast,Searing Totem,spell,23.2,0.032
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Beast,Flame Shock (hit),spell,19.1,0.026
-8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Beast,Dragonbreath Chili,spell,15.0,0.021
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,default,Melee swing,physical,313.1,0.322
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,default,Windfury Attack,physical,193.9,0.199
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,default,Stormstrike (weapon strike),physical,177.6,0.183
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,default,Lightning Bolt,spell,117.9,0.121
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,default,Earth Shock,spell,60.8,0.063
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,default,Flame Shock (ticks),spell,38.8,0.040
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,default,Flame Shock (hit),spell,31.6,0.032
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,default,Searing Totem,spell,22.1,0.023
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,default,Dragonbreath Chili,spell,16.4,0.017
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Orc,default,Melee swing,physical,313.1,0.322
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Orc,default,Windfury Attack,physical,193.6,0.199
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Orc,default,Stormstrike (weapon strike),physical,177.3,0.182
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Orc,default,Lightning Bolt,spell,118.1,0.122
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Orc,default,Earth Shock,spell,60.7,0.063
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Orc,default,Flame Shock (ticks),spell,38.8,0.040
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Orc,default,Flame Shock (hit),spell,31.6,0.033
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Orc,default,Searing Totem,spell,22.1,0.023
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Orc,default,Dragonbreath Chili,spell,16.4,0.017
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,default,Melee swing,physical,309.8,0.321
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,default,Windfury Attack,physical,192.1,0.199
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,default,Stormstrike (weapon strike),physical,176.0,0.182
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,default,Lightning Bolt,spell,117.1,0.121
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,default,Earth Shock,spell,60.5,0.063
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,default,Flame Shock (ticks),spell,39.5,0.041
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,default,Flame Shock (hit),spell,30.8,0.032
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,default,Searing Totem,spell,23.1,0.024
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,default,Dragonbreath Chili,spell,16.0,0.017
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Orc,default,Melee swing,physical,309.9,0.321
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Orc,default,Windfury Attack,physical,191.7,0.199
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Orc,default,Stormstrike (weapon strike),physical,176.0,0.182
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Orc,default,Lightning Bolt,spell,117.2,0.121
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Orc,default,Earth Shock,spell,60.5,0.063
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Orc,default,Flame Shock (ticks),spell,39.5,0.041
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Orc,default,Flame Shock (hit),spell,30.8,0.032
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Orc,default,Searing Totem,spell,23.1,0.024
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Orc,default,Dragonbreath Chili,spell,16.0,0.017
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,default,Melee swing,physical,310.2,0.321
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,default,Windfury Attack,physical,192.0,0.199
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,default,Stormstrike (weapon strike),physical,175.8,0.182
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,default,Lightning Bolt,spell,118.4,0.122
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,default,Earth Shock,spell,61.6,0.064
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,default,Flame Shock (ticks),spell,38.8,0.040
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,default,Flame Shock (hit),spell,31.6,0.033
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,default,Searing Totem,spell,22.3,0.023
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,default,Dragonbreath Chili,spell,16.3,0.017
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Dwarf,default,Melee swing,physical,310.2,0.321
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Dwarf,default,Windfury Attack,physical,191.7,0.198
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Dwarf,default,Stormstrike (weapon strike),physical,175.5,0.182
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Dwarf,default,Lightning Bolt,spell,118.6,0.123
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Dwarf,default,Earth Shock,spell,61.5,0.064
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Dwarf,default,Flame Shock (ticks),spell,38.8,0.040
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Dwarf,default,Flame Shock (hit),spell,31.6,0.033
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Dwarf,default,Searing Totem,spell,22.3,0.023
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,Dwarf,default,Dragonbreath Chili,spell,16.3,0.017
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,default,Melee swing,physical,306.4,0.319
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,default,Windfury Attack,physical,190.0,0.198
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,default,Stormstrike (weapon strike),physical,174.4,0.182
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,default,Lightning Bolt,spell,117.4,0.122
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,default,Earth Shock,spell,61.3,0.064
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,default,Flame Shock (ticks),spell,39.5,0.041
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,default,Flame Shock (hit),spell,30.9,0.032
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,default,Searing Totem,spell,23.3,0.024
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,default,Dragonbreath Chili,spell,15.9,0.017
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Dwarf,default,Melee swing,physical,306.6,0.320
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Dwarf,default,Windfury Attack,physical,190.1,0.198
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Dwarf,default,Stormstrike (weapon strike),physical,174.0,0.181
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Dwarf,default,Lightning Bolt,spell,117.6,0.123
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Dwarf,default,Earth Shock,spell,61.3,0.064
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Dwarf,default,Flame Shock (ticks),spell,39.6,0.041
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Dwarf,default,Flame Shock (hit),spell,30.9,0.032
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Dwarf,default,Searing Totem,spell,23.3,0.024
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,Dwarf,default,Dragonbreath Chili,spell,15.9,0.017
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,default,Melee swing,physical,315.9,0.322
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,default,Windfury Attack,physical,195.4,0.199
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,default,Stormstrike (weapon strike),physical,178.1,0.182
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,default,Lightning Bolt,spell,119.0,0.121
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,default,Earth Shock,spell,62.3,0.064
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,default,Flame Shock (ticks),spell,38.8,0.040
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,default,Flame Shock (hit),spell,31.8,0.033
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,default,Searing Totem,spell,22.1,0.023
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,default,Dragonbreath Chili,spell,16.3,0.017
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,WindshaperSkyborne,default,Melee swing,physical,316.7,0.323
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,WindshaperSkyborne,default,Windfury Attack,physical,194.9,0.199
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,WindshaperSkyborne,default,Stormstrike (weapon strike),physical,178.5,0.182
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,WindshaperSkyborne,default,Lightning Bolt,spell,119.7,0.122
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,WindshaperSkyborne,default,Earth Shock,spell,61.7,0.063
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,WindshaperSkyborne,default,Flame Shock (ticks),spell,39.1,0.040
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,WindshaperSkyborne,default,Flame Shock (hit),spell,32.0,0.033
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,WindshaperSkyborne,default,Searing Totem,spell,22.1,0.023
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,10,on,WindshaperSkyborne,default,Dragonbreath Chili,spell,16.5,0.017
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,default,Melee swing,physical,312.8,0.322
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,default,Windfury Attack,physical,193.8,0.199
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,default,Stormstrike (weapon strike),physical,176.7,0.182
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,default,Lightning Bolt,spell,118.1,0.122
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,default,Earth Shock,spell,61.1,0.063
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,default,Flame Shock (ticks),spell,39.5,0.041
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,default,Flame Shock (hit),spell,30.9,0.032
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,default,Searing Totem,spell,23.0,0.024
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,default,Dragonbreath Chili,spell,15.9,0.016
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,WindshaperSkyborne,default,Melee swing,physical,313.2,0.322
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,WindshaperSkyborne,default,Windfury Attack,physical,193.6,0.199
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,WindshaperSkyborne,default,Stormstrike (weapon strike),physical,177.2,0.182
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,WindshaperSkyborne,default,Lightning Bolt,spell,118.5,0.122
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,WindshaperSkyborne,default,Earth Shock,spell,60.8,0.062
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,WindshaperSkyborne,default,Flame Shock (ticks),spell,39.7,0.041
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,WindshaperSkyborne,default,Flame Shock (hit),spell,31.0,0.032
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,WindshaperSkyborne,default,Searing Totem,spell,23.1,0.024
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,10,on,WindshaperSkyborne,default,Dragonbreath Chili,spell,16.1,0.017
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Elemental,Melee swing,physical,313.1,0.322
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Elemental,Windfury Attack,physical,193.9,0.199
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Elemental,Stormstrike (weapon strike),physical,177.6,0.183
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Elemental,Lightning Bolt,spell,117.9,0.121
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Elemental,Earth Shock,spell,60.8,0.063
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Elemental,Flame Shock (ticks),spell,38.8,0.040
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Elemental,Flame Shock (hit),spell,31.6,0.032
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Elemental,Searing Totem,spell,22.1,0.023
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Elemental,Dragonbreath Chili,spell,16.4,0.017
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Elemental,Melee swing,physical,309.8,0.321
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Elemental,Windfury Attack,physical,192.1,0.199
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Elemental,Stormstrike (weapon strike),physical,176.0,0.182
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Elemental,Lightning Bolt,spell,117.1,0.121
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Elemental,Earth Shock,spell,60.5,0.063
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Elemental,Flame Shock (ticks),spell,39.5,0.041
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Elemental,Flame Shock (hit),spell,30.8,0.032
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Elemental,Searing Totem,spell,23.1,0.024
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Elemental,Dragonbreath Chili,spell,16.0,0.017
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Elemental,Melee swing,physical,310.2,0.321
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Elemental,Windfury Attack,physical,192.0,0.199
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Elemental,Stormstrike (weapon strike),physical,175.8,0.182
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Elemental,Lightning Bolt,spell,118.4,0.122
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Elemental,Earth Shock,spell,61.6,0.064
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Elemental,Flame Shock (ticks),spell,38.8,0.040
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Elemental,Flame Shock (hit),spell,31.6,0.033
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Elemental,Searing Totem,spell,22.3,0.023
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Elemental,Dragonbreath Chili,spell,16.3,0.017
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Elemental,Melee swing,physical,306.4,0.319
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Elemental,Windfury Attack,physical,190.0,0.198
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Elemental,Stormstrike (weapon strike),physical,174.4,0.182
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Elemental,Lightning Bolt,spell,117.4,0.122
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Elemental,Earth Shock,spell,61.3,0.064
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Elemental,Flame Shock (ticks),spell,39.5,0.041
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Elemental,Flame Shock (hit),spell,30.9,0.032
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Elemental,Searing Totem,spell,23.3,0.024
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Elemental,Dragonbreath Chili,spell,15.9,0.017
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Elemental,Melee swing,physical,331.7,0.322
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Elemental,Windfury Attack,physical,205.2,0.199
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Elemental,Stormstrike (weapon strike),physical,187.0,0.182
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Elemental,Lightning Bolt,spell,124.9,0.121
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Elemental,Earth Shock,spell,65.4,0.064
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Elemental,Flame Shock (ticks),spell,40.8,0.040
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Elemental,Flame Shock (hit),spell,33.4,0.033
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Elemental,Searing Totem,spell,23.2,0.023
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Elemental,Dragonbreath Chili,spell,17.1,0.017
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Elemental,Melee swing,physical,328.4,0.322
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Elemental,Windfury Attack,physical,203.5,0.199
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Elemental,Stormstrike (weapon strike),physical,185.5,0.182
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Elemental,Lightning Bolt,spell,124.0,0.122
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Elemental,Earth Shock,spell,64.2,0.063
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Elemental,Flame Shock (ticks),spell,41.5,0.041
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Elemental,Flame Shock (hit),spell,32.4,0.032
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Elemental,Searing Totem,spell,24.2,0.024
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Elemental,Dragonbreath Chili,spell,16.7,0.016
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Beast,Melee swing,physical,313.1,0.322
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Beast,Windfury Attack,physical,193.9,0.199
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Beast,Stormstrike (weapon strike),physical,177.6,0.183
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Beast,Lightning Bolt,spell,117.9,0.121
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Beast,Earth Shock,spell,60.8,0.063
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Beast,Flame Shock (ticks),spell,38.8,0.040
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Beast,Flame Shock (hit),spell,31.6,0.032
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Beast,Searing Totem,spell,22.1,0.023
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Orc,Beast,Dragonbreath Chili,spell,16.4,0.017
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Beast,Melee swing,physical,309.8,0.321
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Beast,Windfury Attack,physical,192.1,0.199
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Beast,Stormstrike (weapon strike),physical,176.0,0.182
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Beast,Lightning Bolt,spell,117.1,0.121
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Beast,Earth Shock,spell,60.5,0.063
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Beast,Flame Shock (ticks),spell,39.5,0.041
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Beast,Flame Shock (hit),spell,30.8,0.032
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Beast,Searing Totem,spell,23.1,0.024
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Orc,Beast,Dragonbreath Chili,spell,16.0,0.017
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Beast,Melee swing,physical,325.7,0.321
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Beast,Windfury Attack,physical,201.6,0.199
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Beast,Stormstrike (weapon strike),physical,184.6,0.182
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Beast,Lightning Bolt,spell,124.3,0.122
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Beast,Earth Shock,spell,64.7,0.064
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Beast,Flame Shock (ticks),spell,40.8,0.040
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Beast,Flame Shock (hit),spell,33.2,0.033
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Beast,Searing Totem,spell,23.5,0.023
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dwarf,Beast,Dragonbreath Chili,spell,17.1,0.017
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Beast,Melee swing,physical,321.7,0.319
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Beast,Windfury Attack,physical,199.5,0.198
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Beast,Stormstrike (weapon strike),physical,183.1,0.182
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Beast,Lightning Bolt,spell,123.3,0.122
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Beast,Earth Shock,spell,64.3,0.064
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Beast,Flame Shock (ticks),spell,41.5,0.041
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Beast,Flame Shock (hit),spell,32.4,0.032
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Beast,Searing Totem,spell,24.4,0.024
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dwarf,Beast,Dragonbreath Chili,spell,16.7,0.017
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Beast,Melee swing,physical,315.9,0.322
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Beast,Windfury Attack,physical,195.4,0.199
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Beast,Stormstrike (weapon strike),physical,178.1,0.182
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Beast,Lightning Bolt,spell,119.0,0.121
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Beast,Earth Shock,spell,62.3,0.064
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Beast,Flame Shock (ticks),spell,38.8,0.040
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Beast,Flame Shock (hit),spell,31.8,0.033
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Beast,Searing Totem,spell,22.1,0.023
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,WindshaperSkyborne,Beast,Dragonbreath Chili,spell,16.3,0.017
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Beast,Melee swing,physical,312.8,0.322
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Beast,Windfury Attack,physical,193.8,0.199
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Beast,Stormstrike (weapon strike),physical,176.7,0.182
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Beast,Lightning Bolt,spell,118.1,0.122
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Beast,Earth Shock,spell,61.1,0.063
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Beast,Flame Shock (ticks),spell,39.5,0.041
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Beast,Flame Shock (hit),spell,30.9,0.032
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Beast,Searing Totem,spell,23.0,0.024
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,WindshaperSkyborne,Beast,Dragonbreath Chili,spell,15.9,0.016

@@ -36,8 +36,9 @@ func TestManaTideTotemTalentDropsTheTotem(t *testing.T) {
 	}
 }
 
-// Elemental Reach (28999) adds 3/6 yards to Lightning Bolt, Chain Lightning and Lava Burst range and
-// 8/15 to Flame Shock's; it was an empty stub and the three nature/fire bolts carried no range.
+// Elemental Reach (28999) adds 3/6 yards to Lightning Bolt and Chain Lightning range (and Lava Burst's,
+// until the 2 November 2026 notes removed it) and 8/15 to Flame Shock's; it was an empty stub and the
+// bolts carried no range.
 func TestElementalReachExtendsRange(t *testing.T) {
 	reach := "3505331000021351--553302001" // DefaultTalents with Elemental Reach 2/2 for two Convection
 	for _, c := range []struct {
@@ -49,7 +50,6 @@ func TestElementalReachExtendsRange(t *testing.T) {
 		{DefaultTalents, 29228, 20}, // Flame Shock
 		{reach, 15208, 36},          // Lightning Bolt
 		{reach, 10605, 36},          // Chain Lightning
-		{reach, 1326047, 36},        // Lava Burst
 		{reach, 29228, 35},          // Flame Shock
 		{reach, 10473, 20},          // Frost Shock, not reached
 	} {

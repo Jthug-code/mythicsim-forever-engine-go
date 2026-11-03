@@ -223,11 +223,12 @@ func TestCritRacials(t *testing.T) {
 	}
 }
 
-// 16 October 2026 beta notes: Blood Fury's cooldown is 3 minutes (was 2).
+// The 27 October 2026 addendum to the development notes, repeated on 2 November: Blood Fury's cooldown is
+// 2 minutes again (the 16 October notes had made it 3). Client 1.60.1.70707's 20572 agrees.
 func TestBloodFuryCooldown(t *testing.T) {
 	_, fw := setupRacialSim(proto.Race_RaceOrc)
-	if got := fw.GetSpell(ActionID{SpellID: 20572}).CD.Duration; got != time.Minute*3 {
-		t.Fatalf("Blood Fury's cooldown is %s, want 3m", got)
+	if got := fw.GetSpell(ActionID{SpellID: 20572}).CD.Duration; got != time.Minute*2 {
+		t.Fatalf("Blood Fury's cooldown is %s, want 2m", got)
 	}
 }
 

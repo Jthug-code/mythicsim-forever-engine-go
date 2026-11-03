@@ -3,12 +3,13 @@
 All single target (`MakeSingleTargetEncounter`, no duration variation), 10,000 iterations per row, seed 7, using the
 measured swing rule. Engine: `mythicsim/oct21-release` (62b7445d1c) plus this branch.
 
-**Run 6 is the current state.** Every CSV except `results-run1.csv` now holds run 6's numbers. The run 2–5 sections
-further down are kept as written; their numbers predate the potion fix.
+**Run 7 is the current state.** Every CSV except `results-run1.csv` now holds run 7's numbers; run 6's are in git
+(commit 1b2bc75279). The run 2–6 sections further down are kept as written.
 
 | Run | Gear | Files | Section |
 |---|---|---|---|
-| 6 | Runs 2–5 again with mana potions and runes actually drunk, at both buff levels, plus Elemental Fury buffs | all CSVs; `-fullbuffs` = full raid buffs | Run 6, first below |
+| 7 | Everything again under the 2 November 2026 shaman changes, plus a Forever BiS set for Elemental | all CSVs; `forever-bis-*.csv` and `ele-rotation-results.csv` are new | Run 7, first below |
+| 6 | Runs 2–5 again with mana potions and runes actually drunk, at both buff levels, plus Elemental Fury buffs | all CSVs; `-fullbuffs` = full raid buffs | Run 6 |
 | 5 | Runs 2–4 again with full raid buffs and consumables | `*-fullbuffs.csv` | Run 5 |
 | 4 | A Forever BiS set from Wowhead's Forever item data; Orc, Dwarf and Skyborne | `race-results.csv`, `race-sources.csv` | Run 4 |
 | 3 | The repo's Forever launch-gear presets | `forever-results.csv`, `forever-sources.csv` | Run 3 |
@@ -18,6 +19,153 @@ further down are kept as written; their numbers predate the potion fix.
 Rerun everything at one buff level with `bis_tools/rerun_all.sh light|full <work dir>`, run from this folder. It runs
 the BiS search, then the race, Elemental mana, Water Shield Enhancement, fight-length, Forever-launch and SoD matrices.
 The Elemental Fury variants run with `SPELLHANCE_FURY_OUT=<dir> go test --tags=with_db . -run TestEleFuryBuff`.
+
+# Run 7: the 2 November 2026 shaman changes (2026-11-03)
+
+**Source:** Kaivax, "WoW Forever Beta Development Notes – Updated November 2" (Blizzard forums topic 2360696, post 9,
+3 November 03:20 UTC), and the Orc line of its 27 October addendum.
+
+**How they're applied** (`sim/shaman/nov2_notes.go`, pinned by `TestNov2Notes`):
+- **No client build carries the shaman changes yet.** 1.60.1.70707 (1 November) and 1.60.1.70753 (2 November) state
+  the old numbers for every shaman spell the sim reads, so they look like server hotfixes. The file patches them over
+  the store; when a build carries them, regenerate and let the test name what differs.
+- **Lightning Bolt:** max rank +80% (base and per-level gain). Ranks 4–9 at 78% of the Classic Era rows. Ranks 1–3
+  keep Forever's numbers, because 78% of Era would lower them and the notes say every rank went up.
+- **Chain Lightning:** 2.5 s cast, 145% of the same-level Lightning Bolt's damage, 225% of its mana (rank 4: 495).
+  The 0.571 coefficient and 6 s cooldown are the client's.
+- **Shocks:** Classic Era base damage, read from the Era client (Earth Shock rank 7 517–545, Flame Shock rank 6 292 plus
+  80 a tick, Frost Shock rank 4 486–514). Coefficients, costs and cooldowns stay Forever's.
+- **Elemental:** Lightning Overload 10/20/30%. Lava Burst is gone; its talent node grants Call of Thunder, +5% crit to
+  Lightning Bolt, Chain Lightning and their overloads (client 16120's mask).
+- **Enhancement:** Stormstrike 150% normalized weapon damage on a 6 s cooldown. Maelstrom Weapon 20 procs a minute,
+  double the 10 measured from beta logs (every hit with a 3.0 s or slower weapon). Mental Dexterity 50/100/150% of
+  Intellect. Flurry 6–30%.
+- **Orc:** Blood Fury's cooldown is 2 minutes again; client 70707's 20572 agrees.
+- **A Stormstrike bug, older than this run:** the engine rolled its strike as plain weapon damage. Client 17364 and the
+  notes say normalized (attack power at 3.3 s for a two-hander), so every Enhancement number in runs 1–6 had
+  Stormstrike a few percent high. `TestStormstrikeNov2` fails on the old code.
+- **Not modelled:** Windfury's extra swing animation, Totemic Call, Riptide, Improved Ghost Wolf. Leader of the Pack
+  and Moonkin now share one crit slot, but a shaman gets 3% melee and 3% spell crit either way. Read Ley Line's change
+  is High Order Skyborne only, who can't be shamans.
+
+**Rotations:** Lava Burst is out of every rotation. The repo's Elemental preset is otherwise unchanged; see the
+rotation checks below.
+
+## Run 7 findings
+
+**Launch gear, full raid buffs, DPS at 2 / 5 / 10 min (run 6 → run 7):**
+
+| Build | Run 6 | Run 7 | Share of the Enhancement preset |
+|---|---|---|---|
+| Enhancement preset 19/32/0 | 573 / 559 / 548 | 753 / 737 / 732 | |
+| 8/36/7 no hard casts | 526 / 518 / 519 | 727 / 718 / 717 | 97 / 97 / 98% |
+| 8/32/11 Water Shield | 522 / 515 / 516 | 714 / 704 / 704 | 95 / 96 / 96% |
+| 29/22 weave, caster gear | 519 / 517 / 493 | 677 / 650 / 620 | 90 / 88 / 85% |
+| Elemental preset 32/0/19 | 505 / 468 / 459 | 650 / 560 / 529 | 86 / 76 / 72% |
+| Elemental, rank 10 gate 5 | | 650 / 635 / 602 | 86 / 86 / 82% |
+
+**Launch gear, lighter buffs:**
+
+| Build | Run 6 | Run 7 | Out of mana, 5 min |
+|---|---|---|---|
+| Enhancement preset | 474 / 458 / 445 | 623 / 610 / 592 | 91 s |
+| 8/36/7 | 464 / 454 / 442 | 648 / 602 / 585 | 54 s |
+| 8/32/11 Water Shield | 461 / 454 / 455 | 638 / 629 / 619 | 0 s |
+| Elemental preset | 430 / 398 / 385 | 549 / 462 / 459 | 0 s |
+| Elemental, rank 10 gate 10 | | 552 / 502 / 461 | 6 s |
+| 29/22 weave, caster gear | 419 / 354 / 306 | 515 / 430 / 363 | 154 s |
+
+**Forever BiS (`forever-bis-*.csv`), DPS at 2 / 5 / 10 min.** Elemental and 29/22 wear the Elemental set,
+the Enhancement builds the Enhancement set; both searched from Wowhead's Forever item data, as the default Skyborne:
+
+| Build | Full raid | Lighter |
+|---|---|---|
+| 8/36/7 | 1081 / 1074 / 1068 | 980 / 972 / 932 |
+| Enhancement preset | 1070 / 1058 / 1044 | 961 / 926 / 896 |
+| 8/32/11 Water Shield | 1067 / 1058 / 1051 | 968 / 961 / 956 |
+| 29/22 weave | 929 / 916 / 904 | 871 / 726 / 628 |
+| Elemental preset | 951 / 850 / 806 | 876 / 729 / 726 |
+
+- **Every build gained, Enhancement most.** Full raid, launch, 5 min: Enhancement preset +32%, 8/36/7 +39%, 29/22 +26%,
+  Elemental +20%.
+- **Where the gains came from** (lighter buffs, launch, 5 min, `forever-sources.csv`):
+  - Enhancement preset +152 DPS: Maelstrom Lightning Bolts +63, Stormstrike +40, Earth Shock +23, melee and Windfury +25.
+  - Elemental preset +64 DPS: rank 4 Lightning Bolt +34, overloads +23, Chain Lightning +22, Flame Shock +27, Lava
+    Burst −69.
+  - Half of the preset's 5-minute damage is its rank 4 filler, which gained 14%; rank 10 gained 80%.
+- **Elemental falls behind with fight length.** Its rotation paces mana by dropping to rank 4, and in long fights it
+  can't afford the bigger rank 10.
+- **29/22 still beats Elemental in a full raid** (88% of the Enhancement preset at 5 minutes, against 92% in run 6).
+  With lighter buffs it runs dry and trails Elemental at every length.
+- **8/32/11 Water Shield leads with lighter buffs past 2 minutes** (629 against 610 and 602 at 5 minutes); in a full
+  raid it's 1–2% behind 8/36/7.
+- **Races, 8/36/7 on the Enhancement BiS, full raid, 2 / 5 min:** Skyborne 1081 / 1074, Orc 1070 / 1064, Dwarf
+  1064 / 1056. Against elementals the Skyborne does 1135 / 1127, against beasts the Dwarf 1116 / 1109. Orc stays about
+  1% behind Skyborne; Blood Fury's shorter cooldown is worth a few tenths of a percent.
+
+## Run 7: rotation checks (`ele-rotation-results.csv`)
+
+- **Earth Shock doesn't belong in the Elemental rotation,** even at 517–545. Adding it after the Flame Shock refresh
+  loses 2–24% in 11 of the 12 cells (launch and SoD, both buff levels, 2 / 5 / 10 min); it gains 4% only in a
+  10-minute full-raid fight on launch gear. Spending it only while the mana gate passes loses 0–8%. Elemental is bound
+  by mana, and Earth Shock gives less damage per mana than Lightning Bolt.
+- **The preset's mana gate is tuned for the old numbers.** It casts rank 10 only while mana is at least 35 a second of
+  the fight left. Lower gates, launch gear, 2 / 5 / 10 min:
+
+  | Gate (mana per second left) | Full raid | Lighter |
+  |---|---|---|
+  | 35 (preset) | 650 / 560 / 529 | 549 / 462 / 459 |
+  | 25 | 650 / 576 / 537 | 550 / 463 / 460 |
+  | 15 | 650 / 614 / 552 | 549 / 496 / 459 |
+  | 10 | 650 / 627 / 569 | 552 / 502 / 461 |
+  | 5 | 650 / 635 / 602 | 547 / 500 / 466 |
+
+  - Full raid: gate 5 is +13% at 5 minutes and +14% at 10; on the SoD proxy +5% / +10%.
+  - Lighter buffs: gate 10 is +9% at 5 minutes and level at 10; on the SoD proxy no gate gains more than 2%.
+  - Every other table keeps the preset, as in run 6. Only these two rows use a gate picked from the sweep, so they
+    flatter Elemental slightly.
+- **Downranking isn't modelled.** The engine gives rank 4 Lightning Bolt full spell power. Forever reportedly cuts spell
+  power on ranks well below your level, with unknown thresholds. If that applies, Elemental's long-fight numbers here
+  are too high, in every run.
+
+## Run 7: the tuning package and resists
+
+- **The Elemental Fury package no longer balances long fights** (`tuning-results.csv`; +1% crit per rank, 2.5×
+  crits, +6% Lightning Bolt and Chain Lightning base). Elemental as a share of the Enhancement preset, 2 / 5 / 10 min:
+  - Launch, full raid: 101 / 88 / 83% (run 6: 101 / 96 / 96%).
+  - Launch, lighter: 102 / 86 / 89% (run 6: 103 / 98 / 98%).
+  - SoD proxy, full raid, against 8/36/7 banking 10 stacks: 82 / 74 / 68%.
+  - 29/22 weave with the package, launch, full raid: 100 / 97 / 93%.
+- **Resists hurt Elemental less without Lava Burst** (`resist-results.csv`, launch, full raid, 5 min):
+  - 300 fire resistance: Elemental −16% (run 6: −26%), Enhancement preset −4%, 29/22 −7%.
+  - No Curse of the Elements: Elemental −9%, Enhancement preset −4%, 29/22 −7%.
+  - ±3% spell hit: Elemental ±3.5%.
+
+## Run 7: the SoD proxy
+
+**It no longer stands in for Forever's high end.**
+- Part of the SoD caster set is dead weight: Soulcrusher's Storm 4P (except its +10% overload chance),
+  Earthshatterer's Storm 4P and Gift of the Gathering Storm 3P are Lava Burst bonuses.
+- The live caster bonuses still matter (lighter buffs, 5 min, Elemental preset): the sets add +37%, against +43% in
+  run 6.
+- The Enhancement set's Soulcrusher's Rage 6P (10-stack Maelstrom, double cast) now pairs with doubled procs and +80%
+  bolts.
+- Full raid, 2 / 5 min: Elemental 1488 / 1338 against 2178 / 2159 for the Enhancement preset banking 10, which is
+  68 / 62%. The best 29/22 (bolt-chain + Chain Lightning) does 1530 / 1309.
+- Use the Forever BiS tables above instead.
+
+## Run 7: the Elemental BiS search
+
+`bis_tools/search_bis.sh light|full ele <dir>`; `BIS_BUILD=ele` makes `TestBisStatWeights` and `TestBisSearch` score
+the Elemental preset as the default Skyborne, weighed against spell power, starting from the pool's EP-greedy pick.
+Both buff levels found nearly the same set:
+- Stormcaller's Diadem, Malice Stone Pendant, Dark Storm Gauntlets, Boots of Epiphany, Ring of the Fallen God, Band of
+  the Inevitable, Eye of Moam, Neltharion's Tear, Blessed Qiraji Acolyte Staff (Mighty Spell Power) and Totem of the
+  Storm.
+- Several low item-level crafted or vendor pieces stayed: Ironfeather Leggings, Belt of the Archmage and Arcanoweave
+  Cloak; under full buffs also Bloodvine Vest and Mantle of the Timbermaw. They carry spell hit and crit, and Elemental
+  sits well below the hit cap, so the search kept them.
+- It's a slot-by-slot search from a ranked pool, so a better set may exist.
 
 # Run 6: mana potions fixed, both buff levels (2026-10-29)
 

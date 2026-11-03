@@ -1151,15 +1151,15 @@ dps_results: {
 dps_results: {
  key: "TestSubtlety-Settings-Orc-Daggers-Poisons-forever_hemorrhage-FullBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 275.19748
-  tps: 136.77315
+  dps: 276.14863
+  tps: 137.24587
  }
 }
 dps_results: {
  key: "TestSubtlety-Settings-Orc-Daggers-Poisons-forever_hemorrhage-FullBuffs-0.0yards-LongSingleTarget"
  value: {
-  dps: 275.19748
-  tps: 136.77315
+  dps: 276.14863
+  tps: 137.24587
  }
 }
 dps_results: {
@@ -1172,15 +1172,15 @@ dps_results: {
 dps_results: {
  key: "TestSubtlety-Settings-Orc-Daggers-Poisons-forever_hemorrhage-NoBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 111.23181
-  tps: 78.97459
+  dps: 111.47053
+  tps: 79.14407
  }
 }
 dps_results: {
  key: "TestSubtlety-Settings-Orc-Daggers-Poisons-forever_hemorrhage-NoBuffs-0.0yards-LongSingleTarget"
  value: {
-  dps: 111.23181
-  tps: 78.97459
+  dps: 111.47053
+  tps: 79.14407
  }
 }
 dps_results: {

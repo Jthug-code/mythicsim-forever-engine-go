@@ -284,7 +284,8 @@ func (shaman *Shaman) applyImprovedStormstrike() {
 // rounds with Windfury attacks proc as independent hits would. So the rate does not grow with points
 // (the old 2 PPM a point gave 1 point 0.12 a hit): 10 PPM, Season of Discovery's base for 408498.
 // SoD's +50% with Windfury Weapon and +50% with a two-hander (the row's eff1 = 50) would put Steele
-// at 22.5 PPM, every hit; Forever's tooltip drops that sentence and the log agrees.
+// at 22.5 PPM, every hit; Forever's tooltip drops that sentence and the log agrees. The 2 November
+// 2026 notes double the chance (nov2MaelstromWeaponPPM), so Steele's two-hander now procs on every hit.
 func (shaman *Shaman) applyMaelstromWeapon() {
 	if shaman.Talents.MaelstromWeapon == 0 {
 		return
@@ -294,7 +295,7 @@ func (shaman *Shaman) applyMaelstromWeapon() {
 	maxStacks := int32(5)
 	perStack := spellData.MaelstromWeapon.EffectAt(1).FractionAt(shaman.Talents.MaelstromWeapon)
 
-	ppmm := shaman.NewLegacyPPMManager(10, core.ProcMaskMelee)
+	ppmm := shaman.NewLegacyPPMManager(nov2MaelstromWeaponPPM, core.ProcMaskMelee)
 
 	castMod := shaman.AddDynamicMod(core.SpellModConfig{
 		Kind:      core.SpellMod_CastTime_Pct,

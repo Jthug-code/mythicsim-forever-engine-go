@@ -8,8 +8,8 @@ Everything here is a sim, not a combat log. Read the numbers as direction and ro
 
 ## Where things are
 
-- **[RESULTS.md](RESULTS.md)** has every finding. Run 6, at the top, is the current state. The sections below it are
-  older runs, kept as they were written.
+- **[RESULTS.md](RESULTS.md)** has every finding. Run 7 (the 2 November 2026 shaman changes), at the top, is the
+  current state. The sections below it are older runs, kept as they were written.
 - **The CSVs** hold the raw numbers; files ending in `-fullbuffs` use full raid buffs.
   - `forever-results*.csv`: Forever launch gear.
   - `results*.csv`: the SoD Phase 8 proxy.
@@ -19,18 +19,27 @@ Everything here is a sim, not a combat log. Read the numbers as direction and ro
   - `enh-ws-results*.csv`: Water Shield Enhancement.
   - `tuning-results.csv`, `elefury-results.csv`, `lean-results.csv`, `resist-results.csv`, `compensate-results.csv`
     and `enh-at10-results.csv`: the Elemental Fury tuning ideas, resists and hit, and Maelstrom at 10.
+  - `ele-rotation-results.csv`: the Elemental preset against Earth Shock and mana-gate variants.
+  - `forever-bis-results*.csv`: every build on the Forever BiS sets, the high-end comparison since run 7.
 - **Gear:**
   - The Forever launch presets are the repo's own, `ui/specs/shaman/*/gear_sets/launch.gear.json`, with the
     Enhancement off-hand dropped because shamans can't dual wield.
   - `testdata/sod-p8-shaman-bis.json` is the SoD Phase 8 BiS proxy, with sources and the set bonuses that apply.
-  - `testdata/forever-enh-bis*.gear.json` is the Forever BiS set, searched from Wowhead's Forever item data.
-    `bis_tools/` holds the search scripts.
+  - `testdata/forever-enh-bis*.gear.json` and `testdata/forever-ele-bis*.gear.json` are the Forever BiS sets for
+    8/36/7 and the Elemental preset, searched from Wowhead's Forever item data. `bis_tools/` holds the search
+    scripts; `search_bis.sh light|full enh|ele <dir>` reruns one.
 - **Rotations** are in `apls/`. `gen_apls.py` writes the weave rotations.
 
 ## What this branch changes in the engine
 
-- **Racials** follow the 26 October 2026 development notes: Dwarf +1% hit, Orc's Savage removed, Skyborne 2% haste. The
-  golden test results are regenerated to match.
+- **Racials** follow the 26 October 2026 development notes and their 27 October addendum: Dwarf +1% hit, Orc's Savage
+  removed and Blood Fury back to a 2-minute cooldown, Skyborne 2% haste. The golden test results are regenerated to
+  match.
+- **The 2 November 2026 shaman changes** are in `sim/shaman/nov2_notes.go`, patched over the client data because no
+  client build carries them yet (1.60.1.70707 and 70753 checked): Lightning Bolt and Chain Lightning damage, Chain
+  Lightning's cast and cost, shocks at Classic Era values, Lightning Overload 10/20/30%, Lava Burst replaced by Call
+  of Thunder, Maelstrom Weapon procs doubled, Stormstrike 150% on a 6-second cooldown, Mental Dexterity and Flurry.
+  Where the notes give a ratio, not a number, the file says how it was applied. `TestNov2Notes` pins every value.
 - **Test-only knobs in `sim/shaman`**, all zero by default, so they change nothing unless a test sets them:
   - `ElementalFury*` adds crit, crit damage, damage, hit or Spell Piercing.
   - `LightningBaseDamageBonus` raises Lightning Bolt and Chain Lightning base damage.

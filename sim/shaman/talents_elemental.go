@@ -35,8 +35,8 @@ func (shaman *Shaman) registerElementalTalents() {
 	// Tier 6
 	shaman.applyElementalFury()
 
-	// Tier 5 (client 70425 moved Lava Burst up from tier 7)
-	shaman.applyLavaBurst()
+	// Tier 5: Call of Thunder, in Lava Burst's node since the 2 November notes
+	shaman.applyCallOfThunder()
 
 	// Tier 7
 	shaman.applyElementalMastery()
@@ -322,9 +322,20 @@ func (shaman *Shaman) applyEarthbound() {
 	}
 }
 
-// applyLavaBurst grants Lava Burst, new in Forever. See lava_burst.go.
-func (shaman *Shaman) applyLavaBurst() {
-	shaman.registerLavaBurstSpell()
+// applyCallOfThunder implements Call of Thunder, which replaced Lava Burst in the 2 November 2026 notes:
+// +5% crit on Lightning Bolt and Chain Lightning (nov2_notes.go). It takes Lava Burst's node, so the
+// talent field is still LavaBurst. Client 16120's mask is Lightning Bolt and Chain Lightning, the family
+// flags the overloads carry too.
+func (shaman *Shaman) applyCallOfThunder() {
+	if !shaman.Talents.LavaBurst {
+		return
+	}
+
+	shaman.AddStaticMod(core.SpellModConfig{
+		Kind:       core.SpellMod_BonusCrit_Percent,
+		FloatValue: spellData.CallOfThunder.Highest().Effect(dbcenums.A_ADD_FLAT_MODIFIER, int32(dbcenums.SPELLMOD_CRITICAL_CHANCE)).BasePoints,
+		ClassMask:  SpellMaskLightningBolt | SpellMaskChainLightning | SpellMaskOverload,
+	})
 }
 
 // applyElementalMastery implements Elemental Mastery, the tier 7 Elemental talent of client 70425

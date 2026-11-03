@@ -1,0 +1,97 @@
+buffs,build,gear,set_bonuses,duration_s,reaction_ms,haste,iterations,dps,dps_stderr,physical_dps,spell_dps,physical_share,lb_lvb_cl_casts_per_min,mh_swings_per_min,seconds_oom
+light,Ele preset 32/0/19,ele_launch,false,120,150,on,10000,549.2,0.3,0.0,549.2,0.000,16.91,0.00,0.6
+light,Ele preset 32/0/19,ele_launch,false,300,150,on,10000,461.6,0.2,0.0,461.6,0.000,3.55,0.00,0.4
+light,Ele preset 32/0/19,ele_launch,false,600,150,on,10000,459.0,0.1,0.0,459.0,0.000,2.78,0.00,2.6
+light,Ele 32/0/19 + Earth Shock,ele_launch,false,120,150,on,10000,506.3,0.3,0.0,506.3,0.000,8.07,0.00,4.4
+light,Ele 32/0/19 + Earth Shock,ele_launch,false,300,150,on,10000,453.8,0.2,0.0,453.8,0.000,2.32,0.00,21.1
+light,Ele 32/0/19 + Earth Shock,ele_launch,false,600,150,on,10000,426.5,0.1,0.0,426.5,0.000,1.19,0.00,61.3
+light,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,120,150,on,10000,517.0,0.3,0.0,517.0,0.000,8.91,0.00,1.1
+light,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,300,150,on,10000,460.3,0.2,0.0,460.3,0.000,2.80,0.00,0.6
+light,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,600,150,on,10000,457.5,0.1,0.0,457.5,0.000,2.39,0.00,2.8
+light,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,120,150,on,10000,547.3,0.3,0.0,547.3,0.000,19.00,0.00,5.0
+light,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,300,150,on,10000,500.2,0.2,0.0,500.2,0.000,12.37,0.00,15.9
+light,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,600,150,on,10000,466.4,0.1,0.0,466.4,0.000,6.73,0.00,27.2
+light,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,120,150,on,10000,552.2,0.3,0.0,552.2,0.000,18.74,0.00,2.7
+light,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,300,150,on,10000,502.5,0.2,0.0,502.5,0.000,10.60,0.00,6.0
+light,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,600,150,on,10000,460.6,0.1,0.0,460.6,0.000,3.47,0.00,6.1
+light,"Ele 32/0/19, rank 10 gate 15 mana/s",ele_launch,false,120,150,on,10000,549.2,0.3,0.0,549.2,0.000,18.21,0.00,3.7
+light,"Ele 32/0/19, rank 10 gate 15 mana/s",ele_launch,false,300,150,on,10000,496.1,0.2,0.0,496.1,0.000,9.03,0.00,2.9
+light,"Ele 32/0/19, rank 10 gate 15 mana/s",ele_launch,false,600,150,on,10000,459.1,0.1,0.0,459.1,0.000,3.08,0.00,5.0
+light,"Ele 32/0/19, rank 10 gate 25 mana/s",ele_launch,false,120,150,on,10000,549.8,0.3,0.0,549.8,0.000,17.40,0.00,1.4
+light,"Ele 32/0/19, rank 10 gate 25 mana/s",ele_launch,false,300,150,on,10000,463.2,0.2,0.0,463.2,0.000,3.89,0.00,0.7
+light,"Ele 32/0/19, rank 10 gate 25 mana/s",ele_launch,false,600,150,on,10000,459.6,0.1,0.0,459.6,0.000,2.91,0.00,2.9
+light,"Ele 32/0/19, rank 10 gate 50 mana/s",ele_launch,false,120,150,on,10000,533.2,0.3,0.0,533.2,0.000,14.69,0.00,0.6
+light,"Ele 32/0/19, rank 10 gate 50 mana/s",ele_launch,false,300,150,on,10000,460.3,0.2,0.0,460.3,0.000,3.32,0.00,0.2
+light,"Ele 32/0/19, rank 10 gate 50 mana/s",ele_launch,false,600,150,on,10000,458.2,0.1,0.0,458.2,0.000,2.65,0.00,2.5
+light,Ele preset 32/0/19,caster_mirage_2h,true,120,150,on,10000,1254.6,0.6,0.0,1254.6,0.000,27.28,0.00,0.9
+light,Ele preset 32/0/19,caster_mirage_2h,true,300,150,on,10000,1099.7,0.3,0.0,1099.7,0.000,7.16,0.00,0.3
+light,Ele preset 32/0/19,caster_mirage_2h,true,600,150,on,10000,1043.1,0.3,0.0,1043.1,0.000,2.91,0.00,12.9
+light,Ele 32/0/19 + Earth Shock,caster_mirage_2h,true,120,150,on,10000,1098.7,0.7,0.0,1098.7,0.000,16.01,0.00,10.4
+light,Ele 32/0/19 + Earth Shock,caster_mirage_2h,true,300,150,on,10000,921.6,0.4,0.0,921.6,0.000,2.70,0.00,43.4
+light,Ele 32/0/19 + Earth Shock,caster_mirage_2h,true,600,150,on,10000,798.0,0.3,0.0,798.0,0.000,1.55,0.00,148.0
+light,"Ele 32/0/19 + Earth Shock, mana-gated",caster_mirage_2h,true,120,150,on,10000,1167.1,0.5,0.0,1167.1,0.000,16.61,0.00,2.7
+light,"Ele 32/0/19 + Earth Shock, mana-gated",caster_mirage_2h,true,300,150,on,10000,1077.7,0.3,0.0,1077.7,0.000,5.04,0.00,0.9
+light,"Ele 32/0/19 + Earth Shock, mana-gated",caster_mirage_2h,true,600,150,on,10000,1042.4,0.3,0.0,1042.4,0.000,2.87,0.00,13.0
+light,"Ele 32/0/19, rank 10 gate 5 mana/s",caster_mirage_2h,true,120,150,on,10000,1215.0,0.7,0.0,1215.0,0.000,28.88,0.00,9.4
+light,"Ele 32/0/19, rank 10 gate 5 mana/s",caster_mirage_2h,true,300,150,on,10000,1023.3,0.5,0.0,1023.3,0.000,16.42,0.00,49.2
+light,"Ele 32/0/19, rank 10 gate 5 mana/s",caster_mirage_2h,true,600,150,on,10000,955.9,0.3,0.0,955.9,0.000,8.89,0.00,97.3
+light,"Ele 32/0/19, rank 10 gate 10 mana/s",caster_mirage_2h,true,120,150,on,10000,1225.0,0.7,0.0,1225.0,0.000,28.69,0.00,7.8
+light,"Ele 32/0/19, rank 10 gate 10 mana/s",caster_mirage_2h,true,300,150,on,10000,1074.7,0.4,0.0,1074.7,0.000,14.99,0.00,32.3
+light,"Ele 32/0/19, rank 10 gate 10 mana/s",caster_mirage_2h,true,600,150,on,10000,1004.1,0.3,0.0,1004.1,0.000,6.18,0.00,55.9
+light,"Ele 32/0/19, rank 10 gate 15 mana/s",caster_mirage_2h,true,120,150,on,10000,1237.3,0.7,0.0,1237.3,0.000,28.41,0.00,6.0
+light,"Ele 32/0/19, rank 10 gate 15 mana/s",caster_mirage_2h,true,300,150,on,10000,1107.5,0.4,0.0,1107.5,0.000,13.29,0.00,17.6
+light,"Ele 32/0/19, rank 10 gate 15 mana/s",caster_mirage_2h,true,600,150,on,10000,1018.0,0.3,0.0,1018.0,0.000,4.45,0.00,35.8
+light,"Ele 32/0/19, rank 10 gate 25 mana/s",caster_mirage_2h,true,120,150,on,10000,1244.6,0.6,0.0,1244.6,0.000,27.78,0.00,4.0
+light,"Ele 32/0/19, rank 10 gate 25 mana/s",caster_mirage_2h,true,300,150,on,10000,1118.7,0.4,0.0,1118.7,0.000,10.12,0.00,4.8
+light,"Ele 32/0/19, rank 10 gate 25 mana/s",caster_mirage_2h,true,600,150,on,10000,1038.5,0.3,0.0,1038.5,0.000,3.04,0.00,15.9
+light,"Ele 32/0/19, rank 10 gate 50 mana/s",caster_mirage_2h,true,120,150,on,10000,1254.6,0.6,0.0,1254.6,0.000,26.72,0.00,2.1
+light,"Ele 32/0/19, rank 10 gate 50 mana/s",caster_mirage_2h,true,300,150,on,10000,1085.0,0.3,0.0,1085.0,0.000,5.85,0.00,0.1
+light,"Ele 32/0/19, rank 10 gate 50 mana/s",caster_mirage_2h,true,600,150,on,10000,1043.3,0.3,0.0,1043.3,0.000,2.89,0.00,12.7
+full,Ele preset 32/0/19,ele_launch,false,120,150,on,10000,650.1,0.4,0.0,650.1,0.000,24.73,0.00,0.0
+full,Ele preset 32/0/19,ele_launch,false,300,150,on,10000,559.5,0.2,0.0,559.5,0.000,11.01,0.00,0.0
+full,Ele preset 32/0/19,ele_launch,false,600,150,on,10000,528.7,0.1,0.0,528.7,0.000,6.62,0.00,0.2
+full,Ele 32/0/19 + Earth Shock,ele_launch,false,120,150,on,10000,636.0,0.4,0.0,636.0,0.000,15.97,0.00,0.4
+full,Ele 32/0/19 + Earth Shock,ele_launch,false,300,150,on,10000,549.5,0.2,0.0,549.5,0.000,2.75,0.00,2.4
+full,Ele 32/0/19 + Earth Shock,ele_launch,false,600,150,on,10000,548.7,0.1,0.0,548.7,0.000,2.22,0.00,7.9
+full,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,120,150,on,10000,636.2,0.4,0.0,636.2,0.000,16.11,0.00,0.3
+full,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,300,150,on,10000,539.4,0.2,0.0,539.4,0.000,5.49,0.00,0.1
+full,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,600,150,on,10000,518.4,0.1,0.0,518.4,0.000,3.71,0.00,0.3
+full,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,120,150,on,10000,650.1,0.4,0.0,650.1,0.000,24.73,0.00,0.0
+full,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,300,150,on,10000,635.0,0.2,0.0,635.0,0.000,21.55,0.00,1.2
+full,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,600,150,on,10000,602.2,0.2,0.0,602.2,0.000,16.55,0.00,0.8
+full,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,120,150,on,10000,650.1,0.4,0.0,650.1,0.000,24.73,0.00,0.0
+full,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,300,150,on,10000,626.7,0.2,0.0,626.7,0.000,20.19,0.00,0.1
+full,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,600,150,on,10000,569.1,0.2,0.0,569.1,0.000,12.16,0.00,0.6
+full,"Ele 32/0/19, rank 10 gate 15 mana/s",ele_launch,false,120,150,on,10000,650.1,0.4,0.0,650.1,0.000,24.73,0.00,0.0
+full,"Ele 32/0/19, rank 10 gate 15 mana/s",ele_launch,false,300,150,on,10000,614.2,0.2,0.0,614.2,0.000,18.61,0.00,0.0
+full,"Ele 32/0/19, rank 10 gate 15 mana/s",ele_launch,false,600,150,on,10000,551.6,0.1,0.0,551.6,0.000,9.74,0.00,0.4
+full,"Ele 32/0/19, rank 10 gate 25 mana/s",ele_launch,false,120,150,on,10000,650.1,0.4,0.0,650.1,0.000,24.73,0.00,0.0
+full,"Ele 32/0/19, rank 10 gate 25 mana/s",ele_launch,false,300,150,on,10000,576.2,0.2,0.0,576.2,0.000,13.48,0.00,0.1
+full,"Ele 32/0/19, rank 10 gate 25 mana/s",ele_launch,false,600,150,on,10000,536.7,0.1,0.0,536.7,0.000,7.75,0.00,0.3
+full,"Ele 32/0/19, rank 10 gate 50 mana/s",ele_launch,false,120,150,on,10000,628.4,0.3,0.0,628.4,0.000,21.67,0.00,0.0
+full,"Ele 32/0/19, rank 10 gate 50 mana/s",ele_launch,false,300,150,on,10000,546.0,0.2,0.0,546.0,0.000,9.23,0.00,0.0
+full,"Ele 32/0/19, rank 10 gate 50 mana/s",ele_launch,false,600,150,on,10000,522.2,0.1,0.0,522.2,0.000,5.79,0.00,0.1
+full,Ele preset 32/0/19,caster_mirage_2h,true,120,150,on,10000,1488.4,0.6,0.0,1488.4,0.000,34.73,0.00,0.0
+full,Ele preset 32/0/19,caster_mirage_2h,true,300,150,on,10000,1338.4,0.4,0.0,1338.4,0.000,22.27,0.00,0.0
+full,Ele preset 32/0/19,caster_mirage_2h,true,600,150,on,10000,1222.6,0.3,0.0,1222.6,0.000,11.31,0.00,0.5
+full,Ele 32/0/19 + Earth Shock,caster_mirage_2h,true,120,150,on,10000,1387.1,0.6,0.0,1387.1,0.000,26.98,0.00,0.4
+full,Ele 32/0/19 + Earth Shock,caster_mirage_2h,true,300,150,on,10000,1216.2,0.4,0.0,1216.2,0.000,7.61,0.00,0.9
+full,Ele 32/0/19 + Earth Shock,caster_mirage_2h,true,600,150,on,10000,1168.8,0.2,0.0,1168.8,0.000,2.73,0.00,5.4
+full,"Ele 32/0/19 + Earth Shock, mana-gated",caster_mirage_2h,true,120,150,on,10000,1387.8,0.6,0.0,1387.8,0.000,27.02,0.00,0.3
+full,"Ele 32/0/19 + Earth Shock, mana-gated",caster_mirage_2h,true,300,150,on,10000,1236.7,0.3,0.0,1236.7,0.000,11.47,0.00,0.2
+full,"Ele 32/0/19 + Earth Shock, mana-gated",caster_mirage_2h,true,600,150,on,10000,1171.0,0.2,0.0,1171.0,0.000,6.13,0.00,0.8
+full,"Ele 32/0/19, rank 10 gate 5 mana/s",caster_mirage_2h,true,120,150,on,10000,1488.4,0.6,0.0,1488.4,0.000,34.73,0.00,0.0
+full,"Ele 32/0/19, rank 10 gate 5 mana/s",caster_mirage_2h,true,300,150,on,10000,1398.1,0.4,0.0,1398.1,0.000,28.15,0.00,1.6
+full,"Ele 32/0/19, rank 10 gate 5 mana/s",caster_mirage_2h,true,600,150,on,10000,1339.6,0.3,0.0,1339.6,0.000,21.05,0.00,2.4
+full,"Ele 32/0/19, rank 10 gate 10 mana/s",caster_mirage_2h,true,120,150,on,10000,1488.4,0.6,0.0,1488.4,0.000,34.73,0.00,0.0
+full,"Ele 32/0/19, rank 10 gate 10 mana/s",caster_mirage_2h,true,300,150,on,10000,1407.0,0.4,0.0,1407.0,0.000,27.56,0.00,0.4
+full,"Ele 32/0/19, rank 10 gate 10 mana/s",caster_mirage_2h,true,600,150,on,10000,1305.4,0.3,0.0,1305.4,0.000,18.17,0.00,1.7
+full,"Ele 32/0/19, rank 10 gate 15 mana/s",caster_mirage_2h,true,120,150,on,10000,1488.4,0.6,0.0,1488.4,0.000,34.73,0.00,0.0
+full,"Ele 32/0/19, rank 10 gate 15 mana/s",caster_mirage_2h,true,300,150,on,10000,1402.2,0.4,0.0,1402.2,0.000,27.08,0.00,0.2
+full,"Ele 32/0/19, rank 10 gate 15 mana/s",caster_mirage_2h,true,600,150,on,10000,1270.6,0.3,0.0,1270.6,0.000,15.46,0.00,1.0
+full,"Ele 32/0/19, rank 10 gate 25 mana/s",caster_mirage_2h,true,120,150,on,10000,1488.4,0.6,0.0,1488.4,0.000,34.73,0.00,0.0
+full,"Ele 32/0/19, rank 10 gate 25 mana/s",caster_mirage_2h,true,300,150,on,10000,1381.7,0.4,0.0,1381.7,0.000,25.47,0.00,0.0
+full,"Ele 32/0/19, rank 10 gate 25 mana/s",caster_mirage_2h,true,600,150,on,10000,1233.7,0.3,0.0,1233.7,0.000,12.13,0.00,0.7
+full,"Ele 32/0/19, rank 10 gate 50 mana/s",caster_mirage_2h,true,120,150,on,10000,1488.3,0.6,0.0,1488.3,0.000,34.72,0.00,0.0
+full,"Ele 32/0/19, rank 10 gate 50 mana/s",caster_mirage_2h,true,300,150,on,10000,1297.4,0.4,0.0,1297.4,0.000,18.22,0.00,0.0
+full,"Ele 32/0/19, rank 10 gate 50 mana/s",caster_mirage_2h,true,600,150,on,10000,1210.9,0.2,0.0,1210.9,0.000,10.48,0.00,0.3

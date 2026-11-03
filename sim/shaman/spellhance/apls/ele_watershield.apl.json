@@ -156,15 +156,6 @@
     },
     {
       "action": {
-        "castSpell": {
-          "spellId": {
-            "spellId": 1326047
-          }
-        }
-      }
-    },
-    {
-      "action": {
         "condition": {
           "cmp": {
             "op": "OpGe",

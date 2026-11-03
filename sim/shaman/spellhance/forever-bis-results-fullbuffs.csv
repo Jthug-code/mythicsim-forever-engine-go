@@ -1,0 +1,16 @@
+build,gear,set_bonuses,duration_s,reaction_ms,haste,iterations,dps,dps_stderr,physical_dps,spell_dps,physical_share,lb_lvb_cl_casts_per_min,mh_swings_per_min,seconds_oom
+Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,10000,950.9,0.5,0.0,950.9,0.000,25.08,0.00,0.0
+Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,10000,850.5,0.3,0.0,850.5,0.000,13.91,0.00,0.0
+Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,10000,806.5,0.2,0.0,806.5,0.000,8.20,0.00,0.0
+29/22 weave,testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,10000,929.3,0.6,278.1,651.2,0.299,13.27,13.46,0.0
+29/22 weave,testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,10000,916.3,0.4,274.2,642.1,0.299,13.25,13.35,0.0
+29/22 weave,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,10000,904.2,0.3,277.8,626.3,0.307,12.93,13.57,13.8
+Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,10000,1069.7,0.8,727.2,342.5,0.680,6.88,24.41,0.0
+Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,10000,1057.7,0.5,716.5,341.2,0.677,6.89,24.03,0.0
+Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,10000,1044.2,0.4,713.7,330.5,0.683,7.02,23.89,0.0
+8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,10000,1081.2,0.8,777.2,304.0,0.719,7.18,24.70,0.0
+8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,10000,1074.1,0.5,769.6,304.4,0.717,7.11,24.34,0.0
+8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,10000,1068.0,0.4,763.3,304.7,0.715,7.12,24.19,0.0
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,10000,1067.0,0.8,767.9,299.1,0.720,7.15,24.69,0.0
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,10000,1057.7,0.5,759.9,297.8,0.718,7.08,24.33,0.0
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,10000,1051.3,0.4,752.9,298.4,0.716,7.08,24.19,0.0

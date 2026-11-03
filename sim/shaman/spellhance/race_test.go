@@ -20,6 +20,24 @@ func foreverBisGear() string {
 	return "testdata/forever-enh-bis.gear.json"
 }
 
+// Run 7 searched the same pool for the Elemental preset (testdata/forever-ele-bis*.gear.json), to stand in for
+// high-end caster gear once the SoD caster set lost its Lava Burst bonuses.
+func foreverEleBisGear() string {
+	if fullBuffs() {
+		return "testdata/forever-ele-bis-fullbuffs.gear.json"
+	}
+	return "testdata/forever-ele-bis.gear.json"
+}
+
+// bisBuild is what the BiS weights and search score: 8/36/7 with no hard casts as an Orc, weighed against attack
+// power, or with BIS_BUILD=ele the Elemental preset as the default Windshaper Skyborne, weighed against spell power.
+func bisBuild() (build, proto.Race, proto.Stat) {
+	if os.Getenv("BIS_BUILD") == "ele" {
+		return elePreset, proto.Race_RaceUnknown, proto.Stat_StatSpellDamage
+	}
+	return melee8367, proto.Race_RaceOrc, proto.Stat_StatAttackPower
+}
+
 var raceRows = []proto.Race{proto.Race_RaceOrc, proto.Race_RaceDwarf, proto.Race_RaceWindshaperSkyborne}
 
 // The stats the BiS search weighs, by their index in the item database.
@@ -30,15 +48,16 @@ var weighedStats = []proto.Stat{
 	proto.Stat_StatMeleeHasteRating, proto.Stat_StatExpertiseRating, proto.Stat_StatArmorPenetration, proto.Stat_StatMP5,
 }
 
-// TestBisStatWeights writes the 8/36/7 no-hard-cast stat weights (EP, attack power = 1) on the gear in
+// TestBisStatWeights writes the stat weights of bisBuild (EP, its reference stat = 1) on the gear in
 // $BIS_WEIGHTS_GEAR to $BIS_WEIGHTS_OUT, for the BiS search.
 func TestBisStatWeights(t *testing.T) {
 	gearFile, out := os.Getenv("BIS_WEIGHTS_GEAR"), os.Getenv("BIS_WEIGHTS_OUT")
 	if gearFile == "" || out == "" {
 		t.Skip("set BIS_WEIGHTS_GEAR and BIS_WEIGHTS_OUT to compute the weights")
 	}
-	r := run{Build: melee8367, Gear: gearFile, Duration: 3 * time.Minute, ReactionMs: 150, Iterations: matrixIterations(t), Seed: 7,
-		Race: proto.Race_RaceOrc}
+	b, race, reference := bisBuild()
+	r := run{Build: b, Gear: gearFile, Duration: 3 * time.Minute, ReactionMs: 150, Iterations: matrixIterations(t), Seed: 7,
+		Race: race}
 	request := r.request()
 	result := core.StatWeights(&proto.StatWeightsRequest{
 		Player:             request.Raid.Parties[0].Players[0],
@@ -51,7 +70,7 @@ func TestBisStatWeights(t *testing.T) {
 		// Hit rating as a bonus stat moves nothing here, so hit is weighed in percent.
 		PseudoStatsToWeigh: []proto.PseudoStat{proto.PseudoStat_PseudoStatMainHandDps,
 			proto.PseudoStat_PseudoStatMeleeHitPercent, proto.PseudoStat_PseudoStatSpellHitPercent},
-		EpReferenceStat:    proto.Stat_StatAttackPower,
+		EpReferenceStat:    reference,
 	})
 	if result.Error != nil {
 		t.Fatal(result.Error.Message)

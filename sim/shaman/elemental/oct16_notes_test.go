@@ -27,13 +27,14 @@ func newElementalShaman(t *testing.T, talents string) (*core.Simulation, *shaman
 	return sim, sim.Raid.Parties[0].Players[0].(shaman.ShamanAgent).GetShaman()
 }
 
-// "Chain Lightning mana cost reduced by approximately 35%" on all four ranks (16 October 2026 beta notes).
-// Client 70425's rows carry the cut: 145, 200, 250 and 315, about 65% of 225, 305, 390 and 485, and the
-// sim must not cut them again.
+// "Chain Lightning mana cost reduced by approximately 35%" on all four ranks (16 October 2026 beta notes):
+// client 70425's rows carry the cut, 145, 200, 250 and 315. The 2 November notes then price it at about
+// 225% of the comparable Lightning Bolt's (nov2_notes.go): 2.25 times 110, 135, 160 and 220, rounded.
+// The sim must not cut them again.
 func TestChainLightningCostCut(t *testing.T) {
 	_, sham := newElementalShaman(t, DefaultTalents)
 	ranks := 0
-	want := []int32{145, 200, 250, 315}
+	want := []int32{248, 304, 360, 495}
 	shaman.ChainLightningRankMap.Each(func(rank int32, config *spelldata.Spell) {
 		spell := sham.GetSpell(core.ActionID{SpellID: config.ID})
 		if spell == nil {

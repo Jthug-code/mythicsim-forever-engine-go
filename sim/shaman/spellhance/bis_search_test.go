@@ -30,8 +30,9 @@ type searchInput struct {
 
 // TestBisSearch builds the run 4 BiS set by coordinate descent: from the EP-ranked start in
 // $BIS_SEARCH_IN, it tries every candidate item and enchant one slot at a time and keeps what the sim
-// says is better, until a full pass changes nothing. It scores 8/36/7 with no hard casts as an Orc on a
-// 3-minute fight, every trial on the same seed, and writes the set to $BIS_SEARCH_OUT.
+// says is better, until a full pass changes nothing. It scores bisBuild (8/36/7 with no hard casts as an
+// Orc, or the Elemental preset with BIS_BUILD=ele) on a 3-minute fight, every trial on the same seed, and
+// writes the set to $BIS_SEARCH_OUT.
 func TestBisSearch(t *testing.T) {
 	in, out := os.Getenv("BIS_SEARCH_IN"), os.Getenv("BIS_SEARCH_OUT")
 	if in == "" || out == "" {
@@ -42,6 +43,7 @@ func TestBisSearch(t *testing.T) {
 		t.Fatal(err)
 	}
 	iterations := matrixIterations(t)
+	b, race, _ := bisBuild()
 	twoHand := map[int32]bool{}
 	names := map[int32]string{}
 	for _, cs := range input.Candidates {
@@ -61,8 +63,8 @@ func TestBisSearch(t *testing.T) {
 		tmp.Write(raw)
 		tmp.Close()
 		defer os.Remove(tmp.Name())
-		r := run{Build: melee8367, Gear: tmp.Name(), Duration: 3 * time.Minute, ReactionMs: 150, Iterations: iterations, Seed: 7,
-			Race: proto.Race_RaceOrc}
+		r := run{Build: b, Gear: tmp.Name(), Duration: 3 * time.Minute, ReactionMs: 150, Iterations: iterations, Seed: 7,
+			Race: race}
 		res := core.RunRaidSim(r.request())
 		if res.Error != nil {
 			t.Fatalf("%v: %s", items, res.Error.Message)

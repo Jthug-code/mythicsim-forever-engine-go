@@ -54,83 +54,6 @@
       "action": {
         "castSpell": {
           "spellId": {
-            "spellId": 1326047
-          }
-        },
-        "condition": {
-          "and": {
-            "vals": [
-              {
-                "and": {
-                  "vals": [
-                    {
-                      "cmp": {
-                        "op": "OpGe",
-                        "lhs": {
-                          "autoTimeSinceLast": {
-                            "autoType": "MainHandAuto"
-                          }
-                        },
-                        "rhs": {
-                          "inputDelay": {}
-                        }
-                      }
-                    },
-                    {
-                      "cmp": {
-                        "op": "OpLe",
-                        "lhs": {
-                          "math": {
-                            "op": "OpAdd",
-                            "lhs": {
-                              "autoTimeSinceLast": {
-                                "autoType": "MainHandAuto"
-                              }
-                            },
-                            "rhs": {
-                              "max": {
-                                "vals": [
-                                  {
-                                    "gcdTimeToReady": {}
-                                  },
-                                  {
-                                    "spellTimeToReady": {
-                                      "spellId": {
-                                        "spellId": 1326047
-                                      }
-                                    }
-                                  }
-                                ]
-                              }
-                            }
-                          }
-                        },
-                        "rhs": {
-                          "const": {
-                            "val": "0.4s"
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              },
-              {
-                "dotIsActive": {
-                  "spellId": {
-                    "spellId": 29228
-                  }
-                }
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "action": {
-        "castSpell": {
-          "spellId": {
             "spellId": 10605
           }
         },
@@ -360,43 +283,17 @@
                           "or": {
                             "vals": [
                               {
-                                "and": {
-                                  "vals": [
-                                    {
-                                      "dotIsActive": {
-                                        "spellId": {
-                                          "spellId": 29228
-                                        }
-                                      }
-                                    },
-                                    {
-                                      "spellCanCast": {
-                                        "spellId": {
-                                          "spellId": 1326047
-                                        }
-                                      }
-                                    }
-                                  ]
+                                "spellCanCast": {
+                                  "spellId": {
+                                    "spellId": 10605
+                                  }
                                 }
                               },
                               {
-                                "or": {
-                                  "vals": [
-                                    {
-                                      "spellCanCast": {
-                                        "spellId": {
-                                          "spellId": 10605
-                                        }
-                                      }
-                                    },
-                                    {
-                                      "spellCanCast": {
-                                        "spellId": {
-                                          "spellId": 15208
-                                        }
-                                      }
-                                    }
-                                  ]
+                                "spellCanCast": {
+                                  "spellId": {
+                                    "spellId": 15208
+                                  }
                                 }
                               }
                             ]
@@ -532,43 +429,17 @@
                           "or": {
                             "vals": [
                               {
-                                "and": {
-                                  "vals": [
-                                    {
-                                      "dotIsActive": {
-                                        "spellId": {
-                                          "spellId": 29228
-                                        }
-                                      }
-                                    },
-                                    {
-                                      "spellCanCast": {
-                                        "spellId": {
-                                          "spellId": 1326047
-                                        }
-                                      }
-                                    }
-                                  ]
+                                "spellCanCast": {
+                                  "spellId": {
+                                    "spellId": 10605
+                                  }
                                 }
                               },
                               {
-                                "or": {
-                                  "vals": [
-                                    {
-                                      "spellCanCast": {
-                                        "spellId": {
-                                          "spellId": 10605
-                                        }
-                                      }
-                                    },
-                                    {
-                                      "spellCanCast": {
-                                        "spellId": {
-                                          "spellId": 15208
-                                        }
-                                      }
-                                    }
-                                  ]
+                                "spellCanCast": {
+                                  "spellId": {
+                                    "spellId": 15208
+                                  }
                                 }
                               }
                             ]
@@ -704,43 +575,17 @@
                           "or": {
                             "vals": [
                               {
-                                "and": {
-                                  "vals": [
-                                    {
-                                      "dotIsActive": {
-                                        "spellId": {
-                                          "spellId": 29228
-                                        }
-                                      }
-                                    },
-                                    {
-                                      "spellCanCast": {
-                                        "spellId": {
-                                          "spellId": 1326047
-                                        }
-                                      }
-                                    }
-                                  ]
+                                "spellCanCast": {
+                                  "spellId": {
+                                    "spellId": 10605
+                                  }
                                 }
                               },
                               {
-                                "or": {
-                                  "vals": [
-                                    {
-                                      "spellCanCast": {
-                                        "spellId": {
-                                          "spellId": 10605
-                                        }
-                                      }
-                                    },
-                                    {
-                                      "spellCanCast": {
-                                        "spellId": {
-                                          "spellId": 15208
-                                        }
-                                      }
-                                    }
-                                  ]
+                                "spellCanCast": {
+                                  "spellId": {
+                                    "spellId": 15208
+                                  }
                                 }
                               }
                             ]
@@ -861,43 +706,17 @@
                           "or": {
                             "vals": [
                               {
-                                "and": {
-                                  "vals": [
-                                    {
-                                      "dotIsActive": {
-                                        "spellId": {
-                                          "spellId": 29228
-                                        }
-                                      }
-                                    },
-                                    {
-                                      "spellCanCast": {
-                                        "spellId": {
-                                          "spellId": 1326047
-                                        }
-                                      }
-                                    }
-                                  ]
+                                "spellCanCast": {
+                                  "spellId": {
+                                    "spellId": 10605
+                                  }
                                 }
                               },
                               {
-                                "or": {
-                                  "vals": [
-                                    {
-                                      "spellCanCast": {
-                                        "spellId": {
-                                          "spellId": 10605
-                                        }
-                                      }
-                                    },
-                                    {
-                                      "spellCanCast": {
-                                        "spellId": {
-                                          "spellId": 15208
-                                        }
-                                      }
-                                    }
-                                  ]
+                                "spellCanCast": {
+                                  "spellId": {
+                                    "spellId": 15208
+                                  }
                                 }
                               }
                             ]
@@ -1029,43 +848,17 @@
                           "or": {
                             "vals": [
                               {
-                                "and": {
-                                  "vals": [
-                                    {
-                                      "dotIsActive": {
-                                        "spellId": {
-                                          "spellId": 29228
-                                        }
-                                      }
-                                    },
-                                    {
-                                      "spellCanCast": {
-                                        "spellId": {
-                                          "spellId": 1326047
-                                        }
-                                      }
-                                    }
-                                  ]
+                                "spellCanCast": {
+                                  "spellId": {
+                                    "spellId": 10605
+                                  }
                                 }
                               },
                               {
-                                "or": {
-                                  "vals": [
-                                    {
-                                      "spellCanCast": {
-                                        "spellId": {
-                                          "spellId": 10605
-                                        }
-                                      }
-                                    },
-                                    {
-                                      "spellCanCast": {
-                                        "spellId": {
-                                          "spellId": 15208
-                                        }
-                                      }
-                                    }
-                                  ]
+                                "spellCanCast": {
+                                  "spellId": {
+                                    "spellId": 15208
+                                  }
                                 }
                               }
                             ]
@@ -1186,43 +979,17 @@
                           "or": {
                             "vals": [
                               {
-                                "and": {
-                                  "vals": [
-                                    {
-                                      "dotIsActive": {
-                                        "spellId": {
-                                          "spellId": 29228
-                                        }
-                                      }
-                                    },
-                                    {
-                                      "spellCanCast": {
-                                        "spellId": {
-                                          "spellId": 1326047
-                                        }
-                                      }
-                                    }
-                                  ]
+                                "spellCanCast": {
+                                  "spellId": {
+                                    "spellId": 10605
+                                  }
                                 }
                               },
                               {
-                                "or": {
-                                  "vals": [
-                                    {
-                                      "spellCanCast": {
-                                        "spellId": {
-                                          "spellId": 10605
-                                        }
-                                      }
-                                    },
-                                    {
-                                      "spellCanCast": {
-                                        "spellId": {
-                                          "spellId": 15208
-                                        }
-                                      }
-                                    }
-                                  ]
+                                "spellCanCast": {
+                                  "spellId": {
+                                    "spellId": 15208
+                                  }
                                 }
                               }
                             ]

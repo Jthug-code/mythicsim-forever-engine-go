@@ -93,10 +93,12 @@ func applyRaceEffects(agent Agent) {
 			{Stat: stats.HealingPower, Multiplier: 1.1},
 		})
 
-		// 16 October beta notes: "Blood Fury: Cooldown increased to 3 minutes (was 2 minutes)."
+		// 16 October beta notes raised it to 3 minutes; the 27 October addendum to the development notes
+		// (repeated 2 November) puts it back: "Blood Fury's cooldown reduced to 2 minutes (was 3
+		// minutes)." Client 1.60.1.70707's 20572 states 120000 ms.
 		bloodFuryCD := Cooldown{
 			Timer:    character.NewTimer(),
-			Duration: time.Minute * 3,
+			Duration: time.Minute * 2,
 		}
 		bloodFuryAura.Icd = &bloodFuryCD
 

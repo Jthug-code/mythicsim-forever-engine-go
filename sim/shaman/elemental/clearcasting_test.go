@@ -68,7 +68,7 @@ func TestClearcastingNamesTheSpellsTheClientRowDoes(t *testing.T) {
 	if compared < 4 {
 		t.Fatalf("only %d shaman spells were comparable with the client row", compared)
 	}
-	for _, name := range []string{"Lightning Bolt", "Chain Lightning", "Lava Burst", "Earth Shock"} {
+	for _, name := range []string{"Lightning Bolt", "Chain Lightning", "Earth Shock"} {
 		if !named[name] {
 			t.Errorf("%s does not spend a Clearcasting charge", name)
 		}

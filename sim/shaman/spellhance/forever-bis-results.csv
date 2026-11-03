@@ -1,0 +1,16 @@
+build,gear,set_bonuses,duration_s,reaction_ms,haste,iterations,dps,dps_stderr,physical_dps,spell_dps,physical_share,lb_lvb_cl_casts_per_min,mh_swings_per_min,seconds_oom
+Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,false,120,150,on,10000,876.1,0.5,0.0,876.1,0.000,22.09,0.00,0.4
+Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,false,300,150,on,10000,729.0,0.2,0.0,729.0,0.000,5.24,0.00,0.2
+Ele preset 32/0/19,testdata/forever-ele-bis.gear.json,false,600,150,on,10000,725.9,0.2,0.0,725.9,0.000,3.29,0.00,0.9
+29/22 weave,testdata/forever-ele-bis.gear.json,false,120,150,on,10000,870.8,0.6,251.3,619.5,0.289,13.05,13.35,0.4
+29/22 weave,testdata/forever-ele-bis.gear.json,false,300,150,on,10000,725.6,0.3,283.4,442.2,0.391,9.16,16.41,72.3
+29/22 weave,testdata/forever-ele-bis.gear.json,false,600,150,on,10000,627.8,0.2,303.9,323.9,0.484,6.40,18.57,242.1
+Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,120,150,on,10000,961.2,0.8,643.4,317.8,0.669,6.87,24.23,9.2
+Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,300,150,on,10000,925.8,0.5,638.9,286.9,0.690,7.04,23.86,46.7
+Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,600,150,on,10000,896.4,0.3,631.6,264.8,0.705,7.09,23.71,174.3
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,10000,979.7,0.7,689.4,290.2,0.704,7.13,24.54,0.0
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,10000,972.0,0.5,683.3,288.7,0.703,7.06,24.19,3.7
+8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,600,150,on,10000,932.5,0.3,672.5,259.9,0.721,7.16,24.01,102.2
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,120,150,on,10000,968.5,0.7,682.4,286.1,0.705,7.11,24.55,0.0
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,300,150,on,10000,961.2,0.5,676.0,285.2,0.703,7.04,24.19,0.0
+"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,600,150,on,10000,955.6,0.3,669.6,286.0,0.701,7.05,24.04,0.0

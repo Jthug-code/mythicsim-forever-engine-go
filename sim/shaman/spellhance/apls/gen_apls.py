@@ -93,7 +93,7 @@ def cast_window(variant, sid=None, after_reaction=True):
     raise ValueError(variant)
 
 
-def build(variant, hard_casts=True, maelstrom=False, lava_burst=True, chain_lightning=False, spend_at=5):
+def build(variant, hard_casts=True, maelstrom=False, lava_burst=False, chain_lightning=False, spend_at=5):
 
     # Only name spells and auras the build has: the APL drops an action whose value it can't resolve.
     hard_ready = {"spellCanCast": spell(LB)}

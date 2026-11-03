@@ -39,8 +39,9 @@ func TestNoMaelstromWeaponNoLightningBolt(t *testing.T) {
 	}
 }
 
-// Maelstrom Weapon procs at 10 PPM whatever the talent rank: Steele (foreverlogs 2748, 1 point)
-// stacked it on 0.54 of landed hits with a 3.6 sec two-hander. 2 PPM a point gave 1 point a fifth.
+// Maelstrom Weapon procs at one rate whatever the talent rank: Steele (foreverlogs 2748, 1 point) stacked it
+// on 0.54 of landed hits with a 3.6 sec two-hander, 10 PPM, which the 2 November 2026 notes double to 20.
+// 2 PPM a point gave 1 point a fifth.
 func TestMaelstromWeaponRateDoesNotScaleWithPoints(t *testing.T) {
 	procs := func(talents string) float64 {
 		player := &proto.Player{

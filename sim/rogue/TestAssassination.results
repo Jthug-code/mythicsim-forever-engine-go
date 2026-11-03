@@ -1151,15 +1151,15 @@ dps_results: {
 dps_results: {
  key: "TestAssassination-Settings-Orc-Daggers-Poisons-forever_mutilate-FullBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 310.90629
-  tps: 154.52043
+  dps: 311.64903
+  tps: 154.88957
  }
 }
 dps_results: {
  key: "TestAssassination-Settings-Orc-Daggers-Poisons-forever_mutilate-FullBuffs-0.0yards-LongSingleTarget"
  value: {
-  dps: 310.90629
-  tps: 154.52043
+  dps: 311.64903
+  tps: 154.88957
  }
 }
 dps_results: {
@@ -1172,15 +1172,15 @@ dps_results: {
 dps_results: {
  key: "TestAssassination-Settings-Orc-Daggers-Poisons-forever_mutilate-NoBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 115.36503
-  tps: 81.90917
+  dps: 115.54993
+  tps: 82.04045
  }
 }
 dps_results: {
  key: "TestAssassination-Settings-Orc-Daggers-Poisons-forever_mutilate-NoBuffs-0.0yards-LongSingleTarget"
  value: {
-  dps: 115.36503
-  tps: 81.90917
+  dps: 115.54993
+  tps: 82.04045
  }
 }
 dps_results: {

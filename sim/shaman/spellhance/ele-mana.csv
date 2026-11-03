@@ -1,41 +1,41 @@
 build,gear,race,bonus_mp5,duration_s,dps,seconds_oom
-Ele 32/0/19 Water Shield + Mana Tide,ele_launch,WindshaperSkyborne,0,120,439.5,0.5
-Ele 32/0/19 Water Shield + Mana Tide,ele_launch,Troll,0,120,435.9,0.4
-Ele 32/0/19 Water Shield + Mana Tide,ele_launch,Orc,0,120,436.4,0.4
-Ele 32/0/19 Water Shield + Mana Tide,ele_launch,Dwarf,0,120,437.5,0.4
-Ele 32/0/19 Water Shield + Mana Tide,ele_launch,WindshaperSkyborne,25,120,444.0,0.2
-Ele 32/0/19 Water Shield + Mana Tide,ele_launch,WindshaperSkyborne,50,120,447.3,0.1
-Ele 32/0/19 Water Shield + Mana Tide,ele_launch,WindshaperSkyborne,100,120,449.4,0.0
-Ele 32/0/19 Water Shield + Mana Tide,ele_launch,WindshaperSkyborne,100000,120,448.5,0.0
-Ele preset 32/0/19,ele_launch,WindshaperSkyborne,0,120,429.7,1.1
-Ele preset 32/0/19,ele_launch,WindshaperSkyborne,100000,120,455.5,0.0
-Ele 32/0/19 Water Shield + Mana Tide,ele_launch,WindshaperSkyborne,0,300,399.0,0.6
-Ele 32/0/19 Water Shield + Mana Tide,ele_launch,Troll,0,300,395.2,0.5
-Ele 32/0/19 Water Shield + Mana Tide,ele_launch,Orc,0,300,395.9,0.6
-Ele 32/0/19 Water Shield + Mana Tide,ele_launch,Dwarf,0,300,397.1,0.6
-Ele 32/0/19 Water Shield + Mana Tide,ele_launch,WindshaperSkyborne,25,300,401.8,0.2
-Ele 32/0/19 Water Shield + Mana Tide,ele_launch,WindshaperSkyborne,50,300,405.5,0.1
-Ele 32/0/19 Water Shield + Mana Tide,ele_launch,WindshaperSkyborne,100,300,411.6,0.0
-Ele 32/0/19 Water Shield + Mana Tide,ele_launch,WindshaperSkyborne,100000,300,424.2,0.0
-Ele preset 32/0/19,ele_launch,WindshaperSkyborne,0,300,397.5,5.9
-Ele preset 32/0/19,ele_launch,WindshaperSkyborne,100000,300,433.0,0.0
-Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,WindshaperSkyborne,0,120,1054.2,0.0
-Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,Troll,0,120,1039.9,0.0
-Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,Orc,0,120,1042.7,0.0
-Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,Dwarf,0,120,1043.3,0.0
-Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,WindshaperSkyborne,25,120,1056.0,0.0
-Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,WindshaperSkyborne,50,120,1056.1,0.0
-Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,WindshaperSkyborne,100,120,1054.8,0.0
-Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,WindshaperSkyborne,100000,120,1055.8,0.0
-Ele preset 32/0/19,caster_mirage_2h_sets,WindshaperSkyborne,0,120,1019.1,3.5
-Ele preset 32/0/19,caster_mirage_2h_sets,WindshaperSkyborne,100000,120,1101.1,0.0
-Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,WindshaperSkyborne,0,300,979.9,0.7
-Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,Troll,0,300,970.0,0.5
-Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,Orc,0,300,971.8,0.6
-Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,Dwarf,0,300,974.9,0.6
-Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,WindshaperSkyborne,25,300,987.0,0.3
-Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,WindshaperSkyborne,50,300,994.8,0.2
-Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,WindshaperSkyborne,100,300,1007.9,0.1
-Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,WindshaperSkyborne,100000,300,1038.7,0.0
-Ele preset 32/0/19,caster_mirage_2h_sets,WindshaperSkyborne,0,300,956.8,10.0
-Ele preset 32/0/19,caster_mirage_2h_sets,WindshaperSkyborne,100000,300,1086.9,0.0
+Ele 32/0/19 Water Shield + Mana Tide,ele_launch,WindshaperSkyborne,0,120,575.7,0.3
+Ele 32/0/19 Water Shield + Mana Tide,ele_launch,Troll,0,120,570.7,0.3
+Ele 32/0/19 Water Shield + Mana Tide,ele_launch,Orc,0,120,568.6,0.3
+Ele 32/0/19 Water Shield + Mana Tide,ele_launch,Dwarf,0,120,572.1,0.3
+Ele 32/0/19 Water Shield + Mana Tide,ele_launch,WindshaperSkyborne,25,120,581.9,0.1
+Ele 32/0/19 Water Shield + Mana Tide,ele_launch,WindshaperSkyborne,50,120,584.4,0.0
+Ele 32/0/19 Water Shield + Mana Tide,ele_launch,WindshaperSkyborne,100,120,583.9,0.0
+Ele 32/0/19 Water Shield + Mana Tide,ele_launch,WindshaperSkyborne,100000,120,580.8,0.0
+Ele preset 32/0/19,ele_launch,WindshaperSkyborne,0,120,549.2,0.6
+Ele preset 32/0/19,ele_launch,WindshaperSkyborne,100000,120,594.8,0.0
+Ele 32/0/19 Water Shield + Mana Tide,ele_launch,WindshaperSkyborne,0,300,465.4,0.2
+Ele 32/0/19 Water Shield + Mana Tide,ele_launch,Troll,0,300,461.0,0.2
+Ele 32/0/19 Water Shield + Mana Tide,ele_launch,Orc,0,300,462.7,0.2
+Ele 32/0/19 Water Shield + Mana Tide,ele_launch,Dwarf,0,300,464.0,0.2
+Ele 32/0/19 Water Shield + Mana Tide,ele_launch,WindshaperSkyborne,25,300,473.9,0.1
+Ele 32/0/19 Water Shield + Mana Tide,ele_launch,WindshaperSkyborne,50,300,479.7,0.0
+Ele 32/0/19 Water Shield + Mana Tide,ele_launch,WindshaperSkyborne,100,300,492.2,0.0
+Ele 32/0/19 Water Shield + Mana Tide,ele_launch,WindshaperSkyborne,100000,300,515.2,0.0
+Ele preset 32/0/19,ele_launch,WindshaperSkyborne,0,300,461.6,0.4
+Ele preset 32/0/19,ele_launch,WindshaperSkyborne,100000,300,528.3,0.0
+Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,WindshaperSkyborne,0,120,1293.5,0.0
+Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,Troll,0,120,1283.7,0.0
+Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,Orc,0,120,1276.3,0.0
+Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,Dwarf,0,120,1281.3,0.0
+Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,WindshaperSkyborne,25,120,1296.2,0.0
+Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,WindshaperSkyborne,50,120,1295.2,0.0
+Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,WindshaperSkyborne,100,120,1290.7,0.0
+Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,WindshaperSkyborne,100000,120,1290.7,0.0
+Ele preset 32/0/19,caster_mirage_2h_sets,WindshaperSkyborne,0,120,1254.6,0.9
+Ele preset 32/0/19,caster_mirage_2h_sets,WindshaperSkyborne,100000,120,1364.7,0.0
+Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,WindshaperSkyborne,0,300,1146.7,0.3
+Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,Troll,0,300,1135.3,0.2
+Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,Orc,0,300,1138.5,0.2
+Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,Dwarf,0,300,1141.8,0.2
+Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,WindshaperSkyborne,25,300,1161.5,0.1
+Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,WindshaperSkyborne,50,300,1175.2,0.1
+Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,WindshaperSkyborne,100,300,1199.3,0.1
+Ele 32/0/19 Water Shield + Mana Tide,caster_mirage_2h_sets,WindshaperSkyborne,100000,300,1249.2,0.0
+Ele preset 32/0/19,caster_mirage_2h_sets,WindshaperSkyborne,0,300,1099.7,0.3
+Ele preset 32/0/19,caster_mirage_2h_sets,WindshaperSkyborne,100000,300,1321.5,0.0

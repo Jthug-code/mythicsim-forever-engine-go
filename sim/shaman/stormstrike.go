@@ -55,9 +55,12 @@ func (shaman *Shaman) newStormstrikeHitSpellConfig(spellID int32, isMH bool) cor
 		ClassSpellMask:   SpellMaskStormstrikeDamage,
 		ThreatMultiplier: 1,
 		DamageMultiplier: 1,
+		// Client 17364's strike is E_NORMALIZED_WEAPON_DMG (Era's was effect 58, plain weapon damage), and the 2
+		// November notes say "150% normalized weapon damage": attack power counts at 3.3 sec for a two-hander,
+		// not at the weapon's own speed.
 		ApplyEffects: func(sim *core.Simulation, target *core.Unit, spell *core.Spell) {
-			weaponDamage := core.Ternary(isMH, spell.Unit.MHWeaponDamage, spell.Unit.OHWeaponDamage)
-			baseDamage := weaponDamage(sim, spell.MeleeAttackPower(target))
+			weaponDamage := core.Ternary(isMH, spell.Unit.MHNormalizedWeaponDamage, spell.Unit.OHNormalizedWeaponDamage)
+			baseDamage := weaponDamage(sim, spell.MeleeAttackPower(target)) * nov2StormstrikeWeaponDamage
 			spell.CalcAndDealDamage(sim, target, baseDamage, spell.OutcomeMeleeSpecialBlockAndCrit)
 		},
 	}

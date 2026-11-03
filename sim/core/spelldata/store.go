@@ -110,6 +110,21 @@ func Find(id int32) *Spell {
 	return Nil
 }
 
+// Patch rewrites a row in place, the one sanctioned write through the store: for a class package
+// carrying a change its development notes state but no client build does yet. Call it from the
+// package's init, before any spell registers. Ranked ladders hold the store's own rows and see the
+// patch; a Talent ladder copied its rows when it was built, so patch its curve with SetCurve and
+// build it again.
+func Patch(id int32, fn func(*Spell)) {
+	fn(MustFind(id))
+}
+
+// SetCurve replaces a talent's rank curve, for the same purpose as Patch. Rows are [effect
+// position][rank - 1], as the generated curves are.
+func SetCurve(spellID int32, rows [][]float64) {
+	curves[spellID] = rows
+}
+
 // For a spell a caller depends on: a missing row is a generator problem, not a runtime condition. The
 // row is the store's own, not a copy.
 func MustFind(id int32) *Spell {
