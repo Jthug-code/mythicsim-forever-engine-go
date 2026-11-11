@@ -293,6 +293,10 @@ func (shaman *Shaman) applyImprovedStormstrike() {
 // SoD's +50% with Windfury Weapon and +50% with a two-hander (the row's eff1 = 50) would put Steele
 // at 22.5 PPM, every hit; Forever's tooltip drops that sentence and the log agrees. The 2 November
 // 2026 notes double the chance (nov2MaelstromWeaponPPM), so Steele's two-hander now procs on every hit.
+// MaelstromWeaponRateAsRank gives Maelstrom Weapon the hotfix proc chance of this rank whatever the points spent,
+// to bound what a one-point build could gain from a higher chance. Zero leaves the rank's own.
+var MaelstromWeaponRateAsRank int32
+
 func (shaman *Shaman) applyMaelstromWeapon() {
 	if shaman.Talents.MaelstromWeapon == 0 {
 		return
@@ -306,9 +310,20 @@ func (shaman *Shaman) applyMaelstromWeapon() {
 		// 10 November: every rank gives rank 5's 20% a stack, and the rank sets the rate, 6 to 10 a minute.
 		perStack = spellData.MaelstromWeapon.EffectAt(1).FractionAt(5)
 		ppm = 5 + float64(shaman.Talents.MaelstromWeapon)
+		if MaelstromWeaponRateAsRank != 0 {
+			ppm = 5 + float64(MaelstromWeaponRateAsRank)
+		}
 	}
 
 	ppmm := shaman.NewLegacyPPMManager(ppm, core.ProcMaskMelee)
+	if nov10Hotfix {
+		// The hotfix tooltip states a chance per hit from the main hand's speed (5 points on a 3.6 sec weapon:
+		// 60%), so roll exactly that on every landed melee hit: autos, Stormstrike, each Windfury Weapon strike
+		// and Windfury Totem's extra swing. Haste doesn't change it.
+		if mh := shaman.MainHand(); mh != nil && mh.SwingSpeed > 0 {
+			ppmm = shaman.NewFixedProcChanceManager(min(1, ppm*mh.SwingSpeed/60), core.ProcMaskMelee)
+		}
+	}
 
 	castMod := shaman.AddDynamicMod(core.SpellModConfig{
 		Kind:      core.SpellMod_CastTime_Pct,

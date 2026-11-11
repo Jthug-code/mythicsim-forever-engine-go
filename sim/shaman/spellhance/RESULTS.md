@@ -95,6 +95,31 @@ them reaches the Enhancement builds:
 - **One point of Maelstrom Weapon:** 2.7 instant bolts a minute against 5.0 at 5/5. Lightning Overload adds about 6
   DPS at that rate.
 
+**Two to five targets** (`nov10-targets-*.csv`, 3,000 iterations per row). Melee hits one target, Chain Lightning up
+to three, Magma Totem and Fire Nova all of them. The `*_aoe` rotations drop Magma Totem and press Fire Nova on
+cooldown. Best rotation per spec, BiS sets, DPS on 1 / 2 / 3 / 4 / 5 targets:
+
+| Spec | Full raid, 1 min | Full raid, 2 min | Full raid, 5 min | Lighter, 2 min | Lighter, 5 min |
+|---|---|---|---|---|---|
+| 8/36/7, no hard casts | 1103 / 1193 / 1283 / 1373 / 1464 | 1031 / 1122 / 1216 / 1312 / 1406 | 1017 / 1110 / 1204 / 1301 / 1394 | 902 / 980 / 1054 / 1132 / 1209 | 844 / 904 / 959 / 1020 / 1078 |
+| 29/22 weave with Chain Lightning | 1070 / 1378 / 1658 / 1838 / 2005 | 1002 / 1294 / 1567 / 1741 / 1910 | 884 / 1085 / 1286 / 1424 / 1568 | 779 / 966 / 1142 / 1260 / 1374 | 662 / 790 / 909 / 991 / 1072 |
+| Elemental preset | 958 / 1396 / 1751 / 1897 / 2045 | 951 / 1183 / 1456 / 1572 / 1692 | 850 / 1038 / 1261 / 1355 / 1456 | 877 / 966 / 1153 / 1225 / 1302 | 729 / 831 / 957 / 1010 / 1063 |
+
+- **In a full raid 29/22 is the best shaman on two or more targets from 2 minutes up:** on three targets, 29% ahead of
+  8/36/7 and 8% ahead of Elemental at 2 minutes, 7% and 2% at 5 minutes, where it spends 94 s out of mana.
+- **At 1 minute Elemental leads** on two or more targets (1751 against 1658 on three).
+- **With lighter buffs the lead goes with the mana:** level with Elemental at 2 minutes, behind 8/36/7 at 5 minutes on
+  two and three targets.
+- **25/26 doesn't find a place here either.** Melee only it tracks 8/36/7 about 6% lower (1137 on three targets at 5
+  minutes, full raid); weaving Chain Lightning in the 29/22 set it reaches 29/22's 5-minute number (1269 against 1286)
+  and trails it by 12% at 2 minutes.
+
+**Maelstrom Weapon as a chance per hit.** Under the hotfix the sim now rolls the tooltip's chance directly on every
+landed melee hit, Windfury strikes included: (5 + rank) x main-hand speed / 60, so 35% at one point and 58% at five on
+the 3.5 s BiS weapon. The numbers are identical to the per-minute form used before, which was the same chance.
+`nov10-mw1-bound-results*.csv` gives 25/26's one point the five-point chance: 948 / 951 / 946 in a full raid, still
+behind the Enhancement preset (986 / 981 / 963).
+
 # Run 7: the 2 November 2026 shaman changes (2026-11-03)
 
 **Source:** Kaivax, "WoW Forever Beta Development Notes – Updated November 2" (Blizzard forums topic 2360696, post 9,

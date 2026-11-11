@@ -1,6 +1,7 @@
 package spellhance
 
 import (
+	"fmt"
 	"os"
 	"path/filepath"
 	"testing"
@@ -123,6 +124,68 @@ func TestNov10MW1(t *testing.T) {
 				runs = append(runs, run{Build: b, Gear: g, Duration: d, ReactionMs: 150, Iterations: iterations, Seed: 7, Air: "own"})
 			}
 		}
+	}
+	runMatrix(t, runs, out)
+}
+
+// The same builds on two to five targets. Melee hits one target; Chain Lightning hits up to three, and Magma
+// Totem and Fire Nova hit them all. The *_aoe rotations (gen_apls.py) drop Magma Totem and press Fire Nova on
+// cooldown; the Elemental and Enhancement presets switch on the target count themselves.
+var (
+	aoe8367        = build{"8/36/7 no hard casts, Magma + Fire Nova", talents8367, "apls/melee_maelstrom_aoe.apl.json", false}
+	aoe8367CL      = build{"8/36/7 weave Chain Lightning, Magma + Fire Nova", talents8367, "apls/weave_maelstrom_cl_aoe.apl.json", false}
+	aoeEnhPreset   = build{"Enh preset 19/32/0, Magma + Fire Nova", talentsEnhPreset, "apls/melee_maelstrom_aoe.apl.json", false}
+	aoe2922Weave   = build{"29/22 AK3 weave Chain Lightning, Magma + Fire Nova", weave2922AK.Talents, "apls/weave_cl_aoe.apl.json", false}
+	aoe2922Chain   = build{"29/22 AK3 chain Chain Lightning, Magma + Fire Nova", weave2922AK.Talents, "apls/chain_cl_aoe.apl.json", false}
+	aoe2526        = build{"25/26 MW1 no hard casts, Magma + Fire Nova", mw2526Bolt.Talents, "apls/melee_maelstrom_aoe.apl.json", false}
+	aoe2526CL      = build{"25/26 MW1 weave Chain Lightning, Magma + Fire Nova", mw2526Bolt.Talents, "apls/weave_maelstrom_cl_aoe.apl.json", false}
+	aoe2526ChainCL = build{"25/26 MW1 chain Chain Lightning, Magma + Fire Nova", mw2526Bolt.Talents, "apls/chain_cl_aoe.apl.json", false}
+)
+
+func TestNov10Targets(t *testing.T) {
+	out := os.Getenv("SPELLHANCE_NOV10_TARGETS_OUT")
+	if out == "" {
+		t.Skip("set SPELLHANCE_NOV10_TARGETS_OUT to run the comparison")
+	}
+	iterations := matrixIterations(t)
+	shaman.SetNov10Hotfix(true)
+	defer shaman.SetNov10Hotfix(false)
+	rows := []struct {
+		b         build
+		gear, air string
+	}{
+		{aoe8367, foreverBisGear(), "own"}, {aoe8367CL, foreverBisGear(), "own"},
+		{enhPreset, foreverBisGear(), "own"}, {aoeEnhPreset, foreverBisGear(), "own"},
+		{aoe2922Weave, foreverHybBisGear(), "own"}, {aoe2922Chain, foreverHybBisGear(), "own"},
+		{aoe2526, foreverBisGear(), "own"}, {aoe2526CL, foreverBisGear(), "own"}, {aoe2526ChainCL, foreverBisGear(), "own"},
+		{aoe2526CL, foreverHybBisGear(), "own"}, {aoe2526ChainCL, foreverHybBisGear(), "own"},
+		{elePreset, foreverEleBisGear(), ""}, {eleGate5, foreverEleBisGear(), ""}, {eleGate10, foreverEleBisGear(), ""},
+	}
+	for targets := 1; targets <= 5; targets++ {
+		var runs []run
+		for _, row := range rows {
+			for _, d := range []time.Duration{time.Minute, 2 * time.Minute, 5 * time.Minute} {
+				runs = append(runs, run{Build: row.b, Gear: row.gear, Duration: d, ReactionMs: 150, Iterations: iterations, Seed: 7, Air: row.air, Targets: targets})
+			}
+		}
+		runMatrix(t, runs, filepath.Join(out, fmt.Sprint(targets)))
+	}
+}
+
+// TestNov10MW1Bound is 25/26 again with one point of Maelstrom Weapon rolling the five-point chance: the most the
+// build could gain if the rank's lower chance turned out not to apply.
+func TestNov10MW1Bound(t *testing.T) {
+	out := os.Getenv("SPELLHANCE_NOV10_MW1BOUND_OUT")
+	if out == "" {
+		t.Skip("set SPELLHANCE_NOV10_MW1BOUND_OUT to run the comparison")
+	}
+	iterations := matrixIterations(t)
+	shaman.SetNov10Hotfix(true)
+	shaman.MaelstromWeaponRateAsRank = 5
+	defer func() { shaman.SetNov10Hotfix(false); shaman.MaelstromWeaponRateAsRank = 0 }()
+	var runs []run
+	for _, d := range []time.Duration{2 * time.Minute, 5 * time.Minute, 10 * time.Minute} {
+		runs = append(runs, run{Build: mw2526Bolt, Gear: foreverBisGear(), Duration: d, ReactionMs: 150, Iterations: iterations, Seed: 7, Air: "own"})
 	}
 	runMatrix(t, runs, out)
 }

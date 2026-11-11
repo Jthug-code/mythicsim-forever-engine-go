@@ -116,6 +116,8 @@ type run struct {
 	// The shaman's air totem under the 10 November hotfix: "" its own Grace of Air, as every earlier run;
 	// "own" its own Windfury Totem instead; "party" its own Grace of Air and another shaman's Windfury Totem.
 	Air string
+	// Targets in the encounter; one unless set.
+	Targets int
 }
 
 func (r run) request() *proto.RaidSimRequest {
@@ -224,6 +226,9 @@ func (r run) request() *proto.RaidSimRequest {
 
 	encounter := core.MakeSingleTargetEncounter(0)
 	encounter.Duration = r.Duration.Seconds()
+	for len(encounter.Targets) < r.Targets {
+		encounter.Targets = append(encounter.Targets, core.NewDefaultTarget())
+	}
 	if r.MobType != proto.MobType_MobTypeUnknown {
 		target := core.FreshDefaultTargetConfig()
 		target.MobType = r.MobType
