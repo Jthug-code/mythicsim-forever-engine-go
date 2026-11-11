@@ -113,6 +113,9 @@ type run struct {
 	Debug                 bool
 	Race                  proto.Race    // Windshaper Skyborne unless set
 	MobType               proto.MobType // the default target's (Mechanical) unless set
+	// The shaman's air totem under the 10 November hotfix: "" its own Grace of Air, as every earlier run;
+	// "own" its own Windfury Totem instead; "party" its own Grace of Air and another shaman's Windfury Totem.
+	Air string
 }
 
 func (r run) request() *proto.RaidSimRequest {
@@ -122,7 +125,7 @@ func (r run) request() *proto.RaidSimRequest {
 		Class:          proto.Class_ClassShaman,
 		Race:           proto.Race_RaceWindshaperSkyborne,
 		TalentsString:  b.Talents,
-		Rotation:       core.APLRotationFromJsonString(readFile(b.APL)),
+		Rotation:       core.APLRotationFromJsonString(r.apl()),
 		ReactionTimeMs: r.ReactionMs,
 		Buffs:          &proto.IndividualBuffs{},
 		Profession1:    proto.Profession_Enchanting,
@@ -203,6 +206,9 @@ func (r run) request() *proto.RaidSimRequest {
 	}
 	if fullBuffs() {
 		partyBuffs, raidBuffs, debuffs = applyFullBuffs(b, player)
+	}
+	if r.Air == "party" {
+		partyBuffs.WindfuryTotem = true
 	}
 	// The engine registers a potion or conjured item only from the lists the UI sends (Potions,
 	// ConjuredItems); PotId and ConjuredId just pick one of them. Runs 1-5 set only the ids, so no
@@ -448,4 +454,16 @@ func TestEnhLaunchOneHandDoesNotDualWield(t *testing.T) {
 			t.Errorf("%s: dual wielding %v, want %v", gearName, got, want)
 		}
 	}
+}
+
+// apl is the build's rotation, with Windfury Totem (10614) in Grace of Air's place (25359) when the run says so.
+func (r run) apl() string {
+	apl := readFile(r.Build.APL)
+	if r.Air == "own" {
+		if !strings.Contains(apl, "25359") {
+			panic(r.Build.Label + ": no Grace of Air to replace")
+		}
+		apl = strings.ReplaceAll(apl, "25359", "10614")
+	}
+	return apl
 }

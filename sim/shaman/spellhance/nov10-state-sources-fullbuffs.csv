@@ -1,0 +1,727 @@
+state,build,gear,set_bonuses,duration_s,reaction_ms,haste,source,school,dps,share
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,271.1,0.315
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,179.3,0.208
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,107.1,0.124
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,97.7,0.113
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,83.6,0.097
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,53.8,0.062
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,27.1,0.031
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,25.3,0.029
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,16.1,0.019
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,272.2,0.316
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,178.9,0.208
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,109.1,0.127
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,95.1,0.110
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,82.9,0.096
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,54.5,0.063
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,28.4,0.033
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,24.6,0.029
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,16.0,0.019
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,269.8,0.315
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,177.0,0.207
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,108.3,0.127
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,94.3,0.110
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,82.3,0.096
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,54.6,0.064
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,29.0,0.034
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,24.2,0.028
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,15.9,0.019
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,190.9,0.226
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,188.7,0.223
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,143.6,0.170
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,79.7,0.094
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,75.3,0.089
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,65.8,0.078
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,37.2,0.044
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,35.0,0.041
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,28.9,0.034
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,189.9,0.228
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,187.1,0.224
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,142.0,0.170
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,79.2,0.095
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,73.7,0.088
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,64.8,0.078
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,35.6,0.043
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,34.0,0.041
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,27.9,0.033
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,189.7,0.228
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,187.5,0.225
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,142.1,0.170
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,79.4,0.095
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,73.1,0.088
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,64.6,0.077
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,36.6,0.044
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,33.3,0.040
+nov10,"29/22 shock melee (Fury 4, Reverberation)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,27.6,0.033
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,120,150,on,Melee swing,physical,180.6,0.283
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,120,150,on,Windfury Attack,physical,128.7,0.202
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,120,150,on,Earth Shock,spell,119.7,0.188
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,120,150,on,o3/10610,physical,57.5,0.090
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,48.7,0.076
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,120,150,on,Flame Shock (ticks),spell,44.2,0.069
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,120,150,on,Searing Totem,spell,25.5,0.040
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,120,150,on,Flame Shock (hit),spell,22.2,0.035
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,11.0,0.017
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,300,150,on,Melee swing,physical,179.5,0.284
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,300,150,on,Windfury Attack,physical,127.4,0.201
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,300,150,on,Earth Shock,spell,119.0,0.188
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,300,150,on,o3/10610,physical,56.9,0.090
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,47.3,0.075
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,300,150,on,Flame Shock (ticks),spell,44.5,0.070
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,300,150,on,Searing Totem,spell,25.9,0.041
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,300,150,on,Flame Shock (hit),spell,21.5,0.034
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,10.8,0.017
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,600,150,on,Melee swing,physical,179.1,0.283
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,600,150,on,Windfury Attack,physical,127.1,0.201
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,600,150,on,Earth Shock,spell,119.5,0.189
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,600,150,on,o3/10610,physical,56.8,0.090
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,600,150,on,Stormstrike (weapon strike),physical,47.0,0.074
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,600,150,on,Flame Shock (ticks),spell,44.7,0.071
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,600,150,on,Searing Totem,spell,27.0,0.043
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,600,150,on,Flame Shock (hit),spell,21.2,0.033
+nov10,"29/22 shock melee (Fury 4, Reverberation)",enh_launch_1h,false,600,150,on,Dragonbreath Chili,spell,10.7,0.017
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,282.0,0.320
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,184.1,0.209
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,117.1,0.133
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,95.7,0.108
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,87.8,0.100
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,50.1,0.057
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,26.8,0.030
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,24.5,0.028
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,13.7,0.016
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,283.6,0.321
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,184.5,0.209
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,118.5,0.134
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,94.2,0.107
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,87.7,0.099
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,50.9,0.058
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,27.5,0.031
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,23.6,0.027
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,13.5,0.015
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,281.2,0.320
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,182.8,0.208
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,118.8,0.135
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,93.2,0.106
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,86.8,0.099
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,51.0,0.058
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,28.5,0.032
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,23.2,0.026
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,13.5,0.015
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,196.7,0.245
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,155.1,0.193
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,146.5,0.182
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,73.4,0.091
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,71.7,0.089
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,65.7,0.082
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,34.6,0.043
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,33.7,0.042
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,25.9,0.032
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,195.8,0.246
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,153.1,0.192
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,145.8,0.183
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,72.6,0.091
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,71.5,0.090
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,65.2,0.082
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,35.8,0.045
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,31.6,0.040
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,25.0,0.031
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,195.5,0.246
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,153.6,0.193
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,145.0,0.182
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,72.1,0.091
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,71.9,0.090
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,64.9,0.082
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,36.3,0.046
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,30.9,0.039
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,24.7,0.031
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,120,150,on,Melee swing,physical,187.1,0.289
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,120,150,on,Windfury Attack,physical,132.0,0.204
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,120,150,on,Earth Shock,spell,119.3,0.184
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,120,150,on,o3/10610,physical,59.3,0.092
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,49.0,0.076
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,120,150,on,Flame Shock (ticks),spell,43.2,0.067
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,120,150,on,Searing Totem,spell,25.5,0.039
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,120,150,on,Flame Shock (hit),spell,22.3,0.034
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,9.6,0.015
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,300,150,on,Melee swing,physical,186.3,0.290
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,300,150,on,Windfury Attack,physical,131.4,0.204
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,300,150,on,Earth Shock,spell,118.4,0.184
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,300,150,on,o3/10610,physical,58.8,0.091
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,48.0,0.075
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,300,150,on,Flame Shock (ticks),spell,43.6,0.068
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,300,150,on,Searing Totem,spell,25.8,0.040
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,300,150,on,Flame Shock (hit),spell,21.4,0.033
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,9.4,0.015
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,600,150,on,Melee swing,physical,185.9,0.289
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,600,150,on,Windfury Attack,physical,131.1,0.204
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,600,150,on,Earth Shock,spell,118.6,0.184
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,600,150,on,o3/10610,physical,58.7,0.091
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,600,150,on,Stormstrike (weapon strike),physical,47.6,0.074
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,600,150,on,Flame Shock (ticks),spell,43.7,0.068
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,600,150,on,Searing Totem,spell,27.0,0.042
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,600,150,on,Flame Shock (hit),spell,21.0,0.033
+nov10,"30/21 shock melee (Fury 5, Flurry 5)",enh_launch_1h,false,600,150,on,Dragonbreath Chili,spell,9.4,0.015
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,270.3,0.321
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,177.9,0.211
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,97.6,0.116
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,91.5,0.109
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,83.4,0.099
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,53.1,0.063
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,27.1,0.032
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,25.2,0.030
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,16.2,0.019
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,271.2,0.322
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,178.0,0.211
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,95.4,0.113
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,91.9,0.109
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,83.0,0.099
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,53.5,0.064
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,28.6,0.034
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,24.2,0.029
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,16.0,0.019
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,268.9,0.321
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,176.9,0.211
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,94.5,0.113
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,92.3,0.110
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,82.3,0.098
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,53.7,0.064
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,29.0,0.035
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,23.8,0.028
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,15.9,0.019
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,190.3,0.242
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,148.3,0.188
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,141.9,0.180
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,73.1,0.093
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,72.1,0.091
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,63.9,0.081
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,35.0,0.044
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,34.4,0.044
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,29.0,0.037
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,189.2,0.243
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,145.5,0.187
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,141.0,0.181
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,72.8,0.094
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,70.4,0.091
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,62.7,0.081
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,36.1,0.046
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,31.6,0.041
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,27.7,0.036
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,188.8,0.243
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,145.7,0.188
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,140.0,0.181
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,73.2,0.094
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,69.9,0.090
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,62.6,0.081
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,36.8,0.047
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,30.9,0.040
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,27.4,0.035
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,120,150,on,Melee swing,physical,178.7,0.306
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,120,150,on,Windfury Attack,physical,127.7,0.219
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,120,150,on,Earth Shock,spell,72.1,0.124
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,120,150,on,o3/10610,physical,57.7,0.099
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,49.3,0.084
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,120,150,on,Flame Shock (ticks),spell,40.4,0.069
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,120,150,on,Searing Totem,spell,25.5,0.044
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,120,150,on,Flame Shock (hit),spell,21.0,0.036
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,10.9,0.019
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,300,150,on,Melee swing,physical,178.1,0.307
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,300,150,on,Windfury Attack,physical,127.1,0.219
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,300,150,on,Earth Shock,spell,72.8,0.125
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,300,150,on,o3/10610,physical,57.1,0.098
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,48.4,0.083
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,300,150,on,Flame Shock (ticks),spell,40.5,0.070
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,300,150,on,Searing Totem,spell,25.8,0.044
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,300,150,on,Flame Shock (hit),spell,19.6,0.034
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,10.8,0.019
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,600,150,on,Melee swing,physical,177.9,0.306
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,600,150,on,Windfury Attack,physical,126.9,0.218
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,600,150,on,Earth Shock,spell,73.5,0.127
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,600,150,on,o3/10610,physical,57.1,0.098
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,600,150,on,Stormstrike (weapon strike),physical,48.0,0.083
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,600,150,on,Flame Shock (ticks),spell,40.7,0.070
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,600,150,on,Searing Totem,spell,26.9,0.046
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,600,150,on,Flame Shock (hit),spell,19.3,0.033
+nov10,29/22 AK3 no hard casts,enh_launch_1h,false,600,150,on,Dragonbreath Chili,spell,10.7,0.019
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,323.1,0.318
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,222.8,0.219
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,106.5,0.105
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,105.8,0.104
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,87.3,0.086
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,62.3,0.061
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,37.1,0.036
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,30.3,0.030
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,22.6,0.022
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,19.8,0.019
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,318.8,0.318
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,219.6,0.219
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,103.8,0.104
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,103.1,0.103
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,87.8,0.088
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,60.5,0.060
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,37.3,0.037
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,29.0,0.029
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,23.3,0.023
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,19.2,0.019
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,316.2,0.317
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,218.1,0.218
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,103.0,0.103
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,102.2,0.102
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,88.1,0.088
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,60.7,0.061
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,37.7,0.038
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,29.0,0.029
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,24.0,0.024
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,19.1,0.019
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,212.2,0.243
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,156.2,0.179
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,125.5,0.144
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,80.4,0.092
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,75.1,0.086
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,70.5,0.081
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,51.6,0.059
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,39.8,0.046
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,32.8,0.038
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,29.3,0.034
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,209.0,0.242
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,153.1,0.177
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,125.1,0.145
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,81.0,0.094
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,74.0,0.086
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,69.1,0.080
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,51.8,0.060
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,38.2,0.044
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,31.5,0.036
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,30.1,0.035
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,208.8,0.242
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,152.8,0.177
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,126.2,0.146
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,81.7,0.095
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,73.5,0.085
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,68.9,0.080
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,52.1,0.060
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,37.9,0.044
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,31.3,0.036
+nov10,8/36/7 no hard casts,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,30.7,0.036
+nov10,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Melee swing,physical,200.5,0.304
+nov10,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Windfury Attack,physical,139.8,0.212
+nov10,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,o3/10610,physical,63.5,0.096
+nov10,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Lightning Bolt,spell,62.0,0.094
+nov10,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Earth Shock,spell,55.7,0.085
+nov10,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,49.5,0.075
+nov10,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Flame Shock (ticks),spell,29.1,0.044
+nov10,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Flame Shock (hit),spell,25.0,0.038
+nov10,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Searing Totem,spell,21.5,0.033
+nov10,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,12.3,0.019
+nov10,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Melee swing,physical,197.4,0.304
+nov10,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Windfury Attack,physical,137.8,0.212
+nov10,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Lightning Bolt,spell,62.2,0.096
+nov10,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,o3/10610,physical,62.1,0.096
+nov10,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Earth Shock,spell,54.2,0.083
+nov10,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,49.0,0.075
+nov10,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Flame Shock (ticks),spell,29.1,0.045
+nov10,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Flame Shock (hit),spell,24.1,0.037
+nov10,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Searing Totem,spell,21.6,0.033
+nov10,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,12.1,0.019
+nov10,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Melee swing,physical,197.2,0.303
+nov10,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Windfury Attack,physical,137.5,0.212
+nov10,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Lightning Bolt,spell,62.7,0.097
+nov10,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,o3/10610,physical,62.0,0.095
+nov10,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Earth Shock,spell,54.4,0.084
+nov10,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Stormstrike (weapon strike),physical,48.6,0.075
+nov10,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Flame Shock (ticks),spell,29.2,0.045
+nov10,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Flame Shock (hit),spell,24.0,0.037
+nov10,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Searing Totem,spell,22.3,0.034
+nov10,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Dragonbreath Chili,spell,12.1,0.019
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,292.0,0.296
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,189.6,0.192
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,161.7,0.164
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,96.9,0.098
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,91.5,0.093
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,74.7,0.076
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Fire Nova,spell,38.3,0.039
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,24.6,0.025
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,17.3,0.018
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,288.4,0.294
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,188.3,0.192
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,162.4,0.166
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,97.1,0.099
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,90.7,0.092
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,75.2,0.077
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Fire Nova,spell,35.5,0.036
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,26.2,0.027
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,16.9,0.017
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,286.1,0.297
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,186.6,0.194
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,165.6,0.172
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,96.3,0.100
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,90.1,0.094
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,75.9,0.079
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,26.4,0.027
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Fire Nova,spell,18.9,0.020
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,16.8,0.017
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,219.9,0.231
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,200.7,0.211
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,151.0,0.159
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,119.5,0.126
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,75.7,0.080
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,69.9,0.074
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Fire Nova,spell,51.4,0.054
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,32.0,0.034
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,31.1,0.033
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,216.9,0.232
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,197.1,0.211
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,148.1,0.158
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,117.5,0.126
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,75.7,0.081
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,68.6,0.073
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Fire Nova,spell,48.7,0.052
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,33.3,0.036
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,29.9,0.032
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,222.5,0.241
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,196.9,0.214
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,148.1,0.161
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,119.0,0.129
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,75.3,0.082
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,68.7,0.074
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,33.6,0.036
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,29.5,0.032
+nov10,Enh preset 19/32/0,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Fire Nova,spell,28.5,0.031
+nov10,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Melee swing,physical,192.4,0.269
+nov10,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Earth Shock,spell,144.1,0.201
+nov10,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Windfury Attack,physical,136.2,0.190
+nov10,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,o3/10610,physical,63.3,0.088
+nov10,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Lightning Bolt,spell,58.1,0.081
+nov10,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,51.0,0.071
+nov10,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Fire Nova,spell,35.2,0.049
+nov10,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Searing Totem,spell,23.4,0.033
+nov10,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,11.8,0.016
+nov10,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Melee swing,physical,189.5,0.270
+nov10,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Earth Shock,spell,148.2,0.211
+nov10,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Windfury Attack,physical,134.4,0.191
+nov10,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,o3/10610,physical,62.6,0.089
+nov10,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Lightning Bolt,spell,58.5,0.083
+nov10,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,51.3,0.073
+nov10,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Searing Totem,spell,25.1,0.036
+nov10,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Fire Nova,spell,20.8,0.030
+nov10,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,11.5,0.016
+nov10,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,Melee swing,physical,189.1,0.273
+nov10,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,Earth Shock,spell,149.9,0.216
+nov10,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,Windfury Attack,physical,133.8,0.193
+nov10,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,o3/10610,physical,62.4,0.090
+nov10,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,Lightning Bolt,spell,59.2,0.086
+nov10,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,Stormstrike (weapon strike),physical,50.9,0.073
+nov10,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,Searing Totem,spell,25.2,0.036
+nov10,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,Dragonbreath Chili,spell,11.5,0.017
+nov10,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,Fire Nova,spell,10.5,0.015
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,531.4,0.558
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Chain Lightning,spell,119.3,0.125
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,85.2,0.090
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt overload,spell,78.7,0.083
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Fire Nova,spell,51.2,0.054
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,40.3,0.042
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,39.7,0.042
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Chain Lightning overload,spell,6.1,0.006
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt rank 4,spell,0.0,0.000
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt rank 4 overload,spell,0.0,0.000
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,285.8,0.336
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt rank 4,spell,213.8,0.251
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,84.6,0.099
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Chain Lightning,spell,64.5,0.076
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Fire Nova,spell,48.9,0.057
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt overload,spell,42.3,0.050
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,39.4,0.046
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,36.3,0.043
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt rank 4 overload,spell,31.5,0.037
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Chain Lightning overload,spell,3.3,0.004
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt rank 4,spell,314.8,0.390
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,149.8,0.186
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,85.0,0.105
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Chain Lightning,spell,60.5,0.075
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Fire Nova,spell,50.3,0.062
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt rank 4 overload,spell,46.3,0.057
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,39.6,0.049
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,34.8,0.043
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt overload,spell,22.1,0.027
+nov10,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Chain Lightning overload,spell,3.1,0.004
+nov10,Ele preset 32/0/19,ele_launch,false,120,150,on,Lightning Bolt,spell,367.3,0.565
+nov10,Ele preset 32/0/19,ele_launch,false,120,150,on,Chain Lightning,spell,67.7,0.104
+nov10,Ele preset 32/0/19,ele_launch,false,120,150,on,Flame Shock (ticks),spell,63.1,0.097
+nov10,Ele preset 32/0/19,ele_launch,false,120,150,on,Lightning Bolt overload,spell,51.0,0.078
+nov10,Ele preset 32/0/19,ele_launch,false,120,150,on,Fire Nova,spell,37.4,0.058
+nov10,Ele preset 32/0/19,ele_launch,false,120,150,on,Searing Totem,spell,30.5,0.047
+nov10,Ele preset 32/0/19,ele_launch,false,120,150,on,Flame Shock (hit),spell,29.9,0.046
+nov10,Ele preset 32/0/19,ele_launch,false,120,150,on,Chain Lightning overload,spell,3.3,0.005
+nov10,Ele preset 32/0/19,ele_launch,false,120,150,on,Lightning Bolt rank 4,spell,0.1,0.000
+nov10,Ele preset 32/0/19,ele_launch,false,120,150,on,Lightning Bolt rank 4 overload,spell,0.0,0.000
+nov10,Ele preset 32/0/19,ele_launch,false,300,150,on,Lightning Bolt rank 4,spell,158.3,0.283
+nov10,Ele preset 32/0/19,ele_launch,false,300,150,on,Lightning Bolt,spell,152.9,0.273
+nov10,Ele preset 32/0/19,ele_launch,false,300,150,on,Flame Shock (ticks),spell,63.7,0.114
+nov10,Ele preset 32/0/19,ele_launch,false,300,150,on,Chain Lightning,spell,42.5,0.076
+nov10,Ele preset 32/0/19,ele_launch,false,300,150,on,Fire Nova,spell,37.3,0.067
+nov10,Ele preset 32/0/19,ele_launch,false,300,150,on,Searing Totem,spell,30.8,0.055
+nov10,Ele preset 32/0/19,ele_launch,false,300,150,on,Flame Shock (hit),spell,28.1,0.050
+nov10,Ele preset 32/0/19,ele_launch,false,300,150,on,Lightning Bolt rank 4 overload,spell,22.1,0.040
+nov10,Ele preset 32/0/19,ele_launch,false,300,150,on,Lightning Bolt overload,spell,21.4,0.038
+nov10,Ele preset 32/0/19,ele_launch,false,300,150,on,Chain Lightning overload,spell,2.1,0.004
+nov10,Ele preset 32/0/19,ele_launch,false,600,150,on,Lightning Bolt rank 4,spell,207.0,0.392
+nov10,Ele preset 32/0/19,ele_launch,false,600,150,on,Lightning Bolt,spell,77.8,0.147
+nov10,Ele preset 32/0/19,ele_launch,false,600,150,on,Flame Shock (ticks),spell,63.9,0.121
+nov10,Ele preset 32/0/19,ele_launch,false,600,150,on,Chain Lightning,spell,40.5,0.077
+nov10,Ele preset 32/0/19,ele_launch,false,600,150,on,Fire Nova,spell,38.8,0.073
+nov10,Ele preset 32/0/19,ele_launch,false,600,150,on,Searing Totem,spell,30.9,0.058
+nov10,Ele preset 32/0/19,ele_launch,false,600,150,on,Lightning Bolt rank 4 overload,spell,28.9,0.055
+nov10,Ele preset 32/0/19,ele_launch,false,600,150,on,Flame Shock (hit),spell,27.7,0.052
+nov10,Ele preset 32/0/19,ele_launch,false,600,150,on,Lightning Bolt overload,spell,10.9,0.021
+nov10,Ele preset 32/0/19,ele_launch,false,600,150,on,Chain Lightning overload,spell,2.0,0.004
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,421.0,0.446
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,183.5,0.195
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,80.5,0.085
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt overload,spell,62.1,0.066
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Chain Lightning,spell,51.3,0.054
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Fire Nova,spell,44.1,0.047
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,39.4,0.042
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,35.5,0.038
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt rank 4,spell,20.7,0.022
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt rank 4 overload,spell,2.9,0.003
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Chain Lightning overload,spell,2.6,0.003
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt rank 4,spell,317.3,0.391
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,179.1,0.221
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,80.9,0.100
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Chain Lightning,spell,47.4,0.058
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt rank 4 overload,spell,47.2,0.058
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,39.5,0.049
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,34.5,0.042
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Fire Nova,spell,33.8,0.042
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,26.6,0.033
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt overload,spell,3.8,0.005
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Chain Lightning overload,spell,2.4,0.003
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt rank 4,spell,356.4,0.435
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,170.4,0.208
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,81.2,0.099
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt rank 4 overload,spell,52.8,0.064
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Chain Lightning,spell,47.8,0.058
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,39.6,0.048
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,33.9,0.041
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Fire Nova,spell,18.1,0.022
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,14.4,0.018
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Chain Lightning overload,spell,2.4,0.003
+nov10,Ele 32/0/19 + Earth Shock,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt overload,spell,2.1,0.003
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,120,150,on,Lightning Bolt,spell,250.2,0.393
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,120,150,on,Earth Shock,spell,125.6,0.197
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,120,150,on,Flame Shock (ticks),spell,58.4,0.092
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,120,150,on,Lightning Bolt rank 4,spell,43.0,0.068
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,120,150,on,Lightning Bolt overload,spell,35.2,0.055
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,120,150,on,Chain Lightning,spell,31.5,0.049
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,120,150,on,Searing Totem,spell,30.4,0.048
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,120,150,on,Fire Nova,spell,29.0,0.045
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,120,150,on,Flame Shock (hit),spell,25.9,0.041
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,120,150,on,Lightning Bolt rank 4 overload,spell,5.9,0.009
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,120,150,on,Chain Lightning overload,spell,1.5,0.002
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,300,150,on,Lightning Bolt rank 4,spell,204.3,0.372
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,300,150,on,Earth Shock,spell,125.6,0.229
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,300,150,on,Flame Shock (ticks),spell,58.6,0.107
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,300,150,on,Chain Lightning,spell,32.6,0.059
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,300,150,on,Searing Totem,spell,30.7,0.056
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,300,150,on,Lightning Bolt rank 4 overload,spell,28.4,0.052
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,300,150,on,Flame Shock (hit),spell,25.6,0.047
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,300,150,on,Fire Nova,spell,22.5,0.041
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,300,150,on,Lightning Bolt,spell,17.1,0.031
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,300,150,on,Lightning Bolt overload,spell,2.4,0.004
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,300,150,on,Chain Lightning overload,spell,1.6,0.003
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,600,150,on,Lightning Bolt rank 4,spell,225.5,0.411
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,600,150,on,Earth Shock,spell,119.6,0.218
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,600,150,on,Flame Shock (ticks),spell,59.1,0.108
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,600,150,on,Chain Lightning,spell,32.7,0.060
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,600,150,on,Lightning Bolt rank 4 overload,spell,31.4,0.057
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,600,150,on,Searing Totem,spell,30.7,0.056
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,600,150,on,Flame Shock (hit),spell,25.4,0.046
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,600,150,on,Fire Nova,spell,13.3,0.024
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,600,150,on,Lightning Bolt,spell,8.4,0.015
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,600,150,on,Chain Lightning overload,spell,1.6,0.003
+nov10,Ele 32/0/19 + Earth Shock,ele_launch,false,600,150,on,Lightning Bolt overload,spell,1.2,0.002
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,421.5,0.447
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,183.0,0.194
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,80.5,0.085
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt overload,spell,62.2,0.066
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Chain Lightning,spell,51.7,0.055
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Fire Nova,spell,44.1,0.047
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,39.4,0.042
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,35.5,0.038
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt rank 4,spell,20.4,0.022
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt rank 4 overload,spell,2.8,0.003
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Chain Lightning overload,spell,2.7,0.003
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt rank 4,spell,289.9,0.356
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,121.3,0.149
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,82.7,0.102
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,82.0,0.101
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Chain Lightning,spell,53.4,0.066
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Fire Nova,spell,47.0,0.058
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt rank 4 overload,spell,42.8,0.052
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,39.5,0.048
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,35.3,0.043
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt overload,spell,17.9,0.022
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Chain Lightning overload,spell,2.7,0.003
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt rank 4,spell,353.4,0.449
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,83.9,0.107
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,64.0,0.081
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Chain Lightning,spell,54.9,0.070
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt rank 4 overload,spell,52.0,0.066
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Fire Nova,spell,49.4,0.063
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,43.2,0.055
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,39.6,0.050
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,34.7,0.044
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt overload,spell,9.4,0.012
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Chain Lightning overload,spell,2.8,0.004
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,120,150,on,Lightning Bolt,spell,251.3,0.395
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,120,150,on,Earth Shock,spell,123.9,0.195
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,120,150,on,Flame Shock (ticks),spell,58.3,0.092
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,120,150,on,Lightning Bolt rank 4,spell,42.6,0.067
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,120,150,on,Lightning Bolt overload,spell,35.3,0.055
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,120,150,on,Chain Lightning,spell,32.7,0.051
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,120,150,on,Searing Totem,spell,30.5,0.048
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,120,150,on,Fire Nova,spell,29.0,0.045
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,120,150,on,Flame Shock (hit),spell,25.8,0.041
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,120,150,on,Lightning Bolt rank 4 overload,spell,5.8,0.009
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,120,150,on,Chain Lightning overload,spell,1.6,0.003
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,300,150,on,Lightning Bolt rank 4,spell,197.1,0.365
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,300,150,on,Flame Shock (ticks),spell,61.8,0.115
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,300,150,on,Lightning Bolt,spell,59.3,0.110
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,300,150,on,Earth Shock,spell,50.6,0.094
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,300,150,on,Chain Lightning,spell,39.1,0.073
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,300,150,on,Fire Nova,spell,35.6,0.066
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,300,150,on,Searing Totem,spell,30.8,0.057
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,300,150,on,Lightning Bolt rank 4 overload,spell,27.7,0.051
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,300,150,on,Flame Shock (hit),spell,27.4,0.051
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,300,150,on,Lightning Bolt overload,spell,8.2,0.015
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,300,150,on,Chain Lightning overload,spell,1.9,0.004
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,600,150,on,Lightning Bolt rank 4,spell,228.0,0.440
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,600,150,on,Flame Shock (ticks),spell,63.1,0.122
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,600,150,on,Chain Lightning,spell,39.2,0.076
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,600,150,on,Fire Nova,spell,38.0,0.073
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,600,150,on,Lightning Bolt rank 4 overload,spell,31.8,0.061
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,600,150,on,Searing Totem,spell,30.9,0.060
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,600,150,on,Lightning Bolt,spell,28.4,0.055
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,600,150,on,Flame Shock (hit),spell,27.2,0.053
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,600,150,on,Earth Shock,spell,25.7,0.050
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,600,150,on,Lightning Bolt overload,spell,4.0,0.008
+nov10,"Ele 32/0/19 + Earth Shock, mana-gated",ele_launch,false,600,150,on,Chain Lightning overload,spell,1.9,0.004
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,531.4,0.558
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Chain Lightning,spell,119.3,0.125
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,85.2,0.090
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt overload,spell,78.7,0.083
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Fire Nova,spell,51.2,0.054
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,40.3,0.042
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,39.7,0.042
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Chain Lightning overload,spell,6.1,0.006
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt rank 4,spell,0.0,0.000
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt rank 4 overload,spell,0.0,0.000
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,533.2,0.567
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,81.8,0.087
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt overload,spell,79.1,0.084
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt rank 4,spell,68.8,0.073
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Chain Lightning,spell,61.2,0.065
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,39.5,0.042
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,34.9,0.037
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Fire Nova,spell,29.2,0.031
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt rank 4 overload,spell,10.2,0.011
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Chain Lightning overload,spell,3.1,0.003
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,433.6,0.474
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt rank 4,spell,154.1,0.169
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,82.4,0.090
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt overload,spell,64.6,0.071
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Chain Lightning,spell,58.4,0.064
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,39.5,0.043
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,33.9,0.037
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt rank 4 overload,spell,22.7,0.025
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Fire Nova,spell,21.7,0.024
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Chain Lightning overload,spell,3.0,0.003
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,120,150,on,Lightning Bolt,spell,367.3,0.565
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,120,150,on,Chain Lightning,spell,67.7,0.104
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,120,150,on,Flame Shock (ticks),spell,63.1,0.097
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,120,150,on,Lightning Bolt overload,spell,51.0,0.078
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,120,150,on,Fire Nova,spell,37.4,0.058
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,120,150,on,Searing Totem,spell,30.5,0.047
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,120,150,on,Flame Shock (hit),spell,29.9,0.046
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,120,150,on,Chain Lightning overload,spell,3.3,0.005
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,120,150,on,Lightning Bolt rank 4,spell,0.1,0.000
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,120,150,on,Lightning Bolt rank 4 overload,spell,0.0,0.000
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,300,150,on,Lightning Bolt,spell,337.3,0.531
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,300,150,on,Flame Shock (ticks),spell,61.0,0.096
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,300,150,on,Lightning Bolt rank 4,spell,58.8,0.093
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,300,150,on,Lightning Bolt overload,spell,47.4,0.075
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,300,150,on,Chain Lightning,spell,42.3,0.067
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,300,150,on,Searing Totem,spell,30.7,0.048
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,300,150,on,Flame Shock (hit),spell,26.9,0.042
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,300,150,on,Fire Nova,spell,20.3,0.032
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,300,150,on,Lightning Bolt rank 4 overload,spell,8.2,0.013
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,300,150,on,Chain Lightning overload,spell,2.1,0.003
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,600,150,on,Lightning Bolt,spell,252.3,0.419
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,600,150,on,Lightning Bolt rank 4,spell,116.0,0.193
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,600,150,on,Flame Shock (ticks),spell,62.1,0.103
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,600,150,on,Chain Lightning,spell,40.2,0.067
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,600,150,on,Lightning Bolt overload,spell,35.5,0.059
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,600,150,on,Searing Totem,spell,30.8,0.051
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,600,150,on,Flame Shock (hit),spell,26.7,0.044
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,600,150,on,Fire Nova,spell,20.3,0.034
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,600,150,on,Lightning Bolt rank 4 overload,spell,16.2,0.027
+nov10,"Ele 32/0/19, rank 10 gate 5 mana/s",ele_launch,false,600,150,on,Chain Lightning overload,spell,2.0,0.003
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,531.4,0.558
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Chain Lightning,spell,119.3,0.125
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,85.2,0.090
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt overload,spell,78.7,0.083
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Fire Nova,spell,51.2,0.054
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,40.3,0.042
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,39.7,0.042
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Chain Lightning overload,spell,6.1,0.006
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt rank 4,spell,0.0,0.000
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt rank 4 overload,spell,0.0,0.000
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,512.3,0.547
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,84.0,0.090
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt rank 4,spell,79.8,0.085
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt overload,spell,76.1,0.081
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Chain Lightning,spell,63.1,0.067
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,39.6,0.042
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,35.9,0.038
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Fire Nova,spell,30.2,0.032
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt rank 4 overload,spell,11.9,0.013
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,Chain Lightning overload,spell,3.2,0.003
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,344.7,0.394
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt rank 4,spell,195.0,0.223
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,83.6,0.096
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Chain Lightning,spell,57.1,0.065
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt overload,spell,50.9,0.058
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,39.6,0.045
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Fire Nova,spell,37.8,0.043
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,34.3,0.039
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt rank 4 overload,spell,28.8,0.033
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,Chain Lightning overload,spell,2.9,0.003
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,120,150,on,Lightning Bolt,spell,367.3,0.565
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,120,150,on,Chain Lightning,spell,67.7,0.104
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,120,150,on,Flame Shock (ticks),spell,63.1,0.097
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,120,150,on,Lightning Bolt overload,spell,51.0,0.078
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,120,150,on,Fire Nova,spell,37.4,0.058
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,120,150,on,Searing Totem,spell,30.5,0.047
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,120,150,on,Flame Shock (hit),spell,29.9,0.046
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,120,150,on,Chain Lightning overload,spell,3.3,0.005
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,120,150,on,Lightning Bolt rank 4,spell,0.1,0.000
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,120,150,on,Lightning Bolt rank 4 overload,spell,0.0,0.000
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,300,150,on,Lightning Bolt,spell,312.8,0.499
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,300,150,on,Lightning Bolt rank 4,spell,69.7,0.111
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,300,150,on,Flame Shock (ticks),spell,63.3,0.101
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,300,150,on,Lightning Bolt overload,spell,43.8,0.070
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,300,150,on,Chain Lightning,spell,43.6,0.069
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,300,150,on,Searing Totem,spell,30.8,0.049
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,300,150,on,Flame Shock (hit),spell,27.8,0.044
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,300,150,on,Fire Nova,spell,23.2,0.037
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,300,150,on,Lightning Bolt rank 4 overload,spell,9.7,0.016
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,300,150,on,Chain Lightning overload,spell,2.1,0.003
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,600,150,on,Lightning Bolt,spell,175.0,0.308
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,600,150,on,Lightning Bolt rank 4,spell,153.1,0.269
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,600,150,on,Flame Shock (ticks),spell,63.2,0.111
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,600,150,on,Chain Lightning,spell,40.6,0.071
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,600,150,on,Fire Nova,spell,30.9,0.054
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,600,150,on,Searing Totem,spell,30.8,0.054
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,600,150,on,Flame Shock (hit),spell,27.4,0.048
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,600,150,on,Lightning Bolt overload,spell,24.5,0.043
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,600,150,on,Lightning Bolt rank 4 overload,spell,21.4,0.038
+nov10,"Ele 32/0/19, rank 10 gate 10 mana/s",ele_launch,false,600,150,on,Chain Lightning overload,spell,2.0,0.003

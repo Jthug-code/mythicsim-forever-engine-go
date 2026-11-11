@@ -301,8 +301,14 @@ func (shaman *Shaman) applyMaelstromWeapon() {
 	buff := spellData.MaelstromWeaponTriggered.Highest()
 	maxStacks := int32(5)
 	perStack := spellData.MaelstromWeapon.EffectAt(1).FractionAt(shaman.Talents.MaelstromWeapon)
+	ppm := nov2MaelstromWeaponPPM
+	if nov10Hotfix {
+		// 10 November: every rank gives rank 5's 20% a stack, and the rank sets the rate, 6 to 10 a minute.
+		perStack = spellData.MaelstromWeapon.EffectAt(1).FractionAt(5)
+		ppm = 5 + float64(shaman.Talents.MaelstromWeapon)
+	}
 
-	ppmm := shaman.NewLegacyPPMManager(nov2MaelstromWeaponPPM, core.ProcMaskMelee)
+	ppmm := shaman.NewLegacyPPMManager(ppm, core.ProcMaskMelee)
 
 	castMod := shaman.AddDynamicMod(core.SpellModConfig{
 		Kind:      core.SpellMod_CastTime_Pct,

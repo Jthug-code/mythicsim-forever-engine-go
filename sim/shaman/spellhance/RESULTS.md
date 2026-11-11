@@ -3,12 +3,15 @@
 All single target (`MakeSingleTargetEncounter`, no duration variation), 10,000 iterations per row, seed 7, using the
 measured swing rule. Engine: `mythicsim/oct21-release` (62b7445d1c) plus this branch.
 
-**Run 7 is the current state.** Every CSV except `results-run1.csv` now holds run 7's numbers; run 6's are in git
+**Run 8 is the current state for Enhancement and 29/22**, in its own `nov10-*.csv` files at 5,000 iterations per row. Run 7's CSVs are untouched and still describe the 2 November numbers.
+
+**Run 7 is the state before the 10 November hotfix.** Every CSV except `results-run1.csv` now holds run 7's numbers; run 6's are in git
 (commit 1b2bc75279). The run 2–6 sections further down are kept as written.
 
 | Run | Gear | Files | Section |
 |---|---|---|---|
-| 7 | Everything again under the 2 November 2026 shaman changes, plus a Forever BiS set for Elemental | all CSVs; `forever-bis-*.csv` and `ele-rotation-results.csv` are new | Run 7, first below |
+| 8 | The 10 November 2026 hotfix: Enhancement, Elemental and 29/22 on launch gear and the Forever BiS sets | `nov10-*.csv` | Run 8, first below |
+| 7 | Everything again under the 2 November 2026 shaman changes, plus a Forever BiS set for Elemental | all CSVs; `forever-bis-*.csv` and `ele-rotation-results.csv` are new | Run 7 |
 | 6 | Runs 2–5 again with mana potions and runes actually drunk, at both buff levels, plus Elemental Fury buffs | all CSVs; `-fullbuffs` = full raid buffs | Run 6 |
 | 5 | Runs 2–4 again with full raid buffs and consumables | `*-fullbuffs.csv` | Run 5 |
 | 4 | A Forever BiS set from Wowhead's Forever item data; Orc, Dwarf and Skyborne | `race-results.csv`, `race-sources.csv` | Run 4 |
@@ -19,6 +22,78 @@ measured swing rule. Engine: `mythicsim/oct21-release` (62b7445d1c) plus this br
 Rerun everything at one buff level with `bis_tools/rerun_all.sh light|full <work dir>`, run from this folder. It runs
 the BiS search, then the race, Elemental mana, Water Shield Enhancement, fight-length, Forever-launch and SoD matrices.
 The Elemental Fury variants run with `SPELLHANCE_FURY_OUT=<dir> go test --tags=with_db . -run TestEleFuryBuff`.
+
+# Run 8: the 10 November 2026 hotfix (2026-11-11)
+
+**Source:** "WoW: Forever Hotfixes - November 10, 2026" (Blizzard news 24315281), read through mirrors of the notes.
+
+**How it's applied** (`sim/shaman/nov10_notes.go`, off by default, pinned by `TestNov10Hotfix` in `sim/shaman`):
+- **Stormstrike:** 100% weapon damage on an 8 s cooldown. The two 2 November Stormstrike changes undone.
+- **Mental Dexterity:** 33/67/100% of Intellect. The 2 November change undone. This figure comes from a mirror whose
+  wording is garbled; check it against the tooltip.
+- **Maelstrom Weapon:** 20% cast time and mana a stack at every rank, and 6/7/8/9/10 procs a minute by rank (the notes'
+  example: 5 points on a 3.6 s weapon is 60% a swing).
+- **Windfury Weapon and Windfury Totem stack:** the imbue no longer takes the totem's category. Each can proc off the
+  other's extra attacks, inside their own internal cooldowns. That is an assumption, not a measurement.
+- **Not modelled:** "Lightning Overload now deals the correct amount of damage for Lightning Bolt" (the notes don't say
+  what was wrong) and Rage of the Storm's stats.
+
+**Air totem.** Every earlier run had the shaman drop Grace of Air. Run 8 has three cases: `[air: own]` drops Windfury
+Totem instead, `[air: party]` keeps Grace of Air and takes another shaman's Windfury Totem, and no tag is Grace of Air
+alone. The tables use `[air: own]` for every build that melees.
+
+**Gear.** The BiS sets are run 7's, searched before the hotfix.
+
+**Run it:** `SPELLHANCE_NOV10_OUT=<dir> go test --tags=with_db ./sim/shaman/spellhance/ -run TestNov10Hotfix`, and the
+same with `SPELLHANCE_NOV10_STATE_OUT` and `TestNov10State`, or `SPELLHANCE_NOV10_MW1_OUT` and `TestNov10MW1`.
+`SPELLHANCE_BUFFS=full` picks the full raid buffs. The committed CSVs carry a leading `state` column (`nov2` or `nov10`).
+
+## Run 8 findings
+
+**Forever BiS, full raid buffs, DPS at 2 / 5 / 10 min:**
+
+| Build | 2 November | 10 November | Change |
+|---|---|---|---|
+| 8/36/7 no hard casts | 1082 / 1075 / 1068 | 1018 / 1002 / 998 | -6 to -7% |
+| Enhancement preset 19/32/0 | 1070 / 1058 / 1044 | 986 / 981 / 963 | -7 to -8% |
+| 29/22 (AK3), its own set | 1026 / 1012 / 996 (weave) | 975 / 958 / 922 (bolt-chain) | -5 to -7% |
+| Elemental 32/0/19, rank 10 gate 5 | not run on this set | 952 / 941 / 914 | the hotfix changes nothing it uses |
+
+**Forever BiS, lighter buffs, 10 November:**
+
+| Build | DPS at 2 / 5 / 10 min | Out of mana, 5 min |
+|---|---|---|
+| 8/36/7 no hard casts | 923 / 910 / 895 | 0 s |
+| 8/32/11 Water Shield | 913 / 901 / 897 | 0 s |
+| Enhancement preset | 895 / 858 / 832 | 40 s |
+| Elemental, rank 10 gate 10 | 878 / 802 / 739 | 4 s |
+| 29/22 bolt-chain | 904 / 759 / 670 | 87 s |
+| 29/22 weave | 828 / 762 / 690 | 48 s |
+
+- **Enhancement still leads at every fight length and buff level.** The Stormstrike cut costs more than the second
+  Windfury gives back.
+- **Windfury Totem replaces Grace of Air.** 8/36/7 at 5 minutes on the BiS set, full raid: 879 with Grace of Air, 1002
+  with Windfury Totem (+14%), 1040 with both. For 29/22 the totem is worth 5-7%.
+- **29/22 keeps its place:** 96 / 96 / 92% of 8/36/7 in a full raid, against 95 / 94 / 93% before.
+- **On the BiS set bolt-chain now beats the weave** by 4-8% in a full raid (958 against 884 at 5 minutes), because a
+  swing is worth less. On launch gear the weave still wins (667 against 638): chaining runs out of mana.
+- **Elemental needs the looser mana gate.** The repo's preset rotation is at 952 / 850 / 806 on the same set.
+- **Launch gear, full raid, 5 minutes:** Enhancement preset 702, 29/22 weave 667, 8/36/7 650, Elemental gate 5 635.
+
+**Melee hybrids** (`nov10-state-*.csv`, `nov10-mw1-*.csv`), Enhancement BiS set, full raid, 2 / 5 / 10 min. None of
+them reaches the Enhancement builds:
+
+| Build | Talents | DPS |
+|---|---|---|
+| 25/26, one point in Maelstrom Weapon | `15353310000013-05303003100511211` | 916 / 921 / 917 |
+| 30/21 shock melee (Elemental Fury 5) | `553503130000005-0530300310051` | 882 / 884 / 879 |
+| 29/22 shock melee (Elemental Fury 4) | `553503130000004-053030031004102` | 861 / 862 / 856 |
+| 29/22 (AK3) with no hard casts | `053033102310134-053030031004102` | 842 / 842 / 837 |
+
+- **Elemental Fury on shocks:** 30/21 deals 193 DPS of shocks against 8/36/7's 127, and gives up about 95 of melee and
+  88 of Maelstrom Weapon bolts.
+- **One point of Maelstrom Weapon:** 2.7 instant bolts a minute against 5.0 at 5/5. Lightning Overload adds about 6
+  DPS at that rate.
 
 # Run 7: the 2 November 2026 shaman changes (2026-11-03)
 

@@ -1,0 +1,31 @@
+state,build,gear,set_bonuses,duration_s,reaction_ms,haste,iterations,dps,dps_stderr,physical_dps,spell_dps,physical_share,lb_lvb_cl_casts_per_min,mh_swings_per_min,seconds_oom
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis.gear.json,false,120,150,on,5000,834.5,1.1,581.9,252.6,0.697,2.59,22.70,0.0
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis.gear.json,false,300,150,on,5000,838.6,0.7,582.5,256.1,0.695,2.71,22.70,0.1
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis.gear.json,false,600,150,on,5000,816.3,0.5,573.4,242.9,0.702,2.74,22.53,53.7
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,120,150,on,5000,598.6,0.7,372.5,226.1,0.622,2.60,26.32,0.0
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,300,150,on,5000,569.3,0.5,365.5,203.9,0.642,2.67,26.15,37.6
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,600,150,on,5000,551.7,0.3,362.9,188.8,0.658,2.70,26.09,127.0
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis.gear.json,false,120,150,on,5000,834.4,1.1,581.9,252.5,0.697,2.60,22.68,0.0
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis.gear.json,false,300,150,on,5000,837.9,0.7,581.6,256.3,0.694,2.70,22.69,0.0
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis.gear.json,false,600,150,on,5000,818.2,0.5,573.2,245.0,0.701,2.74,22.53,47.6
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,120,150,on,5000,597.9,0.7,372.5,225.4,0.623,2.59,26.31,0.0
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,300,150,on,5000,570.7,0.4,366.0,204.8,0.641,2.67,26.16,36.9
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,600,150,on,5000,552.7,0.3,362.5,190.2,0.656,2.69,26.08,124.9
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis.gear.json,false,120,150,on,5000,834.6,1.1,576.9,257.7,0.691,3.06,22.26,0.0
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis.gear.json,false,300,150,on,5000,834.7,0.7,574.0,260.7,0.688,3.16,22.25,0.2
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis.gear.json,false,600,150,on,5000,808.7,0.5,564.6,244.1,0.698,3.18,22.06,59.6
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,120,150,on,5000,597.7,0.7,367.9,229.7,0.616,3.07,25.85,0.0
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,300,150,on,5000,563.5,0.4,359.7,203.9,0.638,3.12,25.67,40.6
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,600,150,on,5000,544.4,0.3,356.7,187.7,0.655,3.14,25.60,130.0
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,5000,923.1,1.2,675.3,247.8,0.732,5.00,24.31,0.0
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,5000,909.8,0.8,664.0,245.8,0.730,5.01,23.94,0.0
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,600,150,on,5000,895.0,0.5,654.9,240.1,0.732,5.02,23.77,37.7
+nov10,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,5000,587.3,0.7,391.6,195.7,0.667,4.55,27.89,0.0
+nov10,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,5000,574.8,0.5,384.2,190.6,0.668,4.58,27.46,11.1
+nov10,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,5000,558.2,0.3,380.9,177.3,0.682,4.58,27.39,89.1
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,120,150,on,5000,894.7,1.1,595.7,299.0,0.666,4.55,23.92,4.4
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,300,150,on,5000,858.1,0.7,589.7,268.4,0.687,4.59,23.54,39.5
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,600,150,on,5000,832.5,0.5,580.4,252.0,0.697,4.61,23.37,135.1
+nov10,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,5000,597.5,0.7,382.5,214.9,0.640,4.51,27.59,32.2
+nov10,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,5000,584.1,0.4,375.6,208.5,0.643,4.55,27.15,71.8
+nov10,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,5000,566.4,0.3,372.8,193.7,0.658,4.57,27.10,211.9
