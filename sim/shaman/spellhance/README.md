@@ -9,8 +9,8 @@ Everything here is a sim, not a combat log. Read the numbers as direction and ro
 
 ## Where things are
 
-- **[RESULTS.md](RESULTS.md)** has every finding. Run 7 (the 2 November 2026 shaman changes), at the top, is the
-  current state. The sections below it are older runs, kept as they were written.
+- **[RESULTS.md](RESULTS.md)** has every finding. Run 8 (the 10 November 2026 hotfix), at the top, is the current
+  state for Enhancement and 29/22; run 7 (the 2 November 2026 shaman changes) is below it. The sections below it are older runs, kept as they were written.
 - **The CSVs** hold the raw numbers; files ending in `-fullbuffs` use full raid buffs.
   - `forever-results*.csv`: Forever launch gear.
   - `results*.csv`: the SoD Phase 8 proxy.
@@ -22,6 +22,9 @@ Everything here is a sim, not a combat log. Read the numbers as direction and ro
     and `enh-at10-results.csv`: the Elemental Fury tuning ideas, resists and hit, and Maelstrom at 10.
   - `ele-rotation-results.csv`: the Elemental preset against Earth Shock and mana-gate variants.
   - `forever-bis-results*.csv`: every build on the Forever BiS sets, the high-end comparison since run 7.
+  - `nov10-*.csv`: run 8, the 10 November hotfix. `nov10-results*` has the 29/22 rotations and the Enhancement
+    builds before and after, `nov10-state-*` the Elemental rotations and shock-melee hybrids, `nov10-mw1-*` 25/26,
+    `nov10-targets-*` two to five targets, `nov10-free-*` the melee builds with instants on every free GCD.
 - **Gear:**
   - The Forever launch presets are the repo's own, `ui/specs/shaman/*/gear_sets/launch.gear.json`, with the
     Enhancement off-hand dropped because shamans can't dual wield.
@@ -41,6 +44,9 @@ Everything here is a sim, not a combat log. Read the numbers as direction and ro
   Lightning's cast and cost, shocks at Classic Era values, Lightning Overload 10/20/30%, Lava Burst replaced by Call
   of Thunder, Maelstrom Weapon procs doubled, Stormstrike 150% on a 6-second cooldown, Mental Dexterity and Flurry.
   Where the notes give a ratio, not a number, the file says how it was applied. `TestNov2Notes` pins every value.
+- **The 10 November 2026 hotfix** is in `sim/shaman/nov10_notes.go`, off by default so the earlier runs keep their
+  numbers: Stormstrike and Mental Dexterity back to their old values, Maelstrom Weapon's rate by rank, and Windfury
+  Weapon stacking with Windfury Totem. `SetNov10Hotfix(true)` applies it; `TestNov10Hotfix` pins it.
 - **Test-only knobs in `sim/shaman`**, all zero by default, so they change nothing unless a test sets them:
   - `ElementalFury*` adds crit, crit damage, damage, hit or Spell Piercing.
   - `LightningBaseDamageBonus` raises Lightning Bolt and Chain Lightning base damage.

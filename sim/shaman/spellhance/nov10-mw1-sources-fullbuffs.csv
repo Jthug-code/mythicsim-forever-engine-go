@@ -1,0 +1,313 @@
+state,build,gear,set_bonuses,duration_s,reaction_ms,haste,source,school,dps,share
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,284.1,0.310
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,184.5,0.201
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,101.4,0.111
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,96.7,0.106
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,88.3,0.096
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,47.9,0.052
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,43.5,0.047
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,24.6,0.027
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,22.9,0.025
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,16.9,0.018
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt overload,spell,5.6,0.006
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,285.6,0.310
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,185.6,0.202
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,102.8,0.112
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,94.9,0.103
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,88.0,0.096
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,48.7,0.053
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,45.6,0.050
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,25.2,0.027
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,22.0,0.024
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,16.6,0.018
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt overload,spell,5.9,0.006
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,283.4,0.309
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,184.2,0.201
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,103.0,0.112
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,93.9,0.102
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,87.3,0.095
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,48.9,0.053
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,46.2,0.050
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,26.1,0.028
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,21.7,0.024
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,16.4,0.018
+nov10,"25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt overload,spell,6.0,0.007
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,120,150,on,Melee swing,physical,188.1,0.282
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,120,150,on,Windfury Attack,physical,133.3,0.200
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,120,150,on,Earth Shock,spell,102.3,0.154
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,120,150,on,o3/10610,physical,59.8,0.090
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,49.2,0.074
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,120,150,on,Flame Shock (ticks),spell,40.1,0.060
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,120,150,on,Lightning Bolt,spell,34.3,0.051
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,120,150,on,Searing Totem,spell,23.4,0.035
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,120,150,on,Flame Shock (hit),spell,20.1,0.030
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,11.2,0.017
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,120,150,on,Lightning Bolt overload,spell,4.7,0.007
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,300,150,on,Melee swing,physical,187.3,0.283
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,300,150,on,Windfury Attack,physical,132.3,0.200
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,300,150,on,Earth Shock,spell,101.0,0.152
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,300,150,on,o3/10610,physical,59.2,0.089
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,48.2,0.073
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,300,150,on,Flame Shock (ticks),spell,40.4,0.061
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,300,150,on,Lightning Bolt,spell,35.5,0.054
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,300,150,on,Searing Totem,spell,23.6,0.036
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,300,150,on,Flame Shock (hit),spell,19.4,0.029
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,11.0,0.017
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,300,150,on,Lightning Bolt overload,spell,4.9,0.007
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,600,150,on,Melee swing,physical,187.1,0.282
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,600,150,on,Windfury Attack,physical,132.1,0.199
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,600,150,on,Earth Shock,spell,100.9,0.152
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,600,150,on,o3/10610,physical,59.0,0.089
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,600,150,on,Stormstrike (weapon strike),physical,47.8,0.072
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,600,150,on,Flame Shock (ticks),spell,40.5,0.061
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,600,150,on,Lightning Bolt,spell,36.1,0.054
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,600,150,on,Searing Totem,spell,24.5,0.037
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,600,150,on,Flame Shock (hit),spell,19.2,0.029
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,600,150,on,Dragonbreath Chili,spell,11.0,0.017
+nov10,"25/26 MW1, Alacrity + Focus",enh_launch_1h,false,600,150,on,Lightning Bolt overload,spell,5.0,0.008
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,285.0,0.310
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,186.0,0.202
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,101.6,0.111
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,96.5,0.105
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,88.3,0.096
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,47.8,0.052
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,43.9,0.048
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,24.5,0.027
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,22.9,0.025
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,16.8,0.018
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt overload,spell,5.7,0.006
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,285.8,0.310
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,185.1,0.201
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,102.7,0.112
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,95.1,0.103
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,88.2,0.096
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,48.6,0.053
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,45.7,0.050
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,25.2,0.027
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,21.9,0.024
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,16.6,0.018
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt overload,spell,6.0,0.006
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,283.2,0.309
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,183.8,0.201
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,103.0,0.112
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,94.0,0.103
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,87.2,0.095
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,48.9,0.053
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,46.1,0.050
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,26.1,0.028
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,21.7,0.024
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,16.4,0.018
+nov10,"25/26 MW1, Convection",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt overload,spell,6.0,0.007
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,120,150,on,Melee swing,physical,188.2,0.282
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,120,150,on,Windfury Attack,physical,133.1,0.200
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,120,150,on,Earth Shock,spell,102.3,0.153
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,120,150,on,o3/10610,physical,60.0,0.090
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,49.1,0.074
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,120,150,on,Flame Shock (ticks),spell,40.1,0.060
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,120,150,on,Lightning Bolt,spell,34.3,0.051
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,120,150,on,Searing Totem,spell,23.4,0.035
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,120,150,on,Flame Shock (hit),spell,20.2,0.030
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,11.4,0.017
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,120,150,on,Lightning Bolt overload,spell,4.8,0.007
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,300,150,on,Melee swing,physical,187.6,0.283
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,300,150,on,Windfury Attack,physical,132.2,0.199
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,300,150,on,Earth Shock,spell,100.9,0.152
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,300,150,on,o3/10610,physical,59.2,0.089
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,48.2,0.073
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,300,150,on,Flame Shock (ticks),spell,40.4,0.061
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,300,150,on,Lightning Bolt,spell,35.5,0.054
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,300,150,on,Searing Totem,spell,23.6,0.036
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,300,150,on,Flame Shock (hit),spell,19.5,0.029
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,11.1,0.017
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,300,150,on,Lightning Bolt overload,spell,4.9,0.007
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,600,150,on,Melee swing,physical,187.4,0.282
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,600,150,on,Windfury Attack,physical,132.2,0.199
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,600,150,on,Earth Shock,spell,100.9,0.152
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,600,150,on,o3/10610,physical,59.2,0.089
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,600,150,on,Stormstrike (weapon strike),physical,47.8,0.072
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,600,150,on,Flame Shock (ticks),spell,40.5,0.061
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,600,150,on,Lightning Bolt,spell,36.1,0.054
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,600,150,on,Searing Totem,spell,24.5,0.037
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,600,150,on,Flame Shock (hit),spell,19.2,0.029
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,600,150,on,Dragonbreath Chili,spell,11.1,0.017
+nov10,"25/26 MW1, Convection",enh_launch_1h,false,600,150,on,Lightning Bolt overload,spell,5.0,0.008
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,279.7,0.305
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,184.1,0.201
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,98.9,0.108
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,96.5,0.105
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,87.1,0.095
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,51.5,0.056
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,48.8,0.053
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,24.5,0.027
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,23.2,0.025
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,16.8,0.018
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt overload,spell,6.7,0.007
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,280.6,0.306
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,182.9,0.200
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,97.5,0.106
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,95.9,0.105
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,86.1,0.094
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,52.9,0.058
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,49.4,0.054
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,25.1,0.027
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,22.3,0.024
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,16.4,0.018
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt overload,spell,6.9,0.007
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,278.0,0.305
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,181.1,0.199
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,97.4,0.107
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,94.9,0.104
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,85.8,0.094
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,53.4,0.059
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,49.5,0.054
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,26.1,0.029
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,21.9,0.024
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,16.3,0.018
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt overload,spell,7.0,0.008
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,120,150,on,Melee swing,physical,185.3,0.279
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,120,150,on,Windfury Attack,physical,131.2,0.197
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,120,150,on,Earth Shock,spell,100.0,0.150
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,120,150,on,o3/10610,physical,59.0,0.089
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,49.0,0.074
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,120,150,on,Lightning Bolt,spell,40.6,0.061
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,120,150,on,Flame Shock (ticks),spell,39.9,0.060
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,120,150,on,Searing Totem,spell,23.4,0.035
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,120,150,on,Flame Shock (hit),spell,20.0,0.030
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,11.0,0.017
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,120,150,on,Lightning Bolt overload,spell,5.6,0.008
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,300,150,on,Melee swing,physical,184.5,0.279
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,300,150,on,Windfury Attack,physical,130.3,0.197
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,300,150,on,Earth Shock,spell,98.9,0.150
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,300,150,on,o3/10610,physical,58.4,0.088
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,48.0,0.073
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,300,150,on,Lightning Bolt,spell,41.4,0.063
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,300,150,on,Flame Shock (ticks),spell,40.1,0.061
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,300,150,on,Searing Totem,spell,23.7,0.036
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,300,150,on,Flame Shock (hit),spell,19.3,0.029
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,11.0,0.017
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,300,150,on,Lightning Bolt overload,spell,5.7,0.009
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,600,150,on,Melee swing,physical,184.1,0.278
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,600,150,on,Windfury Attack,physical,130.2,0.197
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,600,150,on,Earth Shock,spell,98.9,0.149
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,600,150,on,o3/10610,physical,58.3,0.088
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,600,150,on,Stormstrike (weapon strike),physical,47.6,0.072
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,600,150,on,Lightning Bolt,spell,41.9,0.063
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,600,150,on,Flame Shock (ticks),spell,40.2,0.061
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,600,150,on,Searing Totem,spell,24.7,0.037
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,600,150,on,Flame Shock (hit),spell,19.0,0.029
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,600,150,on,Dragonbreath Chili,spell,10.9,0.016
+nov10,"25/26 MW1, Alacrity + Focus, bolt at 4 stacks",enh_launch_1h,false,600,150,on,Lightning Bolt overload,spell,5.8,0.009
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,323.1,0.318
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,222.8,0.219
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,106.5,0.105
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,105.8,0.104
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,87.3,0.086
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,62.3,0.061
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,37.1,0.036
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,30.3,0.030
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,22.6,0.022
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,19.8,0.019
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,318.8,0.318
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,219.6,0.219
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,103.8,0.104
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,103.1,0.103
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,87.8,0.088
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,60.5,0.060
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,37.3,0.037
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,29.0,0.029
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,23.3,0.023
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,19.2,0.019
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,316.2,0.317
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,218.1,0.218
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,103.0,0.103
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,102.2,0.102
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,88.1,0.088
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,60.7,0.061
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,37.7,0.038
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,29.0,0.029
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,24.0,0.024
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,19.1,0.019
+nov10,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Melee swing,physical,200.5,0.304
+nov10,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Windfury Attack,physical,139.8,0.212
+nov10,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,o3/10610,physical,63.5,0.096
+nov10,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Lightning Bolt,spell,62.0,0.094
+nov10,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Earth Shock,spell,55.7,0.085
+nov10,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,49.5,0.075
+nov10,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Flame Shock (ticks),spell,29.1,0.044
+nov10,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Flame Shock (hit),spell,25.0,0.038
+nov10,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Searing Totem,spell,21.5,0.033
+nov10,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,12.3,0.019
+nov10,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Melee swing,physical,197.4,0.304
+nov10,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Windfury Attack,physical,137.8,0.212
+nov10,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Lightning Bolt,spell,62.2,0.096
+nov10,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,o3/10610,physical,62.1,0.096
+nov10,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Earth Shock,spell,54.2,0.083
+nov10,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,49.0,0.075
+nov10,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Flame Shock (ticks),spell,29.1,0.045
+nov10,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Flame Shock (hit),spell,24.1,0.037
+nov10,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Searing Totem,spell,21.6,0.033
+nov10,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,12.1,0.019
+nov10,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Melee swing,physical,197.2,0.303
+nov10,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Windfury Attack,physical,137.5,0.212
+nov10,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Lightning Bolt,spell,62.7,0.097
+nov10,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,o3/10610,physical,62.0,0.095
+nov10,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Earth Shock,spell,54.4,0.084
+nov10,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Stormstrike (weapon strike),physical,48.6,0.075
+nov10,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Flame Shock (ticks),spell,29.2,0.045
+nov10,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Flame Shock (hit),spell,24.0,0.037
+nov10,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Searing Totem,spell,22.3,0.034
+nov10,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Dragonbreath Chili,spell,12.1,0.019
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,292.0,0.296
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,189.6,0.192
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,161.7,0.164
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,96.9,0.098
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,91.5,0.093
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,74.7,0.076
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Fire Nova,spell,38.3,0.039
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,24.6,0.025
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,17.3,0.018
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,288.4,0.294
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,188.3,0.192
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,162.4,0.166
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,97.1,0.099
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,90.7,0.092
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,75.2,0.077
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Fire Nova,spell,35.5,0.036
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,26.2,0.027
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,16.9,0.017
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,286.1,0.297
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,186.6,0.194
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,165.6,0.172
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,96.3,0.100
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,90.1,0.094
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,75.9,0.079
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,26.4,0.027
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Fire Nova,spell,18.9,0.020
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,16.8,0.017
+nov10,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Melee swing,physical,192.4,0.269
+nov10,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Earth Shock,spell,144.1,0.201
+nov10,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Windfury Attack,physical,136.2,0.190
+nov10,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,o3/10610,physical,63.3,0.088
+nov10,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Lightning Bolt,spell,58.1,0.081
+nov10,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,51.0,0.071
+nov10,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Fire Nova,spell,35.2,0.049
+nov10,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Searing Totem,spell,23.4,0.033
+nov10,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,11.8,0.016
+nov10,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Melee swing,physical,189.5,0.270
+nov10,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Earth Shock,spell,148.2,0.211
+nov10,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Windfury Attack,physical,134.4,0.191
+nov10,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,o3/10610,physical,62.6,0.089
+nov10,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Lightning Bolt,spell,58.5,0.083
+nov10,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,51.3,0.073
+nov10,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Searing Totem,spell,25.1,0.036
+nov10,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Fire Nova,spell,20.8,0.030
+nov10,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,11.5,0.016
+nov10,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,Melee swing,physical,189.1,0.273
+nov10,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,Earth Shock,spell,149.9,0.216
+nov10,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,Windfury Attack,physical,133.8,0.193
+nov10,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,o3/10610,physical,62.4,0.090
+nov10,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,Lightning Bolt,spell,59.2,0.086
+nov10,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,Stormstrike (weapon strike),physical,50.9,0.073
+nov10,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,Searing Totem,spell,25.2,0.036
+nov10,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,Dragonbreath Chili,spell,11.5,0.017
+nov10,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,Fire Nova,spell,10.5,0.015

@@ -1,0 +1,4 @@
+state,build,gear,set_bonuses,duration_s,reaction_ms,haste,iterations,dps,dps_stderr,physical_dps,spell_dps,physical_share,lb_lvb_cl_casts_per_min,mh_swings_per_min,seconds_oom
+"nov10, five-point chance","25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,948.1,1.3,658.8,289.3,0.695,4.30,22.86,0.0
+"nov10, five-point chance","25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,951.0,0.8,658.1,292.9,0.692,4.41,22.87,0.0
+"nov10, five-point chance","25/26 MW1, Alacrity + Focus",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,5000,945.6,0.6,651.3,294.2,0.689,4.42,22.72,0.0

@@ -1,0 +1,877 @@
+state,targets,build,gear,set_bonuses,duration_s,reaction_ms,haste,source,school,dps,share
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,120,150,on,Melee swing,physical,286.4,0.300
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,120,150,on,Windfury Attack,physical,200.8,0.210
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,120,150,on,o3/10610,physical,95.7,0.100
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,94.0,0.098
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,120,150,on,Earth Shock,spell,85.6,0.090
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,120,150,on,Lightning Bolt,spell,84.1,0.088
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (ticks),spell,37.3,0.039
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (hit),spell,30.7,0.032
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,120,150,on,Searing Totem,spell,22.1,0.023
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,120,150,on,Dragonbreath Chili,spell,17.9,0.019
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,300,150,on,Melee swing,physical,282.9,0.300
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,300,150,on,Windfury Attack,physical,197.6,0.210
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,300,150,on,o3/10610,physical,94.1,0.100
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,91.4,0.097
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,300,150,on,Lightning Bolt,spell,84.5,0.090
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,300,150,on,Earth Shock,spell,83.9,0.089
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (ticks),spell,37.7,0.040
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (hit),spell,29.7,0.032
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,300,150,on,Searing Totem,spell,22.9,0.024
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,300,150,on,Dragonbreath Chili,spell,17.5,0.019
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,600,150,on,Melee swing,physical,279.1,0.310
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,600,150,on,Windfury Attack,physical,194.1,0.216
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,600,150,on,o3/10610,physical,92.2,0.103
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,87.5,0.097
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,600,150,on,Lightning Bolt,spell,83.7,0.093
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,600,150,on,Earth Shock,spell,64.1,0.071
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,600,150,on,Flame Shock (ticks),spell,33.0,0.037
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,600,150,on,Flame Shock (hit),spell,25.5,0.028
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,600,150,on,Searing Totem,spell,22.8,0.025
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis.gear.json,false,600,150,on,Dragonbreath Chili,spell,17.3,0.019
+nov10,1,8/36/7 free instants,enh_launch_1h,false,120,150,on,Melee swing,physical,172.5,0.275
+nov10,1,8/36/7 free instants,enh_launch_1h,false,120,150,on,Windfury Attack,physical,125.1,0.200
+nov10,1,8/36/7 free instants,enh_launch_1h,false,120,150,on,Earth Shock,spell,79.0,0.126
+nov10,1,8/36/7 free instants,enh_launch_1h,false,120,150,on,Lightning Bolt,spell,59.6,0.095
+nov10,1,8/36/7 free instants,enh_launch_1h,false,120,150,on,o3/10610,physical,57.5,0.092
+nov10,1,8/36/7 free instants,enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,45.3,0.072
+nov10,1,8/36/7 free instants,enh_launch_1h,false,120,150,on,Flame Shock (ticks),spell,30.0,0.048
+nov10,1,8/36/7 free instants,enh_launch_1h,false,120,150,on,Flame Shock (hit),spell,26.3,0.042
+nov10,1,8/36/7 free instants,enh_launch_1h,false,120,150,on,Searing Totem,spell,21.0,0.033
+nov10,1,8/36/7 free instants,enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,11.0,0.018
+nov10,1,8/36/7 free instants,enh_launch_1h,false,300,150,on,Melee swing,physical,168.7,0.289
+nov10,1,8/36/7 free instants,enh_launch_1h,false,300,150,on,Windfury Attack,physical,121.1,0.208
+nov10,1,8/36/7 free instants,enh_launch_1h,false,300,150,on,Lightning Bolt,spell,59.4,0.102
+nov10,1,8/36/7 free instants,enh_launch_1h,false,300,150,on,Earth Shock,spell,57.5,0.098
+nov10,1,8/36/7 free instants,enh_launch_1h,false,300,150,on,o3/10610,physical,55.6,0.095
+nov10,1,8/36/7 free instants,enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,42.2,0.072
+nov10,1,8/36/7 free instants,enh_launch_1h,false,300,150,on,Flame Shock (ticks),spell,25.9,0.044
+nov10,1,8/36/7 free instants,enh_launch_1h,false,300,150,on,Flame Shock (hit),spell,22.0,0.038
+nov10,1,8/36/7 free instants,enh_launch_1h,false,300,150,on,Searing Totem,spell,20.8,0.036
+nov10,1,8/36/7 free instants,enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,10.6,0.018
+nov10,1,8/36/7 free instants,enh_launch_1h,false,600,150,on,Melee swing,physical,167.8,0.297
+nov10,1,8/36/7 free instants,enh_launch_1h,false,600,150,on,Windfury Attack,physical,120.5,0.213
+nov10,1,8/36/7 free instants,enh_launch_1h,false,600,150,on,Lightning Bolt,spell,59.5,0.105
+nov10,1,8/36/7 free instants,enh_launch_1h,false,600,150,on,o3/10610,physical,54.9,0.097
+nov10,1,8/36/7 free instants,enh_launch_1h,false,600,150,on,Earth Shock,spell,46.7,0.083
+nov10,1,8/36/7 free instants,enh_launch_1h,false,600,150,on,Stormstrike (weapon strike),physical,41.5,0.073
+nov10,1,8/36/7 free instants,enh_launch_1h,false,600,150,on,Flame Shock (ticks),spell,23.0,0.041
+nov10,1,8/36/7 free instants,enh_launch_1h,false,600,150,on,Searing Totem,spell,20.9,0.037
+nov10,1,8/36/7 free instants,enh_launch_1h,false,600,150,on,Flame Shock (hit),spell,19.1,0.034
+nov10,1,8/36/7 free instants,enh_launch_1h,false,600,150,on,Dragonbreath Chili,spell,10.6,0.019
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Melee swing,physical,284.9,0.309
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Windfury Attack,physical,201.8,0.219
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,94.4,0.102
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,o3/10610,physical,94.2,0.102
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Lightning Bolt,spell,82.9,0.090
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Earth Shock,spell,59.9,0.065
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (ticks),spell,35.6,0.039
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (hit),spell,29.3,0.032
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Searing Totem,spell,22.1,0.024
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,Dragonbreath Chili,spell,18.0,0.019
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Melee swing,physical,281.4,0.309
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Windfury Attack,physical,198.0,0.218
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,o3/10610,physical,92.4,0.102
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,92.1,0.101
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Lightning Bolt,spell,83.2,0.092
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Earth Shock,spell,58.4,0.064
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (ticks),spell,35.8,0.039
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (hit),spell,28.1,0.031
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Searing Totem,spell,22.7,0.025
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,Dragonbreath Chili,spell,17.5,0.019
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,600,150,on,Melee swing,physical,278.3,0.311
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,600,150,on,Windfury Attack,physical,195.5,0.218
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,600,150,on,o3/10610,physical,91.2,0.102
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,89.9,0.100
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,600,150,on,Lightning Bolt,spell,83.4,0.093
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,600,150,on,Earth Shock,spell,54.1,0.060
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,600,150,on,Flame Shock (ticks),spell,34.8,0.039
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,600,150,on,Flame Shock (hit),spell,27.0,0.030
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,600,150,on,Searing Totem,spell,23.5,0.026
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,600,150,on,Dragonbreath Chili,spell,17.4,0.019
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Melee swing,physical,170.5,0.290
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Windfury Attack,physical,123.5,0.210
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Lightning Bolt,spell,58.4,0.099
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,o3/10610,physical,54.9,0.093
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Earth Shock,spell,53.4,0.091
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,42.7,0.073
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Flame Shock (ticks),spell,27.8,0.047
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Flame Shock (hit),spell,24.2,0.041
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Searing Totem,spell,21.0,0.036
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,10.9,0.019
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Melee swing,physical,167.8,0.292
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Windfury Attack,physical,121.0,0.210
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Lightning Bolt,spell,58.7,0.102
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,o3/10610,physical,53.5,0.093
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Earth Shock,spell,49.8,0.087
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,41.9,0.073
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Flame Shock (ticks),spell,27.4,0.048
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Flame Shock (hit),spell,22.9,0.040
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Searing Totem,spell,21.2,0.037
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,10.6,0.018
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Melee swing,physical,167.1,0.299
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Windfury Attack,physical,120.2,0.215
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Lightning Bolt,spell,58.7,0.105
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,o3/10610,physical,52.7,0.094
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Earth Shock,spell,42.0,0.075
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Stormstrike (weapon strike),physical,40.8,0.073
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Flame Shock (ticks),spell,24.4,0.044
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Searing Totem,spell,21.5,0.038
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Flame Shock (hit),spell,20.3,0.036
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,Dragonbreath Chili,spell,10.5,0.019
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Melee swing,physical,257.3,0.285
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Windfury Attack,physical,170.3,0.188
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Earth Shock,spell,125.4,0.139
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,86.3,0.095
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,o3/10610,physical,80.9,0.089
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Lightning Bolt,spell,72.9,0.081
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (ticks),spell,48.2,0.053
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Searing Totem,spell,24.0,0.027
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (hit),spell,22.8,0.025
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Dragonbreath Chili,spell,15.8,0.018
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Melee swing,physical,254.7,0.283
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Windfury Attack,physical,169.1,0.188
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Earth Shock,spell,123.7,0.138
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,86.2,0.096
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,o3/10610,physical,80.6,0.090
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Lightning Bolt,spell,73.7,0.082
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (ticks),spell,48.4,0.054
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Searing Totem,spell,25.3,0.028
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (hit),spell,22.1,0.025
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Dragonbreath Chili,spell,15.6,0.017
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Melee swing,physical,252.2,0.291
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Windfury Attack,physical,166.5,0.192
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Earth Shock,spell,105.1,0.121
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,82.6,0.095
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,o3/10610,physical,79.1,0.091
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Lightning Bolt,spell,73.1,0.084
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Flame Shock (ticks),spell,46.4,0.054
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Searing Totem,spell,25.5,0.029
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Flame Shock (hit),spell,20.7,0.024
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Dragonbreath Chili,spell,15.3,0.018
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,120,150,on,Melee swing,physical,164.4,0.255
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,120,150,on,Windfury Attack,physical,120.0,0.186
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,120,150,on,Earth Shock,spell,114.3,0.177
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,120,150,on,Lightning Bolt,spell,56.2,0.087
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,120,150,on,o3/10610,physical,54.9,0.085
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,44.1,0.068
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,120,150,on,Flame Shock (ticks),spell,38.6,0.060
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,120,150,on,Searing Totem,spell,22.9,0.036
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,120,150,on,Flame Shock (hit),spell,19.3,0.030
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,10.3,0.016
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,300,150,on,Melee swing,physical,161.5,0.265
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,300,150,on,Windfury Attack,physical,117.3,0.192
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,300,150,on,Earth Shock,spell,92.5,0.152
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,300,150,on,Lightning Bolt,spell,56.1,0.092
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,300,150,on,o3/10610,physical,53.4,0.088
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,42.4,0.069
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,300,150,on,Flame Shock (ticks),spell,36.1,0.059
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,300,150,on,Searing Totem,spell,23.0,0.038
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,300,150,on,Flame Shock (hit),spell,17.5,0.029
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,10.0,0.016
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,600,150,on,Melee swing,physical,161.2,0.273
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,600,150,on,Windfury Attack,physical,116.7,0.198
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,600,150,on,Earth Shock,spell,78.7,0.133
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,600,150,on,Lightning Bolt,spell,56.1,0.095
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,600,150,on,o3/10610,physical,52.9,0.090
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,600,150,on,Stormstrike (weapon strike),physical,41.2,0.070
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,600,150,on,Flame Shock (ticks),spell,34.5,0.058
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,600,150,on,Searing Totem,spell,23.0,0.039
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,600,150,on,Flame Shock (hit),spell,16.5,0.028
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,600,150,on,Dragonbreath Chili,spell,10.0,0.017
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,120,150,on,Melee swing,physical,257.6,0.288
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,120,150,on,Windfury Attack,physical,170.5,0.191
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,120,150,on,Earth Shock,spell,153.1,0.171
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,86.4,0.097
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,120,150,on,o3/10610,physical,81.2,0.091
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,120,150,on,Lightning Bolt,spell,70.9,0.079
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,120,150,on,Fire Nova,spell,35.2,0.039
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,120,150,on,Searing Totem,spell,24.0,0.027
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,120,150,on,Dragonbreath Chili,spell,15.8,0.018
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,300,150,on,Melee swing,physical,254.8,0.297
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,300,150,on,Windfury Attack,physical,169.0,0.197
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,300,150,on,Earth Shock,spell,146.4,0.171
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,85.3,0.099
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,300,150,on,o3/10610,physical,80.6,0.094
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,300,150,on,Lightning Bolt,spell,71.7,0.084
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,300,150,on,Searing Totem,spell,25.0,0.029
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,300,150,on,Dragonbreath Chili,spell,15.5,0.018
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,300,150,on,Fire Nova,spell,9.8,0.011
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,600,150,on,Melee swing,physical,252.1,0.303
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,600,150,on,Windfury Attack,physical,166.4,0.200
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,600,150,on,Earth Shock,spell,137.8,0.166
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,83.0,0.100
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,600,150,on,o3/10610,physical,79.0,0.095
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,600,150,on,Lightning Bolt,spell,71.9,0.086
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,600,150,on,Searing Totem,spell,25.7,0.031
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,600,150,on,Dragonbreath Chili,spell,15.3,0.018
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,600,150,on,Fire Nova,spell,1.3,0.002
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Melee swing,physical,164.3,0.275
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Windfury Attack,physical,120.1,0.201
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Earth Shock,spell,107.6,0.180
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,o3/10610,physical,54.8,0.092
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Lightning Bolt,spell,54.5,0.091
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,43.3,0.073
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Searing Totem,spell,22.9,0.038
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Fire Nova,spell,19.6,0.033
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,10.3,0.017
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Melee swing,physical,161.8,0.277
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Earth Shock,spell,118.0,0.202
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Windfury Attack,physical,117.3,0.201
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Lightning Bolt,spell,55.3,0.095
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,o3/10610,physical,53.6,0.092
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,42.8,0.073
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Searing Totem,spell,23.1,0.040
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,10.1,0.017
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,Fire Nova,spell,2.0,0.003
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,Melee swing,physical,161.3,0.285
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,Windfury Attack,physical,116.7,0.206
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,Earth Shock,spell,103.9,0.183
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,Lightning Bolt,spell,55.5,0.098
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,o3/10610,physical,53.2,0.094
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,Stormstrike (weapon strike),physical,41.6,0.073
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,Searing Totem,spell,23.4,0.041
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,Dragonbreath Chili,spell,10.0,0.018
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,Fire Nova,spell,1.0,0.002
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Melee swing,physical,283.8,0.300
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Windfury Attack,physical,198.6,0.210
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,o3/10610,physical,94.9,0.100
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,93.6,0.099
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Earth Shock,spell,84.9,0.090
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Lightning Bolt,spell,83.4,0.088
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (ticks),spell,37.0,0.039
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (hit),spell,30.4,0.032
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Searing Totem,spell,22.0,0.023
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Dragonbreath Chili,spell,17.8,0.019
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Melee swing,physical,280.6,0.299
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Windfury Attack,physical,196.4,0.210
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,o3/10610,physical,93.5,0.100
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,90.8,0.097
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Earth Shock,spell,84.8,0.090
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Lightning Bolt,spell,83.8,0.089
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (ticks),spell,37.6,0.040
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (hit),spell,29.7,0.032
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Searing Totem,spell,22.8,0.024
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Dragonbreath Chili,spell,17.5,0.019
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Melee swing,physical,278.4,0.298
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Windfury Attack,physical,195.3,0.209
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,o3/10610,physical,92.9,0.100
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,90.1,0.097
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Earth Shock,spell,84.8,0.091
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Lightning Bolt,spell,84.0,0.090
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Flame Shock (ticks),spell,37.8,0.040
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Flame Shock (hit),spell,29.4,0.032
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Searing Totem,spell,23.5,0.025
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Dragonbreath Chili,spell,17.3,0.019
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,120,150,on,Melee swing,physical,171.1,0.275
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,120,150,on,Windfury Attack,physical,124.4,0.200
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,120,150,on,Earth Shock,spell,78.7,0.126
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,120,150,on,Lightning Bolt,spell,59.2,0.095
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,120,150,on,o3/10610,physical,57.1,0.092
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,44.9,0.072
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,120,150,on,Flame Shock (ticks),spell,29.9,0.048
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,120,150,on,Flame Shock (hit),spell,26.3,0.042
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,120,150,on,Searing Totem,spell,21.0,0.034
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,10.9,0.017
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,300,150,on,Melee swing,physical,168.5,0.276
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,300,150,on,Windfury Attack,physical,121.6,0.199
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,300,150,on,Earth Shock,spell,74.4,0.122
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,300,150,on,Lightning Bolt,spell,59.5,0.098
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,300,150,on,o3/10610,physical,55.3,0.091
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,43.3,0.071
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,300,150,on,Flame Shock (ticks),spell,30.0,0.049
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,300,150,on,Flame Shock (hit),spell,25.1,0.041
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,300,150,on,Searing Totem,spell,21.8,0.036
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,10.5,0.017
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,600,150,on,Melee swing,physical,167.6,0.283
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,600,150,on,Windfury Attack,physical,120.5,0.203
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,600,150,on,Earth Shock,spell,63.2,0.107
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,600,150,on,Lightning Bolt,spell,59.4,0.100
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,600,150,on,o3/10610,physical,54.3,0.092
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,600,150,on,Stormstrike (weapon strike),physical,42.1,0.071
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,600,150,on,Flame Shock (ticks),spell,28.6,0.048
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,600,150,on,Flame Shock (hit),spell,23.9,0.040
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,600,150,on,Searing Totem,spell,22.4,0.038
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,600,150,on,Dragonbreath Chili,spell,10.5,0.018
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Melee swing,physical,253.2,0.287
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Windfury Attack,physical,170.0,0.192
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Earth Shock,spell,131.3,0.149
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,89.2,0.101
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,o3/10610,physical,80.9,0.092
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (ticks),spell,48.2,0.055
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Lightning Bolt,spell,43.2,0.049
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Searing Totem,spell,24.0,0.027
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (hit),spell,22.6,0.026
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Dragonbreath Chili,spell,15.5,0.018
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Lightning Bolt overload,spell,5.6,0.006
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Melee swing,physical,253.9,0.291
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Windfury Attack,physical,169.2,0.194
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Earth Shock,spell,121.1,0.139
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,88.7,0.102
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,o3/10610,physical,80.8,0.093
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (ticks),spell,47.4,0.054
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Lightning Bolt,spell,44.7,0.051
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Searing Totem,spell,25.3,0.029
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (hit),spell,21.7,0.025
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Dragonbreath Chili,spell,15.2,0.017
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Lightning Bolt overload,spell,5.7,0.007
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Melee swing,physical,250.0,0.303
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Windfury Attack,physical,165.4,0.200
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Earth Shock,spell,95.2,0.115
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,83.9,0.102
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,o3/10610,physical,78.9,0.095
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Lightning Bolt,spell,44.4,0.054
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Flame Shock (ticks),spell,43.6,0.053
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Searing Totem,spell,24.7,0.030
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Flame Shock (hit),spell,19.5,0.024
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Dragonbreath Chili,spell,15.0,0.018
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Lightning Bolt overload,spell,5.7,0.007
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,120,150,on,Melee swing,physical,162.0,0.258
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,120,150,on,Windfury Attack,physical,118.5,0.189
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,120,150,on,Earth Shock,spell,117.9,0.188
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,120,150,on,o3/10610,physical,54.4,0.087
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,45.4,0.072
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,120,150,on,Flame Shock (ticks),spell,38.6,0.062
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,120,150,on,Lightning Bolt,spell,33.4,0.053
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,120,150,on,Searing Totem,spell,22.9,0.037
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,120,150,on,Flame Shock (hit),spell,19.3,0.031
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,10.0,0.016
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,120,150,on,Lightning Bolt overload,spell,4.7,0.007
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,300,150,on,Melee swing,physical,160.0,0.275
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,300,150,on,Windfury Attack,physical,116.3,0.200
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,300,150,on,Earth Shock,spell,86.9,0.150
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,300,150,on,o3/10610,physical,53.3,0.092
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,43.1,0.074
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,300,150,on,Lightning Bolt,spell,34.1,0.059
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,300,150,on,Flame Shock (ticks),spell,33.5,0.058
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,300,150,on,Searing Totem,spell,22.8,0.039
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,300,150,on,Flame Shock (hit),spell,16.5,0.028
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,9.8,0.017
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,300,150,on,Lightning Bolt overload,spell,4.8,0.008
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,600,150,on,Melee swing,physical,159.0,0.285
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,600,150,on,Windfury Attack,physical,115.4,0.207
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,600,150,on,Earth Shock,spell,71.2,0.128
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,600,150,on,o3/10610,physical,52.8,0.095
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,600,150,on,Stormstrike (weapon strike),physical,42.1,0.075
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,600,150,on,Lightning Bolt,spell,34.4,0.062
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,600,150,on,Flame Shock (ticks),spell,31.0,0.055
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,600,150,on,Searing Totem,spell,22.8,0.041
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,600,150,on,Flame Shock (hit),spell,14.8,0.027
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,600,150,on,Dragonbreath Chili,spell,9.7,0.017
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,600,150,on,Lightning Bolt overload,spell,4.8,0.009
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Melee swing,physical,251.1,0.296
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Windfury Attack,physical,166.5,0.196
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Earth Shock,spell,149.8,0.176
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,88.9,0.105
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,o3/10610,physical,80.2,0.094
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (ticks),spell,50.2,0.059
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Searing Totem,spell,26.0,0.031
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (hit),spell,23.8,0.028
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Dragonbreath Chili,spell,12.5,0.015
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Melee swing,physical,252.7,0.297
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Windfury Attack,physical,167.9,0.197
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Earth Shock,spell,146.1,0.172
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,90.0,0.106
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,o3/10610,physical,80.6,0.095
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (ticks),spell,49.9,0.059
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Searing Totem,spell,28.2,0.033
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (hit),spell,23.6,0.028
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Dragonbreath Chili,spell,12.5,0.015
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Melee swing,physical,248.9,0.309
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Windfury Attack,physical,164.5,0.205
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Earth Shock,spell,119.2,0.148
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,84.8,0.105
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,o3/10610,physical,78.7,0.098
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Flame Shock (ticks),spell,46.8,0.058
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Searing Totem,spell,27.5,0.034
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Flame Shock (hit),spell,21.5,0.027
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Dragonbreath Chili,spell,12.3,0.015
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,120,150,on,Melee swing,physical,160.8,0.264
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,120,150,on,Earth Shock,spell,138.0,0.226
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,120,150,on,Windfury Attack,physical,117.1,0.192
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,120,150,on,o3/10610,physical,54.2,0.089
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,45.4,0.074
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,120,150,on,Flame Shock (ticks),spell,40.9,0.067
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,120,150,on,Searing Totem,spell,24.8,0.041
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,120,150,on,Flame Shock (hit),spell,20.2,0.033
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,8.5,0.014
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,300,150,on,Melee swing,physical,159.0,0.281
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,300,150,on,Windfury Attack,physical,115.8,0.205
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,300,150,on,Earth Shock,spell,106.0,0.187
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,300,150,on,o3/10610,physical,53.3,0.094
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,43.7,0.077
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,300,150,on,Flame Shock (ticks),spell,37.0,0.065
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,300,150,on,Searing Totem,spell,24.7,0.044
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,300,150,on,Flame Shock (hit),spell,18.3,0.032
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,8.4,0.015
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,600,150,on,Melee swing,physical,158.0,0.292
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,600,150,on,Windfury Attack,physical,114.5,0.212
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,600,150,on,Earth Shock,spell,88.8,0.164
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,600,150,on,o3/10610,physical,52.6,0.097
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,600,150,on,Stormstrike (weapon strike),physical,42.2,0.078
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,600,150,on,Flame Shock (ticks),spell,35.1,0.065
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,600,150,on,Searing Totem,spell,24.7,0.046
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,600,150,on,Flame Shock (hit),spell,17.1,0.032
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,600,150,on,Dragonbreath Chili,spell,8.3,0.015
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Melee swing,physical,241.2,0.296
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Windfury Attack,physical,162.3,0.199
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Earth Shock,spell,127.3,0.156
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,88.2,0.108
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,o3/10610,physical,78.2,0.096
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (ticks),spell,51.9,0.064
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Searing Totem,spell,26.2,0.032
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (hit),spell,24.5,0.030
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,120,150,on,Dragonbreath Chili,spell,15.0,0.018
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Melee swing,physical,241.9,0.299
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Windfury Attack,physical,162.3,0.201
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Earth Shock,spell,122.2,0.151
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,86.8,0.107
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,o3/10610,physical,77.5,0.096
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (ticks),spell,51.4,0.064
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Searing Totem,spell,28.4,0.035
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (hit),spell,23.4,0.029
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,300,150,on,Dragonbreath Chili,spell,14.9,0.018
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Melee swing,physical,238.2,0.311
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Windfury Attack,physical,158.6,0.207
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Earth Shock,spell,99.7,0.130
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,83.1,0.108
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,o3/10610,physical,75.8,0.099
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Flame Shock (ticks),spell,47.8,0.062
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Searing Totem,spell,27.9,0.036
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Flame Shock (hit),spell,21.3,0.028
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis.gear.json,false,600,150,on,Dragonbreath Chili,spell,14.6,0.019
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,120,150,on,Melee swing,physical,154.3,0.268
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,120,150,on,Earth Shock,spell,115.3,0.200
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,120,150,on,Windfury Attack,physical,113.8,0.197
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,120,150,on,o3/10610,physical,52.5,0.091
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,120,150,on,Stormstrike (weapon strike),physical,44.9,0.078
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,120,150,on,Flame Shock (ticks),spell,41.0,0.071
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,120,150,on,Searing Totem,spell,24.8,0.043
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,120,150,on,Flame Shock (hit),spell,20.4,0.035
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,120,150,on,Dragonbreath Chili,spell,9.6,0.017
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,300,150,on,Melee swing,physical,152.7,0.286
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,300,150,on,Windfury Attack,physical,111.9,0.209
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,300,150,on,Earth Shock,spell,87.6,0.164
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,300,150,on,o3/10610,physical,51.2,0.096
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,300,150,on,Stormstrike (weapon strike),physical,42.3,0.079
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,300,150,on,Flame Shock (ticks),spell,36.3,0.068
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,300,150,on,Searing Totem,spell,25.2,0.047
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,300,150,on,Flame Shock (hit),spell,17.8,0.033
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,300,150,on,Dragonbreath Chili,spell,9.5,0.018
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,600,150,on,Melee swing,physical,151.7,0.297
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,600,150,on,Windfury Attack,physical,111.0,0.217
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,600,150,on,Earth Shock,spell,72.8,0.142
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,600,150,on,o3/10610,physical,50.8,0.099
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,600,150,on,Stormstrike (weapon strike),physical,41.6,0.081
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,600,150,on,Flame Shock (ticks),spell,33.2,0.065
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,600,150,on,Searing Totem,spell,24.9,0.049
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,600,150,on,Flame Shock (hit),spell,15.8,0.031
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,600,150,on,Dragonbreath Chili,spell,9.4,0.018
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Melee swing,physical,317.1,0.273
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Windfury Attack,physical,221.3,0.191
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,o3/10610,physical,104.0,0.090
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Stormstrike (weapon strike),physical,100.4,0.086
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Lightning Bolt,spell,87.5,0.075
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Magma Totem,spell,85.0,0.073
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Earth Shock,spell,68.6,0.059
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Fire Nova,spell,68.3,0.059
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Dragonbreath Chili,spell,38.8,0.033
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Flame Shock (ticks),spell,37.5,0.032
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Flame Shock (hit),spell,32.7,0.028
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Melee swing,physical,284.8,0.286
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Windfury Attack,physical,198.7,0.199
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,o3/10610,physical,93.5,0.094
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,89.4,0.090
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Lightning Bolt,spell,82.9,0.083
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Magma Totem,spell,64.8,0.065
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Earth Shock,spell,45.8,0.046
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Fire Nova,spell,44.9,0.045
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Dragonbreath Chili,spell,35.8,0.036
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (ticks),spell,31.2,0.031
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (hit),spell,25.3,0.025
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Melee swing,physical,279.1,0.304
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Windfury Attack,physical,193.5,0.211
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,o3/10610,physical,91.0,0.099
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,84.7,0.092
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Lightning Bolt,spell,82.4,0.090
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Magma Totem,spell,46.6,0.051
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Dragonbreath Chili,spell,34.9,0.038
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Fire Nova,spell,30.8,0.033
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Earth Shock,spell,28.8,0.031
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (ticks),spell,26.6,0.029
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (hit),spell,20.8,0.023
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Melee swing,physical,285.4,0.256
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Windfury Attack,physical,188.8,0.169
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Earth Shock,spell,104.6,0.094
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Magma Totem,spell,96.8,0.087
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Stormstrike (weapon strike),physical,93.3,0.084
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,o3/10610,physical,90.0,0.081
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Lightning Bolt,spell,76.6,0.069
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Fire Nova,spell,74.5,0.067
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Flame Shock (ticks),spell,46.1,0.041
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Dragonbreath Chili,spell,33.8,0.030
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Flame Shock (hit),spell,26.0,0.023
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Melee swing,physical,257.7,0.266
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Windfury Attack,physical,170.9,0.177
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,83.1,0.086
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,o3/10610,physical,81.0,0.084
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Earth Shock,spell,80.4,0.083
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Magma Totem,spell,73.7,0.076
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Lightning Bolt,spell,72.1,0.075
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Fire Nova,spell,52.4,0.054
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (ticks),spell,43.9,0.045
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Dragonbreath Chili,spell,31.2,0.032
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (hit),spell,21.2,0.022
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Melee swing,physical,254.0,0.288
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Windfury Attack,physical,166.0,0.188
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,o3/10610,physical,78.1,0.088
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,77.7,0.088
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Lightning Bolt,spell,71.3,0.081
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Magma Totem,spell,55.1,0.062
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Earth Shock,spell,53.1,0.060
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (ticks),spell,40.4,0.046
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Fire Nova,spell,38.7,0.044
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Dragonbreath Chili,spell,30.3,0.034
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (hit),spell,18.5,0.021
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Melee swing,physical,262.6,0.247
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Windfury Attack,physical,175.5,0.165
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Earth Shock,spell,114.4,0.108
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Magma Totem,spell,102.5,0.097
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Stormstrike (weapon strike),physical,95.9,0.090
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,o3/10610,physical,84.6,0.080
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Fire Nova,spell,74.5,0.070
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Flame Shock (ticks),spell,46.0,0.043
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Lightning Bolt,spell,42.0,0.040
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Dragonbreath Chili,spell,32.3,0.030
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Flame Shock (hit),spell,26.2,0.025
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Lightning Bolt overload,spell,5.3,0.005
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Melee swing,physical,250.3,0.272
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Windfury Attack,physical,166.1,0.180
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,85.2,0.093
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,o3/10610,physical,79.1,0.086
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Earth Shock,spell,78.8,0.086
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Magma Totem,spell,70.9,0.077
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Fire Nova,spell,49.0,0.053
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Lightning Bolt,spell,42.8,0.047
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (ticks),spell,42.5,0.046
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Dragonbreath Chili,spell,30.5,0.033
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (hit),spell,20.2,0.022
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Lightning Bolt overload,spell,5.4,0.006
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Melee swing,physical,249.3,0.295
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Windfury Attack,physical,163.4,0.193
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,79.7,0.094
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,o3/10610,physical,77.4,0.091
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Magma Totem,spell,53.3,0.063
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Earth Shock,spell,49.7,0.059
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Lightning Bolt,spell,43.5,0.051
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (ticks),spell,39.8,0.047
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Fire Nova,spell,36.1,0.043
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Dragonbreath Chili,spell,29.8,0.035
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (hit),spell,18.1,0.021
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Lightning Bolt overload,spell,5.7,0.007
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Melee swing,physical,316.5,0.252
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Windfury Attack,physical,219.2,0.175
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Magma Totem,spell,127.0,0.101
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,o3/10610,physical,104.6,0.083
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Fire Nova,spell,102.9,0.082
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Stormstrike (weapon strike),physical,100.9,0.080
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Lightning Bolt,spell,87.1,0.069
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Earth Shock,spell,68.8,0.055
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Dragonbreath Chili,spell,58.5,0.047
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Flame Shock (ticks),spell,37.5,0.030
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Flame Shock (hit),spell,32.7,0.026
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Melee swing,physical,283.6,0.265
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Windfury Attack,physical,197.6,0.185
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Magma Totem,spell,97.1,0.091
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,o3/10610,physical,94.0,0.088
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,90.0,0.084
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Lightning Bolt,spell,82.6,0.077
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Fire Nova,spell,67.5,0.063
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Dragonbreath Chili,spell,53.5,0.050
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Earth Shock,spell,46.0,0.043
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (ticks),spell,31.2,0.029
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (hit),spell,25.2,0.024
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Melee swing,physical,278.7,0.286
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Windfury Attack,physical,192.6,0.198
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,o3/10610,physical,90.9,0.093
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,84.9,0.087
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Lightning Bolt,spell,82.1,0.084
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Magma Totem,spell,69.8,0.072
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Dragonbreath Chili,spell,51.8,0.053
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Fire Nova,spell,46.1,0.047
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Earth Shock,spell,28.9,0.030
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (ticks),spell,26.5,0.027
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (hit),spell,20.8,0.021
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Melee swing,physical,285.9,0.235
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Windfury Attack,physical,188.9,0.155
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Magma Totem,spell,145.8,0.120
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Fire Nova,spell,112.0,0.092
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Earth Shock,spell,105.0,0.086
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Stormstrike (weapon strike),physical,93.1,0.076
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,o3/10610,physical,88.3,0.072
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Lightning Bolt,spell,76.0,0.062
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Dragonbreath Chili,spell,51.2,0.042
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Flame Shock (ticks),spell,46.0,0.038
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Flame Shock (hit),spell,26.0,0.021
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Melee swing,physical,258.0,0.247
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Windfury Attack,physical,171.0,0.164
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Magma Totem,spell,110.6,0.106
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,82.6,0.079
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Earth Shock,spell,80.6,0.077
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,o3/10610,physical,80.2,0.077
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Fire Nova,spell,78.7,0.075
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Lightning Bolt,spell,71.8,0.069
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Dragonbreath Chili,spell,47.2,0.045
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (ticks),spell,43.8,0.042
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (hit),spell,21.1,0.020
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Melee swing,physical,253.8,0.269
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Windfury Attack,physical,166.0,0.176
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Magma Totem,spell,82.5,0.087
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,o3/10610,physical,77.9,0.083
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,77.3,0.082
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Lightning Bolt,spell,71.2,0.075
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Fire Nova,spell,58.1,0.061
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Earth Shock,spell,53.1,0.056
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Dragonbreath Chili,spell,45.7,0.048
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (ticks),spell,40.3,0.043
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (hit),spell,18.5,0.020
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Melee swing,physical,263.4,0.226
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Windfury Attack,physical,175.7,0.151
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Magma Totem,spell,153.6,0.132
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Earth Shock,spell,114.7,0.098
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Fire Nova,spell,111.7,0.096
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Stormstrike (weapon strike),physical,95.5,0.082
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,o3/10610,physical,83.9,0.072
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Dragonbreath Chili,spell,47.9,0.041
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Flame Shock (ticks),spell,46.1,0.040
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Lightning Bolt,spell,41.8,0.036
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Flame Shock (hit),spell,26.2,0.022
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Lightning Bolt overload,spell,5.5,0.005
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Melee swing,physical,250.3,0.252
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Windfury Attack,physical,165.2,0.166
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Magma Totem,spell,106.6,0.107
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,85.3,0.086
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Earth Shock,spell,79.1,0.080
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,o3/10610,physical,78.4,0.079
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Fire Nova,spell,73.6,0.074
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Dragonbreath Chili,spell,45.7,0.046
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (ticks),spell,42.5,0.043
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Lightning Bolt,spell,42.1,0.042
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (hit),spell,20.2,0.020
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Lightning Bolt overload,spell,5.5,0.006
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Melee swing,physical,249.4,0.275
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Windfury Attack,physical,163.1,0.180
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Magma Totem,spell,80.0,0.088
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,79.7,0.088
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,o3/10610,physical,77.2,0.085
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Fire Nova,spell,54.3,0.060
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Earth Shock,spell,49.8,0.055
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Dragonbreath Chili,spell,44.8,0.049
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Lightning Bolt,spell,43.4,0.048
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (ticks),spell,39.8,0.044
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (hit),spell,18.1,0.020
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Lightning Bolt overload,spell,5.6,0.006
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Melee swing,physical,316.6,0.234
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Windfury Attack,physical,220.8,0.163
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Magma Totem,spell,168.7,0.125
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Fire Nova,spell,137.1,0.101
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,o3/10610,physical,105.0,0.078
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Stormstrike (weapon strike),physical,100.9,0.075
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Lightning Bolt,spell,87.8,0.065
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Dragonbreath Chili,spell,77.5,0.057
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Earth Shock,spell,68.3,0.051
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Flame Shock (ticks),spell,37.5,0.028
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Flame Shock (hit),spell,32.7,0.024
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Melee swing,physical,284.4,0.249
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Windfury Attack,physical,199.2,0.174
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Magma Totem,spell,129.4,0.113
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,o3/10610,physical,94.5,0.083
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,90.0,0.079
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Fire Nova,spell,89.8,0.079
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Lightning Bolt,spell,83.4,0.073
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Dragonbreath Chili,spell,71.6,0.063
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Earth Shock,spell,45.8,0.040
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (ticks),spell,31.2,0.027
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (hit),spell,25.2,0.022
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Melee swing,physical,278.6,0.271
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Windfury Attack,physical,192.9,0.187
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Magma Totem,spell,93.1,0.090
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,o3/10610,physical,91.0,0.088
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,84.9,0.082
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Lightning Bolt,spell,82.2,0.080
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Dragonbreath Chili,spell,69.4,0.067
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Fire Nova,spell,61.3,0.060
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Earth Shock,spell,29.1,0.028
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (ticks),spell,26.6,0.026
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (hit),spell,20.8,0.020
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Melee swing,physical,286.2,0.217
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Magma Totem,spell,194.2,0.147
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Windfury Attack,physical,188.1,0.142
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Fire Nova,spell,148.4,0.112
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Earth Shock,spell,105.2,0.080
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Stormstrike (weapon strike),physical,93.4,0.071
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,o3/10610,physical,89.2,0.067
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Lightning Bolt,spell,76.1,0.058
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Dragonbreath Chili,spell,68.9,0.052
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Flame Shock (ticks),spell,45.9,0.035
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Flame Shock (hit),spell,25.9,0.020
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Melee swing,physical,257.7,0.229
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Windfury Attack,physical,169.8,0.151
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Magma Totem,spell,147.2,0.131
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Fire Nova,spell,104.6,0.093
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,83.1,0.074
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Earth Shock,spell,80.7,0.072
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,o3/10610,physical,80.3,0.071
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Lightning Bolt,spell,72.1,0.064
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Dragonbreath Chili,spell,63.1,0.056
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (ticks),spell,43.9,0.039
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (hit),spell,21.1,0.019
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Melee swing,physical,253.6,0.252
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Windfury Attack,physical,165.5,0.165
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Magma Totem,spell,110.0,0.109
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,o3/10610,physical,77.9,0.077
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,77.6,0.077
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Fire Nova,spell,77.4,0.077
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Lightning Bolt,spell,71.2,0.071
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Dragonbreath Chili,spell,61.0,0.061
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Earth Shock,spell,53.2,0.053
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (ticks),spell,40.4,0.040
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (hit),spell,18.5,0.018
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Melee swing,physical,263.2,0.207
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Magma Totem,spell,204.9,0.161
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Windfury Attack,physical,176.6,0.139
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Fire Nova,spell,148.9,0.117
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Earth Shock,spell,114.2,0.090
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Stormstrike (weapon strike),physical,95.7,0.075
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,o3/10610,physical,84.8,0.067
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Dragonbreath Chili,spell,65.4,0.051
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Flame Shock (ticks),spell,46.0,0.036
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Lightning Bolt,spell,42.0,0.033
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Flame Shock (hit),spell,26.1,0.021
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Lightning Bolt overload,spell,5.4,0.004
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Melee swing,physical,250.2,0.233
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Windfury Attack,physical,166.0,0.155
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Magma Totem,spell,142.2,0.133
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Fire Nova,spell,97.9,0.091
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,85.5,0.080
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,o3/10610,physical,79.5,0.074
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Earth Shock,spell,78.8,0.073
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Dragonbreath Chili,spell,61.3,0.057
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Lightning Bolt,spell,42.7,0.040
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (ticks),spell,42.5,0.040
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (hit),spell,20.2,0.019
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Lightning Bolt overload,spell,5.5,0.005
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Melee swing,physical,249.3,0.258
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Windfury Attack,physical,163.8,0.170
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Magma Totem,spell,106.5,0.110
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,79.8,0.083
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,o3/10610,physical,77.5,0.080
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Fire Nova,spell,72.2,0.075
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Dragonbreath Chili,spell,59.7,0.062
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Earth Shock,spell,49.7,0.051
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Lightning Bolt,spell,43.5,0.045
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (ticks),spell,39.7,0.041
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (hit),spell,18.1,0.019
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Lightning Bolt overload,spell,5.7,0.006
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Melee swing,physical,316.3,0.219
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Windfury Attack,physical,218.3,0.151
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Magma Totem,spell,212.1,0.147
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Fire Nova,spell,171.7,0.119
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,o3/10610,physical,104.0,0.072
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Stormstrike (weapon strike),physical,100.3,0.069
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Dragonbreath Chili,spell,96.7,0.067
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Lightning Bolt,spell,86.7,0.060
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Earth Shock,spell,69.0,0.048
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Flame Shock (ticks),spell,37.6,0.026
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Flame Shock (hit),spell,32.7,0.023
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Melee swing,physical,284.4,0.234
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Windfury Attack,physical,196.7,0.162
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Magma Totem,spell,161.8,0.133
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Fire Nova,spell,112.6,0.093
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,o3/10610,physical,94.0,0.077
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Dragonbreath Chili,spell,89.7,0.074
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,89.7,0.074
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Lightning Bolt,spell,83.0,0.068
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Earth Shock,spell,45.9,0.038
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (ticks),spell,31.3,0.026
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (hit),spell,25.2,0.021
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Melee swing,physical,278.7,0.257
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Windfury Attack,physical,192.3,0.177
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Magma Totem,spell,116.5,0.107
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,o3/10610,physical,91.2,0.084
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Dragonbreath Chili,spell,87.0,0.080
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,84.7,0.078
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Lightning Bolt,spell,82.6,0.076
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Fire Nova,spell,76.8,0.071
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Earth Shock,spell,29.0,0.027
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (ticks),spell,26.7,0.025
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (hit),spell,20.9,0.019
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Melee swing,physical,285.1,0.201
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Magma Totem,spell,241.6,0.170
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Windfury Attack,physical,189.2,0.133
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Fire Nova,spell,186.4,0.131
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Earth Shock,spell,104.6,0.074
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Stormstrike (weapon strike),physical,93.2,0.066
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,o3/10610,physical,89.2,0.063
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Dragonbreath Chili,spell,84.3,0.059
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Lightning Bolt,spell,75.5,0.053
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Flame Shock (ticks),spell,46.0,0.032
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Flame Shock (hit),spell,26.0,0.018
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Melee swing,physical,257.4,0.214
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Magma Totem,spell,183.8,0.153
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Windfury Attack,physical,170.8,0.142
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Fire Nova,spell,131.0,0.109
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,82.8,0.069
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,o3/10610,physical,80.7,0.067
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Earth Shock,spell,79.9,0.067
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Dragonbreath Chili,spell,77.8,0.065
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Lightning Bolt,spell,71.6,0.060
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (ticks),spell,43.8,0.036
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (hit),spell,21.1,0.018
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Melee swing,physical,253.7,0.238
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Windfury Attack,physical,165.5,0.155
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Magma Totem,spell,137.4,0.129
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Fire Nova,spell,96.7,0.091
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,o3/10610,physical,77.8,0.073
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,77.4,0.073
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Dragonbreath Chili,spell,75.5,0.071
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Lightning Bolt,spell,71.0,0.067
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Earth Shock,spell,52.8,0.049
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (ticks),spell,40.3,0.038
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (hit),spell,18.5,0.017
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Melee swing,physical,263.8,0.191
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Magma Totem,spell,256.3,0.186
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Fire Nova,spell,186.0,0.135
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Windfury Attack,physical,175.9,0.128
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Earth Shock,spell,114.4,0.083
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Stormstrike (weapon strike),physical,96.4,0.070
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,o3/10610,physical,84.5,0.061
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Dragonbreath Chili,spell,81.2,0.059
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Flame Shock (ticks),spell,46.0,0.033
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Lightning Bolt,spell,41.9,0.030
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Flame Shock (hit),spell,26.1,0.019
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,60,150,on,Lightning Bolt overload,spell,5.5,0.004
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Melee swing,physical,250.2,0.218
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Magma Totem,spell,178.1,0.155
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Windfury Attack,physical,165.7,0.144
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Fire Nova,spell,122.3,0.107
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,85.6,0.075
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,o3/10610,physical,79.4,0.069
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Earth Shock,spell,78.8,0.069
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Dragonbreath Chili,spell,76.7,0.067
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (ticks),spell,42.6,0.037
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Lightning Bolt,spell,42.4,0.037
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Flame Shock (hit),spell,20.3,0.018
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,120,150,on,Lightning Bolt overload,spell,5.4,0.005
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Melee swing,physical,249.0,0.243
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Windfury Attack,physical,163.1,0.159
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Magma Totem,spell,133.6,0.130
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Fire Nova,spell,90.0,0.088
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,79.9,0.078
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,o3/10610,physical,77.6,0.076
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Dragonbreath Chili,spell,74.9,0.073
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Earth Shock,spell,49.9,0.049
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Lightning Bolt,spell,43.3,0.042
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (ticks),spell,39.8,0.039
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Flame Shock (hit),spell,18.0,0.018
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis.gear.json,false,300,150,on,Lightning Bolt overload,spell,5.6,0.005

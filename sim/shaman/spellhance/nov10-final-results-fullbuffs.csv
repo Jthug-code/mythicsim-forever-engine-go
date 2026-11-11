@@ -1,0 +1,61 @@
+state,targets,build,gear,set_bonuses,duration_s,reaction_ms,haste,iterations,dps,dps_stderr,physical_dps,spell_dps,physical_share,lb_lvb_cl_casts_per_min,mh_swings_per_min,seconds_oom
+"nov10, totem off autos only",1,8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,997.0,1.2,711.2,285.8,0.713,4.83,24.42,0.0
+"nov10, totem off autos only",1,8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,987.3,0.8,700.8,286.5,0.710,4.86,24.06,0.0
+"nov10, totem off autos only",1,8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,5000,982.2,0.5,695.4,286.9,0.708,4.87,23.91,0.0
+"nov10, totem off autos only",1,8/36/7 free instants,enh_launch_1h,false,120,150,on,5000,668.4,0.7,433.6,234.7,0.649,4.44,28.06,0.0
+"nov10, totem off autos only",1,8/36/7 free instants,enh_launch_1h,false,300,150,on,5000,662.1,0.5,426.5,235.6,0.644,4.49,27.63,0.0
+"nov10, totem off autos only",1,8/36/7 free instants,enh_launch_1h,false,600,150,on,5000,661.7,0.3,425.4,236.2,0.643,4.51,27.60,0.0
+"nov10, totem off autos only",1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,948.2,1.2,629.9,318.3,0.664,4.46,24.07,0.0
+"nov10, totem off autos only",1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,940.3,0.7,621.6,318.7,0.661,4.49,23.70,0.0
+"nov10, totem off autos only",1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,5000,935.6,0.5,616.5,319.1,0.659,4.51,23.56,0.0
+"nov10, totem off autos only",1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,120,150,on,5000,686.2,0.7,414.8,271.4,0.605,4.42,27.78,0.0
+"nov10, totem off autos only",1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,300,150,on,5000,680.5,0.5,409.1,271.4,0.601,4.45,27.35,0.0
+"nov10, totem off autos only",1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,600,150,on,5000,679.7,0.3,407.8,271.9,0.600,4.48,27.31,0.0
+"nov10, totem off autos only",1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,988.9,1.2,705.4,283.5,0.713,4.83,24.42,0.0
+"nov10, totem off autos only",1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,979.0,0.8,694.9,284.1,0.710,4.86,24.05,0.0
+"nov10, totem off autos only",1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,5000,974.2,0.5,689.6,284.5,0.708,4.87,23.91,0.0
+"nov10, totem off autos only",1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,120,150,on,5000,664.9,0.7,431.2,233.7,0.649,4.44,28.06,0.0
+"nov10, totem off autos only",1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,300,150,on,5000,658.7,0.5,424.1,234.6,0.644,4.49,27.63,0.0
+"nov10, totem off autos only",1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,600,150,on,5000,658.1,0.3,422.9,235.2,0.643,4.51,27.60,0.0
+"nov10, totem off autos only",1,"25/26 MW1, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,921.6,1.2,622.9,298.7,0.676,2.57,22.81,0.0
+"nov10, totem off autos only",1,"25/26 MW1, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,928.2,0.8,626.7,301.5,0.675,2.67,22.81,0.0
+"nov10, totem off autos only",1,"25/26 MW1, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,5000,923.0,0.5,621.3,301.7,0.673,2.69,22.67,0.0
+"nov10, totem off autos only",1,"25/26 MW1, free instants",enh_launch_1h,false,120,150,on,5000,668.9,0.7,411.8,257.2,0.616,2.53,26.44,0.0
+"nov10, totem off autos only",1,"25/26 MW1, free instants",enh_launch_1h,false,300,150,on,5000,670.0,0.5,411.4,258.6,0.614,2.64,26.34,0.0
+"nov10, totem off autos only",1,"25/26 MW1, free instants",enh_launch_1h,false,600,150,on,5000,668.9,0.3,409.8,259.1,0.613,2.67,26.30,0.0
+"nov10, totem off autos only",1,8/36/7 free instants [air: ],testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,923.1,1.1,646.4,276.7,0.700,4.32,24.55,0.0
+"nov10, totem off autos only",1,8/36/7 free instants [air: ],testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,915.3,0.7,638.0,277.3,0.697,4.36,24.19,0.0
+"nov10, totem off autos only",1,8/36/7 free instants [air: ],testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,5000,911.1,0.5,633.1,278.0,0.695,4.37,24.04,0.0
+"nov10, totem off autos only",1,8/36/7 free instants [air: party],testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,1037.1,1.3,749.7,287.4,0.723,4.89,24.68,0.0
+"nov10, totem off autos only",1,8/36/7 free instants [air: party],testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,1024.1,0.8,736.8,287.3,0.719,4.91,24.31,0.0
+"nov10, totem off autos only",1,8/36/7 free instants [air: party],testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,5000,1019.6,0.6,731.7,287.9,0.718,4.91,24.16,0.0
+"nov10, totem off autos only",1,29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,5000,949.5,0.8,233.5,716.1,0.246,16.02,8.26,0.0
+"nov10, totem off autos only",1,29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,5000,933.1,0.5,230.3,702.9,0.247,15.96,8.16,2.0
+"nov10, totem off autos only",1,29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,5000,892.0,0.4,248.9,643.1,0.279,14.53,9.12,67.2
+"nov10, totem off autos only",1,29/22 AK3 bolt-chain,ele_launch,false,120,150,on,5000,651.5,0.6,77.1,574.4,0.118,20.94,11.63,0.0
+"nov10, totem off autos only",1,29/22 AK3 bolt-chain,ele_launch,false,300,150,on,5000,629.6,0.4,87.2,542.5,0.138,19.89,13.84,25.2
+"nov10, totem off autos only",1,29/22 AK3 bolt-chain,ele_launch,false,600,150,on,5000,599.2,0.3,104.3,494.9,0.174,17.71,17.83,121.3
+"nov10, totem off autos only",1,29/22 AK3 bolt-chain [air: ],testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,5000,931.5,0.8,217.2,714.4,0.233,16.05,8.32,0.0
+"nov10, totem off autos only",1,29/22 AK3 bolt-chain [air: ],testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,5000,915.3,0.5,215.0,700.3,0.235,15.95,8.24,3.5
+"nov10, totem off autos only",1,29/22 AK3 bolt-chain [air: ],testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,5000,869.5,0.4,234.5,635.0,0.270,14.35,9.33,76.3
+"nov10, totem off autos only",1,29/22 AK3 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,5000,868.9,0.9,303.5,565.4,0.349,11.50,11.74,0.0
+"nov10, totem off autos only",1,29/22 AK3 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,5000,853.3,0.6,299.7,553.7,0.351,11.54,11.63,0.0
+"nov10, totem off autos only",1,29/22 AK3 weave,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,5000,852.1,0.4,299.0,553.1,0.351,11.55,11.58,0.0
+"nov10, totem off autos only",1,29/22 AK3 weave,ele_launch,false,120,150,on,5000,656.2,0.6,132.5,523.7,0.202,14.71,22.58,0.0
+"nov10, totem off autos only",1,29/22 AK3 weave,ele_launch,false,300,150,on,5000,658.6,0.4,132.7,525.9,0.201,14.74,22.58,0.1
+"nov10, totem off autos only",1,29/22 AK3 weave,ele_launch,false,600,150,on,5000,644.1,0.3,135.7,508.4,0.211,14.28,23.46,38.8
+"nov10, totem off autos only",1,29/22 AK3 weave [air: ],testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,5000,847.1,0.8,283.8,563.2,0.335,11.58,11.83,0.0
+"nov10, totem off autos only",1,29/22 AK3 weave [air: ],testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,5000,829.7,0.5,279.2,550.5,0.336,11.61,11.69,0.0
+"nov10, totem off autos only",1,29/22 AK3 weave [air: ],testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,5000,829.2,0.4,278.9,550.3,0.336,11.61,11.65,0.0
+"nov10, totem off autos only",3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,60,150,on,5000,1311.7,2.0,780.9,530.8,0.595,5.04,26.68,0.0
+"nov10, totem off autos only",3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,1225.7,1.3,711.5,514.2,0.580,4.82,24.40,0.0
+"nov10, totem off autos only",3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,1223.0,0.8,699.8,523.3,0.572,4.85,24.04,0.1
+"nov10, totem off autos only",3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,60,150,on,5000,1269.5,1.8,690.9,578.5,0.544,4.66,26.36,0.0
+"nov10, totem off autos only",3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,1190.4,1.2,629.3,561.1,0.529,4.45,24.10,0.0
+"nov10, totem off autos only",3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,1190.2,0.8,620.1,570.1,0.521,4.49,23.71,0.0
+"nov10, totem off autos only",3,"29/22 AK3 weave Chain Lightning, Magma + Fire Nova",testdata/forever-hyb-bis-fullbuffs.gear.json,false,60,150,on,5000,1629.2,2.0,309.7,1319.4,0.190,11.61,11.93,0.0
+"nov10, totem off autos only",3,"29/22 AK3 weave Chain Lightning, Magma + Fire Nova",testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,5000,1534.7,1.3,308.5,1226.1,0.201,11.45,11.82,1.9
+"nov10, totem off autos only",3,"29/22 AK3 weave Chain Lightning, Magma + Fire Nova",testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,5000,1248.0,0.9,323.6,924.4,0.259,9.92,12.70,96.4
+"nov10, totem off autos only",3,"29/22 AK3 chain Chain Lightning, Magma + Fire Nova",testdata/forever-hyb-bis-fullbuffs.gear.json,false,60,150,on,5000,1482.2,1.6,241.3,1240.9,0.163,16.00,8.55,0.0
+"nov10, totem off autos only",3,"29/22 AK3 chain Chain Lightning, Magma + Fire Nova",testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,5000,1389.0,1.2,237.4,1151.6,0.171,15.88,8.38,1.7
+"nov10, totem off autos only",3,"29/22 AK3 chain Chain Lightning, Magma + Fire Nova",testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,5000,1160.7,0.9,270.7,890.0,0.233,13.28,10.09,95.1

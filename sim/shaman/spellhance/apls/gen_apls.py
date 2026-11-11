@@ -7,6 +7,7 @@ OUT = sys.argv[1]
 
 LB, LVB, SS, FS, ES, CL = 15208, 1326047, 17364, 29228, 10414, 10605
 SOE, GOA, SEARING = 25361, 25359, 10438
+MAGMA, FIRE_NOVA = 10587, 408345
 MAELSTROM = 408505
 WINDOW = "0.4s"
 
@@ -94,7 +95,13 @@ def cast_window(variant, sid=None, after_reaction=True):
 
 
 def build(variant, hard_casts=True, maelstrom=False, lava_burst=False, chain_lightning=False, spend_at=5,
-          flame_shock=True, earth_shock=True):
+          flame_shock=True, earth_shock=True, aoe=False, free_instants=False):
+    # free_instants: press instants whenever the GCD is free, not only when it ends before the swing. That rule
+    # protects the next hard cast's window, so a build with no hard casts gains nothing from it. The 5-stack bolt
+    # also moves ahead of Stormstrike, so stacks aren't lost at the cap.
+    # aoe: for two or more targets. Magma Totem stands in Searing Totem's place and Fire Nova goes on cooldown,
+    # after Stormstrike.
+    fire_totem = MAGMA if aoe else SEARING
 
     # Only name spells and auras the build has: the APL drops an action whose value it can't resolve.
     hard_ready = {"spellCanCast": spell(LB)}
@@ -107,11 +114,13 @@ def build(variant, hard_casts=True, maelstrom=False, lava_burst=False, chain_lig
     instant_ok = not_(cast_pending) if hard_casts else None
 
     def instant(sid, extra=None):
-        conds = [gcd_fits(sid)]
+        conds = [] if free_instants else [gcd_fits(sid)]
         if instant_ok is not None:
             conds.append(instant_ok)
         if extra is not None:
             conds.append(extra)
+        if not conds:
+            return cast(sid)
         return cast(sid, and_(*conds))
 
     priority = [{"action": {"autocastOtherCooldowns": {}}}]
@@ -130,7 +139,11 @@ def build(variant, hard_casts=True, maelstrom=False, lava_burst=False, chain_lig
         instant(GOA, cmp("OpLe", {"totemRemainingTime": {"totemType": "Air"}}, const("0s"))),
         instant(SS),
     ]
-    if maelstrom:
+    if maelstrom and free_instants:
+        priority.insert(1, instant(LB, cmp("OpGe", {"auraNumStacks": {"auraId": {"spellId": MAELSTROM}}}, const(spend_at))))
+    if aoe:
+        priority.append(instant(FIRE_NOVA))
+    if maelstrom and not free_instants:
         # Spend the charges at spend_at: 5 makes the bolt instant and free; Soulcrusher's Rage 6 stacks
         # to 10, where the bolt does +100% and casts twice.
         priority.append(instant(LB, cmp("OpGe", {"auraNumStacks": {"auraId": {"spellId": MAELSTROM}}}, const(spend_at))))
@@ -140,7 +153,7 @@ def build(variant, hard_casts=True, maelstrom=False, lava_burst=False, chain_lig
     if earth_shock:
         priority.append(instant(ES))
     priority += [
-        instant(SEARING, and_(cmp("OpLe", {"totemRemainingTime": {"totemType": "Fire"}}, const("0s")),
+        instant(fire_totem, and_(cmp("OpLe", {"totemRemainingTime": {"totemType": "Fire"}}, const("0s")),
                               cmp("OpGe", {"remainingTime": {}}, const("20s")))),
     ]
     return {
@@ -148,7 +161,7 @@ def build(variant, hard_casts=True, maelstrom=False, lava_burst=False, chain_lig
         "prepullActions": [
             {"action": {"castSpell": spell(SOE)}, "doAtValue": const("-4.5s")},
             {"action": {"castSpell": spell(GOA)}, "doAtValue": const("-3s")},
-            {"action": {"castSpell": spell(SEARING)}, "doAtValue": const("-1.5s")},
+            {"action": {"castSpell": spell(fire_totem)}, "doAtValue": const("-1.5s")},
         ],
         "priorityList": priority,
     }
@@ -167,6 +180,15 @@ for name, apl in {
     "weave_no_es": build("weave", earth_shock=False),
     "weave_no_fs": build("weave", flame_shock=False),
     "weave_no_shocks": build("weave", flame_shock=False, earth_shock=False),
+    "chain_no_es": build("chain", earth_shock=False),
+    "chain_no_fs": build("chain", flame_shock=False),
+    "chain_no_shocks": build("chain", flame_shock=False, earth_shock=False),
+    "melee_free": build("weave", hard_casts=False, maelstrom=True, free_instants=True),
+    "melee_free_aoe": build("weave", hard_casts=False, maelstrom=True, free_instants=True, aoe=True),
+    "melee_maelstrom_aoe": build("weave", hard_casts=False, maelstrom=True, aoe=True),
+    "weave_cl_aoe": build("weave", chain_lightning=True, aoe=True),
+    "chain_cl_aoe": build("chain", chain_lightning=True, aoe=True),
+    "weave_maelstrom_cl_aoe": build("weave", maelstrom=True, chain_lightning=True, aoe=True),
 }.items():
     with open(os.path.join(OUT, name + ".apl.json"), "w", newline="\n") as f:
         json.dump(apl, f, indent=2)

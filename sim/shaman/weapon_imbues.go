@@ -182,7 +182,8 @@ func (shaman *Shaman) RegisterWindfuryImbue(procMask core.ProcMask) {
 
 	swapMainHand := WindfuryImbueReplacesTotemAfterSwap && shaman.ItemSwap.IsEnabled() &&
 		shaman.swapMainHandCarries(windfuryEnchantID)
-	if mask.Matches(core.ProcMaskMeleeMH) || swapMainHand {
+	// 10 November: the imbue and the totem stack, so the imbue leaves the totem's category alone.
+	if !nov10Hotfix && (mask.Matches(core.ProcMaskMeleeMH) || swapMainHand) {
 		aura.NewExclusiveEffect(buffs.WindfuryTotemCategory, false, core.ExclusiveEffect{
 			Priority: shaman.WindfuryAPBonus * 2, // Need to be higher than Windfury Totem priority
 		})

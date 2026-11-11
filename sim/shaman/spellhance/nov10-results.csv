@@ -1,0 +1,385 @@
+state,build,gear,set_bonuses,duration_s,reaction_ms,haste,iterations,dps,dps_stderr,physical_dps,spell_dps,physical_share,lb_lvb_cl_casts_per_min,mh_swings_per_min,seconds_oom
+nov2,29/22 AK3 weave,ele_launch,false,120,150,on,5000,524.8,0.5,143.6,381.2,0.274,12.14,27.14,34.4
+nov2,29/22 AK3 weave,ele_launch,false,300,150,on,5000,436.3,0.3,165.6,270.8,0.379,8.03,34.62,152.4
+nov2,29/22 AK3 weave,ele_launch,false,600,150,on,5000,367.0,0.2,176.9,190.1,0.482,5.44,39.13,389.4
+nov2,29/22 AK3 weave,testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,942.8,0.9,351.2,591.6,0.373,11.48,11.72,0.1
+nov2,29/22 AK3 weave,testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,803.5,0.6,373.1,430.4,0.464,8.26,13.64,79.5
+nov2,29/22 AK3 weave,testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,705.3,0.4,388.8,316.6,0.551,5.84,15.10,272.3
+nov2,29/22 AK3 weave,testdata/forever-enh-bis.gear.json,false,120,150,on,5000,766.7,0.8,392.7,374.0,0.512,12.25,12.75,2.2
+nov2,29/22 AK3 weave,testdata/forever-enh-bis.gear.json,false,300,150,on,5000,719.8,0.5,447.3,272.5,0.621,8.45,15.56,84.5
+nov2,29/22 AK3 weave,testdata/forever-enh-bis.gear.json,false,600,150,on,5000,676.4,0.4,475.1,201.2,0.702,6.00,17.22,268.2
+nov2,29/22 AK3 bolt-chain,ele_launch,false,120,150,on,5000,532.5,0.5,111.1,421.4,0.209,15.87,21.14,28.5
+nov2,29/22 AK3 bolt-chain,ele_launch,false,300,150,on,5000,436.2,0.3,143.8,292.4,0.330,10.60,30.44,142.0
+nov2,29/22 AK3 bolt-chain,ele_launch,false,600,150,on,5000,365.9,0.2,161.8,204.2,0.442,7.22,36.21,375.7
+nov2,29/22 AK3 bolt-chain,testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,948.6,1.0,306.2,642.4,0.323,15.22,9.05,8.8
+nov2,29/22 AK3 bolt-chain,testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,781.6,0.6,346.5,435.1,0.443,10.25,12.20,103.1
+nov2,29/22 AK3 bolt-chain,testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,684.1,0.4,368.3,315.7,0.538,7.22,14.11,304.0
+nov2,29/22 AK3 bolt-chain,testdata/forever-enh-bis.gear.json,false,120,150,on,5000,712.1,0.8,365.7,346.4,0.514,16.84,8.76,1.0
+nov2,29/22 AK3 bolt-chain,testdata/forever-enh-bis.gear.json,false,300,150,on,5000,678.0,0.5,420.6,257.4,0.620,11.77,12.69,79.4
+nov2,29/22 AK3 bolt-chain,testdata/forever-enh-bis.gear.json,false,600,150,on,5000,647.0,0.4,454.6,192.3,0.703,8.37,15.19,260.0
+nov2,29/22 AK3 weave + CL,ele_launch,false,120,150,on,5000,471.8,0.5,157.2,314.6,0.333,9.72,31.53,50.6
+nov2,29/22 AK3 weave + CL,ele_launch,false,300,150,on,5000,397.3,0.3,174.2,223.2,0.438,6.41,37.54,179.9
+nov2,29/22 AK3 weave + CL,ele_launch,false,600,150,on,5000,337.6,0.2,182.8,154.8,0.541,4.32,41.14,428.1
+nov2,29/22 AK3 weave + CL,testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,879.4,0.9,368.6,510.8,0.419,9.57,12.94,19.5
+nov2,29/22 AK3 weave + CL,testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,737.7,0.6,390.7,347.0,0.530,6.39,14.84,124.1
+nov2,29/22 AK3 weave + CL,testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,653.0,0.4,399.7,253.3,0.612,4.49,15.95,335.8
+nov2,29/22 AK3 weave + CL,testdata/forever-enh-bis.gear.json,false,120,150,on,5000,743.1,0.9,437.0,306.1,0.588,9.22,14.96,27.6
+nov2,29/22 AK3 weave + CL,testdata/forever-enh-bis.gear.json,false,300,150,on,5000,695.5,0.6,474.7,220.8,0.683,6.42,16.97,128.6
+nov2,29/22 AK3 weave + CL,testdata/forever-enh-bis.gear.json,false,600,150,on,5000,654.9,0.4,494.7,160.3,0.755,4.45,18.29,335.4
+nov2,29/22 AK3 bolt-chain + CL,ele_launch,false,120,150,on,5000,470.1,0.5,132.3,337.7,0.281,12.55,26.97,46.5
+nov2,29/22 AK3 bolt-chain + CL,ele_launch,false,300,150,on,5000,394.1,0.3,158.7,235.4,0.403,8.27,34.54,173.2
+nov2,29/22 AK3 bolt-chain + CL,ele_launch,false,600,150,on,5000,335.6,0.2,172.3,163.3,0.513,5.59,39.09,419.4
+nov2,29/22 AK3 bolt-chain + CL,testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,865.4,1.0,337.0,528.4,0.389,11.78,11.30,30.6
+nov2,29/22 AK3 bolt-chain + CL,testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,721.9,0.6,367.6,354.3,0.509,7.93,13.72,140.2
+nov2,29/22 AK3 bolt-chain + CL,testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,641.5,0.4,382.8,258.6,0.597,5.58,15.17,356.8
+nov2,29/22 AK3 bolt-chain + CL,testdata/forever-enh-bis.gear.json,false,120,150,on,5000,694.8,0.8,409.9,284.9,0.590,13.07,11.63,23.8
+nov2,29/22 AK3 bolt-chain + CL,testdata/forever-enh-bis.gear.json,false,300,150,on,5000,657.5,0.5,452.6,204.8,0.688,8.93,14.78,124.3
+nov2,29/22 AK3 bolt-chain + CL,testdata/forever-enh-bis.gear.json,false,600,150,on,5000,626.8,0.4,477.5,149.3,0.762,6.12,16.82,330.9
+nov2,"29/22 AK3 weave, no Earth Shock",ele_launch,false,120,150,on,5000,541.6,0.5,130.4,411.2,0.241,15.14,22.49,10.7
+nov2,"29/22 AK3 weave, no Earth Shock",ele_launch,false,300,150,on,5000,442.6,0.3,156.2,286.4,0.353,10.05,31.41,115.3
+nov2,"29/22 AK3 weave, no Earth Shock",ele_launch,false,600,150,on,5000,371.7,0.2,170.6,201.1,0.459,6.84,36.88,339.3
+nov2,"29/22 AK3 weave, no Earth Shock",testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,837.9,0.8,349.9,488.0,0.418,11.47,11.71,0.0
+nov2,"29/22 AK3 weave, no Earth Shock",testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,800.1,0.6,353.2,446.8,0.442,10.41,12.26,26.3
+nov2,"29/22 AK3 weave, no Earth Shock",testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,723.7,0.4,377.8,345.9,0.522,7.57,14.03,185.6
+nov2,"29/22 AK3 weave, no Earth Shock",testdata/forever-enh-bis.gear.json,false,120,150,on,5000,745.4,0.8,412.4,332.9,0.553,12.45,12.60,0.0
+nov2,"29/22 AK3 weave, no Earth Shock",testdata/forever-enh-bis.gear.json,false,300,150,on,5000,715.8,0.6,443.8,272.0,0.620,9.74,14.58,56.2
+nov2,"29/22 AK3 weave, no Earth Shock",testdata/forever-enh-bis.gear.json,false,600,150,on,5000,682.3,0.4,474.3,207.9,0.695,7.03,16.47,223.0
+nov2,"29/22 AK3 weave, no Flame Shock",ele_launch,false,120,150,on,5000,497.5,0.5,144.7,352.8,0.291,12.03,27.36,35.3
+nov2,"29/22 AK3 weave, no Flame Shock",ele_launch,false,300,150,on,5000,413.5,0.3,166.0,247.5,0.401,7.95,34.77,154.4
+nov2,"29/22 AK3 weave, no Flame Shock",ele_launch,false,600,150,on,5000,349.6,0.2,177.0,172.6,0.506,5.39,39.23,392.4
+nov2,"29/22 AK3 weave, no Flame Shock",testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,899.6,0.9,350.9,548.7,0.390,11.48,11.72,0.2
+nov2,"29/22 AK3 weave, no Flame Shock",testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,765.7,0.6,373.8,391.9,0.488,8.18,13.69,81.6
+nov2,"29/22 AK3 weave, no Flame Shock",testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,676.8,0.4,388.8,288.0,0.574,5.78,15.14,275.7
+nov2,"29/22 AK3 weave, no Flame Shock",testdata/forever-enh-bis.gear.json,false,120,150,on,5000,739.3,0.8,394.5,344.8,0.534,12.15,12.82,2.9
+nov2,"29/22 AK3 weave, no Flame Shock",testdata/forever-enh-bis.gear.json,false,300,150,on,5000,697.0,0.5,448.7,248.3,0.644,8.36,15.63,86.5
+nov2,"29/22 AK3 weave, no Flame Shock",testdata/forever-enh-bis.gear.json,false,600,150,on,5000,659.9,0.4,476.7,183.1,0.722,5.93,17.28,271.2
+nov2,"29/22 AK3 weave, no shocks",ele_launch,false,120,150,on,5000,483.6,0.5,119.2,364.4,0.246,17.21,18.84,1.7
+nov2,"29/22 AK3 weave, no shocks",ele_launch,false,300,150,on,5000,405.6,0.3,147.0,258.6,0.362,11.74,28.47,94.3
+nov2,"29/22 AK3 weave, no shocks",ele_launch,false,600,150,on,5000,347.8,0.2,163.8,184.1,0.471,8.27,34.45,304.5
+nov2,"29/22 AK3 weave, no shocks",testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,723.7,0.8,348.2,375.4,0.481,11.47,11.69,0.0
+nov2,"29/22 AK3 weave, no shocks",testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,714.1,0.5,343.7,370.4,0.481,11.48,11.57,0.2
+nov2,"29/22 AK3 weave, no shocks",testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,677.7,0.4,361.3,316.4,0.533,9.40,12.85,98.5
+nov2,"29/22 AK3 weave, no shocks",testdata/forever-enh-bis.gear.json,false,120,150,on,5000,687.8,0.9,425.8,262.0,0.619,12.46,12.59,0.0
+nov2,"29/22 AK3 weave, no shocks",testdata/forever-enh-bis.gear.json,false,300,150,on,5000,674.5,0.5,436.5,238.0,0.647,11.11,13.61,28.2
+nov2,"29/22 AK3 weave, no shocks",testdata/forever-enh-bis.gear.json,false,600,150,on,5000,656.4,0.4,467.7,188.7,0.713,8.35,15.55,166.9
+nov2,29/22 AK3 no hard casts,ele_launch,false,120,150,on,5000,468.9,0.4,221.4,247.5,0.472,0.00,49.59,0.0
+nov2,29/22 AK3 no hard casts,ele_launch,false,300,150,on,5000,436.0,0.3,219.8,216.2,0.504,0.00,49.40,51.0
+nov2,29/22 AK3 no hard casts,ele_launch,false,600,150,on,5000,383.9,0.2,217.5,166.3,0.567,0.00,49.27,240.6
+nov2,29/22 AK3 no hard casts,testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,801.2,1.0,475.6,325.7,0.594,0.00,19.16,0.0
+nov2,29/22 AK3 no hard casts,testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,792.1,0.6,470.8,321.3,0.594,0.00,19.05,0.7
+nov2,29/22 AK3 no hard casts,testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,738.9,0.4,463.9,275.0,0.628,0.00,18.98,109.3
+nov2,29/22 AK3 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,5000,845.6,1.0,612.6,233.0,0.724,0.00,22.02,0.0
+nov2,29/22 AK3 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,5000,829.3,0.6,608.3,221.0,0.734,0.00,22.01,15.7
+nov2,29/22 AK3 no hard casts,testdata/forever-enh-bis.gear.json,false,600,150,on,5000,774.3,0.4,593.6,180.7,0.767,0.00,21.83,132.8
+nov2,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,5000,622.8,0.6,385.8,237.0,0.619,7.75,27.92,38.5
+nov2,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,5000,610.1,0.4,382.4,227.7,0.627,7.90,27.50,91.1
+nov2,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,5000,591.8,0.3,377.7,214.2,0.638,7.91,27.44,258.0
+nov2,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,120,150,on,5000,960.2,1.1,643.1,317.1,0.670,6.87,24.22,9.3
+nov2,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,300,150,on,5000,926.2,0.7,639.3,286.9,0.690,7.04,23.86,46.7
+nov2,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,600,150,on,5000,896.9,0.5,632.2,264.7,0.705,7.10,23.72,174.5
+nov2,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,5000,649.1,0.7,403.1,246.0,0.621,7.52,28.25,0.0
+nov2,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,5000,602.1,0.4,391.5,210.6,0.650,7.56,27.77,53.6
+nov2,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,5000,585.1,0.3,388.5,196.6,0.664,7.69,27.72,158.0
+nov2,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,5000,980.7,1.1,690.4,290.3,0.704,7.13,24.54,0.0
+nov2,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,5000,972.6,0.7,683.9,288.8,0.703,7.06,24.19,3.8
+nov2,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,600,150,on,5000,932.8,0.5,672.9,260.0,0.721,7.16,24.01,102.2
+nov2,8/36/7 weave,enh_launch_1h,false,120,150,on,5000,520.7,0.6,285.2,235.4,0.548,13.14,19.30,23.0
+nov2,8/36/7 weave,enh_launch_1h,false,300,150,on,5000,490.1,0.4,285.5,204.6,0.583,12.22,20.31,98.0
+nov2,8/36/7 weave,enh_launch_1h,false,600,150,on,5000,471.0,0.3,288.9,182.1,0.613,11.24,21.50,261.1
+nov2,8/36/7 weave,testdata/forever-enh-bis.gear.json,false,120,150,on,5000,848.1,1.1,499.2,348.9,0.589,14.38,15.38,0.0
+nov2,8/36/7 weave,testdata/forever-enh-bis.gear.json,false,300,150,on,5000,801.2,0.7,511.3,289.9,0.638,12.55,17.15,63.5
+nov2,8/36/7 weave,testdata/forever-enh-bis.gear.json,false,600,150,on,5000,768.9,0.5,520.7,248.2,0.677,11.23,18.43,222.2
+nov2,"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,120,150,on,5000,639.0,0.7,398.4,240.6,0.624,7.48,28.25,0.0
+nov2,"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,300,150,on,5000,629.5,0.4,391.5,238.0,0.622,7.41,27.82,0.4
+nov2,"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,600,150,on,5000,618.8,0.3,388.5,230.3,0.628,7.48,27.76,39.6
+nov2,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,120,150,on,5000,970.1,1.0,683.5,286.6,0.705,7.12,24.55,0.0
+nov2,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,300,150,on,5000,961.2,0.7,675.9,285.3,0.703,7.05,24.19,0.0
+nov2,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,600,150,on,5000,955.8,0.5,669.8,286.0,0.701,7.05,24.04,0.0
+nov10,29/22 AK3 weave,ele_launch,false,120,150,on,5000,539.3,0.6,115.0,424.3,0.213,12.26,27.27,20.8
+nov10,29/22 AK3 weave,ele_launch,false,300,150,on,5000,439.5,0.3,131.0,308.5,0.298,8.52,33.90,128.7
+nov10,29/22 AK3 weave,ele_launch,false,600,150,on,5000,369.8,0.2,140.0,229.9,0.378,6.07,38.11,351.0
+nov10,29/22 AK3 weave,testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,781.2,0.8,251.2,530.0,0.322,11.44,11.65,0.0
+nov10,29/22 AK3 weave,testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,714.7,0.5,259.1,455.6,0.363,9.69,12.62,47.6
+nov10,29/22 AK3 weave,testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,641.2,0.4,273.8,367.5,0.427,7.44,14.00,215.8
+nov10,29/22 AK3 weave,testdata/forever-enh-bis.gear.json,false,120,150,on,5000,693.3,0.8,324.8,368.5,0.468,12.35,12.63,0.8
+nov10,29/22 AK3 weave,testdata/forever-enh-bis.gear.json,false,300,150,on,5000,640.9,0.5,355.9,285.0,0.555,9.06,15.05,77.4
+nov10,29/22 AK3 weave,testdata/forever-enh-bis.gear.json,false,600,150,on,5000,597.4,0.4,372.7,224.7,0.624,6.85,16.53,255.4
+nov10,29/22 AK3 bolt-chain,ele_launch,false,120,150,on,5000,516.1,0.5,87.8,428.3,0.170,16.07,20.72,28.1
+nov10,29/22 AK3 bolt-chain,ele_launch,false,300,150,on,5000,427.6,0.3,113.7,313.9,0.266,11.03,29.64,137.6
+nov10,29/22 AK3 bolt-chain,ele_launch,false,600,150,on,5000,361.3,0.2,128.3,233.0,0.355,7.76,35.23,361.0
+nov10,29/22 AK3 bolt-chain,testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,864.3,0.8,200.8,663.5,0.232,15.87,8.53,2.8
+nov10,29/22 AK3 bolt-chain,testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,716.2,0.5,235.2,481.0,0.328,11.39,11.36,88.6
+nov10,29/22 AK3 bolt-chain,testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,628.0,0.4,254.6,373.4,0.405,8.59,13.12,275.2
+nov10,29/22 AK3 bolt-chain,testdata/forever-enh-bis.gear.json,false,120,150,on,5000,649.4,0.7,240.8,408.6,0.371,16.10,9.23,6.1
+nov10,29/22 AK3 bolt-chain,testdata/forever-enh-bis.gear.json,false,300,150,on,5000,604.9,0.5,300.8,304.2,0.497,11.53,12.80,90.8
+nov10,29/22 AK3 bolt-chain,testdata/forever-enh-bis.gear.json,false,600,150,on,5000,569.0,0.4,333.7,235.2,0.587,8.59,14.95,278.0
+nov10,29/22 AK3 weave + CL,ele_launch,false,120,150,on,5000,458.9,0.5,127.9,331.0,0.279,9.41,32.37,43.9
+nov10,29/22 AK3 weave + CL,ele_launch,false,300,150,on,5000,387.8,0.3,140.0,247.8,0.361,6.63,37.27,165.2
+nov10,29/22 AK3 weave + CL,ele_launch,false,600,150,on,5000,333.7,0.2,146.0,187.7,0.437,4.77,40.40,400.5
+nov10,29/22 AK3 weave + CL,testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,781.2,0.9,253.7,527.5,0.325,10.81,12.02,7.9
+nov10,29/22 AK3 weave + CL,testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,660.0,0.5,272.8,387.3,0.413,7.76,13.85,101.4
+nov10,29/22 AK3 weave + CL,testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,588.6,0.4,281.3,307.3,0.478,5.95,14.92,296.4
+nov10,29/22 AK3 weave + CL,testdata/forever-enh-bis.gear.json,false,120,150,on,5000,668.8,0.8,348.5,320.3,0.521,9.79,14.51,25.6
+nov10,29/22 AK3 weave + CL,testdata/forever-enh-bis.gear.json,false,300,150,on,5000,615.6,0.5,372.5,243.1,0.605,7.18,16.35,123.1
+nov10,29/22 AK3 weave + CL,testdata/forever-enh-bis.gear.json,false,600,150,on,5000,573.4,0.4,383.7,189.7,0.669,5.42,17.51,324.9
+nov10,29/22 AK3 bolt-chain + CL,ele_launch,false,120,150,on,5000,457.4,0.5,104.3,353.2,0.228,12.93,26.26,45.0
+nov10,29/22 AK3 bolt-chain + CL,ele_launch,false,300,150,on,5000,385.5,0.3,125.4,260.1,0.325,8.81,33.54,166.4
+nov10,29/22 AK3 bolt-chain + CL,ele_launch,false,600,150,on,5000,331.7,0.2,136.2,195.5,0.411,6.22,37.92,402.2
+nov10,29/22 AK3 bolt-chain + CL,testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,783.0,0.9,225.5,557.5,0.288,12.94,10.46,24.3
+nov10,29/22 AK3 bolt-chain + CL,testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,655.0,0.5,253.4,401.7,0.387,9.23,12.78,126.6
+nov10,29/22 AK3 bolt-chain + CL,testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,582.7,0.4,266.6,316.1,0.457,7.04,14.14,329.1
+nov10,29/22 AK3 bolt-chain + CL,testdata/forever-enh-bis.gear.json,false,120,150,on,5000,618.9,0.8,285.5,333.4,0.461,12.66,11.87,29.4
+nov10,29/22 AK3 bolt-chain + CL,testdata/forever-enh-bis.gear.json,false,300,150,on,5000,579.5,0.5,330.1,249.4,0.570,9.14,14.55,131.8
+nov10,29/22 AK3 bolt-chain + CL,testdata/forever-enh-bis.gear.json,false,600,150,on,5000,547.6,0.3,354.2,193.4,0.647,6.78,16.25,339.1
+nov10,"29/22 AK3 weave, no Earth Shock",ele_launch,false,120,150,on,5000,524.0,0.5,98.5,425.5,0.188,15.50,22.08,2.9
+nov10,"29/22 AK3 weave, no Earth Shock",ele_launch,false,300,150,on,5000,434.4,0.3,120.6,313.8,0.278,10.74,30.36,93.3
+nov10,"29/22 AK3 weave, no Earth Shock",ele_launch,false,600,150,on,5000,370.3,0.2,133.3,237.0,0.360,7.63,35.61,297.2
+nov10,"29/22 AK3 weave, no Earth Shock",testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,720.9,0.8,251.7,469.2,0.349,11.44,11.63,0.0
+nov10,"29/22 AK3 weave, no Earth Shock",testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,703.8,0.5,249.7,454.1,0.355,11.18,11.67,7.0
+nov10,"29/22 AK3 weave, no Earth Shock",testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,648.1,0.4,264.9,383.2,0.409,8.92,13.06,132.9
+nov10,"29/22 AK3 weave, no Earth Shock",testdata/forever-enh-bis.gear.json,false,120,150,on,5000,638.1,0.8,321.5,316.6,0.504,12.43,12.56,0.0
+nov10,"29/22 AK3 weave, no Earth Shock",testdata/forever-enh-bis.gear.json,false,300,150,on,5000,617.5,0.5,337.2,280.2,0.546,10.60,13.90,41.0
+nov10,"29/22 AK3 weave, no Earth Shock",testdata/forever-enh-bis.gear.json,false,600,150,on,5000,588.5,0.4,359.6,228.9,0.611,8.15,15.58,193.5
+nov10,"29/22 AK3 weave, no Flame Shock",ele_launch,false,120,150,on,5000,506.0,0.6,115.8,390.2,0.229,12.10,27.55,21.8
+nov10,"29/22 AK3 weave, no Flame Shock",ele_launch,false,300,150,on,5000,412.6,0.3,131.6,281.0,0.319,8.47,34.00,129.5
+nov10,"29/22 AK3 weave, no Flame Shock",ele_launch,false,600,150,on,5000,348.4,0.2,139.7,208.7,0.401,6.12,38.02,350.0
+nov10,"29/22 AK3 weave, no Flame Shock",testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,740.1,0.8,250.9,489.2,0.339,11.45,11.65,0.0
+nov10,"29/22 AK3 weave, no Flame Shock",testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,673.7,0.5,259.4,414.3,0.385,9.67,12.63,49.6
+nov10,"29/22 AK3 weave, no Flame Shock",testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,606.0,0.4,273.6,332.4,0.452,7.46,13.98,219.5
+nov10,"29/22 AK3 weave, no Flame Shock",testdata/forever-enh-bis.gear.json,false,120,150,on,5000,663.6,0.8,322.1,341.5,0.485,12.35,12.62,1.3
+nov10,"29/22 AK3 weave, no Flame Shock",testdata/forever-enh-bis.gear.json,false,300,150,on,5000,616.5,0.5,355.2,261.3,0.576,9.04,15.06,79.1
+nov10,"29/22 AK3 weave, no Flame Shock",testdata/forever-enh-bis.gear.json,false,600,150,on,5000,577.5,0.4,371.7,205.8,0.644,6.86,16.52,258.3
+nov10,"29/22 AK3 weave, no shocks",ele_launch,false,120,150,on,5000,448.8,0.5,97.5,351.3,0.217,15.96,21.57,0.0
+nov10,"29/22 AK3 weave, no shocks",ele_launch,false,300,150,on,5000,391.6,0.3,114.1,277.5,0.291,12.27,27.91,62.4
+nov10,"29/22 AK3 weave, no shocks",ele_launch,false,600,150,on,5000,343.4,0.2,127.5,215.8,0.371,9.25,33.06,222.5
+nov10,"29/22 AK3 weave, no shocks",testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,604.6,0.8,249.1,355.4,0.412,11.42,11.62,0.0
+nov10,"29/22 AK3 weave, no shocks",testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,595.1,0.5,245.2,349.8,0.412,11.41,11.49,0.0
+nov10,"29/22 AK3 weave, no shocks",testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,587.0,0.3,249.7,337.3,0.425,10.82,11.83,31.9
+nov10,"29/22 AK3 weave, no shocks",testdata/forever-enh-bis.gear.json,false,120,150,on,5000,570.5,0.8,321.4,249.0,0.563,12.42,12.56,0.0
+nov10,"29/22 AK3 weave, no shocks",testdata/forever-enh-bis.gear.json,false,300,150,on,5000,566.4,0.5,323.7,242.6,0.572,11.97,12.88,10.6
+nov10,"29/22 AK3 weave, no shocks",testdata/forever-enh-bis.gear.json,false,600,150,on,5000,549.7,0.4,344.2,205.4,0.626,9.70,14.47,122.4
+nov10,29/22 AK3 no hard casts,ele_launch,false,120,150,on,5000,423.5,0.4,179.6,243.9,0.424,0.00,49.45,0.0
+nov10,29/22 AK3 no hard casts,ele_launch,false,300,150,on,5000,415.7,0.2,178.6,237.1,0.430,0.00,49.33,8.1
+nov10,29/22 AK3 no hard casts,ele_launch,false,600,150,on,5000,375.7,0.2,176.6,199.1,0.470,0.00,49.20,153.8
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,678.4,0.8,358.4,320.1,0.528,0.00,19.08,0.0
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,670.4,0.5,355.1,315.2,0.530,0.00,18.96,0.0
+nov10,29/22 AK3 no hard casts,testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,661.6,0.4,352.9,308.7,0.533,0.00,18.92,20.6
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,5000,686.1,0.9,484.2,202.0,0.706,0.00,21.91,0.0
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,5000,686.4,0.5,482.9,203.5,0.704,0.00,21.91,0.0
+nov10,29/22 AK3 no hard casts,testdata/forever-enh-bis.gear.json,false,600,150,on,5000,678.4,0.4,477.2,201.2,0.703,0.00,21.76,13.5
+nov10,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,5000,529.2,0.6,323.0,206.2,0.610,3.81,27.79,33.3
+nov10,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,5000,519.0,0.4,318.3,200.7,0.613,3.89,27.37,72.2
+nov10,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,5000,500.7,0.3,315.7,185.0,0.631,3.91,27.31,215.0
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,120,150,on,5000,802.1,1.0,512.8,289.3,0.639,3.90,24.11,5.5
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,300,150,on,5000,764.3,0.6,505.3,259.0,0.661,3.94,23.73,40.3
+nov10,Enh preset 19/32/0,testdata/forever-enh-bis.gear.json,false,600,150,on,5000,740.9,0.4,499.5,241.4,0.674,3.98,23.58,140.4
+nov10,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,5000,518.3,0.6,331.9,186.4,0.640,3.85,28.04,0.0
+nov10,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,5000,507.5,0.4,326.3,181.2,0.643,3.89,27.61,11.3
+nov10,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,5000,491.6,0.3,323.8,167.9,0.659,3.92,27.54,90.5
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,120,150,on,5000,806.1,1.0,571.3,234.8,0.709,4.25,24.41,0.0
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,300,150,on,5000,795.0,0.6,562.2,232.8,0.707,4.28,24.04,0.0
+nov10,8/36/7 no hard casts,testdata/forever-enh-bis.gear.json,false,600,150,on,5000,781.4,0.4,554.9,226.5,0.710,4.30,23.88,41.7
+nov10,8/36/7 weave,enh_launch_1h,false,120,150,on,5000,434.2,0.5,231.8,202.4,0.534,10.73,18.21,29.9
+nov10,8/36/7 weave,enh_launch_1h,false,300,150,on,5000,415.5,0.3,239.0,176.5,0.575,9.67,19.55,112.8
+nov10,8/36/7 weave,enh_launch_1h,false,600,150,on,5000,398.0,0.2,246.4,151.6,0.619,8.49,20.98,293.2
+nov10,8/36/7 weave,testdata/forever-enh-bis.gear.json,false,120,150,on,5000,693.2,0.9,375.4,317.8,0.542,13.04,13.92,0.0
+nov10,8/36/7 weave,testdata/forever-enh-bis.gear.json,false,300,150,on,5000,660.2,0.6,401.2,259.0,0.608,10.84,16.17,70.5
+nov10,8/36/7 weave,testdata/forever-enh-bis.gear.json,false,600,150,on,5000,633.2,0.4,416.7,216.5,0.658,9.31,17.66,238.5
+nov10,"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,120,150,on,5000,515.9,0.6,330.4,185.5,0.640,3.85,28.05,0.0
+nov10,"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,300,150,on,5000,509.0,0.4,325.7,183.2,0.640,3.87,27.62,0.0
+nov10,"8/32/11 Water Shield, no hard casts",enh_launch_1h,false,600,150,on,5000,509.8,0.3,325.0,184.8,0.638,3.92,27.58,0.0
+nov10,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,120,150,on,5000,800.1,1.0,567.2,232.9,0.709,4.24,24.40,0.0
+nov10,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,300,150,on,5000,790.1,0.6,559.1,231.0,0.708,4.28,24.04,0.0
+nov10,"8/32/11 Water Shield, no hard casts",testdata/forever-enh-bis.gear.json,false,600,150,on,5000,786.4,0.4,554.0,232.4,0.704,4.29,23.90,0.0
+nov10,29/22 AK3 weave [air: own],ele_launch,false,120,150,on,5000,559.8,0.6,132.5,427.2,0.237,12.39,26.82,20.0
+nov10,29/22 AK3 weave [air: own],ele_launch,false,300,150,on,5000,460.1,0.3,150.5,309.6,0.327,8.60,33.37,127.2
+nov10,29/22 AK3 weave [air: own],ele_launch,false,600,150,on,5000,389.6,0.2,158.9,230.7,0.408,6.13,37.58,348.1
+nov10,29/22 AK3 weave [air: own],testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,828.5,0.9,293.5,535.0,0.354,11.37,11.56,0.0
+nov10,29/22 AK3 weave [air: own],testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,762.1,0.6,303.0,459.1,0.398,9.59,12.53,48.2
+nov10,29/22 AK3 weave [air: own],testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,690.1,0.4,318.8,371.3,0.462,7.37,13.89,215.0
+nov10,29/22 AK3 weave [air: own],testdata/forever-enh-bis.gear.json,false,120,150,on,5000,750.1,1.0,380.7,369.4,0.508,12.33,12.57,0.5
+nov10,29/22 AK3 weave [air: own],testdata/forever-enh-bis.gear.json,false,300,150,on,5000,701.3,0.6,413.8,287.5,0.590,9.10,14.92,76.4
+nov10,29/22 AK3 weave [air: own],testdata/forever-enh-bis.gear.json,false,600,150,on,5000,657.3,0.4,429.7,227.6,0.654,6.90,16.40,252.8
+nov10,29/22 AK3 bolt-chain [air: own],ele_launch,false,120,150,on,5000,531.5,0.6,100.5,431.0,0.189,16.27,20.20,27.1
+nov10,29/22 AK3 bolt-chain [air: own],ele_launch,false,300,150,on,5000,445.8,0.3,130.9,314.8,0.294,11.06,29.22,137.1
+nov10,29/22 AK3 bolt-chain [air: own],ele_launch,false,600,150,on,5000,379.4,0.2,145.5,233.8,0.384,7.80,34.75,359.5
+nov10,29/22 AK3 bolt-chain [air: own],testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,904.2,0.9,237.5,666.7,0.263,15.92,8.48,2.2
+nov10,29/22 AK3 bolt-chain [air: own],testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,759.3,0.6,275.5,483.7,0.363,11.41,11.27,87.3
+nov10,29/22 AK3 bolt-chain [air: own],testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,670.5,0.4,293.6,376.9,0.438,8.60,13.02,272.6
+nov10,29/22 AK3 bolt-chain [air: own],testdata/forever-enh-bis.gear.json,false,120,150,on,5000,693.4,0.8,281.9,411.5,0.407,16.17,9.17,5.6
+nov10,29/22 AK3 bolt-chain [air: own],testdata/forever-enh-bis.gear.json,false,300,150,on,5000,657.2,0.6,351.2,305.9,0.534,11.55,12.74,90.7
+nov10,29/22 AK3 bolt-chain [air: own],testdata/forever-enh-bis.gear.json,false,600,150,on,5000,621.0,0.4,383.4,237.6,0.617,8.62,14.86,276.9
+nov10,29/22 AK3 weave + CL [air: own],ele_launch,false,120,150,on,5000,480.2,0.5,147.5,332.7,0.307,9.46,31.92,43.0
+nov10,29/22 AK3 weave + CL [air: own],ele_launch,false,300,150,on,5000,409.5,0.3,161.1,248.4,0.393,6.63,36.78,164.2
+nov10,29/22 AK3 weave + CL [air: own],ele_launch,false,600,150,on,5000,354.7,0.2,165.9,188.8,0.468,4.79,39.88,398.5
+nov10,29/22 AK3 weave + CL [air: own],testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,828.8,1.0,296.2,532.6,0.357,10.77,11.90,7.4
+nov10,29/22 AK3 weave + CL [air: own],testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,708.5,0.6,318.2,390.2,0.449,7.69,13.73,100.9
+nov10,29/22 AK3 weave + CL [air: own],testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,634.0,0.4,323.7,310.3,0.511,5.90,14.80,294.7
+nov10,29/22 AK3 weave + CL [air: own],testdata/forever-enh-bis.gear.json,false,120,150,on,5000,732.2,1.0,408.4,323.7,0.558,9.84,14.39,24.5
+nov10,29/22 AK3 weave + CL [air: own],testdata/forever-enh-bis.gear.json,false,300,150,on,5000,680.6,0.6,435.9,244.7,0.640,7.17,16.30,120.9
+nov10,29/22 AK3 weave + CL [air: own],testdata/forever-enh-bis.gear.json,false,600,150,on,5000,633.3,0.4,441.4,191.8,0.697,5.44,17.43,321.6
+nov10,29/22 AK3 bolt-chain + CL [air: own],ele_launch,false,120,150,on,5000,475.3,0.5,119.4,355.9,0.251,13.07,25.73,44.2
+nov10,29/22 AK3 bolt-chain + CL [air: own],ele_launch,false,300,150,on,5000,404.9,0.3,144.1,260.8,0.356,8.83,33.04,165.8
+nov10,29/22 AK3 bolt-chain + CL [air: own],ele_launch,false,600,150,on,5000,350.7,0.2,154.8,195.9,0.441,6.24,37.42,400.8
+nov10,29/22 AK3 bolt-chain + CL [air: own],testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,824.4,1.0,265.0,559.5,0.321,12.98,10.36,23.8
+nov10,29/22 AK3 bolt-chain + CL [air: own],testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,698.6,0.6,295.8,402.8,0.423,9.20,12.68,126.0
+nov10,29/22 AK3 bolt-chain + CL [air: own],testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,625.4,0.4,307.5,317.8,0.492,7.02,14.03,327.6
+nov10,29/22 AK3 bolt-chain + CL [air: own],testdata/forever-enh-bis.gear.json,false,120,150,on,5000,670.6,0.9,333.5,337.1,0.497,12.75,11.76,28.7
+nov10,29/22 AK3 bolt-chain + CL [air: own],testdata/forever-enh-bis.gear.json,false,300,150,on,5000,636.2,0.6,383.9,252.3,0.603,9.18,14.44,131.0
+nov10,29/22 AK3 bolt-chain + CL [air: own],testdata/forever-enh-bis.gear.json,false,600,150,on,5000,602.3,0.4,406.2,196.1,0.674,6.84,16.13,337.1
+nov10,"29/22 AK3 weave, no Earth Shock [air: own]",ele_launch,false,120,150,on,5000,540.3,0.5,115.2,425.1,0.213,15.42,22.02,2.2
+nov10,"29/22 AK3 weave, no Earth Shock [air: own]",ele_launch,false,300,150,on,5000,452.9,0.3,139.3,313.6,0.308,10.71,30.02,92.1
+nov10,"29/22 AK3 weave, no Earth Shock [air: own]",ele_launch,false,600,150,on,5000,389.9,0.2,152.1,237.8,0.390,7.67,35.13,293.6
+nov10,"29/22 AK3 weave, no Earth Shock [air: own]",testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,767.5,0.9,295.0,472.4,0.384,11.36,11.55,0.0
+nov10,"29/22 AK3 weave, no Earth Shock [air: own]",testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,749.4,0.6,292.8,456.6,0.391,11.11,11.57,6.4
+nov10,"29/22 AK3 weave, no Earth Shock [air: own]",testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,696.1,0.4,309.5,386.6,0.445,8.90,12.91,129.2
+nov10,"29/22 AK3 weave, no Earth Shock [air: own]",testdata/forever-enh-bis.gear.json,false,120,150,on,5000,695.0,0.9,376.3,318.7,0.541,12.38,12.52,0.0
+nov10,"29/22 AK3 weave, no Earth Shock [air: own]",testdata/forever-enh-bis.gear.json,false,300,150,on,5000,676.5,0.6,394.4,282.1,0.583,10.56,13.83,41.1
+nov10,"29/22 AK3 weave, no Earth Shock [air: own]",testdata/forever-enh-bis.gear.json,false,600,150,on,5000,651.0,0.4,418.8,232.3,0.643,8.19,15.46,190.4
+nov10,"29/22 AK3 weave, no Flame Shock [air: own]",ele_launch,false,120,150,on,5000,525.5,0.6,133.3,392.2,0.254,12.18,27.19,20.9
+nov10,"29/22 AK3 weave, no Flame Shock [air: own]",ele_launch,false,300,150,on,5000,432.8,0.3,151.8,281.0,0.351,8.46,33.63,128.5
+nov10,"29/22 AK3 weave, no Flame Shock [air: own]",ele_launch,false,600,150,on,5000,368.3,0.2,159.0,209.3,0.432,6.13,37.59,348.1
+nov10,"29/22 AK3 weave, no Flame Shock [air: own]",testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,787.2,0.9,293.1,494.0,0.372,11.37,11.55,0.0
+nov10,"29/22 AK3 weave, no Flame Shock [air: own]",testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,720.0,0.6,303.4,416.6,0.421,9.54,12.57,50.1
+nov10,"29/22 AK3 weave, no Flame Shock [air: own]",testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,654.4,0.4,318.3,336.1,0.486,7.39,13.87,218.0
+nov10,"29/22 AK3 weave, no Flame Shock [air: own]",testdata/forever-enh-bis.gear.json,false,120,150,on,5000,721.8,1.0,380.0,341.9,0.526,12.31,12.59,1.0
+nov10,"29/22 AK3 weave, no Flame Shock [air: own]",testdata/forever-enh-bis.gear.json,false,300,150,on,5000,677.8,0.6,414.8,263.0,0.612,9.04,14.96,78.2
+nov10,"29/22 AK3 weave, no Flame Shock [air: own]",testdata/forever-enh-bis.gear.json,false,600,150,on,5000,636.9,0.4,428.8,208.2,0.673,6.88,16.41,255.8
+nov10,"29/22 AK3 weave, no shocks [air: own]",ele_launch,false,120,150,on,5000,462.5,0.5,115.0,347.5,0.249,15.71,21.81,0.0
+nov10,"29/22 AK3 weave, no shocks [air: own]",ele_launch,false,300,150,on,5000,409.0,0.3,132.6,276.5,0.324,12.19,27.69,60.4
+nov10,"29/22 AK3 weave, no shocks [air: own]",ele_launch,false,600,150,on,5000,363.8,0.2,146.9,216.9,0.404,9.26,32.59,217.5
+nov10,"29/22 AK3 weave, no shocks [air: own]",testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,652.3,0.9,293.9,358.4,0.451,11.35,11.53,0.0
+nov10,"29/22 AK3 weave, no shocks [air: own]",testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,641.6,0.5,289.6,352.0,0.451,11.32,11.41,0.0
+nov10,"29/22 AK3 weave, no shocks [air: own]",testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,633.9,0.4,293.3,340.5,0.463,10.81,11.69,27.8
+nov10,"29/22 AK3 weave, no shocks [air: own]",testdata/forever-enh-bis.gear.json,false,120,150,on,5000,625.9,0.9,375.3,250.6,0.600,12.37,12.52,0.0
+nov10,"29/22 AK3 weave, no shocks [air: own]",testdata/forever-enh-bis.gear.json,false,300,150,on,5000,621.6,0.6,377.3,244.3,0.607,11.97,12.78,9.4
+nov10,"29/22 AK3 weave, no shocks [air: own]",testdata/forever-enh-bis.gear.json,false,600,150,on,5000,608.5,0.4,400.3,208.2,0.658,9.76,14.33,117.9
+nov10,29/22 AK3 no hard casts [air: own],ele_launch,false,120,150,on,5000,451.0,0.4,206.7,244.3,0.458,0.00,48.76,0.0
+nov10,29/22 AK3 no hard casts [air: own],ele_launch,false,300,150,on,5000,442.6,0.3,205.3,237.3,0.464,0.00,48.63,7.8
+nov10,29/22 AK3 no hard casts [air: own],ele_launch,false,600,150,on,5000,403.1,0.2,203.0,200.1,0.504,0.00,48.49,150.4
+nov10,29/22 AK3 no hard casts [air: own],testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,736.5,0.9,414.4,322.1,0.563,0.00,18.89,0.0
+nov10,29/22 AK3 no hard casts [air: own],testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,727.4,0.6,411.1,316.4,0.565,0.00,18.78,0.0
+nov10,29/22 AK3 no hard casts [air: own],testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,720.7,0.4,409.0,311.7,0.567,0.00,18.73,15.2
+nov10,29/22 AK3 no hard casts [air: own],testdata/forever-enh-bis.gear.json,false,120,150,on,5000,763.1,1.0,558.7,204.4,0.732,0.00,21.79,0.0
+nov10,29/22 AK3 no hard casts [air: own],testdata/forever-enh-bis.gear.json,false,300,150,on,5000,763.8,0.7,558.0,205.9,0.730,0.00,21.80,0.0
+nov10,29/22 AK3 no hard casts [air: own],testdata/forever-enh-bis.gear.json,false,600,150,on,5000,756.7,0.5,553.2,203.6,0.731,0.00,21.66,12.4
+nov10,Enh preset 19/32/0 [air: own],enh_launch_1h,false,120,150,on,5000,597.5,0.7,382.5,214.9,0.640,4.51,27.59,32.2
+nov10,Enh preset 19/32/0 [air: own],enh_launch_1h,false,300,150,on,5000,584.1,0.4,375.6,208.5,0.643,4.55,27.15,71.8
+nov10,Enh preset 19/32/0 [air: own],enh_launch_1h,false,600,150,on,5000,566.4,0.3,372.8,193.7,0.658,4.57,27.10,211.9
+nov10,Enh preset 19/32/0 [air: own],testdata/forever-enh-bis.gear.json,false,120,150,on,5000,894.7,1.1,595.7,299.0,0.666,4.55,23.92,4.4
+nov10,Enh preset 19/32/0 [air: own],testdata/forever-enh-bis.gear.json,false,300,150,on,5000,858.1,0.7,589.7,268.4,0.687,4.59,23.54,39.5
+nov10,Enh preset 19/32/0 [air: own],testdata/forever-enh-bis.gear.json,false,600,150,on,5000,832.5,0.5,580.4,252.0,0.697,4.61,23.37,135.1
+nov10,8/36/7 no hard casts [air: own],enh_launch_1h,false,120,150,on,5000,587.3,0.7,391.6,195.7,0.667,4.55,27.89,0.0
+nov10,8/36/7 no hard casts [air: own],enh_launch_1h,false,300,150,on,5000,574.8,0.5,384.2,190.6,0.668,4.58,27.46,11.1
+nov10,8/36/7 no hard casts [air: own],enh_launch_1h,false,600,150,on,5000,558.2,0.3,380.9,177.3,0.682,4.58,27.39,89.1
+nov10,8/36/7 no hard casts [air: own],testdata/forever-enh-bis.gear.json,false,120,150,on,5000,923.1,1.2,675.3,247.8,0.732,5.00,24.31,0.0
+nov10,8/36/7 no hard casts [air: own],testdata/forever-enh-bis.gear.json,false,300,150,on,5000,909.8,0.8,664.0,245.8,0.730,5.01,23.94,0.0
+nov10,8/36/7 no hard casts [air: own],testdata/forever-enh-bis.gear.json,false,600,150,on,5000,895.0,0.5,654.9,240.1,0.732,5.02,23.77,37.7
+nov10,8/36/7 weave [air: own],enh_launch_1h,false,120,150,on,5000,488.0,0.6,276.0,212.0,0.566,11.26,18.16,28.0
+nov10,8/36/7 weave [air: own],enh_launch_1h,false,300,150,on,5000,468.1,0.4,283.9,184.2,0.606,10.19,19.50,109.7
+nov10,8/36/7 weave [air: own],enh_launch_1h,false,600,150,on,5000,447.5,0.3,288.1,159.4,0.644,9.00,20.88,285.9
+nov10,8/36/7 weave [air: own],testdata/forever-enh-bis.gear.json,false,120,150,on,5000,778.4,1.1,452.5,325.9,0.581,13.35,14.20,0.0
+nov10,8/36/7 weave [air: own],testdata/forever-enh-bis.gear.json,false,300,150,on,5000,747.0,0.7,477.4,269.5,0.639,11.33,16.23,66.9
+nov10,8/36/7 weave [air: own],testdata/forever-enh-bis.gear.json,false,600,150,on,5000,720.1,0.5,491.9,228.2,0.683,9.88,17.63,229.2
+nov10,"8/32/11 Water Shield, no hard casts [air: own]",enh_launch_1h,false,120,150,on,5000,583.8,0.7,389.2,194.6,0.667,4.53,27.89,0.0
+nov10,"8/32/11 Water Shield, no hard casts [air: own]",enh_launch_1h,false,300,150,on,5000,575.7,0.4,383.5,192.3,0.666,4.53,27.47,0.0
+nov10,"8/32/11 Water Shield, no hard casts [air: own]",enh_launch_1h,false,600,150,on,5000,576.6,0.3,383.0,193.7,0.664,4.58,27.43,0.0
+nov10,"8/32/11 Water Shield, no hard casts [air: own]",testdata/forever-enh-bis.gear.json,false,120,150,on,5000,913.2,1.2,668.0,245.3,0.731,4.99,24.28,0.0
+nov10,"8/32/11 Water Shield, no hard casts [air: own]",testdata/forever-enh-bis.gear.json,false,300,150,on,5000,901.2,0.8,657.7,243.5,0.730,5.00,23.92,0.0
+nov10,"8/32/11 Water Shield, no hard casts [air: own]",testdata/forever-enh-bis.gear.json,false,600,150,on,5000,897.0,0.5,652.2,244.8,0.727,5.01,23.78,0.0
+nov10,29/22 AK3 weave [air: party],ele_launch,false,120,150,on,5000,564.9,0.6,140.3,424.6,0.248,12.27,27.41,20.9
+nov10,29/22 AK3 weave [air: party],ele_launch,false,300,150,on,5000,469.1,0.3,160.4,308.7,0.342,8.53,34.11,129.0
+nov10,29/22 AK3 weave [air: party],ele_launch,false,600,150,on,5000,401.7,0.2,171.6,230.1,0.427,6.08,38.37,351.4
+nov10,29/22 AK3 weave [air: party],testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,840.5,0.9,307.6,532.9,0.366,11.46,11.67,0.0
+nov10,29/22 AK3 weave [air: party],testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,775.8,0.6,317.6,458.2,0.409,9.69,12.66,48.0
+nov10,29/22 AK3 weave [air: party],testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,706.7,0.4,336.4,370.3,0.476,7.43,14.07,216.3
+nov10,29/22 AK3 weave [air: party],testdata/forever-enh-bis.gear.json,false,120,150,on,5000,766.7,1.0,396.4,370.3,0.517,12.34,12.63,0.8
+nov10,29/22 AK3 weave [air: party],testdata/forever-enh-bis.gear.json,false,300,150,on,5000,721.3,0.6,434.3,286.9,0.602,9.07,15.08,77.5
+nov10,29/22 AK3 weave [air: party],testdata/forever-enh-bis.gear.json,false,600,150,on,5000,681.5,0.4,455.1,226.4,0.668,6.85,16.58,255.9
+nov10,29/22 AK3 bolt-chain [air: party],ele_launch,false,120,150,on,5000,536.5,0.5,107.4,429.1,0.200,16.08,20.82,28.2
+nov10,29/22 AK3 bolt-chain [air: party],ele_launch,false,300,150,on,5000,454.1,0.3,139.7,314.4,0.308,11.04,29.82,137.7
+nov10,29/22 AK3 bolt-chain [air: party],ele_launch,false,600,150,on,5000,390.4,0.2,157.4,233.0,0.403,7.76,35.48,361.5
+nov10,29/22 AK3 bolt-chain [air: party],testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,913.6,0.9,245.4,668.2,0.269,15.94,8.59,2.8
+nov10,29/22 AK3 bolt-chain [air: party],testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,772.9,0.6,287.9,485.0,0.372,11.43,11.43,88.9
+nov10,29/22 AK3 bolt-chain [air: party],testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,688.7,0.4,311.6,377.1,0.452,8.62,13.20,275.8
+nov10,29/22 AK3 bolt-chain [air: party],testdata/forever-enh-bis.gear.json,false,120,150,on,5000,703.4,0.8,292.8,410.6,0.416,16.24,9.19,5.4
+nov10,29/22 AK3 bolt-chain [air: party],testdata/forever-enh-bis.gear.json,false,300,150,on,5000,672.9,0.6,366.8,306.2,0.545,11.62,12.81,89.8
+nov10,29/22 AK3 bolt-chain [air: party],testdata/forever-enh-bis.gear.json,false,600,150,on,5000,643.9,0.4,406.9,237.0,0.632,8.64,14.99,277.2
+nov10,29/22 AK3 weave + CL [air: party],ele_launch,false,120,150,on,5000,487.4,0.5,156.3,331.1,0.321,9.41,32.56,44.0
+nov10,29/22 AK3 weave + CL [air: party],ele_launch,false,300,150,on,5000,419.0,0.3,171.5,247.5,0.409,6.64,37.53,165.7
+nov10,29/22 AK3 weave + CL [air: party],ele_launch,false,600,150,on,5000,366.7,0.2,178.9,187.8,0.488,4.78,40.69,401.1
+nov10,29/22 AK3 weave + CL [air: party],testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,842.8,1.0,311.3,531.4,0.369,10.84,12.03,7.9
+nov10,29/22 AK3 weave + CL [air: party],testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,725.7,0.6,334.9,390.8,0.461,7.78,13.90,101.4
+nov10,29/22 AK3 weave + CL [air: party],testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,656.1,0.4,345.2,310.9,0.526,5.97,14.99,296.5
+nov10,29/22 AK3 weave + CL [air: party],testdata/forever-enh-bis.gear.json,false,120,150,on,5000,747.6,1.0,425.4,322.2,0.569,9.80,14.52,25.6
+nov10,29/22 AK3 weave + CL [air: party],testdata/forever-enh-bis.gear.json,false,300,150,on,5000,699.9,0.6,455.2,244.8,0.650,7.19,16.40,123.0
+nov10,29/22 AK3 weave + CL [air: party],testdata/forever-enh-bis.gear.json,false,600,150,on,5000,659.8,0.4,468.6,191.2,0.710,5.42,17.58,325.2
+nov10,29/22 AK3 bolt-chain + CL [air: party],ele_launch,false,120,150,on,5000,480.8,0.5,128.1,352.8,0.266,12.94,26.44,45.1
+nov10,29/22 AK3 bolt-chain + CL [air: party],ele_launch,false,300,150,on,5000,413.7,0.3,154.1,259.6,0.372,8.81,33.78,166.5
+nov10,29/22 AK3 bolt-chain + CL [air: party],ele_launch,false,600,150,on,5000,362.6,0.2,167.3,195.3,0.461,6.22,38.22,402.7
+nov10,29/22 AK3 bolt-chain + CL [air: party],testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,836.8,0.9,274.7,562.0,0.328,13.01,10.50,24.3
+nov10,29/22 AK3 bolt-chain + CL [air: party],testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,715.8,0.6,310.1,405.6,0.433,9.28,12.85,126.6
+nov10,29/22 AK3 bolt-chain + CL [air: party],testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,647.0,0.4,326.8,320.2,0.505,7.08,14.21,329.2
+nov10,29/22 AK3 bolt-chain + CL [air: party],testdata/forever-enh-bis.gear.json,false,120,150,on,5000,682.4,0.9,346.2,336.1,0.507,12.79,11.83,28.8
+nov10,29/22 AK3 bolt-chain + CL [air: party],testdata/forever-enh-bis.gear.json,false,300,150,on,5000,653.7,0.6,402.2,251.5,0.615,9.20,14.57,131.2
+nov10,29/22 AK3 bolt-chain + CL [air: party],testdata/forever-enh-bis.gear.json,false,600,150,on,5000,626.7,0.4,431.5,195.2,0.688,6.82,16.30,338.9
+nov10,"29/22 AK3 weave, no Earth Shock [air: party]",ele_launch,false,120,150,on,5000,546.5,0.5,120.1,426.3,0.220,15.58,22.04,3.2
+nov10,"29/22 AK3 weave, no Earth Shock [air: party]",ele_launch,false,300,150,on,5000,461.1,0.3,147.4,313.7,0.320,10.77,30.48,94.0
+nov10,"29/22 AK3 weave, no Earth Shock [air: party]",ele_launch,false,600,150,on,5000,399.7,0.2,163.3,236.4,0.409,7.64,35.84,298.6
+nov10,"29/22 AK3 weave, no Earth Shock [air: party]",testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,782.0,0.9,308.5,473.5,0.395,11.45,11.66,0.0
+nov10,"29/22 AK3 weave, no Earth Shock [air: party]",testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,762.9,0.6,305.8,457.1,0.401,11.17,11.70,7.6
+nov10,"29/22 AK3 weave, no Earth Shock [air: party]",testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,710.7,0.4,324.6,386.1,0.457,8.92,13.11,134.1
+nov10,"29/22 AK3 weave, no Earth Shock [air: party]",testdata/forever-enh-bis.gear.json,false,120,150,on,5000,711.8,0.9,393.0,318.8,0.552,12.42,12.56,0.0
+nov10,"29/22 AK3 weave, no Earth Shock [air: party]",testdata/forever-enh-bis.gear.json,false,300,150,on,5000,694.4,0.6,413.0,281.4,0.595,10.59,13.94,41.5
+nov10,"29/22 AK3 weave, no Earth Shock [air: party]",testdata/forever-enh-bis.gear.json,false,600,150,on,5000,669.9,0.4,439.5,230.4,0.656,8.16,15.63,194.2
+nov10,"29/22 AK3 weave, no Flame Shock [air: party]",ele_launch,false,120,150,on,5000,532.8,0.6,141.0,391.7,0.265,12.11,27.67,21.9
+nov10,"29/22 AK3 weave, no Flame Shock [air: party]",ele_launch,false,300,150,on,5000,442.8,0.3,161.1,281.7,0.364,8.48,34.22,129.7
+nov10,"29/22 AK3 weave, no Flame Shock [air: party]",ele_launch,false,600,150,on,5000,380.4,0.2,171.3,209.1,0.450,6.13,38.28,350.4
+nov10,"29/22 AK3 weave, no Flame Shock [air: party]",testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,800.6,0.9,307.9,492.7,0.385,11.46,11.67,0.0
+nov10,"29/22 AK3 weave, no Flame Shock [air: party]",testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,735.6,0.6,318.5,417.2,0.433,9.68,12.67,49.8
+nov10,"29/22 AK3 weave, no Flame Shock [air: party]",testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,671.1,0.4,335.5,335.7,0.500,7.48,14.03,219.7
+nov10,"29/22 AK3 weave, no Flame Shock [air: party]",testdata/forever-enh-bis.gear.json,false,120,150,on,5000,737.5,1.0,394.6,342.9,0.535,12.35,12.63,1.4
+nov10,"29/22 AK3 weave, no Flame Shock [air: party]",testdata/forever-enh-bis.gear.json,false,300,150,on,5000,697.3,0.6,434.6,262.7,0.623,9.04,15.11,79.5
+nov10,"29/22 AK3 weave, no Flame Shock [air: party]",testdata/forever-enh-bis.gear.json,false,600,150,on,5000,661.3,0.4,453.8,207.4,0.686,6.86,16.58,259.1
+nov10,"29/22 AK3 weave, no shocks [air: party]",ele_launch,false,120,150,on,5000,470.3,0.5,118.1,352.2,0.251,16.06,21.48,0.0
+nov10,"29/22 AK3 weave, no shocks [air: party]",ele_launch,false,300,150,on,5000,416.9,0.3,139.3,277.6,0.334,12.32,28.00,62.9
+nov10,"29/22 AK3 weave, no shocks [air: party]",ele_launch,false,600,150,on,5000,372.1,0.2,156.2,215.9,0.420,9.27,33.24,223.6
+nov10,"29/22 AK3 weave, no shocks [air: party]",testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,666.0,0.9,305.8,360.2,0.459,11.45,11.64,0.0
+nov10,"29/22 AK3 weave, no shocks [air: party]",testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,655.0,0.6,301.4,353.6,0.460,11.43,11.51,0.0
+nov10,"29/22 AK3 weave, no shocks [air: party]",testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,647.2,0.4,307.1,340.1,0.474,10.82,11.86,33.1
+nov10,"29/22 AK3 weave, no shocks [air: party]",testdata/forever-enh-bis.gear.json,false,120,150,on,5000,643.0,1.0,392.3,250.7,0.610,12.41,12.56,0.0
+nov10,"29/22 AK3 weave, no shocks [air: party]",testdata/forever-enh-bis.gear.json,false,300,150,on,5000,638.8,0.6,395.1,243.7,0.619,11.97,12.90,10.8
+nov10,"29/22 AK3 weave, no shocks [air: party]",testdata/forever-enh-bis.gear.json,false,600,150,on,5000,627.4,0.4,420.4,207.0,0.670,9.71,14.50,122.7
+nov10,29/22 AK3 no hard casts [air: party],ele_launch,false,120,150,on,5000,463.2,0.4,220.3,242.9,0.476,0.00,49.86,0.0
+nov10,29/22 AK3 no hard casts [air: party],ele_launch,false,300,150,on,5000,455.8,0.3,219.0,236.7,0.481,0.00,49.73,8.2
+nov10,29/22 AK3 no hard casts [air: party],ele_launch,false,600,150,on,5000,415.5,0.2,216.7,198.8,0.521,0.00,49.60,154.3
+nov10,29/22 AK3 no hard casts [air: party],testdata/forever-hyb-bis.gear.json,false,120,150,on,5000,762.6,1.0,437.6,325.0,0.574,0.00,19.22,0.0
+nov10,29/22 AK3 no hard casts [air: party],testdata/forever-hyb-bis.gear.json,false,300,150,on,5000,753.7,0.6,433.9,319.8,0.576,0.00,19.11,0.0
+nov10,29/22 AK3 no hard casts [air: party],testdata/forever-hyb-bis.gear.json,false,600,150,on,5000,743.7,0.4,430.9,312.9,0.579,0.00,19.05,22.1
+nov10,29/22 AK3 no hard casts [air: party],testdata/forever-enh-bis.gear.json,false,120,150,on,5000,791.2,1.1,588.3,202.9,0.744,0.00,22.02,0.0
+nov10,29/22 AK3 no hard casts [air: party],testdata/forever-enh-bis.gear.json,false,300,150,on,5000,790.8,0.7,586.4,204.3,0.742,0.00,22.02,0.0
+nov10,29/22 AK3 no hard casts [air: party],testdata/forever-enh-bis.gear.json,false,600,150,on,5000,782.9,0.5,580.5,202.4,0.741,0.00,21.87,11.5
+nov10,Enh preset 19/32/0 [air: party],enh_launch_1h,false,120,150,on,5000,617.0,0.7,402.2,214.7,0.652,4.55,28.00,32.7
+nov10,Enh preset 19/32/0 [air: party],enh_launch_1h,false,300,150,on,5000,604.7,0.5,396.0,208.7,0.655,4.59,27.57,70.5
+nov10,Enh preset 19/32/0 [air: party],enh_launch_1h,false,600,150,on,5000,586.4,0.3,392.9,193.5,0.670,4.63,27.51,212.1
+nov10,Enh preset 19/32/0 [air: party],testdata/forever-enh-bis.gear.json,false,120,150,on,5000,926.3,1.2,627.2,299.1,0.677,4.60,24.25,5.0
+nov10,Enh preset 19/32/0 [air: party],testdata/forever-enh-bis.gear.json,false,300,150,on,5000,888.0,0.7,618.3,269.7,0.696,4.62,23.87,39.5
+nov10,Enh preset 19/32/0 [air: party],testdata/forever-enh-bis.gear.json,false,600,150,on,5000,863.8,0.5,611.5,252.3,0.708,4.65,23.72,136.1
+nov10,8/36/7 no hard casts [air: party],enh_launch_1h,false,120,150,on,5000,609.9,0.8,412.9,197.0,0.677,4.60,28.25,0.0
+nov10,8/36/7 no hard casts [air: party],enh_launch_1h,false,300,150,on,5000,596.0,0.5,404.7,191.3,0.679,4.63,27.82,11.7
+nov10,8/36/7 no hard casts [air: party],enh_launch_1h,false,600,150,on,5000,579.5,0.3,401.7,177.8,0.693,4.64,27.75,90.2
+nov10,8/36/7 no hard casts [air: party],testdata/forever-enh-bis.gear.json,false,120,150,on,5000,952.7,1.3,704.3,248.4,0.739,5.04,24.57,0.0
+nov10,8/36/7 no hard casts [air: party],testdata/forever-enh-bis.gear.json,false,300,150,on,5000,940.8,0.8,694.3,246.5,0.738,5.06,24.20,0.0
+nov10,8/36/7 no hard casts [air: party],testdata/forever-enh-bis.gear.json,false,600,150,on,5000,926.3,0.6,686.0,240.3,0.741,5.07,24.04,40.4
+nov10,8/36/7 weave [air: party],enh_launch_1h,false,120,150,on,5000,501.2,0.7,290.0,211.2,0.579,11.25,18.44,28.4
+nov10,8/36/7 weave [air: party],enh_launch_1h,false,300,150,on,5000,483.1,0.4,298.5,184.6,0.618,10.23,19.74,109.7
+nov10,8/36/7 weave [air: party],enh_launch_1h,false,600,150,on,5000,467.7,0.3,307.6,160.2,0.658,9.09,21.18,286.1
+nov10,8/36/7 weave [air: party],testdata/forever-enh-bis.gear.json,false,120,150,on,5000,799.3,1.2,472.6,326.6,0.591,13.40,14.30,0.0
+nov10,8/36/7 weave [air: party],testdata/forever-enh-bis.gear.json,false,300,150,on,5000,770.5,0.7,500.5,270.0,0.650,11.37,16.39,67.4
+nov10,8/36/7 weave [air: party],testdata/forever-enh-bis.gear.json,false,600,150,on,5000,747.8,0.5,519.1,228.7,0.694,9.93,17.84,230.8
+nov10,"8/32/11 Water Shield, no hard casts [air: party]",enh_launch_1h,false,120,150,on,5000,604.8,0.7,409.3,195.5,0.677,4.58,28.25,0.0
+nov10,"8/32/11 Water Shield, no hard casts [air: party]",enh_launch_1h,false,300,150,on,5000,596.7,0.5,403.7,193.0,0.677,4.59,27.82,0.0
+nov10,"8/32/11 Water Shield, no hard casts [air: party]",enh_launch_1h,false,600,150,on,5000,596.8,0.3,402.5,194.3,0.674,4.63,27.79,0.0
+nov10,"8/32/11 Water Shield, no hard casts [air: party]",testdata/forever-enh-bis.gear.json,false,120,150,on,5000,944.4,1.3,698.6,245.9,0.740,5.02,24.56,0.0
+nov10,"8/32/11 Water Shield, no hard casts [air: party]",testdata/forever-enh-bis.gear.json,false,300,150,on,5000,933.0,0.8,689.0,244.0,0.738,5.05,24.20,0.0
+nov10,"8/32/11 Water Shield, no hard casts [air: party]",testdata/forever-enh-bis.gear.json,false,600,150,on,5000,929.7,0.5,684.1,245.6,0.736,5.06,24.05,0.0

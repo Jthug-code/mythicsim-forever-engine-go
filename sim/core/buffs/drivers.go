@@ -154,6 +154,35 @@ var WindfuryTotemMainHandOnly = true
 // False restricts both to auto attacks.
 var WindfuryProcsFromSpecials = true
 
+// WindfuryTotemAutosOnly keeps Windfury Totem's roll to main-hand auto attacks and extra swings,
+// and grants its attack power as the community engine measured it on Forever combat logs
+// (sage3648/mythicsim-forever-engine, docs/mechanics.md, 10 and 12 November 2026): the auto that
+// fires the proc spends no charge (the next auto kept the attack power on 46 of 47), and every
+// outcome of a later auto spends one (8 of 8 missed swings). Those logs show abilities rolling it
+// only when their client row needs a main-hand weapon or goes off on the next swing, and
+// Flametongue Totem, the same kind of party aura, firing once a swing and never off Windfury
+// Weapon's two strikes. No log yet shows Windfury Weapon and the totem together, so this takes
+// the totem to behave as Flametongue Totem does: no Windfury Weapon strike and no Stormstrike
+// rolls it. Off by default; shaman.SetNov10Hotfix turns it on.
+var WindfuryTotemAutosOnly = false
+
+// NarrowWindfuryTotemProc is NarrowWindfuryProc for the totem, with WindfuryTotemAutosOnly.
+func NarrowWindfuryTotemProc(character *core.Character, trigger *core.ProcTrigger) {
+	NarrowWindfuryProc(character, trigger, WindfuryTotemMainHandOnly)
+	if WindfuryTotemAutosOnly {
+		trigger.ProcMask &^= core.ProcMaskMeleeSpecial
+	}
+}
+
+// WindfuryTotemCharges is how many charges of attack power a proc off spell leaves: under
+// WindfuryTotemAutosOnly all of them, otherwise one fewer off an auto, which spent the first itself.
+func WindfuryTotemCharges(max int32, spell *core.Spell) int32 {
+	if !WindfuryTotemAutosOnly && spell.ProcMask.Matches(core.ProcMaskMeleeWhiteHit) {
+		return max - 1
+	}
+	return max
+}
+
 // NarrowWindfuryProc applies the two switches above to a Windfury trigger
 // decoded from its client row.
 //
@@ -201,6 +230,9 @@ func driveWindfuryTotem(char *core.Character, _ *proto.PartyBuffs) {
 		procAura.RemoveStack(sim)
 	}, spelldata.Chance(1))
 	spender.Name = "Windfury Totem Charges"
+	if WindfuryTotemAutosOnly {
+		spender.Outcome = core.OutcomeEmpty
+	}
 	spender.TriggerImmediately = true
 	procAura.AttachProcTriggerCallback(&char.Unit, spender)
 
@@ -210,14 +242,10 @@ func driveWindfuryTotem(char *core.Character, _ *proto.PartyBuffs) {
 	var windfurySpell *core.Spell
 	trigger := spelldata.ProcTrigger(char, windfuryTotemPartyAura, func(sim *core.Simulation, spell *core.Spell, result *core.SpellResult) {
 		procAura.Activate(sim)
-		charges := procAura.MaxStacks
-		if spell.ProcMask.Matches(core.ProcMaskMeleeWhiteHit) {
-			charges--
-		}
-		procAura.SetStacks(sim, charges)
+		procAura.SetStacks(sim, WindfuryTotemCharges(procAura.MaxStacks, spell))
 		char.AutoAttacks.MaybeReplaceMHSwing(sim, windfurySpell).Cast(sim, result.Target)
 	})
-	NarrowWindfuryProc(char, &trigger, WindfuryTotemMainHandOnly)
+	NarrowWindfuryTotemProc(char, &trigger)
 	trigger.Name = "Windfury Totem Trigger"
 	trigger.ActionID = core.ActionID{}
 	trigger.MetricsActionID = core.ActionID{SpellID: 25580, Tag: -1}

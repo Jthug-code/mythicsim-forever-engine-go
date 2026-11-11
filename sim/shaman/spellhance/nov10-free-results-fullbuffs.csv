@@ -1,0 +1,85 @@
+state,targets,build,gear,set_bonuses,duration_s,reaction_ms,haste,iterations,dps,dps_stderr,physical_dps,spell_dps,physical_share,lb_lvb_cl_casts_per_min,mh_swings_per_min,seconds_oom
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,1052.5,1.4,762.5,290.0,0.724,5.10,24.42,0.0
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,1042.1,0.8,751.3,290.8,0.721,5.12,24.05,0.0
+nov10,1,8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,5000,1036.8,0.6,745.5,291.3,0.719,5.13,23.91,0.0
+nov10,1,8/36/7 free instants,enh_launch_1h,false,120,150,on,5000,702.0,0.8,464.3,237.7,0.661,4.68,28.09,0.0
+nov10,1,8/36/7 free instants,enh_launch_1h,false,300,150,on,5000,693.4,0.5,455.3,238.2,0.657,4.70,27.65,0.0
+nov10,1,8/36/7 free instants,enh_launch_1h,false,600,150,on,5000,693.0,0.4,454.2,238.9,0.655,4.73,27.61,0.0
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,1017.5,1.4,758.2,259.3,0.745,5.02,24.46,0.0
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,1002.4,0.9,745.3,257.1,0.744,5.04,24.09,0.0
+nov10,1,8/36/7 no hard casts,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,5000,998.2,0.6,739.5,258.6,0.741,5.05,23.94,0.0
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,120,150,on,5000,659.0,0.8,453.3,205.7,0.688,4.57,28.08,0.0
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,300,150,on,5000,649.7,0.5,446.3,203.3,0.687,4.58,27.65,0.0
+nov10,1,8/36/7 no hard casts,enh_launch_1h,false,600,150,on,5000,650.0,0.4,445.3,204.7,0.685,4.62,27.62,0.0
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,993.7,1.3,672.1,321.7,0.676,4.71,24.08,0.0
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,985.7,0.8,663.7,322.0,0.673,4.73,23.71,0.0
+nov10,1,"Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,5000,980.4,0.6,658.0,322.4,0.671,4.74,23.56,0.0
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,120,150,on,5000,717.0,0.8,443.8,273.2,0.619,4.67,27.80,0.0
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,300,150,on,5000,710.2,0.5,437.0,273.2,0.615,4.69,27.35,0.0
+nov10,1,"Enh preset 19/32/0 talents, free instants",enh_launch_1h,false,600,150,on,5000,709.5,0.3,435.5,274.0,0.614,4.71,27.32,0.0
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,986.5,1.3,670.0,316.6,0.679,4.56,24.10,0.0
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,980.9,0.8,664.6,316.3,0.678,4.57,23.71,0.0
+nov10,1,Enh preset 19/32/0,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,5000,962.6,0.6,659.0,303.6,0.685,4.61,23.56,0.0
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,120,150,on,5000,715.6,0.8,442.9,272.7,0.619,4.51,27.79,0.0
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,300,150,on,5000,701.9,0.5,437.8,264.1,0.624,4.53,27.36,0.0
+nov10,1,Enh preset 19/32/0,enh_launch_1h,false,600,150,on,5000,692.5,0.3,436.2,256.3,0.630,4.59,27.32,0.0
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,1043.8,1.3,756.1,287.7,0.724,5.10,24.41,0.0
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,1033.6,0.8,745.1,288.5,0.721,5.12,24.05,0.0
+nov10,1,"8/32/11 Water Shield, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,5000,1028.2,0.6,739.2,289.0,0.719,5.13,23.90,0.0
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,120,150,on,5000,698.2,0.8,461.6,236.6,0.661,4.68,28.09,0.0
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,300,150,on,5000,689.9,0.5,452.8,237.1,0.656,4.71,27.64,0.0
+nov10,1,"8/32/11 Water Shield, free instants",enh_launch_1h,false,600,150,on,5000,689.3,0.4,451.5,237.8,0.655,4.73,27.61,0.0
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,966.7,1.3,664.8,301.9,0.688,2.71,22.81,0.0
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,973.6,0.8,669.5,304.0,0.688,2.82,22.81,0.0
+nov10,1,"25/26 MW1, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,5000,968.1,0.6,663.6,304.5,0.685,2.84,22.67,0.0
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,120,150,on,5000,698.4,0.8,439.1,259.4,0.629,2.68,26.45,0.0
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,300,150,on,5000,700.5,0.5,439.7,260.8,0.628,2.79,26.35,0.0
+nov10,1,"25/26 MW1, free instants",enh_launch_1h,false,600,150,on,5000,699.5,0.4,438.2,261.2,0.627,2.82,26.31,0.0
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,936.8,1.2,663.4,273.3,0.708,0.00,22.79,0.0
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,941.4,0.8,667.6,273.8,0.709,0.00,22.79,0.0
+nov10,1,"30/21 shock melee, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,5000,932.8,0.5,660.5,272.2,0.708,0.00,22.64,0.0
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,120,150,on,5000,679.9,0.8,437.4,242.5,0.643,0.00,26.42,0.0
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,300,150,on,5000,679.6,0.5,437.3,242.2,0.644,0.00,26.31,0.0
+nov10,1,"30/21 shock melee, free instants",enh_launch_1h,false,600,150,on,5000,676.9,0.3,435.8,241.1,0.644,0.00,26.28,0.0
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,894.5,1.2,638.9,255.6,0.714,0.00,21.90,0.0
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,890.2,0.7,639.0,251.2,0.718,0.00,21.89,0.0
+nov10,1,"29/22 AK3 no hard casts, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,5000,884.4,0.5,632.8,251.6,0.716,0.00,21.74,0.0
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,120,150,on,5000,643.2,0.7,422.1,221.1,0.656,0.00,25.41,0.0
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,300,150,on,5000,636.7,0.5,419.7,217.1,0.659,0.00,25.29,0.0
+nov10,1,"29/22 AK3 no hard casts, free instants",enh_launch_1h,false,600,150,on,5000,635.5,0.3,418.3,217.1,0.658,0.00,25.25,0.0
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,60,150,on,5000,1267.2,2.0,832.1,435.1,0.657,5.32,26.71,0.0
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,1185.8,1.4,761.0,424.8,0.642,5.10,24.42,0.0
+nov10,2,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,1180.4,0.8,749.9,430.5,0.635,5.12,24.05,0.2
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,60,150,on,5000,1210.7,2.0,735.0,475.7,0.607,4.91,26.37,0.0
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,1136.8,1.3,670.7,466.1,0.590,4.69,24.10,0.0
+nov10,2,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,1134.3,0.8,662.1,472.2,0.584,4.72,23.71,0.0
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,60,150,on,5000,1154.2,1.9,695.1,459.0,0.602,2.64,23.51,0.0
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,1116.0,1.3,665.8,450.2,0.597,2.72,22.81,0.0
+nov10,2,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,1118.7,0.9,667.6,451.0,0.597,2.81,22.81,13.3
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,60,150,on,5000,1368.5,2.1,832.9,535.6,0.609,5.32,26.70,0.0
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,1281.9,1.4,760.9,521.1,0.594,5.10,24.41,0.0
+nov10,3,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,1279.9,0.9,750.6,529.3,0.586,5.12,24.05,0.0
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,60,150,on,5000,1319.9,2.0,737.0,582.9,0.558,4.91,26.36,0.0
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,1235.9,1.3,670.3,565.6,0.542,4.69,24.09,0.0
+nov10,3,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,1236.4,0.8,662.6,573.8,0.536,4.72,23.72,0.0
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,60,150,on,5000,1268.2,2.0,699.9,568.3,0.552,2.64,23.53,0.0
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,1217.6,1.3,666.8,550.8,0.548,2.71,22.82,0.0
+nov10,3,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,1221.5,0.9,668.1,553.4,0.547,2.81,22.81,9.8
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,60,150,on,5000,1465.6,2.2,831.0,634.6,0.567,5.30,26.70,0.0
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,1374.4,1.5,758.9,615.5,0.552,5.08,24.40,0.0
+nov10,4,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,1374.8,0.9,748.2,626.6,0.544,5.10,24.04,0.0
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,60,150,on,5000,1424.2,2.1,735.5,688.6,0.516,4.92,26.38,0.0
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,1335.6,1.4,670.7,664.9,0.502,4.69,24.10,0.0
+nov10,4,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,1337.7,0.9,662.1,675.7,0.495,4.72,23.71,0.0
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,60,150,on,5000,1372.0,2.0,694.7,677.3,0.506,2.64,23.52,0.0
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,1314.9,1.4,663.9,651.0,0.505,2.71,22.81,0.0
+nov10,4,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,1325.2,0.9,667.6,657.6,0.504,2.81,22.81,7.0
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,60,150,on,5000,1569.9,2.3,834.8,735.0,0.532,5.33,26.73,0.0
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,1475.0,1.5,763.4,711.6,0.518,5.11,24.43,0.0
+nov10,5,"8/36/7 free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,1476.8,0.9,750.9,725.9,0.508,5.11,24.05,0.0
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,60,150,on,5000,1536.0,2.1,737.3,798.7,0.480,4.94,26.36,0.0
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,1438.8,1.4,671.8,767.1,0.467,4.70,24.11,0.0
+nov10,5,"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,1441.3,0.9,663.1,778.2,0.460,4.73,23.72,0.0
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,60,150,on,5000,1480.0,2.1,695.8,784.1,0.470,2.64,23.54,0.0
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,1415.4,1.4,665.0,750.4,0.470,2.71,22.81,0.0
+nov10,5,"25/26 MW1, free instants, Magma + Fire Nova",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,1428.3,0.9,667.5,760.8,0.467,2.81,22.81,4.9
