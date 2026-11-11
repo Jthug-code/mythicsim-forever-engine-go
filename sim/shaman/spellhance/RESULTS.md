@@ -70,7 +70,7 @@ at 35%, 15 stacks, 3.0 bolts possible, 2.8 cast.
 | 8/36/7, free instants | 1163 / 1154 / 1149 | 1052 / 1042 / 1037 | -10% |
 | Enhancement preset talents, free instants | 1075 / 1070 / 1064 | 994 / 986 / 980 | -8% |
 | 29/22 (AK3), its own set | 1026 / 1012 / 996 (weave) | 975 / 958 / 922 (bolt-chain) | -5 to -7% |
-| Elemental 32/0/19, rank 10 gate 5 | not run on this set | 952 / 941 / 914 | the hotfix changes nothing it uses |
+| Elemental 32/0/19, rank 10 gate 5 | 952 / 941 / 914 | 952 / 941 / 914 | none |
 
 **Forever BiS, lighter buffs, 10 November:**
 
@@ -85,14 +85,26 @@ at 35%, 15 stacks, 3.0 bolts possible, 2.8 cast.
 
 - **Enhancement still leads at every fight length and buff level.** The Stormstrike cut costs more than the second
   Windfury gives back.
-- **Windfury Totem replaces Grace of Air.** 8/36/7 at 5 minutes on the BiS set, full raid, restricted rotation: 879
-  with Grace of Air, 1002 with Windfury Totem (+14%), 1040 with both. For 29/22 the totem is worth 5-7%.
+- **Windfury Totem replaces Grace of Air.** 8/36/7 with free instants at 5 minutes on the BiS set, full raid: 915 with
+  Grace of Air, 1042 with Windfury Totem (+14%), 1078 with both (`nov10-loose-*.csv`). For 29/22 the totem is worth 5-7%.
 - **29/22 gains ground but stays behind:** 93 / 92 / 89% of 8/36/7 in a full raid, against 88 / 88 / 87% before.
 - **On the BiS set bolt-chain now beats the weave** by 4-8% in a full raid (958 against 884 at 5 minutes), because a
   swing is worth less. On launch gear the weave still wins (667 against 638): chaining runs out of mana.
 - **Elemental needs the looser mana gate.** The repo's preset rotation is at 952 / 850 / 806 on the same set.
 - **Launch gear, full raid, 5 minutes:** Enhancement preset talents 710, 8/36/7 693, 29/22 weave 667, Elemental gate 5
   635.
+
+**The shocks under the hotfix** (`nov10-loose-*.csv`, `TestNov10Loose`), 29/22 bolt-chain, DPS at 2 / 5 / 10 min:
+
+| Rotation | BiS, full raid | Launch gear, full raid | BiS, lighter | Launch gear, lighter |
+|---|---|---|---|---|
+| Both shocks | 975 / 958 / 922 | 657 / 638 / 610 | 904 / 759 / 670 | 532 / 446 / 379 |
+| No Earth Shock | 912 / 894 / 893 | 632 / 631 / 602 | 844 / 763 / 684 | 538 / 447 / 380 |
+| No Flame Shock | 931 / 911 / 873 | 618 / 596 / 571 | 859 / 722 / 641 | 497 / 420 / 359 |
+
+- **Flame Shock is worth 5-7% everywhere.**
+- **Earth Shock is worth 3-7% with full raid buffs.** With lighter buffs it is worth 7% in a 2-minute fight on the BiS
+  set and nothing after that: from 5 minutes, and on launch gear at any length, the mana does as much as bolts.
 
 **Melee hybrids** (`nov10-state-*.csv`, `nov10-mw1-*.csv`), Enhancement BiS set, full raid, 2 / 5 / 10 min. None of
 them reaches 8/36/7. With free instants they are 25/26 967 / 974 / 968, 30/21 937 / 941 / 933 and 29/22 with no hard

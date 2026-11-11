@@ -1,0 +1,43 @@
+state,build,gear,set_bonuses,duration_s,reaction_ms,haste,iterations,dps,dps_stderr,physical_dps,spell_dps,physical_share,lb_lvb_cl_casts_per_min,mh_swings_per_min,seconds_oom
+nov2,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,5000,951.9,0.6,0.0,951.9,0.000,25.07,0.00,0.0
+nov2,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,5000,850.4,0.4,0.0,850.4,0.000,13.91,0.00,0.0
+nov2,Ele preset 32/0/19,testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,5000,806.4,0.2,0.0,806.4,0.000,8.20,0.00,0.0
+nov2,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,5000,951.9,0.6,0.0,951.9,0.000,25.07,0.00,0.0
+nov2,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,5000,940.9,0.4,0.0,940.9,0.000,23.13,0.00,1.0
+nov2,"Ele 32/0/19, rank 10 gate 5 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,5000,914.0,0.3,0.0,914.0,0.000,19.11,0.00,0.7
+nov2,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,120,150,on,5000,951.9,0.6,0.0,951.9,0.000,25.07,0.00,0.0
+nov2,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,300,150,on,5000,936.0,0.4,0.0,936.0,0.000,22.46,0.00,0.1
+nov2,"Ele 32/0/19, rank 10 gate 10 mana/s",testdata/forever-ele-bis-fullbuffs.gear.json,false,600,150,on,5000,874.9,0.3,0.0,874.9,0.000,15.45,0.00,0.4
+nov10,29/22 AK3 bolt-chain,ele_launch,false,120,150,on,5000,656.6,0.6,83.1,573.6,0.127,20.95,11.62,0.0
+nov10,29/22 AK3 bolt-chain,ele_launch,false,300,150,on,5000,638.4,0.4,91.8,546.6,0.144,20.10,13.47,22.1
+nov10,29/22 AK3 bolt-chain,ele_launch,false,600,150,on,5000,609.8,0.3,109.2,500.6,0.179,17.94,17.40,114.2
+nov10,29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,5000,974.9,0.9,255.7,719.2,0.262,16.04,8.30,0.0
+nov10,29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,5000,958.3,0.6,251.0,707.2,0.262,16.01,8.17,1.5
+nov10,29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,5000,921.5,0.5,270.0,651.5,0.293,14.68,9.05,62.2
+nov10,"29/22 AK3 bolt-chain, no Earth Shock",ele_launch,false,120,150,on,5000,632.4,0.6,82.8,549.6,0.131,21.28,11.58,0.0
+nov10,"29/22 AK3 bolt-chain, no Earth Shock",ele_launch,false,300,150,on,5000,630.8,0.4,84.1,546.8,0.133,21.13,11.84,6.1
+nov10,"29/22 AK3 bolt-chain, no Earth Shock",ele_launch,false,600,150,on,5000,602.4,0.3,99.9,502.5,0.166,19.17,15.38,68.1
+nov10,"29/22 AK3 bolt-chain, no Earth Shock",testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,5000,911.9,0.9,276.5,635.4,0.303,16.03,8.29,0.0
+nov10,"29/22 AK3 bolt-chain, no Earth Shock",testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,5000,894.2,0.6,268.0,626.2,0.300,16.06,8.13,0.0
+nov10,"29/22 AK3 bolt-chain, no Earth Shock",testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,5000,893.0,0.4,266.8,626.2,0.299,16.06,8.08,0.1
+nov10,"29/22 AK3 bolt-chain, no Flame Shock",ele_launch,false,120,150,on,5000,618.4,0.6,83.0,535.3,0.134,20.94,11.62,0.0
+nov10,"29/22 AK3 bolt-chain, no Flame Shock",ele_launch,false,300,150,on,5000,596.4,0.4,92.6,503.7,0.155,19.99,13.67,24.1
+nov10,"29/22 AK3 bolt-chain, no Flame Shock",ele_launch,false,600,150,on,5000,571.3,0.3,109.6,461.7,0.192,17.91,17.47,116.6
+nov10,"29/22 AK3 bolt-chain, no Flame Shock",testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,5000,931.2,0.9,255.8,675.4,0.275,16.03,8.30,0.0
+nov10,"29/22 AK3 bolt-chain, no Flame Shock",testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,5000,910.9,0.6,252.3,658.5,0.277,15.99,8.19,2.3
+nov10,"29/22 AK3 bolt-chain, no Flame Shock",testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,5000,873.1,0.5,270.8,602.2,0.310,14.63,9.09,67.0
+nov10,"29/22 AK3 bolt-chain, no shocks",ele_launch,false,120,150,on,5000,548.3,0.5,81.9,466.4,0.149,21.48,11.50,0.0
+nov10,"29/22 AK3 bolt-chain, no shocks",ele_launch,false,300,150,on,5000,550.4,0.3,81.7,468.6,0.149,21.60,11.31,0.1
+nov10,"29/22 AK3 bolt-chain, no shocks",ele_launch,false,600,150,on,5000,542.2,0.3,88.5,453.7,0.163,20.72,12.83,23.4
+nov10,"29/22 AK3 bolt-chain, no shocks",testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,5000,800.5,0.9,279.4,521.2,0.349,16.03,8.29,0.0
+nov10,"29/22 AK3 bolt-chain, no shocks",testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,5000,787.0,0.6,272.2,514.8,0.346,16.06,8.13,0.0
+nov10,"29/22 AK3 bolt-chain, no shocks",testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,5000,786.0,0.4,270.8,515.2,0.345,16.06,8.08,0.0
+nov10,8/36/7 free instants [air: ],testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,923.1,1.1,646.4,276.7,0.700,4.32,24.55,0.0
+nov10,8/36/7 free instants [air: ],testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,915.3,0.7,638.0,277.3,0.697,4.36,24.19,0.0
+nov10,8/36/7 free instants [air: ],testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,5000,911.1,0.5,633.1,278.0,0.695,4.37,24.04,0.0
+nov10,8/36/7 free instants [air: own],testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,1052.5,1.4,762.5,290.0,0.724,5.10,24.42,0.0
+nov10,8/36/7 free instants [air: own],testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,1042.1,0.8,751.3,290.8,0.721,5.12,24.05,0.0
+nov10,8/36/7 free instants [air: own],testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,5000,1036.8,0.6,745.5,291.3,0.719,5.13,23.91,0.0
+nov10,8/36/7 free instants [air: party],testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,5000,1090.1,1.4,798.7,291.4,0.733,5.13,24.67,0.0
+nov10,8/36/7 free instants [air: party],testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,5000,1078.4,0.9,786.9,291.5,0.730,5.15,24.30,0.0
+nov10,8/36/7 free instants [air: party],testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,5000,1073.7,0.6,781.7,292.0,0.728,5.16,24.16,0.0

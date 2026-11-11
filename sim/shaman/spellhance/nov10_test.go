@@ -232,3 +232,47 @@ func TestNov10FreeInstants(t *testing.T) {
 		runMatrix(t, runs, filepath.Join(out, fmt.Sprint(targets)))
 	}
 }
+
+// TestNov10Loose settles what run 8 left open: the shocks under the chain rotation, the Elemental rotations on the
+// 2 November state, and what Windfury Totem is worth to 8/36/7 with free instants. It writes nov2/ and nov10/ under
+// $SPELLHANCE_NOV10_LOOSE_OUT.
+func TestNov10Loose(t *testing.T) {
+	out := os.Getenv("SPELLHANCE_NOV10_LOOSE_OUT")
+	if out == "" {
+		t.Skip("set SPELLHANCE_NOV10_LOOSE_OUT to run the comparison")
+	}
+	iterations := matrixIterations(t)
+	durations := []time.Duration{2 * time.Minute, 5 * time.Minute, 10 * time.Minute}
+	var runs []run
+	for _, b := range []build{elePreset, eleGate5, eleGate10} {
+		for _, d := range durations {
+			runs = append(runs, run{Build: b, Gear: foreverEleBisGear(), Duration: d, ReactionMs: 150, Iterations: iterations, Seed: 7})
+		}
+	}
+	runMatrix(t, runs, filepath.Join(out, "nov2"))
+
+	shaman.SetNov10Hotfix(true)
+	defer shaman.SetNov10Hotfix(false)
+	runs = nil
+	talents := weave2922AK.Talents
+	for _, b := range []build{
+		{"29/22 AK3 bolt-chain", talents, "apls/chain.apl.json", false},
+		{"29/22 AK3 bolt-chain, no Earth Shock", talents, "apls/chain_no_es.apl.json", false},
+		{"29/22 AK3 bolt-chain, no Flame Shock", talents, "apls/chain_no_fs.apl.json", false},
+		{"29/22 AK3 bolt-chain, no shocks", talents, "apls/chain_no_shocks.apl.json", false},
+	} {
+		for _, g := range []string{"ele_launch", foreverHybBisGear()} {
+			for _, d := range durations {
+				runs = append(runs, run{Build: b, Gear: g, Duration: d, ReactionMs: 150, Iterations: iterations, Seed: 7, Air: "own"})
+			}
+		}
+	}
+	for _, air := range []string{"", "own", "party"} {
+		b := free8367
+		b.Label += " [air: " + air + "]"
+		for _, d := range durations {
+			runs = append(runs, run{Build: b, Gear: foreverBisGear(), Duration: d, ReactionMs: 150, Iterations: iterations, Seed: 7, Air: air})
+		}
+	}
+	runMatrix(t, runs, filepath.Join(out, "nov10"))
+}
