@@ -50,12 +50,25 @@ same with `SPELLHANCE_NOV10_STATE_OUT` and `TestNov10State`, or `SPELLHANCE_NOV1
 
 ## Run 8 findings
 
+**Correction, same day: the melee rotations were holding instants back.** `melee_maelstrom` presses an instant only
+when its GCD ends before the next swing, the weave light's rule. With no hard cast to protect, that only wastes GCDs
+(Earth Shock 3.5 a minute instead of 5.1). `melee_free` presses instants whenever the GCD is free, and the 5-stack bolt
+first; it is worth 3-4% to every melee build (`nov10-free-*.csv`, `TestNov10FreeInstants`). The Enhancement rows in the
+two tables below use it. The melee-hybrid and target tables further down still show the restricted rotation, with the
+free numbers given beside them. Runs 1-7 used the restricted rotation for "8/36/7 no hard casts" throughout, so they
+understate it by about the same amount.
+
+**Maelstrom Weapon bolts are capped by stacks, not by the rotation.** 8/36/7 on the BiS set, 5 minutes: 48.6 landed
+melee hits a minute (22.7 swings, 12.2 Windfury Weapon strikes, 6.9 Windfury Totem swings, 6.9 Stormstrikes) at 58%
+is 28.3 stacks, enough for 5.7 bolts; it casts 5.1 and loses the rest at the 5-stack cap. 25/26's one point: 43 hits
+at 35%, 15 stacks, 3.0 bolts possible, 2.8 cast.
+
 **Forever BiS, full raid buffs, DPS at 2 / 5 / 10 min:**
 
 | Build | 2 November | 10 November | Change |
 |---|---|---|---|
-| 8/36/7 no hard casts | 1082 / 1075 / 1068 | 1018 / 1002 / 998 | -6 to -7% |
-| Enhancement preset 19/32/0 | 1070 / 1058 / 1044 | 986 / 981 / 963 | -7 to -8% |
+| 8/36/7, free instants | 1163 / 1154 / 1149 | 1052 / 1042 / 1037 | -10% |
+| Enhancement preset talents, free instants | 1075 / 1070 / 1064 | 994 / 986 / 980 | -8% |
 | 29/22 (AK3), its own set | 1026 / 1012 / 996 (weave) | 975 / 958 / 922 (bolt-chain) | -5 to -7% |
 | Elemental 32/0/19, rank 10 gate 5 | not run on this set | 952 / 941 / 914 | the hotfix changes nothing it uses |
 
@@ -63,25 +76,27 @@ same with `SPELLHANCE_NOV10_STATE_OUT` and `TestNov10State`, or `SPELLHANCE_NOV1
 
 | Build | DPS at 2 / 5 / 10 min | Out of mana, 5 min |
 |---|---|---|
-| 8/36/7 no hard casts | 923 / 910 / 895 | 0 s |
-| 8/32/11 Water Shield | 913 / 901 / 897 | 0 s |
-| Enhancement preset | 895 / 858 / 832 | 40 s |
+| 8/36/7, free instants | 955 / 942 / 899 | 8 s |
+| 8/32/11 Water Shield, free instants | 946 / 938 / 934 | 0 s |
+| Enhancement preset talents, free instants | 904 / 900 / 866 | 1 s |
 | Elemental, rank 10 gate 10 | 878 / 802 / 739 | 4 s |
 | 29/22 bolt-chain | 904 / 759 / 670 | 87 s |
 | 29/22 weave | 828 / 762 / 690 | 48 s |
 
 - **Enhancement still leads at every fight length and buff level.** The Stormstrike cut costs more than the second
   Windfury gives back.
-- **Windfury Totem replaces Grace of Air.** 8/36/7 at 5 minutes on the BiS set, full raid: 879 with Grace of Air, 1002
-  with Windfury Totem (+14%), 1040 with both. For 29/22 the totem is worth 5-7%.
-- **29/22 keeps its place:** 96 / 96 / 92% of 8/36/7 in a full raid, against 95 / 94 / 93% before.
+- **Windfury Totem replaces Grace of Air.** 8/36/7 at 5 minutes on the BiS set, full raid, restricted rotation: 879
+  with Grace of Air, 1002 with Windfury Totem (+14%), 1040 with both. For 29/22 the totem is worth 5-7%.
+- **29/22 gains ground but stays behind:** 93 / 92 / 89% of 8/36/7 in a full raid, against 88 / 88 / 87% before.
 - **On the BiS set bolt-chain now beats the weave** by 4-8% in a full raid (958 against 884 at 5 minutes), because a
   swing is worth less. On launch gear the weave still wins (667 against 638): chaining runs out of mana.
 - **Elemental needs the looser mana gate.** The repo's preset rotation is at 952 / 850 / 806 on the same set.
-- **Launch gear, full raid, 5 minutes:** Enhancement preset 702, 29/22 weave 667, 8/36/7 650, Elemental gate 5 635.
+- **Launch gear, full raid, 5 minutes:** Enhancement preset talents 710, 8/36/7 693, 29/22 weave 667, Elemental gate 5
+  635.
 
 **Melee hybrids** (`nov10-state-*.csv`, `nov10-mw1-*.csv`), Enhancement BiS set, full raid, 2 / 5 / 10 min. None of
-them reaches the Enhancement builds:
+them reaches 8/36/7. With free instants they are 25/26 967 / 974 / 968, 30/21 937 / 941 / 933 and 29/22 with no hard
+casts 894 / 890 / 884, so 25/26 is within about 1% of the preset talents (994 / 986 / 980). Restricted rotation:
 
 | Build | Talents | DPS |
 |---|---|---|
@@ -105,8 +120,9 @@ cooldown. Best rotation per spec, BiS sets, DPS on 1 / 2 / 3 / 4 / 5 targets:
 | 29/22 weave with Chain Lightning | 1070 / 1378 / 1658 / 1838 / 2005 | 1002 / 1294 / 1567 / 1741 / 1910 | 884 / 1085 / 1286 / 1424 / 1568 | 779 / 966 / 1142 / 1260 / 1374 | 662 / 790 / 909 / 991 / 1072 |
 | Elemental preset | 958 / 1396 / 1751 / 1897 / 2045 | 951 / 1183 / 1456 / 1572 / 1692 | 850 / 1038 / 1261 / 1355 / 1456 | 877 / 966 / 1153 / 1225 / 1302 | 729 / 831 / 957 / 1010 / 1063 |
 
-- **In a full raid 29/22 is the best shaman on two or more targets from 2 minutes up:** on three targets, 29% ahead of
-  8/36/7 and 8% ahead of Elemental at 2 minutes, 7% and 2% at 5 minutes, where it spends 94 s out of mana.
+- **In a full raid 29/22 is the best shaman on two or more targets at 2 minutes:** on three targets, 8% ahead of
+  Elemental and 22% ahead of 8/36/7 with free instants (1282). At 5 minutes it spends 94 s out of mana and all three
+  are level (1286, Elemental 1261, 8/36/7 free 1280).
 - **At 1 minute Elemental leads** on two or more targets (1751 against 1658 on three).
 - **With lighter buffs the lead goes with the mana:** level with Elemental at 2 minutes, behind 8/36/7 at 5 minutes on
   two and three targets.

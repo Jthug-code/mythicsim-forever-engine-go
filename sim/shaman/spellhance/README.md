@@ -24,7 +24,7 @@ Everything here is a sim, not a combat log. Read the numbers as direction and ro
   - `forever-bis-results*.csv`: every build on the Forever BiS sets, the high-end comparison since run 7.
   - `nov10-*.csv`: run 8, the 10 November hotfix. `nov10-results*` has the 29/22 rotations and the Enhancement
     builds before and after, `nov10-state-*` the Elemental rotations and shock-melee hybrids, `nov10-mw1-*` 25/26,
-    `nov10-targets-*` two to five targets.
+    `nov10-targets-*` two to five targets, `nov10-free-*` the melee builds with instants on every free GCD.
 - **Gear:**
   - The Forever launch presets are the repo's own, `ui/specs/shaman/*/gear_sets/launch.gear.json`, with the
     Enhancement off-hand dropped because shamans can't dual wield.

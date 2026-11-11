@@ -189,3 +189,46 @@ func TestNov10MW1Bound(t *testing.T) {
 	}
 	runMatrix(t, runs, out)
 }
+
+// The melee_maelstrom rotations press an instant only when its GCD ends before the next swing, the weave light's
+// rule. With no hard cast to protect, that only wastes GCDs. The melee_free rotations press instants whenever the
+// GCD is free, and the 5-stack bolt first.
+var (
+	free8367      = build{"8/36/7 free instants", talents8367, "apls/melee_free.apl.json", false}
+	freeEnhPreset = build{"Enh preset 19/32/0 talents, free instants", talentsEnhPreset, "apls/melee_free.apl.json", false}
+	free83211WS   = build{"8/32/11 Water Shield, free instants", melee83211WS.Talents, "apls/melee_free.apl.json", false}
+	free2526      = build{"25/26 MW1, free instants", mw2526Bolt.Talents, "apls/melee_free.apl.json", false}
+	free3021      = build{"30/21 shock melee, free instants", shock3021.Talents, "apls/melee_free.apl.json", false}
+	free2922      = build{"29/22 AK3 no hard casts, free instants", weave2922AK.Talents, "apls/melee_free.apl.json", false}
+	free8367AoE   = build{"8/36/7 free instants, Magma + Fire Nova", talents8367, "apls/melee_free_aoe.apl.json", false}
+	freePresetAoE = build{"Enh preset 19/32/0 talents, free instants, Magma + Fire Nova", talentsEnhPreset, "apls/melee_free_aoe.apl.json", false}
+	free2526AoE   = build{"25/26 MW1, free instants, Magma + Fire Nova", mw2526Bolt.Talents, "apls/melee_free_aoe.apl.json", false}
+)
+
+func TestNov10FreeInstants(t *testing.T) {
+	out := os.Getenv("SPELLHANCE_NOV10_FREE_OUT")
+	if out == "" {
+		t.Skip("set SPELLHANCE_NOV10_FREE_OUT to run the comparison")
+	}
+	iterations := matrixIterations(t)
+	shaman.SetNov10Hotfix(true)
+	defer shaman.SetNov10Hotfix(false)
+	var runs []run
+	for _, b := range []build{free8367, melee8367, freeEnhPreset, enhPreset, free83211WS, free2526, free3021, free2922} {
+		for _, g := range []string{foreverBisGear(), "enh_launch_1h"} {
+			for _, d := range []time.Duration{2 * time.Minute, 5 * time.Minute, 10 * time.Minute} {
+				runs = append(runs, run{Build: b, Gear: g, Duration: d, ReactionMs: 150, Iterations: iterations, Seed: 7, Air: "own"})
+			}
+		}
+	}
+	runMatrix(t, runs, filepath.Join(out, "1"))
+	for targets := 2; targets <= 5; targets++ {
+		runs = nil
+		for _, b := range []build{free8367AoE, freePresetAoE, free2526AoE} {
+			for _, d := range []time.Duration{time.Minute, 2 * time.Minute, 5 * time.Minute} {
+				runs = append(runs, run{Build: b, Gear: foreverBisGear(), Duration: d, ReactionMs: 150, Iterations: iterations, Seed: 7, Air: "own", Targets: targets})
+			}
+		}
+		runMatrix(t, runs, filepath.Join(out, fmt.Sprint(targets)))
+	}
+}
