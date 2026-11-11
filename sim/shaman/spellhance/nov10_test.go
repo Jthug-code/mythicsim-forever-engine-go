@@ -276,3 +276,50 @@ func TestNov10Loose(t *testing.T) {
 	}
 	runMatrix(t, runs, filepath.Join(out, "nov10"))
 }
+
+// TestNov10Final is the run 8 summary under the hotfix as nov10_notes.go has it now, Windfury Totem rolling off
+// autos alone: each spec's best rotation on its BiS set and launch gear, with each air totem for 8/36/7, and on
+// three targets. It writes 1/ and 3/ under $SPELLHANCE_NOV10_FINAL_OUT.
+func TestNov10Final(t *testing.T) {
+	out := os.Getenv("SPELLHANCE_NOV10_FINAL_OUT")
+	if out == "" {
+		t.Skip("set SPELLHANCE_NOV10_FINAL_OUT to run the comparison")
+	}
+	iterations := matrixIterations(t)
+	shaman.SetNov10Hotfix(true)
+	defer shaman.SetNov10Hotfix(false)
+	durations := []time.Duration{2 * time.Minute, 5 * time.Minute, 10 * time.Minute}
+	chain := build{"29/22 AK3 bolt-chain", weave2922AK.Talents, "apls/chain.apl.json", false}
+	weave := build{"29/22 AK3 weave", weave2922AK.Talents, "apls/weave.apl.json", false}
+	var runs []run
+	add := func(b build, gear, air string, targets int, ds []time.Duration) {
+		if air != "own" {
+			b.Label += " [air: " + air + "]"
+		}
+		for _, d := range ds {
+			runs = append(runs, run{Build: b, Gear: gear, Duration: d, ReactionMs: 150, Iterations: iterations, Seed: 7, Air: air, Targets: targets})
+		}
+	}
+	for _, b := range []build{free8367, freeEnhPreset, free83211WS, free2526} {
+		add(b, foreverBisGear(), "own", 1, durations)
+		add(b, "enh_launch_1h", "own", 1, durations)
+	}
+	add(free8367, foreverBisGear(), "", 1, durations)
+	add(free8367, foreverBisGear(), "party", 1, durations)
+	for _, b := range []build{chain, weave} {
+		add(b, foreverHybBisGear(), "own", 1, durations)
+		add(b, "ele_launch", "own", 1, durations)
+		add(b, foreverHybBisGear(), "", 1, durations)
+	}
+	runMatrix(t, runs, filepath.Join(out, "1"))
+	runs = nil
+	short := []time.Duration{time.Minute, 2 * time.Minute, 5 * time.Minute}
+	for _, b := range []build{free8367AoE, freePresetAoE, aoe2922Weave, aoe2922Chain} {
+		gear := foreverBisGear()
+		if b.Talents == weave2922AK.Talents {
+			gear = foreverHybBisGear()
+		}
+		add(b, gear, "own", 3, short)
+	}
+	runMatrix(t, runs, filepath.Join(out, "3"))
+}

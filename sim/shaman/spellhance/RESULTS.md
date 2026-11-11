@@ -50,6 +50,31 @@ same with `SPELLHANCE_NOV10_STATE_OUT` and `TestNov10State`, or `SPELLHANCE_NOV1
 
 ## Run 8 findings
 
+**Read this first: Windfury Totem now rolls off auto attacks only (2026-11-12).** No log yet shows Windfury Weapon and
+Windfury Totem together. The community engine (sage3648/mythicsim-forever-engine, `docs/mechanics.md`) has measured
+on Forever logs that the totem rolls only off main-hand autos, extra swings and abilities flagged for the main hand,
+that the swing firing the proc spends no charge, and that Flametongue Totem fires once a swing and never off Windfury
+Weapon's strikes. The hotfix switch now takes Windfury Totem to behave as Flametongue Totem does
+(`buffs.WindfuryTotemAutosOnly`): no Windfury Weapon strike and no Stormstrike rolls it. Everything below this block
+was run with the totem rolling off every main-hand melee hit and is 3-5% high for the builds that melee.
+`nov10-final-*.csv` (`TestNov10Final`) has the current numbers, DPS at 2 / 5 / 10 min on the BiS sets:
+
+| Build | Full raid | Lighter | Launch gear, full raid |
+|---|---|---|---|
+| 8/36/7, free instants | 997 / 987 / 982 | 905 / 894 / 851 | 668 / 662 / 662 |
+| 8/32/11 Water Shield, free instants | 989 / 979 / 974 | 898 / 890 / 886 | 665 / 659 / 658 |
+| Enhancement preset talents, free instants | 948 / 940 / 936 | 866 / 859 / 827 | 686 / 680 / 680 |
+| 25/26, one point in Maelstrom Weapon | 922 / 928 / 923 | 841 / 831 / 786 | 669 / 670 / 669 |
+| 29/22 bolt-chain | 950 / 933 / 892 | 882 / 737 / 649 | 652 / 630 / 599 |
+| 29/22 weave | 869 / 853 / 852 | 802 / 737 / 666 | 656 / 659 / 644 |
+| Elemental, rank 10 gate 5 (gate 10 lighter) | 952 / 941 / 914 | 878 / 802 / 739 | 650 / 635 / 602 |
+
+- **The hotfix costs 8/36/7 about 14%** (1163 / 1154 / 1149 before) **and 29/22 about 8%** (1026 / 1012 / 996).
+- **Windfury Totem is worth 8% to 8/36/7** (915 with Grace of Air, 987 with the totem, 1024 with both) **and 2% to
+  29/22** (915 to 933).
+- **Three targets, full raid, 1 / 2 / 5 min:** 29/22 weave with Chain Lightning 1629 / 1535 / 1248, Elemental preset
+  1751 / 1456 / 1261, 8/36/7 1312 / 1226 / 1223.
+
 **Correction, same day: the melee rotations were holding instants back.** `melee_maelstrom` presses an instant only
 when its GCD ends before the next swing, the weave light's rule. With no hard cast to protect, that only wastes GCDs
 (Earth Shock 3.5 a minute instead of 5.1). `melee_free` presses instants whenever the GCD is free, and the 5-stack bolt

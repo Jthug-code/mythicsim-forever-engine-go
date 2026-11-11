@@ -3,6 +3,8 @@ package shaman
 import (
 	"testing"
 	"time"
+
+	"github.com/wowsims/forever/sim/core/buffs"
 )
 
 // The 10 November 2026 hotfix as nov10_notes.go applies it, and the 2 November state back when it is undone.
@@ -11,6 +13,9 @@ func TestNov10Hotfix(t *testing.T) {
 	check := func(on bool, stormstrike float64, cooldown time.Duration, dexterity, maelstromPPM float64) {
 		t.Helper()
 		SetNov10Hotfix(on)
+		if buffs.WindfuryTotemAutosOnly != on {
+			t.Errorf("hotfix %v: Windfury Totem's autos-only rule reads %v", on, buffs.WindfuryTotemAutosOnly)
+		}
 		if nov10Hotfix != on {
 			t.Errorf("hotfix %v: the switch reads %v", on, nov10Hotfix)
 		}

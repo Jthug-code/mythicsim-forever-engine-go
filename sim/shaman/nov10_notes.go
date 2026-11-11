@@ -1,5 +1,7 @@
 package shaman
 
+import "github.com/wowsims/forever/sim/core/buffs"
+
 // The shaman changes in "WoW: Forever Hotfixes - November 10, 2026" (Blizzard news 24315281), as far as a
 // damage sim reads them. Off by default, so every earlier run keeps its numbers; SetNov10Hotfix(true)
 // applies them over the 2 November state.
@@ -13,7 +15,10 @@ package shaman
 //     chance to activate on swing"): the 2 November doubling undone, and both read from the rank.
 //   - "Weapon imbues and Weapon totems can now be used at the same time ... the Shaman can benefit from
 //     Windfury Weapon and Windfury Totem at the same time, granting their attacks a chance to activate
-//     both": Windfury Weapon no longer takes the Windfury Totem category.
+//     both": Windfury Weapon no longer takes the Windfury Totem category. No log yet shows how the two
+//     interact, so the totem is taken to behave as Flametongue Totem was measured to: it rolls off
+//     main-hand autos and extra swings alone, never off Windfury Weapon's strikes or Stormstrike, with the
+//     charge rules the same logs gave (buffs.WindfuryTotemAutosOnly).
 //
 // Not modelled: "Lightning Overload now deals the correct amount of damage for Lightning Bolt" (the notes
 // don't say what was wrong; the sim's overload is half a bolt), and Rage of the Storm's stats.
@@ -22,6 +27,7 @@ var nov10Hotfix bool
 // SetNov10Hotfix applies or undoes the hotfix. Call it between sims, never while one is being built.
 func SetNov10Hotfix(on bool) {
 	nov10Hotfix = on
+	buffs.WindfuryTotemAutosOnly = on
 	for _, name := range []string{"Stormstrike 150% weapon damage", "Stormstrike 6 s cooldown",
 		"Mental Dexterity 50/100/150%", "Maelstrom Weapon procs doubled"} {
 		SetNov2Change(name, !on)

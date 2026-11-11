@@ -56,6 +56,9 @@ func (shaman *Shaman) registerWindfuryTotemSpell() {
 		wfProcAura.RemoveStack(sim)
 	}, spelldata.Chance(1))
 	spender.Name = "Windfury Attack (Self)"
+	if buffs.WindfuryTotemAutosOnly {
+		spender.Outcome = core.OutcomeEmpty
+	}
 	spender.TriggerImmediately = true
 	wfProcAura.AttachProcTrigger(spender)
 
@@ -68,14 +71,10 @@ func (shaman *Shaman) registerWindfuryTotemSpell() {
 	trigger := spelldata.ProcTrigger(&shaman.Character, windfuryTotemPartyAura, func(sim *core.Simulation, spell *core.Spell, result *core.SpellResult) {
 		wfProcAura.Activate(sim)
 		// An auto that procs it has spent the first charge itself; a special leaves both.
-		charges := wfProcAura.MaxStacks
-		if spell.ProcMask.Matches(core.ProcMaskMeleeWhiteHit) {
-			charges--
-		}
-		wfProcAura.SetStacks(sim, charges)
+		wfProcAura.SetStacks(sim, buffs.WindfuryTotemCharges(wfProcAura.MaxStacks, spell))
 		shaman.AutoAttacks.MaybeReplaceMHSwing(sim, windfurySpell).Cast(sim, result.Target)
 	})
-	buffs.NarrowWindfuryProc(&shaman.Character, &trigger, buffs.WindfuryTotemMainHandOnly)
+	buffs.NarrowWindfuryTotemProc(&shaman.Character, &trigger)
 	trigger.Name = "Windfury Totem Trigger (Self)"
 	trigger.ActionID = core.ActionID{}
 	trigger.MetricsActionID = core.ActionID{SpellID: windfuryTotemRank.ID}
