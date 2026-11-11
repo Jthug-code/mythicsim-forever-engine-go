@@ -75,6 +75,43 @@ was run with the totem rolling off every main-hand melee hit and is 3-5% high fo
 - **Three targets, full raid, 1 / 2 / 5 min:** 29/22 weave with Chain Lightning 1629 / 1535 / 1248, Elemental preset
   1751 / 1456 / 1261, 8/36/7 1312 / 1226 / 1223.
 
+**Stormstrike's two hotfix changes, one at a time** (`nov10-stormstrike-*-fullbuffs.csv`, `TestNov10Stormstrike`):
+each put back to its 2 November value with the rest of the hotfix in place. Full raid, BiS sets, Windfury Totem, DPS
+at 2 / 5 / 10 min:
+
+| Stormstrike | 8/36/7, free instants | Enhancement preset talents | 29/22 bolt-chain |
+|---|---|---|---|
+| 100%, 8 s (the hotfix) | 997 / 987 / 982 | 948 / 940 / 936 | 950 / 933 / 892 |
+| 100%, 6 s | 1065 / 1060 / 1055 | 988 / 981 / 975 | 991 / 964 / 912 |
+| 150%, 8 s | 1049 / 1038 / 1033 | 996 / 988 / 983 | 977 / 961 / 921 |
+| 150%, 6 s | 1136 / 1130 / 1125 | 1051 / 1045 / 1039 | 1033 / 1005 / 953 |
+
+- **For 8/36/7 the cooldown costs more than the damage cut:** the 6 s cooldown back is worth 7%, 150% back 5%. The
+  cooldown alone is 41-44% of 8/36/7's whole loss (1163 / 1154 / 1149 before the hotfix). For the preset talents it is
+  4% against 5%, and for 29/22 2-4% against 3%.
+- **Stormstrike is most of the loss:** with both back, 8/36/7 does 1130 at 5 minutes against 1154 before, so the two
+  Stormstrike changes are 86% of what it lost.
+
+**29/22's weapon under the hotfix** (`nov10-weapons-*-fullbuffs.csv`, `TestNov10Weapons`): its BiS set with only the
+main hand swapped, each two-hander with the caster enchant (8211). Full raid, Windfury Totem, DPS at 2 / 5 / 10 min:
+
+| Main hand | Speed, weapon DPS, caster stats | Bolt-chain | Weave |
+|---|---|---|---|
+| Grand Marshal's Demolisher (the BiS mace) | 3.8, 77, Int 27 SP 27 mp5 7 | 950 / 933 / 892 | 869 / 853 / 852 |
+| Sulfuras, Hand of Ragnaros | 3.7, 80, none (Str 12) | 882 / 874 / 853 | 870 / 855 / 857 |
+| Amberseal Keeper (staff) | 3.3, 57, Int 20 SP 44 mp5 12 | 880 / 869 / 852 | 848 / 840 / 842 |
+| Spinal Reaper (axe) | 3.4, 75, AP 34 | 870 / 858 / 836 | 851 / 841 / 842 |
+| Staff of Dominance | 2.9, 57, Int 37 SP 40 | 862 / 849 / 834 | 882 / 870 / 867 |
+| Grand Marshal's Stave | 3.0, 59, Int 23 SP 71 | 859 / 848 / 834 | 877 / 864 / 862 |
+| Hyperthermically Insulated Lava Dredger (mace) | 2.9, 67, Int 24 mp5 9 | 842 / 830 / 820 | 868 / 857 / 855 |
+
+- **The BiS mace wins by 6-11% at 5 minutes, and not for being a mace:** the engine has no Two-Handed Axes and Maces
+  talent. It is the slowest weapon here and carries caster stats as well; Sulfuras, nearly as slow with more weapon
+  damage but no caster stats, loses 6%.
+- **Weapon speed picks the rotation:** bolt-chain wins with the 3.3-3.8 weapons, the weave with the 2.9-3.0 ones.
+- **Without the PvP mace, every weapon here is within 2% at its better rotation** (857-874 at 5 minutes), and the
+  staves are level with the maces and the axe. The rotations weren't retuned per weapon.
+
 **Correction, same day: the melee rotations were holding instants back.** `melee_maelstrom` presses an instant only
 when its GCD ends before the next swing, the weave light's rule. With no hard cast to protect, that only wastes GCDs
 (Earth Shock 3.5 a minute instead of 5.1). `melee_free` presses instants whenever the GCD is free, and the 5-stack bolt

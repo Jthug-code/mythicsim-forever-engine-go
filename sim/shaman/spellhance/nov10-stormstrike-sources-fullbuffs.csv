@@ -1,0 +1,373 @@
+stormstrike,build,gear,set_bonuses,duration_s,reaction_ms,haste,source,school,dps,share
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,323.5,0.324
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,216.2,0.217
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,105.8,0.106
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,89.4,0.090
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,84.4,0.085
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,65.7,0.066
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,38.9,0.039
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,31.6,0.032
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,22.6,0.023
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,18.9,0.019
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,320.1,0.324
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,213.1,0.216
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,102.8,0.104
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,89.3,0.090
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,85.0,0.086
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,64.8,0.066
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,39.4,0.040
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,30.8,0.031
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,23.5,0.024
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,18.4,0.019
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,317.4,0.323
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,211.6,0.215
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,102.1,0.104
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,89.1,0.091
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,85.2,0.087
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,64.3,0.066
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,39.6,0.040
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,30.5,0.031
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,24.1,0.025
+"100%, 8 s (hotfix)",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,18.3,0.019
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,291.1,0.307
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,185.8,0.196
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,130.2,0.137
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,96.9,0.102
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,73.3,0.077
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,56.1,0.059
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,50.3,0.053
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,24.5,0.026
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,23.5,0.025
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,16.6,0.017
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,287.4,0.306
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,182.5,0.194
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,129.2,0.137
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,96.6,0.103
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,73.7,0.078
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,55.2,0.059
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,50.6,0.054
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,25.9,0.028
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,23.0,0.024
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,16.3,0.017
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,284.9,0.304
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,181.1,0.194
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,129.3,0.138
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,95.7,0.102
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,74.0,0.079
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,54.9,0.059
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,50.7,0.054
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,26.3,0.028
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,22.6,0.024
+"100%, 8 s (hotfix)","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,16.1,0.017
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,397.3,0.418
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,106.1,0.112
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,84.1,0.089
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,75.5,0.080
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,71.4,0.075
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt overload,spell,57.4,0.060
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,56.6,0.060
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,34.1,0.036
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,33.4,0.035
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,17.2,0.018
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,16.4,0.017
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,391.5,0.420
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,104.2,0.112
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,83.1,0.089
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,74.2,0.080
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,72.5,0.078
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt overload,spell,56.4,0.060
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,56.0,0.060
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,31.7,0.034
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,30.9,0.033
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,16.9,0.018
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,15.7,0.017
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,358.6,0.402
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,92.4,0.104
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,87.6,0.098
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,79.9,0.090
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,68.2,0.077
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,57.9,0.065
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt overload,spell,51.6,0.058
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,31.8,0.036
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,28.7,0.032
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,18.7,0.021
+"100%, 8 s (hotfix)",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,16.6,0.019
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,325.1,0.305
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,230.5,0.216
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,142.2,0.134
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,96.6,0.091
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,91.1,0.085
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,65.6,0.062
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,39.6,0.037
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,32.3,0.030
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,22.6,0.021
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,19.6,0.018
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,322.5,0.304
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,228.2,0.215
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,142.1,0.134
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,98.4,0.093
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,91.5,0.086
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,65.1,0.061
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,38.9,0.037
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,30.5,0.029
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,23.9,0.022
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,19.4,0.018
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,319.9,0.303
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,226.2,0.214
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,140.7,0.133
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,99.5,0.094
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,91.7,0.087
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,64.9,0.062
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,38.7,0.037
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,29.9,0.028
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,24.3,0.023
+"100%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,19.3,0.018
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,293.2,0.297
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,197.6,0.200
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,129.1,0.131
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,116.8,0.118
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,79.1,0.080
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,56.5,0.057
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,50.1,0.051
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,24.6,0.025
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,23.2,0.023
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,17.5,0.018
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,289.5,0.295
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,194.6,0.198
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,129.3,0.132
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,116.0,0.118
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,79.6,0.081
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,55.7,0.057
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,50.2,0.051
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,26.0,0.027
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,22.7,0.023
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,17.1,0.017
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,286.9,0.294
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,192.5,0.197
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,128.3,0.132
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,116.4,0.119
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,79.8,0.082
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,55.2,0.057
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,50.4,0.052
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,26.4,0.027
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,22.4,0.023
+"100%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,17.0,0.017
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,395.4,0.399
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,106.5,0.107
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,89.4,0.090
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,85.0,0.086
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,84.5,0.085
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,78.1,0.079
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt overload,spell,59.8,0.060
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,37.6,0.038
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,18.9,0.019
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,18.6,0.019
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,17.6,0.018
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,383.8,0.398
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,105.3,0.109
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,89.2,0.093
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,85.3,0.089
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,84.5,0.088
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,79.6,0.083
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt overload,spell,57.7,0.060
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,34.0,0.035
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,18.3,0.019
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,17.2,0.018
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,8.8,0.009
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,344.8,0.378
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,96.7,0.106
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,94.5,0.104
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,83.9,0.092
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,83.4,0.091
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,70.9,0.078
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt overload,spell,51.5,0.056
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,30.0,0.033
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,19.2,0.021
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,19.1,0.021
+"100%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,18.1,0.020
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,323.5,0.308
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,216.2,0.206
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,158.1,0.151
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,89.4,0.085
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,84.4,0.080
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,65.7,0.063
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,38.9,0.037
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,31.6,0.030
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,22.6,0.022
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,18.9,0.018
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,320.1,0.308
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,213.1,0.205
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,153.6,0.148
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,89.3,0.086
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,85.0,0.082
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,64.8,0.062
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,39.4,0.038
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,30.8,0.030
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,23.5,0.023
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,18.4,0.018
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,317.4,0.307
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,211.6,0.205
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,152.5,0.148
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,89.1,0.086
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,85.2,0.082
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,64.3,0.062
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,39.6,0.038
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,30.5,0.030
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,24.1,0.023
+"150%, 8 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,18.3,0.018
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,291.1,0.292
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,185.8,0.187
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,144.8,0.145
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,130.2,0.131
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,73.3,0.074
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,56.1,0.056
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,50.3,0.050
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,24.5,0.025
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,23.5,0.024
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,16.6,0.017
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,287.4,0.291
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,182.5,0.185
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,144.3,0.146
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,129.2,0.131
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,73.7,0.075
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,55.2,0.056
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,50.6,0.051
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,25.9,0.026
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,23.0,0.023
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,16.3,0.017
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,284.9,0.290
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,181.1,0.184
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,142.9,0.145
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,129.3,0.132
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,74.0,0.075
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,54.9,0.056
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,50.7,0.052
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,26.3,0.027
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,22.6,0.023
+"150%, 8 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,16.1,0.016
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,397.3,0.407
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,106.1,0.109
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,84.5,0.086
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,84.1,0.086
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,75.5,0.077
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,71.4,0.073
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt overload,spell,57.4,0.059
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,34.1,0.035
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,33.4,0.034
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,17.2,0.018
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,16.4,0.017
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,391.5,0.407
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,104.2,0.108
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,83.6,0.087
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,83.1,0.086
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,74.2,0.077
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,72.5,0.075
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt overload,spell,56.4,0.059
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,31.7,0.033
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,30.9,0.032
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,16.9,0.018
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,15.7,0.016
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,358.6,0.390
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,92.4,0.100
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,87.6,0.095
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,86.4,0.094
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,79.9,0.087
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,68.2,0.074
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt overload,spell,51.6,0.056
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,31.8,0.034
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,28.7,0.031
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,18.7,0.020
+"150%, 8 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,16.6,0.018
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,325.1,0.286
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,230.5,0.203
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,212.5,0.187
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,96.6,0.085
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,91.1,0.080
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,65.6,0.058
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,39.6,0.035
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,32.3,0.028
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,22.6,0.020
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,19.6,0.017
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,322.5,0.285
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,228.2,0.202
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,212.2,0.188
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,98.4,0.087
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,91.5,0.081
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,65.1,0.058
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,38.9,0.034
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,30.5,0.027
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,23.9,0.021
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,19.4,0.017
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,319.9,0.284
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,226.2,0.201
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,210.2,0.187
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,99.5,0.088
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,91.7,0.082
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,64.9,0.058
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,38.7,0.034
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,29.9,0.027
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,24.3,0.022
+"150%, 6 s",8/36/7 free instants,testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,19.3,0.017
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,293.2,0.279
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,197.6,0.188
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,192.9,0.183
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,116.8,0.111
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,79.1,0.075
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,56.5,0.054
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,50.1,0.048
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,24.6,0.023
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,23.2,0.022
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,17.5,0.017
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,289.5,0.277
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,194.6,0.186
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,193.2,0.185
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,116.0,0.111
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,79.6,0.076
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,55.7,0.053
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,50.2,0.048
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,26.0,0.025
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,22.7,0.022
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,17.1,0.016
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,286.9,0.276
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,192.5,0.185
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,191.6,0.184
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,116.4,0.112
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,79.8,0.077
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,55.2,0.053
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,50.4,0.049
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,26.4,0.025
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,22.4,0.022
+"150%, 6 s","Enh preset 19/32/0 talents, free instants",testdata/forever-enh-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,17.0,0.016
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt,spell,395.4,0.383
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Stormstrike (weapon strike),physical,126.1,0.122
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Earth Shock,spell,106.5,0.103
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Windfury Attack,physical,89.4,0.087
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Melee swing,physical,85.0,0.082
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (ticks),spell,78.1,0.076
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Lightning Bolt overload,spell,59.8,0.058
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Flame Shock (hit),spell,37.6,0.036
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Searing Totem,spell,18.9,0.018
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,Dragonbreath Chili,spell,18.6,0.018
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,120,150,on,o3/10610,physical,17.6,0.017
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt,spell,383.8,0.382
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Stormstrike (weapon strike),physical,126.1,0.125
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Earth Shock,spell,105.3,0.105
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Windfury Attack,physical,89.2,0.089
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Melee swing,physical,85.3,0.085
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (ticks),spell,79.6,0.079
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Lightning Bolt overload,spell,57.7,0.057
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Flame Shock (hit),spell,34.0,0.034
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Dragonbreath Chili,spell,18.3,0.018
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,o3/10610,physical,17.2,0.017
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,300,150,on,Searing Totem,spell,8.8,0.009
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt,spell,344.8,0.362
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Stormstrike (weapon strike),physical,124.5,0.131
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Melee swing,physical,96.7,0.101
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Windfury Attack,physical,94.5,0.099
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Earth Shock,spell,83.9,0.088
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (ticks),spell,70.9,0.074
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Lightning Bolt overload,spell,51.5,0.054
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Flame Shock (hit),spell,30.0,0.031
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,o3/10610,physical,19.2,0.020
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Dragonbreath Chili,spell,19.1,0.020
+"150%, 6 s",29/22 AK3 bolt-chain,testdata/forever-hyb-bis-fullbuffs.gear.json,false,600,150,on,Searing Totem,spell,18.1,0.019

@@ -1,12 +1,14 @@
 package spellhance
 
 import (
+	"encoding/json"
 	"fmt"
 	"os"
 	"path/filepath"
 	"testing"
 	"time"
 
+	"github.com/wowsims/forever/sim/core/proto"
 	"github.com/wowsims/forever/sim/shaman"
 )
 
@@ -322,4 +324,85 @@ func TestNov10Final(t *testing.T) {
 		add(b, gear, "own", 3, short)
 	}
 	runMatrix(t, runs, filepath.Join(out, "3"))
+}
+
+// TestNov10Stormstrike prices the hotfix's two Stormstrike changes one at a time: the 8 s cooldown and the cut to
+// 100% weapon damage, each put back to its 2 November value with the rest of the hotfix in place, on the BiS sets
+// with Windfury Totem. It writes one folder per Stormstrike under $SPELLHANCE_NOV10_SS_OUT: hotfix (100%, 8 s),
+// 6s-100, 8s-150 and 6s-150.
+func TestNov10Stormstrike(t *testing.T) {
+	out := os.Getenv("SPELLHANCE_NOV10_SS_OUT")
+	if out == "" {
+		t.Skip("set SPELLHANCE_NOV10_SS_OUT to run the comparison")
+	}
+	iterations := matrixIterations(t)
+	shaman.SetNov10Hotfix(true)
+	defer shaman.SetNov10Hotfix(false)
+	chain := build{"29/22 AK3 bolt-chain", weave2922AK.Talents, "apls/chain.apl.json", false}
+	rows := []struct {
+		b    build
+		gear string
+	}{{free8367, foreverBisGear()}, {freeEnhPreset, foreverBisGear()}, {chain, foreverHybBisGear()}}
+	for _, s := range []struct {
+		dir                    string
+		sixSeconds, percent150 bool
+	}{{"hotfix", false, false}, {"6s-100", true, false}, {"8s-150", false, true}, {"6s-150", true, true}} {
+		shaman.SetNov2Change("Stormstrike 6 s cooldown", s.sixSeconds)
+		shaman.SetNov2Change("Stormstrike 150% weapon damage", s.percent150)
+		var runs []run
+		for _, row := range rows {
+			for _, d := range []time.Duration{2 * time.Minute, 5 * time.Minute, 10 * time.Minute} {
+				runs = append(runs, run{Build: row.b, Gear: row.gear, Duration: d, ReactionMs: 150, Iterations: iterations, Seed: 7, Air: "own"})
+			}
+		}
+		runMatrix(t, runs, filepath.Join(out, s.dir))
+	}
+}
+
+// TestNov10Weapons asks whether 29/22 still wants its slow caster mace under the hotfix: its BiS set with only the
+// main hand swapped, each two-hander keeping the set's caster enchant (8211), both rotations, Windfury Totem. It
+// writes results.csv and sources.csv to $SPELLHANCE_NOV10_WEAPONS_OUT.
+func TestNov10Weapons(t *testing.T) {
+	out := os.Getenv("SPELLHANCE_NOV10_WEAPONS_OUT")
+	if out == "" {
+		t.Skip("set SPELLHANCE_NOV10_WEAPONS_OUT to run the comparison")
+	}
+	iterations := matrixIterations(t)
+	shaman.SetNov10Hotfix(true)
+	defer shaman.SetNov10Hotfix(false)
+	var base proto.EquipmentSpec
+	if err := json.Unmarshal([]byte(readFile(foreverHybBisGear())), &base); err != nil {
+		t.Fatal(err)
+	}
+	weapons := []struct {
+		id   int32
+		name string
+	}{
+		{23455, "Grand Marshal's Demolisher"}, {18873, "Grand Marshal's Stave"}, {18842, "Staff of Dominance"},
+		{17113, "Amberseal Keeper"}, {18803, "Hyperthermically Insulated Lava Dredger"},
+		{17182, "Sulfuras, Hand of Ragnaros"}, {17104, "Spinal Reaper"},
+	}
+	dir := t.TempDir()
+	var runs []run
+	for _, w := range weapons {
+		items := make([]*proto.ItemSpec, len(base.Items))
+		for i, it := range base.Items {
+			items[i] = &proto.ItemSpec{Id: it.Id, Enchant: it.Enchant, RandomSuffix: it.RandomSuffix}
+		}
+		items[proto.ItemSlot_ItemSlotMainHand] = &proto.ItemSpec{Id: w.id, Enchant: 8211}
+		raw, _ := json.Marshal(&proto.EquipmentSpec{Items: items})
+		gear := filepath.Join(dir, fmt.Sprintf("%d.gear.json", w.id))
+		if err := os.WriteFile(gear, raw, 0o644); err != nil {
+			t.Fatal(err)
+		}
+		for _, b := range []build{
+			{"29/22 AK3 bolt-chain [" + w.name + "]", weave2922AK.Talents, "apls/chain.apl.json", false},
+			{"29/22 AK3 weave [" + w.name + "]", weave2922AK.Talents, "apls/weave.apl.json", false},
+		} {
+			for _, d := range []time.Duration{2 * time.Minute, 5 * time.Minute, 10 * time.Minute} {
+				runs = append(runs, run{Build: b, Gear: gear, Duration: d, ReactionMs: 150, Iterations: iterations, Seed: 7, Air: "own"})
+			}
+		}
+	}
+	runMatrix(t, runs, out)
 }
