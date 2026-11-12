@@ -118,6 +118,8 @@ type run struct {
 	Air string
 	// Targets in the encounter; one unless set.
 	Targets int
+	// Extra stats on top of the gear, for stat weights.
+	Bonus stats.Stats
 }
 
 func (r run) request() *proto.RaidSimRequest {
@@ -208,6 +210,13 @@ func (r run) request() *proto.RaidSimRequest {
 	}
 	if fullBuffs() {
 		partyBuffs, raidBuffs, debuffs = applyFullBuffs(b, player)
+	}
+	if r.Bonus != (stats.Stats{}) {
+		bonus := r.Bonus
+		if player.BonusStats != nil {
+			bonus = bonus.Add(stats.FromProtoArray(player.BonusStats.Stats))
+		}
+		player.BonusStats = &proto.UnitStats{Stats: bonus.ToProtoArray()}
 	}
 	if r.Air == "party" {
 		partyBuffs.WindfuryTotem = true
