@@ -1,0 +1,145 @@
+buffs,build,duration_s,base_dps,stat,bump,dps,dps_per_point
+full,29/22 AK3 bolt-chain,120,949.2,Intellect,50,967.5,0.366
+full,29/22 AK3 bolt-chain,120,949.2,Spell power,50,971.9,0.454
+full,29/22 AK3 bolt-chain,120,949.2,Crit rating (melee and spell),28,963.5,0.512
+full,29/22 AK3 bolt-chain,120,949.2,Spell crit rating alone,28,959.7,0.376
+full,29/22 AK3 bolt-chain,120,949.2,Hit rating (melee and spell),20,964.7,0.773
+full,29/22 AK3 bolt-chain,120,949.2,Spell hit rating alone,20,964.7,0.773
+full,29/22 AK3 bolt-chain,120,949.2,Haste rating (melee and spell),20,900.5,-2.436
+full,29/22 AK3 bolt-chain,120,949.2,Strength,50,958.6,0.188
+full,29/22 AK3 bolt-chain,120,949.2,Agility,50,954.4,0.104
+full,29/22 AK3 bolt-chain,120,949.2,Attack power,100,957.7,0.086
+full,29/22 AK3 bolt-chain,120,949.2,Mana per 5,20,948.9,-0.017
+full,29/22 AK3 bolt-chain,120,949.2,Spell piercing,20,989.4,2.010
+full,29/22 AK3 bolt-chain,300,933.6,Intellect,50,952.8,0.383
+full,29/22 AK3 bolt-chain,300,933.6,Spell power,50,956.0,0.447
+full,29/22 AK3 bolt-chain,300,933.6,Crit rating (melee and spell),28,948.2,0.520
+full,29/22 AK3 bolt-chain,300,933.6,Spell crit rating alone,28,944.0,0.369
+full,29/22 AK3 bolt-chain,300,933.6,Hit rating (melee and spell),20,948.5,0.744
+full,29/22 AK3 bolt-chain,300,933.6,Spell hit rating alone,20,948.5,0.744
+full,29/22 AK3 bolt-chain,300,933.6,Haste rating (melee and spell),20,893.1,-2.028
+full,29/22 AK3 bolt-chain,300,933.6,Strength,50,943.0,0.186
+full,29/22 AK3 bolt-chain,300,933.6,Agility,50,939.4,0.116
+full,29/22 AK3 bolt-chain,300,933.6,Attack power,100,942.1,0.085
+full,29/22 AK3 bolt-chain,300,933.6,Mana per 5,20,934.4,0.040
+full,29/22 AK3 bolt-chain,300,933.6,Spell piercing,20,973.7,2.001
+full,29/22 AK3 bolt-chain,600,892.7,Intellect,50,917.7,0.500
+full,29/22 AK3 bolt-chain,600,892.7,Spell power,50,913.3,0.411
+full,29/22 AK3 bolt-chain,600,892.7,Crit rating (melee and spell),28,907.3,0.518
+full,29/22 AK3 bolt-chain,600,892.7,Spell crit rating alone,28,902.5,0.349
+full,29/22 AK3 bolt-chain,600,892.7,Hit rating (melee and spell),20,907.5,0.737
+full,29/22 AK3 bolt-chain,600,892.7,Spell hit rating alone,20,907.5,0.737
+full,29/22 AK3 bolt-chain,600,892.7,Haste rating (melee and spell),20,877.8,-0.746
+full,29/22 AK3 bolt-chain,600,892.7,Strength,50,902.8,0.201
+full,29/22 AK3 bolt-chain,600,892.7,Agility,50,899.7,0.138
+full,29/22 AK3 bolt-chain,600,892.7,Attack power,100,901.9,0.091
+full,29/22 AK3 bolt-chain,600,892.7,Mana per 5,20,908.8,0.804
+full,29/22 AK3 bolt-chain,600,892.7,Spell piercing,20,929.4,1.832
+full,29/22 AK3 weave,120,870.4,Intellect,50,887.8,0.348
+full,29/22 AK3 weave,120,870.4,Spell power,50,888.2,0.356
+full,29/22 AK3 weave,120,870.4,Crit rating (melee and spell),28,884.8,0.512
+full,29/22 AK3 weave,120,870.4,Spell crit rating alone,28,879.1,0.311
+full,29/22 AK3 weave,120,870.4,Hit rating (melee and spell),20,882.8,0.619
+full,29/22 AK3 weave,120,870.4,Spell hit rating alone,20,882.8,0.619
+full,29/22 AK3 weave,120,870.4,Haste rating (melee and spell),20,877.6,0.357
+full,29/22 AK3 weave,120,870.4,Strength,50,882.7,0.246
+full,29/22 AK3 weave,120,870.4,Agility,50,878.8,0.167
+full,29/22 AK3 weave,120,870.4,Attack power,100,881.6,0.112
+full,29/22 AK3 weave,120,870.4,Mana per 5,20,871.0,0.027
+full,29/22 AK3 weave,120,870.4,Spell piercing,20,902.1,1.584
+full,29/22 AK3 weave,300,853.7,Intellect,50,870.6,0.338
+full,29/22 AK3 weave,300,853.7,Spell power,50,871.1,0.349
+full,29/22 AK3 weave,300,853.7,Crit rating (melee and spell),28,867.1,0.481
+full,29/22 AK3 weave,300,853.7,Spell crit rating alone,28,862.0,0.299
+full,29/22 AK3 weave,300,853.7,Hit rating (melee and spell),20,865.2,0.577
+full,29/22 AK3 weave,300,853.7,Spell hit rating alone,20,865.2,0.577
+full,29/22 AK3 weave,300,853.7,Haste rating (melee and spell),20,865.7,0.604
+full,29/22 AK3 weave,300,853.7,Strength,50,865.8,0.243
+full,29/22 AK3 weave,300,853.7,Agility,50,861.4,0.155
+full,29/22 AK3 weave,300,853.7,Attack power,100,864.7,0.110
+full,29/22 AK3 weave,300,853.7,Mana per 5,20,853.1,-0.028
+full,29/22 AK3 weave,300,853.7,Spell piercing,20,885.2,1.574
+full,29/22 AK3 weave,600,852.6,Intellect,50,869.6,0.340
+full,29/22 AK3 weave,600,852.6,Spell power,50,870.1,0.349
+full,29/22 AK3 weave,600,852.6,Crit rating (melee and spell),28,866.5,0.494
+full,29/22 AK3 weave,600,852.6,Spell crit rating alone,28,861.0,0.300
+full,29/22 AK3 weave,600,852.6,Hit rating (melee and spell),20,864.0,0.567
+full,29/22 AK3 weave,600,852.6,Spell hit rating alone,20,864.0,0.567
+full,29/22 AK3 weave,600,852.6,Haste rating (melee and spell),20,867.3,0.734
+full,29/22 AK3 weave,600,852.6,Strength,50,864.7,0.242
+full,29/22 AK3 weave,600,852.6,Agility,50,860.1,0.149
+full,29/22 AK3 weave,600,852.6,Attack power,100,863.6,0.110
+full,29/22 AK3 weave,600,852.6,Mana per 5,20,852.4,-0.010
+full,29/22 AK3 weave,600,852.6,Spell piercing,20,884.1,1.575
+light,29/22 AK3 bolt-chain,120,880.6,Intellect,50,902.3,0.435
+light,29/22 AK3 bolt-chain,120,880.6,Spell power,50,901.9,0.426
+light,29/22 AK3 bolt-chain,120,880.6,Crit rating (melee and spell),28,894.6,0.499
+light,29/22 AK3 bolt-chain,120,880.6,Spell crit rating alone,28,890.8,0.365
+light,29/22 AK3 bolt-chain,120,880.6,Hit rating (melee and spell),20,903.1,1.128
+light,29/22 AK3 bolt-chain,120,880.6,Spell hit rating alone,20,895.3,0.736
+light,29/22 AK3 bolt-chain,120,880.6,Haste rating (melee and spell),20,880.3,-0.015
+light,29/22 AK3 bolt-chain,120,880.6,Strength,50,889.0,0.168
+light,29/22 AK3 bolt-chain,120,880.6,Agility,50,885.4,0.096
+light,29/22 AK3 bolt-chain,120,880.6,Attack power,100,889.0,0.084
+light,29/22 AK3 bolt-chain,120,880.6,Mana per 5,20,885.9,0.263
+light,29/22 AK3 bolt-chain,120,880.6,Spell piercing,20,917.9,1.867
+light,29/22 AK3 bolt-chain,300,736.4,Intellect,50,762.4,0.519
+light,29/22 AK3 bolt-chain,300,736.4,Spell power,50,752.0,0.312
+light,29/22 AK3 bolt-chain,300,736.4,Crit rating (melee and spell),28,749.8,0.479
+light,29/22 AK3 bolt-chain,300,736.4,Spell crit rating alone,28,744.0,0.269
+light,29/22 AK3 bolt-chain,300,736.4,Hit rating (melee and spell),20,755.8,0.967
+light,29/22 AK3 bolt-chain,300,736.4,Spell hit rating alone,20,746.6,0.510
+light,29/22 AK3 bolt-chain,300,736.4,Haste rating (melee and spell),20,736.9,0.025
+light,29/22 AK3 bolt-chain,300,736.4,Strength,50,746.4,0.199
+light,29/22 AK3 bolt-chain,300,736.4,Agility,50,743.8,0.148
+light,29/22 AK3 bolt-chain,300,736.4,Attack power,100,746.4,0.099
+light,29/22 AK3 bolt-chain,300,736.4,Mana per 5,20,756.1,0.984
+light,29/22 AK3 bolt-chain,300,736.4,Spell piercing,20,764.2,1.387
+light,29/22 AK3 bolt-chain,600,649.0,Intellect,50,667.9,0.378
+light,29/22 AK3 bolt-chain,600,649.0,Spell power,50,661.2,0.245
+light,29/22 AK3 bolt-chain,600,649.0,Crit rating (melee and spell),28,661.5,0.447
+light,29/22 AK3 bolt-chain,600,649.0,Spell crit rating alone,28,655.0,0.215
+light,29/22 AK3 bolt-chain,600,649.0,Hit rating (melee and spell),20,667.1,0.907
+light,29/22 AK3 bolt-chain,600,649.0,Spell hit rating alone,20,657.4,0.422
+light,29/22 AK3 bolt-chain,600,649.0,Haste rating (melee and spell),20,650.9,0.095
+light,29/22 AK3 bolt-chain,600,649.0,Strength,50,659.8,0.215
+light,29/22 AK3 bolt-chain,600,649.0,Agility,50,657.5,0.169
+light,29/22 AK3 bolt-chain,600,649.0,Attack power,100,659.8,0.108
+light,29/22 AK3 bolt-chain,600,649.0,Mana per 5,20,676.7,1.385
+light,29/22 AK3 bolt-chain,600,649.0,Spell piercing,20,670.6,1.078
+light,29/22 AK3 weave,120,801.8,Intellect,50,816.6,0.296
+light,29/22 AK3 weave,120,801.8,Spell power,50,818.7,0.337
+light,29/22 AK3 weave,120,801.8,Crit rating (melee and spell),28,815.4,0.484
+light,29/22 AK3 weave,120,801.8,Spell crit rating alone,28,810.1,0.296
+light,29/22 AK3 weave,120,801.8,Hit rating (melee and spell),20,822.9,1.057
+light,29/22 AK3 weave,120,801.8,Spell hit rating alone,20,813.4,0.578
+light,29/22 AK3 weave,120,801.8,Haste rating (melee and spell),20,811.5,0.483
+light,29/22 AK3 weave,120,801.8,Strength,50,812.3,0.210
+light,29/22 AK3 weave,120,801.8,Agility,50,808.0,0.124
+light,29/22 AK3 weave,120,801.8,Attack power,100,812.3,0.105
+light,29/22 AK3 weave,120,801.8,Mana per 5,20,802.8,0.049
+light,29/22 AK3 weave,120,801.8,Spell piercing,20,831.6,1.492
+light,29/22 AK3 weave,300,737.1,Intellect,50,765.3,0.565
+light,29/22 AK3 weave,300,737.1,Spell power,50,751.6,0.291
+light,29/22 AK3 weave,300,737.1,Crit rating (melee and spell),28,750.5,0.482
+light,29/22 AK3 weave,300,737.1,Spell crit rating alone,28,744.2,0.255
+light,29/22 AK3 weave,300,737.1,Hit rating (melee and spell),20,756.5,0.972
+light,29/22 AK3 weave,300,737.1,Spell hit rating alone,20,747.2,0.510
+light,29/22 AK3 weave,300,737.1,Haste rating (melee and spell),20,740.4,0.167
+light,29/22 AK3 weave,300,737.1,Strength,50,748.0,0.218
+light,29/22 AK3 weave,300,737.1,Agility,50,744.8,0.154
+light,29/22 AK3 weave,300,737.1,Attack power,100,748.0,0.109
+light,29/22 AK3 weave,300,737.1,Mana per 5,20,753.8,0.835
+light,29/22 AK3 weave,300,737.1,Spell piercing,20,763.0,1.298
+light,29/22 AK3 weave,600,666.0,Intellect,50,686.0,0.399
+light,29/22 AK3 weave,600,666.0,Spell power,50,677.8,0.236
+light,29/22 AK3 weave,600,666.0,Crit rating (melee and spell),28,678.9,0.461
+light,29/22 AK3 weave,600,666.0,Spell crit rating alone,28,671.7,0.204
+light,29/22 AK3 weave,600,666.0,Hit rating (melee and spell),20,684.1,0.907
+light,29/22 AK3 weave,600,666.0,Spell hit rating alone,20,674.1,0.406
+light,29/22 AK3 weave,600,666.0,Haste rating (melee and spell),20,668.6,0.130
+light,29/22 AK3 weave,600,666.0,Strength,50,677.6,0.232
+light,29/22 AK3 weave,600,666.0,Agility,50,674.9,0.179
+light,29/22 AK3 weave,600,666.0,Attack power,100,677.6,0.116
+light,29/22 AK3 weave,600,666.0,Mana per 5,20,691.3,1.264
+light,29/22 AK3 weave,600,666.0,Spell piercing,20,687.0,1.048

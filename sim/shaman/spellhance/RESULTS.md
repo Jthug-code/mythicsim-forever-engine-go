@@ -112,6 +112,25 @@ main hand swapped, each two-hander with the caster enchant (8211). Full raid, Wi
 - **Without the PvP mace, every weapon here is within 2% at its better rotation** (857-874 at 5 minutes), and the
   staves are level with the maces and the axe. The rotations weren't retuned per weapon.
 
+**Stat weights for 29/22 under the hotfix** (`nov10-weights.csv`, `TestNov10Weights`, 10,000 iterations): DPS gained
+per point from one bump of each stat on the 29/22 BiS set, bolt-chain, 5 minutes, as a multiple of a point of spell
+power. Gear hit and crit count for melee and spells alike.
+
+| Stat | Full raid | Lighter |
+|---|---|---|
+| Spell Piercing | 4.5 | 4.4 |
+| Hit rating | 1.7 (melee hit is capped in this set) | 3.1 |
+| Crit rating | 1.2 | 1.5 |
+| Spell power | 1.0 | 1.0 |
+| Intellect | 0.9 (1.2 at 10 minutes) | 1.7 |
+| Mana per 5 | 0.1 | 3.2 |
+| Strength | 0.4 | 0.6 |
+| Agility | 0.25 | 0.5 |
+| Attack power | 0.2 | 0.3 |
+
+Haste reads negative for bolt-chain in a full raid (-4.5): the chain rotation's timing conditions lose casts to a faster
+swing, so it is a fault of the rotation, not a weight. The weave gives it 1.7. The set was searched before the hotfix.
+
 **Correction, same day: the melee rotations were holding instants back.** `melee_maelstrom` presses an instant only
 when its GCD ends before the next swing, the weave light's rule. With no hard cast to protect, that only wastes GCDs
 (Earth Shock 3.5 a minute instead of 5.1). `melee_free` presses instants whenever the GCD is free, and the 5-stack bolt
